@@ -34,7 +34,7 @@
 ## ✨ Core Features
 
 - **🧠 Deep-Dive Epistemology:** Leverages **Google Gemini (2.5 Flash)** to generate highly structured, 20-35 minute long thesis-quality reading sessions every day mapping complex technological landscapes.
-- **📂 Auto-Archiving System:** Automatically captures the thousands of words generated, parses dynamic markdown names, and securely saves the document into the `/articles` database.
+- **📂 Auto-Archiving System:** Automatically captures the thousands of words generated, parses dynamic markdown names, and securely saves the document into the `/articles` directory.
 - **💸 100% Free Architecture:** Replaced legacy metered endpoints with Gemini's generous free tier, assuring massive token executions at zero cost.
 - **⏱️ Automated Cadence:** Powered by a robust **GitHub Actions** cron scheduler configured natively for UTC 14:00 (10 AM EST).
 - **🛠️ Offline Fallback:** Fully operational local simulation framework to test behaviors, filesystem hooks, and outputs securely.
