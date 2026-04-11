@@ -82,7 +82,7 @@ To preview the formatting and execute the pipeline safely without using real API
 pnpm run local
 ```
 
-This bypasses Gemini, instead printing a mock thesis response locally to your console and actively dumping a realistic `.md` file onto your local filesystem array.
+This bypasses Gemini, instead printing a mock thesis response to your local console and writing a realistic `.md` file to disk in the `articles/` directory.
 </details>
 
 ---
