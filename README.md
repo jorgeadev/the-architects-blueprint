@@ -68,7 +68,7 @@ To run the production pipeline locally, ensure you define the following secrets 
 
 ```env
 # You only need a free key from Google AI Studio.
-GEMINI_API_KEY=AIzaSy...
+GEMINI_API_KEY=your_key_here
 ```
 </details>
 
