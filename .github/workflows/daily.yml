@@ -43,7 +43,7 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          if [[ -z $(git status -s articles/) ]]; then
+          if [[ -z $(git status -s articles/ config/topics.json) ]]; then
             echo "No changes to commit"
             exit 0
           fi
@@ -52,8 +52,8 @@ jobs:
           echo "BRANCH_NAME=$BRANCH_NAME" >> $GITHUB_ENV
           git checkout -b $BRANCH_NAME
 
-          git add articles/
-          git commit -m "docs: auto-generate daily learning thesis [skip ci]"
+          git add articles/ config/topics.json
+          git commit -m "docs: auto-generate daily learning thesis and update topics pool [skip ci]"
           git push -u origin $BRANCH_NAME
 
           # Create PR

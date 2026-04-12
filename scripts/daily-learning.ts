@@ -11,31 +11,31 @@ if (!GEMINI_API_KEY) {
 }
 
 const genAI = new GoogleGenerativeAI(GEMINI_API_KEY);
+const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
 
-async function generateContent(): Promise<string> {
+async function loadTopics(): Promise<{ topics: string[], configPath: string }> {
+    const configPath = path.join(process.cwd(), 'config', 'topics.json');
+    let topics = ["The engineering behind Twitter/X: transitioning from a monolith to microservices and how they handle viral hype spikes."];
+    if (fs.existsSync(configPath)) {
+        try {
+            const configContent = fs.readFileSync(configPath, 'utf8');
+            const parsedConfig = JSON.parse(configContent);
+            if (Array.isArray(parsedConfig.topics) && parsedConfig.topics.length > 0) {
+                topics = parsedConfig.topics;
+            }
+        } catch (e) {
+            console.error("Failed to parse topics.json", e);
+        }
+    }
+    return { topics, configPath };
+}
+
+async function generateWithRetry(prompt: string): Promise<string> {
     const maxRetries = 5;
     let baseDelay = 10000;
-    
-    // gemini-2.5-flash is extremely fast, free-tier eligible, and supports massive outputs 
-    const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
-
-    const prompt = `
-Write a complete and highly professional thesis on a topic related to distributed systems, backend architectures, or modern infrastructure. 
-The content must be extraordinarily detailed, meticulously researched, and provide enough depth to take approximately 20 to 35 minutes to read (around 4000 to 6000 words).
-Structure the thesis professionally with:
-- An Abstract / Executive Summary
-- In-depth Introductions and Historical Context
-- Core Architectural Principles
-- Detailed Trade-offs, Benchmarks, and Case Studies
-- Advanced Best Practices and Future Trends
-- A Strong Conclusion
-
-Do not generate a short summary. Generate the full, rigorous paper. Use markdown formatting. Include a standard # Title at the very top.
-`;
 
     for (let attempt = 1; attempt <= maxRetries; attempt++) {
         try {
-            console.log(`Generating thesis using Google Gemini... (Attempt ${attempt}/${maxRetries})`);
             const result = await model.generateContent(prompt);
             return result.response.text();
         } catch (e: any) {
@@ -44,12 +44,12 @@ Do not generate a short summary. Generate the full, rigorous paper. Use markdown
                 console.error("Max retries reached. Failing.");
                 return Promise.reject(e);
             }
-            
+
             const errMsg = e.message || String(e);
             if (e.status === 503 || e.status === 429 || errMsg.includes('503') || errMsg.includes('429') || errMsg.includes('high demand')) {
                 console.log(`Service unavailable or rate limited. Retrying in ${baseDelay / 1000} seconds...`);
                 await new Promise(resolve => setTimeout(resolve, baseDelay));
-                baseDelay *= 2; // Exponential backoff
+                baseDelay *= 2;
             } else {
                 return Promise.reject(e);
             }
@@ -58,34 +58,82 @@ Do not generate a short summary. Generate the full, rigorous paper. Use markdown
     return Promise.reject(new Error("Failed to generate content"));
 }
 
+async function generateContent(randomTopic: string): Promise<string> {
+    const prompt = `
+Write an incredibly engaging, highly technical, and conversational blog post about the following topic: 
+"${randomTopic}"
+
+Requirements for the blog post:
+- It should feel like a premium engineering blog post (similar to those by Cloudflare, Uber Engineering, or Netflix TechBlog).
+- Use a catchy, attention-grabbing # Title at the very top.
+- Include a brief hook or introduction that pulls the reader in immediately.
+- Dive deep into the technical architecture, infrastructure details, compute scale, or engineering curiosities relevant to the topic.
+- If the topic involves recent tech news or hype, narrate the context of the hype, why it gained attention, and the actual technical substance behind it.
+- Use clear headings, bullet points, code snippets (if applicable), and bold text for emphasis to make it highly readable and scannable.
+- Maintain an enthusiastic and expert tone.
+- Do not use academic terms like "Abstract", "Conclusion", or "Thesis statement".
+- Write an extensive, deep-dive article (around 2000 to 3500 words) that provides profound insights, not a superficial summary. Use markdown formatting.
+`;
+
+    console.log(`Generating blog post using Google Gemini...`);
+    return await generateWithRetry(prompt);
+}
+
+async function generateNewTopics(): Promise<string[]> {
+    const prompt = `
+Generate exactly 3 brand new, highly technical blog post topics about big tech infrastructure, massive scale systems architecture, or viral engineering news.
+DO NOT output any markdown formatting, text, or explanations. 
+Output ONLY a raw JSON array of 3 strings. Example format:
+[
+  "The architecture behind...",
+  "An in-depth analysis of...",
+  "How [Company] scaled..."
+]
+`;
+
+    console.log("Generating 3 new topics to replenish the pool...");
+    const text = await generateWithRetry(prompt);
+
+    try {
+        const start = text.indexOf('[');
+        const end = text.lastIndexOf(']');
+        if (start !== -1 && end !== -1) {
+            const jsonText = text.substring(start, end + 1);
+            const parsed = JSON.parse(jsonText);
+            if (Array.isArray(parsed) && parsed.length === 3) {
+                return parsed;
+            }
+        }
+    } catch (e) {
+        console.error("Failed to parse the new topics output:", text);
+    }
+    return [];
+}
+
 function saveToDisk(content: string) {
     const rootDir = process.cwd();
     const articlesDir = path.join(rootDir, 'articles');
-    
+
     if (!fs.existsSync(articlesDir)) {
         fs.mkdirSync(articlesDir, { recursive: true });
     }
 
-    // Extract title or fallback to date
-    let titleSlug = new Date().toISOString().split('T')[0]; // fallback YYYY-MM-DD
+    let titleSlug = new Date().toISOString().split('T')[0];
     const titleMatch = content.match(/^#\s+(.+)$/m);
-    
+
     if (titleMatch && titleMatch[1]) {
-        // clean up the title to be file-system friendly
         const cleanTitle = titleMatch[1]
             .toLowerCase()
             .replace(/[^a-z0-9]+/g, '-')
             .replace(/(^-|-$)/g, '');
-        
-        // e.g "2023-10-01-the-architecture-of-raft.md"
+
         titleSlug = `${titleSlug}-${cleanTitle}`;
     }
 
-    // Restrict filename length
     if (titleSlug.length > 60) {
         titleSlug = titleSlug.substring(0, 60);
     }
-    
+
     const fileName = `${titleSlug}.md`;
     const filePath = path.join(articlesDir, fileName);
 
@@ -95,17 +143,27 @@ function saveToDisk(content: string) {
 
 async function run() {
     try {
-        const content = await generateContent();
-        
-        // Print a preview to the console logs natively
-        console.log("=========================================");
-        console.log("           THESIS PREVIEW                ");
-        console.log("=========================================\n");
+        const { topics, configPath } = await loadTopics();
+        const randomIndex = Math.floor(Math.random() * topics.length);
+        const randomTopic = topics[randomIndex];
+        console.log(`Selected topic: ${randomTopic}`);
+
+        const content = await generateContent(randomTopic);
         console.log(content.substring(0, 1500) + "\n\n... [TRUNCATED] ...\n");
-        
-        // Save the massive content down natively
+
         saveToDisk(content);
-        
+
+        // Infinite topic generation
+        const newTopics = await generateNewTopics();
+        if (newTopics.length > 0) {
+            topics.splice(randomIndex, 1);
+            topics.push(...newTopics);
+            fs.writeFileSync(configPath, JSON.stringify({ topics }, null, 2), 'utf8');
+            console.log(`Successfully rotated topics. Deducted 1, added 3. Total topics in pool: ${topics.length}`);
+        } else {
+            console.log("Skipping topic rotation because AI failed to generate valid JSON.");
+        }
+
         console.log("Daily learning workflow completed.");
     } catch (e) {
         console.error("Failed executing generation pipe", e);

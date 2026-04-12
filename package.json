@@ -4,8 +4,7 @@
   "description": "Daily Learning - Technologies and Infrastructure News",
   "main": "index.js",
   "scripts": {
-    "start": "tsx scripts/daily-learning.ts",
-    "local": "tsx scripts/local-run.ts",
+    "start": "tsx --env-file=.env scripts/daily-learning.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
