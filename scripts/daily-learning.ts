@@ -13,11 +13,13 @@ if (!GEMINI_API_KEY) {
 const genAI = new GoogleGenerativeAI(GEMINI_API_KEY);
 
 async function generateContent(): Promise<string> {
-    try {
-        // gemini-2.5-flash is extremely fast, free-tier eligible, and supports massive outputs 
-        const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
+    const maxRetries = 5;
+    let baseDelay = 10000;
+    
+    // gemini-2.5-flash is extremely fast, free-tier eligible, and supports massive outputs 
+    const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
 
-        const prompt = `
+    const prompt = `
 Write a complete and highly professional thesis on a topic related to distributed systems, backend architectures, or modern infrastructure. 
 The content must be extraordinarily detailed, meticulously researched, and provide enough depth to take approximately 20 to 35 minutes to read (around 4000 to 6000 words).
 Structure the thesis professionally with:
@@ -31,13 +33,29 @@ Structure the thesis professionally with:
 Do not generate a short summary. Generate the full, rigorous paper. Use markdown formatting. Include a standard # Title at the very top.
 `;
 
-        console.log("Generating thesis using Google Gemini...");
-        const result = await model.generateContent(prompt);
-        return result.response.text();
-    } catch (e) {
-        console.error("Error generating content", e);
-        throw e;
+    for (let attempt = 1; attempt <= maxRetries; attempt++) {
+        try {
+            console.log(`Generating thesis using Google Gemini... (Attempt ${attempt}/${maxRetries})`);
+            const result = await model.generateContent(prompt);
+            return result.response.text();
+        } catch (e: any) {
+            console.error(`Error generating content on attempt ${attempt}`);
+            if (attempt === maxRetries) {
+                console.error("Max retries reached. Failing.");
+                return Promise.reject(e);
+            }
+            
+            const errMsg = e.message || String(e);
+            if (e.status === 503 || e.status === 429 || errMsg.includes('503') || errMsg.includes('429') || errMsg.includes('high demand')) {
+                console.log(`Service unavailable or rate limited. Retrying in ${baseDelay / 1000} seconds...`);
+                await new Promise(resolve => setTimeout(resolve, baseDelay));
+                baseDelay *= 2; // Exponential backoff
+            } else {
+                return Promise.reject(e);
+            }
+        }
     }
+    return Promise.reject(new Error("Failed to generate content"));
 }
 
 function saveToDisk(content: string) {
