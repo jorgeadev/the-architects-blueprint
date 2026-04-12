@@ -22,7 +22,6 @@
     "Spotify’s Event Delivery system: processing billions of user listens per day for real-time analytics.",
     "Discord’s real-time messaging architecture: handling trillions of messages utilizing Cassandra and Rust.",
     "Cloudflare’s Edge computing architecture: how Workers deploy code to hundreds of data centers in milliseconds.",
-    "WhatsApp’s engineering marvel: supporting 2 billion users with just a small team of engineers using Erlang.",
     "AWS DynamoDB under the hood: how Amazon scales a NoSQL database seamlessly across regions.",
     "Reddit’s handling of immense traffic spikes during viral world events or massive AMAs.",
     "Pinterest’s machine learning infrastructure: how they serve visually similar image matches in real-time.",
@@ -65,6 +64,9 @@
     "An in-depth look at bun.js vs Node.js vs Deno: the hype, the benchmarks, and the architectural differences.",
     "The design and implementation of hyperscale cloud provider's internal optical fabric for exabyte-scale data movement and ultra-low-latency distributed AI training.",
     "Architecting a globally consistent, petabyte-scale key-value store using novel eventual consistency models and multi-region CRDTs for geo-distributed writes.",
-    "Advanced viral vector engineering for enhanced tissue tropism and immune evasion in next-generation in vivo gene therapies: a synthetic biology perspective."
+    "Advanced viral vector engineering for enhanced tissue tropism and immune evasion in next-generation in vivo gene therapies: a synthetic biology perspective.",
+    "Decentralized consensus protocols for achieving strong consistency in a planetary-scale distributed ledger operating at millions of transactions per second.",
+    "The interplay of programmable data planes and P4 with smart NICs for ultra-low-latency network function virtualization in hyperscale data centers.",
+    "Engineering enhanced adeno-associated virus (AAV) vectors with synthetic capsids for neurotropic gene therapy delivery and evasion of pre-existing immunity."
   ]
 }
