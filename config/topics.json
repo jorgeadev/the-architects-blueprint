@@ -58,7 +58,6 @@
     "A recent hype cycle on a major JavaScript meta-framework release: what new architectural patterns does it actually solve?",
     "The massive impact of a recent viral AI open-source model release and how developers are hosting it locally.",
     "The rise of edge AI inference: analyzing the hype of running LLMs directly on smartphones and local IoT devices.",
-    "Analyzing a major cloud provider's DNS cascading failure: why a single misconfiguration can take down half the internet.",
     "The viral adoption of eBPF for networking and observability: what it means for the future of Linux kernels.",
     "An in-depth look at bun.js vs Node.js vs Deno: the hype, the benchmarks, and the architectural differences.",
     "The design and implementation of hyperscale cloud provider's internal optical fabric for exabyte-scale data movement and ultra-low-latency distributed AI training.",
@@ -73,6 +72,9 @@
     "The Role of Large-Scale Knowledge Graphs and AI in Accelerating Viral Variant Identification and Synthetic Biology Design",
     "Implementing True Multi-Cloud Stateful Consensus Protocols: Engineering Challenges in Global Data Consistency and Latency.",
     "The Architecture and Performance Implications of Programmable Data Plane Interconnects (P4) for Hyperscale Microservices Mesh Optimization.",
-    "CRISPR-Cas13 Based Antiviral Strategies: Engineering Sequence-Specific RNA Degradation for Pan-Viral Immunity."
+    "CRISPR-Cas13 Based Antiviral Strategies: Engineering Sequence-Specific RNA Degradation for Pan-Viral Immunity.",
+    "Optimizing multi-tenant isolation and resource fairness in a hyperscale Kubernetes control plane with thousands of clusters.",
+    "The architectural evolution of global distributed consensus mechanisms for petabyte-scale metadata stores across continental fault domains.",
+    "Synthetic biology approaches to engineering enhanced viral vectors for precise in-vivo gene delivery and reduced immunogenicity."
   ]
 }
