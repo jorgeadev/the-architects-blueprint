@@ -39,7 +39,6 @@
     "Doordash’s logistics engine: solving real-time traveling salesperson problems for millions of daily deliveries.",
     "Telegram’s proprietary MTProto protocol and their incredibly lean server architecture.",
     "Riot Games’ League of Legends global matchmaking and low-latency game server infrastructure.",
-    "The engineering behind Google Search's autocomplete: delivering instant suggestions across billions of queries.",
     "Fastly’s Edge CDN architecture and the Varnish caching engine deep-dive.",
     "Datadog’s ingestion pipeline: processing trillions of monitoring metrics and logs seamlessly.",
     "Zillow's Zestimate machine learning pipeline: evaluating millions of homes nightly using big data.",
@@ -77,6 +76,9 @@
     "Synthetic biology approaches to engineering enhanced viral vectors for precise in-vivo gene delivery and reduced immunogenicity.",
     "The Architectural Implications of Disaggregated Memory and Compute for Future Hyperscale Data Centers",
     "Achieving Global-Scale Strong Consistency in Geo-Distributed Databases: A Deep Dive into Conflict Resolution and Consensus Protocols",
-    "The Engineering of Multi-Modal, Multi-Agent AI Systems: Towards Emergent Behavior and Real-World Interaction"
+    "The Engineering of Multi-Modal, Multi-Agent AI Systems: Towards Emergent Behavior and Real-World Interaction",
+    "Disaggregated Memory Architectures and CXL's Role in Scaling Hyperscale AI Model Training Clusters",
+    "Eventual Consistency Reimagined: Advanced Conflict-Free Replicated Datatypes (CRDTs) for Global Scale Geo-Distributed State Management",
+    "CRISPR-Cas System Engineering for Phage-Based Antimicrobial Resistance Mitigation: A Synthetic Biology Approach"
   ]
 }
