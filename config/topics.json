@@ -26,7 +26,6 @@
     "GitHub’s database migration strategy: moving terabytes of operational data with zero downtime.",
     "Slack’s transition to a modern real-time architecture to reduce client CPU usage and handle massive channels.",
     "Epic Games' Unreal Engine multiplayer infrastructure: scaling Fortnite backend for millions of concurrent users.",
-    "Google’s Spanner distributed database: solving the speed of light problem with TrueTime and atomic clocks.",
     "Meta’s Memcached architecture: scaling distributed caching to handle trillions of requests per second.",
     "Twitch’s massive live video streaming infrastructure: minimizing latency for millions of concurrent viewers.",
     "Zoom’s video routing architecture and scaling their network backbone unexpectedly during the pandemic.",
@@ -77,6 +76,9 @@
     "Synthetic biology approaches to engineering enhanced viral vectors for precise in-vivo gene delivery and reduced immunogenicity.",
     "The Architectural Implications of Disaggregated Memory and Compute for Future Hyperscale Data Centers",
     "Achieving Global-Scale Strong Consistency in Geo-Distributed Databases: A Deep Dive into Conflict Resolution and Consensus Protocols",
-    "The Engineering of Multi-Modal, Multi-Agent AI Systems: Towards Emergent Behavior and Real-World Interaction"
+    "The Engineering of Multi-Modal, Multi-Agent AI Systems: Towards Emergent Behavior and Real-World Interaction",
+    "Disaggregated Memory Architectures: Leveraging CXL and RDMA for Ultra-Low Latency, Hyperscale Data Processing",
+    "The Invisible Fabric: Architecting Global Traffic Management and Intelligent Routing Layers for Sub-Millisecond Latency in Edge Computing",
+    "De Novo Synthesis of Programmable Self-Assembling Viral Nanobots for Targeted Intracellular Drug Delivery"
   ]
 }
