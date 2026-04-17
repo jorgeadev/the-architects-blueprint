@@ -46,7 +46,6 @@
     "NASA's JPL cloud computing architecture: how they managed the telemetry data pipeline for the Mars Rover.",
     "The Linux Kernel maintainer network: how global infrastructure runs on a massively distributed open-source model.",
     "The engineering effort required to build and deploy Google’s customized Tensor Processing Units (TPUs) into data centers.",
-    "Nvidia’s DGX SuperPOD architecture: the physical engineering behind generative AI data centers.",
     "The logistics and engineering of Microsoft's massive fiber-optic network connecting global Azure regions.",
     "An deep dive into how AWS Nitro cards physically offload networking and storage from EC2 instances.",
     "Recent revolutionary advancements in WebAssembly (Wasm) and the hype around running backend services in the browser.",
@@ -81,6 +80,9 @@
     "CRISPR-Cas System Engineering for Phage-Based Antimicrobial Resistance Mitigation: A Synthetic Biology Approach",
     "The architectural paradigm shift for exascale multi-modal AI model training: focusing on next-gen interconnects and distributed memory coherence.",
     "Deep dive into maintaining strong temporal consistency across globally distributed, eventually consistent transactional databases: challenges and novel solutions.",
-    "Engineering high-fidelity, high-throughput synthetic biology platforms for rapid, adaptive vaccine prototyping and production against emerging pathogens."
+    "Engineering high-fidelity, high-throughput synthetic biology platforms for rapid, adaptive vaccine prototyping and production against emerging pathogens.",
+    "Architecting Quantum-Resistant Cryptography Integration into Hyperscale Cloud Service Meshes and PKI Systems",
+    "The Deep Engineering Behind Multi-Region Consensus Protocols for Exabyte-Scale, Ultra-Low Latency Data Stores",
+    "Precision Gene Drive Engineering: Navigating Off-Target Effects and Self-Limiting Mechanisms for Contained Environmental Applications"
   ]
 }
