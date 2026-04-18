@@ -34,7 +34,7 @@ async function loadTopics(): Promise<{ topics: string[]; configPath: string }> {
 
 async function generateWithRetry(prompt: string): Promise<string> {
     const maxRetries = 5;
-    let baseDelay = 15000;
+    let baseDelay = 60000;
 
     for (let attempt = 1; attempt <= maxRetries; attempt++) {
         try {
@@ -177,7 +177,7 @@ async function run() {
         topics.splice(randomIndex, 1);
 
         // Infinite topic generation
-        const amountToGenerate = topics.length < 20 ? 10 : 5;
+        const amountToGenerate = topics.length < 20 ? 10 : 3;
         const newTopics = await generateNewTopics(amountToGenerate);
 
         if (newTopics.length > 0) {
