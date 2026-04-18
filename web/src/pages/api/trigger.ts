@@ -26,7 +26,7 @@ export const POST: APIRoute = async () => {
                     "Content-Type": "application/json",
                 },
                 body: JSON.stringify({
-                    ref: "develop",
+                    ref: "main",
                 }),
             }
         );
