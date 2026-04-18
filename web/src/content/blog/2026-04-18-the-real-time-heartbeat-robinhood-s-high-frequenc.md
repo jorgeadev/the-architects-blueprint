@@ -1,4 +1,5 @@
 ---
+image: "/images/2026-04-18-the-real-time-heartbeat-robinhood-s-high-frequenc.jpg"
 title: "The Real-Time Heartbeat: Robinhood's High-Frequency Market Data Architecture Under Volatility"
 date: 2026-04-18
 ---

@@ -1,4 +1,5 @@
 ---
+image: "/images/2026-04-18-the-quantum-leap-architecting-a-petabyte-scale-gl.jpg"
 title: "The Quantum Leap: Architecting a Petabyte-Scale Global KV Store with CRDTs and Hyper-Causal Consistency"
 date: 2026-04-18
 ---

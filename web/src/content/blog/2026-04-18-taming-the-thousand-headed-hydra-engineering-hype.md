@@ -1,4 +1,5 @@
 ---
+image: "/images/2026-04-18-taming-the-thousand-headed-hydra-engineering-hype.jpg"
 title: "Taming the Thousand-Headed Hydra: Engineering Hyperscale Kubernetes for Ultimate Isolation and Resource Fairness"
 date: 2026-04-18
 ---

@@ -1,4 +1,5 @@
 ---
+image: "/images/2026-04-18-the-crispr-revolution-beyond-gene-editing-unleash.jpg"
 title: "The CRISPR Revolution Beyond Gene Editing: Unleashing Molecular Bloodhounds for Ultrasensitive Diagnostics"
 date: 2026-04-18
 ---

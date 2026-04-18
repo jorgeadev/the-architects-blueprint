@@ -1,4 +1,5 @@
 ---
+image: "/images/2026-04-18-unmasking-the-mtproto-enigma-how-telegram-s-ultra.jpg"
 title: "Unmasking the MTProto Enigma: How Telegram's Ultra-Lean Architecture Redefined Scale"
 date: 2026-04-18
 ---

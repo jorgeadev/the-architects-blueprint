@@ -1,4 +1,5 @@
 ---
+image: "/images/2026-04-18-the-unseen-architects-of-cloud-stability-raft-pax.jpg"
 title: "The Unseen Architects of Cloud Stability: Raft, Paxos, and the Hyperscale Consensus Conundrum"
 date: 2026-04-18
 ---

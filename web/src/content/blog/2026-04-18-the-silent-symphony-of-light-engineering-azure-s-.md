@@ -1,4 +1,5 @@
 ---
+image: "/images/2026-04-18-the-silent-symphony-of-light-engineering-azure-s-.jpg"
 title: "The Silent Symphony of Light: Engineering Azure's Global Fiber Network for Hyperscale"
 date: 2026-04-18
 ---
