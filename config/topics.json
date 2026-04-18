@@ -83,7 +83,6 @@
         "Advancements in Phage Display Libraries for Targeted Drug Delivery and Precision Diagnostics in Oncological Therapies",
         "Decentralized Control Plane Architecture: Scaling Global Cloud Infrastructure with Service Meshes and Beyond",
         "Sub-Millisecond Cross-Continental Consistency: Deep Dive into Replicated State Machines for Real-time Financial Systems",
-        "Engineering Next-Gen CRISPR-Cas Diagnostics: Unleashing Ultrasensitive, Programmable Pathogen Detection",
         "Architecting exascale asynchronous data pipelines for real-time federated learning across global edge deployments.",
         "The convergence of optical computing and quantum networking in next-generation hyperscale data center interconnects.",
         "CRISPR-CasX: Engineering novel non-integrating viral delivery vectors for high-specificity in-vivo genomic editing.",
@@ -95,6 +94,11 @@
         "CRISPR-Engineered Phage Lysins: A Novel Approach to Combatting Multi-Drug Resistant Bacterial Biofilms in Clinical Settings",
         "Deconstructing Hyperscale Transactional Consistency: The role of geo-distributed consensus protocols and hybrid logical clocks in global cloud databases.",
         "The Cambrian Explosion of Data Planes: eBPF, P4, and the programmable infrastructure powering next-gen cloud networking at petabit scale.",
-        "Engineering CRISPR-Based Antiviral Systems: Designing programmable nuclease platforms for rapid, broad-spectrum viral inhibition and diagnostics."
+        "Engineering CRISPR-Based Antiviral Systems: Designing programmable nuclease platforms for rapid, broad-spectrum viral inhibition and diagnostics.",
+        "Distributed Consensus at Hyperscale: Architectural Trade-offs of Raft and Paxos in Cloud Control Planes.",
+        "Beyond Sharding: Advanced Data Partitioning and Consistency Models in Global-Scale Petabyte Databases (e.g., Spanner, DynamoDB).",
+        "Evolving Hyperscale Networks: The Interplay of Software-Defined Networking and BGP-EVPN for Inter-Datacenter Connectivity.",
+        "Engineering Next-Gen mRNA Vaccines: Advancements in Lipid Nanoparticle Delivery Systems and Immunostimulatory Design.",
+        "CRISPR-Cas Systems for Ultrasensitive Diagnostics: The Biochemical Engineering Behind SHERLOCK and DETECTR Platforms."
     ]
 }
