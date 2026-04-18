@@ -15,77 +15,10 @@ const { Content } = await render(entry);
 ---
 
 <Layout title={`${entry.data.title}`}>
-    <article class="prose">
+    <article
+        class="prose prose-invert prose-indigo prose-lg mx-auto max-w-3xl prose-h1:text-center prose-h1:text-[clamp(2.5rem,5vw,4rem)] prose-h1:bg-linear-to-r prose-h1:from-indigo-400 prose-h1:to-blue-400 prose-h1:bg-clip-text prose-h1:text-transparent prose-pre:bg-slate-900 prose-pre:border-white/10 prose-pre:border prose-code:text-indigo-300"
+    >
         <h1>{entry.data.title}</h1>
         <Content />
     </article>
 </Layout>
-
-<style is:global>
-    .prose {
-        max-width: 800px;
-        margin: 0 auto;
-        font-size: 1.125rem;
-        line-height: 1.8;
-    }
-    .prose h1 {
-        font-size: clamp(2.5rem, 5vw, 4rem);
-        text-align: center;
-        margin-bottom: 3rem;
-        line-height: 1.2;
-        background: linear-gradient(to right, #a78bfa, #60a5fa);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-        color: transparent;
-    }
-    .prose h2 {
-        font-size: 2rem;
-        margin-top: 4rem;
-        color: #fff;
-    }
-    .prose h3 {
-        font-size: 1.5rem;
-        color: #e2e8f0;
-    }
-    .prose p {
-        margin-bottom: 1.5rem;
-        color: #cbd5e1;
-    }
-    .prose strong {
-        color: #fff;
-    }
-    .prose ul,
-    .prose ol {
-        margin-bottom: 2rem;
-        padding-left: 1.5rem;
-    }
-    .prose li {
-        margin-bottom: 0.5rem;
-        color: #cbd5e1;
-    }
-    .prose li::marker {
-        color: var(--accent);
-    }
-    .prose code {
-        background: rgba(255, 255, 255, 0.1);
-        padding: 0.2em 0.4em;
-        border-radius: 4px;
-        font-family: var(--font-mono);
-        font-size: 0.875em;
-        color: #a78bfa;
-    }
-    .prose pre {
-        background: #0f172a;
-        padding: 1.5rem;
-        border-radius: 12px;
-        overflow-x: auto;
-        margin: 2rem 0;
-        border: 1px solid var(--border);
-    }
-    .prose pre code {
-        background: transparent;
-        padding: 0;
-        color: inherit;
-    }
-</style>

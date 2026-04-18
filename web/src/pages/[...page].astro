@@ -1,0 +1,87 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { getCollection } from "astro:content";
+
+export async function getStaticPaths({ paginate }: any) {
+    const allPosts = await getCollection("blog");
+    const sortedPosts = allPosts.sort((a, b) => b.id.localeCompare(a.id));
+    return paginate(sortedPosts, { pageSize: 12 });
+}
+
+import type { Page } from "astro";
+import type { CollectionEntry } from "astro:content";
+
+interface Props {
+    page: Page<CollectionEntry<"blog">>;
+}
+
+const { page } = Astro.props;
+---
+
+<Layout title="The Architect's Blueprint | Engineering Blog">
+    <section class="text-center px-4 pt-16 pb-24">
+        <h1 class="text-[clamp(3rem,6vw,5rem)] mb-6 leading-[1.1] font-bold">
+            <span class="gradient-text">Architecting</span> the Future.
+        </h1>
+        <p class="text-xl text-zinc-400 max-w-[600px] mx-auto">
+            Deep dumps and daily musings on big tech infra, scale, and the pulse of the engineering
+            world.
+        </p>
+    </section>
+
+    <section
+        transition:animate="fade"
+        class="grid grid-cols-[repeat(auto-fill,minmax(320px,1fr))] gap-8"
+    >
+        {
+            page.data.map((post: any) => (
+                <a href={`/blog/${post.id}`} class="glass-card flex flex-col p-8 min-h-[200px]">
+                    <div class="post-content">
+                        <div class="font-mono text-sm text-indigo-300/80 mb-4">
+                            {post.data.date
+                                ? new Date(post.data.date).toISOString().substring(0, 10)
+                                : post.id.substring(0, 10)}
+                        </div>
+                        <h2 class="text-2xl m-0 leading-[1.4] font-bold">{post.data.title}</h2>
+                    </div>
+                </a>
+            ))
+        }
+    </section>
+
+    <div class="mt-16 flex items-center justify-center gap-6">
+        {
+            page.url.prev ? (
+                <a
+                    href={page.url.prev}
+                    class="px-6 py-2.5 rounded-lg font-sans font-semibold text-sm transition-all duration-300 bg-white/5 text-white border border-white/10 hover:bg-white/10 hover:border-white/30 hover:-translate-y-0.5"
+                >
+                    ← Previous
+                </a>
+            ) : (
+                <span class="px-6 py-2.5 rounded-lg font-sans font-semibold text-sm bg-white/5 text-zinc-600 border border-white/5 cursor-not-allowed">
+                    ← Previous
+                </span>
+            )
+        }
+
+        <span class="text-zinc-400 font-mono text-sm">
+            Page {page.currentPage} of {page.lastPage}
+        </span>
+
+        {
+            page.url.next ? (
+                <a
+                    href={page.url.next}
+                    class="px-6 py-2.5 rounded-lg font-sans font-semibold text-sm transition-all duration-300 bg-linear-to-br from-indigo-500/20 to-blue-500/20 text-indigo-200 border border-indigo-500/30 hover:bg-linear-to-br hover:from-indigo-500/40 hover:to-blue-500/40 hover:border-indigo-400/50 hover:text-white hover:-translate-y-0.5 shadow-[0_0_15px_-3px_rgba(99,102,241,0.2)] hover:shadow-[0_4px_20px_-3px_rgba(99,102,241,0.4)]"
+                >
+                    Next →
+                </a>
+            ) : (
+                <span class="px-6 py-2.5 rounded-lg font-sans font-semibold text-sm bg-white/5 text-zinc-600 border border-white/5 cursor-not-allowed">
+                    Next →
+                </span>
+            )
+        }
+    </div>
+</Layout>

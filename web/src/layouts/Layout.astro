@@ -1,6 +1,8 @@
 ---
 import "../styles/global.css";
 
+import { ClientRouter } from "astro:transitions";
+
 interface Props {
     title: string;
     description?: string;
@@ -15,6 +17,7 @@ const {
 <!doctype html>
 <html lang="en">
     <head>
+        <ClientRouter />
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width" />
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -29,17 +32,36 @@ const {
         />
     </head>
     <body>
-        <nav class="navbar">
-            <div class="nav-content">
-                <a href="/" class="brand gradient-text">The Architect's Blueprint</a>
-                <button id="trigger-btn" class="generate-btn">Generate Post 🪄</button>
+        <nav class="sticky top-0 z-50 bg-[#030014]/60 backdrop-blur-md border-b border-white/10">
+            <div class="max-w-[1100px] mx-auto px-8 py-5 flex items-center justify-between">
+                <a href="/" class="gradient-text text-2xl font-extrabold tracking-tight"
+                    >The Architect's Blueprint</a
+                >
+                <div class="flex gap-4 items-center">
+                    <button
+                        id="trigger-topics-btn"
+                        class="relative px-5 py-2.5 rounded-lg font-sans font-semibold text-sm cursor-pointer transition-all duration-300 overflow-hidden bg-white/10 text-white border border-white/20 hover:bg-white/20 hover:border-white/40 hover:-translate-y-0.5 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none disabled:shadow-none"
+                    >
+                        <span class="relative z-10 btn-text">Generate Topics 💡</span>
+                    </button>
+                    <button
+                        id="trigger-btn"
+                        class="relative px-5 py-2.5 rounded-lg font-sans font-semibold text-sm cursor-pointer transition-all duration-300 overflow-hidden bg-linear-to-br from-indigo-400 to-blue-400 text-black border-none shadow-[0_4px_15px_-3px_rgba(167,139,250,0.5)] hover:-translate-y-0.5 hover:scale-105 hover:shadow-[0_6px_20px_-3px_rgba(167,139,250,0.7)] group disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none disabled:shadow-none disabled:hover:scale-100 disabled:hover:translate-y-0"
+                    >
+                        <div
+                            class="absolute inset-0 bg-linear-to-br from-blue-400 to-indigo-400 opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100 z-0"
+                        >
+                        </div>
+                        <span class="relative z-10 btn-text">Generate Post 🪄</span>
+                    </button>
+                </div>
             </div>
         </nav>
-        <main>
+        <main class="max-w-7xl mx-auto px-8 py-12 min-h-[calc(100vh-232px)]">
             <slot />
         </main>
-        <footer>
-            <div class="footer-content">
+        <footer class="border-t border-white/10 mt-16 p-8 text-center text-zinc-400">
+            <div class="text-sm">
                 <p>
                     &copy; {new Date().getFullYear()} The Architect's Blueprint. Automagically generated.
                 </p>
@@ -47,97 +69,36 @@ const {
         </footer>
 
         <script>
-            const btn = document.getElementById("trigger-btn");
-            if (btn) {
-                btn.addEventListener("click", async () => {
-                    const originalText = btn.innerText;
-                    btn.innerText = "Triggering...";
-                    btn.setAttribute("disabled", "true");
+            function attachTrigger(btnId: string, endpoint: string, successMsg: string) {
+                const btn = document.getElementById(btnId);
+                if (btn) {
+                    btn.addEventListener("click", async () => {
+                        const span = btn.querySelector(".btn-text") as HTMLElement;
+                        const originalText = span.innerText;
+                        span.innerText = "Triggering...";
+                        btn.setAttribute("disabled", "true");
 
-                    try {
-                        const res = await fetch("/api/trigger", { method: "POST" });
-                        if (res.ok) {
-                            btn.innerText = "Pipeline Started! 🚀";
-                        } else {
-                            btn.innerText = "Failed ❌";
+                        try {
+                            const res = await fetch(endpoint, { method: "POST" });
+                            if (res.ok) {
+                                span.innerText = successMsg;
+                            } else {
+                                span.innerText = "Failed ❌";
+                            }
+                        } catch {
+                            span.innerText = "Error ❌";
                         }
-                    } catch {
-                        btn.innerText = "Error ❌";
-                    }
 
-                    setTimeout(() => {
-                        btn.innerText = originalText;
-                        btn.removeAttribute("disabled");
-                    }, 5000);
-                });
+                        setTimeout(() => {
+                            span.innerText = originalText;
+                            btn.removeAttribute("disabled");
+                        }, 5000);
+                    });
+                }
             }
+
+            attachTrigger("trigger-btn", "/api/trigger", "Pipeline Started! 🚀");
+            attachTrigger("trigger-topics-btn", "/api/trigger-topics", "Topics Queued! 🚀");
         </script>
     </body>
 </html>
-
-<style>
-    .navbar {
-        position: sticky;
-        top: 0;
-        z-index: 100;
-        background: rgba(3, 0, 20, 0.6);
-        backdrop-filter: blur(16px);
-        -webkit-backdrop-filter: blur(16px);
-        border-bottom: 1px solid var(--border);
-    }
-    .nav-content {
-        max-width: 1100px;
-        margin: 0 auto;
-        padding: 1.25rem 2rem;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-    .brand {
-        font-size: 1.5rem;
-        font-weight: 800;
-        letter-spacing: -0.03em;
-    }
-    main {
-        max-width: 1100px;
-        margin: 0 auto;
-        padding: 3rem 2rem;
-        min-height: calc(100vh - 160px);
-    }
-    footer {
-        border-top: 1px solid var(--border);
-        margin-top: 4rem;
-        padding: 2rem;
-        text-align: center;
-        color: var(--text-muted);
-    }
-    .footer-content {
-        font-size: 0.875rem;
-    }
-    .generate-btn {
-        background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
-        color: white;
-        border: none;
-        padding: 0.6rem 1.2rem;
-        border-radius: 8px;
-        font-family: "Inter", sans-serif;
-        font-weight: 600;
-        font-size: 0.875rem;
-        cursor: pointer;
-        transition:
-            transform 0.2s ease,
-            opacity 0.2s ease;
-        box-shadow:
-            0 4px 6px -1px rgba(0, 0, 0, 0.1),
-            0 2px 4px -1px rgba(0, 0, 0, 0.06);
-    }
-    .generate-btn:hover {
-        transform: translateY(-2px);
-        opacity: 0.95;
-    }
-    .generate-btn:disabled {
-        opacity: 0.6;
-        cursor: not-allowed;
-        transform: none;
-    }
-</style>
