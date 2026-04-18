@@ -111,7 +111,6 @@
         "The Interplay of Infiniband, NVMe-oF, and Custom Accelerators in Hyperscale AI Training Clusters",
         "Proactive Failure Domain Isolation and Dependency Modeling in Multi-Region Hyperscale Infrastructure Deployments",
         "Computational Design and Large-Scale Synthesis Pipelines for Novel Oncolytic Virotherapy Agents",
-        "Optimizing Cross-Continental Data Egress Costs and Latency with Programmable Data Planes and Smart Caching Topologies",
         "Stateless Compute and Programmable Data Plane: Architecting Hyperscale Analytics with P4 and DPUs for Real-time Decisioning",
         "Next-Gen Optical Networks: Leveraging Coherent Optics and AI-Driven Wavelength Routing for Exascale Cloud Interconnects",
         "CRISPR-Dx to Pan-Antiviral Therapies: Engineering Programmable Nucleic Acid Tools for Rapid Pathogen Identification and Broad-Spectrum Inhibition",
@@ -120,6 +119,9 @@
         "The Physics of Viral Propagation: Engineering the Sub-Second Edge Caching System Behind a Billion-View TikTok Trend",
         "Deconstructing Meta's Threads: The Real-Time Fanout and State Synchronization Architecture at Instagram Scale",
         "Beyond Sharding: Google's Next-Gen Spanner and the Physics of Globally Consistent, Low-Latency Databases",
-        "The Viral Calculus of TikTok's For You Page: Modeling Implicit Feedback Loops and Mitigating Cascade Failures During Super-Spike Events"
+        "The Viral Calculus of TikTok's For You Page: Modeling Implicit Feedback Loops and Mitigating Cascade Failures During Super-Spike Events",
+        "Deconstructing Meta's Threads: The Real-Time Graph Sync Architecture at Planetary Scale",
+        "Beyond Kubernetes: The Rise of MicroVM-Based Serverless Orchestration for Stateful Workloads",
+        "The Physics of Viral Spread: Modeling and Engineering Contagion Dynamics in Social Feeds"
     ]
 }
