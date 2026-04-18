@@ -1,78 +1,78 @@
 name: "Create Blog Post"
 
 on:
-    schedule:
-        - cron: "0 7 * * *" # 10 AM EST = 14 UTC
-    workflow_dispatch:
+  schedule:
+    - cron: "0 7 * * *" # 10 AM EST = 14 UTC
+  workflow_dispatch:
 
 env:
-    FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
-    run:
-        runs-on: ubuntu-latest
+  run:
+    runs-on: ubuntu-latest
 
-        permissions:
-            contents: write
-            pull-requests: write
+    permissions:
+      contents: write
+      pull-requests: write
 
-        steps:
-            - name: Checkout repo
-              uses: actions/checkout@v4
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
 
-            - name: Setup Node.js
-              uses: actions/setup-node@v4
-              with:
-                  node-version-file: ".nvmrc"
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: ".nvmrc"
 
-            - name: Configure pnpm
-              run: corepack enable pnpm
+      - name: Configure pnpm
+        run: corepack enable pnpm
 
-            - name: Install dependencies
-              run: pnpm install
+      - name: Install dependencies
+        run: pnpm install
 
-            - name: Run content generation script
-              run: npx tsx scripts/the-architects-blueprint.ts
-              env:
-                  GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      - name: Run content generation script
+        run: pnpx tsx scripts/the-architects-blueprint.ts
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
 
-            - name: Commit, create PR, and merge
-              env:
-                  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-              run: |
-                  git config --global user.name "github-actions[bot]"
-                  git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      - name: Commit, create PR, and merge
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-                  if [[ -z $(git status -s web/src/content/blog/ config/topics.json) ]]; then
-                    echo "No changes to commit"
-                    exit 0
-                  fi
+          if [[ -z $(git status -s web/src/content/blog/ config/topics.json) ]]; then
+            echo "No changes to commit"
+            exit 0
+          fi
 
-                  BRANCH_NAME="auto-thesis-$(date +'%Y%m%d%H%M%S')"
-                  echo "BRANCH_NAME=$BRANCH_NAME" >> $GITHUB_ENV
-                  git checkout -b $BRANCH_NAME
+          BRANCH_NAME="auto-thesis-$(date +'%Y%m%d%H%M%S')"
+          echo "BRANCH_NAME=$BRANCH_NAME" >> $GITHUB_ENV
+          git checkout -b $BRANCH_NAME
 
-                  git add web/src/content/blog/ config/topics.json
-                  git commit -m "docs: auto-generate blueprint thesis [skip ci]"
-                  git push -u origin $BRANCH_NAME
+          git add web/src/content/blog/ config/topics.json
+          git commit -m "docs: auto-generate blueprint thesis [skip ci]"
+          git push -u origin $BRANCH_NAME
 
-                  # Create PR
-                  PR_URL=$(gh pr create --title "docs: auto-generate blueprint thesis [skip ci]" \
-                                    --body "Automated blueprint thesis generation." \
-                                    --base main \
-                                    --head $BRANCH_NAME)
+          # Create PR
+          PR_URL=$(gh pr create --title "docs: auto-generate blueprint thesis [skip ci]" \
+                            --body "Automated blueprint thesis generation." \
+                            --base main \
+                            --head $BRANCH_NAME)
 
-                  # Give GitHub's API a few seconds to process the newly created PR mapping
-                  sleep 10
+          # Give GitHub's API a few seconds to process the newly created PR mapping
+          sleep 10
 
-                  # Merge PR using squash (GitHub automatically signs squash merges)
-                  gh pr merge --squash "$PR_URL" || { sleep 10; gh pr merge --squash "$PR_URL"; }
+          # Merge PR using squash (GitHub automatically signs squash merges)
+          gh pr merge --squash "$PR_URL" || { sleep 10; gh pr merge --squash "$PR_URL"; }
 
-            - name: Delete temporary branch
-              if: always()
-              env:
-                  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-              run: |
-                  if [ -n "$BRANCH_NAME" ]; then
-                    git push origin --delete $BRANCH_NAME || echo "Branch already deleted or could not be found."
-                  fi
+      - name: Delete temporary branch
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ -n "$BRANCH_NAME" ]; then
+            git push origin --delete $BRANCH_NAME || echo "Branch already deleted or could not be found."
+          fi
