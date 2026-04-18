@@ -1,0 +1,68 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+const allPosts = await getCollection('blog');
+const sortedPosts = allPosts.sort((a, b) => b.id.localeCompare(a.id));
+---
+
+<Layout title="The Architect's Blueprint | Engineering Blog">
+  <section class="hero">
+    <h1 class="hero-title"><span class="gradient-text">Architecting</span> the Future.</h1>
+    <p class="hero-subtitle">Deep dumps and daily musings on big tech infra, scale, and the pulse of the engineering world.</p>
+  </section>
+
+  <section class="posts-grid">
+    {sortedPosts.map(post => (
+      <a href={`/blog/${post.id}`} class="glass-card post-card">
+        <div class="post-content">
+          <div class="post-meta">
+            {post.data.date ? new Date(post.data.date).toISOString().substring(0, 10) : post.id.substring(0, 10)}
+          </div>
+          <h2 class="post-title">{post.data.title}</h2>
+        </div>
+      </a>
+    ))}
+  </section>
+</Layout>
+
+<style>
+  .hero {
+    text-align: center;
+    padding: 4rem 1rem 6rem;
+  }
+  .hero-title {
+    font-size: clamp(3rem, 6vw, 5rem);
+    margin-bottom: 1.5rem;
+    line-height: 1.1;
+  }
+  .hero-subtitle {
+    font-size: 1.25rem;
+    color: var(--text-muted);
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .posts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 2rem;
+  }
+  .post-card {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    min-height: 200px;
+  }
+  .post-meta {
+    font-family: var(--font-mono);
+    font-size: 0.875rem;
+    color: var(--accent-light);
+    margin-bottom: 1rem;
+    opacity: 0.8;
+  }
+  .post-title {
+    font-size: 1.5rem;
+    margin: 0;
+    line-height: 1.4;
+  }
+</style>
