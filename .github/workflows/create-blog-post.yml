@@ -64,7 +64,7 @@ jobs:
 
                   # Give GitHub's API a few seconds to process the newly created PR mapping
                   sleep 10
-                  
+
                   # Merge PR using squash (GitHub automatically signs squash merges)
                   gh pr merge --squash "$PR_URL" || { sleep 10; gh pr merge --squash "$PR_URL"; }
 

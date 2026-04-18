@@ -32,6 +32,7 @@ const {
         <nav class="navbar">
             <div class="nav-content">
                 <a href="/" class="brand gradient-text">The Architect's Blueprint</a>
+                <button id="trigger-btn" class="generate-btn">Generate Post 🪄</button>
             </div>
         </nav>
         <main>
@@ -44,6 +45,33 @@ const {
                 </p>
             </div>
         </footer>
+
+        <script>
+            const btn = document.getElementById("trigger-btn");
+            if (btn) {
+                btn.addEventListener("click", async () => {
+                    const originalText = btn.innerText;
+                    btn.innerText = "Triggering...";
+                    btn.setAttribute("disabled", "true");
+
+                    try {
+                        const res = await fetch("/api/trigger", { method: "POST" });
+                        if (res.ok) {
+                            btn.innerText = "Pipeline Started! 🚀";
+                        } else {
+                            btn.innerText = "Failed ❌";
+                        }
+                    } catch {
+                        btn.innerText = "Error ❌";
+                    }
+
+                    setTimeout(() => {
+                        btn.innerText = originalText;
+                        btn.removeAttribute("disabled");
+                    }, 5000);
+                });
+            }
+        </script>
     </body>
 </html>
 
@@ -63,6 +91,7 @@ const {
         padding: 1.25rem 2rem;
         display: flex;
         align-items: center;
+        justify-content: space-between;
     }
     .brand {
         font-size: 1.5rem;
@@ -84,5 +113,31 @@ const {
     }
     .footer-content {
         font-size: 0.875rem;
+    }
+    .generate-btn {
+        background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+        color: white;
+        border: none;
+        padding: 0.6rem 1.2rem;
+        border-radius: 8px;
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+        font-size: 0.875rem;
+        cursor: pointer;
+        transition:
+            transform 0.2s ease,
+            opacity 0.2s ease;
+        box-shadow:
+            0 4px 6px -1px rgba(0, 0, 0, 0.1),
+            0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    }
+    .generate-btn:hover {
+        transform: translateY(-2px);
+        opacity: 0.95;
+    }
+    .generate-btn:disabled {
+        opacity: 0.6;
+        cursor: not-allowed;
+        transform: none;
     }
 </style>
