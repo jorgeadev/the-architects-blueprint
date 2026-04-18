@@ -17,7 +17,7 @@ export const POST: APIRoute = async () => {
         }
 
         const response = await fetch(
-            "https://api.github.com/repos/jorgeadev/the-architects-blueprint/actions/workflows/generate-topics.yml/dispatches",
+            "https://api.github.com/repos/jorgeadev/daily-learning/actions/workflows/generate-topics.yml/dispatches",
             {
                 method: "POST",
                 headers: {
