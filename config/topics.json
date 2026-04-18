@@ -111,6 +111,11 @@
         "Deep Dive into Amazon DynamoDB's Consistent Hashing and Replication Model for Exabyte-Scale Durability",
         "Real-Time Stream Processing at Petabyte Scale: Challenges and Solutions for Low-Latency Analytics with Apache Flink and Kafka",
         "CRISPR-Cas System Engineering for Next-Generation Antiviral Therapies: Delivery Mechanisms and Off-Target Mitigation Strategies",
-        "Designing and Deploying Global Load Balancing for Billions of Requests: From DNS-Based to Anycast Architectures"
+        "Designing and Deploying Global Load Balancing for Billions of Requests: From DNS-Based to Anycast Architectures",
+        "The Engineering Challenges of Maintaining Strong Global Consistency in Hyperscale Distributed Transactional Databases",
+        "The Interplay of Infiniband, NVMe-oF, and Custom Accelerators in Hyperscale AI Training Clusters",
+        "Proactive Failure Domain Isolation and Dependency Modeling in Multi-Region Hyperscale Infrastructure Deployments",
+        "Computational Design and Large-Scale Synthesis Pipelines for Novel Oncolytic Virotherapy Agents",
+        "Optimizing Cross-Continental Data Egress Costs and Latency with Programmable Data Planes and Smart Caching Topologies"
     ]
 }
