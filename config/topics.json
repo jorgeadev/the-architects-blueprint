@@ -107,6 +107,11 @@
         "Global Messaging at Scale: Real-time Consistency Across Distributed Graph Databases for Billions",
         "Architecting Post-Quantum Cryptography Migrations for Hyperscale Cloud Infrastructure",
         "Programmable Data Planes (P4) and SmartNICs: Revolutionizing Cloud Data Center Latency and Throughput",
-        "Computational Genomics for Viral Vector Engineering: Predictive Design of Next-Gen Therapeutic Delivery Systems"
+        "Computational Genomics for Viral Vector Engineering: Predictive Design of Next-Gen Therapeutic Delivery Systems",
+        "The Architectural Evolution of Hyperscale Data Center Networking from Clos to Advanced SDN Topologies",
+        "Deep Dive into Amazon DynamoDB's Consistent Hashing and Replication Model for Exabyte-Scale Durability",
+        "Real-Time Stream Processing at Petabyte Scale: Challenges and Solutions for Low-Latency Analytics with Apache Flink and Kafka",
+        "CRISPR-Cas System Engineering for Next-Generation Antiviral Therapies: Delivery Mechanisms and Off-Target Mitigation Strategies",
+        "Designing and Deploying Global Load Balancing for Billions of Requests: From DNS-Based to Anycast Architectures"
     ]
 }
