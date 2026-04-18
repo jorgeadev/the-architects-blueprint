@@ -2,7 +2,7 @@ name: "Generate Topics Pool"
 
 on:
   schedule:
-    - cron: "30 7 * * *" # Runs 30 minutes after the daily blog post (14:30 UTC)
+    - cron: "30 */6 * * *" # Runs 30 minutes after the blog post generation
   workflow_dispatch:
 
 env:

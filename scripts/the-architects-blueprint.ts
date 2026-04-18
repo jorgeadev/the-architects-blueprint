@@ -89,7 +89,7 @@ Requirements for the blog post:
     return await generateWithRetry(prompt);
 }
 
-function saveToDisk(content: string) {
+function saveToDisk(content: string, imageUrl: string) {
     const rootDir = process.cwd();
     const articlesDir = path.join(rootDir, "web", "src", "content", "blog");
 
@@ -121,7 +121,7 @@ function saveToDisk(content: string) {
         const frontmatterTitle = titleMatch[1].replace(/"/g, "\\\"");
         const dateMatch = fileName.match(/^(\d{4}-\d{2}-\d{2})/);
         const dateString = dateMatch ? dateMatch[1] : "";
-        const frontmatter = `---\ntitle: "${frontmatterTitle}"\ndate: ${dateString}\n---\n\n`;
+        const frontmatter = `---\ntitle: "${frontmatterTitle}"\ndate: ${dateString}\nimage: "${imageUrl}"\n---\n\n`;
         finalContent = frontmatter + content.replace(titleMatch[0], "");
     }
 
@@ -157,7 +157,14 @@ async function run() {
         const content = await generateContent(randomTopic);
         console.log(content.substring(0, 1500) + "\n\n... [TRUNCATED] ...\n");
 
-        saveToDisk(content);
+        const imagePromptPrompt = `Write a short, highly descriptive image generation prompt (max 60 words) for a blog post about: "${randomTopic}". Do not include any text, letters, or words in the generated image. Describe an aesthetic, highly technical, premium abstract representation (like server rooms, glowing data nodes, isometric architecture, etc). Only return the raw prompt text.`;
+        console.log("Generating AI image prompt...");
+        const imagePromptRaw = await generateWithRetry(imagePromptPrompt);
+        const imagePrompt = imagePromptRaw.replace(/\n/g, " ").trim();
+        const imageUrl = `https://image.pollinations.ai/prompt/${encodeURIComponent(imagePrompt)}?width=1200&height=630&nologo=true`;
+        console.log(`Generated image URL: ${imageUrl}`);
+
+        saveToDisk(content, imageUrl);
 
         console.log("The Architect's Blueprint workflow completed.");
     } catch (e) {

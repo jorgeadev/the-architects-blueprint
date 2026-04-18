@@ -35,14 +35,35 @@ const { page } = Astro.props;
     >
         {
             page.data.map((post: any) => (
-                <a href={`/blog/${post.id}`} class="glass-card flex flex-col p-8 min-h-[200px]">
-                    <div class="post-content">
-                        <div class="font-mono text-sm text-indigo-300/80 mb-4">
+                <a
+                    href={`/blog/${post.id}`}
+                    class="glass-card flex flex-col p-8 min-h-[200px] overflow-hidden group"
+                >
+                    {post.data.image && (
+                        <div class="-mx-8 -mt-8 mb-6 h-48 overflow-hidden">
+                            <img
+                                src={post.data.image}
+                                alt={post.data.title}
+                                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                                loading="lazy"
+                            />
+                        </div>
+                    )}
+                    <div class="post-content grow flex flex-col">
+                        <div class="font-mono text-sm text-indigo-300/80 mb-3">
                             {post.data.date
                                 ? new Date(post.data.date).toISOString().substring(0, 10)
                                 : post.id.substring(0, 10)}
                         </div>
-                        <h2 class="text-2xl m-0 leading-[1.4] font-bold">{post.data.title}</h2>
+                        <h2 class="text-xl m-0 leading-[1.4] font-bold mb-3">{post.data.title}</h2>
+                        {post.body && (
+                            <p class="text-sm text-zinc-400 line-clamp-3 leading-relaxed mt-auto">
+                                {post.body
+                                    .replace(/^#+.*$/gm, "")
+                                    .replace(/[*_]/g, "")
+                                    .trim()}
+                            </p>
+                        )}
                     </div>
                 </a>
             ))
