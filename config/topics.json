@@ -67,7 +67,6 @@
         "The Architecture and Performance Implications of Programmable Data Plane Interconnects (P4) for Hyperscale Microservices Mesh Optimization.",
         "CRISPR-Cas13 Based Antiviral Strategies: Engineering Sequence-Specific RNA Degradation for Pan-Viral Immunity.",
         "Optimizing multi-tenant isolation and resource fairness in a hyperscale Kubernetes control plane with thousands of clusters.",
-        "The architectural evolution of global distributed consensus mechanisms for petabyte-scale metadata stores across continental fault domains.",
         "Synthetic biology approaches to engineering enhanced viral vectors for precise in-vivo gene delivery and reduced immunogenicity.",
         "The Architectural Implications of Disaggregated Memory and Compute for Future Hyperscale Data Centers",
         "Achieving Global-Scale Strong Consistency in Geo-Distributed Databases: A Deep Dive into Conflict Resolution and Consensus Protocols",
@@ -93,6 +92,9 @@
         "Next-Generation mRNA Vaccine Platforms: Engineering Self-Replicating RNA and Novel Adjuvants for Enhanced Immunogenicity",
         "The Rise of Memory-Centric Architectures: Disaggregating Compute and Storage in Next-Gen Hyperscale Clouds",
         "Architecting for Causal Consistency in Geo-Distributed Transactional Databases: Beyond Traditional Consensus Protocols for Global Scale",
-        "CRISPR-Engineered Phage Lysins: A Novel Approach to Combatting Multi-Drug Resistant Bacterial Biofilms in Clinical Settings"
+        "CRISPR-Engineered Phage Lysins: A Novel Approach to Combatting Multi-Drug Resistant Bacterial Biofilms in Clinical Settings",
+        "Deconstructing Hyperscale Transactional Consistency: The role of geo-distributed consensus protocols and hybrid logical clocks in global cloud databases.",
+        "The Cambrian Explosion of Data Planes: eBPF, P4, and the programmable infrastructure powering next-gen cloud networking at petabit scale.",
+        "Engineering CRISPR-Based Antiviral Systems: Designing programmable nuclease platforms for rapid, broad-spectrum viral inhibition and diagnostics."
     ]
 }
