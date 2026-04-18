@@ -1,34 +1,50 @@
 {
-  "name": "the-architects-blueprint",
-  "version": "1.0.0",
-  "description": "The Architect's Blueprint - Technologies and Infrastructure News",
-  "main": "index.js",
-  "scripts": {
-    "start": "tsx --env-file=.env scripts/the-architects-blueprint.ts",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev:web": "pnpm --filter web run dev",
-    "build:web": "pnpm --filter web run build",
-    "preview:web": "pnpm --filter web run preview"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jorgeadev/the-architects-blueprint.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "MIT",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/jorgeadev/the-architects-blueprint/issues"
-  },
-  "homepage": "https://github.com/jorgeadev/the-architects-blueprint#readme",
-  "devDependencies": {
-    "@types/jsonwebtoken": "9.0.10",
-    "@types/node": "25.6.0",
-    "tsx": "4.21.0",
-    "typescript": "6.0.2"
-  },
-  "dependencies": {
-    "@google/generative-ai": "0.24.1"
-  }
+    "name": "the-architects-blueprint",
+    "version": "1.0.0",
+    "engines": {
+        "node": ">=24.0.0"
+    },
+    "description": "The Architect's Blueprint - Technologies and Infrastructure News",
+    "main": "index.js",
+    "scripts": {
+        "start": "tsx --env-file=.env scripts/the-architects-blueprint.ts",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev:web": "pnpm --filter web run dev",
+        "build:web": "pnpm --filter web run build",
+        "preview:web": "pnpm --filter web run preview",
+        "prepare": "husky"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jorgeadev/the-architects-blueprint.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "type": "commonjs",
+    "bugs": {
+        "url": "https://github.com/jorgeadev/the-architects-blueprint/issues"
+    },
+    "homepage": "https://github.com/jorgeadev/the-architects-blueprint#readme",
+    "lint-staged": {
+        "*.{js,ts,mjs,cjs,astro}": "eslint --fix",
+        "*.{js,ts,mjs,cjs,astro,json,css,md}": "prettier --write"
+    },
+    "devDependencies": {
+        "@types/jsonwebtoken": "9.0.10",
+        "@types/node": "25.6.0",
+        "@typescript-eslint/eslint-plugin": "8.58.2",
+        "@typescript-eslint/parser": "8.58.2",
+        "eslint": "10.2.1",
+        "eslint-plugin-astro": "1.7.0",
+        "husky": "9.1.7",
+        "lint-staged": "16.4.0",
+        "prettier": "3.8.3",
+        "prettier-plugin-astro": "0.14.1",
+        "tsx": "4.21.0",
+        "typescript": "6.0.2"
+    },
+    "dependencies": {
+        "@google/generative-ai": "0.24.1"
+    }
 }
