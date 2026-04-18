@@ -93,7 +93,6 @@
         "Deconstructing Hyperscale Transactional Consistency: The role of geo-distributed consensus protocols and hybrid logical clocks in global cloud databases.",
         "The Cambrian Explosion of Data Planes: eBPF, P4, and the programmable infrastructure powering next-gen cloud networking at petabit scale.",
         "Engineering CRISPR-Based Antiviral Systems: Designing programmable nuclease platforms for rapid, broad-spectrum viral inhibition and diagnostics.",
-        "Distributed Consensus at Hyperscale: Architectural Trade-offs of Raft and Paxos in Cloud Control Planes.",
         "Beyond Sharding: Advanced Data Partitioning and Consistency Models in Global-Scale Petabyte Databases (e.g., Spanner, DynamoDB).",
         "Evolving Hyperscale Networks: The Interplay of Software-Defined Networking and BGP-EVPN for Inter-Datacenter Connectivity.",
         "Engineering Next-Gen mRNA Vaccines: Advancements in Lipid Nanoparticle Delivery Systems and Immunostimulatory Design.",
