@@ -101,7 +101,6 @@
         "Optimizing Serverless Cold Starts at Trillions of Invocations: Deep Dive into Hyperscale Resource Scheduling",
         "Global Messaging at Scale: Real-time Consistency Across Distributed Graph Databases for Billions",
         "Architecting Post-Quantum Cryptography Migrations for Hyperscale Cloud Infrastructure",
-        "Programmable Data Planes (P4) and SmartNICs: Revolutionizing Cloud Data Center Latency and Throughput",
         "Computational Genomics for Viral Vector Engineering: Predictive Design of Next-Gen Therapeutic Delivery Systems",
         "The Architectural Evolution of Hyperscale Data Center Networking from Clos to Advanced SDN Topologies",
         "Deep Dive into Amazon DynamoDB's Consistent Hashing and Replication Model for Exabyte-Scale Durability",
@@ -118,6 +117,9 @@
         "CRISPR-Dx to Pan-Antiviral Therapies: Engineering Programmable Nucleic Acid Tools for Rapid Pathogen Identification and Broad-Spectrum Inhibition",
         "Deconstructing the Global Request Router: How Meta's Sharded Load Balancer Handles 10 Billion Queries Per Second",
         "Beyond the Monolith: A Technical Deep Dive into ByteDance's Multi-Cloud Stateful Service Orchestration at Petabyte Scale",
-        "The Physics of Viral Propagation: Engineering the Sub-Second Edge Caching System Behind a Billion-View TikTok Trend"
+        "The Physics of Viral Propagation: Engineering the Sub-Second Edge Caching System Behind a Billion-View TikTok Trend",
+        "Deconstructing Meta's Threads: The Real-Time Fanout and State Synchronization Architecture at Instagram Scale",
+        "Beyond Sharding: Google's Next-Gen Spanner and the Physics of Globally Consistent, Low-Latency Databases",
+        "The Viral Calculus of TikTok's For You Page: Modeling Implicit Feedback Loops and Mitigating Cascade Failures During Super-Spike Events"
     ]
 }
