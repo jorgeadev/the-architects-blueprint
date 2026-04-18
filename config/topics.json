@@ -45,7 +45,6 @@
         "NASA's JPL cloud computing architecture: how they managed the telemetry data pipeline for the Mars Rover.",
         "The Linux Kernel maintainer network: how global infrastructure runs on a massively distributed open-source model.",
         "The engineering effort required to build and deploy Google’s customized Tensor Processing Units (TPUs) into data centers.",
-        "The logistics and engineering of Microsoft's massive fiber-optic network connecting global Azure regions.",
         "An deep dive into how AWS Nitro cards physically offload networking and storage from EC2 instances.",
         "Recent revolutionary advancements in WebAssembly (Wasm) and the hype around running backend services in the browser.",
         "The hype over Rust replacing C++ in foundational systems: reality, technical challenges, and major rewrites.",
@@ -91,6 +90,9 @@
         "CRISPR-CasX: Engineering novel non-integrating viral delivery vectors for high-specificity in-vivo genomic editing.",
         "Disaggregated Compute and Storage Architectures in Hyperscale Cloud Environments: Performance Implications and Future Trends",
         "Achieving Global Strong Consistency Across Geographically Distributed Datastores: A Deep Dive into Distributed Consensus Protocols Beyond Paxos",
-        "Next-Generation mRNA Vaccine Platforms: Engineering Self-Replicating RNA and Novel Adjuvants for Enhanced Immunogenicity"
+        "Next-Generation mRNA Vaccine Platforms: Engineering Self-Replicating RNA and Novel Adjuvants for Enhanced Immunogenicity",
+        "The Rise of Memory-Centric Architectures: Disaggregating Compute and Storage in Next-Gen Hyperscale Clouds",
+        "Architecting for Causal Consistency in Geo-Distributed Transactional Databases: Beyond Traditional Consensus Protocols for Global Scale",
+        "CRISPR-Engineered Phage Lysins: A Novel Approach to Combatting Multi-Drug Resistant Bacterial Biofilms in Clinical Settings"
     ]
 }
