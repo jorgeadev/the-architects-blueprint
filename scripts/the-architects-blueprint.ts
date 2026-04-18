@@ -137,7 +137,16 @@ function saveToDisk(content: string) {
     const fileName = `${titleSlug}.md`;
     const filePath = path.join(articlesDir, fileName);
 
-    fs.writeFileSync(filePath, content, 'utf8');
+    let finalContent = content;
+    if (titleMatch && titleMatch[1]) {
+        const frontmatterTitle = titleMatch[1].replace(/"/g, '\\"');
+        const dateMatch = fileName.match(/^(\d{4}-\d{2}-\d{2})/);
+        const dateString = dateMatch ? dateMatch[1] : '';
+        const frontmatter = `---\ntitle: "${frontmatterTitle}"\ndate: ${dateString}\n---\n\n`;
+        finalContent = frontmatter + content.replace(titleMatch[0], '');
+    }
+
+    fs.writeFileSync(filePath, finalContent, 'utf8');
     console.log(`\nSuccessfully saved thesis to: ${filePath}`);
 }
 

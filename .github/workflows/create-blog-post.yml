@@ -1,4 +1,4 @@
-name: "Daily Learning"
+name: "Create Blog Post"
 
 on:
   schedule:
@@ -31,8 +31,8 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - name: Run daily learning script
-        run: npx tsx scripts/daily-learning.ts
+      - name: Run content generation script
+        run: npx tsx scripts/the-architects-blueprint.ts
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
 
@@ -43,22 +43,22 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          if [[ -z $(git status -s articles/ config/topics.json) ]]; then
+          if [[ -z $(git status -s web/src/content/blog/ config/topics.json) ]]; then
             echo "No changes to commit"
             exit 0
           fi
 
-          BRANCH_NAME="daily-thesis-$(date +'%Y%m%d%H%M%S')"
+          BRANCH_NAME="auto-thesis-$(date +'%Y%m%d%H%M%S')"
           echo "BRANCH_NAME=$BRANCH_NAME" >> $GITHUB_ENV
           git checkout -b $BRANCH_NAME
 
-          git add articles/ config/topics.json
-          git commit -m "docs: auto-generate daily learning thesis and update topics pool [skip ci]"
+          git add web/src/content/blog/ config/topics.json
+          git commit -m "docs: auto-generate blueprint thesis and update topics pool [skip ci]"
           git push -u origin $BRANCH_NAME
 
           # Create PR
-          gh pr create --title "docs: auto-generate daily learning thesis [skip ci]" \
-                       --body "Automated daily learning thesis generation." \
+          gh pr create --title "docs: auto-generate blueprint thesis [skip ci]" \
+                       --body "Automated blueprint thesis generation." \
                        --base main \
                        --head $BRANCH_NAME
 
