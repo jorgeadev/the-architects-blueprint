@@ -33,7 +33,6 @@
     "Airbnb’s microservices migration: the challenges of decomposing a massive Ruby on Rails monolith.",
     "How Shopify scales its e-commerce infrastructure to handle massive traffic spikes during Black Friday and Cyber Monday.",
     "Tesla’s real-time connected car data pipeline: ingesting petabytes of autopilot training data seamlessly.",
-    "Robinhood’s high-frequency market data architecture: handling volatile stock surges with zero latency.",
     "Palantir’s data integration platform (Foundry): how they handle secure, petabyte-scale ontologies for governments.",
     "DeepMind’s distributed training infrastructure for AlphaFold: orchestration of thousands of GPUs.",
     "Doordash’s logistics engine: solving real-time traveling salesperson problems for millions of daily deliveries.",
@@ -89,6 +88,9 @@
     "Engineering Next-Gen CRISPR-Cas Diagnostics: Unleashing Ultrasensitive, Programmable Pathogen Detection",
     "Architecting exascale asynchronous data pipelines for real-time federated learning across global edge deployments.",
     "The convergence of optical computing and quantum networking in next-generation hyperscale data center interconnects.",
-    "CRISPR-CasX: Engineering novel non-integrating viral delivery vectors for high-specificity in-vivo genomic editing."
+    "CRISPR-CasX: Engineering novel non-integrating viral delivery vectors for high-specificity in-vivo genomic editing.",
+    "Disaggregated Compute and Storage Architectures in Hyperscale Cloud Environments: Performance Implications and Future Trends",
+    "Achieving Global Strong Consistency Across Geographically Distributed Datastores: A Deep Dive into Distributed Consensus Protocols Beyond Paxos",
+    "Next-Generation mRNA Vaccine Platforms: Engineering Self-Replicating RNA and Novel Adjuvants for Enhanced Immunogenicity"
   ]
 }
