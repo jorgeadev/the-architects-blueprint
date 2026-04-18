@@ -90,11 +90,11 @@ Requirements for the blog post:
     return await generateWithRetry(prompt);
 }
 
-async function generateNewTopics(): Promise<string[]> {
+async function generateNewTopics(amount: number): Promise<string[]> {
     const prompt = `
-Generate exactly 3 brand new, highly technical blog post topics about big tech infrastructure, massive scale systems architecture, or viral engineering news.
+Generate exactly ${amount} brand new, highly technical blog post topics about big tech infrastructure, massive scale systems architecture, or viral engineering news.
 DO NOT output any markdown formatting, text, or explanations. 
-Output ONLY a raw JSON array of 3 strings. Example format:
+Output ONLY a raw JSON array of ${amount} strings. Example format:
 [
   "The architecture behind...",
   "An in-depth analysis of...",
@@ -102,7 +102,7 @@ Output ONLY a raw JSON array of 3 strings. Example format:
 ]
 `;
 
-    console.log("Generating 3 new topics to replenish the pool...");
+    console.log(`Generating ${amount} new topics to replenish the pool...`);
     let text = "";
     try {
         text = await generateWithRetry(prompt);
@@ -117,7 +117,7 @@ Output ONLY a raw JSON array of 3 strings. Example format:
         if (start !== -1 && end !== -1) {
             const jsonText = text.substring(start, end + 1);
             const parsed = JSON.parse(jsonText);
-            if (Array.isArray(parsed) && parsed.length === 3) {
+            if (Array.isArray(parsed) && parsed.length > 0) {
                 return parsed;
             }
         }
@@ -174,23 +174,28 @@ async function run() {
         const randomTopic = topics[randomIndex];
         console.log(`Selected topic: ${randomTopic}`);
 
+        topics.splice(randomIndex, 1);
+
+        // Infinite topic generation
+        const amountToGenerate = topics.length < 20 ? 10 : 5;
+        const newTopics = await generateNewTopics(amountToGenerate);
+
+        if (newTopics.length > 0) {
+            topics.push(...newTopics);
+            fs.writeFileSync(configPath, JSON.stringify({ topics }, null, 2), "utf8");
+            console.log(
+                `Successfully rotated topics. Deducted 1, added ${newTopics.length}. Total topics in pool: ${topics.length}`
+            );
+        } else {
+            console.log(
+                "Skipping topic rotation because AI failed to generate valid JSON or rate limited."
+            );
+        }
+
         const content = await generateContent(randomTopic);
         console.log(content.substring(0, 1500) + "\n\n... [TRUNCATED] ...\n");
 
         saveToDisk(content);
-
-        // Infinite topic generation
-        const newTopics = await generateNewTopics();
-        if (newTopics.length > 0) {
-            topics.splice(randomIndex, 1);
-            topics.push(...newTopics);
-            fs.writeFileSync(configPath, JSON.stringify({ topics }, null, 2), "utf8");
-            console.log(
-                `Successfully rotated topics. Deducted 1, added 3. Total topics in pool: ${topics.length}`
-            );
-        } else {
-            console.log("Skipping topic rotation because AI failed to generate valid JSON.");
-        }
 
         console.log("The Architect's Blueprint workflow completed.");
     } catch (e) {
