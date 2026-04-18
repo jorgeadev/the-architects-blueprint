@@ -90,7 +90,6 @@
         "Deconstructing Hyperscale Transactional Consistency: The role of geo-distributed consensus protocols and hybrid logical clocks in global cloud databases.",
         "The Cambrian Explosion of Data Planes: eBPF, P4, and the programmable infrastructure powering next-gen cloud networking at petabit scale.",
         "Engineering CRISPR-Based Antiviral Systems: Designing programmable nuclease platforms for rapid, broad-spectrum viral inhibition and diagnostics.",
-        "Beyond Sharding: Advanced Data Partitioning and Consistency Models in Global-Scale Petabyte Databases (e.g., Spanner, DynamoDB).",
         "Evolving Hyperscale Networks: The Interplay of Software-Defined Networking and BGP-EVPN for Inter-Datacenter Connectivity.",
         "Engineering Next-Gen mRNA Vaccines: Advancements in Lipid Nanoparticle Delivery Systems and Immunostimulatory Design.",
         "CXL 3.0 and Disaggregated Memory Pooling: Architecting the Next Generation of Hyperscale Data Center Resource Utilization",
@@ -122,6 +121,9 @@
         "The Viral Calculus of TikTok's For You Page: Modeling Implicit Feedback Loops and Mitigating Cascade Failures During Super-Spike Events",
         "Deconstructing Meta's Threads: The Real-Time Graph Sync Architecture at Planetary Scale",
         "Beyond Kubernetes: The Rise of MicroVM-Based Serverless Orchestration for Stateful Workloads",
-        "The Physics of Viral Spread: Modeling and Engineering Contagion Dynamics in Social Feeds"
+        "The Physics of Viral Spread: Modeling and Engineering Contagion Dynamics in Social Feeds",
+        "The Unspoken Trade-offs of Global Anycast: A Deep Dive into TCP Meltdowns and Geo-aware Load Balancing",
+        "Beyond Sharding: Implementing Distributed SQL with True Serializability at Petabyte Scale",
+        "Reverse Engineering the Edge: Dissecting the Hardware and Protocol Stack of a Major CDN's Next-Gen POPs"
     ]
 }
