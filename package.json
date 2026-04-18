@@ -7,7 +7,7 @@
     "description": "The Architect's Blueprint - Technologies and Infrastructure News",
     "main": "index.js",
     "scripts": {
-        "start": "tsx --env-file=.env scripts/orchestrator.ts",
+        "start": "tsx scripts/orchestrator.ts",
         "generate:topics": "tsx --env-file=.env scripts/.old/generate-topics.ts",
         "generate:images": "tsx --env-file=.env scripts/backfill-images.ts",
         "test": "echo \"Error: no test specified\" && exit 1",

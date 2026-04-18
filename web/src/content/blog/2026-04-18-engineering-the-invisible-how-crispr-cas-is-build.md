@@ -1,4 +1,5 @@
 ---
+image: "/images/2026-04-18-engineering-the-invisible-how-crispr-cas-is-build.jpg"
 title: "Engineering the Invisible: How CRISPR-Cas is Building the Ultrasensitive Pathogen Detectives of Tomorrow"
 date: 2026-04-18
 ---

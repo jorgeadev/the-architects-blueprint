@@ -17,7 +17,6 @@
         "Stripe’s real-time ledger infrastructure: how they ensure 100% financial consistency at massive scale.",
         "TikTok’s recommendation algorithm infrastructure: serving ultra-personalized videos to over a billion users.",
         "Dropbox’s migration from AWS to their custom physical infrastructure (Magic Pocket).",
-        "Spotify’s Event Delivery system: processing billions of user listens per day for real-time analytics.",
         "Discord’s real-time messaging architecture: handling trillions of messages utilizing Cassandra and Rust.",
         "Cloudflare’s Edge computing architecture: how Workers deploy code to hundreds of data centers in milliseconds.",
         "AWS DynamoDB under the hood: how Amazon scales a NoSQL database seamlessly across regions.",
@@ -116,6 +115,9 @@
         "Optimizing Cross-Continental Data Egress Costs and Latency with Programmable Data Planes and Smart Caching Topologies",
         "Stateless Compute and Programmable Data Plane: Architecting Hyperscale Analytics with P4 and DPUs for Real-time Decisioning",
         "Next-Gen Optical Networks: Leveraging Coherent Optics and AI-Driven Wavelength Routing for Exascale Cloud Interconnects",
-        "CRISPR-Dx to Pan-Antiviral Therapies: Engineering Programmable Nucleic Acid Tools for Rapid Pathogen Identification and Broad-Spectrum Inhibition"
+        "CRISPR-Dx to Pan-Antiviral Therapies: Engineering Programmable Nucleic Acid Tools for Rapid Pathogen Identification and Broad-Spectrum Inhibition",
+        "Deconstructing the Global Request Router: How Meta's Sharded Load Balancer Handles 10 Billion Queries Per Second",
+        "Beyond the Monolith: A Technical Deep Dive into ByteDance's Multi-Cloud Stateful Service Orchestration at Petabyte Scale",
+        "The Physics of Viral Propagation: Engineering the Sub-Second Edge Caching System Behind a Billion-View TikTok Trend"
     ]
 }
