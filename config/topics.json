@@ -40,7 +40,6 @@
         "Grab's super-app architecture: handling ride-hailing, food delivery, and payments across Southeast Asia.",
         "NASA's JPL cloud computing architecture: how they managed the telemetry data pipeline for the Mars Rover.",
         "The Linux Kernel maintainer network: how global infrastructure runs on a massively distributed open-source model.",
-        "The engineering effort required to build and deploy Google’s customized Tensor Processing Units (TPUs) into data centers.",
         "An deep dive into how AWS Nitro cards physically offload networking and storage from EC2 instances.",
         "Recent revolutionary advancements in WebAssembly (Wasm) and the hype around running backend services in the browser.",
         "The hype over Rust replacing C++ in foundational systems: reality, technical challenges, and major rewrites.",
@@ -132,6 +131,9 @@
         "Postmortem of a Cascading Failure: Analyzing the Thermodynamic Limits of Hyperscale Data Center Cooling",
         "The Architectural Paradigm Shift: Implementing Disaggregated Storage and Compute for Hyperscale AI Training Clusters.",
         "Engineering Global Consistency: Distributed Tracing and Observability for Eventual Consistency Models in Planet-Scale Databases.",
-        "Beyond Natural Tropism: Engineering Synthetic Viral Vectors for Targeted Organ Delivery in Advanced Gene Therapies."
+        "Beyond Natural Tropism: Engineering Synthetic Viral Vectors for Targeted Organ Delivery in Advanced Gene Therapies.",
+        "The Engineering Challenges of Disaggregated Compute and Memory Architectures for Petabyte-Scale AI Model Training",
+        "Achieving Strong Consistency at Global Scale: A Deep Dive into Distributed Consensus Protocols for Hyperscale Database Systems",
+        "Advanced Viral Vector Design: Engineering Enhanced Tropism and Reduced Immunogenicity in Next-Generation Gene Therapies"
     ]
 }
