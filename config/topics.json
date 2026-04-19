@@ -117,7 +117,6 @@
         "The Physics of Viral Propagation: Engineering the Sub-Second Edge Caching System Behind a Billion-View TikTok Trend",
         "Deconstructing Meta's Threads: The Real-Time Fanout and State Synchronization Architecture at Instagram Scale",
         "Beyond Sharding: Google's Next-Gen Spanner and the Physics of Globally Consistent, Low-Latency Databases",
-        "The Viral Calculus of TikTok's For You Page: Modeling Implicit Feedback Loops and Mitigating Cascade Failures During Super-Spike Events",
         "Deconstructing Meta's Threads: The Real-Time Graph Sync Architecture at Planetary Scale",
         "Beyond Kubernetes: The Rise of MicroVM-Based Serverless Orchestration for Stateful Workloads",
         "The Physics of Viral Spread: Modeling and Engineering Contagion Dynamics in Social Feeds",
@@ -128,6 +127,9 @@
         "The Physics of Cooling: How Hyperscalers are Designing Direct-to-Chip Two-Phase Immersion Systems for 100kW+ Racks",
         "The Unspoken Trade-offs of Multi-Region Active-Active Architectures for Petabyte-Scale Data Stores",
         "Beyond Kubernetes: The Rise of the Cell-Based Architecture for Global Compute Orchestration",
-        "Dissecting the 'Read-After-Write' Consistency Crisis in Modern, Globally-Distributed Social Graphs"
+        "Dissecting the 'Read-After-Write' Consistency Crisis in Modern, Globally-Distributed Social Graphs",
+        "The Unspoken Trade-offs of Multi-Region Active-Active Architectures: Beyond the 11 Nines",
+        "Deconstructing the Data Mesh: Implementing Federated Computational Governance at Petabyte Scale",
+        "Postmortem of a Cascading Failure: Analyzing the Thermodynamic Limits of Hyperscale Data Center Cooling"
     ]
 }
