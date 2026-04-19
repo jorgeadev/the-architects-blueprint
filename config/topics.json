@@ -22,7 +22,6 @@
         "AWS DynamoDB under the hood: how Amazon scales a NoSQL database seamlessly across regions.",
         "Reddit’s handling of immense traffic spikes during viral world events or massive AMAs.",
         "Pinterest’s machine learning infrastructure: how they serve visually similar image matches in real-time.",
-        "GitHub’s database migration strategy: moving terabytes of operational data with zero downtime.",
         "Slack’s transition to a modern real-time architecture to reduce client CPU usage and handle massive channels.",
         "Epic Games' Unreal Engine multiplayer infrastructure: scaling Fortnite backend for millions of concurrent users.",
         "Google’s Spanner distributed database: solving the speed of light problem with TrueTime and atomic clocks.",
@@ -126,6 +125,9 @@
         "Beyond Sharding: Implementing Distributed SQL with True Serializability at Petabyte Scale",
         "Deconstructing Meta's Threads: The Real-Time Feed Architecture for 100M+ Users on Day One",
         "Beyond Kubernetes: The Rise of WebAssembly-Based Orchestration for Heterogeneous Edge Compute",
-        "The Physics of Cooling: How Hyperscalers are Designing Direct-to-Chip Two-Phase Immersion Systems for 100kW+ Racks"
+        "The Physics of Cooling: How Hyperscalers are Designing Direct-to-Chip Two-Phase Immersion Systems for 100kW+ Racks",
+        "The Unspoken Trade-offs of Multi-Region Active-Active Architectures for Petabyte-Scale Data Stores",
+        "Beyond Kubernetes: The Rise of the Cell-Based Architecture for Global Compute Orchestration",
+        "Dissecting the 'Read-After-Write' Consistency Crisis in Modern, Globally-Distributed Social Graphs"
     ]
 }
