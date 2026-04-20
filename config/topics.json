@@ -115,7 +115,6 @@
         "Deconstructing Meta's Threads: The Real-Time Fanout and State Synchronization Architecture at Instagram Scale",
         "Beyond Sharding: Google's Next-Gen Spanner and the Physics of Globally Consistent, Low-Latency Databases",
         "Deconstructing Meta's Threads: The Real-Time Graph Sync Architecture at Planetary Scale",
-        "Beyond Kubernetes: The Rise of MicroVM-Based Serverless Orchestration for Stateful Workloads",
         "The Physics of Viral Spread: Modeling and Engineering Contagion Dynamics in Social Feeds",
         "The Unspoken Trade-offs of Global Anycast: A Deep Dive into TCP Meltdowns and Geo-aware Load Balancing",
         "Beyond Sharding: Implementing Distributed SQL with True Serializability at Petabyte Scale",
@@ -136,6 +135,9 @@
         "Advanced Viral Vector Design: Engineering Enhanced Tropism and Reduced Immunogenicity in Next-Generation Gene Therapies",
         "The Technical Architecture Behind Scaling Foundational AI Models to Trillion-Parameter Complexity",
         "Decoupling Compute and Memory at Hyperscale: Engineering Disaggregated Data Centers for Future Workloads",
-        "Engineering Predictive Genomics: Building Real-time Distributed Systems for Global Viral Surveillance"
+        "Engineering Predictive Genomics: Building Real-time Distributed Systems for Global Viral Surveillance",
+        "Deconstructing the Global Request Router: How Meta's Sharded Edge Network Handles 10M+ QPS with Sub-Millisecond Latency",
+        "Beyond Kubernetes: The Rise of Cell-Based Architectures for Planetary-Scale Compute at Google and Amazon",
+        "The Viral Engineering Playbook: Reverse-Engineering the Real-Time Synchronization Stack Behind Collaborative Features in Figma and Notion"
     ]
 }
