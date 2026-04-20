@@ -65,7 +65,6 @@
         "Achieving Global-Scale Strong Consistency in Geo-Distributed Databases: A Deep Dive into Conflict Resolution and Consensus Protocols",
         "The Engineering of Multi-Modal, Multi-Agent AI Systems: Towards Emergent Behavior and Real-World Interaction",
         "Disaggregated Memory Architectures and CXL's Role in Scaling Hyperscale AI Model Training Clusters",
-        "Eventual Consistency Reimagined: Advanced Conflict-Free Replicated Datatypes (CRDTs) for Global Scale Geo-Distributed State Management",
         "CRISPR-Cas System Engineering for Phage-Based Antimicrobial Resistance Mitigation: A Synthetic Biology Approach",
         "The architectural paradigm shift for exascale multi-modal AI model training: focusing on next-gen interconnects and distributed memory coherence.",
         "Deep dive into maintaining strong temporal consistency across globally distributed, eventually consistent transactional databases: challenges and novel solutions.",
@@ -138,6 +137,9 @@
         "Engineering Predictive Genomics: Building Real-time Distributed Systems for Global Viral Surveillance",
         "Deconstructing the Global Request Router: How Meta's Sharded Edge Network Handles 10M+ QPS with Sub-Millisecond Latency",
         "Beyond Kubernetes: The Rise of Cell-Based Architectures for Planetary-Scale Compute at Google and Amazon",
-        "The Viral Engineering Playbook: Reverse-Engineering the Real-Time Synchronization Stack Behind Collaborative Features in Figma and Notion"
+        "The Viral Engineering Playbook: Reverse-Engineering the Real-Time Synchronization Stack Behind Collaborative Features in Figma and Notion",
+        "Dissecting the Global Edge: A Technical Deep Dive into Meta's Next-Generation CDN and Cache Invalidation at Petabyte Scale",
+        "Beyond the Monolith: Architectural Patterns for Multi-Region, Active-Active Databases in Hyperscale FinTech Systems",
+        "Engineering for Virality: The Real-Time Infrastructure and Algorithms Powering TikTok's 'For You' Feed During Global Events"
     ]
 }
