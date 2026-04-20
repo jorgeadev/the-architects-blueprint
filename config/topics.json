@@ -45,7 +45,6 @@
         "The hype over Rust replacing C++ in foundational systems: reality, technical challenges, and major rewrites.",
         "Analyzing a viral catastrophic Git/GitHub outage: the cascading failure and post-mortem analysis.",
         "A recent hype cycle on a major JavaScript meta-framework release: what new architectural patterns does it actually solve?",
-        "The massive impact of a recent viral AI open-source model release and how developers are hosting it locally.",
         "The rise of edge AI inference: analyzing the hype of running LLMs directly on smartphones and local IoT devices.",
         "The viral adoption of eBPF for networking and observability: what it means for the future of Linux kernels.",
         "An in-depth look at bun.js vs Node.js vs Deno: the hype, the benchmarks, and the architectural differences.",
@@ -134,6 +133,9 @@
         "Beyond Natural Tropism: Engineering Synthetic Viral Vectors for Targeted Organ Delivery in Advanced Gene Therapies.",
         "The Engineering Challenges of Disaggregated Compute and Memory Architectures for Petabyte-Scale AI Model Training",
         "Achieving Strong Consistency at Global Scale: A Deep Dive into Distributed Consensus Protocols for Hyperscale Database Systems",
-        "Advanced Viral Vector Design: Engineering Enhanced Tropism and Reduced Immunogenicity in Next-Generation Gene Therapies"
+        "Advanced Viral Vector Design: Engineering Enhanced Tropism and Reduced Immunogenicity in Next-Generation Gene Therapies",
+        "The Technical Architecture Behind Scaling Foundational AI Models to Trillion-Parameter Complexity",
+        "Decoupling Compute and Memory at Hyperscale: Engineering Disaggregated Data Centers for Future Workloads",
+        "Engineering Predictive Genomics: Building Real-time Distributed Systems for Global Viral Surveillance"
     ]
 }
