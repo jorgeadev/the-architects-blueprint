@@ -100,7 +100,6 @@
         "CRISPR-Cas System Engineering for Next-Generation Antiviral Therapies: Delivery Mechanisms and Off-Target Mitigation Strategies",
         "Designing and Deploying Global Load Balancing for Billions of Requests: From DNS-Based to Anycast Architectures",
         "The Engineering Challenges of Maintaining Strong Global Consistency in Hyperscale Distributed Transactional Databases",
-        "The Interplay of Infiniband, NVMe-oF, and Custom Accelerators in Hyperscale AI Training Clusters",
         "Proactive Failure Domain Isolation and Dependency Modeling in Multi-Region Hyperscale Infrastructure Deployments",
         "Computational Design and Large-Scale Synthesis Pipelines for Novel Oncolytic Virotherapy Agents",
         "Stateless Compute and Programmable Data Plane: Architecting Hyperscale Analytics with P4 and DPUs for Real-time Decisioning",
@@ -144,6 +143,9 @@
         "Real-time Metagenomic Data Processing at Petabyte Scale: Architectural Patterns for Pathogen Detection and Environmental Sensing",
         "Deconstructing Meta's Threads: The Real-Time Synchronization and State Reconciliation Engine at 100M+ Users",
         "Beyond the Shard: Google's Next-Gen Spanner and the Physics-Limits of Globally Consistent, Planet-Scale Databases",
-        "The Unseen Cost of Virality: A Technical Post-Mortem of the AI Image Generator Stampede and Its Cascading Cloud Failures"
+        "The Unseen Cost of Virality: A Technical Post-Mortem of the AI Image Generator Stampede and Its Cascading Cloud Failures",
+        "Global distributed consensus at scale: Architecting strongly consistent multi-region transactional systems for petabyte-scale data.",
+        "Custom silicon and AI infrastructure: A deep dive into the hardware-software co-design for hyperscale deep learning accelerators (e.g., TPUs, Inferentia).",
+        "Engineering mRNA platforms for personalized medicine: Scalable manufacturing and delivery architectures for next-generation cancer immunotherapies."
     ]
 }
