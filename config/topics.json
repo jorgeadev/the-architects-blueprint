@@ -75,7 +75,6 @@
         "Sub-Millisecond Cross-Continental Consistency: Deep Dive into Replicated State Machines for Real-time Financial Systems",
         "Architecting exascale asynchronous data pipelines for real-time federated learning across global edge deployments.",
         "CRISPR-CasX: Engineering novel non-integrating viral delivery vectors for high-specificity in-vivo genomic editing.",
-        "Achieving Global Strong Consistency Across Geographically Distributed Datastores: A Deep Dive into Distributed Consensus Protocols Beyond Paxos",
         "Next-Generation mRNA Vaccine Platforms: Engineering Self-Replicating RNA and Novel Adjuvants for Enhanced Immunogenicity",
         "The Rise of Memory-Centric Architectures: Disaggregating Compute and Storage in Next-Gen Hyperscale Clouds",
         "Architecting for Causal Consistency in Geo-Distributed Transactional Databases: Beyond Traditional Consensus Protocols for Global Scale",
@@ -148,6 +147,9 @@
         "Engineering mRNA platforms for personalized medicine: Scalable manufacturing and delivery architectures for next-generation cancer immunotherapies.",
         "Deconstructing the Global Request Router: How Meta's Edge Network Handles 10 Trillion Queries Per Day",
         "Beyond Kubernetes: The Unconventional Orchestration Systems Powering Hyperscale AI Training Clusters",
-        "Postmortem Analysis of the 2024 Multi-Cloud DNS Cascade: Engineering Lessons from a Global Resolution Failure"
+        "Postmortem Analysis of the 2024 Multi-Cloud DNS Cascade: Engineering Lessons from a Global Resolution Failure",
+        "The Engineering Challenges of Maintaining Global Consensus in Hyperscale Distributed Transactional Databases",
+        "Federated Learning at Hyperscale: Architectural Patterns for Privacy-Preserving Model Training Across Disparate Datasets",
+        "Engineering Next-Generation Oncolytic Viruses: Targeted Delivery Mechanisms and Immunomodulatory Enhancements for Cancer Therapy"
     ]
 }
