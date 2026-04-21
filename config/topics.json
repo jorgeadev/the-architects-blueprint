@@ -65,7 +65,6 @@
         "Achieving Global-Scale Strong Consistency in Geo-Distributed Databases: A Deep Dive into Conflict Resolution and Consensus Protocols",
         "The Engineering of Multi-Modal, Multi-Agent AI Systems: Towards Emergent Behavior and Real-World Interaction",
         "Disaggregated Memory Architectures and CXL's Role in Scaling Hyperscale AI Model Training Clusters",
-        "CRISPR-Cas System Engineering for Phage-Based Antimicrobial Resistance Mitigation: A Synthetic Biology Approach",
         "The architectural paradigm shift for exascale multi-modal AI model training: focusing on next-gen interconnects and distributed memory coherence.",
         "Deep dive into maintaining strong temporal consistency across globally distributed, eventually consistent transactional databases: challenges and novel solutions.",
         "Engineering high-fidelity, high-throughput synthetic biology platforms for rapid, adaptive vaccine prototyping and production against emerging pathogens.",
@@ -140,6 +139,9 @@
         "The Viral Engineering Playbook: Reverse-Engineering the Real-Time Synchronization Stack Behind Collaborative Features in Figma and Notion",
         "Dissecting the Global Edge: A Technical Deep Dive into Meta's Next-Generation CDN and Cache Invalidation at Petabyte Scale",
         "Beyond the Monolith: Architectural Patterns for Multi-Region, Active-Active Databases in Hyperscale FinTech Systems",
-        "Engineering for Virality: The Real-Time Infrastructure and Algorithms Powering TikTok's 'For You' Feed During Global Events"
+        "Engineering for Virality: The Real-Time Infrastructure and Algorithms Powering TikTok's 'For You' Feed During Global Events",
+        "The Architectural Challenges and Optimizations of Multi-Tenant, Hyperscale GPU Clusters for Foundation Model Training",
+        "Beyond Raft and Paxos: Engineering Global Consistency in Cloud-Native Distributed Transactional Databases",
+        "Real-time Metagenomic Data Processing at Petabyte Scale: Architectural Patterns for Pathogen Detection and Environmental Sensing"
     ]
 }
