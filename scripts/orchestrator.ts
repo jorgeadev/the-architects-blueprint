@@ -121,7 +121,7 @@ I have a blog post about "${randomTopic}". Here is a snippet of its actual conte
 ${content.substring(0, 2000)}...
 """
 
-Based on the actual nuances and metaphors discussed in this content, write a short, highly descriptive image generation prompt (max 60 words). 
+Based on the actual nuances and metaphors discussed in this content, write a short, highly descriptive image generation prompt (max 260 words). 
 CRITICAL RULES:
 1. Do not include any text, letters, or words in the generated image. 
 2. Be extremely creative and abstract. Do NOT just use "server rooms" or "glowing nodes" every time. 
