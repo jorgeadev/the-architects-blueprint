@@ -105,7 +105,6 @@
         "Stateless Compute and Programmable Data Plane: Architecting Hyperscale Analytics with P4 and DPUs for Real-time Decisioning",
         "Next-Gen Optical Networks: Leveraging Coherent Optics and AI-Driven Wavelength Routing for Exascale Cloud Interconnects",
         "CRISPR-Dx to Pan-Antiviral Therapies: Engineering Programmable Nucleic Acid Tools for Rapid Pathogen Identification and Broad-Spectrum Inhibition",
-        "Deconstructing the Global Request Router: How Meta's Sharded Load Balancer Handles 10 Billion Queries Per Second",
         "Beyond the Monolith: A Technical Deep Dive into ByteDance's Multi-Cloud Stateful Service Orchestration at Petabyte Scale",
         "The Physics of Viral Propagation: Engineering the Sub-Second Edge Caching System Behind a Billion-View TikTok Trend",
         "Deconstructing Meta's Threads: The Real-Time Fanout and State Synchronization Architecture at Instagram Scale",
@@ -146,6 +145,9 @@
         "The Unseen Cost of Virality: A Technical Post-Mortem of the AI Image Generator Stampede and Its Cascading Cloud Failures",
         "Global distributed consensus at scale: Architecting strongly consistent multi-region transactional systems for petabyte-scale data.",
         "Custom silicon and AI infrastructure: A deep dive into the hardware-software co-design for hyperscale deep learning accelerators (e.g., TPUs, Inferentia).",
-        "Engineering mRNA platforms for personalized medicine: Scalable manufacturing and delivery architectures for next-generation cancer immunotherapies."
+        "Engineering mRNA platforms for personalized medicine: Scalable manufacturing and delivery architectures for next-generation cancer immunotherapies.",
+        "Deconstructing the Global Request Router: How Meta's Edge Network Handles 10 Trillion Queries Per Day",
+        "Beyond Kubernetes: The Unconventional Orchestration Systems Powering Hyperscale AI Training Clusters",
+        "Postmortem Analysis of the 2024 Multi-Cloud DNS Cascade: Engineering Lessons from a Global Resolution Failure"
     ]
 }
