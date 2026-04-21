@@ -53,6 +53,7 @@ CRITICAL RULES:
 Only return the raw prompt text.`;
 
             console.log("   -> Generating AI prompt context...");
+            console.log("Prompt sent to image generator:\n" + imagePromptPrompt);
             const imagePromptRaw = await generateWithRetry(imagePromptPrompt);
             const imagePrompt = imagePromptRaw.replace(/\n/g, " ").trim();
             const randomSeed = Math.floor(Math.random() * 10000000);

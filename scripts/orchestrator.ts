@@ -128,8 +128,10 @@ CRITICAL RULES:
 3. Invent unique visual metaphors deeply related to the specific topic and content (e.g. quantum mechanics, futuristic cities, vast crystalline networks, surreal circuitry landscapes). 
 4. Pick a completely random distinct artistic style (e.g. synthwave, flat vector, hyperrealistic 3d render, cinematic lighting, cyberpunk, minimalistic abstract).
 Only return the raw prompt text.`;
+            console.log("Prompt sent to image generator:\n" + imagePromptPrompt);
             console.log("Generating AI image prompt...");
             const imagePromptRaw = await generateWithRetry(imagePromptPrompt);
+            console.log("Processed image prompt:\n" + imagePromptRaw);
             const imagePrompt = imagePromptRaw.replace(/\n/g, " ").trim();
             const randomSeed = Math.floor(Math.random() * 10000000);
             const imageUrl = `https://image.pollinations.ai/prompt/${encodeURIComponent(imagePrompt)}?width=1200&height=630&nologo=true&seed=${randomSeed}`;
