@@ -28,7 +28,6 @@
         "Zoom’s video routing architecture and scaling their network backbone unexpectedly during the pandemic.",
         "How Shopify scales its e-commerce infrastructure to handle massive traffic spikes during Black Friday and Cyber Monday.",
         "Tesla’s real-time connected car data pipeline: ingesting petabytes of autopilot training data seamlessly.",
-        "DeepMind’s distributed training infrastructure for AlphaFold: orchestration of thousands of GPUs.",
         "Doordash’s logistics engine: solving real-time traveling salesperson problems for millions of daily deliveries.",
         "Telegram’s proprietary MTProto protocol and their incredibly lean server architecture.",
         "Riot Games’ League of Legends global matchmaking and low-latency game server infrastructure.",
@@ -154,6 +153,9 @@
         "Postmortem Analysis of the Cascading Failure in a Multi-Region Serverless Platform During a Coordinated Cyber Attack",
         "Leveraging eBPF for dynamic network observability and intelligent traffic steering in hyperscale cloud environments.",
         "Multi-modal foundation model inference at planetary scale: architectural challenges in GPU orchestration and low-latency serving.",
-        "Synthetic biology's frontier: engineering novel viral capsids for enhanced gene therapy delivery and immunogenicity control."
+        "Synthetic biology's frontier: engineering novel viral capsids for enhanced gene therapy delivery and immunogenicity control.",
+        "The Unspoken Trade-offs of Global Active-Active Database Architectures at Petabyte Scale",
+        "Dissecting the Hardware-Software Co-Design of Modern AI Hyperclusters: Beyond Just More GPUs",
+        "Postmortem Analysis of the Cascading Failure in a Major CDN's Anycast Routing During a Global Sporting Event"
     ]
 }
