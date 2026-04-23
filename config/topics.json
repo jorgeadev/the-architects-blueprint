@@ -120,7 +120,6 @@
         "Engineering Global Consistency: Distributed Tracing and Observability for Eventual Consistency Models in Planet-Scale Databases.",
         "Beyond Natural Tropism: Engineering Synthetic Viral Vectors for Targeted Organ Delivery in Advanced Gene Therapies.",
         "The Engineering Challenges of Disaggregated Compute and Memory Architectures for Petabyte-Scale AI Model Training",
-        "Achieving Strong Consistency at Global Scale: A Deep Dive into Distributed Consensus Protocols for Hyperscale Database Systems",
         "Advanced Viral Vector Design: Engineering Enhanced Tropism and Reduced Immunogenicity in Next-Generation Gene Therapies",
         "The Technical Architecture Behind Scaling Foundational AI Models to Trillion-Parameter Complexity",
         "Decoupling Compute and Memory at Hyperscale: Engineering Disaggregated Data Centers for Future Workloads",
@@ -160,6 +159,9 @@
         "Synthetic virology for targeted oncolytic therapies: Overcoming tumor microenvironment barriers and immunogenicity challenges.",
         "Hyperscale Photonic Interconnects for AI Superclusters: Overcoming Electrical Bottlenecks",
         "Leveraging eBPF for Hyperscale Network Observability and Security in Cloud-Native Environments",
-        "Architecting AAV Capsids for Enhanced Tissue Tropism and Reduced Immunogenicity in Gene Therapy Delivery"
+        "Architecting AAV Capsids for Enhanced Tissue Tropism and Reduced Immunogenicity in Gene Therapy Delivery",
+        "The architectural paradigms and challenges of serving multi-trillion parameter foundation models at global scale with single-digit millisecond latency.",
+        "Deep dive into disaggregated optical-IP data center networks and their role in enabling extreme-scale AI/ML workloads, exploring RoCEv2, DPU/IPU integration, and P4 programmable switching.",
+        "The engineering principles and scaling pathways for CRISPR-Cas-based biosensors to deliver ultra-sensitive, multiplexed, and decentralized pathogen detection capabilities."
     ]
 }
