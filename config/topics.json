@@ -114,7 +114,6 @@
         "The Unspoken Trade-offs of Multi-Region Active-Active Architectures: Beyond the 11 Nines",
         "Deconstructing the Data Mesh: Implementing Federated Computational Governance at Petabyte Scale",
         "Postmortem of a Cascading Failure: Analyzing the Thermodynamic Limits of Hyperscale Data Center Cooling",
-        "The Architectural Paradigm Shift: Implementing Disaggregated Storage and Compute for Hyperscale AI Training Clusters.",
         "Engineering Global Consistency: Distributed Tracing and Observability for Eventual Consistency Models in Planet-Scale Databases.",
         "Beyond Natural Tropism: Engineering Synthetic Viral Vectors for Targeted Organ Delivery in Advanced Gene Therapies.",
         "The Engineering Challenges of Disaggregated Compute and Memory Architectures for Petabyte-Scale AI Model Training",
@@ -166,6 +165,9 @@
         "The Physics of Cooling: How Google's New Liquid Immersion Data Centers Achieve PUE < 1.05",
         "Defeating the CAP Theorem: A Deep Dive into Amazon's Multi-Region Active-Active Aurora Architecture for Global Low-Latency Writes",
         "The Hardware Abstraction Layer Powering Google's TPU v5: A Systems-Level Analysis of Inter-Chiplet Coherence and Optical Fabric Topology",
-        "How Cloudflare Migrated Its Entire Global Control Plane to eBPF and WebAssembly on Day One: Isolating Multi-Tenant Edge Compute at Wire Speed"
+        "How Cloudflare Migrated Its Entire Global Control Plane to eBPF and WebAssembly on Day One: Isolating Multi-Tenant Edge Compute at Wire Speed",
+        "The Distributed Systems Challenges of Serving Trillion-Parameter AI Models in Real-time at Hyperscale",
+        "Liquid Immersion Cooling Architectures for AI-Accelerated Data Centers: Efficiency and Scalability Beyond the Rack",
+        "Advanced AAV Vector Engineering for Precision Gene Therapy Delivery: Navigating Immunogenicity and Tissue Specificity"
     ]
 }
