@@ -109,7 +109,6 @@
         "Deconstructing Meta's Threads: The Real-Time Feed Architecture for 100M+ Users on Day One",
         "Beyond Kubernetes: The Rise of WebAssembly-Based Orchestration for Heterogeneous Edge Compute",
         "The Physics of Cooling: How Hyperscalers are Designing Direct-to-Chip Two-Phase Immersion Systems for 100kW+ Racks",
-        "The Unspoken Trade-offs of Multi-Region Active-Active Architectures for Petabyte-Scale Data Stores",
         "Beyond Kubernetes: The Rise of the Cell-Based Architecture for Global Compute Orchestration",
         "Dissecting the 'Read-After-Write' Consistency Crisis in Modern, Globally-Distributed Social Graphs",
         "The Unspoken Trade-offs of Multi-Region Active-Active Architectures: Beyond the 11 Nines",
@@ -164,6 +163,9 @@
         "The engineering principles and scaling pathways for CRISPR-Cas-based biosensors to deliver ultra-sensitive, multiplexed, and decentralized pathogen detection capabilities.",
         "Deconstructing Meta's Threads: The Real-Time Feed Architecture for 100M+ Users in 5 Days",
         "Beyond Kubernetes: The Rise of MicroVM-Based Serverless Platforms at Hyperscale",
-        "The Physics of Cooling: How Google's New Liquid Immersion Data Centers Achieve PUE < 1.05"
+        "The Physics of Cooling: How Google's New Liquid Immersion Data Centers Achieve PUE < 1.05",
+        "Defeating the CAP Theorem: A Deep Dive into Amazon's Multi-Region Active-Active Aurora Architecture for Global Low-Latency Writes",
+        "The Hardware Abstraction Layer Powering Google's TPU v5: A Systems-Level Analysis of Inter-Chiplet Coherence and Optical Fabric Topology",
+        "How Cloudflare Migrated Its Entire Global Control Plane to eBPF and WebAssembly on Day One: Isolating Multi-Tenant Edge Compute at Wire Speed"
     ]
 }
