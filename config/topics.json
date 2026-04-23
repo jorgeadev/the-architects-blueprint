@@ -42,7 +42,6 @@
         "The hype over Rust replacing C++ in foundational systems: reality, technical challenges, and major rewrites.",
         "Analyzing a viral catastrophic Git/GitHub outage: the cascading failure and post-mortem analysis.",
         "A recent hype cycle on a major JavaScript meta-framework release: what new architectural patterns does it actually solve?",
-        "The rise of edge AI inference: analyzing the hype of running LLMs directly on smartphones and local IoT devices.",
         "The viral adoption of eBPF for networking and observability: what it means for the future of Linux kernels.",
         "An in-depth look at bun.js vs Node.js vs Deno: the hype, the benchmarks, and the architectural differences.",
         "The design and implementation of hyperscale cloud provider's internal optical fabric for exabyte-scale data movement and ultra-low-latency distributed AI training.",
@@ -162,6 +161,9 @@
         "Architecting AAV Capsids for Enhanced Tissue Tropism and Reduced Immunogenicity in Gene Therapy Delivery",
         "The architectural paradigms and challenges of serving multi-trillion parameter foundation models at global scale with single-digit millisecond latency.",
         "Deep dive into disaggregated optical-IP data center networks and their role in enabling extreme-scale AI/ML workloads, exploring RoCEv2, DPU/IPU integration, and P4 programmable switching.",
-        "The engineering principles and scaling pathways for CRISPR-Cas-based biosensors to deliver ultra-sensitive, multiplexed, and decentralized pathogen detection capabilities."
+        "The engineering principles and scaling pathways for CRISPR-Cas-based biosensors to deliver ultra-sensitive, multiplexed, and decentralized pathogen detection capabilities.",
+        "Deconstructing Meta's Threads: The Real-Time Feed Architecture for 100M+ Users in 5 Days",
+        "Beyond Kubernetes: The Rise of MicroVM-Based Serverless Platforms at Hyperscale",
+        "The Physics of Cooling: How Google's New Liquid Immersion Data Centers Achieve PUE < 1.05"
     ]
 }
