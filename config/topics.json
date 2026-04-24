@@ -63,7 +63,6 @@
         "Disaggregated Memory Architectures and CXL's Role in Scaling Hyperscale AI Model Training Clusters",
         "The architectural paradigm shift for exascale multi-modal AI model training: focusing on next-gen interconnects and distributed memory coherence.",
         "Deep dive into maintaining strong temporal consistency across globally distributed, eventually consistent transactional databases: challenges and novel solutions.",
-        "Engineering high-fidelity, high-throughput synthetic biology platforms for rapid, adaptive vaccine prototyping and production against emerging pathogens.",
         "Architecting Quantum-Resistant Cryptography Integration into Hyperscale Cloud Service Meshes and PKI Systems",
         "The Deep Engineering Behind Multi-Region Consensus Protocols for Exabyte-Scale, Ultra-Low Latency Data Stores",
         "Hyperscale GPU Cluster Interconnects: Optimizing Latency and Throughput in NVIDIA Hopper and Grace-Hopper Architectures",
@@ -172,6 +171,9 @@
         "Synthetic Virology: Designing Next-Generation Phage Therapies for Combatting Antimicrobial Resistance at Scale",
         "Disaggregating Compute and Memory at Hyperscale: Architectural Implications for Next-Gen Data Center Fabrics",
         "CRISPR-Cas13's New Frontier: Reprogramming Viral RNA Sensing for Broad-Spectrum Antiviral Therapies",
-        "Scaling Foundation Models: Architectural Strategies for Terabyte-Scale Parameter Training on Distributed GPU Clusters"
+        "Scaling Foundation Models: Architectural Strategies for Terabyte-Scale Parameter Training on Distributed GPU Clusters",
+        "Decoupling the Monolith: Google's implementation of Service Weaver for planet-scale Spanner control plane re-architecting",
+        "The physics of data locality: A technical deep-dive into Meta's thermal-aware job scheduler for hyperscale GPU clusters",
+        "How Netflix migrated its entire CDN to a purpose-built QUIC-based transport layer for 4K streaming under adversarial packet loss"
     ]
 }
