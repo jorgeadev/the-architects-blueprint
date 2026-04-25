@@ -95,7 +95,6 @@
         "Computational Design and Large-Scale Synthesis Pipelines for Novel Oncolytic Virotherapy Agents",
         "Stateless Compute and Programmable Data Plane: Architecting Hyperscale Analytics with P4 and DPUs for Real-time Decisioning",
         "Next-Gen Optical Networks: Leveraging Coherent Optics and AI-Driven Wavelength Routing for Exascale Cloud Interconnects",
-        "CRISPR-Dx to Pan-Antiviral Therapies: Engineering Programmable Nucleic Acid Tools for Rapid Pathogen Identification and Broad-Spectrum Inhibition",
         "Beyond the Monolith: A Technical Deep Dive into ByteDance's Multi-Cloud Stateful Service Orchestration at Petabyte Scale",
         "The Physics of Viral Propagation: Engineering the Sub-Second Edge Caching System Behind a Billion-View TikTok Trend",
         "Deconstructing Meta's Threads: The Real-Time Fanout and State Synchronization Architecture at Instagram Scale",
@@ -178,6 +177,9 @@
         "CRISPR-Guided Phage Engineering: Precision Delivery and Genetically Modified Viral Vectors for In Vivo Therapeutic Applications",
         "The architectural intricacies of hyper-scale distributed consensus protocols powering zettabyte-scale globally replicated data stores.",
         "Disaggregated optical network fabrics and P4-programmable data planes: Architecting the next-generation interconnect for planetary-scale data centers.",
-        "mRNA vaccine platform engineering: Advancements in lipid nanoparticle delivery, manufacturing scalability, and rapid immunogen design for emerging pathogens."
+        "mRNA vaccine platform engineering: Advancements in lipid nanoparticle delivery, manufacturing scalability, and rapid immunogen design for emerging pathogens.",
+        "Deep dive into Firecracker microVMs and snapshotting techniques for mitigating serverless cold starts at hyperscale.",
+        "Achieving Global Strong Consistency: A technical analysis of TrueTime and Hybrid Logical Clocks in planet-scale distributed databases.",
+        "Beyond CRISPR-Cas9: A technical review of prime editing, base editing, and their impact on advanced therapeutic viral vector design."
     ]
 }
