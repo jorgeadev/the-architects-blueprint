@@ -167,7 +167,6 @@
         "Beyond Consensus: Architecting Geo-Distributed Transactional Databases for Extreme Consistency and Throughput",
         "Synthetic Virology: Designing Next-Generation Phage Therapies for Combatting Antimicrobial Resistance at Scale",
         "Disaggregating Compute and Memory at Hyperscale: Architectural Implications for Next-Gen Data Center Fabrics",
-        "CRISPR-Cas13's New Frontier: Reprogramming Viral RNA Sensing for Broad-Spectrum Antiviral Therapies",
         "Scaling Foundation Models: Architectural Strategies for Terabyte-Scale Parameter Training on Distributed GPU Clusters",
         "Decoupling the Monolith: Google's implementation of Service Weaver for planet-scale Spanner control plane re-architecting",
         "The physics of data locality: A technical deep-dive into Meta's thermal-aware job scheduler for hyperscale GPU clusters",
@@ -180,6 +179,9 @@
         "mRNA vaccine platform engineering: Advancements in lipid nanoparticle delivery, manufacturing scalability, and rapid immunogen design for emerging pathogens.",
         "Deep dive into Firecracker microVMs and snapshotting techniques for mitigating serverless cold starts at hyperscale.",
         "Achieving Global Strong Consistency: A technical analysis of TrueTime and Hybrid Logical Clocks in planet-scale distributed databases.",
-        "Beyond CRISPR-Cas9: A technical review of prime editing, base editing, and their impact on advanced therapeutic viral vector design."
+        "Beyond CRISPR-Cas9: A technical review of prime editing, base editing, and their impact on advanced therapeutic viral vector design.",
+        "Decoding the Interconnects: Memory Bandwidth Bottlenecks and Custom Fabric Solutions for Trillion-Parameter LLM Inference",
+        "From PUE to PUD: Advancements in Disaggregated Computing and Direct Liquid Cooling for Hyperscale Infrastructure",
+        "The Phage-Storage Paradigm: Engineering Bacteriophage Virions for Petabyte-Scale Biological Data Storage and Retrieval Systems"
     ]
 }
