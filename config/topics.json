@@ -119,7 +119,6 @@
         "Deconstructing the Global Request Router: How Meta's Sharded Edge Network Handles 10M+ QPS with Sub-Millisecond Latency",
         "Beyond Kubernetes: The Rise of Cell-Based Architectures for Planetary-Scale Compute at Google and Amazon",
         "The Viral Engineering Playbook: Reverse-Engineering the Real-Time Synchronization Stack Behind Collaborative Features in Figma and Notion",
-        "Dissecting the Global Edge: A Technical Deep Dive into Meta's Next-Generation CDN and Cache Invalidation at Petabyte Scale",
         "Beyond the Monolith: Architectural Patterns for Multi-Region, Active-Active Databases in Hyperscale FinTech Systems",
         "Engineering for Virality: The Real-Time Infrastructure and Algorithms Powering TikTok's 'For You' Feed During Global Events",
         "The Architectural Challenges and Optimizations of Multi-Tenant, Hyperscale GPU Clusters for Foundation Model Training",
@@ -182,6 +181,9 @@
         "Beyond CRISPR-Cas9: A technical review of prime editing, base editing, and their impact on advanced therapeutic viral vector design.",
         "Decoding the Interconnects: Memory Bandwidth Bottlenecks and Custom Fabric Solutions for Trillion-Parameter LLM Inference",
         "From PUE to PUD: Advancements in Disaggregated Computing and Direct Liquid Cooling for Hyperscale Infrastructure",
-        "The Phage-Storage Paradigm: Engineering Bacteriophage Virions for Petabyte-Scale Biological Data Storage and Retrieval Systems"
+        "The Phage-Storage Paradigm: Engineering Bacteriophage Virions for Petabyte-Scale Biological Data Storage and Retrieval Systems",
+        "The Interconnect Revolution: Architecting Multi-Trillion Parameter AI Models with Next-Gen Compute Fabrics",
+        "Global Strong Consistency at Scale: Deconstructing Hyperscale Distributed Transactional Databases",
+        "Precision Genetic Engineering: The Rise of Base, Prime, and Epigenetic Editing for Therapeutic Applications"
     ]
 }
