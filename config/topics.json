@@ -119,7 +119,6 @@
         "Beyond Kubernetes: The Rise of Cell-Based Architectures for Planetary-Scale Compute at Google and Amazon",
         "The Viral Engineering Playbook: Reverse-Engineering the Real-Time Synchronization Stack Behind Collaborative Features in Figma and Notion",
         "Beyond the Monolith: Architectural Patterns for Multi-Region, Active-Active Databases in Hyperscale FinTech Systems",
-        "Engineering for Virality: The Real-Time Infrastructure and Algorithms Powering TikTok's 'For You' Feed During Global Events",
         "The Architectural Challenges and Optimizations of Multi-Tenant, Hyperscale GPU Clusters for Foundation Model Training",
         "Beyond Raft and Paxos: Engineering Global Consistency in Cloud-Native Distributed Transactional Databases",
         "Real-time Metagenomic Data Processing at Petabyte Scale: Architectural Patterns for Pathogen Detection and Environmental Sensing",
@@ -190,6 +189,9 @@
         "Architecting Petabyte-Scale Data Storage Solutions Using Enzymatically Synthesized DNA Polymers and Advanced Sequencing Readout Techniques",
         "CXL-enabled Memory Pooling and Tiering: A Deep Dive into Disaggregated Architecture for Hyperscale Clouds and its Latency Implications",
         "Beyond gRPC: Crafting Ultra-Low Latency, High-Throughput Communication Primitives for Inter-Service Mesh Data Planes in Hyperscale Environments",
-        "CRISPR-Cas as a Programmable Antiviral: Unpacking the Mechanisms and Challenges of Engineering Broad-Spectrum Viral Resistance into Mammalian Cells"
+        "CRISPR-Cas as a Programmable Antiviral: Unpacking the Mechanisms and Challenges of Engineering Broad-Spectrum Viral Resistance into Mammalian Cells",
+        "The Architectural Shift: Disaggregating Network Functions and Optical Switching in Hyperscale Data Centers",
+        "Achieving Near-Zero Latency: Distributed State Management Strategies for Globally Replicated Serverless Edge Workloads",
+        "Deep Learning for De Novo Viral Protein Design: Predicting Mutational Escape and Engineering Broad-Spectrum Antivirals"
     ]
 }
