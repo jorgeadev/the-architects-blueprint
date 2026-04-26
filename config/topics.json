@@ -8,7 +8,6 @@
         "What goes into designing the hardware for custom AI accelerators like Google TPUs and AWS Inferentia?",
         "Apple's private cloud infrastructure: How they manage iCloud at an unprecedented global scale.",
         "A deep dive into the infrastructure of modern high-frequency trading platforms: nanoseconds and FPGA power.",
-        "How large language models are trained: the physical GPU clusters and networking infrastructure required.",
         "Recent disruptive tech releases or viral developer trends on social media that captivated the engineering world.",
         "An analysis of a recent highly-anticipated open-source framework release and the hype surrounding its launch.",
         "A major recent cloud outage: analyzing the architecture failure points, the engineering response, and the aftermath.",
@@ -188,6 +187,9 @@
         "Precision Gene Editing: Latest Advances in Prime Editing and Base Editing Technologies for Inherited Diseases",
         "Optimizing Hypervisor-Level Co-Scheduling and Memory Paging for Near-Zero Cold Starts in Petabyte-Scale Serverless Architectures",
         "The Cutting Edge of CRISPR-Cas Engineered Phage Therapeutics: Overcoming Delivery and Immunogenicity Challenges for Multi-Drug Resistant Pathogens",
-        "Architecting Petabyte-Scale Data Storage Solutions Using Enzymatically Synthesized DNA Polymers and Advanced Sequencing Readout Techniques"
+        "Architecting Petabyte-Scale Data Storage Solutions Using Enzymatically Synthesized DNA Polymers and Advanced Sequencing Readout Techniques",
+        "CXL-enabled Memory Pooling and Tiering: A Deep Dive into Disaggregated Architecture for Hyperscale Clouds and its Latency Implications",
+        "Beyond gRPC: Crafting Ultra-Low Latency, High-Throughput Communication Primitives for Inter-Service Mesh Data Planes in Hyperscale Environments",
+        "CRISPR-Cas as a Programmable Antiviral: Unpacking the Mechanisms and Challenges of Engineering Broad-Spectrum Viral Resistance into Mammalian Cells"
     ]
 }
