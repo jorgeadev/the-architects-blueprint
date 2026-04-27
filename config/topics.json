@@ -132,7 +132,6 @@
         "Beyond Kubernetes: The Unconventional Orchestration Systems Powering Hyperscale AI Training Clusters",
         "Postmortem Analysis of the 2024 Multi-Cloud DNS Cascade: Engineering Lessons from a Global Resolution Failure",
         "The Engineering Challenges of Maintaining Global Consensus in Hyperscale Distributed Transactional Databases",
-        "Federated Learning at Hyperscale: Architectural Patterns for Privacy-Preserving Model Training Across Disparate Datasets",
         "Engineering Next-Generation Oncolytic Viruses: Targeted Delivery Mechanisms and Immunomodulatory Enhancements for Cancer Therapy",
         "The Architecture of Real-Time Global State Synchronization at Petabyte Scale",
         "Deconstructing the Hardware-Software Co-Design of Next-Generation Hyperscale AI Training Clusters",
@@ -194,6 +193,9 @@
         "Deep Learning for De Novo Viral Protein Design: Predicting Mutational Escape and Engineering Broad-Spectrum Antivirals",
         "The Evolution of Disaggregated AI Compute: From Shared Memory Architectures to DPU-driven Resource Pooling at Hyperscale",
         "CRISPR-Cas Systems Beyond Gene Editing: Engineering Antiviral Defenses and Ultra-Sensitive Diagnostic Platforms with RNA-Guided Surveillance",
-        "The Rise of Programmable Data Planes: How DPUs and P4 are Redefining Network Infrastructure and Security for Cloud-Native Workloads"
+        "The Rise of Programmable Data Planes: How DPUs and P4 are Redefining Network Infrastructure and Security for Cloud-Native Workloads",
+        "eBPF's Role in Next-Gen Hyperscale Network Observability and Low-Latency Packet Processing for Cloud-Native Microservices",
+        "CRISPR-Associated Transposons (CASTs) for Large-Scale Programmable DNA Integration in Eukaryotic Viral Vectors for Advanced Gene Therapies",
+        "The Evolution of Disaggregated Storage Architectures in Hyperscale Data Centers: From NVMe-oF to CXL-Attached Memory Pools and Computational Storage"
     ]
 }
