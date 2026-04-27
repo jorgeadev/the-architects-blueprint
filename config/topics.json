@@ -171,7 +171,6 @@
         "CRISPR-Guided Phage Engineering: Precision Delivery and Genetically Modified Viral Vectors for In Vivo Therapeutic Applications",
         "The architectural intricacies of hyper-scale distributed consensus protocols powering zettabyte-scale globally replicated data stores.",
         "Disaggregated optical network fabrics and P4-programmable data planes: Architecting the next-generation interconnect for planetary-scale data centers.",
-        "mRNA vaccine platform engineering: Advancements in lipid nanoparticle delivery, manufacturing scalability, and rapid immunogen design for emerging pathogens.",
         "Deep dive into Firecracker microVMs and snapshotting techniques for mitigating serverless cold starts at hyperscale.",
         "Achieving Global Strong Consistency: A technical analysis of TrueTime and Hybrid Logical Clocks in planet-scale distributed databases.",
         "Beyond CRISPR-Cas9: A technical review of prime editing, base editing, and their impact on advanced therapeutic viral vector design.",
@@ -192,6 +191,9 @@
         "CRISPR-Cas as a Programmable Antiviral: Unpacking the Mechanisms and Challenges of Engineering Broad-Spectrum Viral Resistance into Mammalian Cells",
         "The Architectural Shift: Disaggregating Network Functions and Optical Switching in Hyperscale Data Centers",
         "Achieving Near-Zero Latency: Distributed State Management Strategies for Globally Replicated Serverless Edge Workloads",
-        "Deep Learning for De Novo Viral Protein Design: Predicting Mutational Escape and Engineering Broad-Spectrum Antivirals"
+        "Deep Learning for De Novo Viral Protein Design: Predicting Mutational Escape and Engineering Broad-Spectrum Antivirals",
+        "The Evolution of Disaggregated AI Compute: From Shared Memory Architectures to DPU-driven Resource Pooling at Hyperscale",
+        "CRISPR-Cas Systems Beyond Gene Editing: Engineering Antiviral Defenses and Ultra-Sensitive Diagnostic Platforms with RNA-Guided Surveillance",
+        "The Rise of Programmable Data Planes: How DPUs and P4 are Redefining Network Infrastructure and Security for Cloud-Native Workloads"
     ]
 }
