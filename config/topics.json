@@ -70,7 +70,6 @@
         "Architecting exascale asynchronous data pipelines for real-time federated learning across global edge deployments.",
         "CRISPR-CasX: Engineering novel non-integrating viral delivery vectors for high-specificity in-vivo genomic editing.",
         "Next-Generation mRNA Vaccine Platforms: Engineering Self-Replicating RNA and Novel Adjuvants for Enhanced Immunogenicity",
-        "The Rise of Memory-Centric Architectures: Disaggregating Compute and Storage in Next-Gen Hyperscale Clouds",
         "Architecting for Causal Consistency in Geo-Distributed Transactional Databases: Beyond Traditional Consensus Protocols for Global Scale",
         "CRISPR-Engineered Phage Lysins: A Novel Approach to Combatting Multi-Drug Resistant Bacterial Biofilms in Clinical Settings",
         "Deconstructing Hyperscale Transactional Consistency: The role of geo-distributed consensus protocols and hybrid logical clocks in global cloud databases.",
@@ -196,6 +195,9 @@
         "The Rise of Programmable Data Planes: How DPUs and P4 are Redefining Network Infrastructure and Security for Cloud-Native Workloads",
         "eBPF's Role in Next-Gen Hyperscale Network Observability and Low-Latency Packet Processing for Cloud-Native Microservices",
         "CRISPR-Associated Transposons (CASTs) for Large-Scale Programmable DNA Integration in Eukaryotic Viral Vectors for Advanced Gene Therapies",
-        "The Evolution of Disaggregated Storage Architectures in Hyperscale Data Centers: From NVMe-oF to CXL-Attached Memory Pools and Computational Storage"
+        "The Evolution of Disaggregated Storage Architectures in Hyperscale Data Centers: From NVMe-oF to CXL-Attached Memory Pools and Computational Storage",
+        "Fine-grained Resource Allocation and Scheduling in Heterogeneous GPU Clusters for Foundation Model Training at Scale",
+        "AI-Driven De Novo Design of Synthetic Viral Capsids for Next-Generation Targeted Gene Therapy Delivery",
+        "Architecting for Observability at Zettabyte Scale: The Challenges of Real-time Telemetry Processing and Anomaly Detection in Hyperscale Cloud Environments"
     ]
 }
