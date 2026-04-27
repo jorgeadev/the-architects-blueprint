@@ -34,7 +34,6 @@
         "Roblox’s user-generated content infrastructure: serving 3D assets to millions of active concurrent players globally.",
         "Grab's super-app architecture: handling ride-hailing, food delivery, and payments across Southeast Asia.",
         "NASA's JPL cloud computing architecture: how they managed the telemetry data pipeline for the Mars Rover.",
-        "The Linux Kernel maintainer network: how global infrastructure runs on a massively distributed open-source model.",
         "An deep dive into how AWS Nitro cards physically offload networking and storage from EC2 instances.",
         "Recent revolutionary advancements in WebAssembly (Wasm) and the hype around running backend services in the browser.",
         "The hype over Rust replacing C++ in foundational systems: reality, technical challenges, and major rewrites.",
@@ -198,6 +197,9 @@
         "The Evolution of Disaggregated Storage Architectures in Hyperscale Data Centers: From NVMe-oF to CXL-Attached Memory Pools and Computational Storage",
         "Fine-grained Resource Allocation and Scheduling in Heterogeneous GPU Clusters for Foundation Model Training at Scale",
         "AI-Driven De Novo Design of Synthetic Viral Capsids for Next-Generation Targeted Gene Therapy Delivery",
-        "Architecting for Observability at Zettabyte Scale: The Challenges of Real-time Telemetry Processing and Anomaly Detection in Hyperscale Cloud Environments"
+        "Architecting for Observability at Zettabyte Scale: The Challenges of Real-time Telemetry Processing and Anomaly Detection in Hyperscale Cloud Environments",
+        "The Unseen Architecture: How Hyperscalers Engineer Quantum-Proof Cryptography Key Distribution Systems",
+        "Beyond Fat Tree: Exploring the Next Generation of Disaggregated Network Topologies for AI/ML Data Centers",
+        "Genomic Transformers: Scaling Large Language Models for De Novo Protein Design and Synthetic Biology"
     ]
 }
