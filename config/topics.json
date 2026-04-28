@@ -110,7 +110,6 @@
         "Beyond Natural Tropism: Engineering Synthetic Viral Vectors for Targeted Organ Delivery in Advanced Gene Therapies.",
         "The Engineering Challenges of Disaggregated Compute and Memory Architectures for Petabyte-Scale AI Model Training",
         "Advanced Viral Vector Design: Engineering Enhanced Tropism and Reduced Immunogenicity in Next-Generation Gene Therapies",
-        "Decoupling Compute and Memory at Hyperscale: Engineering Disaggregated Data Centers for Future Workloads",
         "Deconstructing the Global Request Router: How Meta's Sharded Edge Network Handles 10M+ QPS with Sub-Millisecond Latency",
         "Beyond Kubernetes: The Rise of Cell-Based Architectures for Planetary-Scale Compute at Google and Amazon",
         "The Viral Engineering Playbook: Reverse-Engineering the Real-Time Synchronization Stack Behind Collaborative Features in Figma and Notion",
@@ -206,6 +205,9 @@
         "Synthetic Virology: Engineering Novel Bacteriophage Systems for Programmable Microbiome Modulation and Targeted Drug Delivery at Scale",
         "The unseen battle for bandwidth: How hyperscalers are leveraging CXL 3.0 and photonic integration to overcome memory and interconnect bottlenecks in petascale AI clusters.",
         "Beyond global eventual consistency: Architecting planet-scale strongly consistent transactional ledgers for real-time applications using novel consensus and data sharding techniques.",
-        "The programmable pathogen: Inside the synthetic biology breakthroughs driving self-amplifying mRNA vaccines and targeted viral vector gene therapies."
+        "The programmable pathogen: Inside the synthetic biology breakthroughs driving self-amplifying mRNA vaccines and targeted viral vector gene therapies.",
+        "Optimizing Tail Latency in Hyperscale Distributed Databases Through Advanced Congestion Control and Network Prioritization",
+        "The Evolution of Cloud-Native Workload Scheduling: From Bin Packing to AI-Driven Predictive Resource Allocation",
+        "CRISPR-Associated Transposases (CAST) for Programmable Large-Fragment Genomic Integration in Antiviral Gene Therapy"
     ]
 }
