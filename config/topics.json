@@ -89,7 +89,6 @@
         "The Engineering Challenges of Maintaining Strong Global Consistency in Hyperscale Distributed Transactional Databases",
         "Proactive Failure Domain Isolation and Dependency Modeling in Multi-Region Hyperscale Infrastructure Deployments",
         "Computational Design and Large-Scale Synthesis Pipelines for Novel Oncolytic Virotherapy Agents",
-        "Stateless Compute and Programmable Data Plane: Architecting Hyperscale Analytics with P4 and DPUs for Real-time Decisioning",
         "Next-Gen Optical Networks: Leveraging Coherent Optics and AI-Driven Wavelength Routing for Exascale Cloud Interconnects",
         "Beyond the Monolith: A Technical Deep Dive into ByteDance's Multi-Cloud Stateful Service Orchestration at Petabyte Scale",
         "The Physics of Viral Propagation: Engineering the Sub-Second Edge Caching System Behind a Billion-View TikTok Trend",
@@ -204,6 +203,9 @@
         "Programmable Viral Vectors for In Vivo Gene Editing: Advances in Directed Evolution of Adeno-Associated Viruses (AAVs) and CRISPR-Cas Delivery for Precision Therapies",
         "Optimizing State Machine Replication for Trillion-Event Streams: A Deep Dive into Distributed Consensus Protocols Beyond Raft and Paxos at Cloud Scale",
         "The Invisible Fabric: How Programmable Hardware and Custom ASICs are Revolutionizing Hyperscale Data Center Network Topologies and Packet Processing",
-        "Synthetic Virology: Engineering Novel Bacteriophage Systems for Programmable Microbiome Modulation and Targeted Drug Delivery at Scale"
+        "Synthetic Virology: Engineering Novel Bacteriophage Systems for Programmable Microbiome Modulation and Targeted Drug Delivery at Scale",
+        "The unseen battle for bandwidth: How hyperscalers are leveraging CXL 3.0 and photonic integration to overcome memory and interconnect bottlenecks in petascale AI clusters.",
+        "Beyond global eventual consistency: Architecting planet-scale strongly consistent transactional ledgers for real-time applications using novel consensus and data sharding techniques.",
+        "The programmable pathogen: Inside the synthetic biology breakthroughs driving self-amplifying mRNA vaccines and targeted viral vector gene therapies."
     ]
 }
