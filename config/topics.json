@@ -42,7 +42,6 @@
         "The viral adoption of eBPF for networking and observability: what it means for the future of Linux kernels.",
         "An in-depth look at bun.js vs Node.js vs Deno: the hype, the benchmarks, and the architectural differences.",
         "The design and implementation of hyperscale cloud provider's internal optical fabric for exabyte-scale data movement and ultra-low-latency distributed AI training.",
-        "Architecting a globally consistent, petabyte-scale key-value store using novel eventual consistency models and multi-region CRDTs for geo-distributed writes.",
         "Decentralized consensus protocols for achieving strong consistency in a planetary-scale distributed ledger operating at millions of transactions per second.",
         "The interplay of programmable data planes and P4 with smart NICs for ultra-low-latency network function virtualization in hyperscale data centers.",
         "Engineering enhanced adeno-associated virus (AAV) vectors with synthetic capsids for neurotropic gene therapy delivery and evasion of pre-existing immunity.",
@@ -200,6 +199,9 @@
         "Architecting for Observability at Zettabyte Scale: The Challenges of Real-time Telemetry Processing and Anomaly Detection in Hyperscale Cloud Environments",
         "The Unseen Architecture: How Hyperscalers Engineer Quantum-Proof Cryptography Key Distribution Systems",
         "Beyond Fat Tree: Exploring the Next Generation of Disaggregated Network Topologies for AI/ML Data Centers",
-        "Genomic Transformers: Scaling Large Language Models for De Novo Protein Design and Synthetic Biology"
+        "Genomic Transformers: Scaling Large Language Models for De Novo Protein Design and Synthetic Biology",
+        "The Architecture of Disaggregated Memory and Compute in Hyperscale Data Centers: RDMA over Converged Ethernet (RoCEv2) for Near-Coprocessor Performance",
+        "Achieving Strong Consistency and Low Latency in Globally Distributed Databases: A Deep Dive into Atomic Clock Synchronization and Multi-Version Concurrency Control (MVCC) at Scale",
+        "Programmable Viral Vectors for In Vivo Gene Editing: Advances in Directed Evolution of Adeno-Associated Viruses (AAVs) and CRISPR-Cas Delivery for Precision Therapies"
     ]
 }
