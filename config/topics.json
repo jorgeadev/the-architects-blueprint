@@ -190,7 +190,6 @@
         "Deep Learning for De Novo Viral Protein Design: Predicting Mutational Escape and Engineering Broad-Spectrum Antivirals",
         "The Evolution of Disaggregated AI Compute: From Shared Memory Architectures to DPU-driven Resource Pooling at Hyperscale",
         "CRISPR-Cas Systems Beyond Gene Editing: Engineering Antiviral Defenses and Ultra-Sensitive Diagnostic Platforms with RNA-Guided Surveillance",
-        "The Rise of Programmable Data Planes: How DPUs and P4 are Redefining Network Infrastructure and Security for Cloud-Native Workloads",
         "eBPF's Role in Next-Gen Hyperscale Network Observability and Low-Latency Packet Processing for Cloud-Native Microservices",
         "CRISPR-Associated Transposons (CASTs) for Large-Scale Programmable DNA Integration in Eukaryotic Viral Vectors for Advanced Gene Therapies",
         "The Evolution of Disaggregated Storage Architectures in Hyperscale Data Centers: From NVMe-oF to CXL-Attached Memory Pools and Computational Storage",
@@ -202,6 +201,9 @@
         "Genomic Transformers: Scaling Large Language Models for De Novo Protein Design and Synthetic Biology",
         "The Architecture of Disaggregated Memory and Compute in Hyperscale Data Centers: RDMA over Converged Ethernet (RoCEv2) for Near-Coprocessor Performance",
         "Achieving Strong Consistency and Low Latency in Globally Distributed Databases: A Deep Dive into Atomic Clock Synchronization and Multi-Version Concurrency Control (MVCC) at Scale",
-        "Programmable Viral Vectors for In Vivo Gene Editing: Advances in Directed Evolution of Adeno-Associated Viruses (AAVs) and CRISPR-Cas Delivery for Precision Therapies"
+        "Programmable Viral Vectors for In Vivo Gene Editing: Advances in Directed Evolution of Adeno-Associated Viruses (AAVs) and CRISPR-Cas Delivery for Precision Therapies",
+        "Optimizing State Machine Replication for Trillion-Event Streams: A Deep Dive into Distributed Consensus Protocols Beyond Raft and Paxos at Cloud Scale",
+        "The Invisible Fabric: How Programmable Hardware and Custom ASICs are Revolutionizing Hyperscale Data Center Network Topologies and Packet Processing",
+        "Synthetic Virology: Engineering Novel Bacteriophage Systems for Programmable Microbiome Modulation and Targeted Drug Delivery at Scale"
     ]
 }
