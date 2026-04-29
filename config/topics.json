@@ -137,7 +137,6 @@
         "CXL-enabled computational storage: Architectural implications for extreme-scale data processing and resource disaggregation in cloud environments.",
         "Achieving strong consistency in globally distributed transactional databases through novel causal ordering and conflict resolution mechanisms.",
         "Synthetic virology for targeted oncolytic therapies: Overcoming tumor microenvironment barriers and immunogenicity challenges.",
-        "Hyperscale Photonic Interconnects for AI Superclusters: Overcoming Electrical Bottlenecks",
         "Architecting AAV Capsids for Enhanced Tissue Tropism and Reduced Immunogenicity in Gene Therapy Delivery",
         "The architectural paradigms and challenges of serving multi-trillion parameter foundation models at global scale with single-digit millisecond latency.",
         "Deep dive into disaggregated optical-IP data center networks and their role in enabling extreme-scale AI/ML workloads, exploring RoCEv2, DPU/IPU integration, and P4 programmable switching.",
@@ -212,6 +211,9 @@
         "Next-Generation mRNA Vaccine Delivery: Technical Challenges and Breakthroughs in Lipid Nanoparticle Alternatives and Self-Amplifying RNA Constructs",
         "Siloed to Unified: How Meta Re-architected Real-Time Data Streaming for Exabyte-Scale AI Training Pipelines",
         "Inside the Cellular-Scale Optical Fabric: Dissecting Microsoft's Phoenix Datacenter Network Topology for Global AI Supercomputing",
-        "The Latency Tax of Live: How YouTube's Playback Infrastructure Serves 1 Billion Users with Sub-Millisecond ABR Switching via a Quic-Based Control Plane"
+        "The Latency Tax of Live: How YouTube's Playback Infrastructure Serves 1 Billion Users with Sub-Millisecond ABR Switching via a Quic-Based Control Plane",
+        "Idempotency at Exabyte Scale: Enforcing Exactly-Once Semantics in Globally Distributed Storage Backends",
+        "Demystifying Meta's Zonal Shuffle: A Deep Dive into Cross-Region VM Migration with Sub-Second Blips",
+        "How Stripe Orchestrates Transactional Workflows Across 40+ Data Centers with a Zero-Overhead Consensus Protocol"
     ]
 }
