@@ -55,7 +55,6 @@
         "Synthetic biology approaches to engineering enhanced viral vectors for precise in-vivo gene delivery and reduced immunogenicity.",
         "The Architectural Implications of Disaggregated Memory and Compute for Future Hyperscale Data Centers",
         "Achieving Global-Scale Strong Consistency in Geo-Distributed Databases: A Deep Dive into Conflict Resolution and Consensus Protocols",
-        "The Engineering of Multi-Modal, Multi-Agent AI Systems: Towards Emergent Behavior and Real-World Interaction",
         "Disaggregated Memory Architectures and CXL's Role in Scaling Hyperscale AI Model Training Clusters",
         "The architectural paradigm shift for exascale multi-modal AI model training: focusing on next-gen interconnects and distributed memory coherence.",
         "Deep dive into maintaining strong temporal consistency across globally distributed, eventually consistent transactional databases: challenges and novel solutions.",
@@ -218,6 +217,9 @@
         "The System Architecture and Data Challenges of Foundation Models for De Novo Protein Design and High-Throughput Drug Discovery",
         "The unseen fabric: Dissecting hyperscale optical interconnects and custom network protocols powering multi-petabit AI compute clusters.",
         "Achieving transactional consistency at exascale: A deep dive into global strong consistency models and conflict resolution in next-gen distributed ledgers for financial platforms.",
-        "Architecting for biological computation: The data infrastructure challenges in scaling DNA storage and synthetic gene circuit design for novel bio-processors."
+        "Architecting for biological computation: The data infrastructure challenges in scaling DNA storage and synthetic gene circuit design for novel bio-processors.",
+        "Taming Tail Latency at Exabyte Scale: Adaptive Request Coalescing and Non-Blocking Memory Pools in Distributed Caches",
+        "Inside the Global Control Plane: A Deep Dive on the Distributed Consensus and Shard Rebalancing Algorithms Powering a Multi-Region Cloud Database",
+        "The Immutable Serverless Kernel: How an Infrastructure Giant Replaced its Entire Hypervisor Fleet Without a Single User-Detectable Packet Drop"
     ]
 }
