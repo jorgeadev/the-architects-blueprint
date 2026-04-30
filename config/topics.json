@@ -173,7 +173,6 @@
         "Precision Genetic Engineering: The Rise of Base, Prime, and Epigenetic Editing for Therapeutic Applications",
         "The Architectural Evolution of Disaggregated Storage and Compute in Hyperscale Cloud Environments",
         "Beyond 400GbE: The Role of Programmable Data Planes and Silicon Photonics in Future Intra-Datacenter Networks",
-        "Precision Gene Editing: Latest Advances in Prime Editing and Base Editing Technologies for Inherited Diseases",
         "Optimizing Hypervisor-Level Co-Scheduling and Memory Paging for Near-Zero Cold Starts in Petabyte-Scale Serverless Architectures",
         "The Cutting Edge of CRISPR-Cas Engineered Phage Therapeutics: Overcoming Delivery and Immunogenicity Challenges for Multi-Drug Resistant Pathogens",
         "Architecting Petabyte-Scale Data Storage Solutions Using Enzymatically Synthesized DNA Polymers and Advanced Sequencing Readout Techniques",
@@ -216,6 +215,9 @@
         "How Stripe Orchestrates Transactional Workflows Across 40+ Data Centers with a Zero-Overhead Consensus Protocol",
         "The Architectural Evolution of Interconnects for Trillion-Parameter AI Model Training: Beyond NVLink and InfiniBand",
         "Engineering Petabyte-Scale Observability: Distributed Tracing and Causal Analysis in Hyperscale Microservice Architectures",
-        "The System Architecture and Data Challenges of Foundation Models for De Novo Protein Design and High-Throughput Drug Discovery"
+        "The System Architecture and Data Challenges of Foundation Models for De Novo Protein Design and High-Throughput Drug Discovery",
+        "The unseen fabric: Dissecting hyperscale optical interconnects and custom network protocols powering multi-petabit AI compute clusters.",
+        "Achieving transactional consistency at exascale: A deep dive into global strong consistency models and conflict resolution in next-gen distributed ledgers for financial platforms.",
+        "Architecting for biological computation: The data infrastructure challenges in scaling DNA storage and synthetic gene circuit design for novel bio-processors."
     ]
 }
