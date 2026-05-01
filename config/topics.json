@@ -140,7 +140,6 @@
         "The Physics of Cooling: How Google's New Liquid Immersion Data Centers Achieve PUE < 1.05",
         "Defeating the CAP Theorem: A Deep Dive into Amazon's Multi-Region Active-Active Aurora Architecture for Global Low-Latency Writes",
         "The Hardware Abstraction Layer Powering Google's TPU v5: A Systems-Level Analysis of Inter-Chiplet Coherence and Optical Fabric Topology",
-        "How Cloudflare Migrated Its Entire Global Control Plane to eBPF and WebAssembly on Day One: Isolating Multi-Tenant Edge Compute at Wire Speed",
         "The Distributed Systems Challenges of Serving Trillion-Parameter AI Models in Real-time at Hyperscale",
         "Liquid Immersion Cooling Architectures for AI-Accelerated Data Centers: Efficiency and Scalability Beyond the Rack",
         "Advanced AAV Vector Engineering for Precision Gene Therapy Delivery: Navigating Immunogenicity and Tissue Specificity",
@@ -228,6 +227,9 @@
         "Next-Gen Viral Vector Engineering: Designing Tissue-Specific, Spatiotemporally Controlled Gene Editing Systems for In Vivo Therapeutic Applications",
         "The Evolution of Smart NICs and Programmable Data Planes in Hyperscale Cloud Networking",
         "Designing Resilient Multi-Region Active-Active Architectures for Zero RTO/RPO Cloud Services",
-        "The Algorithmic Engineering Behind Hyper-Personalized Recommendation Engines Driving Viral Content Adoption"
+        "The Algorithmic Engineering Behind Hyper-Personalized Recommendation Engines Driving Viral Content Adoption",
+        "The architectural patterns and custom silicon optimizations enabling exascale AI model training and inference for foundational LLMs.",
+        "Deconstructing the hyperscale serverless runtime: micro-VM orchestration, cold-start mitigation, and secure multi-tenancy across millions of concurrent invocations.",
+        "Engineering self-regulating gene drive systems: biochemical safeties, ecological containment architectures, and ethical design principles for precise genetic interventions."
     ]
 }
