@@ -56,7 +56,6 @@
         "The Architectural Implications of Disaggregated Memory and Compute for Future Hyperscale Data Centers",
         "Achieving Global-Scale Strong Consistency in Geo-Distributed Databases: A Deep Dive into Conflict Resolution and Consensus Protocols",
         "Disaggregated Memory Architectures and CXL's Role in Scaling Hyperscale AI Model Training Clusters",
-        "The architectural paradigm shift for exascale multi-modal AI model training: focusing on next-gen interconnects and distributed memory coherence.",
         "Deep dive into maintaining strong temporal consistency across globally distributed, eventually consistent transactional databases: challenges and novel solutions.",
         "Architecting Quantum-Resistant Cryptography Integration into Hyperscale Cloud Service Meshes and PKI Systems",
         "The Deep Engineering Behind Multi-Region Consensus Protocols for Exabyte-Scale, Ultra-Low Latency Data Stores",
@@ -226,6 +225,9 @@
         "CRISPR Prime Editing's Leap Forward: Engineering Precise Genomic Edits with Enhanced Efficiency and Reduced Off-Target Effects.",
         "Autonomous Failure Prediction and Self-Correction: Designing Resilient Hyperscale Distributed Systems with AI/ML-Driven Observability",
         "The Invisible Backplane: Dissecting Software-Defined Networking (SDN) Evolution for Global Hyperscale Interconnects and Microsecond Latency Optimization",
-        "Next-Gen Viral Vector Engineering: Designing Tissue-Specific, Spatiotemporally Controlled Gene Editing Systems for In Vivo Therapeutic Applications"
+        "Next-Gen Viral Vector Engineering: Designing Tissue-Specific, Spatiotemporally Controlled Gene Editing Systems for In Vivo Therapeutic Applications",
+        "The Evolution of Smart NICs and Programmable Data Planes in Hyperscale Cloud Networking",
+        "Designing Resilient Multi-Region Active-Active Architectures for Zero RTO/RPO Cloud Services",
+        "The Algorithmic Engineering Behind Hyper-Personalized Recommendation Engines Driving Viral Content Adoption"
     ]
 }
