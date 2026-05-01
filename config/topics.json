@@ -163,7 +163,6 @@
         "From PUE to PUD: Advancements in Disaggregated Computing and Direct Liquid Cooling for Hyperscale Infrastructure",
         "The Phage-Storage Paradigm: Engineering Bacteriophage Virions for Petabyte-Scale Biological Data Storage and Retrieval Systems",
         "The Interconnect Revolution: Architecting Multi-Trillion Parameter AI Models with Next-Gen Compute Fabrics",
-        "Global Strong Consistency at Scale: Deconstructing Hyperscale Distributed Transactional Databases",
         "Precision Genetic Engineering: The Rise of Base, Prime, and Epigenetic Editing for Therapeutic Applications",
         "The Architectural Evolution of Disaggregated Storage and Compute in Hyperscale Cloud Environments",
         "Beyond 400GbE: The Role of Programmable Data Planes and Silicon Photonics in Future Intra-Datacenter Networks",
@@ -230,6 +229,9 @@
         "The Algorithmic Engineering Behind Hyper-Personalized Recommendation Engines Driving Viral Content Adoption",
         "The architectural patterns and custom silicon optimizations enabling exascale AI model training and inference for foundational LLMs.",
         "Deconstructing the hyperscale serverless runtime: micro-VM orchestration, cold-start mitigation, and secure multi-tenancy across millions of concurrent invocations.",
-        "Engineering self-regulating gene drive systems: biochemical safeties, ecological containment architectures, and ethical design principles for precise genetic interventions."
+        "Engineering self-regulating gene drive systems: biochemical safeties, ecological containment architectures, and ethical design principles for precise genetic interventions.",
+        "The shift from NUMA to UMA: How Google's Jupiter network fabric is rewriting the assumptions of datacenter locality and memory access costs.",
+        "Inside Meta's Project Aria: Reverse engineering the massive, real-time compute pipeline for AR glasses at planetary scale.",
+        "The physics of power: How hyperscalers are engineering on-site nuclear microreactors to bypass grid limitations for exascale AI clusters."
     ]
 }
