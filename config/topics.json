@@ -171,7 +171,6 @@
         "CRISPR-Cas as a Programmable Antiviral: Unpacking the Mechanisms and Challenges of Engineering Broad-Spectrum Viral Resistance into Mammalian Cells",
         "The Architectural Shift: Disaggregating Network Functions and Optical Switching in Hyperscale Data Centers",
         "Achieving Near-Zero Latency: Distributed State Management Strategies for Globally Replicated Serverless Edge Workloads",
-        "Deep Learning for De Novo Viral Protein Design: Predicting Mutational Escape and Engineering Broad-Spectrum Antivirals",
         "The Evolution of Disaggregated AI Compute: From Shared Memory Architectures to DPU-driven Resource Pooling at Hyperscale",
         "CRISPR-Cas Systems Beyond Gene Editing: Engineering Antiviral Defenses and Ultra-Sensitive Diagnostic Platforms with RNA-Guided Surveillance",
         "eBPF's Role in Next-Gen Hyperscale Network Observability and Low-Latency Packet Processing for Cloud-Native Microservices",
@@ -236,6 +235,9 @@
         "The Architecture of AI-Driven Protein Design: From AlphaFold to De Novo Functional Protein Synthesis",
         "Real-Time Inference at Scale: Engineering AI Model Serving Infrastructure for Billions of Daily Queries",
         "Beyond Clos: Architecting Disaggregated and Programmable Data Center Networks for Hyperscale AI Workloads",
-        "Petabyte-Scale Genomics: Building Secure and Performant Pipelines for Population-Level Biomedical Data"
+        "Petabyte-Scale Genomics: Building Secure and Performant Pipelines for Population-Level Biomedical Data",
+        "Beyond the Rack: Deep Dive into Liquid Cooling Architectures and Two-Phase Immersion for Hyperscale AI Compute Clusters",
+        "The Conundrum of Strong Eventual Consistency: Architecting Distributed Transactional Systems for Global Financial Ledgers with Hybrid Logical Clocks",
+        "CRISPR-Cas9 System Repurposing for Programmable Epigenetic Modifiers: Challenges in Off-Target Effects and Delivery Vector Optimization for Therapeutic Scaling"
     ]
 }
