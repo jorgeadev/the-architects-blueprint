@@ -163,7 +163,6 @@
         "The Phage-Storage Paradigm: Engineering Bacteriophage Virions for Petabyte-Scale Biological Data Storage and Retrieval Systems",
         "The Interconnect Revolution: Architecting Multi-Trillion Parameter AI Models with Next-Gen Compute Fabrics",
         "Precision Genetic Engineering: The Rise of Base, Prime, and Epigenetic Editing for Therapeutic Applications",
-        "The Architectural Evolution of Disaggregated Storage and Compute in Hyperscale Cloud Environments",
         "Beyond 400GbE: The Role of Programmable Data Planes and Silicon Photonics in Future Intra-Datacenter Networks",
         "Optimizing Hypervisor-Level Co-Scheduling and Memory Paging for Near-Zero Cold Starts in Petabyte-Scale Serverless Architectures",
         "The Cutting Edge of CRISPR-Cas Engineered Phage Therapeutics: Overcoming Delivery and Immunogenicity Challenges for Multi-Drug Resistant Pathogens",
@@ -234,6 +233,9 @@
         "The physics of power: How hyperscalers are engineering on-site nuclear microreactors to bypass grid limitations for exascale AI clusters.",
         "Beyond RDMA: Exploring CXL and Gen-Z Fabric Topologies for Disaggregated Memory and Compute in Hyperscale AI",
         "Zero-Trust Networking at Exabyte Scale: Engineering Microsegmentation and Policy Enforcement for Hyperscale Cloud Infrastructure",
-        "The Architecture of AI-Driven Protein Design: From AlphaFold to De Novo Functional Protein Synthesis"
+        "The Architecture of AI-Driven Protein Design: From AlphaFold to De Novo Functional Protein Synthesis",
+        "Real-Time Inference at Scale: Engineering AI Model Serving Infrastructure for Billions of Daily Queries",
+        "Beyond Clos: Architecting Disaggregated and Programmable Data Center Networks for Hyperscale AI Workloads",
+        "Petabyte-Scale Genomics: Building Secure and Performant Pipelines for Population-Level Biomedical Data"
     ]
 }
