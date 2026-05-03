@@ -92,7 +92,6 @@
         "Deconstructing Meta's Threads: The Real-Time Graph Sync Architecture at Planetary Scale",
         "The Physics of Viral Spread: Modeling and Engineering Contagion Dynamics in Social Feeds",
         "The Unspoken Trade-offs of Global Anycast: A Deep Dive into TCP Meltdowns and Geo-aware Load Balancing",
-        "Beyond Sharding: Implementing Distributed SQL with True Serializability at Petabyte Scale",
         "Deconstructing Meta's Threads: The Real-Time Feed Architecture for 100M+ Users on Day One",
         "Beyond Kubernetes: The Rise of WebAssembly-Based Orchestration for Heterogeneous Edge Compute",
         "The Physics of Cooling: How Hyperscalers are Designing Direct-to-Chip Two-Phase Immersion Systems for 100kW+ Racks",
@@ -242,6 +241,9 @@
         "Accelerating De Novo Protein Design: Large Language Models and the Computational Infrastructure for Synthetic Biology",
         "Optimizing Peta-Scale Distributed Transactional Systems for Global Consistency and Ultra-Low Latency",
         "The Network Architecture Evolution Driving Multi-Trillion Parameter AI Model Training: Beyond Clos Topologies",
-        "Programmable Genetic Circuits: Designing and Deploying CRISPR-Cas Systems for Advanced Cellular Diagnostics and Therapeutics"
+        "Programmable Genetic Circuits: Designing and Deploying CRISPR-Cas Systems for Advanced Cellular Diagnostics and Therapeutics",
+        "Optimizing Inferencing Latency for Trillion-Parameter AI Models in Geo-Distributed Data Centers",
+        "The Rise of Programmable Data Plane Networks: Overcoming Bandwidth Bottlenecks for Exascale AI Clusters",
+        "Advanced Lipid Nanoparticle Design for Targeted mRNA Delivery in Next-Generation Therapeutic Vaccines"
     ]
 }
