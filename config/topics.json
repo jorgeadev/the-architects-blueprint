@@ -129,7 +129,6 @@
         "Postmortem Analysis of the Cascading Failure in a Major CDN's Anycast Routing During a Global Sporting Event",
         "CXL-enabled computational storage: Architectural implications for extreme-scale data processing and resource disaggregation in cloud environments.",
         "Achieving strong consistency in globally distributed transactional databases through novel causal ordering and conflict resolution mechanisms.",
-        "Synthetic virology for targeted oncolytic therapies: Overcoming tumor microenvironment barriers and immunogenicity challenges.",
         "Architecting AAV Capsids for Enhanced Tissue Tropism and Reduced Immunogenicity in Gene Therapy Delivery",
         "The architectural paradigms and challenges of serving multi-trillion parameter foundation models at global scale with single-digit millisecond latency.",
         "Deep dive into disaggregated optical-IP data center networks and their role in enabling extreme-scale AI/ML workloads, exploring RoCEv2, DPU/IPU integration, and P4 programmable switching.",
@@ -240,6 +239,9 @@
         "CRISPR-Cas9 System Repurposing for Programmable Epigenetic Modifiers: Challenges in Off-Target Effects and Delivery Vector Optimization for Therapeutic Scaling",
         "The Architectural Innovations Behind Hyperscale Data Center Liquid Immersion Cooling Systems and Energy Efficiency",
         "Beyond Consensus: Engineering Verifiable Compute and State for Global-Scale Decentralized Applications",
-        "Accelerating De Novo Protein Design: Large Language Models and the Computational Infrastructure for Synthetic Biology"
+        "Accelerating De Novo Protein Design: Large Language Models and the Computational Infrastructure for Synthetic Biology",
+        "Optimizing Peta-Scale Distributed Transactional Systems for Global Consistency and Ultra-Low Latency",
+        "The Network Architecture Evolution Driving Multi-Trillion Parameter AI Model Training: Beyond Clos Topologies",
+        "Programmable Genetic Circuits: Designing and Deploying CRISPR-Cas Systems for Advanced Cellular Diagnostics and Therapeutics"
     ]
 }
