@@ -127,7 +127,6 @@
         "Dissecting the Hardware-Software Co-Design of Modern AI Hyperclusters: Beyond Just More GPUs",
         "Postmortem Analysis of the Cascading Failure in a Major CDN's Anycast Routing During a Global Sporting Event",
         "CXL-enabled computational storage: Architectural implications for extreme-scale data processing and resource disaggregation in cloud environments.",
-        "Achieving strong consistency in globally distributed transactional databases through novel causal ordering and conflict resolution mechanisms.",
         "Architecting AAV Capsids for Enhanced Tissue Tropism and Reduced Immunogenicity in Gene Therapy Delivery",
         "The architectural paradigms and challenges of serving multi-trillion parameter foundation models at global scale with single-digit millisecond latency.",
         "Deep dive into disaggregated optical-IP data center networks and their role in enabling extreme-scale AI/ML workloads, exploring RoCEv2, DPU/IPU integration, and P4 programmable switching.",
@@ -248,6 +247,9 @@
         "Advances in Adeno-Associated Virus (AAV) Capsid Engineering for Enhanced Tissue Tropism and Reduced Immunogenicity in Gene Therapy",
         "The architectural evolution of large language model serving: from static endpoints to dynamic, multi-tenant inference graphs.",
         "Hyperscale data center thermal management: A deep dive into advanced liquid cooling and immersion strategies for petascale AI clusters.",
-        "DNA as a data center: Engineering challenges and potential of high-density genomic information storage and retrieval."
+        "DNA as a data center: Engineering challenges and potential of high-density genomic information storage and retrieval.",
+        "Hyperscaler Innovations Beyond Kubernetes: Custom Orchestration and Resource Management for Extreme Scale",
+        "Architecting Trillion-Parameter AI: The Role of Optical Interconnects and Network Fabric Topologies",
+        "Next-Gen Gene Delivery: Engineering AAV Serotypes and Non-Viral Nanoparticle Encapsulation for Advanced Therapies"
     ]
 }
