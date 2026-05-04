@@ -186,7 +186,6 @@
         "Synthetic Virology: Engineering Novel Bacteriophage Systems for Programmable Microbiome Modulation and Targeted Drug Delivery at Scale",
         "The unseen battle for bandwidth: How hyperscalers are leveraging CXL 3.0 and photonic integration to overcome memory and interconnect bottlenecks in petascale AI clusters.",
         "Beyond global eventual consistency: Architecting planet-scale strongly consistent transactional ledgers for real-time applications using novel consensus and data sharding techniques.",
-        "The programmable pathogen: Inside the synthetic biology breakthroughs driving self-amplifying mRNA vaccines and targeted viral vector gene therapies.",
         "Optimizing Tail Latency in Hyperscale Distributed Databases Through Advanced Congestion Control and Network Prioritization",
         "The Evolution of Cloud-Native Workload Scheduling: From Bin Packing to AI-Driven Predictive Resource Allocation",
         "CRISPR-Associated Transposases (CAST) for Programmable Large-Fragment Genomic Integration in Antiviral Gene Therapy",
@@ -250,6 +249,9 @@
         "DNA as a data center: Engineering challenges and potential of high-density genomic information storage and retrieval.",
         "Hyperscaler Innovations Beyond Kubernetes: Custom Orchestration and Resource Management for Extreme Scale",
         "Architecting Trillion-Parameter AI: The Role of Optical Interconnects and Network Fabric Topologies",
-        "Next-Gen Gene Delivery: Engineering AAV Serotypes and Non-Viral Nanoparticle Encapsulation for Advanced Therapies"
+        "Next-Gen Gene Delivery: Engineering AAV Serotypes and Non-Viral Nanoparticle Encapsulation for Advanced Therapies",
+        "Real-time Multi-tenant GPU Scheduling and Resource Isolation for Hyperscale AI Inference",
+        "Implementing Globally Consistent, Sub-millisecond Latency Distributed Transactions Across Geo-Distributed Data Centers",
+        "Advanced AAV Capsid Directed Evolution for Precision In Vivo Gene Editing Delivery Systems"
     ]
 }
