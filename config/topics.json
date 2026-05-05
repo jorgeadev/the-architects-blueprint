@@ -212,7 +212,6 @@
         "Autonomous Failure Prediction and Self-Correction: Designing Resilient Hyperscale Distributed Systems with AI/ML-Driven Observability",
         "The Invisible Backplane: Dissecting Software-Defined Networking (SDN) Evolution for Global Hyperscale Interconnects and Microsecond Latency Optimization",
         "Next-Gen Viral Vector Engineering: Designing Tissue-Specific, Spatiotemporally Controlled Gene Editing Systems for In Vivo Therapeutic Applications",
-        "The Evolution of Smart NICs and Programmable Data Planes in Hyperscale Cloud Networking",
         "Designing Resilient Multi-Region Active-Active Architectures for Zero RTO/RPO Cloud Services",
         "The Algorithmic Engineering Behind Hyper-Personalized Recommendation Engines Driving Viral Content Adoption",
         "The architectural patterns and custom silicon optimizations enabling exascale AI model training and inference for foundational LLMs.",
@@ -258,6 +257,9 @@
         "Synthetic Viromics: Designing Self-Assembling Nanoparticle-Virus Hybrids for Targeted Gene Delivery and Advanced Diagnostics",
         "Implementing a distributed congestion control plane for multi-tenant RDMA fabric at petabit scale",
         "Witnessing a cascading BGP blackhole: a forensic analysis of a tier-1 backbone carrier's route leak and convergence failure",
-        "The design and incremental deployment of a hardware-backed memory safety isolation layer within Google's Borg scheduler"
+        "The design and incremental deployment of a hardware-backed memory safety isolation layer within Google's Borg scheduler",
+        "The Latency Tax: Quantifying the Cost of Multi-Region Data Consistency in Global Infrastructure Deployments",
+        "Inside the Erasure Coding War: How Meta and Google are Re-Architecting Petabyte-Scale Cold Storage Around Noise Injection",
+        "Finding the Needle in the Firehose: A Postmortem on the exabyte-level indexing failure that cascaded from a single BGP misconfiguration"
     ]
 }
