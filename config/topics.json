@@ -95,7 +95,6 @@
         "Deconstructing Meta's Threads: The Real-Time Feed Architecture for 100M+ Users on Day One",
         "Beyond Kubernetes: The Rise of WebAssembly-Based Orchestration for Heterogeneous Edge Compute",
         "The Physics of Cooling: How Hyperscalers are Designing Direct-to-Chip Two-Phase Immersion Systems for 100kW+ Racks",
-        "Beyond Kubernetes: The Rise of the Cell-Based Architecture for Global Compute Orchestration",
         "Dissecting the 'Read-After-Write' Consistency Crisis in Modern, Globally-Distributed Social Graphs",
         "The Unspoken Trade-offs of Multi-Region Active-Active Architectures: Beyond the 11 Nines",
         "Deconstructing the Data Mesh: Implementing Federated Computational Governance at Petabyte Scale",
@@ -256,6 +255,9 @@
         "Quantum-Safe Cryptography at Scale: Architecting Post-Quantum Primitives for Hyperscale Distributed Systems and Supply Chain Security",
         "Global Atomic Consensus: Engineering High-Throughput, Low-Latency Transactional Integrity Across Geo-Distributed Cloud Infrastructures",
         "The Exabyte Enigma: Architecting Intelligent Tiering and Data Lineage Systems for AI Foundation Model Training Data Lakes",
-        "Synthetic Viromics: Designing Self-Assembling Nanoparticle-Virus Hybrids for Targeted Gene Delivery and Advanced Diagnostics"
+        "Synthetic Viromics: Designing Self-Assembling Nanoparticle-Virus Hybrids for Targeted Gene Delivery and Advanced Diagnostics",
+        "Implementing a distributed congestion control plane for multi-tenant RDMA fabric at petabit scale",
+        "Witnessing a cascading BGP blackhole: a forensic analysis of a tier-1 backbone carrier's route leak and convergence failure",
+        "The design and incremental deployment of a hardware-backed memory safety isolation layer within Google's Borg scheduler"
     ]
 }
