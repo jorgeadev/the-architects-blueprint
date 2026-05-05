@@ -132,7 +132,6 @@
         "The Physics of Cooling: How Google's New Liquid Immersion Data Centers Achieve PUE < 1.05",
         "Defeating the CAP Theorem: A Deep Dive into Amazon's Multi-Region Active-Active Aurora Architecture for Global Low-Latency Writes",
         "The Hardware Abstraction Layer Powering Google's TPU v5: A Systems-Level Analysis of Inter-Chiplet Coherence and Optical Fabric Topology",
-        "The Distributed Systems Challenges of Serving Trillion-Parameter AI Models in Real-time at Hyperscale",
         "Liquid Immersion Cooling Architectures for AI-Accelerated Data Centers: Efficiency and Scalability Beyond the Rack",
         "Advanced AAV Vector Engineering for Precision Gene Therapy Delivery: Navigating Immunogenicity and Tissue Specificity",
         "The Architectural Evolution of Memory-Disaggregated Systems in Hyperscale Data Centers driven by CXL",
@@ -262,6 +261,9 @@
         "Finding the Needle in the Firehose: A Postmortem on the exabyte-level indexing failure that cascaded from a single BGP misconfiguration",
         "CXL 3.0 and the Future of Disaggregated Memory Architectures in Hyperscale Data Centers",
         "The Distributed Systems Engineering Challenges Behind Training Trillion-Parameter AI Models",
-        "Leveraging Programmable CRISPR-Cas Systems for RNA-Targeting Diagnostics and Therapeutics"
+        "Leveraging Programmable CRISPR-Cas Systems for RNA-Targeting Diagnostics and Therapeutics",
+        "The Hyperscale Interconnect Fabrics Powering Trillion-Parameter AI Model Training Clusters",
+        "Designing Global Multi-Version Concurrency Control Mechanisms for Petabyte-Scale Real-Time Transactional Systems",
+        "Precision Delivery Vector Architectures for Programmable Epigenetic Modulation in In Vivo Gene Therapies"
     ]
 }
