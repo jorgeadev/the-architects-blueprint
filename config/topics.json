@@ -122,7 +122,6 @@
         "Synthetic biology's frontier: engineering novel viral capsids for enhanced gene therapy delivery and immunogenicity control.",
         "Dissecting the Hardware-Software Co-Design of Modern AI Hyperclusters: Beyond Just More GPUs",
         "Postmortem Analysis of the Cascading Failure in a Major CDN's Anycast Routing During a Global Sporting Event",
-        "CXL-enabled computational storage: Architectural implications for extreme-scale data processing and resource disaggregation in cloud environments.",
         "Architecting AAV Capsids for Enhanced Tissue Tropism and Reduced Immunogenicity in Gene Therapy Delivery",
         "The architectural paradigms and challenges of serving multi-trillion parameter foundation models at global scale with single-digit millisecond latency.",
         "Deep dive into disaggregated optical-IP data center networks and their role in enabling extreme-scale AI/ML workloads, exploring RoCEv2, DPU/IPU integration, and P4 programmable switching.",
@@ -268,6 +267,9 @@
         "Engineering global pathogen surveillance: Architecting privacy-preserving, real-time genomic sequencing and AI-driven anomaly detection networks.",
         "Scalable Inter-chip Communication Architectures for Trillion-Parameter AI Model Inference in Hyperscale Data Centers",
         "Next-Generation Liquid Cooling and Heat Reuse Strategies for Exascale AI Superclusters",
-        "AI-Accelerated Rational Design of Novel Antiviral Therapeutics: From Protein Folding to High-Throughput Screening"
+        "AI-Accelerated Rational Design of Novel Antiviral Therapeutics: From Protein Folding to High-Throughput Screening",
+        "The Hyperscale Architectures Driving AI Model Training: Beyond Distributed GPU Clusters to Photonic Interconnects",
+        "Designing the 'Infinite' CDN: How Major Platforms Manage Real-Time Content Delivery in a Post-HTTP/3 World with QUIC-aware Edge Caching and Serverless Functions",
+        "CRISPR-Powered Epigenetic Editing for Precision Disease Therapy: Overcoming Off-Target Effects and Delivery Challenges at Scale"
     ]
 }
