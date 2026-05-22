@@ -93,7 +93,6 @@
         "Beyond Raft and Paxos: Engineering Global Consistency in Cloud-Native Distributed Transactional Databases",
         "Deconstructing Meta's Threads: The Real-Time Synchronization and State Reconciliation Engine at 100M+ Users",
         "Beyond the Shard: Google's Next-Gen Spanner and the Physics-Limits of Globally Consistent, Planet-Scale Databases",
-        "The Unseen Cost of Virality: A Technical Post-Mortem of the AI Image Generator Stampede and Its Cascading Cloud Failures",
         "Global distributed consensus at scale: Architecting strongly consistent multi-region transactional systems for petabyte-scale data.",
         "Deconstructing the Global Request Router: How Meta's Edge Network Handles 10 Trillion Queries Per Day",
         "Beyond Kubernetes: The Unconventional Orchestration Systems Powering Hyperscale AI Training Clusters",
@@ -391,6 +390,9 @@
         "The hidden telemetry war: How Netflix's Chaos Monkey 2.0 employs differential privacy and causal inference to inject deterministic latency into petabyte-scale data pipelines without triggering cascading failures.",
         "Optimizing Interconnect Topologies for Trillion-Parameter AI Model Training: Beyond InfiniBand and NVLink.",
         "The Architectural Shift to Hypervisor-less Container Isolation: Firecracker, Kata, and gVisor in Hyperscale Cloud Environments.",
-        "DNA as the Next Petabyte Archive: Engineering Challenges and Solutions for Biological Data Storage."
+        "DNA as the Next Petabyte Archive: Engineering Challenges and Solutions for Biological Data Storage.",
+        "The architectural evolution of disaggregated memory pools and CXL integration in hyperscale cloud infrastructure for AI/ML workloads.",
+        "Designing hyper-resilient, globally distributed consensus protocols for petabyte-scale stateful services: A deep dive into multi-Paxos and Raft variants.",
+        "Scalable synthetic biology platforms: Engineering cellular factories for high-throughput biomaterial production and metabolic pathway optimization."
     ]
 }
