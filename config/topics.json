@@ -325,7 +325,6 @@
         "Beyond CRISPR-Cas9: Exploring advanced gene editing systems and their implications for precision therapeutic development.",
         "The evolving role of CXL in next-gen AI superclusters for memory pooling and disaggregation",
         "Architecting planetary-scale data replication and consistency across hybrid cloud environments",
-        "Accelerating targeted viral delivery systems: Engineering novel capsids for tissue-specific gene therapy",
         "The Architectural Principles Behind Hyperscale Real-time Anomaly Detection Systems: From Graph Neural Networks to Probabilistic Fault Injection",
         "Hardware-Software Co-Design for Next-Generation Data Center Interconnects: Disaggregated Fabrics, Silicon Photonics, and Custom ASICs",
         "AI-Driven Discovery of Novel Viral Receptors: Accelerating Antiviral Therapeutics Through Deep Learning and Structural Biology",
@@ -389,6 +388,9 @@
         "Computational Architectures for AI-Driven De Novo Protein Design and Synthetic Virology: Scaling Challenges in Generating Novel Biological Entities",
         "Unveiling the distributed consensus layer: How YouTube rebuilt its live viewer count from CRDTs to a global state machine with sub-second latency under 100 million concurrent watchers.",
         "Serverless at planetary scale: A deep dive into the autonomous sharding and resource orchestration of AWS Lambda's control plane, handling 1.5 trillion invocations daily with zero-config failover.",
-        "The hidden telemetry war: How Netflix's Chaos Monkey 2.0 employs differential privacy and causal inference to inject deterministic latency into petabyte-scale data pipelines without triggering cascading failures."
+        "The hidden telemetry war: How Netflix's Chaos Monkey 2.0 employs differential privacy and causal inference to inject deterministic latency into petabyte-scale data pipelines without triggering cascading failures.",
+        "Optimizing Interconnect Topologies for Trillion-Parameter AI Model Training: Beyond InfiniBand and NVLink.",
+        "The Architectural Shift to Hypervisor-less Container Isolation: Firecracker, Kata, and gVisor in Hyperscale Cloud Environments.",
+        "DNA as the Next Petabyte Archive: Engineering Challenges and Solutions for Biological Data Storage."
     ]
 }
