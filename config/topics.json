@@ -49,7 +49,6 @@
         "The Architectural Implications of Disaggregated Memory and Compute for Future Hyperscale Data Centers",
         "Achieving Global-Scale Strong Consistency in Geo-Distributed Databases: A Deep Dive into Conflict Resolution and Consensus Protocols",
         "Deep dive into maintaining strong temporal consistency across globally distributed, eventually consistent transactional databases: challenges and novel solutions.",
-        "Architecting Quantum-Resistant Cryptography Integration into Hyperscale Cloud Service Meshes and PKI Systems",
         "The Deep Engineering Behind Multi-Region Consensus Protocols for Exabyte-Scale, Ultra-Low Latency Data Stores",
         "Hyperscale GPU Cluster Interconnects: Optimizing Latency and Throughput in NVIDIA Hopper and Grace-Hopper Architectures",
         "Advancements in Phage Display Libraries for Targeted Drug Delivery and Precision Diagnostics in Oncological Therapies",
@@ -387,6 +386,9 @@
         "Leveraging Large Language Models and Diffusion Models for De Novo Protein Design and Engineering at Scale",
         "Architecting Zero-Copy, Kernel-Bypassing I/O Stacks with DPUs and RDMA for Sub-Millisecond AI Inference at Hyperscale",
         "Implementing Globally Consistent Distributed Transactions at Petabyte Scale: Challenges and Solutions with Hybrid Logical Clocks and Atomic Commit Protocols",
-        "Computational Architectures for AI-Driven De Novo Protein Design and Synthetic Virology: Scaling Challenges in Generating Novel Biological Entities"
+        "Computational Architectures for AI-Driven De Novo Protein Design and Synthetic Virology: Scaling Challenges in Generating Novel Biological Entities",
+        "Unveiling the distributed consensus layer: How YouTube rebuilt its live viewer count from CRDTs to a global state machine with sub-second latency under 100 million concurrent watchers.",
+        "Serverless at planetary scale: A deep dive into the autonomous sharding and resource orchestration of AWS Lambda's control plane, handling 1.5 trillion invocations daily with zero-config failover.",
+        "The hidden telemetry war: How Netflix's Chaos Monkey 2.0 employs differential privacy and causal inference to inject deterministic latency into petabyte-scale data pipelines without triggering cascading failures."
     ]
 }
