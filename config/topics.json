@@ -308,7 +308,6 @@
         "The Architecture of Hyperscale Generative AI Training: From Custom Silicon Interconnects to Liquid Immersion Cooling Infrastructures",
         "Engineering Programmable Oncolytic Viruses: Leveraging AI and Synthetic Biology for Targeted Cancer Therapies with Minimal Off-Target Effects",
         "Architecting Hyperscale Edge AI Inference: Beyond Centralized Cloud and Towards Self-Healing, Distributed Model Deployment at the Far Edge.",
-        "Advanced Viral Vector Design for Next-Generation Gene Therapies: Overcoming Immunogenicity and Enhancing Tissue Specificity Through Directed Evolution and Synthetic Capsids.",
         "The Microkernel Revolution: Disaggregating Hyperscale Cloud Infrastructure with Emerging Hardware Architectures like CXL and DPUs for Next-Gen Resource Management.",
         "Beyond GPUs: Scaling Trillion-Parameter AI Models with Specialized Interconnects, Gradient Compression, and Asynchronous Execution in Distributed Training Frameworks.",
         "CRISPR-Powered Phage Engineering: Precision Bacteriophage Design for Antimicrobial Resistance Combat and Targeted Microbiome Modulation Through Advanced Synthetic Biology.",
@@ -395,6 +394,9 @@
         "Scalable synthetic biology platforms: Engineering cellular factories for high-throughput biomaterial production and metabolic pathway optimization.",
         "The Latency-Aware Software-Defined Silicon Mesh: Optimizing Cross-Chiplet Communication in Next-Gen AI Accelerators.",
         "Real-time Backpressure and Congestion Control in Exascale Event Streaming Architectures: A Deep Dive into Adaptive Flow Algorithms.",
-        "Synthetic Viral Vector Design via Machine Learning: Predicting Immunogenicity and Tropism for Advanced Gene Therapies."
+        "Synthetic Viral Vector Design via Machine Learning: Predicting Immunogenicity and Tropism for Advanced Gene Therapies.",
+        "Architecting Low-Latency, Distributed Inference for Trillion-Parameter Foundation Models: A Deep Dive into Tensor Parallelism and Dynamic Batching",
+        "The Evolution of Hyperscale Data Center Networks: Optimizing for AI/ML Workloads with RoCEv2 and Programmable Switches",
+        "Beyond AlphaFold: Technical Deep Dive into Generative AI for De Novo Protein Design and Multi-Modal Drug Discovery"
     ]
 }
