@@ -255,7 +255,6 @@
         "Leveraging eBPF for deep kernel-level observability and anomaly detection in cloud-native microservice meshes.",
         "The role of advanced graph neural networks and cloud-scale computation in accelerating novel viral vector design for gene therapy.",
         "The Architectural Shift in Hyperscale Data Center Interconnects: From DWDM to Photonic Integrated Circuits and Software-Defined Fabrics",
-        "Engineering Precision: Overcoming Delivery and Off-Target Hurdles in *In Vivo* CRISPR-Based Gene Therapies with Novel Viral Capsids and RNA Guides",
         "The architectural evolution of real-time serverless function orchestration across heterogeneous cloud regions for low-latency edge AI inference.",
         "Implementing provably fault-tolerant distributed transaction systems using CRDTs and TLA+ for global-scale e-commerce platforms.",
         "The emerging architectural patterns for synthetic viral vector design optimization using reinforcement learning for in-vivo gene therapy delivery.",
@@ -399,6 +398,9 @@
         "Beyond AlphaFold: Technical Deep Dive into Generative AI for De Novo Protein Design and Multi-Modal Drug Discovery",
         "Dissecting Next-Gen Global Consensus Algorithms for Hyperscale Transactional Consistency in Multi-Region Cloud Environments",
         "Programmable Dataplanes (P4) and the Future of Hyperscale Network Fabric Orchestration for AI/ML Training Clusters",
-        "Computational Phage Design: Engineering Lytic Specificity and Broad-Spectrum Efficacy Against Pan-Resistant Bacteria via Synthetic Genomics"
+        "Computational Phage Design: Engineering Lytic Specificity and Broad-Spectrum Efficacy Against Pan-Resistant Bacteria via Synthetic Genomics",
+        "Architecting the Next-Gen Disaggregated Memory Fabrics: CXL 3.0 and Beyond for Ultra-Low Latency, Shared-Memory AI Superclusters",
+        "The Stealth Scale of Edge AI: How Major Cloud Providers are Deploying TinyML-Enabled, Self-Healing Micro-Data Centers for Hyperscale IoT and Autonomous Systems",
+        "Programmable Phage Therapies: Designing AI-Optimized Viral Vectors for Targeted Bacterial Eradication and Overcoming Multi-Drug Resistance"
     ]
 }
