@@ -358,7 +358,6 @@
         "Optical Circuit Switching and Programmable Data Planes: Reshaping Inter-DC Traffic Engineering for Exascale Cloud Infrastructure",
         "AI-Driven Directed Evolution: Engineering Next-Gen AAV Capsids for Precision Gene Therapy and Minimized Immunogenicity",
         "Decoding Meta's Wan: The Hardware-Software Co-Design Powering Their Heterogeneous AI Inference Fleet",
-        "Inside the GCP Spanner Shard Thaw: How Google Minimized Commit Latency During a Planet-Wide Metadata Outage",
         "How Netflix Migrated Its Entire Content Pipeline to a Unified Delta Lake Without a Single Failed Stream",
         "Architecting Multi-Tenant, Petabyte-Scale Data Lakes for Real-time AI/ML Training: A Deep Dive into Distributed Query Optimization",
         "Beyond AlphaFold: Engineering Scalable Generative AI Models for *De Novo* Protein Design and High-Throughput Biological Synthesis",
@@ -397,6 +396,9 @@
         "Synthetic Viral Vector Design via Machine Learning: Predicting Immunogenicity and Tropism for Advanced Gene Therapies.",
         "Architecting Low-Latency, Distributed Inference for Trillion-Parameter Foundation Models: A Deep Dive into Tensor Parallelism and Dynamic Batching",
         "The Evolution of Hyperscale Data Center Networks: Optimizing for AI/ML Workloads with RoCEv2 and Programmable Switches",
-        "Beyond AlphaFold: Technical Deep Dive into Generative AI for De Novo Protein Design and Multi-Modal Drug Discovery"
+        "Beyond AlphaFold: Technical Deep Dive into Generative AI for De Novo Protein Design and Multi-Modal Drug Discovery",
+        "Dissecting Next-Gen Global Consensus Algorithms for Hyperscale Transactional Consistency in Multi-Region Cloud Environments",
+        "Programmable Dataplanes (P4) and the Future of Hyperscale Network Fabric Orchestration for AI/ML Training Clusters",
+        "Computational Phage Design: Engineering Lytic Specificity and Broad-Spectrum Efficacy Against Pan-Resistant Bacteria via Synthetic Genomics"
     ]
 }
