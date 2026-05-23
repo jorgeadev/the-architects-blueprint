@@ -222,7 +222,6 @@
         "The architectural evolution of large language model serving infrastructure: From monolithic deployments to adaptive distributed inference engines.",
         "Engineering global pathogen surveillance: Architecting privacy-preserving, real-time genomic sequencing and AI-driven anomaly detection networks.",
         "Scalable Inter-chip Communication Architectures for Trillion-Parameter AI Model Inference in Hyperscale Data Centers",
-        "AI-Accelerated Rational Design of Novel Antiviral Therapeutics: From Protein Folding to High-Throughput Screening",
         "The Hyperscale Architectures Driving AI Model Training: Beyond Distributed GPU Clusters to Photonic Interconnects",
         "Designing the 'Infinite' CDN: How Major Platforms Manage Real-Time Content Delivery in a Post-HTTP/3 World with QUIC-aware Edge Caching and Serverless Functions",
         "CRISPR-Powered Epigenetic Editing for Precision Disease Therapy: Overcoming Off-Target Effects and Delivery Challenges at Scale",
@@ -393,6 +392,9 @@
         "DNA as the Next Petabyte Archive: Engineering Challenges and Solutions for Biological Data Storage.",
         "The architectural evolution of disaggregated memory pools and CXL integration in hyperscale cloud infrastructure for AI/ML workloads.",
         "Designing hyper-resilient, globally distributed consensus protocols for petabyte-scale stateful services: A deep dive into multi-Paxos and Raft variants.",
-        "Scalable synthetic biology platforms: Engineering cellular factories for high-throughput biomaterial production and metabolic pathway optimization."
+        "Scalable synthetic biology platforms: Engineering cellular factories for high-throughput biomaterial production and metabolic pathway optimization.",
+        "The Latency-Aware Software-Defined Silicon Mesh: Optimizing Cross-Chiplet Communication in Next-Gen AI Accelerators.",
+        "Real-time Backpressure and Congestion Control in Exascale Event Streaming Architectures: A Deep Dive into Adaptive Flow Algorithms.",
+        "Synthetic Viral Vector Design via Machine Learning: Predicting Immunogenicity and Tropism for Advanced Gene Therapies."
     ]
 }
