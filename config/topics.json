@@ -158,7 +158,6 @@
         "The Architectural Evolution of Interconnects for Trillion-Parameter AI Model Training: Beyond NVLink and InfiniBand",
         "Engineering Petabyte-Scale Observability: Distributed Tracing and Causal Analysis in Hyperscale Microservice Architectures",
         "The System Architecture and Data Challenges of Foundation Models for De Novo Protein Design and High-Throughput Drug Discovery",
-        "Achieving transactional consistency at exascale: A deep dive into global strong consistency models and conflict resolution in next-gen distributed ledgers for financial platforms.",
         "Architecting for biological computation: The data infrastructure challenges in scaling DNA storage and synthetic gene circuit design for novel bio-processors.",
         "Taming Tail Latency at Exabyte Scale: Adaptive Request Coalescing and Non-Blocking Memory Pools in Distributed Caches",
         "Inside the Global Control Plane: A Deep Dive on the Distributed Consensus and Shard Rebalancing Algorithms Powering a Multi-Region Cloud Database",
@@ -405,6 +404,9 @@
         "Engineering Programmable Viral Capsids: Designing Next-Generation Gene Delivery Vectors for Targeted In Vivo Therapeutic mRNA Translation",
         "The Engineering Challenges of Hyperscale Liquid Cooling for Petascale AI Accelerators in Cloud Data Centers",
         "Achieving Global Strong Consistency: An Architectural Deep Dive into Distributed Transaction Protocols for Multi-Region OLTP Systems",
-        "Synthetic Virology and Directed Evolution: Engineering Novel Adeno-Associated Virus (AAV) Capsids for Enhanced Gene Therapy Delivery"
+        "Synthetic Virology and Directed Evolution: Engineering Novel Adeno-Associated Virus (AAV) Capsids for Enhanced Gene Therapy Delivery",
+        "Optimizing Exascale Analytical Workloads: The Co-Evolution of Custom Silicon and Distributed Query Processors in Hyperscale OLAP.",
+        "Beyond Firewalls: Architecting Zero-Trust Microsegmentation for Billions of Network Flows in Cloud-Native Hyperscale Infrastructures.",
+        "Precision Phage Engineering: Leveraging Novel Lysins and Delivery Systems to Disarm Multidrug-Resistant Biofilms."
     ]
 }
