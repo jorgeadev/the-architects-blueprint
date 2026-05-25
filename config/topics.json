@@ -180,7 +180,6 @@
         "The Architecture of AI-Driven Protein Design: From AlphaFold to De Novo Functional Protein Synthesis",
         "Real-Time Inference at Scale: Engineering AI Model Serving Infrastructure for Billions of Daily Queries",
         "Petabyte-Scale Genomics: Building Secure and Performant Pipelines for Population-Level Biomedical Data",
-        "Beyond the Rack: Deep Dive into Liquid Cooling Architectures and Two-Phase Immersion for Hyperscale AI Compute Clusters",
         "The Conundrum of Strong Eventual Consistency: Architecting Distributed Transactional Systems for Global Financial Ledgers with Hybrid Logical Clocks",
         "CRISPR-Cas9 System Repurposing for Programmable Epigenetic Modifiers: Challenges in Off-Target Effects and Delivery Vector Optimization for Therapeutic Scaling",
         "The Architectural Innovations Behind Hyperscale Data Center Liquid Immersion Cooling Systems and Energy Efficiency",
@@ -407,6 +406,9 @@
         "Synthetic Virology and Directed Evolution: Engineering Novel Adeno-Associated Virus (AAV) Capsids for Enhanced Gene Therapy Delivery",
         "Optimizing Exascale Analytical Workloads: The Co-Evolution of Custom Silicon and Distributed Query Processors in Hyperscale OLAP.",
         "Beyond Firewalls: Architecting Zero-Trust Microsegmentation for Billions of Network Flows in Cloud-Native Hyperscale Infrastructures.",
-        "Precision Phage Engineering: Leveraging Novel Lysins and Delivery Systems to Disarm Multidrug-Resistant Biofilms."
+        "Precision Phage Engineering: Leveraging Novel Lysins and Delivery Systems to Disarm Multidrug-Resistant Biofilms.",
+        "The Architectural Implications of CXL 3.0 and Photonic Interconnects for Disaggregated Hyper-Scale Data Center Computing",
+        "Federated Learning at Hyperscale: Engineering Privacy-Preserving AI Training Across Geographically Distributed Edge Infrastructures",
+        "Beyond mRNA: Scaling *De Novo* Protein Design with Generative AI and Automated High-Throughput Biomanufacturing Pipelines"
     ]
 }
