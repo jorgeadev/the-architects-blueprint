@@ -142,7 +142,6 @@
         "Genomic Transformers: Scaling Large Language Models for De Novo Protein Design and Synthetic Biology",
         "Achieving Strong Consistency and Low Latency in Globally Distributed Databases: A Deep Dive into Atomic Clock Synchronization and Multi-Version Concurrency Control (MVCC) at Scale",
         "Optimizing State Machine Replication for Trillion-Event Streams: A Deep Dive into Distributed Consensus Protocols Beyond Raft and Paxos at Cloud Scale",
-        "The Invisible Fabric: How Programmable Hardware and Custom ASICs are Revolutionizing Hyperscale Data Center Network Topologies and Packet Processing",
         "Synthetic Virology: Engineering Novel Bacteriophage Systems for Programmable Microbiome Modulation and Targeted Drug Delivery at Scale",
         "The unseen battle for bandwidth: How hyperscalers are leveraging CXL 3.0 and photonic integration to overcome memory and interconnect bottlenecks in petascale AI clusters.",
         "Beyond global eventual consistency: Architecting planet-scale strongly consistent transactional ledgers for real-time applications using novel consensus and data sharding techniques.",
@@ -413,6 +412,9 @@
         "mRNA Vaccine Platform Advancements: Decoding Lipid Nanoparticle Delivery Optimization and Immunogenicity Enhancement for Pan-Pandemic Preparedness",
         "The Architectural Evolution of Hyperscale Transaction Processing: Sharding, True-Time, and the Consistency Spectrum in Global Databases",
         "Demystifying the GPU Cloud: Pipelining, Tensor Parallelism, and Interconnect Topologies for Training Foundation Models at ExaFLOPs",
-        "Synthetic Virology's Leap: Engineering De Novo Phage-Derived Lytic Systems for Next-Generation Antibiotic Alternatives and Biofilm Disruption"
+        "Synthetic Virology's Leap: Engineering De Novo Phage-Derived Lytic Systems for Next-Generation Antibiotic Alternatives and Biofilm Disruption",
+        "Optimizing Inter-Datacenter Networking for Hyperscale AI/ML Workloads: Latency, Bandwidth, and Congestion Control in a Global Fabric.",
+        "The Engineering Challenges of Managing Strongly Consistent Stateful Services Across Thousands of Nodes in a Geo-Distributed Environment.",
+        "Architectural Considerations for Programmable DNA Storage Systems Using CRISPR-Cas: Density, Error Correction, and Random Access Challenges."
     ]
 }
