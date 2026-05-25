@@ -241,7 +241,6 @@
         "Beyond Bare Metal: How Programmable Data Planes and SmartNICs Revolutionize Hyperscale AI/ML Network Performance.",
         "Petascale Multi-Omics: Architecting Reproducible and Integrated Analysis Pipelines for Population-Level Biomedical Research.",
         "The Rise of CXL: Architecting Disaggregated Memory and Compute for Hyperscale Data Centers",
-        "Engineering the Exabyte Challenge: Architectures for DNA-Based Data Storage and Retrieval Systems",
         "The Architectural Shift: Disaggregated Memory and Compute in Hyperscale Data Centers for AI Workloads.",
         "Beyond BGP: How AI-Driven Traffic Engineering Optimizes Global Interconnects for Cloud Providers.",
         "CRISPR-Based Antivirals: Engineering Programmable Nucleic Acid Scavengers for Broad-Spectrum Viral Suppression.",
@@ -409,6 +408,9 @@
         "Precision Phage Engineering: Leveraging Novel Lysins and Delivery Systems to Disarm Multidrug-Resistant Biofilms.",
         "The Architectural Implications of CXL 3.0 and Photonic Interconnects for Disaggregated Hyper-Scale Data Center Computing",
         "Federated Learning at Hyperscale: Engineering Privacy-Preserving AI Training Across Geographically Distributed Edge Infrastructures",
-        "Beyond mRNA: Scaling *De Novo* Protein Design with Generative AI and Automated High-Throughput Biomanufacturing Pipelines"
+        "Beyond mRNA: Scaling *De Novo* Protein Design with Generative AI and Automated High-Throughput Biomanufacturing Pipelines",
+        "The Unification of Metrics, Logs, and Traces: Building a High-Cardinality, Low-Latency Observability Platform for Exascale Microservices",
+        "From Tensor Cores to Tensors: The Deep Integration of Custom Silicon and Distributed ML Frameworks in Hyperscale AI Factories",
+        "mRNA Vaccine Platform Advancements: Decoding Lipid Nanoparticle Delivery Optimization and Immunogenicity Enhancement for Pan-Pandemic Preparedness"
     ]
 }
