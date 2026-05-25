@@ -302,7 +302,6 @@
         "Beyond Cold Starts: Engineering Predictable Low-Latency Performance for Hyperscale Serverless Workloads with WebAssembly and MicroVM Runtimes.",
         "The Architecture of Hyperscale Generative AI Training: From Custom Silicon Interconnects to Liquid Immersion Cooling Infrastructures",
         "Engineering Programmable Oncolytic Viruses: Leveraging AI and Synthetic Biology for Targeted Cancer Therapies with Minimal Off-Target Effects",
-        "Architecting Hyperscale Edge AI Inference: Beyond Centralized Cloud and Towards Self-Healing, Distributed Model Deployment at the Far Edge.",
         "The Microkernel Revolution: Disaggregating Hyperscale Cloud Infrastructure with Emerging Hardware Architectures like CXL and DPUs for Next-Gen Resource Management.",
         "Beyond GPUs: Scaling Trillion-Parameter AI Models with Specialized Interconnects, Gradient Compression, and Asynchronous Execution in Distributed Training Frameworks.",
         "CRISPR-Powered Phage Engineering: Precision Bacteriophage Design for Antimicrobial Resistance Combat and Targeted Microbiome Modulation Through Advanced Synthetic Biology.",
@@ -411,6 +410,9 @@
         "Beyond mRNA: Scaling *De Novo* Protein Design with Generative AI and Automated High-Throughput Biomanufacturing Pipelines",
         "The Unification of Metrics, Logs, and Traces: Building a High-Cardinality, Low-Latency Observability Platform for Exascale Microservices",
         "From Tensor Cores to Tensors: The Deep Integration of Custom Silicon and Distributed ML Frameworks in Hyperscale AI Factories",
-        "mRNA Vaccine Platform Advancements: Decoding Lipid Nanoparticle Delivery Optimization and Immunogenicity Enhancement for Pan-Pandemic Preparedness"
+        "mRNA Vaccine Platform Advancements: Decoding Lipid Nanoparticle Delivery Optimization and Immunogenicity Enhancement for Pan-Pandemic Preparedness",
+        "The Architectural Evolution of Hyperscale Transaction Processing: Sharding, True-Time, and the Consistency Spectrum in Global Databases",
+        "Demystifying the GPU Cloud: Pipelining, Tensor Parallelism, and Interconnect Topologies for Training Foundation Models at ExaFLOPs",
+        "Synthetic Virology's Leap: Engineering De Novo Phage-Derived Lytic Systems for Next-Generation Antibiotic Alternatives and Biofilm Disruption"
     ]
 }
