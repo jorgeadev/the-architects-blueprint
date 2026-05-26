@@ -124,7 +124,7 @@ const topics = extractTopics(allPosts, 6);
                 <p class="text-xs uppercase tracking-[0.32em] text-zinc-500">All posts</p>
                 <h2 class="mt-2 text-2xl font-bold">Currently surfaced from the archive</h2>
             </div>
-            <p class="text-sm text-zinc-500">{formatCount(allPosts.length)} results</p>
+            <p class="text-sm text-zinc-500"><span data-discover-count>{formatCount(allPosts.length)}</span> results</p>
         </div>
 
         <div class="grid gap-6 grid-cols-[repeat(auto-fill,minmax(280px,1fr))]">
@@ -164,7 +164,7 @@ const topics = extractTopics(allPosts, 6);
             ))}
         </div>
 
-        <div data-discover-empty class="mt-10 hidden rounded-2xl border border-dashed border-white/15 bg-white/5 p-8 text-center text-zinc-400">
+        <div hidden data-discover-empty class="mt-10 rounded-2xl border border-dashed border-white/15 bg-white/5 p-8 text-center text-zinc-400">
             No posts match that search yet. Try a broader topic chip.
         </div>
     </section>
@@ -175,20 +175,26 @@ const topics = extractTopics(allPosts, 6);
         const topicButtons = Array.from(document.querySelectorAll("[data-topic-chip]"));
         const randomButton = document.querySelector("[data-discover-random]");
         const emptyState = document.querySelector("[data-discover-empty]");
+        const resultCount = document.querySelector("[data-discover-count]");
 
         const applyFilters = () => {
             const query = searchInput instanceof HTMLInputElement ? searchInput.value.trim().toLowerCase() : "";
+            const terms = query.split(/\s+/).filter(Boolean);
             let visibleCount = 0;
 
             cards.forEach((card) => {
                 const searchText = card.dataset.search ?? "";
-                const matches = !query || searchText.includes(query);
+                const matches = terms.length === 0 || terms.every((term) => searchText.includes(term));
                 card.hidden = !matches;
 
                 if (matches) {
                     visibleCount += 1;
                 }
             });
+
+            if (resultCount) {
+                resultCount.textContent = visibleCount.toString();
+            }
 
             if (emptyState) {
                 emptyState.hidden = visibleCount > 0;

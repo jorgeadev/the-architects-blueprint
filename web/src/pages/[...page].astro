@@ -41,7 +41,7 @@ const { page } = Astro.props;
                     Try Discover
                 </a>
                 <a
-                    href="/discover"
+                    href="#archive"
                     class="px-5 py-3 rounded-xl font-semibold text-sm transition-all duration-300 bg-white/5 text-white border border-white/10 hover:bg-white/10 hover:border-white/30"
                 >
                     Browse archive
@@ -69,6 +69,7 @@ const { page } = Astro.props;
     </section>
 
     <section
+        id="archive"
         transition:animate="fade"
         class="grid grid-cols-[repeat(auto-fill,minmax(320px,1fr))] gap-8"
     >

@@ -1,6 +1,7 @@
 ---
 import Layout from "../../layouts/Layout.astro";
 import { getCollection, render } from "astro:content";
+import type { CollectionEntry } from "astro:content";
 import {
     createExcerpt,
     estimateReadingTime,
@@ -9,20 +10,28 @@ import {
 } from "../../lib/blog";
 
 export async function getStaticPaths() {
-    const blogEntries = await getCollection("blog");
-    return blogEntries.map((entry) => ({
+    const blogEntries = sortBlogPosts(await getCollection("blog"));
+
+    return blogEntries.map((entry, index) => ({
         params: { slug: entry.id },
-        props: { entry },
+        props: {
+            entry,
+            prevPost: index > 0 ? blogEntries[index - 1] : null,
+            nextPost: index < blogEntries.length - 1 ? blogEntries[index + 1] : null,
+            morePosts: blogEntries.filter((post) => post.id !== entry.id).slice(0, 3),
+        },
     }));
 }
 
-const { entry } = Astro.props;
+interface Props {
+    entry: CollectionEntry<"blog">;
+    prevPost: CollectionEntry<"blog"> | null;
+    nextPost: CollectionEntry<"blog"> | null;
+    morePosts: CollectionEntry<"blog">[];
+}
+
+const { entry, prevPost, nextPost, morePosts } = Astro.props;
 const { Content } = await render(entry);
-const allPosts = sortBlogPosts(await getCollection("blog"));
-const currentIndex = allPosts.findIndex((post) => post.id === entry.id);
-const previousPost = currentIndex > 0 ? allPosts[currentIndex - 1] : null;
-const nextPost = currentIndex >= 0 && currentIndex < allPosts.length - 1 ? allPosts[currentIndex + 1] : null;
-const relatedPosts = allPosts.filter((post) => post.id !== entry.id).slice(0, 3);
 const readingTime = estimateReadingTime(entry.body);
 const description = createExcerpt(entry.body, 240) || entry.data.shortTitle || entry.data.title;
 ---
@@ -76,15 +85,15 @@ const description = createExcerpt(entry.body, 240) || entry.data.shortTitle || e
         </article>
 
         <section class="mt-14 grid gap-4 md:grid-cols-2">
-            {previousPost ? (
+            {prevPost ? (
                 <a
-                    href={`/blog/${previousPost.id}`}
+                    href={`/blog/${prevPost.id}`}
                     class="glass-card p-5 transition-all duration-300 hover:border-indigo-400/30"
                 >
                     <div class="text-xs uppercase tracking-[0.24em] text-zinc-500">Previous article</div>
-                    <h2 class="mt-2 text-lg font-bold leading-snug">{previousPost.data.shortTitle || previousPost.data.title}</h2>
+                    <h2 class="mt-2 text-lg font-bold leading-snug">{prevPost.data.shortTitle || prevPost.data.title}</h2>
                     <p class="mt-3 text-sm text-zinc-400 line-clamp-2">
-                        {createExcerpt(previousPost.body, 140)}
+                        {createExcerpt(prevPost.body, 140)}
                     </p>
                 </a>
             ) : (
@@ -128,7 +137,7 @@ const description = createExcerpt(entry.body, 240) || entry.data.shortTitle || e
             </div>
 
             <div class="grid gap-5 grid-cols-[repeat(auto-fill,minmax(240px,1fr))]">
-                {relatedPosts.map((post) => (
+                {morePosts.map((post) => (
                     <a
                         href={`/blog/${post.id}`}
                         class="glass-card p-5 transition-all duration-300 hover:border-indigo-400/30"
