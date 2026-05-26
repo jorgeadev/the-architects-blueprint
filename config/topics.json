@@ -361,7 +361,6 @@
         "Beyond Consensus: Unpacking the Architectural Implications of Conflict-Free Replicated Data Types (CRDTs) in Globally Distributed Systems",
         "CRISPR-Cas Systems Beyond Gene Editing: Programmable RNA Targeting for Advanced Antiviral Therapies and Diagnostics",
         "The Architectural Evolution of Hyperscale Data Center Network Fabrics: From Clos to Programmable Packet Processors",
-        "Eliminating Tail Latency at Petabyte Scale: Advanced Techniques in Distributed Transactional System Optimization",
         "Computational Virology at the Edge: Engineering mRNA Vaccine Production and Distribution for Pandemic Readiness",
         "Unpacking Meta's 'Project Titan': The 3D-Stacked Compute Fabrics Powering Next-Gen Inference at Exascale",
         "Dissecting the Global Control Plane: How Cloudflare's Durable Objects Manage Distributed State Across 330+ Cities in Under 50ms",
@@ -421,6 +420,9 @@
         "High-Throughput Omics Data Analysis: Architectural Patterns for Scalable Cloud-Native Pipelines in Genomics and Proteomics",
         "Beyond GPUs: Designing Hyperscale Inference Architectures for Trillion-Parameter AI Models",
         "Achieving Strong Global Consistency: Innovations in Geo-Distributed Transactional Databases at Exabyte Scale",
-        "Decoding the Future: Engineering Synthetic DNA for Zettabyte-Scale Archival Data Storage Systems"
+        "Decoding the Future: Engineering Synthetic DNA for Zettabyte-Scale Archival Data Storage Systems",
+        "Disaggregated Memory Architectures: How CXL and Photonics are Reshaping Hyperscale Data Center Compute and Storage Fabrics",
+        "Vector Database Indexing at Trillion-Scale: Optimizing HNSW and PQ for Low-Latency Similarity Search in Real-Time AI Applications",
+        "Synthetic Virome Design: Engineering Bacteriophages for Precision Microbiome Manipulation and Antimicrobial Resistance Remediation at Scale"
     ]
 }
