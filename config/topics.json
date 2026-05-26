@@ -405,7 +405,6 @@
         "Precision Phage Engineering: Leveraging Novel Lysins and Delivery Systems to Disarm Multidrug-Resistant Biofilms.",
         "The Architectural Implications of CXL 3.0 and Photonic Interconnects for Disaggregated Hyper-Scale Data Center Computing",
         "Federated Learning at Hyperscale: Engineering Privacy-Preserving AI Training Across Geographically Distributed Edge Infrastructures",
-        "Beyond mRNA: Scaling *De Novo* Protein Design with Generative AI and Automated High-Throughput Biomanufacturing Pipelines",
         "The Unification of Metrics, Logs, and Traces: Building a High-Cardinality, Low-Latency Observability Platform for Exascale Microservices",
         "From Tensor Cores to Tensors: The Deep Integration of Custom Silicon and Distributed ML Frameworks in Hyperscale AI Factories",
         "mRNA Vaccine Platform Advancements: Decoding Lipid Nanoparticle Delivery Optimization and Immunogenicity Enhancement for Pan-Pandemic Preparedness",
@@ -417,6 +416,9 @@
         "Architectural Considerations for Programmable DNA Storage Systems Using CRISPR-Cas: Density, Error Correction, and Random Access Challenges.",
         "Co-Packaged Optics and Free-Space Optics: Architectural Shifts for Next-Gen Hyperscale AI/ML Interconnects",
         "Deterministic Latency Guarantees in Globally Distributed Transactional Stream Processing: A Consensus Protocol Deep Dive",
-        "Synthetic Biology Approaches to Engineering Bacteriophage Resistance Against Multi-Drug Resistant Bacterial Biofilms"
+        "Synthetic Biology Approaches to Engineering Bacteriophage Resistance Against Multi-Drug Resistant Bacterial Biofilms",
+        "Evolving Hyperscale Distributed Transactional Stores: Navigating Global Consistency, Latency, and Data Sovereignty Challenges in Multi-Region Architectures",
+        "Beyond Generic: Custom Hardware Acceleration and Probabilistic Data Structures for Real-time Petabyte-Scale Anomaly Detection Pipelines",
+        "High-Throughput Omics Data Analysis: Architectural Patterns for Scalable Cloud-Native Pipelines in Genomics and Proteomics"
     ]
 }
