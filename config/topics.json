@@ -202,7 +202,6 @@
         "CRISPR-Associated Transposons (CASTs): Leveraging RNA-Guided Integration Systems for Large-Scale Genomic Engineering Beyond Double-Strand Breaks",
         "Global Atomic Consensus: Engineering High-Throughput, Low-Latency Transactional Integrity Across Geo-Distributed Cloud Infrastructures",
         "The Exabyte Enigma: Architecting Intelligent Tiering and Data Lineage Systems for AI Foundation Model Training Data Lakes",
-        "Synthetic Viromics: Designing Self-Assembling Nanoparticle-Virus Hybrids for Targeted Gene Delivery and Advanced Diagnostics",
         "Implementing a distributed congestion control plane for multi-tenant RDMA fabric at petabit scale",
         "Witnessing a cascading BGP blackhole: a forensic analysis of a tier-1 backbone carrier's route leak and convergence failure",
         "The design and incremental deployment of a hardware-backed memory safety isolation layer within Google's Borg scheduler",
@@ -419,6 +418,9 @@
         "Synthetic Biology Approaches to Engineering Bacteriophage Resistance Against Multi-Drug Resistant Bacterial Biofilms",
         "Evolving Hyperscale Distributed Transactional Stores: Navigating Global Consistency, Latency, and Data Sovereignty Challenges in Multi-Region Architectures",
         "Beyond Generic: Custom Hardware Acceleration and Probabilistic Data Structures for Real-time Petabyte-Scale Anomaly Detection Pipelines",
-        "High-Throughput Omics Data Analysis: Architectural Patterns for Scalable Cloud-Native Pipelines in Genomics and Proteomics"
+        "High-Throughput Omics Data Analysis: Architectural Patterns for Scalable Cloud-Native Pipelines in Genomics and Proteomics",
+        "Beyond GPUs: Designing Hyperscale Inference Architectures for Trillion-Parameter AI Models",
+        "Achieving Strong Global Consistency: Innovations in Geo-Distributed Transactional Databases at Exabyte Scale",
+        "Decoding the Future: Engineering Synthetic DNA for Zettabyte-Scale Archival Data Storage Systems"
     ]
 }
