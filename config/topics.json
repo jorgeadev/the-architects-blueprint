@@ -187,7 +187,6 @@
         "Hardware-Accelerated Zero-Trust Networking for Intra-Datacenter Microservices at Hyperscale",
         "Beyond Paxos and Raft: Exploring Quorum-Less Distributed State Management for Planetary-Scale Edge Compute",
         "The architectural evolution of large language model serving: from static endpoints to dynamic, multi-tenant inference graphs.",
-        "Hyperscale data center thermal management: A deep dive into advanced liquid cooling and immersion strategies for petascale AI clusters.",
         "DNA as a data center: Engineering challenges and potential of high-density genomic information storage and retrieval.",
         "Architecting Trillion-Parameter AI: The Role of Optical Interconnects and Network Fabric Topologies",
         "Next-Gen Gene Delivery: Engineering AAV Serotypes and Non-Viral Nanoparticle Encapsulation for Advanced Therapies",
@@ -433,6 +432,9 @@
         "Synthetic Phage Engineering for Targeted Microbiome Modulation: Overcoming Off-Target Effects and Developing Programmable Viral Vectors for Therapeutics.",
         "Beyond BBR: Next-Generation Congestion Control Protocols for Petabit-Scale Global Interconnects",
         "The Architectural Deep Dive into Quantization and Indexing Algorithms for Exabyte-Scale Vector Databases",
-        "Engineering CRISPR-Cas Systems for Programmable Epigenetic Editing and Cellular Reprogramming at Scale"
+        "Engineering CRISPR-Cas Systems for Programmable Epigenetic Editing and Cellular Reprogramming at Scale",
+        "The network topology and bufferbloat mitigation strategies enabling Apple's Private Relay across 1.5 billion devices",
+        "Dissecting the persistent memory tier and erasure coding in Meta's next-generation cold storage cluster",
+        "How Cloudflare rebuilt its global Anycast control plane to support real-time DDoS mitigation at 100 Tbps"
     ]
 }
