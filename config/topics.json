@@ -149,7 +149,6 @@
         "The Engineering of Global Consensus: How TrueTime and Hybrid Logical Clocks Achieve External Consistency in Massively Distributed SQL Databases",
         "Next-Generation mRNA Vaccine Delivery: Technical Challenges and Breakthroughs in Lipid Nanoparticle Alternatives and Self-Amplifying RNA Constructs",
         "Inside the Cellular-Scale Optical Fabric: Dissecting Microsoft's Phoenix Datacenter Network Topology for Global AI Supercomputing",
-        "Idempotency at Exabyte Scale: Enforcing Exactly-Once Semantics in Globally Distributed Storage Backends",
         "Demystifying Meta's Zonal Shuffle: A Deep Dive into Cross-Region VM Migration with Sub-Second Blips",
         "How Stripe Orchestrates Transactional Workflows Across 40+ Data Centers with a Zero-Overhead Consensus Protocol",
         "The Architectural Evolution of Interconnects for Trillion-Parameter AI Model Training: Beyond NVLink and InfiniBand",
@@ -427,6 +426,9 @@
         "Beyond AAV: Next-Generation Viral Vector Engineering for Enhanced Gene Therapy Delivery and Immunomodulation",
         "Disaggregated NVMe-oF and CXL-based memory pooling: Architecting the next generation of hyperscale cloud resource virtualization.",
         "The MLOps Stack for Trillion-Parameter Models: Orchestrating Distributed Training, Inference, and Model Versioning Across Global Data Centers.",
-        "Prime Editing's Breakthroughs: Expanding the Gene Editing Toolkit for Precise, Scarless Genomic Modifications and Therapeutic Applications."
+        "Prime Editing's Breakthroughs: Expanding the Gene Editing Toolkit for Precise, Scarless Genomic Modifications and Therapeutic Applications.",
+        "The Architectural Shift to Disaggregated Compute and Memory in Next-Gen Hyperscale Data Centers for AI Workloads",
+        "Engineering Ultra-Low Latency, Globally Consistent State: A Deep Dive into Distributed Consensus Protocols at Petascale",
+        "The Role of Foundational Models and HPC in Accelerating De Novo Protein Design for Drug Discovery and Synthetic Biology"
     ]
 }
