@@ -130,7 +130,7 @@ Here is where most engineers fail. You set priority on the packet. The switch fo
 
 **The Fix: Multi-Queue NICs + Flow Steering.**
 
-We configure the NIC with **separate TX rings per priority**. Using **Intel DPDK** or **kernel bypass** (io_uring with fixed buffers), we guarantee that a priority packet goes to a dedicated TX ring that has _zero_ contention.
+We configure the NIC with **separate TX rings per priority**. Using **Intel DPDK** or **kernel bypass** (io*uring with fixed buffers), we guarantee that a priority packet goes to a dedicated TX ring that has \_zero* contention.
 
 ```bash
 # Example ethtool configuration for priority queues

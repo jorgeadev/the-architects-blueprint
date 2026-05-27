@@ -1,7 +1,7 @@
 import * as fs from "fs";
 import * as path from "path";
-import { generateNewTopics } from "./utils";
-import { loadTopics, generateWithRetry, fetchImageBuffer } from "./utils";
+import { generateNewTopics, loadTopics, generateWithRetry, fetchImageBuffer } from "./utils";
+import { IMAGE_WIDTH, IMAGE_HEIGHT, POLLINATIONS_BASE_URL } from "./constants";
 
 // Initialize configuration
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY as string;
@@ -34,36 +34,31 @@ Requirements for the blog post:
 
 async function saveToDisk(content: string, localImagePath: string) {
     const rootDir = process.cwd();
-    const articlesDir = path.join(rootDir, "web", "src", "content", "blog");
 
-    if (!fs.existsSync(articlesDir)) {
-        fs.mkdirSync(articlesDir, { recursive: true });
-    }
+    const now = new Date();
+    const year = now.getFullYear().toString();
+    const month = String(now.getMonth() + 1).padStart(2, "0");
+    const day = String(now.getDate()).padStart(2, "0");
+    const dateString = `${year}-${month}-${day}`;
 
-    let titleSlug = new Date().toISOString().split("T")[0];
     const titleMatch = content.match(/^#\s+(.+)$/m);
+    let titleSlug = "untitled";
 
     if (titleMatch && titleMatch[1]) {
-        const cleanTitle = titleMatch[1]
+        titleSlug = titleMatch[1]
             .toLowerCase()
             .replace(/[^a-z0-9]+/g, "-")
-            .replace(/(^-|-$)/g, "");
-
-        titleSlug = `${titleSlug}-${cleanTitle}`;
+            .replace(/(^-|-$)/g, "")
+            .substring(0, 60);
     }
 
-    if (titleSlug.length > 60) {
-        titleSlug = titleSlug.substring(0, 60);
-    }
-
-    const fileName = `${titleSlug}.md`;
-    const filePath = path.join(articlesDir, fileName);
+    const articleDir = path.join(rootDir, "web", "src", "content", "blog", year, month, day);
+    fs.mkdirSync(articleDir, { recursive: true });
+    const filePath = path.join(articleDir, `${titleSlug}.md`);
 
     let finalContent = content;
     if (titleMatch && titleMatch[1]) {
         const frontmatterTitle = titleMatch[1].replace(/"/g, "\\\"");
-        const dateMatch = fileName.match(/^(\d{4}-\d{2}-\d{2})/);
-        const dateString = dateMatch ? dateMatch[1] : "";
         const shortTitleRaw = await generateWithRetry(
             `Summarize this title into a short, impactful version (maximum 100 characters) that summarizes the core topic. Do not use markdown, quotes, emojis, or conversational text. Output ONLY the short title. Original Title: "${frontmatterTitle}"`
         );
@@ -134,7 +129,7 @@ Only return the raw prompt text.`;
             console.log("Processed image prompt:\n" + imagePromptRaw);
             const imagePrompt = imagePromptRaw.replace(/\n/g, " ").trim();
             const randomSeed = Math.floor(Math.random() * 10000000);
-            const imageUrl = `https://image.pollinations.ai/prompt/${encodeURIComponent(imagePrompt)}?width=1200&height=630&nologo=true&seed=${randomSeed}`;
+            const imageUrl = `${POLLINATIONS_BASE_URL}/${encodeURIComponent(imagePrompt)}?width=${IMAGE_WIDTH}&height=${IMAGE_HEIGHT}&nologo=true&seed=${randomSeed}`;
             console.log(`Generated image URL: ${imageUrl}`);
 
             console.log("Downloading image buffer...");
@@ -146,21 +141,23 @@ Only return the raw prompt text.`;
             }
 
             // Figure out image slug based on post slug schema
-            let imageSlug = new Date().toISOString().split("T")[0];
+            const now = new Date();
+            const year = now.getFullYear().toString();
+            const month = String(now.getMonth() + 1).padStart(2, "0");
+            const day = String(now.getDate()).padStart(2, "0");
+
             const titleMatch = content.match(/^#\s+(.+)$/m);
+            let imageSlug = "untitled";
             if (titleMatch && titleMatch[1]) {
-                const cleanTitle = titleMatch[1]
+                imageSlug = titleMatch[1]
                     .toLowerCase()
                     .replace(/[^a-z0-9]+/g, "-")
-                    .replace(/(^-|-$)/g, "");
-                imageSlug = `${imageSlug}-${cleanTitle}`;
-            }
-            if (imageSlug.length > 60) {
-                imageSlug = imageSlug.substring(0, 60);
+                    .replace(/(^-|-$)/g, "")
+                    .substring(0, 60);
             }
 
             const imageFileName = `${imageSlug}.jpg`;
-            const imageDir = path.join(process.cwd(), "web", "public", "images");
+            const imageDir = path.join(process.cwd(), "web", "public", "images", year, month, day);
 
             if (!fs.existsSync(imageDir)) {
                 fs.mkdirSync(imageDir, { recursive: true });
@@ -171,7 +168,7 @@ Only return the raw prompt text.`;
             console.log(`Successfully saved image natively to: ${absoluteImagePath}`);
 
             // This is the public path the browser requests
-            imageUrlPath = `/images/${imageFileName}`;
+            imageUrlPath = `/images/${year}/${month}/${day}/${imageFileName}`;
         } catch (e) {
             console.error("Critical Failure in Image Generation. Aborting pipeline.", e);
             process.exit(1);

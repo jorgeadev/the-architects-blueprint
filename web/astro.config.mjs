@@ -12,4 +12,13 @@ export default defineConfig({
         envDir: "..",
         plugins: [tailwindcss()],
     },
+    markdown: {
+        shikiConfig: {
+            langAlias: {
+                p4: "plaintext",
+                ascii: "plaintext",
+                pseudocode: "plaintext",
+            },
+        },
+    },
 });

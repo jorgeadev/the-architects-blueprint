@@ -144,8 +144,9 @@ c. **Persistence:** \* The captured CPU and memory state are serialized and writ
 **3. The Lightning-Fast Restoration Workflow (Instant Resume):**
 
 a. **New MicroVM Instance:**
-* When a cold start occurs for a function, a *new* Firecracker process is instantiated on a host.
-* Instead of booting from the Golden Image, this new Firecracker instance is told to **restore from a snapshot**.
+
+- When a cold start occurs for a function, a _new_ Firecracker process is instantiated on a host.
+- Instead of booting from the Golden Image, this new Firecracker instance is told to **restore from a snapshot**.
 
 b. **State Loading:**
 _ The persisted CPU and memory state from the snapshot are loaded directly into the new Firecracker microVM's allocated memory.
