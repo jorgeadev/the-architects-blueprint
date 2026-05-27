@@ -400,7 +400,6 @@
         "From Tensor Cores to Tensors: The Deep Integration of Custom Silicon and Distributed ML Frameworks in Hyperscale AI Factories",
         "mRNA Vaccine Platform Advancements: Decoding Lipid Nanoparticle Delivery Optimization and Immunogenicity Enhancement for Pan-Pandemic Preparedness",
         "The Architectural Evolution of Hyperscale Transaction Processing: Sharding, True-Time, and the Consistency Spectrum in Global Databases",
-        "Demystifying the GPU Cloud: Pipelining, Tensor Parallelism, and Interconnect Topologies for Training Foundation Models at ExaFLOPs",
         "Synthetic Virology's Leap: Engineering De Novo Phage-Derived Lytic Systems for Next-Generation Antibiotic Alternatives and Biofilm Disruption",
         "Optimizing Inter-Datacenter Networking for Hyperscale AI/ML Workloads: Latency, Bandwidth, and Congestion Control in a Global Fabric.",
         "The Engineering Challenges of Managing Strongly Consistent Stateful Services Across Thousands of Nodes in a Geo-Distributed Environment.",
@@ -439,6 +438,9 @@
         "Engineering CRISPR-Cas Systems for Programmable Epigenetic Editing and Cellular Reprogramming at Scale",
         "The network topology and bufferbloat mitigation strategies enabling Apple's Private Relay across 1.5 billion devices",
         "Dissecting the persistent memory tier and erasure coding in Meta's next-generation cold storage cluster",
-        "How Cloudflare rebuilt its global Anycast control plane to support real-time DDoS mitigation at 100 Tbps"
+        "How Cloudflare rebuilt its global Anycast control plane to support real-time DDoS mitigation at 100 Tbps",
+        "Optimizing KV-Cache Management for Multi-Tenant LLM Serving: A Deep Dive into PagedAttention and FlashAttention Integration",
+        "Implementing Zero-Trust Networking at the Data Link Layer: How Google uses Custom DPUs to Offload mTLS Encryption",
+        "Solving the Thundering Herd in Global Edge Functions: Adaptive Rate Limiting and Request Collapsing at Cloudflare Scale"
     ]
 }
