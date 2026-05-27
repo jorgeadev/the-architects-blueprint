@@ -2,7 +2,7 @@
 title: "🌡️ Turning Down the Heat on the God Particle: Advanced Liquid Cooling for Petascale AI Clusters"
 shortTitle: "Taming the Petascale AI Beast: Liquid Cooling"
 date: 2026-05-27
-image: "/images/2026-05-27-turning-down-the-heat-on-the-god-particle-advance.jpg"
+image: "/images/2026/05/27/turning-down-the-heat-on-the-god-particle-advance.jpg"
 ---
 
 **Alright, let’s talk about the single most unsexy, yet utterly terrifying problem in modern engineering: dissipating heat.**

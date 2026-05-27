@@ -2,7 +2,7 @@
 title: "Navigating the Petascale Precipice: The MLOps Stack for Trillion-Parameter Models"
 shortTitle: "Petascale MLOps for Trillion-Parameter AI"
 date: 2026-05-27
-image: "/images/2026-05-27-navigating-the-petascale-precipice-the-mlops-stac.jpg"
+image: "/images/2026/05/27/navigating-the-petascale-precipice-the-mlops-stac.jpg"
 ---
 
 Hold on tight. We're about to embark on a journey that will redefine your understanding of scale in machine learning. Forget the days of training models on a single GPU, or even a handful. We're talking about models so vast, so intricate, that their very existence challenges the foundational assumptions of our compute infrastructure. We're talking about _trillion-parameter models_, the behemoths pushing the frontiers of AI, and the incredibly sophisticated MLOps stacks required to bring them to life, train them across continents, and serve them with millisecond precision to a hungry world.
