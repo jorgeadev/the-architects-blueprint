@@ -2,7 +2,7 @@
 title: "🚀 **Unleashing the Edge: Fastly's Varnish-Powered Architecture and the Art of Programmable Caching**"
 shortTitle: "Fastly's Programmable Edge Caching with Varnish"
 date: 2026-05-27
-image: "/images/2026-05-27-unleashing-the-edge-fastly-s-varnish-powered-arch.jpg"
+image: "/images/2026/05/27/unleashing-the-edge-fastly-s-varnish-powered-arch.jpg"
 ---
 
 In the electrifying world of the internet, where milliseconds define user experience and global reach is non-negotiable, Content Delivery Networks (CDNs) are the unsung heroes. But not all CDNs are created equal. While many operate as a robust network of caches, a select few have fundamentally redefined what "edge" truly means – transforming it from a mere delivery point into a dynamic, programmable compute platform.

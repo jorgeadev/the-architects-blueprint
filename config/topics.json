@@ -35,7 +35,6 @@
         "An in-depth look at bun.js vs Node.js vs Deno: the hype, the benchmarks, and the architectural differences.",
         "Decentralized consensus protocols for achieving strong consistency in a planetary-scale distributed ledger operating at millions of transactions per second.",
         "The interplay of programmable data planes and P4 with smart NICs for ultra-low-latency network function virtualization in hyperscale data centers.",
-        "Engineering enhanced adeno-associated virus (AAV) vectors with synthetic capsids for neurotropic gene therapy delivery and evasion of pre-existing immunity.",
         "From AlphaFold to Novel Protein Design: The Computational Infrastructure and Algorithmic Advances Powering AI-Driven Drug Discovery.",
         "Disaggregated Memory Architectures and Next-Gen Interconnects: Engineering the Hyperscale AI Training Fabrics of Tomorrow",
         "Beyond the Hype: Architecting Deterministic, State-Consistent Serverless at Hyperscale for Real-time Edge Computations",
@@ -439,6 +438,9 @@
         "Engineering CRISPR-Cas Systems for Programmable Epigenetic Editing and Cellular Reprogramming at Scale",
         "The network topology and bufferbloat mitigation strategies enabling Apple's Private Relay across 1.5 billion devices",
         "Dissecting the persistent memory tier and erasure coding in Meta's next-generation cold storage cluster",
-        "How Cloudflare rebuilt its global Anycast control plane to support real-time DDoS mitigation at 100 Tbps"
+        "How Cloudflare rebuilt its global Anycast control plane to support real-time DDoS mitigation at 100 Tbps",
+        "Optimizing L7 Traffic Steering in Globally Distributed Service Meshes using eBPF and XDP for Sub-millisecond Tail Latency",
+        "Solving the Cold-Start Problem in Serverless GPU Orchestration for Multi-Tenant LLM Quantization Pipelines",
+        "Implementing Deterministic Simulation Testing to Validate Distributed Consensus Invariants in High-Throughput Storage Engines"
     ]
 }
