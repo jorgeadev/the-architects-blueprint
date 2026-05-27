@@ -1,12 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import { getCollection } from "astro:content";
-import {
-    createExcerpt,
-    estimateReadingTime,
-    formatBlogDate,
-    sortBlogPosts,
-} from "../lib/blog";
+import { createExcerpt, estimateReadingTime, formatBlogDate, sortBlogPosts } from "../lib/blog";
 
 export async function getStaticPaths({ paginate }: any) {
     const allPosts = await getCollection("blog");
@@ -30,7 +25,7 @@ const { page } = Astro.props;
             <h1 class="text-[clamp(3rem,6vw,5rem)] leading-[1.05] font-bold">
                 <span class="gradient-text">Architecting</span> the Future.
             </h1>
-            <p class="max-w-[620px] text-xl text-zinc-300">
+            <p class="max-w-155 text-xl text-zinc-300">
                 Deep dives on big tech infra, scale, and the pulse of modern engineering.
             </p>
             <div class="flex flex-wrap gap-3">
@@ -55,7 +50,8 @@ const { page } = Astro.props;
                 <h2 class="mt-2 text-2xl font-bold">Discover the searchable archive</h2>
             </div>
             <p class="text-sm text-zinc-400">
-                The new discover view surfaces topic chips, random spotlights, and fast filtering across the full archive.
+                The new discover view surfaces topic chips, random spotlights, and fast filtering
+                across the full archive.
             </p>
             <div class="rounded-2xl border border-white/10 bg-white/5 p-4">
                 <div class="text-xs uppercase tracking-[0.24em] text-zinc-500">Quick actions</div>
@@ -73,41 +69,43 @@ const { page } = Astro.props;
         transition:animate="fade"
         class="grid grid-cols-[repeat(auto-fill,minmax(320px,1fr))] gap-8"
     >
-        {page.data.map((post) => (
-            <a
-                href={`/blog/${post.id}`}
-                class="glass-card flex flex-col p-8 min-h-[200px] overflow-hidden group"
-            >
-                {post.data.image && (
-                    <div class="-mx-8 -mt-8 mb-6 h-48 overflow-hidden">
-                        <img
-                            src={post.data.image}
-                            alt={post.data.title}
-                            class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                            loading="lazy"
-                        />
-                    </div>
-                )}
-                <div class="post-content grow flex flex-col">
-                    <div class="font-mono text-sm text-indigo-300/80 mb-3 flex flex-wrap items-center gap-2">
-                        <span>{formatBlogDate(post.data.date)}</span>
-                        <span>•</span>
-                        <span>{estimateReadingTime(post.body)} min read</span>
-                    </div>
-                    <h2
-                        class="text-lg m-0 leading-tight font-bold mb-3 line-clamp-2"
-                        title={post.data.title}
-                    >
-                        {post.data.shortTitle || post.data.title}
-                    </h2>
-                    {post.body && (
-                        <p class="text-sm text-zinc-400 line-clamp-3 leading-relaxed mt-auto">
-                            {createExcerpt(post.body, 180)}
-                        </p>
+        {
+            page.data.map((post) => (
+                <a
+                    href={`/blog/${post.id}`}
+                    class="glass-card flex flex-col p-8 min-h-50 overflow-hidden group"
+                >
+                    {post.data.image && (
+                        <div class="-mx-8 -mt-8 mb-6 h-48 overflow-hidden">
+                            <img
+                                src={post.data.image}
+                                alt={post.data.title}
+                                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                                loading="lazy"
+                            />
+                        </div>
                     )}
-                </div>
-            </a>
-        ))}
+                    <div class="post-content grow flex flex-col">
+                        <div class="font-mono text-sm text-indigo-300/80 mb-3 flex flex-wrap items-center gap-2">
+                            <span>{formatBlogDate(post.data.date)}</span>
+                            <span>•</span>
+                            <span>{estimateReadingTime(post.body || "")} min read</span>
+                        </div>
+                        <h2
+                            class="text-lg m-0 leading-tight font-bold mb-3 line-clamp-2"
+                            title={post.data.title}
+                        >
+                            {post.data.shortTitle || post.data.title}
+                        </h2>
+                        {post.body && (
+                            <p class="text-sm text-zinc-400 line-clamp-3 leading-relaxed mt-auto">
+                                {createExcerpt(post.body || "", 180)}
+                            </p>
+                        )}
+                    </div>
+                </a>
+            ))
+        }
     </section>
 
     <div class="mt-16 flex items-center justify-center gap-6">

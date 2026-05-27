@@ -27,8 +27,9 @@ interface Props {
 
 const { entry, prevPost, nextPost, morePosts } = Astro.props;
 const { Content } = await render(entry);
-const readingTime = estimateReadingTime(entry.body);
-const description = createExcerpt(entry.body, 240) || entry.data.shortTitle || entry.data.title;
+const readingTime = estimateReadingTime(entry.body || "");
+const description =
+    createExcerpt(entry.body || "", 240) || entry.data.shortTitle || entry.data.title;
 ---
 
 <Layout title={entry.data.title} description={description}>
@@ -97,7 +98,7 @@ const description = createExcerpt(entry.body, 240) || entry.data.shortTitle || e
                             {prevPost.data.shortTitle || prevPost.data.title}
                         </h2>
                         <p class="mt-3 text-sm text-zinc-400 line-clamp-2">
-                            {createExcerpt(prevPost.body, 140)}
+                            {createExcerpt(prevPost.body || "", 140)}
                         </p>
                     </a>
                 ) : (
@@ -125,7 +126,7 @@ const description = createExcerpt(entry.body, 240) || entry.data.shortTitle || e
                             {nextPost.data.shortTitle || nextPost.data.title}
                         </h2>
                         <p class="mt-3 text-sm text-zinc-400 line-clamp-2">
-                            {createExcerpt(nextPost.body, 140)}
+                            {createExcerpt(nextPost.body || "", 140)}
                         </p>
                     </a>
                 ) : (
@@ -167,7 +168,7 @@ const description = createExcerpt(entry.body, 240) || entry.data.shortTitle || e
                                 {post.data.shortTitle || post.data.title}
                             </h3>
                             <p class="mt-3 text-sm text-zinc-400 line-clamp-3">
-                                {createExcerpt(post.body, 120)}
+                                {createExcerpt(post.body || "", 120)}
                             </p>
                         </a>
                     ))
