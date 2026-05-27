@@ -1,6 +1,7 @@
 {
     "name": "the-architects-blueprint",
     "version": "1.0.0",
+    "packageManager": "pnpm@10.33.3",
     "engines": {
         "node": ">=24.0.0"
     },
@@ -8,8 +9,10 @@
     "main": "index.js",
     "scripts": {
         "start": "tsx scripts/orchestrator.ts",
-        "generate:topics": "tsx --env-file=.env scripts/.old/generate-topics.ts",
-        "generate:images": "tsx --env-file=.env scripts/backfill-images.ts",
+        "generate:post": "tsx --env-file-if-exists=.env scripts/orchestrator.ts",
+        "generate:topics": "tsx --env-file-if-exists=.env scripts/generate-topics.ts",
+        "generate:images": "tsx --env-file-if-exists=.env scripts/backfill-images.ts",
+        "migrate:structure": "tsx scripts/migrate-structure.ts",
         "test": "echo \"Error: no test specified\" && exit 1",
         "dev:web": "pnpm --filter web run dev",
         "build:web": "pnpm --filter web run build",

@@ -1,4 +1,5 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
+import { GEMINI_MODEL, DEEPSEEK_MODEL, GROK_MODEL, OPENROUTER_FREE_MODELS } from "./constants";
 
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY as string;
 const GROK_API_KEY = process.env.GROK_API_KEY as string;
@@ -15,7 +16,7 @@ export async function generateWithGemini(prompt: string): Promise<string> {
     if (!genAI) {
         throw new Error("GEMINI_API_KEY is not configured.");
     }
-    const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
+    const model = genAI.getGenerativeModel({ model: GEMINI_MODEL });
     const result = await model.generateContent(prompt);
     return result.response.text();
 }
@@ -33,7 +34,7 @@ export async function generateWithDeepSeek(prompt: string): Promise<string> {
             Authorization: `Bearer ${DEEPSEEK_API_KEY}`,
         },
         body: JSON.stringify({
-            model: "deepseek-chat",
+            model: DEEPSEEK_MODEL,
             messages: [{ role: "user", content: prompt }],
         }),
     });
@@ -59,7 +60,7 @@ export async function generateWithGrok(prompt: string): Promise<string> {
             Authorization: `Bearer ${GROK_API_KEY}`,
         },
         body: JSON.stringify({
-            model: "grok-2-latest",
+            model: GROK_MODEL,
             messages: [{ role: "user", content: prompt }],
         }),
     });
@@ -71,8 +72,6 @@ export async function generateWithGrok(prompt: string): Promise<string> {
     const data = await response.json();
     return data.choices[0].message.content;
 }
-
-const OPENROUTER_FREE_MODELS = ["google/gemma-4-31b-it:free", "google/gemma-4-26b-a4b-it:free"];
 
 export async function generateWithOpenRouter(prompt: string): Promise<string> {
     if (!OPENROUTER_API_KEY) {
