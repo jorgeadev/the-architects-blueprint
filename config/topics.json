@@ -7,7 +7,6 @@
         "The engineering behind Twitter/X: transitioning from a monolith to microservices and how they handle viral hype spikes.",
         "What goes into designing the hardware for custom AI accelerators like Google TPUs and AWS Inferentia?",
         "Apple's private cloud infrastructure: How they manage iCloud at an unprecedented global scale.",
-        "A deep dive into the infrastructure of modern high-frequency trading platforms: nanoseconds and FPGA power.",
         "Recent disruptive tech releases or viral developer trends on social media that captivated the engineering world.",
         "How Netflix achieved Multi-Region High Availability and zero downtime evacuations.",
         "The architecture of Uber’s Dispatch System: handling thousands of real-time matches per second.",
@@ -423,6 +422,9 @@
         "Decoding the Future: Engineering Synthetic DNA for Zettabyte-Scale Archival Data Storage Systems",
         "Disaggregated Memory Architectures: How CXL and Photonics are Reshaping Hyperscale Data Center Compute and Storage Fabrics",
         "Vector Database Indexing at Trillion-Scale: Optimizing HNSW and PQ for Low-Latency Similarity Search in Real-Time AI Applications",
-        "Synthetic Virome Design: Engineering Bacteriophages for Precision Microbiome Manipulation and Antimicrobial Resistance Remediation at Scale"
+        "Synthetic Virome Design: Engineering Bacteriophages for Precision Microbiome Manipulation and Antimicrobial Resistance Remediation at Scale",
+        "Programmable Data Plane Evolution: From P4 to Silicon for Hyperscale Network Observability",
+        "Adaptive Congestion Control Mechanisms in Software-Defined WANs for Low-Latency Distributed AI Training",
+        "Beyond AAV: Next-Generation Viral Vector Engineering for Enhanced Gene Therapy Delivery and Immunomodulation"
     ]
 }
