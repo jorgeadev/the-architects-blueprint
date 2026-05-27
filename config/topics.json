@@ -124,7 +124,6 @@
         "Decoding the Interconnects: Memory Bandwidth Bottlenecks and Custom Fabric Solutions for Trillion-Parameter LLM Inference",
         "From PUE to PUD: Advancements in Disaggregated Computing and Direct Liquid Cooling for Hyperscale Infrastructure",
         "The Phage-Storage Paradigm: Engineering Bacteriophage Virions for Petabyte-Scale Biological Data Storage and Retrieval Systems",
-        "The Interconnect Revolution: Architecting Multi-Trillion Parameter AI Models with Next-Gen Compute Fabrics",
         "Precision Genetic Engineering: The Rise of Base, Prime, and Epigenetic Editing for Therapeutic Applications",
         "Beyond 400GbE: The Role of Programmable Data Planes and Silicon Photonics in Future Intra-Datacenter Networks",
         "Optimizing Hypervisor-Level Co-Scheduling and Memory Paging for Near-Zero Cold Starts in Petabyte-Scale Serverless Architectures",
@@ -425,6 +424,9 @@
         "Synthetic Virome Design: Engineering Bacteriophages for Precision Microbiome Manipulation and Antimicrobial Resistance Remediation at Scale",
         "Programmable Data Plane Evolution: From P4 to Silicon for Hyperscale Network Observability",
         "Adaptive Congestion Control Mechanisms in Software-Defined WANs for Low-Latency Distributed AI Training",
-        "Beyond AAV: Next-Generation Viral Vector Engineering for Enhanced Gene Therapy Delivery and Immunomodulation"
+        "Beyond AAV: Next-Generation Viral Vector Engineering for Enhanced Gene Therapy Delivery and Immunomodulation",
+        "Disaggregated NVMe-oF and CXL-based memory pooling: Architecting the next generation of hyperscale cloud resource virtualization.",
+        "The MLOps Stack for Trillion-Parameter Models: Orchestrating Distributed Training, Inference, and Model Versioning Across Global Data Centers.",
+        "Prime Editing's Breakthroughs: Expanding the Gene Editing Toolkit for Precise, Scarless Genomic Modifications and Therapeutic Applications."
     ]
 }
