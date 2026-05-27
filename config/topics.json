@@ -425,10 +425,12 @@
         "Adaptive Congestion Control Mechanisms in Software-Defined WANs for Low-Latency Distributed AI Training",
         "Beyond AAV: Next-Generation Viral Vector Engineering for Enhanced Gene Therapy Delivery and Immunomodulation",
         "Disaggregated NVMe-oF and CXL-based memory pooling: Architecting the next generation of hyperscale cloud resource virtualization.",
-        "The MLOps Stack for Trillion-Parameter Models: Orchestrating Distributed Training, Inference, and Model Versioning Across Global Data Centers.",
         "Prime Editing's Breakthroughs: Expanding the Gene Editing Toolkit for Precise, Scarless Genomic Modifications and Therapeutic Applications.",
         "The Architectural Shift to Disaggregated Compute and Memory in Next-Gen Hyperscale Data Centers for AI Workloads",
         "Engineering Ultra-Low Latency, Globally Consistent State: A Deep Dive into Distributed Consensus Protocols at Petascale",
-        "The Role of Foundational Models and HPC in Accelerating De Novo Protein Design for Drug Discovery and Synthetic Biology"
+        "The Role of Foundational Models and HPC in Accelerating De Novo Protein Design for Drug Discovery and Synthetic Biology",
+        "Disaggregated Memory Architectures in Hyperscale Cloud: Addressing Latency, Bandwidth, and Resource Orchestration Challenges with CXL and UCIe.",
+        "Beyond Strong Consistency: Leveraging Causal and Eventual Consistency Models for Geo-Distributed Multi-Master Databases in Mission-Critical Systems.",
+        "Synthetic Phage Engineering for Targeted Microbiome Modulation: Overcoming Off-Target Effects and Developing Programmable Viral Vectors for Therapeutics."
     ]
 }
