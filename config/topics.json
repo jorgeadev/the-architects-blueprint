@@ -25,7 +25,6 @@
         "Doordash’s logistics engine: solving real-time traveling salesperson problems for millions of daily deliveries.",
         "Telegram’s proprietary MTProto protocol and their incredibly lean server architecture.",
         "Riot Games’ League of Legends global matchmaking and low-latency game server infrastructure.",
-        "Fastly’s Edge CDN architecture and the Varnish caching engine deep-dive.",
         "Roblox’s user-generated content infrastructure: serving 3D assets to millions of active concurrent players globally.",
         "NASA's JPL cloud computing architecture: how they managed the telemetry data pipeline for the Mars Rover.",
         "An deep dive into how AWS Nitro cards physically offload networking and storage from EC2 instances.",
@@ -431,6 +430,9 @@
         "The Role of Foundational Models and HPC in Accelerating De Novo Protein Design for Drug Discovery and Synthetic Biology",
         "Disaggregated Memory Architectures in Hyperscale Cloud: Addressing Latency, Bandwidth, and Resource Orchestration Challenges with CXL and UCIe.",
         "Beyond Strong Consistency: Leveraging Causal and Eventual Consistency Models for Geo-Distributed Multi-Master Databases in Mission-Critical Systems.",
-        "Synthetic Phage Engineering for Targeted Microbiome Modulation: Overcoming Off-Target Effects and Developing Programmable Viral Vectors for Therapeutics."
+        "Synthetic Phage Engineering for Targeted Microbiome Modulation: Overcoming Off-Target Effects and Developing Programmable Viral Vectors for Therapeutics.",
+        "Beyond BBR: Next-Generation Congestion Control Protocols for Petabit-Scale Global Interconnects",
+        "The Architectural Deep Dive into Quantization and Indexing Algorithms for Exabyte-Scale Vector Databases",
+        "Engineering CRISPR-Cas Systems for Programmable Epigenetic Editing and Cellular Reprogramming at Scale"
     ]
 }
