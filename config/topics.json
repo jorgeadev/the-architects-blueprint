@@ -341,7 +341,6 @@
         "Optical Circuit Switching and Programmable Data Planes: Reshaping Inter-DC Traffic Engineering for Exascale Cloud Infrastructure",
         "AI-Driven Directed Evolution: Engineering Next-Gen AAV Capsids for Precision Gene Therapy and Minimized Immunogenicity",
         "Decoding Meta's Wan: The Hardware-Software Co-Design Powering Their Heterogeneous AI Inference Fleet",
-        "How Netflix Migrated Its Entire Content Pipeline to a Unified Delta Lake Without a Single Failed Stream",
         "Architecting Multi-Tenant, Petabyte-Scale Data Lakes for Real-time AI/ML Training: A Deep Dive into Distributed Query Optimization",
         "Beyond AlphaFold: Engineering Scalable Generative AI Models for *De Novo* Protein Design and High-Throughput Biological Synthesis",
         "An analysis of Meta's use of memristive crossbar arrays for analog in-memory matrix operations at the hyperscale AI inference tier.",
@@ -440,6 +439,9 @@
         "How Cloudflare rebuilt its global Anycast control plane to support real-time DDoS mitigation at 100 Tbps",
         "Optimizing KV-Cache Management for Multi-Tenant LLM Serving: A Deep Dive into PagedAttention and FlashAttention Integration",
         "Implementing Zero-Trust Networking at the Data Link Layer: How Google uses Custom DPUs to Offload mTLS Encryption",
-        "Solving the Thundering Herd in Global Edge Functions: Adaptive Rate Limiting and Request Collapsing at Cloudflare Scale"
+        "Solving the Thundering Herd in Global Edge Functions: Adaptive Rate Limiting and Request Collapsing at Cloudflare Scale",
+        "Optimizing tail latency in geo-replicated Spanner clusters via predictive read-lease migration",
+        "The mechanics of zero-copy data transfer in hyper-scale NVMe-over-Fabrics implementations",
+        "Architecting sub-millisecond cold starts for WebAssembly-based edge functions using eBPF state injection"
     ]
 }
