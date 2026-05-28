@@ -249,7 +249,6 @@
         "Beyond CRISPR: A technical deep dive into engineered bacteriophage platforms for programmable microbiome modulation and precision antimicrobial resistance targeting.",
         "The architectural implications of adopting memory-semantic network fabrics (e.g., CXL) for ultra-low-latency AI model serving at scale.",
         "Deep learning-guided de novo design of synthetic viral vectors for ultra-specific in vivo cell targeting and gene therapy delivery.",
-        "Designing exabyte-scale, multi-modal vector embeddings for real-time retrieval-augmented generation (RAG) in conversational AI.",
         "The Rise of Programmable Networks: How DPUs are Reshaping Hyperscale Cloud Infrastructure for Next-Gen Workloads",
         "Architecting Exabyte-Scale Real-time Stream Processing for Global User Engagement Platforms",
         "The Deep Technical Challenges of Deploying Custom AI Accelerators Across Hyperscale Edge Networks",
@@ -446,6 +445,9 @@
         "Optimizing Tail Latency in Tiered-Storage Architectures for Global Edge-Computing Mesh Networks",
         "Optimizing Tail Latency in Sharded Vector Databases: Hardware-Accelerated Indexing for Billion-Scale RAG Architectures",
         "The Evolution of Shared-Log Architectures: Implementing Zero-Copy Replication in High-Throughput Distributed Streaming Systems",
-        "Formal Verification of Distributed Consensus: Applying TLA+ and Deterministic Simulation to Cloud-Native Metadata Engines"
+        "Formal Verification of Distributed Consensus: Applying TLA+ and Deterministic Simulation to Cloud-Native Metadata Engines",
+        "Implementing Multi-Tenant Performance Isolation in Distributed Vector Databases at Billion-Scale",
+        "Architecting Sub-Millisecond Cold Starts for Serverless GPU Inference using Predictive Checkpoint Restoration",
+        "The Evolution of Cluster Management: From Borg to Disaggregated Resource Scheduling for Heterogeneous AI Workloads"
     ]
 }
