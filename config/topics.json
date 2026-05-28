@@ -89,7 +89,6 @@
         "Beyond Raft and Paxos: Engineering Global Consistency in Cloud-Native Distributed Transactional Databases",
         "Deconstructing Meta's Threads: The Real-Time Synchronization and State Reconciliation Engine at 100M+ Users",
         "Beyond the Shard: Google's Next-Gen Spanner and the Physics-Limits of Globally Consistent, Planet-Scale Databases",
-        "Global distributed consensus at scale: Architecting strongly consistent multi-region transactional systems for petabyte-scale data.",
         "Deconstructing the Global Request Router: How Meta's Edge Network Handles 10 Trillion Queries Per Day",
         "Beyond Kubernetes: The Unconventional Orchestration Systems Powering Hyperscale AI Training Clusters",
         "Postmortem Analysis of the 2024 Multi-Cloud DNS Cascade: Engineering Lessons from a Global Resolution Failure",
@@ -442,6 +441,9 @@
         "Solving the Thundering Herd in Global Edge Functions: Adaptive Rate Limiting and Request Collapsing at Cloudflare Scale",
         "Optimizing tail latency in geo-replicated Spanner clusters via predictive read-lease migration",
         "The mechanics of zero-copy data transfer in hyper-scale NVMe-over-Fabrics implementations",
-        "Architecting sub-millisecond cold starts for WebAssembly-based edge functions using eBPF state injection"
+        "Architecting sub-millisecond cold starts for WebAssembly-based edge functions using eBPF state injection",
+        "Formal Verification of Distributed Consensus Protocols in Hyperscale Cluster Management Systems",
+        "Implementing Zero-Copy Data Movement in RDMA-based Storage Backends for Multi-Petabyte LLM Training Clusters",
+        "Optimizing Tail Latency in Tiered-Storage Architectures for Global Edge-Computing Mesh Networks"
     ]
 }
