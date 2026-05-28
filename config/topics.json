@@ -269,7 +269,6 @@
         "The algorithmic nexus: How hyperscale cloud providers are leveraging reinforcement learning for real-time, global energy grid optimization and carbon-aware workload placement.",
         "Stateless by design, stateful by necessity: Architecting consistent, low-latency state management for serverless platforms handling exabyte-scale data streams.",
         "Programmable phage engineering: Overcoming therapeutic resistance with AI-driven design of bespoke bacteriophage cocktails for multi-drug resistant infections.",
-        "The Architectural Shift: Leveraging CXL 3.0 for Disaggregated Memory and Compute in Hyperscale Infrastructures",
         "Achieving Ultra-Low Latency and High Throughput in Global-Scale Graph Database Systems Using Persistent Memory and RDMA",
         "Beyond Cas9: Exploring the Landscape of Prime Editing and Base Editing for Precision In Vivo Gene Therapy",
         "The Architectural Deep Dive into CXL's Role in Next-Generation Hyperscale Disaggregated Memory and Compute",
@@ -444,6 +443,9 @@
         "Architecting sub-millisecond cold starts for WebAssembly-based edge functions using eBPF state injection",
         "Formal Verification of Distributed Consensus Protocols in Hyperscale Cluster Management Systems",
         "Implementing Zero-Copy Data Movement in RDMA-based Storage Backends for Multi-Petabyte LLM Training Clusters",
-        "Optimizing Tail Latency in Tiered-Storage Architectures for Global Edge-Computing Mesh Networks"
+        "Optimizing Tail Latency in Tiered-Storage Architectures for Global Edge-Computing Mesh Networks",
+        "Optimizing Tail Latency in Sharded Vector Databases: Hardware-Accelerated Indexing for Billion-Scale RAG Architectures",
+        "The Evolution of Shared-Log Architectures: Implementing Zero-Copy Replication in High-Throughput Distributed Streaming Systems",
+        "Formal Verification of Distributed Consensus: Applying TLA+ and Deterministic Simulation to Cloud-Native Metadata Engines"
     ]
 }
