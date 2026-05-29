@@ -168,7 +168,6 @@
         "Inside Meta's Project Aria: Reverse engineering the massive, real-time compute pipeline for AR glasses at planetary scale.",
         "The physics of power: How hyperscalers are engineering on-site nuclear microreactors to bypass grid limitations for exascale AI clusters.",
         "Zero-Trust Networking at Exabyte Scale: Engineering Microsegmentation and Policy Enforcement for Hyperscale Cloud Infrastructure",
-        "The Architecture of AI-Driven Protein Design: From AlphaFold to De Novo Functional Protein Synthesis",
         "Real-Time Inference at Scale: Engineering AI Model Serving Infrastructure for Billions of Daily Queries",
         "Petabyte-Scale Genomics: Building Secure and Performant Pipelines for Population-Level Biomedical Data",
         "The Conundrum of Strong Eventual Consistency: Architecting Distributed Transactional Systems for Global Financial Ledgers with Hybrid Logical Clocks",
@@ -454,6 +453,9 @@
         "Architecting Multi-Region Consistency for Vector Databases: Strategies for Cross-Region Conflict Resolution at Ten-Petabyte Scales",
         "Optimizing RDMA-over-Converged-Ethernet (RoCE) for Multi-Tenant GPU Clusters: Solving Congestion at the Petabit Scale",
         "Vector-Native Sharding Strategies: Implementing Low-Latency Nearest Neighbor Search Across Geographically Distributed KV Stores",
-        "Zero-Copy Serialization and Buffer Management in High-Throughput Event Mesh Architectures for Real-Time Financial Settlement"
+        "Zero-Copy Serialization and Buffer Management in High-Throughput Event Mesh Architectures for Real-Time Financial Settlement",
+        "Solving the Thundering Herd: Implementing Predictive Load Shedding and Proactive Connection Draining in Globally Distributed Edge Proxies",
+        "High-Throughput State Machine Replication: Optimizing Raft Log Compaction and Zero-Copy I/O for Multi-Region Distributed Databases",
+        "The Mechanics of Real-Time Feature Stores: Leveraging Low-Latency LSM-Trees and RDMA Offloading for Large-Scale Machine Learning Pipelines"
     ]
 }
