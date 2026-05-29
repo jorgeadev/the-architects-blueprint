@@ -115,7 +115,6 @@
         "The physics of data locality: A technical deep-dive into Meta's thermal-aware job scheduler for hyperscale GPU clusters",
         "How Netflix migrated its entire CDN to a purpose-built QUIC-based transport layer for 4K streaming under adversarial packet loss",
         "The Architectural Evolution of Hyperscale Data Center Network Fabrics for Terabit-Scale Interconnects and Congestion Management",
-        "Achieving Global Strong Consistency with Shard-Splitting and Multi-Paxos Variants in Planet-Scale Distributed Database Systems",
         "CRISPR-Guided Phage Engineering: Precision Delivery and Genetically Modified Viral Vectors for In Vivo Therapeutic Applications",
         "Decoding the Interconnects: Memory Bandwidth Bottlenecks and Custom Fabric Solutions for Trillion-Parameter LLM Inference",
         "From PUE to PUD: Advancements in Disaggregated Computing and Direct Liquid Cooling for Hyperscale Infrastructure",
@@ -450,6 +449,9 @@
         "The Evolution of Cluster Management: From Borg to Disaggregated Resource Scheduling for Heterogeneous AI Workloads",
         "Formal Verification of Distributed Consensus Protocols in Sub-Millisecond Global Message Queues",
         "Predictive Auto-Scaling Strategies for Stateless Edge Computing Layers Using Multi-Armed Bandit Algorithms",
-        "Implementing Zero-Copy Memory Management for High-Throughput User-Space Networking in Rust"
+        "Implementing Zero-Copy Memory Management for High-Throughput User-Space Networking in Rust",
+        "Optimizing Zero-Copy GPU Memory Paging for Sub-100ms LLM Inference at the Edge using eBPF and Kernel Bypassing",
+        "Implementing Deterministic Simulation Testing for Global-Scale Distributed State Machines in High-Throughput Financial Ledgers",
+        "Architecting Multi-Region Consistency for Vector Databases: Strategies for Cross-Region Conflict Resolution at Ten-Petabyte Scales"
     ]
 }
