@@ -353,7 +353,6 @@
         "Unpacking Meta's 'Project Titan': The 3D-Stacked Compute Fabrics Powering Next-Gen Inference at Exascale",
         "Dissecting the Global Control Plane: How Cloudflare's Durable Objects Manage Distributed State Across 330+ Cities in Under 50ms",
         "The Physics of Video Egress: How Netflix Bypassed the Linux Kernel to Achieve 1.5 Tbps per Node with io_uring and XDP",
-        "Architecting Disaggregated Memory and Compute for Petascale AI Training Clusters",
         "The Design Challenges of Achieving Global Linearizability in Multi-Region Distributed Databases",
         "Leveraging Large Language Models and Diffusion Models for De Novo Protein Design and Engineering at Scale",
         "Architecting Zero-Copy, Kernel-Bypassing I/O Stacks with DPUs and RDMA for Sub-Millisecond AI Inference at Hyperscale",
@@ -448,6 +447,9 @@
         "Formal Verification of Distributed Consensus: Applying TLA+ and Deterministic Simulation to Cloud-Native Metadata Engines",
         "Implementing Multi-Tenant Performance Isolation in Distributed Vector Databases at Billion-Scale",
         "Architecting Sub-Millisecond Cold Starts for Serverless GPU Inference using Predictive Checkpoint Restoration",
-        "The Evolution of Cluster Management: From Borg to Disaggregated Resource Scheduling for Heterogeneous AI Workloads"
+        "The Evolution of Cluster Management: From Borg to Disaggregated Resource Scheduling for Heterogeneous AI Workloads",
+        "Formal Verification of Distributed Consensus Protocols in Sub-Millisecond Global Message Queues",
+        "Predictive Auto-Scaling Strategies for Stateless Edge Computing Layers Using Multi-Armed Bandit Algorithms",
+        "Implementing Zero-Copy Memory Management for High-Throughput User-Space Networking in Rust"
     ]
 }
