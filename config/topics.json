@@ -428,7 +428,6 @@
         "Synthetic Phage Engineering for Targeted Microbiome Modulation: Overcoming Off-Target Effects and Developing Programmable Viral Vectors for Therapeutics.",
         "Beyond BBR: Next-Generation Congestion Control Protocols for Petabit-Scale Global Interconnects",
         "The Architectural Deep Dive into Quantization and Indexing Algorithms for Exabyte-Scale Vector Databases",
-        "Engineering CRISPR-Cas Systems for Programmable Epigenetic Editing and Cellular Reprogramming at Scale",
         "The network topology and bufferbloat mitigation strategies enabling Apple's Private Relay across 1.5 billion devices",
         "Dissecting the persistent memory tier and erasure coding in Meta's next-generation cold storage cluster",
         "How Cloudflare rebuilt its global Anycast control plane to support real-time DDoS mitigation at 100 Tbps",
@@ -452,6 +451,9 @@
         "Implementing Zero-Copy Memory Management for High-Throughput User-Space Networking in Rust",
         "Optimizing Zero-Copy GPU Memory Paging for Sub-100ms LLM Inference at the Edge using eBPF and Kernel Bypassing",
         "Implementing Deterministic Simulation Testing for Global-Scale Distributed State Machines in High-Throughput Financial Ledgers",
-        "Architecting Multi-Region Consistency for Vector Databases: Strategies for Cross-Region Conflict Resolution at Ten-Petabyte Scales"
+        "Architecting Multi-Region Consistency for Vector Databases: Strategies for Cross-Region Conflict Resolution at Ten-Petabyte Scales",
+        "Optimizing RDMA-over-Converged-Ethernet (RoCE) for Multi-Tenant GPU Clusters: Solving Congestion at the Petabit Scale",
+        "Vector-Native Sharding Strategies: Implementing Low-Latency Nearest Neighbor Search Across Geographically Distributed KV Stores",
+        "Zero-Copy Serialization and Buffer Management in High-Throughput Event Mesh Architectures for Real-Time Financial Settlement"
     ]
 }
