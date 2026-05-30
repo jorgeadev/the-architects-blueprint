@@ -94,7 +94,6 @@
         "Postmortem Analysis of the 2024 Multi-Cloud DNS Cascade: Engineering Lessons from a Global Resolution Failure",
         "The Engineering Challenges of Maintaining Global Consensus in Hyperscale Distributed Transactional Databases",
         "Engineering Next-Generation Oncolytic Viruses: Targeted Delivery Mechanisms and Immunomodulatory Enhancements for Cancer Therapy",
-        "The Architecture of Real-Time Global State Synchronization at Petabyte Scale",
         "Postmortem Analysis of the Cascading Failure in a Multi-Region Serverless Platform During a Coordinated Cyber Attack",
         "Leveraging eBPF for dynamic network observability and intelligent traffic steering in hyperscale cloud environments.",
         "Synthetic biology's frontier: engineering novel viral capsids for enhanced gene therapy delivery and immunogenicity control.",
@@ -456,6 +455,9 @@
         "Zero-Copy Serialization and Buffer Management in High-Throughput Event Mesh Architectures for Real-Time Financial Settlement",
         "Solving the Thundering Herd: Implementing Predictive Load Shedding and Proactive Connection Draining in Globally Distributed Edge Proxies",
         "High-Throughput State Machine Replication: Optimizing Raft Log Compaction and Zero-Copy I/O for Multi-Region Distributed Databases",
-        "The Mechanics of Real-Time Feature Stores: Leveraging Low-Latency LSM-Trees and RDMA Offloading for Large-Scale Machine Learning Pipelines"
+        "The Mechanics of Real-Time Feature Stores: Leveraging Low-Latency LSM-Trees and RDMA Offloading for Large-Scale Machine Learning Pipelines",
+        "Implementing Zero-Copy Data Planes with eBPF for Sub-Millisecond Observability Pipelines at Scale",
+        "Deterministic Simulation Testing for Distributed Consensus Protocols in Multi-Region Active-Active Architectures",
+        "Optimizing Tail Latencies in Petabyte-Scale Vector Databases via Tiered NVMe-over-Fabrics Storage"
     ]
 }
