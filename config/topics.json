@@ -346,7 +346,6 @@
         "Beyond Consensus: Unpacking the Architectural Implications of Conflict-Free Replicated Data Types (CRDTs) in Globally Distributed Systems",
         "CRISPR-Cas Systems Beyond Gene Editing: Programmable RNA Targeting for Advanced Antiviral Therapies and Diagnostics",
         "The Architectural Evolution of Hyperscale Data Center Network Fabrics: From Clos to Programmable Packet Processors",
-        "Computational Virology at the Edge: Engineering mRNA Vaccine Production and Distribution for Pandemic Readiness",
         "Unpacking Meta's 'Project Titan': The 3D-Stacked Compute Fabrics Powering Next-Gen Inference at Exascale",
         "Dissecting the Global Control Plane: How Cloudflare's Durable Objects Manage Distributed State Across 330+ Cities in Under 50ms",
         "The Physics of Video Egress: How Netflix Bypassed the Linux Kernel to Achieve 1.5 Tbps per Node with io_uring and XDP",
@@ -460,6 +459,9 @@
         "Optimizing Tail Latencies in Petabyte-Scale Vector Databases via Tiered NVMe-over-Fabrics Storage",
         "Deep Dive into Multi-Headed Attention Offloading: How Hyperscalers Optimize LLM Inference via Custom ASIC Interconnects",
         "Zero-Copy Data Transfer and eBPF: Re-engineering the Linux Kernel Networking Stack for Sub-Microsecond Latency in High-Frequency Trading Systems",
-        "Scaling Beyond Paxos: A Technical Decomposition of Shared-Log Architectures in Modern Globally Distributed Cloud-Native Databases"
+        "Scaling Beyond Paxos: A Technical Decomposition of Shared-Log Architectures in Modern Globally Distributed Cloud-Native Databases",
+        "Architecting Zero-Copy Data Movement in High-Throughput Distributed Vector Databases for Sub-Millisecond RAG Latency",
+        "A Deep Dive into Congestion Control Algorithms and RoCE v2 Network Topology for Trillion-Parameter Model Training Clusters",
+        "Optimizing KV-Cache Eviction Policies and PagedAttention Throughput in Multi-Tenant LLM Serving Infrastructures"
     ]
 }
