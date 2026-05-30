@@ -433,7 +433,6 @@
         "Implementing Zero-Trust Networking at the Data Link Layer: How Google uses Custom DPUs to Offload mTLS Encryption",
         "Solving the Thundering Herd in Global Edge Functions: Adaptive Rate Limiting and Request Collapsing at Cloudflare Scale",
         "Optimizing tail latency in geo-replicated Spanner clusters via predictive read-lease migration",
-        "The mechanics of zero-copy data transfer in hyper-scale NVMe-over-Fabrics implementations",
         "Architecting sub-millisecond cold starts for WebAssembly-based edge functions using eBPF state injection",
         "Formal Verification of Distributed Consensus Protocols in Hyperscale Cluster Management Systems",
         "Implementing Zero-Copy Data Movement in RDMA-based Storage Backends for Multi-Petabyte LLM Training Clusters",
@@ -458,6 +457,9 @@
         "The Mechanics of Real-Time Feature Stores: Leveraging Low-Latency LSM-Trees and RDMA Offloading for Large-Scale Machine Learning Pipelines",
         "Implementing Zero-Copy Data Planes with eBPF for Sub-Millisecond Observability Pipelines at Scale",
         "Deterministic Simulation Testing for Distributed Consensus Protocols in Multi-Region Active-Active Architectures",
-        "Optimizing Tail Latencies in Petabyte-Scale Vector Databases via Tiered NVMe-over-Fabrics Storage"
+        "Optimizing Tail Latencies in Petabyte-Scale Vector Databases via Tiered NVMe-over-Fabrics Storage",
+        "Deep Dive into Multi-Headed Attention Offloading: How Hyperscalers Optimize LLM Inference via Custom ASIC Interconnects",
+        "Zero-Copy Data Transfer and eBPF: Re-engineering the Linux Kernel Networking Stack for Sub-Microsecond Latency in High-Frequency Trading Systems",
+        "Scaling Beyond Paxos: A Technical Decomposition of Shared-Log Architectures in Modern Globally Distributed Cloud-Native Databases"
     ]
 }
