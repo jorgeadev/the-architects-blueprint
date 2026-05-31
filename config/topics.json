@@ -123,7 +123,6 @@
         "Optimizing Hypervisor-Level Co-Scheduling and Memory Paging for Near-Zero Cold Starts in Petabyte-Scale Serverless Architectures",
         "The Cutting Edge of CRISPR-Cas Engineered Phage Therapeutics: Overcoming Delivery and Immunogenicity Challenges for Multi-Drug Resistant Pathogens",
         "Architecting Petabyte-Scale Data Storage Solutions Using Enzymatically Synthesized DNA Polymers and Advanced Sequencing Readout Techniques",
-        "CRISPR-Cas as a Programmable Antiviral: Unpacking the Mechanisms and Challenges of Engineering Broad-Spectrum Viral Resistance into Mammalian Cells",
         "The Evolution of Disaggregated AI Compute: From Shared Memory Architectures to DPU-driven Resource Pooling at Hyperscale",
         "CRISPR-Cas Systems Beyond Gene Editing: Engineering Antiviral Defenses and Ultra-Sensitive Diagnostic Platforms with RNA-Guided Surveillance",
         "CRISPR-Associated Transposons (CASTs) for Large-Scale Programmable DNA Integration in Eukaryotic Viral Vectors for Advanced Gene Therapies",
@@ -466,6 +465,9 @@
         "The Mechanics of Predictive Infrastructure Sharding: Leveraging Machine Learning for Dynamic Load Balancing in Microservice Meshes",
         "Optimizing Global Consensus Latency: Implementing Hierarchical Paxos for Multi-Region Distributed Databases",
         "Zero-Copy Packet Processing at Scale: Leveraging eBPF and XDP for High-Performance Load Balancing in Multi-Tenant Clouds",
-        "Architecting Predictive Autoscaling: Using Transformer-Based Time-Series Forecasting for Proactive Capacity Provisioning in Large-Scale Microservices"
+        "Architecting Predictive Autoscaling: Using Transformer-Based Time-Series Forecasting for Proactive Capacity Provisioning in Large-Scale Microservices",
+        "Leveraging RDMA over Converged Ethernet (RoCE) for Ultra-Low Latency Gradient Synchronization in 100k GPU Clusters",
+        "Architecting Global Deterministic Databases: Solving the 2PC Bottleneck with Hybrid Logical Clocks and Multi-Paxos",
+        "Zero-Copy Memory Management in eBPF-Based Service Meshes for High-Throughput Microservices"
     ]
 }
