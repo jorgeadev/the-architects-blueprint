@@ -460,10 +460,12 @@
         "Zero-Copy Data Transfer and eBPF: Re-engineering the Linux Kernel Networking Stack for Sub-Microsecond Latency in High-Frequency Trading Systems",
         "Scaling Beyond Paxos: A Technical Decomposition of Shared-Log Architectures in Modern Globally Distributed Cloud-Native Databases",
         "Architecting Zero-Copy Data Movement in High-Throughput Distributed Vector Databases for Sub-Millisecond RAG Latency",
-        "A Deep Dive into Congestion Control Algorithms and RoCE v2 Network Topology for Trillion-Parameter Model Training Clusters",
         "Optimizing KV-Cache Eviction Policies and PagedAttention Throughput in Multi-Tenant LLM Serving Infrastructures",
         "Deep Dive into Zero-Copy Data Transfer for High-Throughput Distributed Storage Systems via eBPF and NVMe-oF",
         "Architecting Multi-Region Consistency Models for Global-Scale Vector Databases in Generative AI Workflows",
-        "The Mechanics of Predictive Infrastructure Sharding: Leveraging Machine Learning for Dynamic Load Balancing in Microservice Meshes"
+        "The Mechanics of Predictive Infrastructure Sharding: Leveraging Machine Learning for Dynamic Load Balancing in Microservice Meshes",
+        "Optimizing Global Consensus Latency: Implementing Hierarchical Paxos for Multi-Region Distributed Databases",
+        "Zero-Copy Packet Processing at Scale: Leveraging eBPF and XDP for High-Performance Load Balancing in Multi-Tenant Clouds",
+        "Architecting Predictive Autoscaling: Using Transformer-Based Time-Series Forecasting for Proactive Capacity Provisioning in Large-Scale Microservices"
     ]
 }
