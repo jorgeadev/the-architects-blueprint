@@ -301,7 +301,6 @@
         "The Architectural Principles Behind Hyperscale Real-time Anomaly Detection Systems: From Graph Neural Networks to Probabilistic Fault Injection",
         "Hardware-Software Co-Design for Next-Generation Data Center Interconnects: Disaggregated Fabrics, Silicon Photonics, and Custom ASICs",
         "Engineering Novel Phage Endolysins: A Path Towards Broad-Spectrum Antimicrobials in the Post-Antibiotic Era",
-        "Beyond gRPC: Next-Gen Inter-Service Communication Protocols for Ultra-Low Latency Microservices at Netflix-Scale",
         "Heterogeneous Memory Tiering at Meta: Migrating Hot Pages Across DRAM and CXL-Attached NAND for Hyperscale Database Workloads",
         "Dissecting the Intra-Node Fabric: NVLink-C2C and the Decoupling of Compute from Memory in Google's TPU v6 Pods",
         "How Uber Re-Architected Their Global Pub/Sub Mesh After the 2023 Manhattan Control Plane Failure: A Case Study in CRDT-Based Partition Healing",
@@ -470,6 +469,9 @@
         "Zero-Copy Memory Management in eBPF-Based Service Meshes for High-Throughput Microservices",
         "Optimizing global state synchronization: How Meta leverages RoCE v2 and custom congestion control for Llama 3's 100k-GPU training cluster",
         "Beyond gRPC: Architecting zero-copy serialization and shared-memory message passing in Uber’s high-throughput microservices",
-        "Combating P99.99 latency spikes in distributed databases: Speculative execution and hedging strategies in Google’s Spanner architecture"
+        "Combating P99.99 latency spikes in distributed databases: Speculative execution and hedging strategies in Google’s Spanner architecture",
+        "Deep Dive into Meta's MTIA and Grand Teton: Architecting the RoCE-based 400Gbps Fabric for Llama 3 Training Clusters",
+        "Optimizing Write-Heavy Vector Databases: Implementing Log-Structured Merge-Trees for Real-Time Billion-Scale Nearest Neighbor Search",
+        "Beyond Raft: Implementing the Viewstamped Replication Revisited Protocol for Sub-Millisecond Tail Latency in Global Financial Ledgers"
     ]
 }
