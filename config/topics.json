@@ -403,7 +403,6 @@
         "Decoding the Future: Engineering Synthetic DNA for Zettabyte-Scale Archival Data Storage Systems",
         "Disaggregated Memory Architectures: How CXL and Photonics are Reshaping Hyperscale Data Center Compute and Storage Fabrics",
         "Vector Database Indexing at Trillion-Scale: Optimizing HNSW and PQ for Low-Latency Similarity Search in Real-Time AI Applications",
-        "Synthetic Virome Design: Engineering Bacteriophages for Precision Microbiome Manipulation and Antimicrobial Resistance Remediation at Scale",
         "Programmable Data Plane Evolution: From P4 to Silicon for Hyperscale Network Observability",
         "Adaptive Congestion Control Mechanisms in Software-Defined WANs for Low-Latency Distributed AI Training",
         "Beyond AAV: Next-Generation Viral Vector Engineering for Enhanced Gene Therapy Delivery and Immunomodulation",
@@ -468,6 +467,9 @@
         "Architecting Predictive Autoscaling: Using Transformer-Based Time-Series Forecasting for Proactive Capacity Provisioning in Large-Scale Microservices",
         "Leveraging RDMA over Converged Ethernet (RoCE) for Ultra-Low Latency Gradient Synchronization in 100k GPU Clusters",
         "Architecting Global Deterministic Databases: Solving the 2PC Bottleneck with Hybrid Logical Clocks and Multi-Paxos",
-        "Zero-Copy Memory Management in eBPF-Based Service Meshes for High-Throughput Microservices"
+        "Zero-Copy Memory Management in eBPF-Based Service Meshes for High-Throughput Microservices",
+        "Optimizing global state synchronization: How Meta leverages RoCE v2 and custom congestion control for Llama 3's 100k-GPU training cluster",
+        "Beyond gRPC: Architecting zero-copy serialization and shared-memory message passing in Uber’s high-throughput microservices",
+        "Combating P99.99 latency spikes in distributed databases: Speculative execution and hedging strategies in Google’s Spanner architecture"
     ]
 }
