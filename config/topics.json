@@ -337,7 +337,6 @@
         "How Netflix transitioned its Chaos Monkey from pod-level abstraction to hardware-level fault injection via BMC-based PCIe bus error triggering.",
         "Inside Meta's WAN traffic engineering: How OSPFv3 segment routing and weighted ECMP replace MPLS at global scale.",
         "A deep dive into Google's Jupiter network fabric v2: Optical circuit switching and the end of spine-leaf topologies.",
-        "How Cloudflare built a global key-value store on a billion requests per second using Durable Objects and global ACID transactions.",
         "Optimizing P99 Latency at Scale: Tail Latency Reduction Techniques in Distributed Databases for Hyperscale Workloads",
         "Beyond Consensus: Unpacking the Architectural Implications of Conflict-Free Replicated Data Types (CRDTs) in Globally Distributed Systems",
         "CRISPR-Cas Systems Beyond Gene Editing: Programmable RNA Targeting for Advanced Antiviral Therapies and Diagnostics",
@@ -480,6 +479,9 @@
         "Zero-Trust Networking at the Silicon Level: Implementing Hardware Root of Trust and mTLS offloading in hyperscale data centers",
         "Implementing Wait-Die Deadlock Prevention and Deterministic Concurrency Control in Globally Distributed NewSQL Engines",
         "Optimizing Zero-Copy Data Transfer and Vectorized Query Execution in Hyperscale Stream Processing Pipelines",
-        "Exploiting eBPF for Programmable Congestion Control and Load Balancing in Multi-Tenant GPU Clusters"
+        "Exploiting eBPF for Programmable Congestion Control and Load Balancing in Multi-Tenant GPU Clusters",
+        "Optimizing Tail Latency in Multi-Tenant Kubernetes Clusters via eBPF-based Traffic Shaping and Congestion Control",
+        "The Architecture of Deterministic Simulation Testing for Globally Distributed Distributed Databases",
+        "Scaling Vector Databases: Disaggregated Storage and Retrieval Strategies for Billion-Scale Embedding Search"
     ]
 }
