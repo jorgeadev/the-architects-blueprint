@@ -370,7 +370,6 @@
         "Architecting the Next-Gen Disaggregated Memory Fabrics: CXL 3.0 and Beyond for Ultra-Low Latency, Shared-Memory AI Superclusters",
         "The Stealth Scale of Edge AI: How Major Cloud Providers are Deploying TinyML-Enabled, Self-Healing Micro-Data Centers for Hyperscale IoT and Autonomous Systems",
         "Programmable Phage Therapies: Designing AI-Optimized Viral Vectors for Targeted Bacterial Eradication and Overcoming Multi-Drug Resistance",
-        "The Architectural Evolution of Hyperscale DPUs: Offloading AI/ML Workloads and Microservices with Programmable NICs for Cloud-Native Infrastructure",
         "Achieving Sub-Millisecond Tail Latencies in Geo-Distributed Transactional Databases: A Novel Approach to Consensus with Read-Optimized Raft Variants and Persistent Memory",
         "Engineering Programmable Viral Capsids: Designing Next-Generation Gene Delivery Vectors for Targeted In Vivo Therapeutic mRNA Translation",
         "The Engineering Challenges of Hyperscale Liquid Cooling for Petascale AI Accelerators in Cloud Data Centers",
@@ -478,6 +477,9 @@
         "Solving the KV-Cache Bottleneck: A Deep Dive into PagedAttention and Dynamic Memory Allocation for Massive-Scale LLM Inference",
         "Leveraging eXpress Data Path (XDP) for DDoS Mitigation: A deep dive into Cloudflare's L4 packet processing pipeline",
         "Cell-Based Architecture at Scale: Reducing blast radius in multi-tenant SaaS through virtual regional partitioning",
-        "Zero-Trust Networking at the Silicon Level: Implementing Hardware Root of Trust and mTLS offloading in hyperscale data centers"
+        "Zero-Trust Networking at the Silicon Level: Implementing Hardware Root of Trust and mTLS offloading in hyperscale data centers",
+        "Implementing Wait-Die Deadlock Prevention and Deterministic Concurrency Control in Globally Distributed NewSQL Engines",
+        "Optimizing Zero-Copy Data Transfer and Vectorized Query Execution in Hyperscale Stream Processing Pipelines",
+        "Exploiting eBPF for Programmable Congestion Control and Load Balancing in Multi-Tenant GPU Clusters"
     ]
 }
