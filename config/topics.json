@@ -365,7 +365,6 @@
         "The Evolution of Hyperscale Data Center Networks: Optimizing for AI/ML Workloads with RoCEv2 and Programmable Switches",
         "Beyond AlphaFold: Technical Deep Dive into Generative AI for De Novo Protein Design and Multi-Modal Drug Discovery",
         "Dissecting Next-Gen Global Consensus Algorithms for Hyperscale Transactional Consistency in Multi-Region Cloud Environments",
-        "Programmable Dataplanes (P4) and the Future of Hyperscale Network Fabric Orchestration for AI/ML Training Clusters",
         "Computational Phage Design: Engineering Lytic Specificity and Broad-Spectrum Efficacy Against Pan-Resistant Bacteria via Synthetic Genomics",
         "Architecting the Next-Gen Disaggregated Memory Fabrics: CXL 3.0 and Beyond for Ultra-Low Latency, Shared-Memory AI Superclusters",
         "The Stealth Scale of Edge AI: How Major Cloud Providers are Deploying TinyML-Enabled, Self-Healing Micro-Data Centers for Hyperscale IoT and Autonomous Systems",
@@ -480,6 +479,9 @@
         "Zero-Trust Networking at the Silicon Level: Implementing Hardware Root of Trust and mTLS offloading in hyperscale data centers",
         "Implementing Wait-Die Deadlock Prevention and Deterministic Concurrency Control in Globally Distributed NewSQL Engines",
         "Optimizing Zero-Copy Data Transfer and Vectorized Query Execution in Hyperscale Stream Processing Pipelines",
-        "Exploiting eBPF for Programmable Congestion Control and Load Balancing in Multi-Tenant GPU Clusters"
+        "Exploiting eBPF for Programmable Congestion Control and Load Balancing in Multi-Tenant GPU Clusters",
+        "Re-architecting Netflix's Open Connect CDN for 4K Spatial Audio and Holographic Streaming at 500 Gbps per node.",
+        "Inside the Google Cloud TPU v5p Pod: Dissecting the Interconnect Topology and its Impact on 100K+ Core LLM Training.",
+        "How Cloudflare rebuilt its DDoS scrubbing pipeline using eBPF and XDP on commodity hardware to mitigate a 3 Tbps reflection attack."
     ]
 }
