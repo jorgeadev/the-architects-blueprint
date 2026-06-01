@@ -359,7 +359,6 @@
         "The architectural evolution of disaggregated memory pools and CXL integration in hyperscale cloud infrastructure for AI/ML workloads.",
         "Designing hyper-resilient, globally distributed consensus protocols for petabyte-scale stateful services: A deep dive into multi-Paxos and Raft variants.",
         "Scalable synthetic biology platforms: Engineering cellular factories for high-throughput biomaterial production and metabolic pathway optimization.",
-        "The Latency-Aware Software-Defined Silicon Mesh: Optimizing Cross-Chiplet Communication in Next-Gen AI Accelerators.",
         "Real-time Backpressure and Congestion Control in Exascale Event Streaming Architectures: A Deep Dive into Adaptive Flow Algorithms.",
         "Synthetic Viral Vector Design via Machine Learning: Predicting Immunogenicity and Tropism for Advanced Gene Therapies.",
         "Architecting Low-Latency, Distributed Inference for Trillion-Parameter Foundation Models: A Deep Dive into Tensor Parallelism and Dynamic Batching",
@@ -476,6 +475,9 @@
         "Optimizing User-Space Networking with DPDK and eBPF to Eliminate Kernel Bottlenecks in 800Gbps AI Training Clusters",
         "Optimizing Global State Convergence: Implementing Multi-Master CRDTs in Geographically Distributed Edge Clusters",
         "Architecting Zero-Copy Storage: Leveraging NVMe-over-Fabrics for Sub-Millisecond P99 Latency in Hyperscale Disaggregated Storage",
-        "Solving the KV-Cache Bottleneck: A Deep Dive into PagedAttention and Dynamic Memory Allocation for Massive-Scale LLM Inference"
+        "Solving the KV-Cache Bottleneck: A Deep Dive into PagedAttention and Dynamic Memory Allocation for Massive-Scale LLM Inference",
+        "Leveraging eXpress Data Path (XDP) for DDoS Mitigation: A deep dive into Cloudflare's L4 packet processing pipeline",
+        "Cell-Based Architecture at Scale: Reducing blast radius in multi-tenant SaaS through virtual regional partitioning",
+        "Zero-Trust Networking at the Silicon Level: Implementing Hardware Root of Trust and mTLS offloading in hyperscale data centers"
     ]
 }
