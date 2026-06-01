@@ -414,7 +414,6 @@
         "Zero-Copy User-Space Networking: How eBPF and XDP are Replacing Traditional Kernel-Level Load Balancing in Petabit-Scale Infrastructures",
         "Implementing Hardware-Accelerated KV Caching for Multi-Million Token Context Window Inference Clusters",
         "Zero-Copy Data Planes: Optimizing eBPF-Based Load Balancing for Terabit-Scale Container Networks",
-        "Formal Verification of Distributed Garbage Collection Algorithms in Large-Scale Heterogeneous Memory Pools",
         "Disaggregated Memory Architectures in Hyperscale Cloud: Addressing Latency, Bandwidth, and Resource Orchestration Challenges with CXL and UCIe.",
         "Beyond Strong Consistency: Leveraging Causal and Eventual Consistency Models for Geo-Distributed Multi-Master Databases in Mission-Critical Systems.",
         "Synthetic Phage Engineering for Targeted Microbiome Modulation: Overcoming Off-Target Effects and Developing Programmable Viral Vectors for Therapeutics.",
@@ -474,6 +473,9 @@
         "Beyond Raft: Implementing the Viewstamped Replication Revisited Protocol for Sub-Millisecond Tail Latency in Global Financial Ledgers",
         "Deterministic Simulation Testing for Distributed Systems: Eliminating Non-Determinism in Massive Scale State Machines",
         "Architecting Disaggregated Memory via CXL 3.0: Implementing Low-Latency Cache Layers for Multi-Tenant Cloud Infrastructure",
-        "Optimizing User-Space Networking with DPDK and eBPF to Eliminate Kernel Bottlenecks in 800Gbps AI Training Clusters"
+        "Optimizing User-Space Networking with DPDK and eBPF to Eliminate Kernel Bottlenecks in 800Gbps AI Training Clusters",
+        "Optimizing Global State Convergence: Implementing Multi-Master CRDTs in Geographically Distributed Edge Clusters",
+        "Architecting Zero-Copy Storage: Leveraging NVMe-over-Fabrics for Sub-Millisecond P99 Latency in Hyperscale Disaggregated Storage",
+        "Solving the KV-Cache Bottleneck: A Deep Dive into PagedAttention and Dynamic Memory Allocation for Massive-Scale LLM Inference"
     ]
 }
