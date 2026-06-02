@@ -9,7 +9,6 @@
         "Apple's private cloud infrastructure: How they manage iCloud at an unprecedented global scale.",
         "Recent disruptive tech releases or viral developer trends on social media that captivated the engineering world.",
         "How Netflix achieved Multi-Region High Availability and zero downtime evacuations.",
-        "The architecture of Uber’s Dispatch System: handling thousands of real-time matches per second.",
         "Stripe’s real-time ledger infrastructure: how they ensure 100% financial consistency at massive scale.",
         "TikTok’s recommendation algorithm infrastructure: serving ultra-personalized videos to over a billion users.",
         "Discord’s real-time messaging architecture: handling trillions of messages utilizing Cassandra and Rust.",
@@ -486,6 +485,9 @@
         "Quantum-resilient consensus: Re-engineering Apache Kafka's Raft implementation to withstand Shor's algorithm vulnerabilities in post-quantum datacenters.",
         "Implementing Hierarchical Cell Isolation to Mitigate Cascading Failures in Global-Scale Control Planes",
         "Optimizing NVMe-over-Fabrics (NVMe-oF) for Low-Latency Storage Disaggregation in Multi-Tenant Kubernetes Clusters",
-        "The Engineering Behind Zero-ETL Architectures: Real-Time Vector Synchronization for Billion-Scale RAG Systems"
+        "The Engineering Behind Zero-ETL Architectures: Real-Time Vector Synchronization for Billion-Scale RAG Systems",
+        "Deep Dive into Deterministic Simulation Testing: Achieving 100% Reproducibility in Distributed Consensus Engines",
+        "Optimizing LLM Inference at Scale: Implementing Tiered Memory Orchestration and Speculative Decoding in Global GPU Clusters",
+        "Bypassing the Kernel with eBPF and XDP: Building a Multi-Terabit DDoS Mitigation Layer for Global Edge Networks"
     ]
 }
