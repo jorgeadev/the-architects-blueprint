@@ -182,7 +182,6 @@
         "Architecting Trillion-Parameter AI: The Role of Optical Interconnects and Network Fabric Topologies",
         "Next-Gen Gene Delivery: Engineering AAV Serotypes and Non-Viral Nanoparticle Encapsulation for Advanced Therapies",
         "Real-time Multi-tenant GPU Scheduling and Resource Isolation for Hyperscale AI Inference",
-        "Implementing Globally Consistent, Sub-millisecond Latency Distributed Transactions Across Geo-Distributed Data Centers",
         "Advanced AAV Capsid Directed Evolution for Precision In Vivo Gene Editing Delivery Systems",
         "The Role of Programmable Data Planes (P4) and SmartNICs in Accelerating Microservice Communication and Network Function Offloading at Hyperscale",
         "CRISPR-Associated Transposons (CASTs): Leveraging RNA-Guided Integration Systems for Large-Scale Genomic Engineering Beyond Double-Strand Breaks",
@@ -482,6 +481,9 @@
         "Exploiting eBPF for Programmable Congestion Control and Load Balancing in Multi-Tenant GPU Clusters",
         "Optimizing Tail Latency in Multi-Tenant Kubernetes Clusters via eBPF-based Traffic Shaping and Congestion Control",
         "The Architecture of Deterministic Simulation Testing for Globally Distributed Distributed Databases",
-        "Scaling Vector Databases: Disaggregated Storage and Retrieval Strategies for Billion-Scale Embedding Search"
+        "Scaling Vector Databases: Disaggregated Storage and Retrieval Strategies for Billion-Scale Embedding Search",
+        "Unikernel orchestration at planetary scale: How a major CDN eliminated kernel overhead for 40% throughput gains on edge nodes.",
+        "Anatomy of a cache stampede: Real-time analysis of a trillion-request traffic surge and the adaptive sharding algorithm that prevented cascade failure.",
+        "Quantum-resilient consensus: Re-engineering Apache Kafka's Raft implementation to withstand Shor's algorithm vulnerabilities in post-quantum datacenters."
     ]
 }
