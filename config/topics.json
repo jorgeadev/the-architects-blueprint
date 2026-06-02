@@ -332,7 +332,6 @@
         "Decoding Meta's Wan: The Hardware-Software Co-Design Powering Their Heterogeneous AI Inference Fleet",
         "Architecting Multi-Tenant, Petabyte-Scale Data Lakes for Real-time AI/ML Training: A Deep Dive into Distributed Query Optimization",
         "Beyond AlphaFold: Engineering Scalable Generative AI Models for *De Novo* Protein Design and High-Throughput Biological Synthesis",
-        "An analysis of Meta's use of memristive crossbar arrays for analog in-memory matrix operations at the hyperscale AI inference tier.",
         "How Netflix transitioned its Chaos Monkey from pod-level abstraction to hardware-level fault injection via BMC-based PCIe bus error triggering.",
         "Inside Meta's WAN traffic engineering: How OSPFv3 segment routing and weighted ECMP replace MPLS at global scale.",
         "A deep dive into Google's Jupiter network fabric v2: Optical circuit switching and the end of spine-leaf topologies.",
@@ -484,6 +483,9 @@
         "Scaling Vector Databases: Disaggregated Storage and Retrieval Strategies for Billion-Scale Embedding Search",
         "Unikernel orchestration at planetary scale: How a major CDN eliminated kernel overhead for 40% throughput gains on edge nodes.",
         "Anatomy of a cache stampede: Real-time analysis of a trillion-request traffic surge and the adaptive sharding algorithm that prevented cascade failure.",
-        "Quantum-resilient consensus: Re-engineering Apache Kafka's Raft implementation to withstand Shor's algorithm vulnerabilities in post-quantum datacenters."
+        "Quantum-resilient consensus: Re-engineering Apache Kafka's Raft implementation to withstand Shor's algorithm vulnerabilities in post-quantum datacenters.",
+        "Implementing Hierarchical Cell Isolation to Mitigate Cascading Failures in Global-Scale Control Planes",
+        "Optimizing NVMe-over-Fabrics (NVMe-oF) for Low-Latency Storage Disaggregation in Multi-Tenant Kubernetes Clusters",
+        "The Engineering Behind Zero-ETL Architectures: Real-Time Vector Synchronization for Billion-Scale RAG Systems"
     ]
 }
