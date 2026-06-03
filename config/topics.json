@@ -143,7 +143,6 @@
         "The Architectural Evolution of Interconnects for Trillion-Parameter AI Model Training: Beyond NVLink and InfiniBand",
         "Engineering Petabyte-Scale Observability: Distributed Tracing and Causal Analysis in Hyperscale Microservice Architectures",
         "The System Architecture and Data Challenges of Foundation Models for De Novo Protein Design and High-Throughput Drug Discovery",
-        "Architecting for biological computation: The data infrastructure challenges in scaling DNA storage and synthetic gene circuit design for novel bio-processors.",
         "Taming Tail Latency at Exabyte Scale: Adaptive Request Coalescing and Non-Blocking Memory Pools in Distributed Caches",
         "Inside the Global Control Plane: A Deep Dive on the Distributed Consensus and Shard Rebalancing Algorithms Powering a Multi-Region Cloud Database",
         "The Immutable Serverless Kernel: How an Infrastructure Giant Replaced its Entire Hypervisor Fleet Without a Single User-Detectable Packet Drop",
@@ -423,6 +422,9 @@
         "Strategies for Mitigating Cascading Failures in Global Service Meshes: Adaptive Concurrency Control and Proactive Load Shedding",
         "Implementing Zero-Copy Data Planes for Terabit-Scale Load Balancing using eBPF and XDP",
         "Mitigating Tail Latency in Globally Distributed Consensus Engines through Predictive Pre-fetching and Write-Ahead Log Partitioning",
-        "Optimizing GPU Memory Throughput for Multi-Tenant LLM Serving via Hierarchical PagedAttention and Dynamic KV Cache Compression"
+        "Optimizing GPU Memory Throughput for Multi-Tenant LLM Serving via Hierarchical PagedAttention and Dynamic KV Cache Compression",
+        "Lessons from the Netflix Cache War: How memcached TCO drove the move to a custom, tiered, and SSD-backed distributed cache fabric at petabyte scale.",
+        "Anatomy of a Multi-Region Blackout: Dissecting the cascading failures in a global CDN's BGP routing policy and the new control plane logic to prevent state synchronization storms.",
+        "Hyperscaler Hydro-Economics: A technical blueprint for colocating hydrogen electrolysis cells directly inside a 500MW datacenter's auxiliary power system to shave peak pricing and carbon credits."
     ]
 }
