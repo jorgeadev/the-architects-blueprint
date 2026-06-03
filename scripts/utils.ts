@@ -15,8 +15,11 @@ export const FALLBACK_PROVIDER: "DeepSeek" | "Grok" | "OpenRouter" = "DeepSeek";
 
 export async function fetchImageBuffer(url: string): Promise<Buffer | null> {
     try {
-        // Native fetch fallback
-        const response = await fetch(url);
+        const headers: Record<string, string> = {};
+        if (process.env.POLLINATIONS_API_KEY) {
+            headers["Authorization"] = `Bearer ${process.env.POLLINATIONS_API_KEY}`;
+        }
+        const response = await fetch(url, { headers });
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }

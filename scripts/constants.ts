@@ -10,6 +10,6 @@ export const OPENROUTER_FREE_MODELS = [
 ];
 
 // Image generation
-export const IMAGE_WIDTH = 1200;
-export const IMAGE_HEIGHT = 630;
-export const POLLINATIONS_BASE_URL = "https://image.pollinations.ai/prompt";
+export const IMAGE_WIDTH = 1024;
+export const IMAGE_HEIGHT = 1024;
+export const POLLINATIONS_BASE_URL = "https://gen.pollinations.ai/image";

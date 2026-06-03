@@ -44,7 +44,6 @@
         "CRISPR-Cas13 Based Antiviral Strategies: Engineering Sequence-Specific RNA Degradation for Pan-Viral Immunity.",
         "Synthetic biology approaches to engineering enhanced viral vectors for precise in-vivo gene delivery and reduced immunogenicity.",
         "The Architectural Implications of Disaggregated Memory and Compute for Future Hyperscale Data Centers",
-        "Achieving Global-Scale Strong Consistency in Geo-Distributed Databases: A Deep Dive into Conflict Resolution and Consensus Protocols",
         "Deep dive into maintaining strong temporal consistency across globally distributed, eventually consistent transactional databases: challenges and novel solutions.",
         "The Deep Engineering Behind Multi-Region Consensus Protocols for Exabyte-Scale, Ultra-Low Latency Data Stores",
         "Hyperscale GPU Cluster Interconnects: Optimizing Latency and Throughput in NVIDIA Hopper and Grace-Hopper Architectures",
@@ -147,7 +146,6 @@
         "Next-Generation mRNA Vaccine Delivery: Technical Challenges and Breakthroughs in Lipid Nanoparticle Alternatives and Self-Amplifying RNA Constructs",
         "Inside the Cellular-Scale Optical Fabric: Dissecting Microsoft's Phoenix Datacenter Network Topology for Global AI Supercomputing",
         "Demystifying Meta's Zonal Shuffle: A Deep Dive into Cross-Region VM Migration with Sub-Second Blips",
-        "How Stripe Orchestrates Transactional Workflows Across 40+ Data Centers with a Zero-Overhead Consensus Protocol",
         "The Architectural Evolution of Interconnects for Trillion-Parameter AI Model Training: Beyond NVLink and InfiniBand",
         "Engineering Petabyte-Scale Observability: Distributed Tracing and Causal Analysis in Hyperscale Microservice Architectures",
         "The System Architecture and Data Challenges of Foundation Models for De Novo Protein Design and High-Throughput Drug Discovery",
@@ -441,6 +439,12 @@
         "How Cloudflare rebuilt its global Anycast control plane to support real-time DDoS mitigation at 100 Tbps",
         "Optimizing L7 Traffic Steering in Globally Distributed Service Meshes using eBPF and XDP for Sub-millisecond Tail Latency",
         "Solving the Cold-Start Problem in Serverless GPU Orchestration for Multi-Tenant LLM Quantization Pipelines",
-        "Implementing Deterministic Simulation Testing to Validate Distributed Consensus Invariants in High-Throughput Storage Engines"
+        "Implementing Deterministic Simulation Testing to Validate Distributed Consensus Invariants in High-Throughput Storage Engines",
+        "Implementing Zero-Trust Inter-Process Communication in Geographically Distributed Kubernetes Clusters using eBPF and SPIRE",
+        "Optimizing Tail Latency in Massive-Scale Vector Search: A Deep Dive into HNSW Indexing Over Sharded Distributed Memory",
+        "Strategies for Mitigating Cascading Failures in Global Service Meshes: Adaptive Concurrency Control and Proactive Load Shedding",
+        "Implementing Zero-Copy Data Planes for Terabit-Scale Load Balancing using eBPF and XDP",
+        "Mitigating Tail Latency in Globally Distributed Consensus Engines through Predictive Pre-fetching and Write-Ahead Log Partitioning",
+        "Optimizing GPU Memory Throughput for Multi-Tenant LLM Serving via Hierarchical PagedAttention and Dynamic KV Cache Compression"
     ]
 }

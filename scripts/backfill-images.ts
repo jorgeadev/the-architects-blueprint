@@ -69,15 +69,22 @@ Only return the raw prompt text.`;
             console.log("   -> Generating AI prompt context...");
             const imagePromptRaw = await generateWithRetry(imagePromptPrompt);
             const imagePrompt = imagePromptRaw.replace(/\n/g, " ").trim();
-            const randomSeed = Math.floor(Math.random() * 10000000);
-            const imageUrl = `${POLLINATIONS_BASE_URL}/${encodeURIComponent(imagePrompt)}?width=${IMAGE_WIDTH}&height=${IMAGE_HEIGHT}&nologo=true&seed=${randomSeed}`;
+            const imageUrl = `${POLLINATIONS_BASE_URL}/${encodeURIComponent(imagePrompt)}?model=flux&width=${IMAGE_WIDTH}&height=${IMAGE_HEIGHT}`;
 
             console.log("   -> Fetching from pollinations.ai...");
-            const imageBuffer = await fetchImageBuffer(imageUrl);
+            let imageBuffer = await fetchImageBuffer(imageUrl);
+
+            if (!imageBuffer) {
+                console.warn(
+                    `   -> Failed to download custom AI image for ${fileName}. Falling back to a placeholder...`
+                );
+                const fallbackUrl = `https://picsum.photos/${IMAGE_WIDTH}/${IMAGE_HEIGHT}`;
+                imageBuffer = await fetchImageBuffer(fallbackUrl);
+            }
 
             if (!imageBuffer) {
                 console.error(
-                    `   -> Failed to retrieve AI Image buffer for ${fileName}. Skipping.`
+                    `   -> Failed to retrieve both custom and fallback image buffer for ${fileName}. Skipping.`
                 );
                 continue;
             }

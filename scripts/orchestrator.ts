@@ -128,15 +128,24 @@ Only return the raw prompt text.`;
             const imagePromptRaw = await generateWithRetry(imagePromptPrompt);
             console.log("Processed image prompt:\n" + imagePromptRaw);
             const imagePrompt = imagePromptRaw.replace(/\n/g, " ").trim();
-            const randomSeed = Math.floor(Math.random() * 10000000);
-            const imageUrl = `${POLLINATIONS_BASE_URL}/${encodeURIComponent(imagePrompt)}?width=${IMAGE_WIDTH}&height=${IMAGE_HEIGHT}&nologo=true&seed=${randomSeed}`;
+            const imageUrl = `${POLLINATIONS_BASE_URL}/${encodeURIComponent(imagePrompt)}?model=flux&width=${IMAGE_WIDTH}&height=${IMAGE_HEIGHT}`;
             console.log(`Generated image URL: ${imageUrl}`);
 
             console.log("Downloading image buffer...");
-            const imageBuffer = await fetchImageBuffer(imageUrl);
+            let imageBuffer = await fetchImageBuffer(imageUrl);
 
             if (!imageBuffer) {
-                console.error("Failed to receive image buffer. Aborting pipeline.");
+                console.warn(
+                    "Failed to download custom AI image. Falling back to a reliable abstract placeholder image..."
+                );
+                const fallbackUrl = `https://picsum.photos/${IMAGE_WIDTH}/${IMAGE_HEIGHT}`;
+                imageBuffer = await fetchImageBuffer(fallbackUrl);
+            }
+
+            if (!imageBuffer) {
+                console.error(
+                    "Critical: Failed to retrieve both custom and fallback image buffer. Aborting pipeline."
+                );
                 process.exit(1);
             }
 
