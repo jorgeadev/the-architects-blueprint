@@ -16,7 +16,6 @@
         "AWS DynamoDB under the hood: how Amazon scales a NoSQL database seamlessly across regions.",
         "Reddit’s handling of immense traffic spikes during viral world events or massive AMAs.",
         "Slack’s transition to a modern real-time architecture to reduce client CPU usage and handle massive channels.",
-        "Meta’s Memcached architecture: scaling distributed caching to handle trillions of requests per second.",
         "Twitch’s massive live video streaming infrastructure: minimizing latency for millions of concurrent viewers.",
         "Zoom’s video routing architecture and scaling their network backbone unexpectedly during the pandemic.",
         "How Shopify scales its e-commerce infrastructure to handle massive traffic spikes during Black Friday and Cyber Monday.",
@@ -135,7 +134,6 @@
         "Beyond global eventual consistency: Architecting planet-scale strongly consistent transactional ledgers for real-time applications using novel consensus and data sharding techniques.",
         "The Evolution of Cloud-Native Workload Scheduling: From Bin Packing to AI-Driven Predictive Resource Allocation",
         "CRISPR-Associated Transposases (CAST) for Programmable Large-Fragment Genomic Integration in Antiviral Gene Therapy",
-        "Advanced Serverless Runtime Optimization: Deep Dive into MicroVM Snapshotting and Predictive Pre-warming for Hyperscale FaaS Platforms",
         "The Engineering of Global Consensus: How TrueTime and Hybrid Logical Clocks Achieve External Consistency in Massively Distributed SQL Databases",
         "Next-Generation mRNA Vaccine Delivery: Technical Challenges and Breakthroughs in Lipid Nanoparticle Alternatives and Self-Amplifying RNA Constructs",
         "Inside the Cellular-Scale Optical Fabric: Dissecting Microsoft's Phoenix Datacenter Network Topology for Global AI Supercomputing",
@@ -368,7 +366,6 @@
         "Achieving Sub-Millisecond Tail Latencies in Geo-Distributed Transactional Databases: A Novel Approach to Consensus with Read-Optimized Raft Variants and Persistent Memory",
         "Engineering Programmable Viral Capsids: Designing Next-Generation Gene Delivery Vectors for Targeted In Vivo Therapeutic mRNA Translation",
         "The Engineering Challenges of Hyperscale Liquid Cooling for Petascale AI Accelerators in Cloud Data Centers",
-        "Achieving Global Strong Consistency: An Architectural Deep Dive into Distributed Transaction Protocols for Multi-Region OLTP Systems",
         "Synthetic Virology and Directed Evolution: Engineering Novel Adeno-Associated Virus (AAV) Capsids for Enhanced Gene Therapy Delivery",
         "Optimizing Exascale Analytical Workloads: The Co-Evolution of Custom Silicon and Distributed Query Processors in Hyperscale OLAP.",
         "Beyond Firewalls: Architecting Zero-Trust Microsegmentation for Billions of Network Flows in Cloud-Native Hyperscale Infrastructures.",
@@ -423,6 +420,12 @@
         "Strategies for Mitigating Cascading Failures in Global Service Meshes: Adaptive Concurrency Control and Proactive Load Shedding",
         "Implementing Zero-Copy Data Planes for Terabit-Scale Load Balancing using eBPF and XDP",
         "Mitigating Tail Latency in Globally Distributed Consensus Engines through Predictive Pre-fetching and Write-Ahead Log Partitioning",
-        "Optimizing GPU Memory Throughput for Multi-Tenant LLM Serving via Hierarchical PagedAttention and Dynamic KV Cache Compression"
+        "Optimizing GPU Memory Throughput for Multi-Tenant LLM Serving via Hierarchical PagedAttention and Dynamic KV Cache Compression",
+        "Inside TikTok's Real-Time Recommendation Graph: Sharding, In-Memory Indexing, and the War on Cold Start Latency",
+        "Google's Spanner vs. Amazon's DynamoDB: A Deep Dive into Transaction Semantics, Clock Accuracy, and Planet-Scale Consistency Guarantees",
+        "The Hidden Complexity of Meta's Massive Fiber Backbone: How Optical Circuit Switching and Wavelength Division Multiplexing Survive a 400Gbps Core Meltdown",
+        "Inside Meta's Cold Storage Exascale: How LLM Training Data is Archived Across Arctic Data Centers",
+        "Google's Jupiter Evolving: Optical Circuit Switching and the New Congestion Control Plane for AGI Clusters",
+        "The Untold Story of Amazon's Sidewalk Mesh Scaling to 100 Million Nodes: Interference Mitigation and Long-Range Physical Layer Tuning"
     ]
 }

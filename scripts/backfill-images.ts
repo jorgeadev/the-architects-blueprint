@@ -68,7 +68,11 @@ Only return the raw prompt text.`;
 
             console.log("   -> Generating AI prompt context...");
             const imagePromptRaw = await generateWithRetry(imagePromptPrompt);
-            const imagePrompt = imagePromptRaw.replace(/\n/g, " ").trim();
+            const imagePrompt = imagePromptRaw
+                .replace(/\*\*/g, "")
+                .replace(/:/g, " ")
+                .replace(/\n/g, " ")
+                .trim();
             const imageUrl = `${POLLINATIONS_BASE_URL}/${encodeURIComponent(imagePrompt)}?model=flux&width=${IMAGE_WIDTH}&height=${IMAGE_HEIGHT}`;
 
             console.log("   -> Fetching from pollinations.ai...");
