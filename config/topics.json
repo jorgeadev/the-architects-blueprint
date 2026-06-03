@@ -163,7 +163,6 @@
         "Zero-Trust Networking at Exabyte Scale: Engineering Microsegmentation and Policy Enforcement for Hyperscale Cloud Infrastructure",
         "Real-Time Inference at Scale: Engineering AI Model Serving Infrastructure for Billions of Daily Queries",
         "Petabyte-Scale Genomics: Building Secure and Performant Pipelines for Population-Level Biomedical Data",
-        "The Conundrum of Strong Eventual Consistency: Architecting Distributed Transactional Systems for Global Financial Ledgers with Hybrid Logical Clocks",
         "CRISPR-Cas9 System Repurposing for Programmable Epigenetic Modifiers: Challenges in Off-Target Effects and Delivery Vector Optimization for Therapeutic Scaling",
         "The Architectural Innovations Behind Hyperscale Data Center Liquid Immersion Cooling Systems and Energy Efficiency",
         "Accelerating De Novo Protein Design: Large Language Models and the Computational Infrastructure for Synthetic Biology",
@@ -425,6 +424,9 @@
         "Optimizing GPU Memory Throughput for Multi-Tenant LLM Serving via Hierarchical PagedAttention and Dynamic KV Cache Compression",
         "Lessons from the Netflix Cache War: How memcached TCO drove the move to a custom, tiered, and SSD-backed distributed cache fabric at petabyte scale.",
         "Anatomy of a Multi-Region Blackout: Dissecting the cascading failures in a global CDN's BGP routing policy and the new control plane logic to prevent state synchronization storms.",
-        "Hyperscaler Hydro-Economics: A technical blueprint for colocating hydrogen electrolysis cells directly inside a 500MW datacenter's auxiliary power system to shave peak pricing and carbon credits."
+        "Hyperscaler Hydro-Economics: A technical blueprint for colocating hydrogen electrolysis cells directly inside a 500MW datacenter's auxiliary power system to shave peak pricing and carbon credits.",
+        "Implementing Zero-Copy Networking in Rust: Optimizing High-Throughput Data Planes for Sub-Microsecond Latency",
+        "The Mechanics of Global Strong Consistency: A Comparative Analysis of Spanner’s TrueTime vs. Logical Clock Implementations in Vector Databases",
+        "Architecting Multi-Tenant GPU Clusters: Solving Memory Fragmentation and Cold-Start Latencies in Large-Scale LLM Inference Pipelines"
     ]
 }
