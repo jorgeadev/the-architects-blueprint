@@ -99,7 +99,6 @@
         "Dissecting the Hardware-Software Co-Design of Modern AI Hyperclusters: Beyond Just More GPUs",
         "Postmortem Analysis of the Cascading Failure in a Major CDN's Anycast Routing During a Global Sporting Event",
         "Architecting AAV Capsids for Enhanced Tissue Tropism and Reduced Immunogenicity in Gene Therapy Delivery",
-        "The architectural paradigms and challenges of serving multi-trillion parameter foundation models at global scale with single-digit millisecond latency.",
         "Deep dive into disaggregated optical-IP data center networks and their role in enabling extreme-scale AI/ML workloads, exploring RoCEv2, DPU/IPU integration, and P4 programmable switching.",
         "Beyond Kubernetes: The Rise of MicroVM-Based Serverless Platforms at Hyperscale",
         "The Physics of Cooling: How Google's New Liquid Immersion Data Centers Achieve PUE < 1.05",
@@ -490,6 +489,9 @@
         "Bypassing the Kernel with eBPF and XDP: Building a Multi-Terabit DDoS Mitigation Layer for Global Edge Networks",
         "Deterministic Simulation Testing at Scale: How FoundationDB and TigerBeetle Eliminate Distributed Race Conditions",
         "Lowering P99.9 Tail Latency in Hyperscale Kubernetes Clusters via eBPF-Driven Flow Control and Congestion Management",
-        "Architecting Trillion-Parameter Embedding Indexes: Hierarchical Navigable Small Worlds (HNSW) vs. Product Quantization at Petabyte Scale"
+        "Architecting Trillion-Parameter Embedding Indexes: Hierarchical Navigable Small Worlds (HNSW) vs. Product Quantization at Petabyte Scale",
+        "Scaling Multi-Tenant Vector Databases: Solving the Dimensionality Curse in Distributed HNSW Indexing",
+        "Zero-Copy Packet Processing in 800GbE Fabrics: Leveraging eBPF and RDMA for Low-Latency GPU Interconnects",
+        "Deterministic Simulation Testing at Scale: How FoundationDB Logic Prevents Split-Brain Scenarios in Distributed Metadata Stores"
     ]
 }
