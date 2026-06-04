@@ -88,7 +88,6 @@
         "Beyond the Shard: Google's Next-Gen Spanner and the Physics-Limits of Globally Consistent, Planet-Scale Databases",
         "Deconstructing the Global Request Router: How Meta's Edge Network Handles 10 Trillion Queries Per Day",
         "Beyond Kubernetes: The Unconventional Orchestration Systems Powering Hyperscale AI Training Clusters",
-        "Postmortem Analysis of the 2024 Multi-Cloud DNS Cascade: Engineering Lessons from a Global Resolution Failure",
         "The Engineering Challenges of Maintaining Global Consensus in Hyperscale Distributed Transactional Databases",
         "Engineering Next-Generation Oncolytic Viruses: Targeted Delivery Mechanisms and Immunomodulatory Enhancements for Cancer Therapy",
         "Postmortem Analysis of the Cascading Failure in a Multi-Region Serverless Platform During a Coordinated Cyber Attack",
@@ -428,6 +427,9 @@
         "Converged memory tiering failures at Meta: a postmortem on why CXL-attached pools caused cascading write amplification in their AI training workloads",
         "Inside Google's Global Spanner: How TrueTime and Atomic Clocks Enable Planet-Wide Distributed ACID Transactions at Exabyte Scale",
         "The Cache Hierarchy of the Internet: Dissecting Netflix's Distributed Memcached and Point-of-Presence Architecture for Millions of Concurrent Streams",
-        "Meta's GenAI GPU Cluster Interconnect: A Deep Dive into the Network Topology, RoCEv2 Congestion Control, and Thermal Management of 100,000-H100 Pods"
+        "Meta's GenAI GPU Cluster Interconnect: A Deep Dive into the Network Topology, RoCEv2 Congestion Control, and Thermal Management of 100,000-H100 Pods",
+        "Implementing Zero-Copy RDMA in Petascale GPU Clusters: Solving the Memory Wall for Distributed LLM Training Fabrics",
+        "Architecting Global Transactional Consistency: A Deep Dive into Spanner's TrueTime vs. CockroachDB's HLC in Multi-Region Deployments",
+        "The Engineering of Real-Time Vector Index Sharding: Scaling Semantic Search to Multi-Billion Document Corpora with Sub-10ms Latency"
     ]
 }
