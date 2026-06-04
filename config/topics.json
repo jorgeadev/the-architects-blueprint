@@ -149,7 +149,6 @@
         "Autonomous Failure Prediction and Self-Correction: Designing Resilient Hyperscale Distributed Systems with AI/ML-Driven Observability",
         "The Invisible Backplane: Dissecting Software-Defined Networking (SDN) Evolution for Global Hyperscale Interconnects and Microsecond Latency Optimization",
         "Next-Gen Viral Vector Engineering: Designing Tissue-Specific, Spatiotemporally Controlled Gene Editing Systems for In Vivo Therapeutic Applications",
-        "Designing Resilient Multi-Region Active-Active Architectures for Zero RTO/RPO Cloud Services",
         "The Algorithmic Engineering Behind Hyper-Personalized Recommendation Engines Driving Viral Content Adoption",
         "The architectural patterns and custom silicon optimizations enabling exascale AI model training and inference for foundational LLMs.",
         "Engineering self-regulating gene drive systems: biochemical safeties, ecological containment architectures, and ethical design principles for precise genetic interventions.",
@@ -432,6 +431,9 @@
         "The Engineering of Real-Time Vector Index Sharding: Scaling Semantic Search to Multi-Billion Document Corpora with Sub-10ms Latency",
         "Architecting geo-distributed vector databases: Solving high-dimensional nearest neighbor search at petabyte scale",
         "Reducing P99 latency in massive-scale microservice meshes via predictive circuit breaking and hardware-offloaded mTLS",
-        "Optimizing cache coherence in heterogeneous computing clusters using CXL 3.0 and memory pooling"
+        "Optimizing cache coherence in heterogeneous computing clusters using CXL 3.0 and memory pooling",
+        "Optimizing GPU Interconnect Topologies: A Deep Dive into NVIDIA's Magnum IO and GPUDirect Storage at Exascale",
+        "Solving the Tail Latency Problem in Globally Distributed KV Stores using Predictive Request Hedging and RDMA-Based Consensus",
+        "Post-Microservices Architecture: Engineering the High-Performance Macro-Service Layer at Meta for Sub-Millisecond RPC Orchestration"
     ]
 }
