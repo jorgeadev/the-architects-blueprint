@@ -203,7 +203,6 @@
         "Deep dive into serverless cold start mitigation strategies: Snapshotting, custom runtime environments, and container reuse at planetary scale.",
         "Synthetic genomics and de novo genome design: Computational architectures for high-throughput gene synthesis, error correction, and biological circuit optimization.",
         "The invisible backbone: Ultra-low latency optical mesh networks powering hyperscale data center interconnectivity and cross-region replication.",
-        "CRISPR-Cas9 therapeutic delivery optimization: Engineering adeno-associated virus (AAV) vectors for enhanced tropism, specificity, and reduced immunogenicity at scale.",
         "Cloud-Native Bare Metal Provisioning: Orchestration, Isolation, and Performance at Hyperscale",
         "Beyond Replication: Advanced Erasure Coding and Strong Consistency in Zettabyte-Scale Distributed Object Storage",
         "Precision Gene Modulation: Architecting Programmable RNA Therapeutics for In Vivo Cell-Type Specificity",
@@ -426,6 +425,9 @@
         "The Untold Story of Amazon's Sidewalk Mesh Scaling to 100 Million Nodes: Interference Mitigation and Long-Range Physical Layer Tuning",
         "Morphed microarchitectures: how hyperscalers are replacing traditional hypervisors with lightweight, hardware-backed enclave orchestrators for sub-millisecond tenant isolation",
         "The physics of packet pacing: analyzing Google's Jupiter Rising and the shift from distributed load balancers to in-network congestion control at the ExaFLOPS scale",
-        "Converged memory tiering failures at Meta: a postmortem on why CXL-attached pools caused cascading write amplification in their AI training workloads"
+        "Converged memory tiering failures at Meta: a postmortem on why CXL-attached pools caused cascading write amplification in their AI training workloads",
+        "Inside Google's Global Spanner: How TrueTime and Atomic Clocks Enable Planet-Wide Distributed ACID Transactions at Exabyte Scale",
+        "The Cache Hierarchy of the Internet: Dissecting Netflix's Distributed Memcached and Point-of-Presence Architecture for Millions of Concurrent Streams",
+        "Meta's GenAI GPU Cluster Interconnect: A Deep Dive into the Network Topology, RoCEv2 Congestion Control, and Thermal Management of 100,000-H100 Pods"
     ]
 }
