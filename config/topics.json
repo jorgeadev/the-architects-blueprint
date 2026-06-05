@@ -99,7 +99,6 @@
         "Deep dive into disaggregated optical-IP data center networks and their role in enabling extreme-scale AI/ML workloads, exploring RoCEv2, DPU/IPU integration, and P4 programmable switching.",
         "Beyond Kubernetes: The Rise of MicroVM-Based Serverless Platforms at Hyperscale",
         "The Physics of Cooling: How Google's New Liquid Immersion Data Centers Achieve PUE < 1.05",
-        "The Hardware Abstraction Layer Powering Google's TPU v5: A Systems-Level Analysis of Inter-Chiplet Coherence and Optical Fabric Topology",
         "Advanced AAV Vector Engineering for Precision Gene Therapy Delivery: Navigating Immunogenicity and Tissue Specificity",
         "The Architectural Evolution of Memory-Disaggregated Systems in Hyperscale Data Centers driven by CXL",
         "Synthetic Virology: Designing Next-Generation Phage Therapies for Combatting Antimicrobial Resistance at Scale",
@@ -436,6 +435,9 @@
         "Post-Microservices Architecture: Engineering the High-Performance Macro-Service Layer at Meta for Sub-Millisecond RPC Orchestration",
         "Implementing Deterministic Simulation Testing for Distributed Consensus: Lessons from TigerBeetle and FoundationDB",
         "Reducing P99 Tail Latency in Multi-Tenant LLM Serving: KV-Cache Fragmentation and PagedAttention Architectures",
-        "Beyond Raft: Architecting Globally Distributed Meta-Indices using Hierarchical Paxos and Quorum Leases"
+        "Beyond Raft: Architecting Globally Distributed Meta-Indices using Hierarchical Paxos and Quorum Leases",
+        "Implementing Zero-Trust Sidecar Acceleration: Bypassing the Kernel with eBPF and Shared Memory in High-Throughput Service Meshes",
+        "Deep Dive into Meta's Tectonic: Orchestrating Exabyte-Scale Blob Storage Through Synchronous Quorum Replicated Metadata",
+        "Deterministic Networking in the Cloud: How AWS Nitro Leverages Hardware-Based SR-IOV for Sub-Microsecond Tail Latency at Scale"
     ]
 }
