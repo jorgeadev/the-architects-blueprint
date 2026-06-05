@@ -269,7 +269,6 @@
         "Beyond mRNA Vaccines: Engineering Self-Amplifying RNA Platforms for Durable and Broad-Spectrum Antiviral Immunization",
         "Hyperscale Data Center Optical Fabric Architectures: Challenges and Innovations in Peta-Bit Interconnects for AI Workloads.",
         "Beyond Cold Starts: Engineering Predictable Low-Latency Performance for Hyperscale Serverless Workloads with WebAssembly and MicroVM Runtimes.",
-        "The Architecture of Hyperscale Generative AI Training: From Custom Silicon Interconnects to Liquid Immersion Cooling Infrastructures",
         "Engineering Programmable Oncolytic Viruses: Leveraging AI and Synthetic Biology for Targeted Cancer Therapies with Minimal Off-Target Effects",
         "The Microkernel Revolution: Disaggregating Hyperscale Cloud Infrastructure with Emerging Hardware Architectures like CXL and DPUs for Next-Gen Resource Management.",
         "Beyond GPUs: Scaling Trillion-Parameter AI Models with Specialized Interconnects, Gradient Compression, and Asynchronous Execution in Distributed Training Frameworks.",
@@ -434,6 +433,9 @@
         "Optimizing cache coherence in heterogeneous computing clusters using CXL 3.0 and memory pooling",
         "Optimizing GPU Interconnect Topologies: A Deep Dive into NVIDIA's Magnum IO and GPUDirect Storage at Exascale",
         "Solving the Tail Latency Problem in Globally Distributed KV Stores using Predictive Request Hedging and RDMA-Based Consensus",
-        "Post-Microservices Architecture: Engineering the High-Performance Macro-Service Layer at Meta for Sub-Millisecond RPC Orchestration"
+        "Post-Microservices Architecture: Engineering the High-Performance Macro-Service Layer at Meta for Sub-Millisecond RPC Orchestration",
+        "Implementing Deterministic Simulation Testing for Distributed Consensus: Lessons from TigerBeetle and FoundationDB",
+        "Reducing P99 Tail Latency in Multi-Tenant LLM Serving: KV-Cache Fragmentation and PagedAttention Architectures",
+        "Beyond Raft: Architecting Globally Distributed Meta-Indices using Hierarchical Paxos and Quorum Leases"
     ]
 }
