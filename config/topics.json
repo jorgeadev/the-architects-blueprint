@@ -370,7 +370,6 @@
         "Synthetic Virology's Leap: Engineering De Novo Phage-Derived Lytic Systems for Next-Generation Antibiotic Alternatives and Biofilm Disruption",
         "Optimizing Inter-Datacenter Networking for Hyperscale AI/ML Workloads: Latency, Bandwidth, and Congestion Control in a Global Fabric.",
         "The Engineering Challenges of Managing Strongly Consistent Stateful Services Across Thousands of Nodes in a Geo-Distributed Environment.",
-        "Architectural Considerations for Programmable DNA Storage Systems Using CRISPR-Cas: Density, Error Correction, and Random Access Challenges.",
         "Co-Packaged Optics and Free-Space Optics: Architectural Shifts for Next-Gen Hyperscale AI/ML Interconnects",
         "Deterministic Latency Guarantees in Globally Distributed Transactional Stream Processing: A Consensus Protocol Deep Dive",
         "Synthetic Biology Approaches to Engineering Bacteriophage Resistance Against Multi-Drug Resistant Bacterial Biofilms",
@@ -438,6 +437,9 @@
         "Beyond Raft: Architecting Globally Distributed Meta-Indices using Hierarchical Paxos and Quorum Leases",
         "Implementing Zero-Trust Sidecar Acceleration: Bypassing the Kernel with eBPF and Shared Memory in High-Throughput Service Meshes",
         "Deep Dive into Meta's Tectonic: Orchestrating Exabyte-Scale Blob Storage Through Synchronous Quorum Replicated Metadata",
-        "Deterministic Networking in the Cloud: How AWS Nitro Leverages Hardware-Based SR-IOV for Sub-Microsecond Tail Latency at Scale"
+        "Deterministic Networking in the Cloud: How AWS Nitro Leverages Hardware-Based SR-IOV for Sub-Microsecond Tail Latency at Scale",
+        "Optimizing Tail Latency in Heterogeneous CPU Clusters: A Deep Dive into Intel’s Thread Director and Linux Task Scheduling at Meta Scale",
+        "Architecting a Global-Scale Consensus Layer: Leveraging Hardware-Accelerated P4 Programmable Switches for Sub-Millisecond Multi-Paxos",
+        "Formal Verification of Distributed LSM-Trees: Implementing TLA+ and Model Checking for Petabyte-Scale Database Compaction Strategies"
     ]
 }
