@@ -215,7 +215,6 @@
         "The Architectural Shift: Disaggregated Memory and Compute in Hyperscale Data Centers for AI Workloads.",
         "Beyond BGP: How AI-Driven Traffic Engineering Optimizes Global Interconnects for Cloud Providers.",
         "CRISPR-Based Antivirals: Engineering Programmable Nucleic Acid Scavengers for Broad-Spectrum Viral Suppression.",
-        "Disaggregated Compute and Memory: The Future of Resource Utilization in Hyperscale Data Centers",
         "Hardware-Accelerated Consensus Protocols: Reducing Latency and Increasing Throughput in Global Distributed Transaction Systems",
         "Engineering Self-Amplifying RNA Vectors for Next-Generation Pandemic Preparedness and Broad-Spectrum Immunotherapy",
         "The architectural evolution of AI model serving platforms from batch to real-time inference at exabyte scale.",
@@ -440,6 +439,9 @@
         "Deterministic Networking in the Cloud: How AWS Nitro Leverages Hardware-Based SR-IOV for Sub-Microsecond Tail Latency at Scale",
         "Optimizing Tail Latency in Heterogeneous CPU Clusters: A Deep Dive into Intel’s Thread Director and Linux Task Scheduling at Meta Scale",
         "Architecting a Global-Scale Consensus Layer: Leveraging Hardware-Accelerated P4 Programmable Switches for Sub-Millisecond Multi-Paxos",
-        "Formal Verification of Distributed LSM-Trees: Implementing TLA+ and Model Checking for Petabyte-Scale Database Compaction Strategies"
+        "Formal Verification of Distributed LSM-Trees: Implementing TLA+ and Model Checking for Petabyte-Scale Database Compaction Strategies",
+        "The architecture behind scaling LLM training clusters to 50,000 H100 GPUs using tiered InfiniBand fabrics",
+        "An in-depth analysis of deterministic simulation testing for hardening distributed database consensus at scale",
+        "How Netflix optimizes global content delivery using eBPF-based congestion control and kernel-bypass networking"
     ]
 }
