@@ -171,7 +171,6 @@
         "DNA as a data center: Engineering challenges and potential of high-density genomic information storage and retrieval.",
         "Architecting Trillion-Parameter AI: The Role of Optical Interconnects and Network Fabric Topologies",
         "Next-Gen Gene Delivery: Engineering AAV Serotypes and Non-Viral Nanoparticle Encapsulation for Advanced Therapies",
-        "Real-time Multi-tenant GPU Scheduling and Resource Isolation for Hyperscale AI Inference",
         "Advanced AAV Capsid Directed Evolution for Precision In Vivo Gene Editing Delivery Systems",
         "The Role of Programmable Data Planes (P4) and SmartNICs in Accelerating Microservice Communication and Network Function Offloading at Hyperscale",
         "CRISPR-Associated Transposons (CASTs): Leveraging RNA-Guided Integration Systems for Large-Scale Genomic Engineering Beyond Double-Strand Breaks",
@@ -446,6 +445,9 @@
         "Optimizing Write Amplification and Compaction Latency in Log-Structured Merge-Trees for Multi-Petabyte SSD Arrays",
         "Zero-RPO Multi-Region Active-Active Consistency: Implementing Hybrid Logical Clocks in Globally Distributed Spanner-like Databases",
         "Optimizing InfiniBand Topologies for Billion-Parameter Model Checkpointing: Reducing Tail Latency in GPU-to-GPU Collective Operations",
-        "Programmable Data Plane Evolution: Leveraging eBPF and XDP for Terabit-Scale DDoS Mitigation in Hyper-Scale Edge Networks"
+        "Programmable Data Plane Evolution: Leveraging eBPF and XDP for Terabit-Scale DDoS Mitigation in Hyper-Scale Edge Networks",
+        "Zero-Copy Packet Processing at Petabit Scale: Dissecting the Data Plane Design of Meta's Next-Gen AI Fabric",
+        "Consensus-Free Ordering: How Amazon's Time-Sync Database Avoids Paxos for Planet-Scale Transaction Logs",
+        "Distributed Chaos: Analyzing the Cascading Failures in Google's Borg Scheduler During the 2024 Global Memory Bus Incident"
     ]
 }
