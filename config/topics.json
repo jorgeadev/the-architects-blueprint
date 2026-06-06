@@ -242,7 +242,6 @@
         "Global Data Consistency at Extreme Scale: Engineering Tradeoffs and Innovative Consensus Mechanisms in Geo-Distributed Databases",
         "Beyond Linear mRNA: Engineering Self-Amplifying and Circular RNA for Next-Gen Viral and Therapeutic Applications",
         "The Hidden Complexity of Global Backbone Tuning: Analyzing Netflix's Open Connect CDN Micro-Partitioning for 4K Stutter-Free Streaming",
-        "How Google Used CXL Memory Tiering to Throttle Hotspots in Borg: A Deep Dive into Heterogeneous Resource Scheduling at Planetary Scale",
         "The unseen architecture: How specialized accelerators and distributed inference engines drive generative AI models at global scale.",
         "Beyond the cloud: Architecting global-scale serverless functions for ultra-low latency edge compute environments.",
         "The algorithmic nexus: How hyperscale cloud providers are leveraging reinforcement learning for real-time, global energy grid optimization and carbon-aware workload placement.",
@@ -442,6 +441,9 @@
         "Formal Verification of Distributed LSM-Trees: Implementing TLA+ and Model Checking for Petabyte-Scale Database Compaction Strategies",
         "The architecture behind scaling LLM training clusters to 50,000 H100 GPUs using tiered InfiniBand fabrics",
         "An in-depth analysis of deterministic simulation testing for hardening distributed database consensus at scale",
-        "How Netflix optimizes global content delivery using eBPF-based congestion control and kernel-bypass networking"
+        "How Netflix optimizes global content delivery using eBPF-based congestion control and kernel-bypass networking",
+        "Leveraging eBPF and XDP for Terabit-Scale DDoS Mitigation in Edge Mesh Networks",
+        "Solving Thundering Herd Problems in Globally Distributed Cache Layers via Probabilistic Lease Mechanisms",
+        "Optimizing Write Amplification and Compaction Latency in Log-Structured Merge-Trees for Multi-Petabyte SSD Arrays"
     ]
 }
