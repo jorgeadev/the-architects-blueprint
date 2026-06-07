@@ -446,10 +446,12 @@
         "Optimizing InfiniBand Topologies for Billion-Parameter Model Checkpointing: Reducing Tail Latency in GPU-to-GPU Collective Operations",
         "Programmable Data Plane Evolution: Leveraging eBPF and XDP for Terabit-Scale DDoS Mitigation in Hyper-Scale Edge Networks",
         "Zero-Copy Packet Processing at Petabit Scale: Dissecting the Data Plane Design of Meta's Next-Gen AI Fabric",
-        "Consensus-Free Ordering: How Amazon's Time-Sync Database Avoids Paxos for Planet-Scale Transaction Logs",
         "Distributed Chaos: Analyzing the Cascading Failures in Google's Borg Scheduler During the 2024 Global Memory Bus Incident",
         "Designing Low-Latency Consensus: A Deep Dive into Deterministic State Machine Replication for Global Tier-0 Infrastructure",
         "Optimizing Tail Latency in Heterogeneous GPU Clusters: Architecture Patterns for Sub-Second LLM Inference at Scale",
-        "The Engineering of Ephemeral Environments: Leveraging Micro-VMs and Snapshotting for Instantaneous CI/CD Scaling"
+        "The Engineering of Ephemeral Environments: Leveraging Micro-VMs and Snapshotting for Instantaneous CI/CD Scaling",
+        "Architecting Zettabyte-Scale Data Lakes: Beyond Parquet and Iceberg with Direct-on-Flash Indexing",
+        "Deep Dive into GPU-to-GPU Interconnects: Scaling Distributed Training via InfiniBand and RoCE v2 in Hyperscale Clusters",
+        "Solving the C10M Problem at the Edge: Leveraging eBPF-based XDP for High-Performance Programmable Packet Processing"
     ]
 }
