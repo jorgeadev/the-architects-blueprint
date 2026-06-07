@@ -381,7 +381,6 @@
         "Disaggregated NVMe-oF and CXL-based memory pooling: Architecting the next generation of hyperscale cloud resource virtualization.",
         "Prime Editing's Breakthroughs: Expanding the Gene Editing Toolkit for Precise, Scarless Genomic Modifications and Therapeutic Applications.",
         "The Architectural Shift to Disaggregated Compute and Memory in Next-Gen Hyperscale Data Centers for AI Workloads",
-        "Engineering Ultra-Low Latency, Globally Consistent State: A Deep Dive into Distributed Consensus Protocols at Petascale",
         "The Role of Foundational Models and HPC in Accelerating De Novo Protein Design for Drug Discovery and Synthetic Biology",
         "Optimizing RDMA over Converged Ethernet (RoCE) for Distributed LLM Training: Overcoming Incast Congestion in Hyperscale GPU Clusters",
         "Beyond Eventual Consistency: Implementing Deterministic State Machine Replication in Globally Distributed Edge Databases",
@@ -454,6 +453,9 @@
         "Solving the C10M Problem at the Edge: Leveraging eBPF-based XDP for High-Performance Programmable Packet Processing",
         "Formal Verification of Distributed Consensus in Amazon Aurora's Log-Structured Storage Engine",
         "Optimizing Tail Latency in Multi-Tenant Kubernetes Clusters via eBPF-driven Programmable Data Planes",
-        "Architecting Zetta-scale Training Clusters: Hardware-Software Co-design for Meta's MTIA v2 Accelerators"
+        "Architecting Zetta-scale Training Clusters: Hardware-Software Co-design for Meta's MTIA v2 Accelerators",
+        "Optimizing Tail Latency in Multi-Tenant LLM Serving: A Deep Dive into Continuous Batching and KV-Cache Paging Architectures",
+        "The Shift to Cell-Based Architecture: How Modern Hyperscalers Minimize Blast Radius in Globally Distributed Systems",
+        "Implementing CXL 3.0: The Architecture of Disaggregated Memory in Next-Generation Hyperscale Data Centers"
     ]
 }
