@@ -30,7 +30,6 @@
         "The hype over Rust replacing C++ in foundational systems: reality, technical challenges, and major rewrites.",
         "A recent hype cycle on a major JavaScript meta-framework release: what new architectural patterns does it actually solve?",
         "The viral adoption of eBPF for networking and observability: what it means for the future of Linux kernels.",
-        "An in-depth look at bun.js vs Node.js vs Deno: the hype, the benchmarks, and the architectural differences.",
         "Decentralized consensus protocols for achieving strong consistency in a planetary-scale distributed ledger operating at millions of transactions per second.",
         "The interplay of programmable data planes and P4 with smart NICs for ultra-low-latency network function virtualization in hyperscale data centers.",
         "From AlphaFold to Novel Protein Design: The Computational Infrastructure and Algorithmic Advances Powering AI-Driven Drug Discovery.",
@@ -452,6 +451,9 @@
         "The Engineering of Ephemeral Environments: Leveraging Micro-VMs and Snapshotting for Instantaneous CI/CD Scaling",
         "Architecting Zettabyte-Scale Data Lakes: Beyond Parquet and Iceberg with Direct-on-Flash Indexing",
         "Deep Dive into GPU-to-GPU Interconnects: Scaling Distributed Training via InfiniBand and RoCE v2 in Hyperscale Clusters",
-        "Solving the C10M Problem at the Edge: Leveraging eBPF-based XDP for High-Performance Programmable Packet Processing"
+        "Solving the C10M Problem at the Edge: Leveraging eBPF-based XDP for High-Performance Programmable Packet Processing",
+        "Formal Verification of Distributed Consensus in Amazon Aurora's Log-Structured Storage Engine",
+        "Optimizing Tail Latency in Multi-Tenant Kubernetes Clusters via eBPF-driven Programmable Data Planes",
+        "Architecting Zetta-scale Training Clusters: Hardware-Software Co-design for Meta's MTIA v2 Accelerators"
     ]
 }
