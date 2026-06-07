@@ -62,7 +62,6 @@
         "Architecting Post-Quantum Cryptography Migrations for Hyperscale Cloud Infrastructure",
         "Computational Genomics for Viral Vector Engineering: Predictive Design of Next-Gen Therapeutic Delivery Systems",
         "Deep Dive into Amazon DynamoDB's Consistent Hashing and Replication Model for Exabyte-Scale Durability",
-        "Designing and Deploying Global Load Balancing for Billions of Requests: From DNS-Based to Anycast Architectures",
         "The Engineering Challenges of Maintaining Strong Global Consistency in Hyperscale Distributed Transactional Databases",
         "Computational Design and Large-Scale Synthesis Pipelines for Novel Oncolytic Virotherapy Agents",
         "Next-Gen Optical Networks: Leveraging Coherent Optics and AI-Driven Wavelength Routing for Exascale Cloud Interconnects",
@@ -456,6 +455,9 @@
         "Architecting Zetta-scale Training Clusters: Hardware-Software Co-design for Meta's MTIA v2 Accelerators",
         "Optimizing Tail Latency in Multi-Tenant LLM Serving: A Deep Dive into Continuous Batching and KV-Cache Paging Architectures",
         "The Shift to Cell-Based Architecture: How Modern Hyperscalers Minimize Blast Radius in Globally Distributed Systems",
-        "Implementing CXL 3.0: The Architecture of Disaggregated Memory in Next-Generation Hyperscale Data Centers"
+        "Implementing CXL 3.0: The Architecture of Disaggregated Memory in Next-Generation Hyperscale Data Centers",
+        "Implementing Deterministic Simulation Testing for Distributed Consensus Protocols at Petabyte Scale",
+        "Optimizing High-Throughput LLM Inference via Multi-Level Speculative Decoding and KV-Cache Quantization",
+        "Evolving Microservices Communication: Replacing Sidecar Proxies with eBPF-Based Ambient Mesh in High-Traffic Environments"
     ]
 }
