@@ -418,7 +418,6 @@
         "Architecting Global Transactional Consistency: A Deep Dive into Spanner's TrueTime vs. CockroachDB's HLC in Multi-Region Deployments",
         "The Engineering of Real-Time Vector Index Sharding: Scaling Semantic Search to Multi-Billion Document Corpora with Sub-10ms Latency",
         "Architecting geo-distributed vector databases: Solving high-dimensional nearest neighbor search at petabyte scale",
-        "Reducing P99 latency in massive-scale microservice meshes via predictive circuit breaking and hardware-offloaded mTLS",
         "Optimizing cache coherence in heterogeneous computing clusters using CXL 3.0 and memory pooling",
         "Optimizing GPU Interconnect Topologies: A Deep Dive into NVIDIA's Magnum IO and GPUDirect Storage at Exascale",
         "Solving the Tail Latency Problem in Globally Distributed KV Stores using Predictive Request Hedging and RDMA-Based Consensus",
@@ -460,6 +459,9 @@
         "Evolving Microservices Communication: Replacing Sidecar Proxies with eBPF-Based Ambient Mesh in High-Traffic Environments",
         "Optimizing GPU Interconnects: Implementing RoCE v2 and NCCL at Scale for Multi-Node LLM Distributed Training",
         "Deep Dive into Deterministic Simulation Testing: Achieving 100% Reproducibility in Distributed Consensus Engines",
-        "Beyond Sidecars: Engineering eBPF-Powered Service Meshes for High-Throughput Microservices Orchestration"
+        "Beyond Sidecars: Engineering eBPF-Powered Service Meshes for High-Throughput Microservices Orchestration",
+        "Implementing Hierarchical Ring-AllReduce Patterns for Multi-Tenant GPU Clusters at Exascale",
+        "Zero-Copy Memory Mapping and Kernel Bypass Techniques in Modern High-Frequency Trading Proxies",
+        "The Evolution of Global Quorum Consistency: Formal Verification of Tiered Consensus in Hyperscale Metadata Stores"
     ]
 }
