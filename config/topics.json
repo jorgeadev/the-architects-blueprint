@@ -442,7 +442,6 @@
         "Zero-Copy Packet Processing at Petabit Scale: Dissecting the Data Plane Design of Meta's Next-Gen AI Fabric",
         "Distributed Chaos: Analyzing the Cascading Failures in Google's Borg Scheduler During the 2024 Global Memory Bus Incident",
         "Designing Low-Latency Consensus: A Deep Dive into Deterministic State Machine Replication for Global Tier-0 Infrastructure",
-        "Optimizing Tail Latency in Heterogeneous GPU Clusters: Architecture Patterns for Sub-Second LLM Inference at Scale",
         "The Engineering of Ephemeral Environments: Leveraging Micro-VMs and Snapshotting for Instantaneous CI/CD Scaling",
         "Architecting Zettabyte-Scale Data Lakes: Beyond Parquet and Iceberg with Direct-on-Flash Indexing",
         "Deep Dive into GPU-to-GPU Interconnects: Scaling Distributed Training via InfiniBand and RoCE v2 in Hyperscale Clusters",
@@ -464,6 +463,9 @@
         "The Evolution of Global Quorum Consistency: Formal Verification of Tiered Consensus in Hyperscale Metadata Stores",
         "Vector Database Internals: Optimizing HNSW Indexing for Trillion-Scale Semantic Search at Netflix",
         "Bypass the Kernel: Architecting High-Throughput Storage Engines Using NVMe-over-Fabrics and SPDK",
-        "Deterministic Simulation Testing: How Anthropic Ensures Consensus Consistency in Large-Scale Distributed Training"
+        "Deterministic Simulation Testing: How Anthropic Ensures Consensus Consistency in Large-Scale Distributed Training",
+        "The evolution of cell-based architecture: How global hyper-scalers mitigate blast radius through deterministic routing and logical sharding",
+        "Optimizing tail latency in geo-distributed key-value stores using predictive RDMA-based cache invalidation and hardware-accelerated consensus",
+        "A deep dive into zero-copy networking and eBPF-driven observability for high-throughput packet processing in cloud-native edge infrastructures"
     ]
 }
