@@ -124,7 +124,6 @@
         "Optimizing State Machine Replication for Trillion-Event Streams: A Deep Dive into Distributed Consensus Protocols Beyond Raft and Paxos at Cloud Scale",
         "Synthetic Virology: Engineering Novel Bacteriophage Systems for Programmable Microbiome Modulation and Targeted Drug Delivery at Scale",
         "The unseen battle for bandwidth: How hyperscalers are leveraging CXL 3.0 and photonic integration to overcome memory and interconnect bottlenecks in petascale AI clusters.",
-        "Beyond global eventual consistency: Architecting planet-scale strongly consistent transactional ledgers for real-time applications using novel consensus and data sharding techniques.",
         "The Evolution of Cloud-Native Workload Scheduling: From Bin Packing to AI-Driven Predictive Resource Allocation",
         "CRISPR-Associated Transposases (CAST) for Programmable Large-Fragment Genomic Integration in Antiviral Gene Therapy",
         "The Engineering of Global Consensus: How TrueTime and Hybrid Logical Clocks Achieve External Consistency in Massively Distributed SQL Databases",
@@ -462,6 +461,9 @@
         "Beyond Sidecars: Engineering eBPF-Powered Service Meshes for High-Throughput Microservices Orchestration",
         "Implementing Hierarchical Ring-AllReduce Patterns for Multi-Tenant GPU Clusters at Exascale",
         "Zero-Copy Memory Mapping and Kernel Bypass Techniques in Modern High-Frequency Trading Proxies",
-        "The Evolution of Global Quorum Consistency: Formal Verification of Tiered Consensus in Hyperscale Metadata Stores"
+        "The Evolution of Global Quorum Consistency: Formal Verification of Tiered Consensus in Hyperscale Metadata Stores",
+        "Vector Database Internals: Optimizing HNSW Indexing for Trillion-Scale Semantic Search at Netflix",
+        "Bypass the Kernel: Architecting High-Throughput Storage Engines Using NVMe-over-Fabrics and SPDK",
+        "Deterministic Simulation Testing: How Anthropic Ensures Consensus Consistency in Large-Scale Distributed Training"
     ]
 }
