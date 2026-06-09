@@ -394,7 +394,6 @@
         "Optimizing L7 Traffic Steering in Globally Distributed Service Meshes using eBPF and XDP for Sub-millisecond Tail Latency",
         "Solving the Cold-Start Problem in Serverless GPU Orchestration for Multi-Tenant LLM Quantization Pipelines",
         "Implementing Deterministic Simulation Testing to Validate Distributed Consensus Invariants in High-Throughput Storage Engines",
-        "Implementing Zero-Trust Inter-Process Communication in Geographically Distributed Kubernetes Clusters using eBPF and SPIRE",
         "Optimizing Tail Latency in Massive-Scale Vector Search: A Deep Dive into HNSW Indexing Over Sharded Distributed Memory",
         "Strategies for Mitigating Cascading Failures in Global Service Meshes: Adaptive Concurrency Control and Proactive Load Shedding",
         "Implementing Zero-Copy Data Planes for Terabit-Scale Load Balancing using eBPF and XDP",
@@ -470,6 +469,9 @@
         "Optimizing L3 Cache Contention in Multi-Tenant Hypervisors using Hardware-Assisted Resource Partitioning",
         "Deep Dive: Meta's RoCE-based Network Fabric for 24,576 H100 GPU Training Clusters",
         "Architecting for 100M RPS: The Evolution of Cloudflare's Quicksilver Key-Value Store",
-        "Beyond Vitess: How YouTube Orchestrates Billions of Transactions with Tiered Spanner Sharding"
+        "Beyond Vitess: How YouTube Orchestrates Billions of Transactions with Tiered Spanner Sharding",
+        "Deep Dive into Meta's Tectonic: Orchestrating Exabyte-Scale Disaggregated Storage Across Heterogeneous Hardware",
+        "Optimizing Tail Latency in Globally Distributed Spanner Clusters: A Comparative Analysis of TrueTime vs. Logical Clock Hybridization",
+        "Implementing Zero-Trust Observability: Leveraging eBPF for Line-Rate Kernel-Level Tracing in Multi-Tenant Kubernetes Meshes"
     ]
 }
