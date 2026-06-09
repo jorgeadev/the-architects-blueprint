@@ -292,7 +292,6 @@
         "Adaptive Congestion Control Mechanisms in Hyperscale Data Center Networks for AI/ML Workloads",
         "Achieving Strong Global Consistency in Multi-Region Distributed Databases Using Causality Tracking and Hybrid Logical Clocks",
         "CRISPR-Powered Phage Engineering for Precision Microbiome Modulation and Multi-Drug Resistant Pathogen Eradication",
-        "The Unseen Data Plane: Architecting CXL-Based Memory and Compute Disaggregation for Hyperscale AI/ML Platforms",
         "Architecting for Quantum Resilience: Practical Implementation Challenges of Post-Quantum Cryptography in Global CDN and Distributed Ledger Infrastructures",
         "CRISPR-Cas Systems as Programmable Nanobots: Engineering Adeno-Associated Viral Vectors for Precision In-Vivo Gene Editing at Therapeutic Scale",
         "The Hyperscale Interconnect Fabrics Powering Trillion-Parameter LLM Training: A Deep Dive into Custom Silicon and Network Topologies",
@@ -466,6 +465,9 @@
         "Deterministic Simulation Testing: How Anthropic Ensures Consensus Consistency in Large-Scale Distributed Training",
         "The evolution of cell-based architecture: How global hyper-scalers mitigate blast radius through deterministic routing and logical sharding",
         "Optimizing tail latency in geo-distributed key-value stores using predictive RDMA-based cache invalidation and hardware-accelerated consensus",
-        "A deep dive into zero-copy networking and eBPF-driven observability for high-throughput packet processing in cloud-native edge infrastructures"
+        "A deep dive into zero-copy networking and eBPF-driven observability for high-throughput packet processing in cloud-native edge infrastructures",
+        "Architecting Asynchronous Geo-Replicated Vector Databases for Sub-Millisecond Global Semantic Search",
+        "Formal Verification of Distributed Consensus Protocols in Large-Scale Serverless Compute Runtimes",
+        "Optimizing L3 Cache Contention in Multi-Tenant Hypervisors using Hardware-Assisted Resource Partitioning"
     ]
 }
