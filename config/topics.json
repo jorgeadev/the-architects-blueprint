@@ -56,7 +56,6 @@
         "Engineering Next-Gen mRNA Vaccines: Advancements in Lipid Nanoparticle Delivery Systems and Immunostimulatory Design.",
         "CXL 3.0 and Disaggregated Memory Pooling: Architecting the Next Generation of Hyperscale Data Center Resource Utilization",
         "Optimizing Cold Start Latency in Serverless Edge Functions: A Deep Dive into MicroVM Snapshotting and Kernel-Level Virtualization Techniques",
-        "Leveraging CRISPR-Cas for Programmable DNA Data Archival and Retrieval: Engineering Biological Systems for Future Petabyte-Scale Storage",
         "Optimizing Serverless Cold Starts at Trillions of Invocations: Deep Dive into Hyperscale Resource Scheduling",
         "Global Messaging at Scale: Real-time Consistency Across Distributed Graph Databases for Billions",
         "Architecting Post-Quantum Cryptography Migrations for Hyperscale Cloud Infrastructure",
@@ -472,6 +471,9 @@
         "Beyond Vitess: How YouTube Orchestrates Billions of Transactions with Tiered Spanner Sharding",
         "Deep Dive into Meta's Tectonic: Orchestrating Exabyte-Scale Disaggregated Storage Across Heterogeneous Hardware",
         "Optimizing Tail Latency in Globally Distributed Spanner Clusters: A Comparative Analysis of TrueTime vs. Logical Clock Hybridization",
-        "Implementing Zero-Trust Observability: Leveraging eBPF for Line-Rate Kernel-Level Tracing in Multi-Tenant Kubernetes Meshes"
+        "Implementing Zero-Trust Observability: Leveraging eBPF for Line-Rate Kernel-Level Tracing in Multi-Tenant Kubernetes Meshes",
+        "Optimizing Tail Latency in Multi-Tenant Vector Databases: A Deep Dive into HNSW Index Partitioning and Shard Balancing",
+        "The Evolution of Meta's RoCE v2 Network Fabric: Scaling Collective Communication Across 24,000 GPU Clusters",
+        "Deterministic Simulation Testing at Scale: Implementing Jitter-Injected Fault Injection in Rust-based Distributed Storage Engines"
     ]
 }
