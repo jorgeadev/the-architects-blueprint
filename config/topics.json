@@ -166,7 +166,6 @@
         "Architecting Trillion-Parameter AI: The Role of Optical Interconnects and Network Fabric Topologies",
         "Next-Gen Gene Delivery: Engineering AAV Serotypes and Non-Viral Nanoparticle Encapsulation for Advanced Therapies",
         "Advanced AAV Capsid Directed Evolution for Precision In Vivo Gene Editing Delivery Systems",
-        "The Role of Programmable Data Planes (P4) and SmartNICs in Accelerating Microservice Communication and Network Function Offloading at Hyperscale",
         "CRISPR-Associated Transposons (CASTs): Leveraging RNA-Guided Integration Systems for Large-Scale Genomic Engineering Beyond Double-Strand Breaks",
         "Global Atomic Consensus: Engineering High-Throughput, Low-Latency Transactional Integrity Across Geo-Distributed Cloud Infrastructures",
         "The Exabyte Enigma: Architecting Intelligent Tiering and Data Lineage Systems for AI Foundation Model Training Data Lakes",
@@ -474,6 +473,9 @@
         "Implementing Zero-Trust Observability: Leveraging eBPF for Line-Rate Kernel-Level Tracing in Multi-Tenant Kubernetes Meshes",
         "Optimizing Tail Latency in Multi-Tenant Vector Databases: A Deep Dive into HNSW Index Partitioning and Shard Balancing",
         "The Evolution of Meta's RoCE v2 Network Fabric: Scaling Collective Communication Across 24,000 GPU Clusters",
-        "Deterministic Simulation Testing at Scale: Implementing Jitter-Injected Fault Injection in Rust-based Distributed Storage Engines"
+        "Deterministic Simulation Testing at Scale: Implementing Jitter-Injected Fault Injection in Rust-based Distributed Storage Engines",
+        "Implementing Deterministic Simulation Testing (DST) for Distributed State Machines: Lessons from FoundationDB and TigerBeetle",
+        "Hardware-Software Co-design for 100k+ GPU Clusters: Dissecting Meta's Tectonic and RoCEv2 Network Fabric for Llama-3 Training",
+        "Zero-Trust at the NIC Level: Leveraging eBPF and Hardware Offloading for Multi-Terabit Per Second DDoS Mitigation"
     ]
 }
