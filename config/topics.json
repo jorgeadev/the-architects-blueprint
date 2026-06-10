@@ -304,7 +304,6 @@
         "AI-Driven Directed Evolution: Engineering Next-Gen AAV Capsids for Precision Gene Therapy and Minimized Immunogenicity",
         "Decoding Meta's Wan: The Hardware-Software Co-Design Powering Their Heterogeneous AI Inference Fleet",
         "Architecting Multi-Tenant, Petabyte-Scale Data Lakes for Real-time AI/ML Training: A Deep Dive into Distributed Query Optimization",
-        "Beyond AlphaFold: Engineering Scalable Generative AI Models for *De Novo* Protein Design and High-Throughput Biological Synthesis",
         "How Netflix transitioned its Chaos Monkey from pod-level abstraction to hardware-level fault injection via BMC-based PCIe bus error triggering.",
         "Inside Meta's WAN traffic engineering: How OSPFv3 segment routing and weighted ECMP replace MPLS at global scale.",
         "A deep dive into Google's Jupiter network fabric v2: Optical circuit switching and the end of spine-leaf topologies.",
@@ -477,6 +476,9 @@
         "Zero-Trust at the NIC Level: Leveraging eBPF and Hardware Offloading for Multi-Terabit Per Second DDoS Mitigation",
         "Deep Dive into NVLink Switch Fabrics: Scaling Inter-Node Communication for 100k+ GPU Clusters",
         "Formal Verification of Distributed Consensus Protocols in Sub-Millisecond Global Edge Runtimes",
-        "Zero-ETL Architecture: Implementing Real-Time Vector Embeddings via Change Data Capture on Distributed LSM-Trees"
+        "Zero-ETL Architecture: Implementing Real-Time Vector Embeddings via Change Data Capture on Distributed LSM-Trees",
+        "Deterministic Simulation Testing: How TigerBeetle Achieves Five-Nines Reliability in Distributed Financial Ledgers",
+        "Custom Silicon and Warp-Level Primitives: The Low-Level Optimizations Powering Google’s TPU v5p Pods",
+        "Hierarchical Consensus and Sharded Gossip Protocols: Scaling Global Metadata Consistency to 100 Million Writes per Second"
     ]
 }
