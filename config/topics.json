@@ -213,7 +213,6 @@
         "The role of advanced graph neural networks and cloud-scale computation in accelerating novel viral vector design for gene therapy.",
         "The Architectural Shift in Hyperscale Data Center Interconnects: From DWDM to Photonic Integrated Circuits and Software-Defined Fabrics",
         "The architectural evolution of real-time serverless function orchestration across heterogeneous cloud regions for low-latency edge AI inference.",
-        "Implementing provably fault-tolerant distributed transaction systems using CRDTs and TLA+ for global-scale e-commerce platforms.",
         "The emerging architectural patterns for synthetic viral vector design optimization using reinforcement learning for in-vivo gene therapy delivery.",
         "The architectural blueprint for integrating Post-Quantum Cryptography into existing hyperscale cloud infrastructure, detailing performance implications and migration strategies.",
         "Architecting next-generation serverless platforms for real-time, low-latency AI inference at the extreme edge, focusing on cold start mitigation and state synchronization.",
@@ -475,6 +474,9 @@
         "Deterministic Simulation Testing at Scale: Implementing Jitter-Injected Fault Injection in Rust-based Distributed Storage Engines",
         "Implementing Deterministic Simulation Testing (DST) for Distributed State Machines: Lessons from FoundationDB and TigerBeetle",
         "Hardware-Software Co-design for 100k+ GPU Clusters: Dissecting Meta's Tectonic and RoCEv2 Network Fabric for Llama-3 Training",
-        "Zero-Trust at the NIC Level: Leveraging eBPF and Hardware Offloading for Multi-Terabit Per Second DDoS Mitigation"
+        "Zero-Trust at the NIC Level: Leveraging eBPF and Hardware Offloading for Multi-Terabit Per Second DDoS Mitigation",
+        "Deep Dive into NVLink Switch Fabrics: Scaling Inter-Node Communication for 100k+ GPU Clusters",
+        "Formal Verification of Distributed Consensus Protocols in Sub-Millisecond Global Edge Runtimes",
+        "Zero-ETL Architecture: Implementing Real-Time Vector Embeddings via Change Data Capture on Distributed LSM-Trees"
     ]
 }
