@@ -324,7 +324,6 @@
         "Optimizing Interconnect Topologies for Trillion-Parameter AI Model Training: Beyond InfiniBand and NVLink.",
         "The Architectural Shift to Hypervisor-less Container Isolation: Firecracker, Kata, and gVisor in Hyperscale Cloud Environments.",
         "DNA as the Next Petabyte Archive: Engineering Challenges and Solutions for Biological Data Storage.",
-        "The architectural evolution of disaggregated memory pools and CXL integration in hyperscale cloud infrastructure for AI/ML workloads.",
         "Designing hyper-resilient, globally distributed consensus protocols for petabyte-scale stateful services: A deep dive into multi-Paxos and Raft variants.",
         "Scalable synthetic biology platforms: Engineering cellular factories for high-throughput biomaterial production and metabolic pathway optimization.",
         "Real-time Backpressure and Congestion Control in Exascale Event Streaming Architectures: A Deep Dive into Adaptive Flow Algorithms.",
@@ -483,6 +482,9 @@
         "The Evolution of Deterministic Simulation Testing for Distributed Databases: How FoundationDB and TigerBeetle Achieve 99.99999% Reliability",
         "Optimizing Tail Latency in Globally Distributed Databases using Probabilistic Quorum Adjustments and RDMA-enabled Consensus",
         "Architecting Zero-Copy Data Pipelines for Real-Time Feature Engineering at Petabyte Scale using eBPF and Shared Memory Regions",
-        "Formal Verification of Distributed Transaction Protocols in Hyperscale Microservices: Bridging TLA+ Models with Rust Implementation"
+        "Formal Verification of Distributed Transaction Protocols in Hyperscale Microservices: Bridging TLA+ Models with Rust Implementation",
+        "Inside the BGP Routing Fabric of a Global Anycast CDN: Mitigating Route Leaks and Sub-Second Convergence at 500 Tbps",
+        "The Technical Aftermath of the Azure Storage Symphony Outage: A Deep Dive into Write-Ahead Log Corruption and Distributed Quorum Failures",
+        "How Google Scaled its Spanner Backend to Serve 10 Billion Read/Write Operations Per Second Using a Novel TrueTime-Based Sharding Algorithm"
     ]
 }
