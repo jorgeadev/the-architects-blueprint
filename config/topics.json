@@ -341,7 +341,6 @@
         "Programmable Phage Therapies: Designing AI-Optimized Viral Vectors for Targeted Bacterial Eradication and Overcoming Multi-Drug Resistance",
         "Achieving Sub-Millisecond Tail Latencies in Geo-Distributed Transactional Databases: A Novel Approach to Consensus with Read-Optimized Raft Variants and Persistent Memory",
         "Engineering Programmable Viral Capsids: Designing Next-Generation Gene Delivery Vectors for Targeted In Vivo Therapeutic mRNA Translation",
-        "The Engineering Challenges of Hyperscale Liquid Cooling for Petascale AI Accelerators in Cloud Data Centers",
         "Synthetic Virology and Directed Evolution: Engineering Novel Adeno-Associated Virus (AAV) Capsids for Enhanced Gene Therapy Delivery",
         "Optimizing Exascale Analytical Workloads: The Co-Evolution of Custom Silicon and Distributed Query Processors in Hyperscale OLAP.",
         "Beyond Firewalls: Architecting Zero-Trust Microsegmentation for Billions of Network Flows in Cloud-Native Hyperscale Infrastructures.",
@@ -479,6 +478,9 @@
         "Zero-ETL Architecture: Implementing Real-Time Vector Embeddings via Change Data Capture on Distributed LSM-Trees",
         "Deterministic Simulation Testing: How TigerBeetle Achieves Five-Nines Reliability in Distributed Financial Ledgers",
         "Custom Silicon and Warp-Level Primitives: The Low-Level Optimizations Powering Google’s TPU v5p Pods",
-        "Hierarchical Consensus and Sharded Gossip Protocols: Scaling Global Metadata Consistency to 100 Million Writes per Second"
+        "Hierarchical Consensus and Sharded Gossip Protocols: Scaling Global Metadata Consistency to 100 Million Writes per Second",
+        "Scaling LLM Inference: A Comparative Analysis of PagedAttention and FlashAttention for Multi-Tenant GPU Clusters",
+        "Zero-Trust Networking at Hyperscale: Implementing mTLS with eBPF-Accelerated Sidecars in Service Meshes",
+        "The Evolution of Deterministic Simulation Testing for Distributed Databases: How FoundationDB and TigerBeetle Achieve 99.99999% Reliability"
     ]
 }
