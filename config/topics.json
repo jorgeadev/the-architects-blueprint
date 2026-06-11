@@ -59,7 +59,6 @@
         "Optimizing Serverless Cold Starts at Trillions of Invocations: Deep Dive into Hyperscale Resource Scheduling",
         "Global Messaging at Scale: Real-time Consistency Across Distributed Graph Databases for Billions",
         "Architecting Post-Quantum Cryptography Migrations for Hyperscale Cloud Infrastructure",
-        "Computational Genomics for Viral Vector Engineering: Predictive Design of Next-Gen Therapeutic Delivery Systems",
         "The Engineering Challenges of Maintaining Strong Global Consistency in Hyperscale Distributed Transactional Databases",
         "Computational Design and Large-Scale Synthesis Pipelines for Novel Oncolytic Virotherapy Agents",
         "Next-Gen Optical Networks: Leveraging Coherent Optics and AI-Driven Wavelength Routing for Exascale Cloud Interconnects",
@@ -485,6 +484,9 @@
         "Formal Verification of Distributed Transaction Protocols in Hyperscale Microservices: Bridging TLA+ Models with Rust Implementation",
         "Inside the BGP Routing Fabric of a Global Anycast CDN: Mitigating Route Leaks and Sub-Second Convergence at 500 Tbps",
         "The Technical Aftermath of the Azure Storage Symphony Outage: A Deep Dive into Write-Ahead Log Corruption and Distributed Quorum Failures",
-        "How Google Scaled its Spanner Backend to Serve 10 Billion Read/Write Operations Per Second Using a Novel TrueTime-Based Sharding Algorithm"
+        "How Google Scaled its Spanner Backend to Serve 10 Billion Read/Write Operations Per Second Using a Novel TrueTime-Based Sharding Algorithm",
+        "Optimizing Tail Latency in Multi-Tenant Distributed Key-Value Stores via Hardware-Accelerated Consensus Protocols",
+        "Zero-Copy Data Transfer Pipelines in Hyperscale Observability Platforms using eBPF and Shared Memory Ring Buffers",
+        "The Mechanics of Predictive Autoscaling for Global Edge Networks: Merging Time-Series Forecasting with Control Theory"
     ]
 }
