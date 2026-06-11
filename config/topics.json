@@ -302,7 +302,6 @@
         "The Architecture of Hyperscale Ephemeral Block Storage for Serverless Workloads: Durability and Latency at Petabyte Scale",
         "Optical Circuit Switching and Programmable Data Planes: Reshaping Inter-DC Traffic Engineering for Exascale Cloud Infrastructure",
         "AI-Driven Directed Evolution: Engineering Next-Gen AAV Capsids for Precision Gene Therapy and Minimized Immunogenicity",
-        "Decoding Meta's Wan: The Hardware-Software Co-Design Powering Their Heterogeneous AI Inference Fleet",
         "Architecting Multi-Tenant, Petabyte-Scale Data Lakes for Real-time AI/ML Training: A Deep Dive into Distributed Query Optimization",
         "How Netflix transitioned its Chaos Monkey from pod-level abstraction to hardware-level fault injection via BMC-based PCIe bus error triggering.",
         "Inside Meta's WAN traffic engineering: How OSPFv3 segment routing and weighted ECMP replace MPLS at global scale.",
@@ -481,6 +480,9 @@
         "Hierarchical Consensus and Sharded Gossip Protocols: Scaling Global Metadata Consistency to 100 Million Writes per Second",
         "Scaling LLM Inference: A Comparative Analysis of PagedAttention and FlashAttention for Multi-Tenant GPU Clusters",
         "Zero-Trust Networking at Hyperscale: Implementing mTLS with eBPF-Accelerated Sidecars in Service Meshes",
-        "The Evolution of Deterministic Simulation Testing for Distributed Databases: How FoundationDB and TigerBeetle Achieve 99.99999% Reliability"
+        "The Evolution of Deterministic Simulation Testing for Distributed Databases: How FoundationDB and TigerBeetle Achieve 99.99999% Reliability",
+        "Optimizing Tail Latency in Globally Distributed Databases using Probabilistic Quorum Adjustments and RDMA-enabled Consensus",
+        "Architecting Zero-Copy Data Pipelines for Real-Time Feature Engineering at Petabyte Scale using eBPF and Shared Memory Regions",
+        "Formal Verification of Distributed Transaction Protocols in Hyperscale Microservices: Bridging TLA+ Models with Rust Implementation"
     ]
 }
