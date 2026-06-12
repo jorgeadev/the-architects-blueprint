@@ -475,7 +475,6 @@
         "Custom Silicon and Warp-Level Primitives: The Low-Level Optimizations Powering Google’s TPU v5p Pods",
         "Hierarchical Consensus and Sharded Gossip Protocols: Scaling Global Metadata Consistency to 100 Million Writes per Second",
         "Scaling LLM Inference: A Comparative Analysis of PagedAttention and FlashAttention for Multi-Tenant GPU Clusters",
-        "Zero-Trust Networking at Hyperscale: Implementing mTLS with eBPF-Accelerated Sidecars in Service Meshes",
         "The Evolution of Deterministic Simulation Testing for Distributed Databases: How FoundationDB and TigerBeetle Achieve 99.99999% Reliability",
         "Optimizing Tail Latency in Globally Distributed Databases using Probabilistic Quorum Adjustments and RDMA-enabled Consensus",
         "Architecting Zero-Copy Data Pipelines for Real-Time Feature Engineering at Petabyte Scale using eBPF and Shared Memory Regions",
@@ -491,6 +490,9 @@
         "The Evolution of Cluster Schedulers: Evaluating Borg vs. Kubernetes for Managing Million-Node Heterogeneous AI Workloads",
         "Hardware-Accelerated Consensus: Offloading Paxos and Raft State Machine Transitions to Programmable Switches using P4",
         "Architecting for Hyper-Elasticity: Deep Dive into the Shared-Log and Disaggregated Storage Model of Snowflake and Databricks Polaris",
-        "Sub-Microsecond Clock Synchronization at Scale: Implementing Precision Time Protocol (PTP) in Commodity Cloud Data Centers"
+        "Sub-Microsecond Clock Synchronization at Scale: Implementing Precision Time Protocol (PTP) in Commodity Cloud Data Centers",
+        "Designing zero-trust cross-region service mesh overlays for sub-millisecond propagation of policy updates at 100M+ RPS",
+        "Leveraging eBPF for deep packet inspection and programmable traffic shaping in hyper-scale multi-tenant Kubernetes clusters",
+        "Deterministic database replication at scale: Implementing Raft over RDMA for ultra-low latency consistency in NVMe-based storage layers"
     ]
 }
