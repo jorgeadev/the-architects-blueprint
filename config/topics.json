@@ -131,7 +131,6 @@
         "Engineering Petabyte-Scale Observability: Distributed Tracing and Causal Analysis in Hyperscale Microservice Architectures",
         "The System Architecture and Data Challenges of Foundation Models for De Novo Protein Design and High-Throughput Drug Discovery",
         "Taming Tail Latency at Exabyte Scale: Adaptive Request Coalescing and Non-Blocking Memory Pools in Distributed Caches",
-        "Inside the Global Control Plane: A Deep Dive on the Distributed Consensus and Shard Rebalancing Algorithms Powering a Multi-Region Cloud Database",
         "The Immutable Serverless Kernel: How an Infrastructure Giant Replaced its Entire Hypervisor Fleet Without a Single User-Detectable Packet Drop",
         "Beyond NUMA: Disaggregated Memory and Compute Architectures in Next-Gen Hyperscale Data Centers",
         "Synthetic Biology's Vanguard: Engineering Self-Amplifying RNA and Novel Viral Vectors for Pandemic Preparedness",
@@ -489,6 +488,9 @@
         "The Mechanics of Predictive Autoscaling for Global Edge Networks: Merging Time-Series Forecasting with Control Theory",
         "Hardware-Accelerated Load Balancing: How Google Cloud Uses Maglev and Andromeda to Minimize Packet Jitter at Petabit Scales",
         "Designing the Next-Generation KV Store: Implementing LSM-Tree Optimization via NVMe-oF in Massive Distributed Storage",
-        "The Evolution of Cluster Schedulers: Evaluating Borg vs. Kubernetes for Managing Million-Node Heterogeneous AI Workloads"
+        "The Evolution of Cluster Schedulers: Evaluating Borg vs. Kubernetes for Managing Million-Node Heterogeneous AI Workloads",
+        "Hardware-Accelerated Consensus: Offloading Paxos and Raft State Machine Transitions to Programmable Switches using P4",
+        "Architecting for Hyper-Elasticity: Deep Dive into the Shared-Log and Disaggregated Storage Model of Snowflake and Databricks Polaris",
+        "Sub-Microsecond Clock Synchronization at Scale: Implementing Precision Time Protocol (PTP) in Commodity Cloud Data Centers"
     ]
 }
