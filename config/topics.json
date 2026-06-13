@@ -240,7 +240,6 @@
         "Engineering High-Cardinality Observability Platforms for Trillion-Event Microservices Ecosystems.",
         "AI-Accelerated De Novo Design of Enhanced AAV Capsids for Precision Gene Therapy.",
         "The Engineering Behind Ultra-High Bandwidth, Low-Latency Interconnects for Distributed AI Training: From Custom ASICs to Next-Gen Network Topologies",
-        "Disaggregated Compute and Memory in Hyperscale Clouds: Architectural Shifts for CXL, Optical Interconnects, and Workload-Optimized Resource Fabrics",
         "Serverless at the Extreme Edge: Engineering Bespoke Micro-Hardware and Network Protocols for Sub-Millisecond Latency and Resource-Constrained Environments",
         "The Anatomy of Hyperscale Software-Defined Networking: Programmable ASICs and P4-Driven Dataplane Architectures.",
         "Distributed Consensus at the Edge: Overcoming WAN Latency and Partition Tolerance in Globally Replicated Data Stores.",
@@ -501,6 +500,9 @@
         "Architecting Multi-Tenant Vector Databases: Segmented Indexing and LSM-Tree Optimization for Billion-Scale Similarity Search",
         "Optimizing Tail Latency in Multi-Tenant GPU Clusters: A Deep Dive into Strategic Compute Preemption and KV-Cache Paging",
         "Architecting Zero-Trust Control Planes for Sub-Millisecond Global Traffic Shifting at Edge-Scale Infrastructure",
-        "Formal Verification of Consensus Stability in Heterogeneous Hardware Environments: Lessons from Scaling High-Throughput Distributed Ledgers"
+        "Formal Verification of Consensus Stability in Heterogeneous Hardware Environments: Lessons from Scaling High-Throughput Distributed Ledgers",
+        "Deterministic Simulation Testing: Building Verifiable Consistency in High-Throughput Distributed State Machines",
+        "Optimizing RDMA over Converged Ethernet (RoCE) for Multi-Petaflop GPU Clusters: A Deep Dive into Congestion Control",
+        "Evolving Cell-Based Architectures: Implementing Sub-Millisecond Global Failover via Anycast Routing and Regional Sharding"
     ]
 }
