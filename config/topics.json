@@ -44,7 +44,6 @@
         "Deep dive into maintaining strong temporal consistency across globally distributed, eventually consistent transactional databases: challenges and novel solutions.",
         "The Deep Engineering Behind Multi-Region Consensus Protocols for Exabyte-Scale, Ultra-Low Latency Data Stores",
         "Hyperscale GPU Cluster Interconnects: Optimizing Latency and Throughput in NVIDIA Hopper and Grace-Hopper Architectures",
-        "Advancements in Phage Display Libraries for Targeted Drug Delivery and Precision Diagnostics in Oncological Therapies",
         "Decentralized Control Plane Architecture: Scaling Global Cloud Infrastructure with Service Meshes and Beyond",
         "Sub-Millisecond Cross-Continental Consistency: Deep Dive into Replicated State Machines for Real-time Financial Systems",
         "Architecting exascale asynchronous data pipelines for real-time federated learning across global edge deployments.",
@@ -497,6 +496,9 @@
         "Architecting Globally Consistent Event Sourcing at 100M+ TPS: A Deep Dive into Logical Clock Synchronization across Heterogeneous Cloud Regions",
         "Implementing eBPF-based L4 Load Balancing for 100Tbps Traffic Spikes in Global Anycast Networks",
         "The Mechanics of Cross-Region Deterministic Replay for Debugging Distributed Consensus Failures in Production",
-        "Architecting Multi-Tenant Vector Search: Isolation Strategies for Billion-Scale Embeddings in Serverless Environments"
+        "Architecting Multi-Tenant Vector Search: Isolation Strategies for Billion-Scale Embeddings in Serverless Environments",
+        "Implementing Zero-Copy Networking and RDMA for Ultra-Low Latency Distributed Consensus in NVMe-over-Fabrics",
+        "Mitigating Tail Latency via Predictive Request Hedging and Dynamic Congestion Control in Global Service Meshes",
+        "Architecting Multi-Tenant Vector Databases: Segmented Indexing and LSM-Tree Optimization for Billion-Scale Similarity Search"
     ]
 }
