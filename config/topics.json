@@ -402,7 +402,6 @@
         "Architecting Global Transactional Consistency: A Deep Dive into Spanner's TrueTime vs. CockroachDB's HLC in Multi-Region Deployments",
         "The Engineering of Real-Time Vector Index Sharding: Scaling Semantic Search to Multi-Billion Document Corpora with Sub-10ms Latency",
         "Architecting geo-distributed vector databases: Solving high-dimensional nearest neighbor search at petabyte scale",
-        "Optimizing cache coherence in heterogeneous computing clusters using CXL 3.0 and memory pooling",
         "Optimizing GPU Interconnect Topologies: A Deep Dive into NVIDIA's Magnum IO and GPUDirect Storage at Exascale",
         "Solving the Tail Latency Problem in Globally Distributed KV Stores using Predictive Request Hedging and RDMA-Based Consensus",
         "Post-Microservices Architecture: Engineering the High-Performance Macro-Service Layer at Meta for Sub-Millisecond RPC Orchestration",
@@ -499,6 +498,9 @@
         "Architecting Multi-Tenant Vector Search: Isolation Strategies for Billion-Scale Embeddings in Serverless Environments",
         "Implementing Zero-Copy Networking and RDMA for Ultra-Low Latency Distributed Consensus in NVMe-over-Fabrics",
         "Mitigating Tail Latency via Predictive Request Hedging and Dynamic Congestion Control in Global Service Meshes",
-        "Architecting Multi-Tenant Vector Databases: Segmented Indexing and LSM-Tree Optimization for Billion-Scale Similarity Search"
+        "Architecting Multi-Tenant Vector Databases: Segmented Indexing and LSM-Tree Optimization for Billion-Scale Similarity Search",
+        "Optimizing Tail Latency in Multi-Tenant GPU Clusters: A Deep Dive into Strategic Compute Preemption and KV-Cache Paging",
+        "Architecting Zero-Trust Control Planes for Sub-Millisecond Global Traffic Shifting at Edge-Scale Infrastructure",
+        "Formal Verification of Consensus Stability in Heterogeneous Hardware Environments: Lessons from Scaling High-Throughput Distributed Ledgers"
     ]
 }
