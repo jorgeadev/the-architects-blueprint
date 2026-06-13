@@ -181,7 +181,6 @@
         "Engineering global pathogen surveillance: Architecting privacy-preserving, real-time genomic sequencing and AI-driven anomaly detection networks.",
         "Scalable Inter-chip Communication Architectures for Trillion-Parameter AI Model Inference in Hyperscale Data Centers",
         "The Hyperscale Architectures Driving AI Model Training: Beyond Distributed GPU Clusters to Photonic Interconnects",
-        "Designing the 'Infinite' CDN: How Major Platforms Manage Real-Time Content Delivery in a Post-HTTP/3 World with QUIC-aware Edge Caching and Serverless Functions",
         "CRISPR-Powered Epigenetic Editing for Precision Disease Therapy: Overcoming Off-Target Effects and Delivery Challenges at Scale",
         "The evolution of hyperscale data center networking: From Clos fabrics to P4-programmable ASICs and AI-driven traffic optimization.",
         "Deep dive into serverless cold start mitigation strategies: Snapshotting, custom runtime environments, and container reuse at planetary scale.",
@@ -495,6 +494,9 @@
         "Deterministic database replication at scale: Implementing Raft over RDMA for ultra-low latency consistency in NVMe-based storage layers",
         "Implementing Zero-Copy Data Planes for Terabit-Scale Distributed Storage using RDMA and NVMe-over-Fabrics",
         "Solving the Thundering Herd Problem in Multi-Tenant LLM Inference Engines via Predictive KV Cache Pre-warming",
-        "Architecting Globally Consistent Event Sourcing at 100M+ TPS: A Deep Dive into Logical Clock Synchronization across Heterogeneous Cloud Regions"
+        "Architecting Globally Consistent Event Sourcing at 100M+ TPS: A Deep Dive into Logical Clock Synchronization across Heterogeneous Cloud Regions",
+        "Implementing eBPF-based L4 Load Balancing for 100Tbps Traffic Spikes in Global Anycast Networks",
+        "The Mechanics of Cross-Region Deterministic Replay for Debugging Distributed Consensus Failures in Production",
+        "Architecting Multi-Tenant Vector Search: Isolation Strategies for Billion-Scale Embeddings in Serverless Environments"
     ]
 }
