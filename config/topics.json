@@ -180,7 +180,6 @@
         "Engineering global pathogen surveillance: Architecting privacy-preserving, real-time genomic sequencing and AI-driven anomaly detection networks.",
         "Scalable Inter-chip Communication Architectures for Trillion-Parameter AI Model Inference in Hyperscale Data Centers",
         "The Hyperscale Architectures Driving AI Model Training: Beyond Distributed GPU Clusters to Photonic Interconnects",
-        "CRISPR-Powered Epigenetic Editing for Precision Disease Therapy: Overcoming Off-Target Effects and Delivery Challenges at Scale",
         "The evolution of hyperscale data center networking: From Clos fabrics to P4-programmable ASICs and AI-driven traffic optimization.",
         "Deep dive into serverless cold start mitigation strategies: Snapshotting, custom runtime environments, and container reuse at planetary scale.",
         "Synthetic genomics and de novo genome design: Computational architectures for high-throughput gene synthesis, error correction, and biological circuit optimization.",
@@ -503,6 +502,9 @@
         "Formal Verification of Consensus Stability in Heterogeneous Hardware Environments: Lessons from Scaling High-Throughput Distributed Ledgers",
         "Deterministic Simulation Testing: Building Verifiable Consistency in High-Throughput Distributed State Machines",
         "Optimizing RDMA over Converged Ethernet (RoCE) for Multi-Petaflop GPU Clusters: A Deep Dive into Congestion Control",
-        "Evolving Cell-Based Architectures: Implementing Sub-Millisecond Global Failover via Anycast Routing and Regional Sharding"
+        "Evolving Cell-Based Architectures: Implementing Sub-Millisecond Global Failover via Anycast Routing and Regional Sharding",
+        "Optimizing Tail Latency in Heterogeneous Vector Search Clusters via Predictive Query Routing",
+        "Architecting Zero-Copy Ring Buffers for Multi-Terabit Network Telemetry Ingestion",
+        "Formal Verification of Distributed Locking Mechanisms in Geo-Replicated Spanner-like Systems"
     ]
 }
