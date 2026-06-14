@@ -294,7 +294,6 @@
         "Beyond AAV: Exploring novel viral vectors and directed evolution for next-generation precision gene therapy delivery systems.",
         "The Architecture of Hyperscale Ephemeral Block Storage for Serverless Workloads: Durability and Latency at Petabyte Scale",
         "Optical Circuit Switching and Programmable Data Planes: Reshaping Inter-DC Traffic Engineering for Exascale Cloud Infrastructure",
-        "AI-Driven Directed Evolution: Engineering Next-Gen AAV Capsids for Precision Gene Therapy and Minimized Immunogenicity",
         "Architecting Multi-Tenant, Petabyte-Scale Data Lakes for Real-time AI/ML Training: A Deep Dive into Distributed Query Optimization",
         "How Netflix transitioned its Chaos Monkey from pod-level abstraction to hardware-level fault injection via BMC-based PCIe bus error triggering.",
         "Inside Meta's WAN traffic engineering: How OSPFv3 segment routing and weighted ECMP replace MPLS at global scale.",
@@ -505,6 +504,9 @@
         "Evolving Cell-Based Architectures: Implementing Sub-Millisecond Global Failover via Anycast Routing and Regional Sharding",
         "Optimizing Tail Latency in Heterogeneous Vector Search Clusters via Predictive Query Routing",
         "Architecting Zero-Copy Ring Buffers for Multi-Terabit Network Telemetry Ingestion",
-        "Formal Verification of Distributed Locking Mechanisms in Geo-Replicated Spanner-like Systems"
+        "Formal Verification of Distributed Locking Mechanisms in Geo-Replicated Spanner-like Systems",
+        "Formal Verification of Distributed Consensus Protocols in AWS Lambda’s Internal Routing Layer",
+        "Optimizing KV-Cache Paging Mechanisms for Multi-Tenant LLM Serving at TerToken Scales",
+        "Zero-Copy Data Planes: Implementing RDMA and eBPF for Sub-Microsecond Tail Latency in Financial Clearing Engines"
     ]
 }
