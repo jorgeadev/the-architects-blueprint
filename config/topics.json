@@ -352,7 +352,6 @@
         "High-Throughput Omics Data Analysis: Architectural Patterns for Scalable Cloud-Native Pipelines in Genomics and Proteomics",
         "Beyond GPUs: Designing Hyperscale Inference Architectures for Trillion-Parameter AI Models",
         "Achieving Strong Global Consistency: Innovations in Geo-Distributed Transactional Databases at Exabyte Scale",
-        "Decoding the Future: Engineering Synthetic DNA for Zettabyte-Scale Archival Data Storage Systems",
         "Disaggregated Memory Architectures: How CXL and Photonics are Reshaping Hyperscale Data Center Compute and Storage Fabrics",
         "Vector Database Indexing at Trillion-Scale: Optimizing HNSW and PQ for Low-Latency Similarity Search in Real-Time AI Applications",
         "Programmable Data Plane Evolution: From P4 to Silicon for Hyperscale Network Observability",
@@ -507,6 +506,9 @@
         "Formal Verification of Distributed Locking Mechanisms in Geo-Replicated Spanner-like Systems",
         "Formal Verification of Distributed Consensus Protocols in AWS Lambda’s Internal Routing Layer",
         "Optimizing KV-Cache Paging Mechanisms for Multi-Tenant LLM Serving at TerToken Scales",
-        "Zero-Copy Data Planes: Implementing RDMA and eBPF for Sub-Microsecond Tail Latency in Financial Clearing Engines"
+        "Zero-Copy Data Planes: Implementing RDMA and eBPF for Sub-Microsecond Tail Latency in Financial Clearing Engines",
+        "Optimizing Tail Latency in Large Language Model Inference Clusters via Custom RDMA-based Memory Pooling",
+        "Re-architecting Global Anycast Edge Networks for Sub-millisecond Cold Starts in Serverless Runtimes",
+        "Scaling Deterministic Distributed State Machines for High-Frequency Trading Systems on Heterogeneous Cloud Hardware"
     ]
 }
