@@ -416,7 +416,6 @@
         "Solving Thundering Herd Problems in Globally Distributed Cache Layers via Probabilistic Lease Mechanisms",
         "Optimizing Write Amplification and Compaction Latency in Log-Structured Merge-Trees for Multi-Petabyte SSD Arrays",
         "Zero-RPO Multi-Region Active-Active Consistency: Implementing Hybrid Logical Clocks in Globally Distributed Spanner-like Databases",
-        "Optimizing InfiniBand Topologies for Billion-Parameter Model Checkpointing: Reducing Tail Latency in GPU-to-GPU Collective Operations",
         "Zero-Copy Packet Processing at Petabit Scale: Dissecting the Data Plane Design of Meta's Next-Gen AI Fabric",
         "Distributed Chaos: Analyzing the Cascading Failures in Google's Borg Scheduler During the 2024 Global Memory Bus Incident",
         "Designing Low-Latency Consensus: A Deep Dive into Deterministic State Machine Replication for Global Tier-0 Infrastructure",
@@ -509,6 +508,9 @@
         "Zero-Copy Data Planes: Implementing RDMA and eBPF for Sub-Microsecond Tail Latency in Financial Clearing Engines",
         "Optimizing Tail Latency in Large Language Model Inference Clusters via Custom RDMA-based Memory Pooling",
         "Re-architecting Global Anycast Edge Networks for Sub-millisecond Cold Starts in Serverless Runtimes",
-        "Scaling Deterministic Distributed State Machines for High-Frequency Trading Systems on Heterogeneous Cloud Hardware"
+        "Scaling Deterministic Distributed State Machines for High-Frequency Trading Systems on Heterogeneous Cloud Hardware",
+        "Deterministic Simulation Testing for Distributed Databases: Engineering Reliability at Jepsen-Proof Scale",
+        "Zero-Copy Serialization and RDMA: Architecting Ultra-Low Latency Inter-node Communication in Modern Data Centers",
+        "Mitigation of Cascading Failures in Massive-Scale Microservices via Adaptive Concurrency Control and Priority Queuing"
     ]
 }
