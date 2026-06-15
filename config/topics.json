@@ -238,7 +238,6 @@
         "How Google's 'Physical Shard' abstraction conceals a cross-continent, sub-millisecond replicated storage layer for Spanner's latest hardware revision.",
         "Engineering High-Cardinality Observability Platforms for Trillion-Event Microservices Ecosystems.",
         "AI-Accelerated De Novo Design of Enhanced AAV Capsids for Precision Gene Therapy.",
-        "The Engineering Behind Ultra-High Bandwidth, Low-Latency Interconnects for Distributed AI Training: From Custom ASICs to Next-Gen Network Topologies",
         "Serverless at the Extreme Edge: Engineering Bespoke Micro-Hardware and Network Protocols for Sub-Millisecond Latency and Resource-Constrained Environments",
         "The Anatomy of Hyperscale Software-Defined Networking: Programmable ASICs and P4-Driven Dataplane Architectures.",
         "Distributed Consensus at the Edge: Overcoming WAN Latency and Partition Tolerance in Globally Replicated Data Stores.",
@@ -517,6 +516,9 @@
         "Mitigating Cold-Start Latency in Serverless Edge Runtimes via Ahead-of-Time Snapshot Restoration and Memory Ballooning",
         "Zero-Copy Serialization and Memory Safety in High-Throughput Distributed LSM-Tree Storage Engines",
         "Architecting Multi-Tenant L7 Load Balancing with eBPF and XDP for Sub-Millisecond Edge Cold Starts",
-        "Deterministic Simulation Testing and Formal Verification of Geo-Replicated Consensus Protocols in Massive Scale Actor Systems"
+        "Deterministic Simulation Testing and Formal Verification of Geo-Replicated Consensus Protocols in Massive Scale Actor Systems",
+        "Formal Verification of Distributed Consensus Protocols in Sub-millisecond Latency Vector Databases",
+        "Hardware-Software Co-design for Zero-Copy Data Movement in Multi-Petaflop GPU Clusters",
+        "Architecting Global-Scale Egress-Free Multi-Cloud Meshes: A Deep Dive into Cloudflare’s Pingora Migration"
     ]
 }
