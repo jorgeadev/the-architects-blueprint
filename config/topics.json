@@ -309,7 +309,6 @@
         "Architecting Zero-Copy, Kernel-Bypassing I/O Stacks with DPUs and RDMA for Sub-Millisecond AI Inference at Hyperscale",
         "Implementing Globally Consistent Distributed Transactions at Petabyte Scale: Challenges and Solutions with Hybrid Logical Clocks and Atomic Commit Protocols",
         "Computational Architectures for AI-Driven De Novo Protein Design and Synthetic Virology: Scaling Challenges in Generating Novel Biological Entities",
-        "Unveiling the distributed consensus layer: How YouTube rebuilt its live viewer count from CRDTs to a global state machine with sub-second latency under 100 million concurrent watchers.",
         "Serverless at planetary scale: A deep dive into the autonomous sharding and resource orchestration of AWS Lambda's control plane, handling 1.5 trillion invocations daily with zero-config failover.",
         "The hidden telemetry war: How Netflix's Chaos Monkey 2.0 employs differential privacy and causal inference to inject deterministic latency into petabyte-scale data pipelines without triggering cascading failures.",
         "Optimizing Interconnect Topologies for Trillion-Parameter AI Model Training: Beyond InfiniBand and NVLink.",
@@ -515,6 +514,9 @@
         "Formal Verification of Cache Coherency Protocols in Custom Silicon for Hyperscale AI Training Clusters",
         "Optimizing RDMA over Converged Ethernet (RoCE) for Multi-Tier Collective Communications in Blackwell GPU Clusters",
         "Design Patterns for Deterministic Query Execution in Distributed LSM-Tree Architectures at Petabyte Scale",
-        "Mitigating Cold-Start Latency in Serverless Edge Runtimes via Ahead-of-Time Snapshot Restoration and Memory Ballooning"
+        "Mitigating Cold-Start Latency in Serverless Edge Runtimes via Ahead-of-Time Snapshot Restoration and Memory Ballooning",
+        "Zero-Copy Serialization and Memory Safety in High-Throughput Distributed LSM-Tree Storage Engines",
+        "Architecting Multi-Tenant L7 Load Balancing with eBPF and XDP for Sub-Millisecond Edge Cold Starts",
+        "Deterministic Simulation Testing and Formal Verification of Geo-Replicated Consensus Protocols in Massive Scale Actor Systems"
     ]
 }
