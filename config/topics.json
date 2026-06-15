@@ -301,7 +301,6 @@
         "Optimizing P99 Latency at Scale: Tail Latency Reduction Techniques in Distributed Databases for Hyperscale Workloads",
         "Beyond Consensus: Unpacking the Architectural Implications of Conflict-Free Replicated Data Types (CRDTs) in Globally Distributed Systems",
         "CRISPR-Cas Systems Beyond Gene Editing: Programmable RNA Targeting for Advanced Antiviral Therapies and Diagnostics",
-        "The Architectural Evolution of Hyperscale Data Center Network Fabrics: From Clos to Programmable Packet Processors",
         "Unpacking Meta's 'Project Titan': The 3D-Stacked Compute Fabrics Powering Next-Gen Inference at Exascale",
         "Dissecting the Global Control Plane: How Cloudflare's Durable Objects Manage Distributed State Across 330+ Cities in Under 50ms",
         "The Physics of Video Egress: How Netflix Bypassed the Linux Kernel to Achieve 1.5 Tbps per Node with io_uring and XDP",
@@ -513,6 +512,9 @@
         "Mitigation of Cascading Failures in Massive-Scale Microservices via Adaptive Concurrency Control and Priority Queuing",
         "Optimizing Global Tail Latency via Multi-Tiered EBPF-Based Load Balancing in Edge Compute Runtimes",
         "Architecting Shard-Agnostic Transactional Integrity in Geo-Distributed Spanner-Derivative Databases",
-        "Formal Verification of Cache Coherency Protocols in Custom Silicon for Hyperscale AI Training Clusters"
+        "Formal Verification of Cache Coherency Protocols in Custom Silicon for Hyperscale AI Training Clusters",
+        "Optimizing RDMA over Converged Ethernet (RoCE) for Multi-Tier Collective Communications in Blackwell GPU Clusters",
+        "Design Patterns for Deterministic Query Execution in Distributed LSM-Tree Architectures at Petabyte Scale",
+        "Mitigating Cold-Start Latency in Serverless Edge Runtimes via Ahead-of-Time Snapshot Restoration and Memory Ballooning"
     ]
 }
