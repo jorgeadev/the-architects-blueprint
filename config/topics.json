@@ -350,7 +350,6 @@
         "Disaggregated Memory Architectures: How CXL and Photonics are Reshaping Hyperscale Data Center Compute and Storage Fabrics",
         "Vector Database Indexing at Trillion-Scale: Optimizing HNSW and PQ for Low-Latency Similarity Search in Real-Time AI Applications",
         "Programmable Data Plane Evolution: From P4 to Silicon for Hyperscale Network Observability",
-        "Adaptive Congestion Control Mechanisms in Software-Defined WANs for Low-Latency Distributed AI Training",
         "Beyond AAV: Next-Generation Viral Vector Engineering for Enhanced Gene Therapy Delivery and Immunomodulation",
         "Disaggregated NVMe-oF and CXL-based memory pooling: Architecting the next generation of hyperscale cloud resource virtualization.",
         "Prime Editing's Breakthroughs: Expanding the Gene Editing Toolkit for Precise, Scarless Genomic Modifications and Therapeutic Applications.",
@@ -523,6 +522,9 @@
         "Bypassing the Kernel: A Deep Dive into DPDK-Driven Load Balancing for Terabit-Scale Distributed Denial of Service Mitigation",
         "Optimizing Tail Latency in Multi-Tenant LSM-Trees via Predictive Compaction and Write-Ahead Log Partitioning",
         "Beyond Sidecars: Implementing Zero-Copy Service Mesh Architectures using eBPF and XDP for Terabit-Scale Throughput",
-        "Solving the Thundering Herd Problem in Globally Distributed Edge Caches through Probabilistic Request Collapsing and Backpressure Propagation"
+        "Solving the Thundering Herd Problem in Globally Distributed Edge Caches through Probabilistic Request Collapsing and Backpressure Propagation",
+        "Implementing Zero-Copy Data Transfer for High-Throughput Service Meshes using eBPF and Shared Memory",
+        "Designing Globally Distributed Vector Databases: Solving the CAP Theorem for Real-Time Semantic Search at Scale",
+        "Deterministic Simulation Testing in Distributed Systems: Engineering Lessons from the Amazon Aurora Control Plane"
     ]
 }
