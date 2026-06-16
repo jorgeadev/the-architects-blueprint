@@ -283,7 +283,6 @@
         "Architecting for Quantum Resilience: Practical Implementation Challenges of Post-Quantum Cryptography in Global CDN and Distributed Ledger Infrastructures",
         "CRISPR-Cas Systems as Programmable Nanobots: Engineering Adeno-Associated Viral Vectors for Precision In-Vivo Gene Editing at Therapeutic Scale",
         "The Hyperscale Interconnect Fabrics Powering Trillion-Parameter LLM Training: A Deep Dive into Custom Silicon and Network Topologies",
-        "Architectural Innovations in Petabyte-Scale Feature Stores for Real-time AI Inference and Model Retraining",
         "Beyond AlphaFold: The Distributed Computational Infrastructure for De Novo Protein Design and High-Throughput Biological Simulation",
         "Practical Challenges and Architectural Solutions for Hyper-Scale Post-Quantum Cryptography Migration in Cloud Infrastructure",
         "Beyond Microservices: The Rise of WebAssembly-Powered Nanoservices and Serverless Edge Compute Architectures",
@@ -519,6 +518,9 @@
         "Deterministic Simulation Testing and Formal Verification of Geo-Replicated Consensus Protocols in Massive Scale Actor Systems",
         "Formal Verification of Distributed Consensus Protocols in Sub-millisecond Latency Vector Databases",
         "Hardware-Software Co-design for Zero-Copy Data Movement in Multi-Petaflop GPU Clusters",
-        "Architecting Global-Scale Egress-Free Multi-Cloud Meshes: A Deep Dive into Cloudflare’s Pingora Migration"
+        "Architecting Global-Scale Egress-Free Multi-Cloud Meshes: A Deep Dive into Cloudflare’s Pingora Migration",
+        "Implementing Hierarchical Conflict-Free Replicated Data Types (CRDTs) for Sub-Millisecond Global State Synchronization",
+        "The Architecture of Predictive Autoscaling: Using Transformer-Based Time-Series Forecasting for Proactive Infrastructure Provisioning",
+        "Bypassing the Kernel: A Deep Dive into DPDK-Driven Load Balancing for Terabit-Scale Distributed Denial of Service Mitigation"
     ]
 }
