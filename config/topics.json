@@ -98,7 +98,6 @@
         "Synthetic Virology: Designing Next-Generation Phage Therapies for Combatting Antimicrobial Resistance at Scale",
         "Disaggregating Compute and Memory at Hyperscale: Architectural Implications for Next-Gen Data Center Fabrics",
         "Scaling Foundation Models: Architectural Strategies for Terabyte-Scale Parameter Training on Distributed GPU Clusters",
-        "Decoupling the Monolith: Google's implementation of Service Weaver for planet-scale Spanner control plane re-architecting",
         "The Architectural Evolution of Hyperscale Data Center Network Fabrics for Terabit-Scale Interconnects and Congestion Management",
         "CRISPR-Guided Phage Engineering: Precision Delivery and Genetically Modified Viral Vectors for In Vivo Therapeutic Applications",
         "Decoding the Interconnects: Memory Bandwidth Bottlenecks and Custom Fabric Solutions for Trillion-Parameter LLM Inference",
@@ -521,6 +520,9 @@
         "Architecting Global-Scale Egress-Free Multi-Cloud Meshes: A Deep Dive into Cloudflare’s Pingora Migration",
         "Implementing Hierarchical Conflict-Free Replicated Data Types (CRDTs) for Sub-Millisecond Global State Synchronization",
         "The Architecture of Predictive Autoscaling: Using Transformer-Based Time-Series Forecasting for Proactive Infrastructure Provisioning",
-        "Bypassing the Kernel: A Deep Dive into DPDK-Driven Load Balancing for Terabit-Scale Distributed Denial of Service Mitigation"
+        "Bypassing the Kernel: A Deep Dive into DPDK-Driven Load Balancing for Terabit-Scale Distributed Denial of Service Mitigation",
+        "Optimizing Tail Latency in Multi-Tenant LSM-Trees via Predictive Compaction and Write-Ahead Log Partitioning",
+        "Beyond Sidecars: Implementing Zero-Copy Service Mesh Architectures using eBPF and XDP for Terabit-Scale Throughput",
+        "Solving the Thundering Herd Problem in Globally Distributed Edge Caches through Probabilistic Request Collapsing and Backpressure Propagation"
     ]
 }
