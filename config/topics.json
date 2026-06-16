@@ -60,7 +60,6 @@
         "Architecting Post-Quantum Cryptography Migrations for Hyperscale Cloud Infrastructure",
         "The Engineering Challenges of Maintaining Strong Global Consistency in Hyperscale Distributed Transactional Databases",
         "Computational Design and Large-Scale Synthesis Pipelines for Novel Oncolytic Virotherapy Agents",
-        "Next-Gen Optical Networks: Leveraging Coherent Optics and AI-Driven Wavelength Routing for Exascale Cloud Interconnects",
         "The Physics of Viral Propagation: Engineering the Sub-Second Edge Caching System Behind a Billion-View TikTok Trend",
         "Deconstructing Meta's Threads: The Real-Time Fanout and State Synchronization Architecture at Instagram Scale",
         "Beyond Sharding: Google's Next-Gen Spanner and the Physics of Globally Consistent, Low-Latency Databases",
@@ -525,6 +524,9 @@
         "Solving the Thundering Herd Problem in Globally Distributed Edge Caches through Probabilistic Request Collapsing and Backpressure Propagation",
         "Implementing Zero-Copy Data Transfer for High-Throughput Service Meshes using eBPF and Shared Memory",
         "Designing Globally Distributed Vector Databases: Solving the CAP Theorem for Real-Time Semantic Search at Scale",
-        "Deterministic Simulation Testing in Distributed Systems: Engineering Lessons from the Amazon Aurora Control Plane"
+        "Deterministic Simulation Testing in Distributed Systems: Engineering Lessons from the Amazon Aurora Control Plane",
+        "Deep Dive into Meta's AI Research SuperCluster: Orchestrating 24,576 H100 GPUs via RoCEv2 and InfiniBand Fabrics",
+        "Re-engineering the Edge: How Cloudflare’s Pingora Leverages Rust and Zero-Copy for 40 Million Requests per Second",
+        "Beyond Eventually Consistent: Implementing Global Snapshot Isolation in Netflix's CockroachDB Multi-Region Deployment"
     ]
 }
