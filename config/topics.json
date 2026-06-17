@@ -413,7 +413,6 @@
         "Architecting Zettabyte-Scale Data Lakes: Beyond Parquet and Iceberg with Direct-on-Flash Indexing",
         "Deep Dive into GPU-to-GPU Interconnects: Scaling Distributed Training via InfiniBand and RoCE v2 in Hyperscale Clusters",
         "Solving the C10M Problem at the Edge: Leveraging eBPF-based XDP for High-Performance Programmable Packet Processing",
-        "Formal Verification of Distributed Consensus in Amazon Aurora's Log-Structured Storage Engine",
         "Optimizing Tail Latency in Multi-Tenant Kubernetes Clusters via eBPF-driven Programmable Data Planes",
         "Architecting Zetta-scale Training Clusters: Hardware-Software Co-design for Meta's MTIA v2 Accelerators",
         "Optimizing Tail Latency in Multi-Tenant LLM Serving: A Deep Dive into Continuous Batching and KV-Cache Paging Architectures",
@@ -533,6 +532,9 @@
         "Zero-Copy Data Planes: Optimizing eBPF-driven Packet Filtering for 100Gbps+ Edge Gateway Infrastructures",
         "Eliminating Tail Latency at 10 Million QPS: A Case Study in Kernel-Bypass Networking and Sharded, Lock-Free Data Structures",
         "Unveiling the Hidden Topology: How Google's Jellyfish Network Topology Enables 100,000+ Node Clusters",
-        "The Engineering of the ‘Virtual Serverless Subnet’: AWS's Internal Infrastructure for Cross-AZ Zero-Cold-Start Container Orchestration"
+        "The Engineering of the ‘Virtual Serverless Subnet’: AWS's Internal Infrastructure for Cross-AZ Zero-Cold-Start Container Orchestration",
+        "Beyond Two-Phase Commit: Implementing Deterministic State Machine Replication in WhatsApp's New Globally Distributed Key-Value Store",
+        "Solving the Hot-Partition Problem in Serverless Databases: How Amazon DynamoDB Dynamically Rebalances Throughput at Microsecond Granularity",
+        "The Networking Stack of LLM Training: Leveraging RoCE v2 and GPU-Direct RDMA for Scaling Multi-Cluster InfiniBand Fabrics"
     ]
 }
