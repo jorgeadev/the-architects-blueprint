@@ -461,7 +461,6 @@
         "Architecting Zero-Copy Data Pipelines for Real-Time Feature Engineering at Petabyte Scale using eBPF and Shared Memory Regions",
         "Formal Verification of Distributed Transaction Protocols in Hyperscale Microservices: Bridging TLA+ Models with Rust Implementation",
         "Inside the BGP Routing Fabric of a Global Anycast CDN: Mitigating Route Leaks and Sub-Second Convergence at 500 Tbps",
-        "The Technical Aftermath of the Azure Storage Symphony Outage: A Deep Dive into Write-Ahead Log Corruption and Distributed Quorum Failures",
         "How Google Scaled its Spanner Backend to Serve 10 Billion Read/Write Operations Per Second Using a Novel TrueTime-Based Sharding Algorithm",
         "Optimizing Tail Latency in Multi-Tenant Distributed Key-Value Stores via Hardware-Accelerated Consensus Protocols",
         "Zero-Copy Data Transfer Pipelines in Hyperscale Observability Platforms using eBPF and Shared Memory Ring Buffers",
@@ -531,6 +530,9 @@
         "Beyond Two-Phase Commit: Implementing Deterministic Scheduling for Globally Distributed Multi-Writer Databases Using HLC and State Machine Replication",
         "Deep Dive: Implementing Multi-Tenant GPU Virtualization and RDMA-based Memory Pooling for LLM Inference Clusters",
         "Beyond Sharding: The Engineering Behind Global Strong Consistency in Geospatially Distributed Spanner-like Databases",
-        "Zero-Copy Data Planes: Optimizing eBPF-driven Packet Filtering for 100Gbps+ Edge Gateway Infrastructures"
+        "Zero-Copy Data Planes: Optimizing eBPF-driven Packet Filtering for 100Gbps+ Edge Gateway Infrastructures",
+        "Eliminating Tail Latency at 10 Million QPS: A Case Study in Kernel-Bypass Networking and Sharded, Lock-Free Data Structures",
+        "Unveiling the Hidden Topology: How Google's Jellyfish Network Topology Enables 100,000+ Node Clusters",
+        "The Engineering of the ‘Virtual Serverless Subnet’: AWS's Internal Infrastructure for Cross-AZ Zero-Cold-Start Container Orchestration"
     ]
 }
