@@ -372,7 +372,6 @@
         "Implementing Deterministic Simulation Testing to Validate Distributed Consensus Invariants in High-Throughput Storage Engines",
         "Optimizing Tail Latency in Massive-Scale Vector Search: A Deep Dive into HNSW Indexing Over Sharded Distributed Memory",
         "Strategies for Mitigating Cascading Failures in Global Service Meshes: Adaptive Concurrency Control and Proactive Load Shedding",
-        "Implementing Zero-Copy Data Planes for Terabit-Scale Load Balancing using eBPF and XDP",
         "Mitigating Tail Latency in Globally Distributed Consensus Engines through Predictive Pre-fetching and Write-Ahead Log Partitioning",
         "Optimizing GPU Memory Throughput for Multi-Tenant LLM Serving via Hierarchical PagedAttention and Dynamic KV Cache Compression",
         "Inside TikTok's Real-Time Recommendation Graph: Sharding, In-Memory Indexing, and the War on Cold Start Latency",
@@ -527,6 +526,9 @@
         "Deterministic Simulation Testing in Distributed Systems: Engineering Lessons from the Amazon Aurora Control Plane",
         "Deep Dive into Meta's AI Research SuperCluster: Orchestrating 24,576 H100 GPUs via RoCEv2 and InfiniBand Fabrics",
         "Re-engineering the Edge: How Cloudflare’s Pingora Leverages Rust and Zero-Copy for 40 Million Requests per Second",
-        "Beyond Eventually Consistent: Implementing Global Snapshot Isolation in Netflix's CockroachDB Multi-Region Deployment"
+        "Beyond Eventually Consistent: Implementing Global Snapshot Isolation in Netflix's CockroachDB Multi-Region Deployment",
+        "Optimizing Tail Latency in Distributed Vector Databases: Leveraging NVMe-over-Fabrics and RDMA for Sub-Millisecond Similarity Search at Petabyte Scale",
+        "Architectural Deep Dive into Meta's MTIA: Co-designing Silicon and PyTorch Compilers for Next-Generation Recommendation Systems",
+        "Beyond Two-Phase Commit: Implementing Deterministic Scheduling for Globally Distributed Multi-Writer Databases Using HLC and State Machine Replication"
     ]
 }
