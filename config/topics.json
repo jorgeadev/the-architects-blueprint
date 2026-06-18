@@ -140,7 +140,6 @@
         "The shift from NUMA to UMA: How Google's Jupiter network fabric is rewriting the assumptions of datacenter locality and memory access costs.",
         "Inside Meta's Project Aria: Reverse engineering the massive, real-time compute pipeline for AR glasses at planetary scale.",
         "The physics of power: How hyperscalers are engineering on-site nuclear microreactors to bypass grid limitations for exascale AI clusters.",
-        "Zero-Trust Networking at Exabyte Scale: Engineering Microsegmentation and Policy Enforcement for Hyperscale Cloud Infrastructure",
         "Real-Time Inference at Scale: Engineering AI Model Serving Infrastructure for Billions of Daily Queries",
         "Petabyte-Scale Genomics: Building Secure and Performant Pipelines for Population-Level Biomedical Data",
         "CRISPR-Cas9 System Repurposing for Programmable Epigenetic Modifiers: Challenges in Off-Target Effects and Delivery Vector Optimization for Therapeutic Scaling",
@@ -537,6 +536,9 @@
         "The Networking Stack of LLM Training: Leveraging RoCE v2 and GPU-Direct RDMA for Scaling Multi-Cluster InfiniBand Fabrics",
         "Zero-Trust Networking at Exascale: Implementing eBPF-driven Microsegmentation in Cloud-Native Environments",
         "The Evolution of Global Consensus: How Google Spanner integrates PTP and Hardware Clocks to bypass TrueTime limitations",
-        "Architecting for the LLM Inference Surge: Multi-level KV Caching and FlashAttention optimization in Distributed GPU Clusters"
+        "Architecting for the LLM Inference Surge: Multi-level KV Caching and FlashAttention optimization in Distributed GPU Clusters",
+        "Model Context Protocol: Reverse Engineering the Inter-Service Contract Layer Powering Real-Time Agent Orchestration at Cloudflare.",
+        "The 10 Microsecond Barrier: Dissecting Apple's Private Cloud Compute ASIC for On-Device Inference at Datacenter Scale.",
+        "Exabyte-Scale Checkpointing: How Meta's Log Structured Memory Fabric Eliminates Recompute in Distributed LLM Training."
     ]
 }
