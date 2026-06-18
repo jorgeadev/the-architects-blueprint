@@ -9,7 +9,6 @@
         "Apple's private cloud infrastructure: How they manage iCloud at an unprecedented global scale.",
         "Recent disruptive tech releases or viral developer trends on social media that captivated the engineering world.",
         "How Netflix achieved Multi-Region High Availability and zero downtime evacuations.",
-        "Stripe’s real-time ledger infrastructure: how they ensure 100% financial consistency at massive scale.",
         "TikTok’s recommendation algorithm infrastructure: serving ultra-personalized videos to over a billion users.",
         "Discord’s real-time messaging architecture: handling trillions of messages utilizing Cassandra and Rust.",
         "Cloudflare’s Edge computing architecture: how Workers deploy code to hundreds of data centers in milliseconds.",
@@ -535,6 +534,9 @@
         "The Engineering of the ‘Virtual Serverless Subnet’: AWS's Internal Infrastructure for Cross-AZ Zero-Cold-Start Container Orchestration",
         "Beyond Two-Phase Commit: Implementing Deterministic State Machine Replication in WhatsApp's New Globally Distributed Key-Value Store",
         "Solving the Hot-Partition Problem in Serverless Databases: How Amazon DynamoDB Dynamically Rebalances Throughput at Microsecond Granularity",
-        "The Networking Stack of LLM Training: Leveraging RoCE v2 and GPU-Direct RDMA for Scaling Multi-Cluster InfiniBand Fabrics"
+        "The Networking Stack of LLM Training: Leveraging RoCE v2 and GPU-Direct RDMA for Scaling Multi-Cluster InfiniBand Fabrics",
+        "Zero-Trust Networking at Exascale: Implementing eBPF-driven Microsegmentation in Cloud-Native Environments",
+        "The Evolution of Global Consensus: How Google Spanner integrates PTP and Hardware Clocks to bypass TrueTime limitations",
+        "Architecting for the LLM Inference Surge: Multi-level KV Caching and FlashAttention optimization in Distributed GPU Clusters"
     ]
 }
