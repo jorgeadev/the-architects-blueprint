@@ -35,7 +35,6 @@
         "Disaggregated Memory Architectures and Next-Gen Interconnects: Engineering the Hyperscale AI Training Fabrics of Tomorrow",
         "Beyond the Hype: Architecting Deterministic, State-Consistent Serverless at Hyperscale for Real-time Edge Computations",
         "The Role of Large-Scale Knowledge Graphs and AI in Accelerating Viral Variant Identification and Synthetic Biology Design",
-        "Implementing True Multi-Cloud Stateful Consensus Protocols: Engineering Challenges in Global Data Consistency and Latency.",
         "The Architecture and Performance Implications of Programmable Data Plane Interconnects (P4) for Hyperscale Microservices Mesh Optimization.",
         "CRISPR-Cas13 Based Antiviral Strategies: Engineering Sequence-Specific RNA Degradation for Pan-Viral Immunity.",
         "Synthetic biology approaches to engineering enhanced viral vectors for precise in-vivo gene delivery and reduced immunogenicity.",
@@ -543,6 +542,9 @@
         "Untangling the Write-Ahead Log: A Postmortem of the GCP Cloud Spanner Fan-Out Storm and the Introduction of Hybrid Latch-Free B-trees",
         "Implementing Hierarchical Cell-Based Routing to Mitigate Blast Radios in Global-Scale Anycast Networks",
         "Analyzing the Performance Trade-offs of eBPF-based Observability vs. Sidecar Proxies in High-Throughput Service Meshes",
-        "The Mechanics of Sharded Consensus: Deep Dive into Parallelized Transaction Ordering in Distributed Key-Value Stores"
+        "The Mechanics of Sharded Consensus: Deep Dive into Parallelized Transaction Ordering in Distributed Key-Value Stores",
+        "Disaggregated Memory at Meta: Unraveling the Tail Latency Implications of CXL-Based Tiered Memory Pools in Hyperscale Production",
+        "Rearchitecting for Laminar Flow: How Twitch Migrated from a Monolithic Transcoding Pipeline to a Dataflow-Driven, Hundred-Thousand-Core Stream Processor",
+        "The Geometry of Friction: Analyzing the Power and Thermal Constraints Forcing Hyperscalers to Adopt Spatial Compute Architectures in the Post-Photolithography Era"
     ]
 }
