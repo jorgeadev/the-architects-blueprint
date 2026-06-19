@@ -430,7 +430,6 @@
         "Optimizing tail latency in geo-distributed key-value stores using predictive RDMA-based cache invalidation and hardware-accelerated consensus",
         "A deep dive into zero-copy networking and eBPF-driven observability for high-throughput packet processing in cloud-native edge infrastructures",
         "Architecting Asynchronous Geo-Replicated Vector Databases for Sub-Millisecond Global Semantic Search",
-        "Formal Verification of Distributed Consensus Protocols in Large-Scale Serverless Compute Runtimes",
         "Optimizing L3 Cache Contention in Multi-Tenant Hypervisors using Hardware-Assisted Resource Partitioning",
         "Deep Dive: Meta's RoCE-based Network Fabric for 24,576 H100 GPU Training Clusters",
         "Architecting for 100M RPS: The Evolution of Cloudflare's Quicksilver Key-Value Store",
@@ -545,6 +544,9 @@
         "The Mechanics of Sharded Consensus: Deep Dive into Parallelized Transaction Ordering in Distributed Key-Value Stores",
         "Disaggregated Memory at Meta: Unraveling the Tail Latency Implications of CXL-Based Tiered Memory Pools in Hyperscale Production",
         "Rearchitecting for Laminar Flow: How Twitch Migrated from a Monolithic Transcoding Pipeline to a Dataflow-Driven, Hundred-Thousand-Core Stream Processor",
-        "The Geometry of Friction: Analyzing the Power and Thermal Constraints Forcing Hyperscalers to Adopt Spatial Compute Architectures in the Post-Photolithography Era"
+        "The Geometry of Friction: Analyzing the Power and Thermal Constraints Forcing Hyperscalers to Adopt Spatial Compute Architectures in the Post-Photolithography Era",
+        "Deep Dive into Deterministic Simulation Testing: How Modern Distributed Databases Achieve 100% Correctness Under Fault Injection",
+        "Zero-Copy Data Transfer and eBPF: Engineering High-Throughput Networking for Next-Generation Cloud-Native Proxies",
+        "The Hardware-Software Co-design of Custom LLM Accelerators: Architectural Trade-offs in HBM3 and Interconnect Topology for Massive Scale Inference"
     ]
 }
