@@ -377,7 +377,6 @@
         "The Untold Story of Amazon's Sidewalk Mesh Scaling to 100 Million Nodes: Interference Mitigation and Long-Range Physical Layer Tuning",
         "Morphed microarchitectures: how hyperscalers are replacing traditional hypervisors with lightweight, hardware-backed enclave orchestrators for sub-millisecond tenant isolation",
         "The physics of packet pacing: analyzing Google's Jupiter Rising and the shift from distributed load balancers to in-network congestion control at the ExaFLOPS scale",
-        "Inside Google's Global Spanner: How TrueTime and Atomic Clocks Enable Planet-Wide Distributed ACID Transactions at Exabyte Scale",
         "The Cache Hierarchy of the Internet: Dissecting Netflix's Distributed Memcached and Point-of-Presence Architecture for Millions of Concurrent Streams",
         "Meta's GenAI GPU Cluster Interconnect: A Deep Dive into the Network Topology, RoCEv2 Congestion Control, and Thermal Management of 100,000-H100 Pods",
         "Implementing Zero-Copy RDMA in Petascale GPU Clusters: Solving the Memory Wall for Distributed LLM Training Fabrics",
@@ -549,6 +548,9 @@
         "The Hardware-Software Co-design of Custom LLM Accelerators: Architectural Trade-offs in HBM3 and Interconnect Topology for Massive Scale Inference",
         "Decoding the Bloom Filter Cascade: How Meta Optimizes GraphQL N+1 Queries at Exabyte Scale with Probabilistic Data Structures",
         "Deep Dive into CPRO: Google's Confidential Peer Review Orchestrator for Air-Gapped, Zero-Trust Build Pipelines Across 10,000+ Services",
-        "The Thermodynamic Limit of Liquid Immersion Cooling: Analyzing AWS's Synthetic Diamond-Infused Dielectric Coolant for Sub-7nm Exascale Clusters"
+        "The Thermodynamic Limit of Liquid Immersion Cooling: Analyzing AWS's Synthetic Diamond-Infused Dielectric Coolant for Sub-7nm Exascale Clusters",
+        "Quantized Federated Backpropagation: Optimizing Model Training Across 10^5 Heterogeneous Edge Nodes with Sub-Millisecond Sync Windows",
+        "Decoding the Global Control Plane: How Meta's Project Wormhole CS Orchestrates Real-Time Traffic Shaping for Exabyte-Scale Video Pipelines",
+        "A Deep Dive into AWS's Hyperscale SRAM Overprovisioning Strategy: Mitigating Tail Latency in Post-Exabyte S3 Storage Clusters via Redundant Cache Coherency Protocols"
     ]
 }
