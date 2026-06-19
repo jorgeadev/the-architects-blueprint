@@ -166,7 +166,6 @@
         "Inside the Erasure Coding War: How Meta and Google are Re-Architecting Petabyte-Scale Cold Storage Around Noise Injection",
         "Finding the Needle in the Firehose: A Postmortem on the exabyte-level indexing failure that cascaded from a single BGP misconfiguration",
         "CXL 3.0 and the Future of Disaggregated Memory Architectures in Hyperscale Data Centers",
-        "The Distributed Systems Engineering Challenges Behind Training Trillion-Parameter AI Models",
         "Leveraging Programmable CRISPR-Cas Systems for RNA-Targeting Diagnostics and Therapeutics",
         "The Hyperscale Interconnect Fabrics Powering Trillion-Parameter AI Model Training Clusters",
         "Designing Global Multi-Version Concurrency Control Mechanisms for Petabyte-Scale Real-Time Transactional Systems",
@@ -547,6 +546,9 @@
         "The Geometry of Friction: Analyzing the Power and Thermal Constraints Forcing Hyperscalers to Adopt Spatial Compute Architectures in the Post-Photolithography Era",
         "Deep Dive into Deterministic Simulation Testing: How Modern Distributed Databases Achieve 100% Correctness Under Fault Injection",
         "Zero-Copy Data Transfer and eBPF: Engineering High-Throughput Networking for Next-Generation Cloud-Native Proxies",
-        "The Hardware-Software Co-design of Custom LLM Accelerators: Architectural Trade-offs in HBM3 and Interconnect Topology for Massive Scale Inference"
+        "The Hardware-Software Co-design of Custom LLM Accelerators: Architectural Trade-offs in HBM3 and Interconnect Topology for Massive Scale Inference",
+        "Decoding the Bloom Filter Cascade: How Meta Optimizes GraphQL N+1 Queries at Exabyte Scale with Probabilistic Data Structures",
+        "Deep Dive into CPRO: Google's Confidential Peer Review Orchestrator for Air-Gapped, Zero-Trust Build Pipelines Across 10,000+ Services",
+        "The Thermodynamic Limit of Liquid Immersion Cooling: Analyzing AWS's Synthetic Diamond-Infused Dielectric Coolant for Sub-7nm Exascale Clusters"
     ]
 }
