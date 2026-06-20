@@ -396,7 +396,6 @@
         "Leveraging eBPF and XDP for Terabit-Scale DDoS Mitigation in Edge Mesh Networks",
         "Solving Thundering Herd Problems in Globally Distributed Cache Layers via Probabilistic Lease Mechanisms",
         "Optimizing Write Amplification and Compaction Latency in Log-Structured Merge-Trees for Multi-Petabyte SSD Arrays",
-        "Zero-RPO Multi-Region Active-Active Consistency: Implementing Hybrid Logical Clocks in Globally Distributed Spanner-like Databases",
         "Zero-Copy Packet Processing at Petabit Scale: Dissecting the Data Plane Design of Meta's Next-Gen AI Fabric",
         "Distributed Chaos: Analyzing the Cascading Failures in Google's Borg Scheduler During the 2024 Global Memory Bus Incident",
         "Designing Low-Latency Consensus: A Deep Dive into Deterministic State Machine Replication for Global Tier-0 Infrastructure",
@@ -557,6 +556,9 @@
         "Hierarchical Vector Search: Optimizing Billion-Scale HNSW Indices for Sub-10ms Latency in Distributed LLM RAG Pipelines",
         "Beyond Raft: Scaling consensus for NVMe-over-Fabrics using hardware-accelerated sequencers",
         "Exploiting eBPF for dynamic L4 load balancing in 400GbE massive-scale mesh networks",
-        "Solving the thundering herd: Predictive admission control for petabyte-scale serverless cold starts"
+        "Solving the thundering herd: Predictive admission control for petabyte-scale serverless cold starts",
+        "Optimizing Global L7 Load Balancing via eBPF-driven XDP Acceleration for Sub-Millisecond Tail Latency",
+        "Engineering Petabyte-Scale Vector Embeddings: Solving the Index Rebalancing Problem in Real-Time Retrieval Infrastructure",
+        "Deep Dive into Tiered Storage Architectures for Distributed Log-Structured Merge-Trees in High-Throughput Cloud Databases"
     ]
 }
