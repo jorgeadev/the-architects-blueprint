@@ -198,7 +198,6 @@
         "Engineering Self-Amplifying RNA Vectors for Next-Generation Pandemic Preparedness and Broad-Spectrum Immunotherapy",
         "The architectural evolution of AI model serving platforms from batch to real-time inference at exabyte scale.",
         "Leveraging eBPF for deep kernel-level observability and anomaly detection in cloud-native microservice meshes.",
-        "The role of advanced graph neural networks and cloud-scale computation in accelerating novel viral vector design for gene therapy.",
         "The Architectural Shift in Hyperscale Data Center Interconnects: From DWDM to Photonic Integrated Circuits and Software-Defined Fabrics",
         "The architectural evolution of real-time serverless function orchestration across heterogeneous cloud regions for low-latency edge AI inference.",
         "The emerging architectural patterns for synthetic viral vector design optimization using reinforcement learning for in-vivo gene therapy delivery.",
@@ -555,6 +554,9 @@
         "Taming Tail Latency in Large Language Model Inference: Hardware-Aware KV Cache Management and Continuous Batching Architectures",
         "Deterministic Simulation Testing: Implementing Fault-Injection Frameworks for High-Throughput Distributed Financial Ledgers",
         "The Architecture of Zero-Copy Packet Processing: Leveraging DPDK and eBPF to Scale L4 Load Balancing to 100Tbps",
-        "Hierarchical Vector Search: Optimizing Billion-Scale HNSW Indices for Sub-10ms Latency in Distributed LLM RAG Pipelines"
+        "Hierarchical Vector Search: Optimizing Billion-Scale HNSW Indices for Sub-10ms Latency in Distributed LLM RAG Pipelines",
+        "Beyond Raft: Scaling consensus for NVMe-over-Fabrics using hardware-accelerated sequencers",
+        "Exploiting eBPF for dynamic L4 load balancing in 400GbE massive-scale mesh networks",
+        "Solving the thundering herd: Predictive admission control for petabyte-scale serverless cold starts"
     ]
 }
