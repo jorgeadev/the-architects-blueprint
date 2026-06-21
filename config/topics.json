@@ -179,7 +179,6 @@
         "Synthetic genomics and de novo genome design: Computational architectures for high-throughput gene synthesis, error correction, and biological circuit optimization.",
         "The invisible backbone: Ultra-low latency optical mesh networks powering hyperscale data center interconnectivity and cross-region replication.",
         "Cloud-Native Bare Metal Provisioning: Orchestration, Isolation, and Performance at Hyperscale",
-        "Beyond Replication: Advanced Erasure Coding and Strong Consistency in Zettabyte-Scale Distributed Object Storage",
         "Precision Gene Modulation: Architecting Programmable RNA Therapeutics for In Vivo Cell-Type Specificity",
         "The architecture of disaggregated memory pools and CXL-based resource orchestration in next-gen hyperscale compute clusters.",
         "Beyond CRISPR-Cas9: Leveraging engineered bacteriophages as targeted antibacterial agents for overcoming antibiotic resistance.",
@@ -559,6 +558,9 @@
         "Solving the thundering herd: Predictive admission control for petabyte-scale serverless cold starts",
         "Optimizing Global L7 Load Balancing via eBPF-driven XDP Acceleration for Sub-Millisecond Tail Latency",
         "Engineering Petabyte-Scale Vector Embeddings: Solving the Index Rebalancing Problem in Real-Time Retrieval Infrastructure",
-        "Deep Dive into Tiered Storage Architectures for Distributed Log-Structured Merge-Trees in High-Throughput Cloud Databases"
+        "Deep Dive into Tiered Storage Architectures for Distributed Log-Structured Merge-Trees in High-Throughput Cloud Databases",
+        "Implementing Zero-Copy Data Planes for Terabit-Scale Load Balancing using DPDK and eBPF",
+        "Solving the Thundering Herd Problem in Global Cache Invalidation Frameworks for Real-Time Ad-Bidding",
+        "Deterministic Simulation Testing for Distributed Consensus Protocols in Large-Scale Vector Databases"
     ]
 }
