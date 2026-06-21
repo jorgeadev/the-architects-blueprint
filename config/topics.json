@@ -270,7 +270,6 @@
         "Adaptive Congestion Control Mechanisms in Hyperscale Data Center Networks for AI/ML Workloads",
         "Achieving Strong Global Consistency in Multi-Region Distributed Databases Using Causality Tracking and Hybrid Logical Clocks",
         "CRISPR-Powered Phage Engineering for Precision Microbiome Modulation and Multi-Drug Resistant Pathogen Eradication",
-        "Architecting for Quantum Resilience: Practical Implementation Challenges of Post-Quantum Cryptography in Global CDN and Distributed Ledger Infrastructures",
         "CRISPR-Cas Systems as Programmable Nanobots: Engineering Adeno-Associated Viral Vectors for Precision In-Vivo Gene Editing at Therapeutic Scale",
         "The Hyperscale Interconnect Fabrics Powering Trillion-Parameter LLM Training: A Deep Dive into Custom Silicon and Network Topologies",
         "Beyond AlphaFold: The Distributed Computational Infrastructure for De Novo Protein Design and High-Throughput Biological Simulation",
@@ -565,6 +564,9 @@
         "Architecting Web-Scale Vector Search: Hierarchical Navigable Small Worlds (HNSW) Indexing on GPU-Accelerated Clusters",
         "Zero-Downtime Migration of Petabyte-Scale Spanner Instances via Custom CDC Pipelines",
         "Optimizing Tail Latency in Global Service Meshes using eBPF-Driven Kernel Bypass",
-        "Architecting Ultra-Low Latency Inference Engines: A Deep Dive into NVIDIA Hopper Transformer Engine at Scale"
+        "Architecting Ultra-Low Latency Inference Engines: A Deep Dive into NVIDIA Hopper Transformer Engine at Scale",
+        "Dissecting the data plane: A deep dive into Meta's 800G DWDM optical transport backbone for cross-cluster AI training traffic",
+        "The physics of the cold start: How Google's colossus-derived heat pump preheating reduces PUE variance in hyperscale data centers by 14%",
+        "Transactional memory at planetary scale: The design of Amazon's multi-region, consensus-free ledger for Prime Video's real-time session state"
     ]
 }
