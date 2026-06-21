@@ -530,7 +530,6 @@
         "Exabyte-Scale Checkpointing: How Meta's Log Structured Memory Fabric Eliminates Recompute in Distributed LLM Training.",
         "Dissecting the Control Plane: A Deep Dive into the Consistent Hash Ring and FDB-Aware State Management in Apple's iCloud Infrastructure",
         "The Real-Time DAG: How Meta's Velox and Presto Orchestrate Petabyte-Scale Vector Search with Sub-100ms Latency for AI Feeds",
-        "Untangling the Write-Ahead Log: A Postmortem of the GCP Cloud Spanner Fan-Out Storm and the Introduction of Hybrid Latch-Free B-trees",
         "Implementing Hierarchical Cell-Based Routing to Mitigate Blast Radios in Global-Scale Anycast Networks",
         "Analyzing the Performance Trade-offs of eBPF-based Observability vs. Sidecar Proxies in High-Throughput Service Meshes",
         "The Mechanics of Sharded Consensus: Deep Dive into Parallelized Transaction Ordering in Distributed Key-Value Stores",
@@ -563,6 +562,9 @@
         "Deterministic Simulation Testing for Distributed Consensus Protocols in Large-Scale Vector Databases",
         "Deep Dive into Zero-Copy Buffer Management and RDMA Integration in Distributed Log Storage Engines",
         "Solving the Tail Latency Problem in Multi-Region Distributed Databases using Predictive Consensus Protocols",
-        "Architecting Web-Scale Vector Search: Hierarchical Navigable Small Worlds (HNSW) Indexing on GPU-Accelerated Clusters"
+        "Architecting Web-Scale Vector Search: Hierarchical Navigable Small Worlds (HNSW) Indexing on GPU-Accelerated Clusters",
+        "Zero-Downtime Migration of Petabyte-Scale Spanner Instances via Custom CDC Pipelines",
+        "Optimizing Tail Latency in Global Service Meshes using eBPF-Driven Kernel Bypass",
+        "Architecting Ultra-Low Latency Inference Engines: A Deep Dive into NVIDIA Hopper Transformer Engine at Scale"
     ]
 }
