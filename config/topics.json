@@ -283,7 +283,6 @@
         "Architecting Multi-Tenant, Petabyte-Scale Data Lakes for Real-time AI/ML Training: A Deep Dive into Distributed Query Optimization",
         "How Netflix transitioned its Chaos Monkey from pod-level abstraction to hardware-level fault injection via BMC-based PCIe bus error triggering.",
         "Inside Meta's WAN traffic engineering: How OSPFv3 segment routing and weighted ECMP replace MPLS at global scale.",
-        "A deep dive into Google's Jupiter network fabric v2: Optical circuit switching and the end of spine-leaf topologies.",
         "Optimizing P99 Latency at Scale: Tail Latency Reduction Techniques in Distributed Databases for Hyperscale Workloads",
         "Beyond Consensus: Unpacking the Architectural Implications of Conflict-Free Replicated Data Types (CRDTs) in Globally Distributed Systems",
         "CRISPR-Cas Systems Beyond Gene Editing: Programmable RNA Targeting for Advanced Antiviral Therapies and Diagnostics",
@@ -571,6 +570,9 @@
         "Mitigating P99.9 Tail Latency in Globally Sharded Vector Databases through Predictive Read-Ahead and Adaptive Congestion Control",
         "Optimizing Tail Latency in Geo-Distributed Multi-Paxos Consensus Engines for Global Scale Metadata Stores",
         "Implementing Zero-Copy Networking with XDP and eBPF for High-Throughput Packet Processing in Edge CDN Clusters",
-        "Architecting Hierarchical GPU Memory Interconnects and RoCE v2 Fabrics for Exascale LLM Training Clusters"
+        "Architecting Hierarchical GPU Memory Interconnects and RoCE v2 Fabrics for Exascale LLM Training Clusters",
+        "Optimizing Tail Latency in Global Multi-Region Service Meshes: A Deep Dive into eBPF-Based Request Steering and Congestion Control",
+        "Designing for Consistency at Edge: Implementing Causal Ordering in Globally Distributed Key-Value Stores via Hybrid Logical Clocks",
+        "The Evolution of Cluster Scheduling: How Meta Manages Millisecond-Level Resource Allocation Across Millions of Heterogeneous GPU Cores"
     ]
 }
