@@ -4,7 +4,6 @@
         "How Meta handles billions of daily active users: frontend-to-backend architecture.",
         "Amazon Web Services: the true scale of their compute power and physical data center distribution.",
         "Netflix's massive CDN, Open Connect, and how they stream petabytes of video seamlessly.",
-        "The engineering behind Twitter/X: transitioning from a monolith to microservices and how they handle viral hype spikes.",
         "What goes into designing the hardware for custom AI accelerators like Google TPUs and AWS Inferentia?",
         "Apple's private cloud infrastructure: How they manage iCloud at an unprecedented global scale.",
         "Recent disruptive tech releases or viral developer trends on social media that captivated the engineering world.",
@@ -569,6 +568,9 @@
         "Transactional memory at planetary scale: The design of Amazon's multi-region, consensus-free ledger for Prime Video's real-time session state",
         "Implementing Zero-Copy Data Movement in High-Throughput RDMA-Based Storage Clusters for LLM Training",
         "A Deep Dive into Hierarchical Ring-AllReduce Optimization for Multi-Petaflop Distributed AI Orchestration",
-        "Mitigating P99.9 Tail Latency in Globally Sharded Vector Databases through Predictive Read-Ahead and Adaptive Congestion Control"
+        "Mitigating P99.9 Tail Latency in Globally Sharded Vector Databases through Predictive Read-Ahead and Adaptive Congestion Control",
+        "Optimizing Tail Latency in Geo-Distributed Multi-Paxos Consensus Engines for Global Scale Metadata Stores",
+        "Implementing Zero-Copy Networking with XDP and eBPF for High-Throughput Packet Processing in Edge CDN Clusters",
+        "Architecting Hierarchical GPU Memory Interconnects and RoCE v2 Fabrics for Exascale LLM Training Clusters"
     ]
 }
