@@ -379,7 +379,6 @@
         "Architecting geo-distributed vector databases: Solving high-dimensional nearest neighbor search at petabyte scale",
         "Optimizing GPU Interconnect Topologies: A Deep Dive into NVIDIA's Magnum IO and GPUDirect Storage at Exascale",
         "Solving the Tail Latency Problem in Globally Distributed KV Stores using Predictive Request Hedging and RDMA-Based Consensus",
-        "Post-Microservices Architecture: Engineering the High-Performance Macro-Service Layer at Meta for Sub-Millisecond RPC Orchestration",
         "Implementing Deterministic Simulation Testing for Distributed Consensus: Lessons from TigerBeetle and FoundationDB",
         "Reducing P99 Tail Latency in Multi-Tenant LLM Serving: KV-Cache Fragmentation and PagedAttention Architectures",
         "Beyond Raft: Architecting Globally Distributed Meta-Indices using Hierarchical Paxos and Quorum Leases",
@@ -567,6 +566,9 @@
         "Architecting Ultra-Low Latency Inference Engines: A Deep Dive into NVIDIA Hopper Transformer Engine at Scale",
         "Dissecting the data plane: A deep dive into Meta's 800G DWDM optical transport backbone for cross-cluster AI training traffic",
         "The physics of the cold start: How Google's colossus-derived heat pump preheating reduces PUE variance in hyperscale data centers by 14%",
-        "Transactional memory at planetary scale: The design of Amazon's multi-region, consensus-free ledger for Prime Video's real-time session state"
+        "Transactional memory at planetary scale: The design of Amazon's multi-region, consensus-free ledger for Prime Video's real-time session state",
+        "Implementing Zero-Copy Data Movement in High-Throughput RDMA-Based Storage Clusters for LLM Training",
+        "A Deep Dive into Hierarchical Ring-AllReduce Optimization for Multi-Petaflop Distributed AI Orchestration",
+        "Mitigating P99.9 Tail Latency in Globally Sharded Vector Databases through Predictive Read-Ahead and Adaptive Congestion Control"
     ]
 }
