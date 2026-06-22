@@ -1,7 +1,13 @@
 import * as fs from "fs";
 import * as path from "path";
-import { generateNewTopics, loadTopics, generateWithRetry, fetchImageBuffer } from "./utils";
-import { IMAGE_WIDTH, IMAGE_HEIGHT, POLLINATIONS_BASE_URL } from "./constants";
+import {
+    generateNewTopics,
+    loadTopics,
+    generateWithRetry,
+    fetchImageBuffer,
+    buildPollinationsImageUrl,
+    createAbstractPlaceholderSvg,
+} from "./utils";
 
 // Initialize configuration
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY as string;
@@ -127,23 +133,20 @@ Only return the raw prompt text.`;
             console.log("Generating AI image prompt...");
             const imagePromptRaw = await generateWithRetry(imagePromptPrompt);
             console.log("Processed image prompt:\n" + imagePromptRaw);
-            const imagePrompt = imagePromptRaw
-                .replace(/\*\*/g, "")
-                .replace(/:/g, " ")
-                .replace(/\n/g, " ")
-                .trim();
-            const imageUrl = `${POLLINATIONS_BASE_URL}/${encodeURIComponent(imagePrompt)}?model=flux&width=${IMAGE_WIDTH}&height=${IMAGE_HEIGHT}`;
+            const imagePrompt = imagePromptRaw.replace(/\n/g, " ").trim();
+            const imageUrl = buildPollinationsImageUrl(imagePrompt);
             console.log(`Generated image URL: ${imageUrl}`);
 
             console.log("Downloading image buffer...");
             let imageBuffer = await fetchImageBuffer(imageUrl);
+            let usedPlaceholderImage = false;
 
             if (!imageBuffer) {
                 console.warn(
                     "Failed to download custom AI image. Falling back to a reliable abstract placeholder image..."
                 );
-                const fallbackUrl = `https://picsum.photos/${IMAGE_WIDTH}/${IMAGE_HEIGHT}`;
-                imageBuffer = await fetchImageBuffer(fallbackUrl);
+                imageBuffer = createAbstractPlaceholderSvg(randomTopic);
+                usedPlaceholderImage = true;
             }
 
             if (!imageBuffer) {
@@ -169,7 +172,7 @@ Only return the raw prompt text.`;
                     .substring(0, 60);
             }
 
-            const imageFileName = `${imageSlug}.jpg`;
+            const imageFileName = `${imageSlug}${usedPlaceholderImage ? ".svg" : ".jpg"}`;
             const imageDir = path.join(process.cwd(), "web", "public", "images", year, month, day);
 
             if (!fs.existsSync(imageDir)) {

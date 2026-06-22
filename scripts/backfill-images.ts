@@ -1,7 +1,11 @@
 import * as fs from "fs";
 import * as path from "path";
-import { generateWithRetry, fetchImageBuffer } from "./utils";
-import { IMAGE_WIDTH, IMAGE_HEIGHT, POLLINATIONS_BASE_URL } from "./constants";
+import {
+    generateWithRetry,
+    fetchImageBuffer,
+    buildPollinationsImageUrl,
+    createAbstractPlaceholderSvg,
+} from "./utils";
 
 function findMarkdownFiles(dir: string): string[] {
     const results: string[] = [];
@@ -68,22 +72,19 @@ Only return the raw prompt text.`;
 
             console.log("   -> Generating AI prompt context...");
             const imagePromptRaw = await generateWithRetry(imagePromptPrompt);
-            const imagePrompt = imagePromptRaw
-                .replace(/\*\*/g, "")
-                .replace(/:/g, " ")
-                .replace(/\n/g, " ")
-                .trim();
-            const imageUrl = `${POLLINATIONS_BASE_URL}/${encodeURIComponent(imagePrompt)}?model=flux&width=${IMAGE_WIDTH}&height=${IMAGE_HEIGHT}`;
+            const imagePrompt = imagePromptRaw.replace(/\n/g, " ").trim();
+            const imageUrl = buildPollinationsImageUrl(imagePrompt);
 
             console.log("   -> Fetching from pollinations.ai...");
             let imageBuffer = await fetchImageBuffer(imageUrl);
+            let usedPlaceholderImage = false;
 
             if (!imageBuffer) {
                 console.warn(
                     `   -> Failed to download custom AI image for ${fileName}. Falling back to a placeholder...`
                 );
-                const fallbackUrl = `https://picsum.photos/${IMAGE_WIDTH}/${IMAGE_HEIGHT}`;
-                imageBuffer = await fetchImageBuffer(fallbackUrl);
+                imageBuffer = createAbstractPlaceholderSvg(title);
+                usedPlaceholderImage = true;
             }
 
             if (!imageBuffer) {
@@ -98,7 +99,7 @@ Only return the raw prompt text.`;
             const imageDir = path.join(publicImagesRoot, year, month, day);
             fs.mkdirSync(imageDir, { recursive: true });
 
-            const imageFileName = `${imageSlug}.jpg`;
+            const imageFileName = `${imageSlug}${usedPlaceholderImage ? ".svg" : ".jpg"}`;
             const absoluteImagePath = path.join(imageDir, imageFileName);
             fs.writeFileSync(absoluteImagePath, imageBuffer);
 
