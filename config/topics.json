@@ -506,7 +506,6 @@
         "Deep Dive into Meta's AI Research SuperCluster: Orchestrating 24,576 H100 GPUs via RoCEv2 and InfiniBand Fabrics",
         "Re-engineering the Edge: How Cloudflare’s Pingora Leverages Rust and Zero-Copy for 40 Million Requests per Second",
         "Beyond Eventually Consistent: Implementing Global Snapshot Isolation in Netflix's CockroachDB Multi-Region Deployment",
-        "Optimizing Tail Latency in Distributed Vector Databases: Leveraging NVMe-over-Fabrics and RDMA for Sub-Millisecond Similarity Search at Petabyte Scale",
         "Architectural Deep Dive into Meta's MTIA: Co-designing Silicon and PyTorch Compilers for Next-Generation Recommendation Systems",
         "Beyond Two-Phase Commit: Implementing Deterministic Scheduling for Globally Distributed Multi-Writer Databases Using HLC and State Machine Replication",
         "Deep Dive: Implementing Multi-Tenant GPU Virtualization and RDMA-based Memory Pooling for LLM Inference Clusters",
@@ -573,6 +572,9 @@
         "Architecting Hierarchical GPU Memory Interconnects and RoCE v2 Fabrics for Exascale LLM Training Clusters",
         "Optimizing Tail Latency in Global Multi-Region Service Meshes: A Deep Dive into eBPF-Based Request Steering and Congestion Control",
         "Designing for Consistency at Edge: Implementing Causal Ordering in Globally Distributed Key-Value Stores via Hybrid Logical Clocks",
-        "The Evolution of Cluster Scheduling: How Meta Manages Millisecond-Level Resource Allocation Across Millions of Heterogeneous GPU Cores"
+        "The Evolution of Cluster Scheduling: How Meta Manages Millisecond-Level Resource Allocation Across Millions of Heterogeneous GPU Cores",
+        "Deep-dive into Google's Spanner RISC-V pilot: implications for latency and power at planetary scale.",
+        "How Cloudflare's Durable Objects ecosystem now processes 10 million stateful WebSocket sessions per node.",
+        "An analysis of Meta's new 24k GPU cluster for Llama 4 training: network topology, thermal management, and failure rates."
     ]
 }
