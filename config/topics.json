@@ -506,7 +506,6 @@
         "Re-engineering the Edge: How Cloudflare’s Pingora Leverages Rust and Zero-Copy for 40 Million Requests per Second",
         "Beyond Eventually Consistent: Implementing Global Snapshot Isolation in Netflix's CockroachDB Multi-Region Deployment",
         "Architectural Deep Dive into Meta's MTIA: Co-designing Silicon and PyTorch Compilers for Next-Generation Recommendation Systems",
-        "Beyond Two-Phase Commit: Implementing Deterministic Scheduling for Globally Distributed Multi-Writer Databases Using HLC and State Machine Replication",
         "Deep Dive: Implementing Multi-Tenant GPU Virtualization and RDMA-based Memory Pooling for LLM Inference Clusters",
         "Beyond Sharding: The Engineering Behind Global Strong Consistency in Geospatially Distributed Spanner-like Databases",
         "Zero-Copy Data Planes: Optimizing eBPF-driven Packet Filtering for 100Gbps+ Edge Gateway Infrastructures",
@@ -581,6 +580,9 @@
         "Optimizing Tail Latency in Tiered Storage Architectures Using Predictive NVMe Pre-warming and Request Hedging",
         "Zero-Trust Ingress at Scale: Implementing mTLS and Identity-Aware Proxies for Multi-Region Kubernetes Fleets",
         "Deterministic Simulation Testing in Distributed Databases: How FoundationDB and TigerBeetle Prevent Rare Consensus Failures",
-        "Optimizing KV Cache Management for Multi-Tenant LLM Serving: A Deep Dive into PagedAttention and FlashAttention Integration"
+        "Optimizing KV Cache Management for Multi-Tenant LLM Serving: A Deep Dive into PagedAttention and FlashAttention Integration",
+        "Implementing eBPF-based L4 Load Balancing for 100M+ Concurrent Connections: A Deep Dive into XDP and Katran Evolution",
+        "Zero-Trust Networking at Scale: Deconstructing the mTLS Overheads in Service Mesh Architectures for Global Edge PoPs",
+        "Deterministic Simulation Testing at Scale: How FoundationDB Validates Distributed State Machine Consistency Under Network Partitions"
     ]
 }
