@@ -151,7 +151,6 @@
         "Hardware-Accelerated Zero-Trust Networking for Intra-Datacenter Microservices at Hyperscale",
         "Beyond Paxos and Raft: Exploring Quorum-Less Distributed State Management for Planetary-Scale Edge Compute",
         "The architectural evolution of large language model serving: from static endpoints to dynamic, multi-tenant inference graphs.",
-        "DNA as a data center: Engineering challenges and potential of high-density genomic information storage and retrieval.",
         "Architecting Trillion-Parameter AI: The Role of Optical Interconnects and Network Fabric Topologies",
         "Next-Gen Gene Delivery: Engineering AAV Serotypes and Non-Viral Nanoparticle Encapsulation for Advanced Therapies",
         "Advanced AAV Capsid Directed Evolution for Precision In Vivo Gene Editing Delivery Systems",
@@ -585,6 +584,9 @@
         "Deterministic Simulation Testing at Scale: How FoundationDB Validates Distributed State Machine Consistency Under Network Partitions",
         "Scaling Distributed Training: Optimizing NCCL Collective Communication for 100,000+ GPU Clusters via Hierarchical Network Topologies",
         "Reducing Tail Latency in Multi-Tenant Vector Databases: Implementing Tiered Indexing and Write-Ahead Log Partitioning for RAG at Petabyte Scale",
-        "Beyond eBPF: Leveraging User-Space Networking and DPDK for Sub-Microsecond Service Mesh Observability in Hyperscale Infrastructures"
+        "Beyond eBPF: Leveraging User-Space Networking and DPDK for Sub-Microsecond Service Mesh Observability in Hyperscale Infrastructures",
+        "Disaggregated memory over CXL: mitigating NUMA penalties in petabyte-scale analytics clusters at Meta.",
+        "Decoding the implicit neural representation of Netflix's microservice routing graph for real-time canary analysis.",
+        "How Cloudflare built a 100 Gbps DDoS mitigation pipeline on eBPF and XDP, bypassing the kernel TCP stack."
     ]
 }
