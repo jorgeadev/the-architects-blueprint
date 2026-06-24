@@ -265,7 +265,6 @@
         "The Engineering Behind Geo-Distributed Strong Consistency: Scaling Global Transaction Models in Cloud Databases",
         "Disaggregated Memory and Compute: Architecting the Next Generation of Hyperscale Data Center Infrastructure",
         "Beyond Kubernetes: Orchestrating Heterogeneous Compute and Accelerators for AGI Workloads Across Global Superclusters",
-        "Adaptive Congestion Control Mechanisms in Hyperscale Data Center Networks for AI/ML Workloads",
         "Achieving Strong Global Consistency in Multi-Region Distributed Databases Using Causality Tracking and Hybrid Logical Clocks",
         "CRISPR-Powered Phage Engineering for Precision Microbiome Modulation and Multi-Drug Resistant Pathogen Eradication",
         "CRISPR-Cas Systems as Programmable Nanobots: Engineering Adeno-Associated Viral Vectors for Precision In-Vivo Gene Editing at Therapeutic Scale",
@@ -587,6 +586,9 @@
         "Beyond eBPF: Leveraging User-Space Networking and DPDK for Sub-Microsecond Service Mesh Observability in Hyperscale Infrastructures",
         "Disaggregated memory over CXL: mitigating NUMA penalties in petabyte-scale analytics clusters at Meta.",
         "Decoding the implicit neural representation of Netflix's microservice routing graph for real-time canary analysis.",
-        "How Cloudflare built a 100 Gbps DDoS mitigation pipeline on eBPF and XDP, bypassing the kernel TCP stack."
+        "How Cloudflare built a 100 Gbps DDoS mitigation pipeline on eBPF and XDP, bypassing the kernel TCP stack.",
+        "Ephemeral Blob Stores: Designing Infrastructure for 10x Daily Node Churn in a Global Software-Defined Fabric",
+        "Dissecting the CXL 3.2 Memory Pooling Protocol Failure Modes in 10,000-Node GPU Clusters for Real-Time Inference",
+        "How Netflix Replaced memcached with a Verifiable CRDT-Based State Store for Sub-Millisecond Session Affinity at Exabyte Scale"
     ]
 }
