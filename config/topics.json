@@ -315,7 +315,6 @@
         "Optimizing Exascale Analytical Workloads: The Co-Evolution of Custom Silicon and Distributed Query Processors in Hyperscale OLAP.",
         "Beyond Firewalls: Architecting Zero-Trust Microsegmentation for Billions of Network Flows in Cloud-Native Hyperscale Infrastructures.",
         "Precision Phage Engineering: Leveraging Novel Lysins and Delivery Systems to Disarm Multidrug-Resistant Biofilms.",
-        "The Architectural Implications of CXL 3.0 and Photonic Interconnects for Disaggregated Hyper-Scale Data Center Computing",
         "Federated Learning at Hyperscale: Engineering Privacy-Preserving AI Training Across Geographically Distributed Edge Infrastructures",
         "The Unification of Metrics, Logs, and Traces: Building a High-Cardinality, Low-Latency Observability Platform for Exascale Microservices",
         "From Tensor Cores to Tensors: The Deep Integration of Custom Silicon and Distributed ML Frameworks in Hyperscale AI Factories",
@@ -583,6 +582,9 @@
         "Optimizing KV Cache Management for Multi-Tenant LLM Serving: A Deep Dive into PagedAttention and FlashAttention Integration",
         "Implementing eBPF-based L4 Load Balancing for 100M+ Concurrent Connections: A Deep Dive into XDP and Katran Evolution",
         "Zero-Trust Networking at Scale: Deconstructing the mTLS Overheads in Service Mesh Architectures for Global Edge PoPs",
-        "Deterministic Simulation Testing at Scale: How FoundationDB Validates Distributed State Machine Consistency Under Network Partitions"
+        "Deterministic Simulation Testing at Scale: How FoundationDB Validates Distributed State Machine Consistency Under Network Partitions",
+        "Scaling Distributed Training: Optimizing NCCL Collective Communication for 100,000+ GPU Clusters via Hierarchical Network Topologies",
+        "Reducing Tail Latency in Multi-Tenant Vector Databases: Implementing Tiered Indexing and Write-Ahead Log Partitioning for RAG at Petabyte Scale",
+        "Beyond eBPF: Leveraging User-Space Networking and DPDK for Sub-Microsecond Service Mesh Observability in Hyperscale Infrastructures"
     ]
 }
