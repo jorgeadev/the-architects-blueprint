@@ -351,7 +351,6 @@
         "How Cloudflare rebuilt its global Anycast control plane to support real-time DDoS mitigation at 100 Tbps",
         "Optimizing L7 Traffic Steering in Globally Distributed Service Meshes using eBPF and XDP for Sub-millisecond Tail Latency",
         "Solving the Cold-Start Problem in Serverless GPU Orchestration for Multi-Tenant LLM Quantization Pipelines",
-        "Implementing Deterministic Simulation Testing to Validate Distributed Consensus Invariants in High-Throughput Storage Engines",
         "Optimizing Tail Latency in Massive-Scale Vector Search: A Deep Dive into HNSW Indexing Over Sharded Distributed Memory",
         "Strategies for Mitigating Cascading Failures in Global Service Meshes: Adaptive Concurrency Control and Proactive Load Shedding",
         "Mitigating Tail Latency in Globally Distributed Consensus Engines through Predictive Pre-fetching and Write-Ahead Log Partitioning",
@@ -591,6 +590,9 @@
         "How Netflix Replaced memcached with a Verifiable CRDT-Based State Store for Sub-Millisecond Session Affinity at Exabyte Scale",
         "Hardware-Offloaded Congestion Control: Deep Dive into Meta’s Custom RoCE v2 Implementation for 100k-GPU Clusters",
         "Optimizing Global Consensus: Implementing Clock-Skew-Aware Lease Management in Multi-Region Spanner Topologies",
-        "Beyond Raft: Architecting a Byzantine Fault-Tolerant Control Plane for Cross-Cloud Serverless Orchestration at Scale"
+        "Beyond Raft: Architecting a Byzantine Fault-Tolerant Control Plane for Cross-Cloud Serverless Orchestration at Scale",
+        "Optimizing NVLink-Based GPU Interconnects for Billion-Parameter Model Checkpointing at Sub-Millisecond Latencies",
+        "A Deep Dive into Google's Maglev Evolution: Handling 100Tbps DDoS Mitigation via eBPF and Programmable Hardware Offloads",
+        "Architecting Heterogeneous Memory Hierarchies: Integrating CXL 3.0 Fabrics for Pooled DRAM in Massive Scale Multi-Tenant Clusters"
     ]
 }
