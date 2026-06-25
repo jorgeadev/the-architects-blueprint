@@ -66,7 +66,6 @@
         "Deconstructing Meta's Threads: The Real-Time Feed Architecture for 100M+ Users on Day One",
         "The Physics of Cooling: How Hyperscalers are Designing Direct-to-Chip Two-Phase Immersion Systems for 100kW+ Racks",
         "Dissecting the 'Read-After-Write' Consistency Crisis in Modern, Globally-Distributed Social Graphs",
-        "Deconstructing the Data Mesh: Implementing Federated Computational Governance at Petabyte Scale",
         "Beyond Natural Tropism: Engineering Synthetic Viral Vectors for Targeted Organ Delivery in Advanced Gene Therapies.",
         "The Engineering Challenges of Disaggregated Compute and Memory Architectures for Petabyte-Scale AI Model Training",
         "Advanced Viral Vector Design: Engineering Enhanced Tropism and Reduced Immunogenicity in Next-Generation Gene Therapies",
@@ -593,6 +592,9 @@
         "Beyond Raft: Architecting a Byzantine Fault-Tolerant Control Plane for Cross-Cloud Serverless Orchestration at Scale",
         "Optimizing NVLink-Based GPU Interconnects for Billion-Parameter Model Checkpointing at Sub-Millisecond Latencies",
         "A Deep Dive into Google's Maglev Evolution: Handling 100Tbps DDoS Mitigation via eBPF and Programmable Hardware Offloads",
-        "Architecting Heterogeneous Memory Hierarchies: Integrating CXL 3.0 Fabrics for Pooled DRAM in Massive Scale Multi-Tenant Clusters"
+        "Architecting Heterogeneous Memory Hierarchies: Integrating CXL 3.0 Fabrics for Pooled DRAM in Massive Scale Multi-Tenant Clusters",
+        "Deconstructing the Vector Database Bottleneck: Tiered HNSW Indexing for Trillion-Scale Semantic Search",
+        "Deterministic Simulation Testing at Scale: How TigerBeetle Achieves 1 Million Transactions per Second with Formal Verification",
+        "The Architecture of Predictive Auto-scaling: Using Transformer-Based Time Series Forecasting for Proactive Capacity Planning in Global Edge Networks"
     ]
 }
