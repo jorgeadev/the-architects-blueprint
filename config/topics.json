@@ -532,7 +532,6 @@
         "Quantized Federated Backpropagation: Optimizing Model Training Across 10^5 Heterogeneous Edge Nodes with Sub-Millisecond Sync Windows",
         "Decoding the Global Control Plane: How Meta's Project Wormhole CS Orchestrates Real-Time Traffic Shaping for Exabyte-Scale Video Pipelines",
         "A Deep Dive into AWS's Hyperscale SRAM Overprovisioning Strategy: Mitigating Tail Latency in Post-Exabyte S3 Storage Clusters via Redundant Cache Coherency Protocols",
-        "The Anatomy of Llama 3’s Training Infrastructure: Scaling 400Gbps RoCE Fabrics and Liquid Cooling for 24,000 GPU Clusters",
         "Evolving Zero-Trust in Distributed Databases: Implementing Fine-Grained Cryptographic Isolation for Multi-Tenant Global State",
         "Taming Tail Latency in Large Language Model Inference: Hardware-Aware KV Cache Management and Continuous Batching Architectures",
         "Deterministic Simulation Testing: Implementing Fault-Injection Frameworks for High-Throughput Distributed Financial Ledgers",
@@ -595,6 +594,9 @@
         "Architecting Heterogeneous Memory Hierarchies: Integrating CXL 3.0 Fabrics for Pooled DRAM in Massive Scale Multi-Tenant Clusters",
         "Deconstructing the Vector Database Bottleneck: Tiered HNSW Indexing for Trillion-Scale Semantic Search",
         "Deterministic Simulation Testing at Scale: How TigerBeetle Achieves 1 Million Transactions per Second with Formal Verification",
-        "The Architecture of Predictive Auto-scaling: Using Transformer-Based Time Series Forecasting for Proactive Capacity Planning in Global Edge Networks"
+        "The Architecture of Predictive Auto-scaling: Using Transformer-Based Time Series Forecasting for Proactive Capacity Planning in Global Edge Networks",
+        "Optimizing Tail Latency in Distributed Vector Databases: A Deep Dive into HNSW Index Partitioning and Sharding Strategies",
+        "Implementing Zero-Copy Networking for Terabit-Scale RDMA Clusters: Solving the Congestion Control Problem in RoCEv2",
+        "Re-architecting Global Service Meshes: Leveraging eBPF and Sidecarless Proxying for Sub-Millisecond Inter-Region Communication"
     ]
 }
