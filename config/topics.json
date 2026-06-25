@@ -171,7 +171,6 @@
         "The architectural evolution of large language model serving infrastructure: From monolithic deployments to adaptive distributed inference engines.",
         "Engineering global pathogen surveillance: Architecting privacy-preserving, real-time genomic sequencing and AI-driven anomaly detection networks.",
         "Scalable Inter-chip Communication Architectures for Trillion-Parameter AI Model Inference in Hyperscale Data Centers",
-        "The Hyperscale Architectures Driving AI Model Training: Beyond Distributed GPU Clusters to Photonic Interconnects",
         "The evolution of hyperscale data center networking: From Clos fabrics to P4-programmable ASICs and AI-driven traffic optimization.",
         "Deep dive into serverless cold start mitigation strategies: Snapshotting, custom runtime environments, and container reuse at planetary scale.",
         "Synthetic genomics and de novo genome design: Computational architectures for high-throughput gene synthesis, error correction, and biological circuit optimization.",
@@ -589,6 +588,9 @@
         "How Cloudflare built a 100 Gbps DDoS mitigation pipeline on eBPF and XDP, bypassing the kernel TCP stack.",
         "Ephemeral Blob Stores: Designing Infrastructure for 10x Daily Node Churn in a Global Software-Defined Fabric",
         "Dissecting the CXL 3.2 Memory Pooling Protocol Failure Modes in 10,000-Node GPU Clusters for Real-Time Inference",
-        "How Netflix Replaced memcached with a Verifiable CRDT-Based State Store for Sub-Millisecond Session Affinity at Exabyte Scale"
+        "How Netflix Replaced memcached with a Verifiable CRDT-Based State Store for Sub-Millisecond Session Affinity at Exabyte Scale",
+        "Hardware-Offloaded Congestion Control: Deep Dive into Meta’s Custom RoCE v2 Implementation for 100k-GPU Clusters",
+        "Optimizing Global Consensus: Implementing Clock-Skew-Aware Lease Management in Multi-Region Spanner Topologies",
+        "Beyond Raft: Architecting a Byzantine Fault-Tolerant Control Plane for Cross-Cloud Serverless Orchestration at Scale"
     ]
 }
