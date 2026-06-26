@@ -424,7 +424,6 @@
         "Hardware-Software Co-design for 100k+ GPU Clusters: Dissecting Meta's Tectonic and RoCEv2 Network Fabric for Llama-3 Training",
         "Zero-Trust at the NIC Level: Leveraging eBPF and Hardware Offloading for Multi-Terabit Per Second DDoS Mitigation",
         "Deep Dive into NVLink Switch Fabrics: Scaling Inter-Node Communication for 100k+ GPU Clusters",
-        "Formal Verification of Distributed Consensus Protocols in Sub-Millisecond Global Edge Runtimes",
         "Zero-ETL Architecture: Implementing Real-Time Vector Embeddings via Change Data Capture on Distributed LSM-Trees",
         "Deterministic Simulation Testing: How TigerBeetle Achieves Five-Nines Reliability in Distributed Financial Ledgers",
         "Custom Silicon and Warp-Level Primitives: The Low-Level Optimizations Powering Google’s TPU v5p Pods",
@@ -598,6 +597,9 @@
         "Re-architecting Global Service Meshes: Leveraging eBPF and Sidecarless Proxying for Sub-Millisecond Inter-Region Communication",
         "Formal verification of distributed consensus protocols in Amazon S3’s Strong Consistency layer",
         "Solving the Thundering Herd problem in Netflix's global edge gateway using adaptive concurrency limits",
-        "Zero-copy packet processing: A deep dive into Google's Snap networking stack for sub-microsecond RPCs"
+        "Zero-copy packet processing: A deep dive into Google's Snap networking stack for sub-microsecond RPCs",
+        "Optimizing RoCE v2 Network Topologies for 100,000+ GPU Training Clusters in Generative AI Foundations",
+        "Deterministic Simulation Testing (DST) in Distributed Databases: How TigerBeetle and FoundationDB achieve 100% Correctness",
+        "Zero-Copy Data Transfer and the Evolution of Shared-Memory Architectures in Cloud-Native Serverless Functions"
     ]
 }
