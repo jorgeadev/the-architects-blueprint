@@ -585,7 +585,6 @@
         "How Netflix Replaced memcached with a Verifiable CRDT-Based State Store for Sub-Millisecond Session Affinity at Exabyte Scale",
         "Hardware-Offloaded Congestion Control: Deep Dive into Meta’s Custom RoCE v2 Implementation for 100k-GPU Clusters",
         "Optimizing Global Consensus: Implementing Clock-Skew-Aware Lease Management in Multi-Region Spanner Topologies",
-        "Beyond Raft: Architecting a Byzantine Fault-Tolerant Control Plane for Cross-Cloud Serverless Orchestration at Scale",
         "Optimizing NVLink-Based GPU Interconnects for Billion-Parameter Model Checkpointing at Sub-Millisecond Latencies",
         "A Deep Dive into Google's Maglev Evolution: Handling 100Tbps DDoS Mitigation via eBPF and Programmable Hardware Offloads",
         "Architecting Heterogeneous Memory Hierarchies: Integrating CXL 3.0 Fabrics for Pooled DRAM in Massive Scale Multi-Tenant Clusters",
@@ -600,6 +599,9 @@
         "Zero-copy packet processing: A deep dive into Google's Snap networking stack for sub-microsecond RPCs",
         "Optimizing RoCE v2 Network Topologies for 100,000+ GPU Training Clusters in Generative AI Foundations",
         "Deterministic Simulation Testing (DST) in Distributed Databases: How TigerBeetle and FoundationDB achieve 100% Correctness",
-        "Zero-Copy Data Transfer and the Evolution of Shared-Memory Architectures in Cloud-Native Serverless Functions"
+        "Zero-Copy Data Transfer and the Evolution of Shared-Memory Architectures in Cloud-Native Serverless Functions",
+        "Implementing Deterministic Simulation Testing for Distributed Database Kernels: Preventing Heisenbugs in Multi-Region Consensus Engines",
+        "Anatomy of a 100k GPU Cluster: Optimizing InfiniBand Topologies and Collective Communication for Massive-Scale LLM Training",
+        "Zero-Copy Networking in Rust: Architecting High-Throughput Packet Processing for Next-Generation Edge Proxies"
     ]
 }
