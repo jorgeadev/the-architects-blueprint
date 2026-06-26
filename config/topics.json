@@ -564,7 +564,6 @@
         "The Evolution of Cluster Scheduling: How Meta Manages Millisecond-Level Resource Allocation Across Millions of Heterogeneous GPU Cores",
         "Deep-dive into Google's Spanner RISC-V pilot: implications for latency and power at planetary scale.",
         "How Cloudflare's Durable Objects ecosystem now processes 10 million stateful WebSocket sessions per node.",
-        "An analysis of Meta's new 24k GPU cluster for Llama 4 training: network topology, thermal management, and failure rates.",
         "Implementing Multi-Paxos with Logical Clock Hybridization for Globally Distributed Strong Consistency in NewSQL Engines",
         "Optimizing Packet Processing Pipelines: A Comparative Analysis of DPDK vs. AF_XDP in High-Throughput Edge Gateways",
         "Hierarchical Rate Limiting and Backpressure Propagation in Massive-Scale Event-Driven Architectures via Redis Streams and Lua Scripts",
