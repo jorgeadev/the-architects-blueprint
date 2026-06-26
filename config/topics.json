@@ -128,7 +128,6 @@
         "Beyond NUMA: Disaggregated Memory and Compute Architectures in Next-Gen Hyperscale Data Centers",
         "Synthetic Biology's Vanguard: Engineering Self-Amplifying RNA and Novel Viral Vectors for Pandemic Preparedness",
         "The Convergence of Optical Switching and Quantum Networking for Inter-Datacenter Low-Latency AI Fabric Architectures.",
-        "CXL 3.0 and Memory Tiering: Architecting Disaggregated, Petabyte-Scale Memory Pools in Hyperscale Clouds.",
         "Autonomous Failure Prediction and Self-Correction: Designing Resilient Hyperscale Distributed Systems with AI/ML-Driven Observability",
         "The Invisible Backplane: Dissecting Software-Defined Networking (SDN) Evolution for Global Hyperscale Interconnects and Microsecond Latency Optimization",
         "Next-Gen Viral Vector Engineering: Designing Tissue-Specific, Spatiotemporally Controlled Gene Editing Systems for In Vivo Therapeutic Applications",
@@ -596,6 +595,9 @@
         "The Architecture of Predictive Auto-scaling: Using Transformer-Based Time Series Forecasting for Proactive Capacity Planning in Global Edge Networks",
         "Optimizing Tail Latency in Distributed Vector Databases: A Deep Dive into HNSW Index Partitioning and Sharding Strategies",
         "Implementing Zero-Copy Networking for Terabit-Scale RDMA Clusters: Solving the Congestion Control Problem in RoCEv2",
-        "Re-architecting Global Service Meshes: Leveraging eBPF and Sidecarless Proxying for Sub-Millisecond Inter-Region Communication"
+        "Re-architecting Global Service Meshes: Leveraging eBPF and Sidecarless Proxying for Sub-Millisecond Inter-Region Communication",
+        "Formal verification of distributed consensus protocols in Amazon S3’s Strong Consistency layer",
+        "Solving the Thundering Herd problem in Netflix's global edge gateway using adaptive concurrency limits",
+        "Zero-copy packet processing: A deep dive into Google's Snap networking stack for sub-microsecond RPCs"
     ]
 }
