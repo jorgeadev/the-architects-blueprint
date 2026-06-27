@@ -280,7 +280,6 @@
         "Beyond Consensus: Unpacking the Architectural Implications of Conflict-Free Replicated Data Types (CRDTs) in Globally Distributed Systems",
         "CRISPR-Cas Systems Beyond Gene Editing: Programmable RNA Targeting for Advanced Antiviral Therapies and Diagnostics",
         "Unpacking Meta's 'Project Titan': The 3D-Stacked Compute Fabrics Powering Next-Gen Inference at Exascale",
-        "Dissecting the Global Control Plane: How Cloudflare's Durable Objects Manage Distributed State Across 330+ Cities in Under 50ms",
         "The Design Challenges of Achieving Global Linearizability in Multi-Region Distributed Databases",
         "Leveraging Large Language Models and Diffusion Models for De Novo Protein Design and Engineering at Scale",
         "Architecting Zero-Copy, Kernel-Bypassing I/O Stacks with DPUs and RDMA for Sub-Millisecond AI Inference at Hyperscale",
@@ -608,6 +607,9 @@
         "The Operational Logic of a Billion-Node Graph: A Formal Analysis of Meta's Distributed, Real-Time FBLearner Feature Store for Live Recommendations",
         "Deep Dive into Meta's MTIA Infrastructure: Scaling Custom AI Silicon for Real-Time PyTorch Inference",
         "Solving the Data Locality Problem: How Uber Migrated to a Geo-Distributed Micro-Storage Layer with Integrated Caching",
-        "Beyond Raft and Paxos: Analyzing the Implementation of Deterministic Virtual Synchrony in High-Performance Trading Engines"
+        "Beyond Raft and Paxos: Analyzing the Implementation of Deterministic Virtual Synchrony in High-Performance Trading Engines",
+        "Implementing Zero-Trust Networking at the NIC Level: Offloading eBPF to SmartNICs for Sub-Microsecond Service Mesh Latency",
+        "Deep Dive into Meta’s Tectonic: Orchestrating Exabyte-Scale Disaggregated Storage Across Heterogeneous Hardware",
+        "Architecting Globally Consistent Event Streaming: Overcoming Speed-of-Light Constraints in Multi-Cloud Kafka Deployments"
     ]
 }
