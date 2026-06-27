@@ -150,7 +150,6 @@
         "The architectural evolution of large language model serving: from static endpoints to dynamic, multi-tenant inference graphs.",
         "Architecting Trillion-Parameter AI: The Role of Optical Interconnects and Network Fabric Topologies",
         "Next-Gen Gene Delivery: Engineering AAV Serotypes and Non-Viral Nanoparticle Encapsulation for Advanced Therapies",
-        "Advanced AAV Capsid Directed Evolution for Precision In Vivo Gene Editing Delivery Systems",
         "CRISPR-Associated Transposons (CASTs): Leveraging RNA-Guided Integration Systems for Large-Scale Genomic Engineering Beyond Double-Strand Breaks",
         "Global Atomic Consensus: Engineering High-Throughput, Low-Latency Transactional Integrity Across Geo-Distributed Cloud Infrastructures",
         "The Exabyte Enigma: Architecting Intelligent Tiering and Data Lineage Systems for AI Foundation Model Training Data Lakes",
@@ -604,6 +603,9 @@
         "Zero-Copy Networking in Rust: Architecting High-Throughput Packet Processing for Next-Generation Edge Proxies",
         "Implementing Zero-Copy Networking and RDMA for Ultra-Low Latency Distributed Storage Engines",
         "Deep Dive into Cellular Architecture: How Meta Manages Fault Isolation in Global-Scale Sharded Databases",
-        "Leveraging eBPF and XDP for Programmable Terabit-Scale DDoS Mitigation at the Edge"
+        "Leveraging eBPF and XDP for Programmable Terabit-Scale DDoS Mitigation at the Edge",
+        "Scaling DPU-Offloaded Network Stacks: A Deep Dive into NVIDIA BlueField-3's Impact on Hyperscale Datacenter Throughput and Tail Latency",
+        "Decoding the Warp: How Google's Pathways System Overcomes Physical Limits in its Next-Generation TPU v6 Pod Optical Interconnect",
+        "The Operational Logic of a Billion-Node Graph: A Formal Analysis of Meta's Distributed, Real-Time FBLearner Feature Store for Live Recommendations"
     ]
 }
