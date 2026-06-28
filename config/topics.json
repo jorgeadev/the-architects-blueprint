@@ -475,7 +475,6 @@
         "Architecting Shard-Agnostic Transactional Integrity in Geo-Distributed Spanner-Derivative Databases",
         "Formal Verification of Cache Coherency Protocols in Custom Silicon for Hyperscale AI Training Clusters",
         "Optimizing RDMA over Converged Ethernet (RoCE) for Multi-Tier Collective Communications in Blackwell GPU Clusters",
-        "Design Patterns for Deterministic Query Execution in Distributed LSM-Tree Architectures at Petabyte Scale",
         "Mitigating Cold-Start Latency in Serverless Edge Runtimes via Ahead-of-Time Snapshot Restoration and Memory Ballooning",
         "Zero-Copy Serialization and Memory Safety in High-Throughput Distributed LSM-Tree Storage Engines",
         "Architecting Multi-Tenant L7 Load Balancing with eBPF and XDP for Sub-Millisecond Edge Cold Starts",
@@ -610,6 +609,9 @@
         "Beyond Raft and Paxos: Analyzing the Implementation of Deterministic Virtual Synchrony in High-Performance Trading Engines",
         "Implementing Zero-Trust Networking at the NIC Level: Offloading eBPF to SmartNICs for Sub-Microsecond Service Mesh Latency",
         "Deep Dive into Meta’s Tectonic: Orchestrating Exabyte-Scale Disaggregated Storage Across Heterogeneous Hardware",
-        "Architecting Globally Consistent Event Streaming: Overcoming Speed-of-Light Constraints in Multi-Cloud Kafka Deployments"
+        "Architecting Globally Consistent Event Streaming: Overcoming Speed-of-Light Constraints in Multi-Cloud Kafka Deployments",
+        "Optimizing Collective Communication: Meta’s Custom RoCE Network Stack for 24,576 H100 GPU Clusters",
+        "Formal Verification in Distributed Systems: How AWS Uses TLA+ to Prevent Metastable Failures in S3’s Strongly Consistent Control Plane",
+        "Beyond Raft: Analyzing the Deterministic State Machine Replication in Discord’s Global Persistent Message Store Migration"
     ]
 }
