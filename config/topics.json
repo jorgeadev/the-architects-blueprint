@@ -568,7 +568,6 @@
         "Implementing eBPF-based L4 Load Balancing for 100M+ Concurrent Connections: A Deep Dive into XDP and Katran Evolution",
         "Zero-Trust Networking at Scale: Deconstructing the mTLS Overheads in Service Mesh Architectures for Global Edge PoPs",
         "Deterministic Simulation Testing at Scale: How FoundationDB Validates Distributed State Machine Consistency Under Network Partitions",
-        "Scaling Distributed Training: Optimizing NCCL Collective Communication for 100,000+ GPU Clusters via Hierarchical Network Topologies",
         "Reducing Tail Latency in Multi-Tenant Vector Databases: Implementing Tiered Indexing and Write-Ahead Log Partitioning for RAG at Petabyte Scale",
         "Beyond eBPF: Leveraging User-Space Networking and DPDK for Sub-Microsecond Service Mesh Observability in Hyperscale Infrastructures",
         "Disaggregated memory over CXL: mitigating NUMA penalties in petabyte-scale analytics clusters at Meta.",
@@ -614,6 +613,9 @@
         "Beyond Raft: Analyzing the Deterministic State Machine Replication in Discord’s Global Persistent Message Store Migration",
         "Implementing Zero-Copy Networking in Netflix’s Open Connect CDN via eBPF and XDP",
         "Scaling Meta’s Tectonic File System for 100k GPU Clusters: Architecting for Exascale AI Training",
-        "ByteDance’s Monolith: Re-engineering Parameter Servers for 100-Trillion Parameter Sparse Embedding Models"
+        "ByteDance’s Monolith: Re-engineering Parameter Servers for 100-Trillion Parameter Sparse Embedding Models",
+        "Optimizing RDMA over Converged Ethernet (RoCE) for Distributed Training of 400B+ Parameter Large Language Models at Meta Scale",
+        "Dissecting the Monolith: Evaluating Multi-Tenancy Isolation and Tail Latency in ByteDance’s Global Recommendation Sharding Infrastructure",
+        "Zero-Copy Data Transfer and User-Space Networking: How Discord Migrated its Voice Gateway to Achieve Sub-Millisecond Jitter at 15M Concurrent Connections"
     ]
 }
