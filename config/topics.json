@@ -138,7 +138,6 @@
         "Real-Time Inference at Scale: Engineering AI Model Serving Infrastructure for Billions of Daily Queries",
         "Petabyte-Scale Genomics: Building Secure and Performant Pipelines for Population-Level Biomedical Data",
         "CRISPR-Cas9 System Repurposing for Programmable Epigenetic Modifiers: Challenges in Off-Target Effects and Delivery Vector Optimization for Therapeutic Scaling",
-        "The Architectural Innovations Behind Hyperscale Data Center Liquid Immersion Cooling Systems and Energy Efficiency",
         "Accelerating De Novo Protein Design: Large Language Models and the Computational Infrastructure for Synthetic Biology",
         "Optimizing Peta-Scale Distributed Transactional Systems for Global Consistency and Ultra-Low Latency",
         "The Network Architecture Evolution Driving Multi-Trillion Parameter AI Model Training: Beyond Clos Topologies",
@@ -612,6 +611,9 @@
         "Architecting Globally Consistent Event Streaming: Overcoming Speed-of-Light Constraints in Multi-Cloud Kafka Deployments",
         "Optimizing Collective Communication: Meta’s Custom RoCE Network Stack for 24,576 H100 GPU Clusters",
         "Formal Verification in Distributed Systems: How AWS Uses TLA+ to Prevent Metastable Failures in S3’s Strongly Consistent Control Plane",
-        "Beyond Raft: Analyzing the Deterministic State Machine Replication in Discord’s Global Persistent Message Store Migration"
+        "Beyond Raft: Analyzing the Deterministic State Machine Replication in Discord’s Global Persistent Message Store Migration",
+        "Implementing Zero-Copy Networking in Netflix’s Open Connect CDN via eBPF and XDP",
+        "Scaling Meta’s Tectonic File System for 100k GPU Clusters: Architecting for Exascale AI Training",
+        "ByteDance’s Monolith: Re-engineering Parameter Servers for 100-Trillion Parameter Sparse Embedding Models"
     ]
 }
