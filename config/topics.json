@@ -208,7 +208,6 @@
         "Engineering Oncolytic Adenoviruses for Enhanced Tumor Selectivity and Immunogenicity in Next-Gen Cancer Therapies",
         "The Architecture of Hyperscale Vector Databases for Billion-Scale Embeddings and Real-time Semantic Search",
         "Beyond Linear mRNA: Engineering Self-Amplifying and Circular RNA for Next-Gen Viral and Therapeutic Applications",
-        "The Hidden Complexity of Global Backbone Tuning: Analyzing Netflix's Open Connect CDN Micro-Partitioning for 4K Stutter-Free Streaming",
         "The unseen architecture: How specialized accelerators and distributed inference engines drive generative AI models at global scale.",
         "Beyond the cloud: Architecting global-scale serverless functions for ultra-low latency edge compute environments.",
         "The algorithmic nexus: How hyperscale cloud providers are leveraging reinforcement learning for real-time, global energy grid optimization and carbon-aware workload placement.",
@@ -618,6 +617,9 @@
         "Zero-Copy Data Transfer and User-Space Networking: How Discord Migrated its Voice Gateway to Achieve Sub-Millisecond Jitter at 15M Concurrent Connections",
         "Decoding the Data Plane: A Deep Dive into VPP-based User-Space Packet Processing at Cloudflare's Edge",
         "Breaking the Amdahl Barrier: How Meta's MTIA v2 Custom Silicon Re-Architects Recommendation Inference Pipelines",
-        "The Distributed Locking Postmortem: Analyzing Thundering Herd Failures in CockroachDB's Global Replication Layer"
+        "The Distributed Locking Postmortem: Analyzing Thundering Herd Failures in CockroachDB's Global Replication Layer",
+        "Optimizing Global Tail Latency: The Internals of Google’s Maglev Next-Gen Load Balancing with Programmable Logic",
+        "Building a Billion-Event Per Second Ingestion Engine: Disaggregated Storage and Write-Ahead Log Optimization in Apache Pinot",
+        "Formal Verification at Scale: How AWS Uses TLA+ to Ensure Consistency in the DynamoDB Global Tables Replication Protocol"
     ]
 }
