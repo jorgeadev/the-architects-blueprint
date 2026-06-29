@@ -399,7 +399,6 @@
         "Vector Database Internals: Optimizing HNSW Indexing for Trillion-Scale Semantic Search at Netflix",
         "Bypass the Kernel: Architecting High-Throughput Storage Engines Using NVMe-over-Fabrics and SPDK",
         "Deterministic Simulation Testing: How Anthropic Ensures Consensus Consistency in Large-Scale Distributed Training",
-        "The evolution of cell-based architecture: How global hyper-scalers mitigate blast radius through deterministic routing and logical sharding",
         "Optimizing tail latency in geo-distributed key-value stores using predictive RDMA-based cache invalidation and hardware-accelerated consensus",
         "A deep dive into zero-copy networking and eBPF-driven observability for high-throughput packet processing in cloud-native edge infrastructures",
         "Architecting Asynchronous Geo-Replicated Vector Databases for Sub-Millisecond Global Semantic Search",
@@ -624,6 +623,9 @@
         "Engineering Global Consistency: Building a Geo-Distributed Write-Ahead Log for Serverless SQLite Environments",
         "Hyper-Scaling Vector Databases: Solving the 100-Billion Dimension Indexing Problem in Real-Time Search Infrastructure",
         "Deterministic Simulation and Formal Verification of Distributed Consensus Protocols in Sub-Millisecond Financial Exchanges",
-        "Optimizing Tail Latency in Multi-Tenant LLM Serving: A Comparative Study of Speculative Decoding and Continuous Batching at Scale"
+        "Optimizing Tail Latency in Multi-Tenant LLM Serving: A Comparative Study of Speculative Decoding and Continuous Batching at Scale",
+        "Erasure coding at petabyte scale: How Meta redesigned its Cold Storage tiers for 15% annual power reduction",
+        "Inside Google's PlaNet: The geographically distributed, latency-oblivious global WAN architecture that replaced BGP for internal traffic",
+        "How OpenAI evolved its inference fleet for ChatGPT: A case study in sharded GPU overlays and real-time token scheduling across 100k accelerators"
     ]
 }
