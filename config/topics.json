@@ -469,7 +469,6 @@
         "Mitigation of Cascading Failures in Massive-Scale Microservices via Adaptive Concurrency Control and Priority Queuing",
         "Optimizing Global Tail Latency via Multi-Tiered EBPF-Based Load Balancing in Edge Compute Runtimes",
         "Architecting Shard-Agnostic Transactional Integrity in Geo-Distributed Spanner-Derivative Databases",
-        "Formal Verification of Cache Coherency Protocols in Custom Silicon for Hyperscale AI Training Clusters",
         "Optimizing RDMA over Converged Ethernet (RoCE) for Multi-Tier Collective Communications in Blackwell GPU Clusters",
         "Mitigating Cold-Start Latency in Serverless Edge Runtimes via Ahead-of-Time Snapshot Restoration and Memory Ballooning",
         "Zero-Copy Serialization and Memory Safety in High-Throughput Distributed LSM-Tree Storage Engines",
@@ -622,6 +621,9 @@
         "Formal Verification at Scale: How AWS Uses TLA+ to Ensure Consistency in the DynamoDB Global Tables Replication Protocol",
         "Implementing Zero-Copy Data Transfer for Petabyte-Scale Feature Stores using RDMA and eBPF",
         "Optimizing Multi-Tenant LLM Serving: A Deep Dive into PagedAttention and KV Cache Sharding Strategies",
-        "Engineering Global Consistency: Building a Geo-Distributed Write-Ahead Log for Serverless SQLite Environments"
+        "Engineering Global Consistency: Building a Geo-Distributed Write-Ahead Log for Serverless SQLite Environments",
+        "Hyper-Scaling Vector Databases: Solving the 100-Billion Dimension Indexing Problem in Real-Time Search Infrastructure",
+        "Deterministic Simulation and Formal Verification of Distributed Consensus Protocols in Sub-Millisecond Financial Exchanges",
+        "Optimizing Tail Latency in Multi-Tenant LLM Serving: A Comparative Study of Speculative Decoding and Continuous Batching at Scale"
     ]
 }
