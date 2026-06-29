@@ -372,7 +372,6 @@
         "Optimizing Tail Latency in Heterogeneous CPU Clusters: A Deep Dive into Intel’s Thread Director and Linux Task Scheduling at Meta Scale",
         "Architecting a Global-Scale Consensus Layer: Leveraging Hardware-Accelerated P4 Programmable Switches for Sub-Millisecond Multi-Paxos",
         "Formal Verification of Distributed LSM-Trees: Implementing TLA+ and Model Checking for Petabyte-Scale Database Compaction Strategies",
-        "An in-depth analysis of deterministic simulation testing for hardening distributed database consensus at scale",
         "Leveraging eBPF and XDP for Terabit-Scale DDoS Mitigation in Edge Mesh Networks",
         "Solving Thundering Herd Problems in Globally Distributed Cache Layers via Probabilistic Lease Mechanisms",
         "Optimizing Write Amplification and Compaction Latency in Log-Structured Merge-Trees for Multi-Petabyte SSD Arrays",
@@ -620,6 +619,9 @@
         "The Distributed Locking Postmortem: Analyzing Thundering Herd Failures in CockroachDB's Global Replication Layer",
         "Optimizing Global Tail Latency: The Internals of Google’s Maglev Next-Gen Load Balancing with Programmable Logic",
         "Building a Billion-Event Per Second Ingestion Engine: Disaggregated Storage and Write-Ahead Log Optimization in Apache Pinot",
-        "Formal Verification at Scale: How AWS Uses TLA+ to Ensure Consistency in the DynamoDB Global Tables Replication Protocol"
+        "Formal Verification at Scale: How AWS Uses TLA+ to Ensure Consistency in the DynamoDB Global Tables Replication Protocol",
+        "Implementing Zero-Copy Data Transfer for Petabyte-Scale Feature Stores using RDMA and eBPF",
+        "Optimizing Multi-Tenant LLM Serving: A Deep Dive into PagedAttention and KV Cache Sharding Strategies",
+        "Engineering Global Consistency: Building a Geo-Distributed Write-Ahead Log for Serverless SQLite Environments"
     ]
 }
