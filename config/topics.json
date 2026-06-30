@@ -458,7 +458,6 @@
         "Architecting Zero-Copy Ring Buffers for Multi-Terabit Network Telemetry Ingestion",
         "Formal Verification of Distributed Locking Mechanisms in Geo-Replicated Spanner-like Systems",
         "Formal Verification of Distributed Consensus Protocols in AWS Lambda’s Internal Routing Layer",
-        "Optimizing KV-Cache Paging Mechanisms for Multi-Tenant LLM Serving at TerToken Scales",
         "Zero-Copy Data Planes: Implementing RDMA and eBPF for Sub-Microsecond Tail Latency in Financial Clearing Engines",
         "Optimizing Tail Latency in Large Language Model Inference Clusters via Custom RDMA-based Memory Pooling",
         "Re-architecting Global Anycast Edge Networks for Sub-millisecond Cold Starts in Serverless Runtimes",
@@ -626,6 +625,9 @@
         "Optimizing Tail Latency in Multi-Tenant LLM Serving: A Comparative Study of Speculative Decoding and Continuous Batching at Scale",
         "Erasure coding at petabyte scale: How Meta redesigned its Cold Storage tiers for 15% annual power reduction",
         "Inside Google's PlaNet: The geographically distributed, latency-oblivious global WAN architecture that replaced BGP for internal traffic",
-        "How OpenAI evolved its inference fleet for ChatGPT: A case study in sharded GPU overlays and real-time token scheduling across 100k accelerators"
+        "How OpenAI evolved its inference fleet for ChatGPT: A case study in sharded GPU overlays and real-time token scheduling across 100k accelerators",
+        "Architecting Ultra-Low Latency State Synchrony: Distributed Shared Memory over RDMA in Modern Cloud Hypervisors",
+        "Zero-Downtime Migration of Petabyte-Scale Vector Databases: Solving the Dimensionality Mismatch in Live Index Rebuilds",
+        "Formal Verification of Multi-Writer Consistency Models in Decentralized Block Storage using Jepsen and TLA+"
     ]
 }
