@@ -505,7 +505,6 @@
         "Implementing Hierarchical Cell-Based Routing to Mitigate Blast Radios in Global-Scale Anycast Networks",
         "Analyzing the Performance Trade-offs of eBPF-based Observability vs. Sidecar Proxies in High-Throughput Service Meshes",
         "The Mechanics of Sharded Consensus: Deep Dive into Parallelized Transaction Ordering in Distributed Key-Value Stores",
-        "Disaggregated Memory at Meta: Unraveling the Tail Latency Implications of CXL-Based Tiered Memory Pools in Hyperscale Production",
         "Rearchitecting for Laminar Flow: How Twitch Migrated from a Monolithic Transcoding Pipeline to a Dataflow-Driven, Hundred-Thousand-Core Stream Processor",
         "The Geometry of Friction: Analyzing the Power and Thermal Constraints Forcing Hyperscalers to Adopt Spatial Compute Architectures in the Post-Photolithography Era",
         "Deep Dive into Deterministic Simulation Testing: How Modern Distributed Databases Achieve 100% Correctness Under Fault Injection",
@@ -629,6 +628,9 @@
         "Formal Verification of Multi-Writer Consistency Models in Decentralized Block Storage using Jepsen and TLA+",
         "Optimizing RDMA over Converged Ethernet (RoCE) for Multi-Tenant LLM Training at Exascale",
         "Solving the Thundering Herd: Zero-Downtime Stateful Fleet Rebalancing in Netflix's Global Content Delivery Network",
-        "Inside the Kernel: Leveraging eBPF and XDP for Terabit-Scale DDoS Mitigation in Hyper-Distributed Edge Architectures"
+        "Inside the Kernel: Leveraging eBPF and XDP for Terabit-Scale DDoS Mitigation in Hyper-Distributed Edge Architectures",
+        "Optimizing RDMA over Converged Ethernet (RoCE) for Multi-Tenant GPU Clusters: Lessons from Hyperscale LLM Training",
+        "Deterministic Simulation Testing (DST) in Distributed Databases: Achieving Five-Nines Reliability at Petabyte Scale",
+        "Zero-Copy Data Transfer via eBPF and XDP: Revolutionizing High-Throughput Service Mesh Sidecar Performance"
     ]
 }
