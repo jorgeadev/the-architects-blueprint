@@ -144,7 +144,6 @@
         "Programmable Genetic Circuits: Designing and Deploying CRISPR-Cas Systems for Advanced Cellular Diagnostics and Therapeutics",
         "Optimizing Inferencing Latency for Trillion-Parameter AI Models in Geo-Distributed Data Centers",
         "Advanced Lipid Nanoparticle Design for Targeted mRNA Delivery in Next-Generation Therapeutic Vaccines",
-        "Hardware-Accelerated Zero-Trust Networking for Intra-Datacenter Microservices at Hyperscale",
         "Beyond Paxos and Raft: Exploring Quorum-Less Distributed State Management for Planetary-Scale Edge Compute",
         "The architectural evolution of large language model serving: from static endpoints to dynamic, multi-tenant inference graphs.",
         "Architecting Trillion-Parameter AI: The Role of Optical Interconnects and Network Fabric Topologies",
@@ -627,6 +626,9 @@
         "How OpenAI evolved its inference fleet for ChatGPT: A case study in sharded GPU overlays and real-time token scheduling across 100k accelerators",
         "Architecting Ultra-Low Latency State Synchrony: Distributed Shared Memory over RDMA in Modern Cloud Hypervisors",
         "Zero-Downtime Migration of Petabyte-Scale Vector Databases: Solving the Dimensionality Mismatch in Live Index Rebuilds",
-        "Formal Verification of Multi-Writer Consistency Models in Decentralized Block Storage using Jepsen and TLA+"
+        "Formal Verification of Multi-Writer Consistency Models in Decentralized Block Storage using Jepsen and TLA+",
+        "Optimizing RDMA over Converged Ethernet (RoCE) for Multi-Tenant LLM Training at Exascale",
+        "Solving the Thundering Herd: Zero-Downtime Stateful Fleet Rebalancing in Netflix's Global Content Delivery Network",
+        "Inside the Kernel: Leveraging eBPF and XDP for Terabit-Scale DDoS Mitigation in Hyper-Distributed Edge Architectures"
     ]
 }
