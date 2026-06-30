@@ -376,7 +376,6 @@
         "Solving Thundering Herd Problems in Globally Distributed Cache Layers via Probabilistic Lease Mechanisms",
         "Optimizing Write Amplification and Compaction Latency in Log-Structured Merge-Trees for Multi-Petabyte SSD Arrays",
         "Zero-Copy Packet Processing at Petabit Scale: Dissecting the Data Plane Design of Meta's Next-Gen AI Fabric",
-        "Distributed Chaos: Analyzing the Cascading Failures in Google's Borg Scheduler During the 2024 Global Memory Bus Incident",
         "Designing Low-Latency Consensus: A Deep Dive into Deterministic State Machine Replication for Global Tier-0 Infrastructure",
         "The Engineering of Ephemeral Environments: Leveraging Micro-VMs and Snapshotting for Instantaneous CI/CD Scaling",
         "Architecting Zettabyte-Scale Data Lakes: Beyond Parquet and Iceberg with Direct-on-Flash Indexing",
