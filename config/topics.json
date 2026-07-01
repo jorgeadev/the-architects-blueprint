@@ -620,7 +620,6 @@
         "Erasure coding at petabyte scale: How Meta redesigned its Cold Storage tiers for 15% annual power reduction",
         "Inside Google's PlaNet: The geographically distributed, latency-oblivious global WAN architecture that replaced BGP for internal traffic",
         "How OpenAI evolved its inference fleet for ChatGPT: A case study in sharded GPU overlays and real-time token scheduling across 100k accelerators",
-        "Architecting Ultra-Low Latency State Synchrony: Distributed Shared Memory over RDMA in Modern Cloud Hypervisors",
         "Zero-Downtime Migration of Petabyte-Scale Vector Databases: Solving the Dimensionality Mismatch in Live Index Rebuilds",
         "Formal Verification of Multi-Writer Consistency Models in Decentralized Block Storage using Jepsen and TLA+",
         "Optimizing RDMA over Converged Ethernet (RoCE) for Multi-Tenant LLM Training at Exascale",
@@ -637,6 +636,9 @@
         "The Engineering Behind AWS Aurora Limitless: Implementing Distributed Query Coordination for Shardless Global Databases",
         "Architecting Low-Latency Global Consistency: Deep Dive into Spanner-style Physical Clock Synchronization in Distributed SQL Databases",
         "Optimizing Zero-Copy Data Movement in Petabyte-Scale Object Stores using eBPF and NVMe-over-Fabrics",
-        "Scaling Vector Search to Billions: An Analysis of Tiered HNSW Indexing and Quantization Strategies in Distributed AI Middleware"
+        "Scaling Vector Search to Billions: An Analysis of Tiered HNSW Indexing and Quantization Strategies in Distributed AI Middleware",
+        "Optimizing Zero-Copy Networking in Rust-based Edge Proxies for Sub-Millisecond Tail Latency",
+        "Formal Verification of Multi-Paxos State Machines in Distributed Consensus Engines",
+        "Architecting Tiered Storage for Exabyte-Scale Vector Databases in Generative AI Platforms"
     ]
 }
