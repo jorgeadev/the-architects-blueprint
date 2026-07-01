@@ -423,7 +423,6 @@
         "Optimizing Tail Latency in Globally Distributed Databases using Probabilistic Quorum Adjustments and RDMA-enabled Consensus",
         "Architecting Zero-Copy Data Pipelines for Real-Time Feature Engineering at Petabyte Scale using eBPF and Shared Memory Regions",
         "Formal Verification of Distributed Transaction Protocols in Hyperscale Microservices: Bridging TLA+ Models with Rust Implementation",
-        "Inside the BGP Routing Fabric of a Global Anycast CDN: Mitigating Route Leaks and Sub-Second Convergence at 500 Tbps",
         "How Google Scaled its Spanner Backend to Serve 10 Billion Read/Write Operations Per Second Using a Novel TrueTime-Based Sharding Algorithm",
         "Optimizing Tail Latency in Multi-Tenant Distributed Key-Value Stores via Hardware-Accelerated Consensus Protocols",
         "Zero-Copy Data Transfer Pipelines in Hyperscale Observability Platforms using eBPF and Shared Memory Ring Buffers",
@@ -631,6 +630,9 @@
         "Inside the Kernel: Leveraging eBPF and XDP for Terabit-Scale DDoS Mitigation in Hyper-Distributed Edge Architectures",
         "Optimizing RDMA over Converged Ethernet (RoCE) for Multi-Tenant GPU Clusters: Lessons from Hyperscale LLM Training",
         "Deterministic Simulation Testing (DST) in Distributed Databases: Achieving Five-Nines Reliability at Petabyte Scale",
-        "Zero-Copy Data Transfer via eBPF and XDP: Revolutionizing High-Throughput Service Mesh Sidecar Performance"
+        "Zero-Copy Data Transfer via eBPF and XDP: Revolutionizing High-Throughput Service Mesh Sidecar Performance",
+        "Unpacking Google's Spanner: A Deep Dive into TrueTime, Distributed Consensus, and the Global Synchrony Illusion",
+        "Inside the AWS Nitro System: How Hardware Offloading and MicroVM Isolation Redefine Hypervisor Overhead at Massive Scale",
+        "How Stripe Scaled a Planet-Scale Database Relocation: An Engineering Postmortem on Shard Migration and Real-Time Consistency"
     ]
 }
