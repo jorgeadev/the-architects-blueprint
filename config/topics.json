@@ -124,7 +124,6 @@
         "The System Architecture and Data Challenges of Foundation Models for De Novo Protein Design and High-Throughput Drug Discovery",
         "Taming Tail Latency at Exabyte Scale: Adaptive Request Coalescing and Non-Blocking Memory Pools in Distributed Caches",
         "The Immutable Serverless Kernel: How an Infrastructure Giant Replaced its Entire Hypervisor Fleet Without a Single User-Detectable Packet Drop",
-        "Beyond NUMA: Disaggregated Memory and Compute Architectures in Next-Gen Hyperscale Data Centers",
         "Synthetic Biology's Vanguard: Engineering Self-Amplifying RNA and Novel Viral Vectors for Pandemic Preparedness",
         "The Convergence of Optical Switching and Quantum Networking for Inter-Datacenter Low-Latency AI Fabric Architectures.",
         "Autonomous Failure Prediction and Self-Correction: Designing Resilient Hyperscale Distributed Systems with AI/ML-Driven Observability",
@@ -633,6 +632,9 @@
         "Zero-Copy Data Transfer via eBPF and XDP: Revolutionizing High-Throughput Service Mesh Sidecar Performance",
         "Unpacking Google's Spanner: A Deep Dive into TrueTime, Distributed Consensus, and the Global Synchrony Illusion",
         "Inside the AWS Nitro System: How Hardware Offloading and MicroVM Isolation Redefine Hypervisor Overhead at Massive Scale",
-        "How Stripe Scaled a Planet-Scale Database Relocation: An Engineering Postmortem on Shard Migration and Real-Time Consistency"
+        "How Stripe Scaled a Planet-Scale Database Relocation: An Engineering Postmortem on Shard Migration and Real-Time Consistency",
+        "Optimizing GPU Interconnects for Trillion-Parameter Models: A Deep Dive into Meta's MTIA and RoCEv2 Network Fabric",
+        "Architecting Real-Time Feature Stores for 100M+ QPS: How TikTok Scales the Monolith Recommendation Engine using Disaggregated Memory",
+        "The Engineering Behind AWS Aurora Limitless: Implementing Distributed Query Coordination for Shardless Global Databases"
     ]
 }
