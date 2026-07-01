@@ -228,7 +228,6 @@
         "Hyperscale Data Center Optical Fabric Architectures: Challenges and Innovations in Peta-Bit Interconnects for AI Workloads.",
         "Beyond Cold Starts: Engineering Predictable Low-Latency Performance for Hyperscale Serverless Workloads with WebAssembly and MicroVM Runtimes.",
         "Engineering Programmable Oncolytic Viruses: Leveraging AI and Synthetic Biology for Targeted Cancer Therapies with Minimal Off-Target Effects",
-        "The Microkernel Revolution: Disaggregating Hyperscale Cloud Infrastructure with Emerging Hardware Architectures like CXL and DPUs for Next-Gen Resource Management.",
         "Beyond GPUs: Scaling Trillion-Parameter AI Models with Specialized Interconnects, Gradient Compression, and Asynchronous Execution in Distributed Training Frameworks.",
         "CRISPR-Powered Phage Engineering: Precision Bacteriophage Design for Antimicrobial Resistance Combat and Targeted Microbiome Modulation Through Advanced Synthetic Biology.",
         "The Interplay of Infiniband, NVLink, and CXL in Next-Gen AI Superclusters: A Deep Dive into High-Bandwidth Interconnects for LLMs.",
@@ -635,6 +634,9 @@
         "How Stripe Scaled a Planet-Scale Database Relocation: An Engineering Postmortem on Shard Migration and Real-Time Consistency",
         "Optimizing GPU Interconnects for Trillion-Parameter Models: A Deep Dive into Meta's MTIA and RoCEv2 Network Fabric",
         "Architecting Real-Time Feature Stores for 100M+ QPS: How TikTok Scales the Monolith Recommendation Engine using Disaggregated Memory",
-        "The Engineering Behind AWS Aurora Limitless: Implementing Distributed Query Coordination for Shardless Global Databases"
+        "The Engineering Behind AWS Aurora Limitless: Implementing Distributed Query Coordination for Shardless Global Databases",
+        "Architecting Low-Latency Global Consistency: Deep Dive into Spanner-style Physical Clock Synchronization in Distributed SQL Databases",
+        "Optimizing Zero-Copy Data Movement in Petabyte-Scale Object Stores using eBPF and NVMe-over-Fabrics",
+        "Scaling Vector Search to Billions: An Analysis of Tiered HNSW Indexing and Quantization Strategies in Distributed AI Middleware"
     ]
 }
