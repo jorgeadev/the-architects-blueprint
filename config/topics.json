@@ -396,7 +396,6 @@
         "Deterministic Simulation Testing: How Anthropic Ensures Consensus Consistency in Large-Scale Distributed Training",
         "Optimizing tail latency in geo-distributed key-value stores using predictive RDMA-based cache invalidation and hardware-accelerated consensus",
         "A deep dive into zero-copy networking and eBPF-driven observability for high-throughput packet processing in cloud-native edge infrastructures",
-        "Architecting Asynchronous Geo-Replicated Vector Databases for Sub-Millisecond Global Semantic Search",
         "Optimizing L3 Cache Contention in Multi-Tenant Hypervisors using Hardware-Assisted Resource Partitioning",
         "Deep Dive: Meta's RoCE-based Network Fabric for 24,576 H100 GPU Training Clusters",
         "Architecting for 100M RPS: The Evolution of Cloudflare's Quicksilver Key-Value Store",
@@ -641,6 +640,9 @@
         "Architecting Tiered Storage for Exabyte-Scale Vector Databases in Generative AI Platforms",
         "Optimizing Global LLM Inference Latency: A Deep Dive into Speculative Decoding and KV Cache Quantization at Scale",
         "Architecting a Multi-Region Zero-Trust Control Plane: Leveraging eBPF for Line-Rate Identity Enforcement in Massive Service Meshes",
-        "Beyond Paxos: Evaluating the Trade-offs of Deterministic Database Orchestration in Highly Partitioned Distributed Systems"
+        "Beyond Paxos: Evaluating the Trade-offs of Deterministic Database Orchestration in Highly Partitioned Distributed Systems",
+        "Implementing Multi-Raft Consensus for Global Low-Latency State Synchronization in Geographically Distributed Databases",
+        "Zero-Copy eBPF-Based Observability: Profiling Kernel-to-Userspace Context Switches in High-Throughput Microservices",
+        "Architecting Disaggregated Memory Pools for LLM Training Clusters via CXL 3.0 Fabric Interconnects"
     ]
 }
