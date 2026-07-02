@@ -204,7 +204,6 @@
         "Beyond Kubernetes: The Next Frontier in Global-Scale Resource Scheduling and Job Migration for Heterogeneous Workloads",
         "Engineering Oncolytic Adenoviruses for Enhanced Tumor Selectivity and Immunogenicity in Next-Gen Cancer Therapies",
         "The Architecture of Hyperscale Vector Databases for Billion-Scale Embeddings and Real-time Semantic Search",
-        "Beyond Linear mRNA: Engineering Self-Amplifying and Circular RNA for Next-Gen Viral and Therapeutic Applications",
         "The unseen architecture: How specialized accelerators and distributed inference engines drive generative AI models at global scale.",
         "Beyond the cloud: Architecting global-scale serverless functions for ultra-low latency edge compute environments.",
         "The algorithmic nexus: How hyperscale cloud providers are leveraging reinforcement learning for real-time, global energy grid optimization and carbon-aware workload placement.",
@@ -645,6 +644,9 @@
         "Architecting Disaggregated Memory Pools for LLM Training Clusters via CXL 3.0 Fabric Interconnects",
         "Zero-Bubble Pipeline Parallelism: Scaling Synchronous Training Across 24,000 H100 GPUs for Llama 3",
         "Optimizing the BEAM Scheduler: Reducing Lock Contention in Multi-Terabit WhatsApp Message Relays",
-        "Beyond Sidecars: Accelerating Service Mesh Performance Using eBPF-based Kernel Bypass in Global Edge Clusters"
+        "Beyond Sidecars: Accelerating Service Mesh Performance Using eBPF-based Kernel Bypass in Global Edge Clusters",
+        "Decoupling the Monolith: Netflix's Real-Time Data Mesh for Sub-Millisecond Personalization at 240 Million Subscribers",
+        "Bypassing the Kernel: How Google's gVisor and eBPF Enable Zero-Copy Packet Processing in GCP's Titanium Offload Architecture",
+        "The Latency Tax: Inside Meta's Subsea Cable Network Upgrade and Its Impact on Global Zonal Replication for Meta's AI Inference Clusters"
     ]
 }
