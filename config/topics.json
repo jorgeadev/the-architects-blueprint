@@ -242,7 +242,6 @@
         "Architecting planetary-scale data replication and consistency across hybrid cloud environments",
         "The Architectural Principles Behind Hyperscale Real-time Anomaly Detection Systems: From Graph Neural Networks to Probabilistic Fault Injection",
         "Hardware-Software Co-Design for Next-Generation Data Center Interconnects: Disaggregated Fabrics, Silicon Photonics, and Custom ASICs",
-        "Engineering Novel Phage Endolysins: A Path Towards Broad-Spectrum Antimicrobials in the Post-Antibiotic Era",
         "Heterogeneous Memory Tiering at Meta: Migrating Hot Pages Across DRAM and CXL-Attached NAND for Hyperscale Database Workloads",
         "Dissecting the Intra-Node Fabric: NVLink-C2C and the Decoupling of Compute from Memory in Google's TPU v6 Pods",
         "The advent of programmable data planes (P4) and their impact on next-gen hyperscale data center network architecture for AI/ML workloads.",
@@ -643,6 +642,9 @@
         "Beyond Paxos: Evaluating the Trade-offs of Deterministic Database Orchestration in Highly Partitioned Distributed Systems",
         "Implementing Multi-Raft Consensus for Global Low-Latency State Synchronization in Geographically Distributed Databases",
         "Zero-Copy eBPF-Based Observability: Profiling Kernel-to-Userspace Context Switches in High-Throughput Microservices",
-        "Architecting Disaggregated Memory Pools for LLM Training Clusters via CXL 3.0 Fabric Interconnects"
+        "Architecting Disaggregated Memory Pools for LLM Training Clusters via CXL 3.0 Fabric Interconnects",
+        "Zero-Bubble Pipeline Parallelism: Scaling Synchronous Training Across 24,000 H100 GPUs for Llama 3",
+        "Optimizing the BEAM Scheduler: Reducing Lock Contention in Multi-Terabit WhatsApp Message Relays",
+        "Beyond Sidecars: Accelerating Service Mesh Performance Using eBPF-based Kernel Bypass in Global Edge Clusters"
     ]
 }
