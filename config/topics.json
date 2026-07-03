@@ -20,7 +20,6 @@
         "Doordash’s logistics engine: solving real-time traveling salesperson problems for millions of daily deliveries.",
         "Telegram’s proprietary MTProto protocol and their incredibly lean server architecture.",
         "Riot Games’ League of Legends global matchmaking and low-latency game server infrastructure.",
-        "Roblox’s user-generated content infrastructure: serving 3D assets to millions of active concurrent players globally.",
         "NASA's JPL cloud computing architecture: how they managed the telemetry data pipeline for the Mars Rover.",
         "An deep dive into how AWS Nitro cards physically offload networking and storage from EC2 instances.",
         "Recent revolutionary advancements in WebAssembly (Wasm) and the hype around running backend services in the browser.",
@@ -650,6 +649,9 @@
         "Deterministic Concurrency in Geographically Distributed Databases: Implementing Hybrid Logical Clocks for Causal Consistency at Hyperscale",
         "Architecting a Real-Time Global Consistency Model: How Spanner-like Systems Utilize Atomic Clocks and TrueTime for External Consistency",
         "Deep Dive into GPU Memory Virtualization: Managing Multi-Tenant Large Language Model Inference Across Distributed H100 Clusters",
-        "Re-engineering Data Planes with eBPF: Implementing Line-Rate DDoS Mitigation and Observability in Massive-Scale Software-Defined Networks"
+        "Re-engineering Data Planes with eBPF: Implementing Line-Rate DDoS Mitigation and Observability in Massive-Scale Software-Defined Networks",
+        "Analyzing the ACID compliance boundary in a planet-scale distributed SQL database: A case study on Spanner's TrueTime API and clock synchronization for global commit latency",
+        "The engineering behind petabyte-scale log-structured merge trees: How Apache Hudi's incremental table management and file group compaction strategies mitigate write amplification in data lakes",
+        "Inside the design of a homomorphic encryption accelerator for cloud networking: Dissecting AWS Nitro's cryptographic offload for zero-trust tenant isolation at 100Gbps"
     ]
 }
