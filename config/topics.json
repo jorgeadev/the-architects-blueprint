@@ -26,7 +26,6 @@
         "Recent revolutionary advancements in WebAssembly (Wasm) and the hype around running backend services in the browser.",
         "The hype over Rust replacing C++ in foundational systems: reality, technical challenges, and major rewrites.",
         "A recent hype cycle on a major JavaScript meta-framework release: what new architectural patterns does it actually solve?",
-        "The viral adoption of eBPF for networking and observability: what it means for the future of Linux kernels.",
         "Decentralized consensus protocols for achieving strong consistency in a planetary-scale distributed ledger operating at millions of transactions per second.",
         "The interplay of programmable data planes and P4 with smart NICs for ultra-low-latency network function virtualization in hyperscale data centers.",
         "From AlphaFold to Novel Protein Design: The Computational Infrastructure and Algorithmic Advances Powering AI-Driven Drug Discovery.",
@@ -649,6 +648,9 @@
         "The Latency Tax: Inside Meta's Subsea Cable Network Upgrade and Its Impact on Global Zonal Replication for Meta's AI Inference Clusters",
         "Optimizing Checkpointing Latency in Massive-Scale AI Training via 400Gbps RoCE v2 Fabric Topologies",
         "Hardware-Accelerated mTLS Offloading: Scaling Zero-Trust Service Meshes using SmartNICs in Global Data Centers",
-        "Deterministic Concurrency in Geographically Distributed Databases: Implementing Hybrid Logical Clocks for Causal Consistency at Hyperscale"
+        "Deterministic Concurrency in Geographically Distributed Databases: Implementing Hybrid Logical Clocks for Causal Consistency at Hyperscale",
+        "Architecting a Real-Time Global Consistency Model: How Spanner-like Systems Utilize Atomic Clocks and TrueTime for External Consistency",
+        "Deep Dive into GPU Memory Virtualization: Managing Multi-Tenant Large Language Model Inference Across Distributed H100 Clusters",
+        "Re-engineering Data Planes with eBPF: Implementing Line-Rate DDoS Mitigation and Observability in Massive-Scale Software-Defined Networks"
     ]
 }
