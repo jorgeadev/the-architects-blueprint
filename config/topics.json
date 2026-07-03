@@ -472,7 +472,6 @@
         "Beyond Sidecars: Implementing Zero-Copy Service Mesh Architectures using eBPF and XDP for Terabit-Scale Throughput",
         "Solving the Thundering Herd Problem in Globally Distributed Edge Caches through Probabilistic Request Collapsing and Backpressure Propagation",
         "Implementing Zero-Copy Data Transfer for High-Throughput Service Meshes using eBPF and Shared Memory",
-        "Designing Globally Distributed Vector Databases: Solving the CAP Theorem for Real-Time Semantic Search at Scale",
         "Deterministic Simulation Testing in Distributed Systems: Engineering Lessons from the Amazon Aurora Control Plane",
         "Deep Dive into Meta's AI Research SuperCluster: Orchestrating 24,576 H100 GPUs via RoCEv2 and InfiniBand Fabrics",
         "Re-engineering the Edge: How Cloudflare’s Pingora Leverages Rust and Zero-Copy for 40 Million Requests per Second",
@@ -647,6 +646,9 @@
         "Beyond Sidecars: Accelerating Service Mesh Performance Using eBPF-based Kernel Bypass in Global Edge Clusters",
         "Decoupling the Monolith: Netflix's Real-Time Data Mesh for Sub-Millisecond Personalization at 240 Million Subscribers",
         "Bypassing the Kernel: How Google's gVisor and eBPF Enable Zero-Copy Packet Processing in GCP's Titanium Offload Architecture",
-        "The Latency Tax: Inside Meta's Subsea Cable Network Upgrade and Its Impact on Global Zonal Replication for Meta's AI Inference Clusters"
+        "The Latency Tax: Inside Meta's Subsea Cable Network Upgrade and Its Impact on Global Zonal Replication for Meta's AI Inference Clusters",
+        "Optimizing Checkpointing Latency in Massive-Scale AI Training via 400Gbps RoCE v2 Fabric Topologies",
+        "Hardware-Accelerated mTLS Offloading: Scaling Zero-Trust Service Meshes using SmartNICs in Global Data Centers",
+        "Deterministic Concurrency in Geographically Distributed Databases: Implementing Hybrid Logical Clocks for Causal Consistency at Hyperscale"
     ]
 }
