@@ -591,7 +591,6 @@
         "Deep Dive into Meta’s Tectonic: Orchestrating Exabyte-Scale Disaggregated Storage Across Heterogeneous Hardware",
         "Architecting Globally Consistent Event Streaming: Overcoming Speed-of-Light Constraints in Multi-Cloud Kafka Deployments",
         "Optimizing Collective Communication: Meta’s Custom RoCE Network Stack for 24,576 H100 GPU Clusters",
-        "Formal Verification in Distributed Systems: How AWS Uses TLA+ to Prevent Metastable Failures in S3’s Strongly Consistent Control Plane",
         "Beyond Raft: Analyzing the Deterministic State Machine Replication in Discord’s Global Persistent Message Store Migration",
         "Implementing Zero-Copy Networking in Netflix’s Open Connect CDN via eBPF and XDP",
         "Scaling Meta’s Tectonic File System for 100k GPU Clusters: Architecting for Exascale AI Training",
