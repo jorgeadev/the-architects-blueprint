@@ -453,7 +453,6 @@
         "Mitigation of Cascading Failures in Massive-Scale Microservices via Adaptive Concurrency Control and Priority Queuing",
         "Optimizing Global Tail Latency via Multi-Tiered EBPF-Based Load Balancing in Edge Compute Runtimes",
         "Architecting Shard-Agnostic Transactional Integrity in Geo-Distributed Spanner-Derivative Databases",
-        "Optimizing RDMA over Converged Ethernet (RoCE) for Multi-Tier Collective Communications in Blackwell GPU Clusters",
         "Mitigating Cold-Start Latency in Serverless Edge Runtimes via Ahead-of-Time Snapshot Restoration and Memory Ballooning",
         "Zero-Copy Serialization and Memory Safety in High-Throughput Distributed LSM-Tree Storage Engines",
         "Architecting Multi-Tenant L7 Load Balancing with eBPF and XDP for Sub-Millisecond Edge Cold Starts",
@@ -658,6 +657,9 @@
         "Zero-Trust Control Planes at Edge Scale: How Cloudflare Manages WireGuard Tunnel State for 300+ Data Centers",
         "Formal Verification of Distributed Consensus Protocols in Meta's Global Traffic Management System",
         "Optimizing Tail Latency in Tiered Storage Architectures for Exabyte-Scale Vector Databases",
-        "Zero-Copy Memory Management and eBPF-Based Packet Processing in High-Throughput Service Meshes"
+        "Zero-Copy Memory Management and eBPF-Based Packet Processing in High-Throughput Service Meshes",
+        "Implementing Zero-Copy Networking and eBPF-Based Load Balancing for 100Gbps Mesh Architectures",
+        "Distributed Consensus at Petabyte Scale: Comparing Raft and Paxos Optimizations in Modern Vector Databases",
+        "Tail Latency Mitigation Strategies for Large-Scale Retrieval-Augmented Generation (RAG) Pipelines"
     ]
 }
