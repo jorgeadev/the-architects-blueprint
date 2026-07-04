@@ -225,7 +225,6 @@
         "Engineering Programmable Oncolytic Viruses: Leveraging AI and Synthetic Biology for Targeted Cancer Therapies with Minimal Off-Target Effects",
         "Beyond GPUs: Scaling Trillion-Parameter AI Models with Specialized Interconnects, Gradient Compression, and Asynchronous Execution in Distributed Training Frameworks.",
         "CRISPR-Powered Phage Engineering: Precision Bacteriophage Design for Antimicrobial Resistance Combat and Targeted Microbiome Modulation Through Advanced Synthetic Biology.",
-        "The Interplay of Infiniband, NVLink, and CXL in Next-Gen AI Superclusters: A Deep Dive into High-Bandwidth Interconnects for LLMs.",
         "Stateful Functions as a Service: Architecting Persistent Compute for Long-Running Workflows and Event-Driven Microservices at Petabyte Scale.",
         "Directed Evolution of AAV Capsids: Engineering Tropism and Immunogenicity for Next-Generation Gene Therapies.",
         "DPU and SmartNIC Architectures: Redefining Network and Storage Offloading in Hyperscale Data Centers",
@@ -654,6 +653,9 @@
         "Inside the design of a homomorphic encryption accelerator for cloud networking: Dissecting AWS Nitro's cryptographic offload for zero-trust tenant isolation at 100Gbps",
         "Leveraging eBPF for Programmable Congestion Control in Hyperscale Data Center Fabrics",
         "Formal Verification of Distributed Consensus Protocols in Large-Scale KV Stores",
-        "Multi-tenant GPU Virtualization Strategies for Sub-millisecond Inference Orchestration"
+        "Multi-tenant GPU Virtualization Strategies for Sub-millisecond Inference Orchestration",
+        "Dissecting the RoCE v2 Network Topology and Congestion Control in Meta's 24,576 H100 GPU Training Clusters",
+        "Beyond LSM-Trees: Implementing Tiered Storage and Adaptive Compaction in Netflix's Global Key-Value Store",
+        "Zero-Trust Control Planes at Edge Scale: How Cloudflare Manages WireGuard Tunnel State for 300+ Data Centers"
     ]
 }
