@@ -124,7 +124,6 @@
         "Synthetic Biology's Vanguard: Engineering Self-Amplifying RNA and Novel Viral Vectors for Pandemic Preparedness",
         "The Convergence of Optical Switching and Quantum Networking for Inter-Datacenter Low-Latency AI Fabric Architectures.",
         "Autonomous Failure Prediction and Self-Correction: Designing Resilient Hyperscale Distributed Systems with AI/ML-Driven Observability",
-        "The Invisible Backplane: Dissecting Software-Defined Networking (SDN) Evolution for Global Hyperscale Interconnects and Microsecond Latency Optimization",
         "Next-Gen Viral Vector Engineering: Designing Tissue-Specific, Spatiotemporally Controlled Gene Editing Systems for In Vivo Therapeutic Applications",
         "The Algorithmic Engineering Behind Hyper-Personalized Recommendation Engines Driving Viral Content Adoption",
         "Engineering self-regulating gene drive systems: biochemical safeties, ecological containment architectures, and ethical design principles for precise genetic interventions.",
@@ -656,6 +655,9 @@
         "Multi-tenant GPU Virtualization Strategies for Sub-millisecond Inference Orchestration",
         "Dissecting the RoCE v2 Network Topology and Congestion Control in Meta's 24,576 H100 GPU Training Clusters",
         "Beyond LSM-Trees: Implementing Tiered Storage and Adaptive Compaction in Netflix's Global Key-Value Store",
-        "Zero-Trust Control Planes at Edge Scale: How Cloudflare Manages WireGuard Tunnel State for 300+ Data Centers"
+        "Zero-Trust Control Planes at Edge Scale: How Cloudflare Manages WireGuard Tunnel State for 300+ Data Centers",
+        "Formal Verification of Distributed Consensus Protocols in Meta's Global Traffic Management System",
+        "Optimizing Tail Latency in Tiered Storage Architectures for Exabyte-Scale Vector Databases",
+        "Zero-Copy Memory Management and eBPF-Based Packet Processing in High-Throughput Service Meshes"
     ]
 }
