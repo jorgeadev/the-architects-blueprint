@@ -456,7 +456,6 @@
         "Formal Verification of Distributed Consensus Protocols in Sub-millisecond Latency Vector Databases",
         "Hardware-Software Co-design for Zero-Copy Data Movement in Multi-Petaflop GPU Clusters",
         "Architecting Global-Scale Egress-Free Multi-Cloud Meshes: A Deep Dive into Cloudflare’s Pingora Migration",
-        "Implementing Hierarchical Conflict-Free Replicated Data Types (CRDTs) for Sub-Millisecond Global State Synchronization",
         "The Architecture of Predictive Autoscaling: Using Transformer-Based Time-Series Forecasting for Proactive Infrastructure Provisioning",
         "Bypassing the Kernel: A Deep Dive into DPDK-Driven Load Balancing for Terabit-Scale Distributed Denial of Service Mitigation",
         "Optimizing Tail Latency in Multi-Tenant LSM-Trees via Predictive Compaction and Write-Ahead Log Partitioning",
@@ -666,6 +665,9 @@
         "Optimizing Tail Latencies in Multi-Tenant Kubernetes Clusters via eBPF-Based Kernel Bypass and Custom User-Space Networking",
         "Implementing Hierarchical Congestion Control for Multi-Petabyte Cross-Region Data Replication Pipelines",
         "Zero-Copy Memory Management in High-Throughput Rust-based Storage Engines: Bypassing the Kernel Bottleneck",
-        "Architecting Global Traffic Shadowing at Scale: Validating Billion-User Infrastructure Migrations Without Production Impact"
+        "Architecting Global Traffic Shadowing at Scale: Validating Billion-User Infrastructure Migrations Without Production Impact",
+        "Architecting Multi-Tenant GPU Scheduling: Solving Resource Fragmentation in Large-Scale LLM Inference Clusters",
+        "Deep Dive into Zero-Trust eBPF-based Service Meshes: Eliminating Sidecar Overhead at 100M+ Requests per Second",
+        "Deterministic Simulation Testing for Distributed Consensus: How Jepsen-Style Verification Scales to Global Cell-Based Architectures"
     ]
 }
