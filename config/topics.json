@@ -69,7 +69,6 @@
         "Beyond Kubernetes: The Rise of Cell-Based Architectures for Planetary-Scale Compute at Google and Amazon",
         "The Viral Engineering Playbook: Reverse-Engineering the Real-Time Synchronization Stack Behind Collaborative Features in Figma and Notion",
         "Beyond the Monolith: Architectural Patterns for Multi-Region, Active-Active Databases in Hyperscale FinTech Systems",
-        "Deconstructing Meta's Threads: The Real-Time Synchronization and State Reconciliation Engine at 100M+ Users",
         "Beyond the Shard: Google's Next-Gen Spanner and the Physics-Limits of Globally Consistent, Planet-Scale Databases",
         "Deconstructing the Global Request Router: How Meta's Edge Network Handles 10 Trillion Queries Per Day",
         "Beyond Kubernetes: The Unconventional Orchestration Systems Powering Hyperscale AI Training Clusters",
@@ -670,6 +669,9 @@
         "Deterministic Simulation Testing for Distributed Consensus: How Jepsen-Style Verification Scales to Global Cell-Based Architectures",
         "Optimizing Deterministic Replay in Distributed Microservices for High-Fidelity Fault Injection at Scale",
         "Architecting Hierarchical Storage Management for Real-Time Vector Databases in Multi-Tenant Environments",
-        "Analyzing the Performance Impact of eBPF-based Observability on Kernel-Space Context Switching in Hyperscale Clusters"
+        "Analyzing the Performance Impact of eBPF-based Observability on Kernel-Space Context Switching in Hyperscale Clusters",
+        "Implementing Zero-Copy Networking and RDMA for Ultra-Low Latency in Hyperscale Distributed KV Stores",
+        "Formal Verification of Distributed Consensus Protocols: How AWS S3 Uses TLA+ to Guarantee Strong Consistency",
+        "Scaling Multi-Tenant Vector Databases: Solving the Global Index Bottleneck in Retrieval-Augmented Generation at PB-Scale"
     ]
 }
