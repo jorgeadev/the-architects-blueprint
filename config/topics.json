@@ -388,7 +388,6 @@
         "Deep Dive: Meta's RoCE-based Network Fabric for 24,576 H100 GPU Training Clusters",
         "Architecting for 100M RPS: The Evolution of Cloudflare's Quicksilver Key-Value Store",
         "Beyond Vitess: How YouTube Orchestrates Billions of Transactions with Tiered Spanner Sharding",
-        "Deep Dive into Meta's Tectonic: Orchestrating Exabyte-Scale Disaggregated Storage Across Heterogeneous Hardware",
         "Optimizing Tail Latency in Globally Distributed Spanner Clusters: A Comparative Analysis of TrueTime vs. Logical Clock Hybridization",
         "Implementing Zero-Trust Observability: Leveraging eBPF for Line-Rate Kernel-Level Tracing in Multi-Tenant Kubernetes Meshes",
         "Optimizing Tail Latency in Multi-Tenant Vector Databases: A Deep Dive into HNSW Index Partitioning and Shard Balancing",
@@ -672,6 +671,9 @@
         "Analyzing the Performance Impact of eBPF-based Observability on Kernel-Space Context Switching in Hyperscale Clusters",
         "Implementing Zero-Copy Networking and RDMA for Ultra-Low Latency in Hyperscale Distributed KV Stores",
         "Formal Verification of Distributed Consensus Protocols: How AWS S3 Uses TLA+ to Guarantee Strong Consistency",
-        "Scaling Multi-Tenant Vector Databases: Solving the Global Index Bottleneck in Retrieval-Augmented Generation at PB-Scale"
+        "Scaling Multi-Tenant Vector Databases: Solving the Global Index Bottleneck in Retrieval-Augmented Generation at PB-Scale",
+        "The Mechanics of Remote DMA (RDMA) Congestion Control in Meta’s 400G AI Superclusters",
+        "Deterministic Simulation Testing for Distributed Databases: How Ant Group Ensures 99.9999% Reliability for Alipay",
+        "Optimizing L4 Load Balancers for 100Gbps Line Rates: Lessons from Cloudflare’s Transition to XDP and AF_XDP"
     ]
 }
