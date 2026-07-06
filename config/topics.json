@@ -338,7 +338,6 @@
         "The Hidden Complexity of Meta's Massive Fiber Backbone: How Optical Circuit Switching and Wavelength Division Multiplexing Survive a 400Gbps Core Meltdown",
         "Inside Meta's Cold Storage Exascale: How LLM Training Data is Archived Across Arctic Data Centers",
         "Google's Jupiter Evolving: Optical Circuit Switching and the New Congestion Control Plane for AGI Clusters",
-        "The Untold Story of Amazon's Sidewalk Mesh Scaling to 100 Million Nodes: Interference Mitigation and Long-Range Physical Layer Tuning",
         "Morphed microarchitectures: how hyperscalers are replacing traditional hypervisors with lightweight, hardware-backed enclave orchestrators for sub-millisecond tenant isolation",
         "The physics of packet pacing: analyzing Google's Jupiter Rising and the shift from distributed load balancers to in-network congestion control at the ExaFLOPS scale",
         "The Cache Hierarchy of the Internet: Dissecting Netflix's Distributed Memcached and Point-of-Presence Architecture for Millions of Concurrent Streams",
@@ -668,6 +667,9 @@
         "Architecting Global Traffic Shadowing at Scale: Validating Billion-User Infrastructure Migrations Without Production Impact",
         "Architecting Multi-Tenant GPU Scheduling: Solving Resource Fragmentation in Large-Scale LLM Inference Clusters",
         "Deep Dive into Zero-Trust eBPF-based Service Meshes: Eliminating Sidecar Overhead at 100M+ Requests per Second",
-        "Deterministic Simulation Testing for Distributed Consensus: How Jepsen-Style Verification Scales to Global Cell-Based Architectures"
+        "Deterministic Simulation Testing for Distributed Consensus: How Jepsen-Style Verification Scales to Global Cell-Based Architectures",
+        "Optimizing Deterministic Replay in Distributed Microservices for High-Fidelity Fault Injection at Scale",
+        "Architecting Hierarchical Storage Management for Real-Time Vector Databases in Multi-Tenant Environments",
+        "Analyzing the Performance Impact of eBPF-based Observability on Kernel-Space Context Switching in Hyperscale Clusters"
     ]
 }
