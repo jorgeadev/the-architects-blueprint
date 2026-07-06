@@ -393,7 +393,6 @@
         "Optimizing Tail Latency in Multi-Tenant Vector Databases: A Deep Dive into HNSW Index Partitioning and Shard Balancing",
         "The Evolution of Meta's RoCE v2 Network Fabric: Scaling Collective Communication Across 24,000 GPU Clusters",
         "Deterministic Simulation Testing at Scale: Implementing Jitter-Injected Fault Injection in Rust-based Distributed Storage Engines",
-        "Implementing Deterministic Simulation Testing (DST) for Distributed State Machines: Lessons from FoundationDB and TigerBeetle",
         "Hardware-Software Co-design for 100k+ GPU Clusters: Dissecting Meta's Tectonic and RoCEv2 Network Fabric for Llama-3 Training",
         "Zero-Trust at the NIC Level: Leveraging eBPF and Hardware Offloading for Multi-Terabit Per Second DDoS Mitigation",
         "Deep Dive into NVLink Switch Fabrics: Scaling Inter-Node Communication for 100k+ GPU Clusters",
@@ -674,6 +673,9 @@
         "Scaling Multi-Tenant Vector Databases: Solving the Global Index Bottleneck in Retrieval-Augmented Generation at PB-Scale",
         "The Mechanics of Remote DMA (RDMA) Congestion Control in Meta’s 400G AI Superclusters",
         "Deterministic Simulation Testing for Distributed Databases: How Ant Group Ensures 99.9999% Reliability for Alipay",
-        "Optimizing L4 Load Balancers for 100Gbps Line Rates: Lessons from Cloudflare’s Transition to XDP and AF_XDP"
+        "Optimizing L4 Load Balancers for 100Gbps Line Rates: Lessons from Cloudflare’s Transition to XDP and AF_XDP",
+        "Sharding High-Dimensional Vector Spaces: Distributed Indexing Strategies for Billion-Scale Similarity Search",
+        "Optimizing Tail Latency in Multi-Tenant LLM Inference: KV-Cache Management and Continuous Batching at Scale",
+        "Implementing Zero-Trust at the Data Plane: Leveraging eBPF for High-Performance Micro-Segmentation in Massive Clusters"
     ]
 }
