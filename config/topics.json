@@ -107,7 +107,6 @@
         "Achieving Strong Consistency and Low Latency in Globally Distributed Databases: A Deep Dive into Atomic Clock Synchronization and Multi-Version Concurrency Control (MVCC) at Scale",
         "Optimizing State Machine Replication for Trillion-Event Streams: A Deep Dive into Distributed Consensus Protocols Beyond Raft and Paxos at Cloud Scale",
         "Synthetic Virology: Engineering Novel Bacteriophage Systems for Programmable Microbiome Modulation and Targeted Drug Delivery at Scale",
-        "The unseen battle for bandwidth: How hyperscalers are leveraging CXL 3.0 and photonic integration to overcome memory and interconnect bottlenecks in petascale AI clusters.",
         "The Evolution of Cloud-Native Workload Scheduling: From Bin Packing to AI-Driven Predictive Resource Allocation",
         "CRISPR-Associated Transposases (CAST) for Programmable Large-Fragment Genomic Integration in Antiviral Gene Therapy",
         "The Engineering of Global Consensus: How TrueTime and Hybrid Logical Clocks Achieve External Consistency in Massively Distributed SQL Databases",
@@ -678,6 +677,9 @@
         "Implementing Zero-Trust at the Data Plane: Leveraging eBPF for High-Performance Micro-Segmentation in Massive Clusters",
         "Implementing zero-copy serialization in multi-petabyte vector databases for real-time RAG pipelines",
         "The mechanics of hardware-accelerated consensus: Offloading Raft log replication to DPUs and smartNICs",
-        "Taming tail latency in geo-distributed Spanner clusters using predictive packet steering and eXpress Data Path (XDP)"
+        "Taming tail latency in geo-distributed Spanner clusters using predictive packet steering and eXpress Data Path (XDP)",
+        "Leveraging eBPF for Zero-Copy Networking in High-Throughput Service Meshes at Scale",
+        "Hierarchical Consensus Protocols: Scaling Multi-Paxos to Millions of Geographically Distributed Nodes",
+        "Deterministic Simulation Testing (DST): Validating Global Consistency in Large-Scale Distributed Storage Systems"
     ]
 }
