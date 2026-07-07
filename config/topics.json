@@ -402,7 +402,6 @@
         "Scaling LLM Inference: A Comparative Analysis of PagedAttention and FlashAttention for Multi-Tenant GPU Clusters",
         "The Evolution of Deterministic Simulation Testing for Distributed Databases: How FoundationDB and TigerBeetle Achieve 99.99999% Reliability",
         "Optimizing Tail Latency in Globally Distributed Databases using Probabilistic Quorum Adjustments and RDMA-enabled Consensus",
-        "Architecting Zero-Copy Data Pipelines for Real-Time Feature Engineering at Petabyte Scale using eBPF and Shared Memory Regions",
         "Formal Verification of Distributed Transaction Protocols in Hyperscale Microservices: Bridging TLA+ Models with Rust Implementation",
         "How Google Scaled its Spanner Backend to Serve 10 Billion Read/Write Operations Per Second Using a Novel TrueTime-Based Sharding Algorithm",
         "Optimizing Tail Latency in Multi-Tenant Distributed Key-Value Stores via Hardware-Accelerated Consensus Protocols",
@@ -680,6 +679,9 @@
         "Taming tail latency in geo-distributed Spanner clusters using predictive packet steering and eXpress Data Path (XDP)",
         "Leveraging eBPF for Zero-Copy Networking in High-Throughput Service Meshes at Scale",
         "Hierarchical Consensus Protocols: Scaling Multi-Paxos to Millions of Geographically Distributed Nodes",
-        "Deterministic Simulation Testing (DST): Validating Global Consistency in Large-Scale Distributed Storage Systems"
+        "Deterministic Simulation Testing (DST): Validating Global Consistency in Large-Scale Distributed Storage Systems",
+        "Implementing Zero-Copy Memory Management in Distributed Key-Value Stores via NVMe-over-Fabrics and User-Space Storage Drivers",
+        "Formal Verification of Consensus Protocols in Geo-Replicated Multi-Leader Databases Using TLA+ and Model Checking",
+        "Optimizing Tail Latency in Massive-Scale Stream Processing Systems through Adaptive Flow Control and Backpressure Propagation across Kubernetes Clusters"
     ]
 }
