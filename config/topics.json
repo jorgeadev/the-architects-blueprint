@@ -595,7 +595,6 @@
         "Optimizing Multi-Tenant LLM Serving: A Deep Dive into PagedAttention and KV Cache Sharding Strategies",
         "Engineering Global Consistency: Building a Geo-Distributed Write-Ahead Log for Serverless SQLite Environments",
         "Hyper-Scaling Vector Databases: Solving the 100-Billion Dimension Indexing Problem in Real-Time Search Infrastructure",
-        "Deterministic Simulation and Formal Verification of Distributed Consensus Protocols in Sub-Millisecond Financial Exchanges",
         "Optimizing Tail Latency in Multi-Tenant LLM Serving: A Comparative Study of Speculative Decoding and Continuous Batching at Scale",
         "Erasure coding at petabyte scale: How Meta redesigned its Cold Storage tiers for 15% annual power reduction",
         "Inside Google's PlaNet: The geographically distributed, latency-oblivious global WAN architecture that replaced BGP for internal traffic",
@@ -676,6 +675,9 @@
         "Optimizing L4 Load Balancers for 100Gbps Line Rates: Lessons from Cloudflare’s Transition to XDP and AF_XDP",
         "Sharding High-Dimensional Vector Spaces: Distributed Indexing Strategies for Billion-Scale Similarity Search",
         "Optimizing Tail Latency in Multi-Tenant LLM Inference: KV-Cache Management and Continuous Batching at Scale",
-        "Implementing Zero-Trust at the Data Plane: Leveraging eBPF for High-Performance Micro-Segmentation in Massive Clusters"
+        "Implementing Zero-Trust at the Data Plane: Leveraging eBPF for High-Performance Micro-Segmentation in Massive Clusters",
+        "Implementing zero-copy serialization in multi-petabyte vector databases for real-time RAG pipelines",
+        "The mechanics of hardware-accelerated consensus: Offloading Raft log replication to DPUs and smartNICs",
+        "Taming tail latency in geo-distributed Spanner clusters using predictive packet steering and eXpress Data Path (XDP)"
     ]
 }
