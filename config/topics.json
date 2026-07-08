@@ -304,7 +304,6 @@
         "Beyond GPUs: Designing Hyperscale Inference Architectures for Trillion-Parameter AI Models",
         "Achieving Strong Global Consistency: Innovations in Geo-Distributed Transactional Databases at Exabyte Scale",
         "Disaggregated Memory Architectures: How CXL and Photonics are Reshaping Hyperscale Data Center Compute and Storage Fabrics",
-        "Vector Database Indexing at Trillion-Scale: Optimizing HNSW and PQ for Low-Latency Similarity Search in Real-Time AI Applications",
         "Programmable Data Plane Evolution: From P4 to Silicon for Hyperscale Network Observability",
         "Beyond AAV: Next-Generation Viral Vector Engineering for Enhanced Gene Therapy Delivery and Immunomodulation",
         "Disaggregated NVMe-oF and CXL-based memory pooling: Architecting the next generation of hyperscale cloud resource virtualization.",
@@ -688,6 +687,9 @@
         "Architecting Global Secondary Indexes in Distributed Key-Value Stores for Sub-Millisecond Tail Latency",
         "Deep Dive into Hierarchical Ring-AllReduce Patterns for Billion-Parameter Model Training on Heterogeneous Clusters",
         "Optimizing Zero-Copy Data Pathing in eBPF-based Service Meshes for Sub-Microsecond Sidecar Latency",
-        "Deterministic Simulation Testing at Scale: How Distributed Database Engines Validate Consistency in Non-Deterministic Environments"
+        "Deterministic Simulation Testing at Scale: How Distributed Database Engines Validate Consistency in Non-Deterministic Environments",
+        "Formal Verification of Distributed Consistency Protocols in WhatsApp's Erlang-Based Storage Layer",
+        "Optimizing Tail Latency in Multi-Tenant GPU Clusters Using Programmable In-Network Aggregation",
+        "Zero-Overhead Checkpointing Strategies for Training 70B+ Parameter Models on Heterogeneous Hardware"
     ]
 }
