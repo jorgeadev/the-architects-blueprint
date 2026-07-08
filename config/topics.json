@@ -651,7 +651,6 @@
         "Tail Latency Mitigation Strategies for Large-Scale Retrieval-Augmented Generation (RAG) Pipelines",
         "Optimizing Tail Latency in Geo-Distributed Spanner-like Systems via Predictable Execution and Multi-Paxos Steering",
         "Beyond eBPF: Leveraging XDP and Kernel Bypass for High-Throughput Packet Processing in Terabit-Scale Edge Load Balancers",
-        "Hardware-Aware GPU Orchestration: Managing Fragmented VRAM and PagedAttention at Scale in Multi-Tenant LLM Inference Clusters",
         "Implementing Deterministic Global Clock Synchronization in Geographically Distributed Databases Using Hardware-Assisted PTP",
         "Deep Dive into Cellular Architecture: Partitioning Massive Monolithic Control Planes to Mitigate Blast Radius in Hyperscale Clouds",
         "Optimizing Tail Latencies in Multi-Tenant Kubernetes Clusters via eBPF-Based Kernel Bypass and Custom User-Space Networking",
@@ -684,6 +683,9 @@
         "Optimizing Tail Latency in Massive-Scale Stream Processing Systems through Adaptive Flow Control and Backpressure Propagation across Kubernetes Clusters",
         "Optimizing Deterministic Replay for Debugging Distributed Consensus Failures in Hyperscale Storage Clusters",
         "Hardware-Accelerated Memory Tiering: Leveraging CXL and eBPF for Sub-Microsecond Tiered Storage Orchestration",
-        "Architecting Zero-Copy Networking for Multi-Tenant GPU Clusters: Lessons from InfiniBand and RDMA at Scale"
+        "Architecting Zero-Copy Networking for Multi-Tenant GPU Clusters: Lessons from InfiniBand and RDMA at Scale",
+        "Implementing Zero-Copy Networking with io_uring and eBPF for Multi-Terabit Edge Proxies",
+        "Deterministic Simulation Testing: How TigerBeetle Achieves Strict Serializability at Scale",
+        "Architecting Global Secondary Indexes in Distributed Key-Value Stores for Sub-Millisecond Tail Latency"
     ]
 }
