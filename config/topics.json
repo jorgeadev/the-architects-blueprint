@@ -532,7 +532,6 @@
         "Deterministic Simulation Testing in Distributed Databases: How FoundationDB and TigerBeetle Prevent Rare Consensus Failures",
         "Optimizing KV Cache Management for Multi-Tenant LLM Serving: A Deep Dive into PagedAttention and FlashAttention Integration",
         "Implementing eBPF-based L4 Load Balancing for 100M+ Concurrent Connections: A Deep Dive into XDP and Katran Evolution",
-        "Zero-Trust Networking at Scale: Deconstructing the mTLS Overheads in Service Mesh Architectures for Global Edge PoPs",
         "Deterministic Simulation Testing at Scale: How FoundationDB Validates Distributed State Machine Consistency Under Network Partitions",
         "Reducing Tail Latency in Multi-Tenant Vector Databases: Implementing Tiered Indexing and Write-Ahead Log Partitioning for RAG at Petabyte Scale",
         "Beyond eBPF: Leveraging User-Space Networking and DPDK for Sub-Microsecond Service Mesh Observability in Hyperscale Infrastructures",
@@ -686,6 +685,9 @@
         "Architecting Zero-Copy Networking for Multi-Tenant GPU Clusters: Lessons from InfiniBand and RDMA at Scale",
         "Implementing Zero-Copy Networking with io_uring and eBPF for Multi-Terabit Edge Proxies",
         "Deterministic Simulation Testing: How TigerBeetle Achieves Strict Serializability at Scale",
-        "Architecting Global Secondary Indexes in Distributed Key-Value Stores for Sub-Millisecond Tail Latency"
+        "Architecting Global Secondary Indexes in Distributed Key-Value Stores for Sub-Millisecond Tail Latency",
+        "Deep Dive into Hierarchical Ring-AllReduce Patterns for Billion-Parameter Model Training on Heterogeneous Clusters",
+        "Optimizing Zero-Copy Data Pathing in eBPF-based Service Meshes for Sub-Microsecond Sidecar Latency",
+        "Deterministic Simulation Testing at Scale: How Distributed Database Engines Validate Consistency in Non-Deterministic Environments"
     ]
 }
