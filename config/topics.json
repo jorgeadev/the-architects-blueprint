@@ -234,7 +234,6 @@
         "Heterogeneous Memory Tiering at Meta: Migrating Hot Pages Across DRAM and CXL-Attached NAND for Hyperscale Database Workloads",
         "Dissecting the Intra-Node Fabric: NVLink-C2C and the Decoupling of Compute from Memory in Google's TPU v6 Pods",
         "The advent of programmable data planes (P4) and their impact on next-gen hyperscale data center network architecture for AI/ML workloads.",
-        "Synthetic virology: Engineering novel viral capsids and genomes for precision gene delivery and oncolytic therapies beyond CRISPR.",
         "The Disaggregated Future: CXL and PIM Architectures Reshaping Hyperscale Memory and Compute",
         "Beyond Eventual Consistency: Achieving Strong Consistency at Petabyte Scale with Distributed Transaction Protocols",
         "Precision Viral Engineering: Designing AAV Capsids for Targeted Gene Delivery and Reduced Immunogenicity",
