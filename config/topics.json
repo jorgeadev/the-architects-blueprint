@@ -78,7 +78,6 @@
         "Synthetic biology's frontier: engineering novel viral capsids for enhanced gene therapy delivery and immunogenicity control.",
         "Postmortem Analysis of the Cascading Failure in a Major CDN's Anycast Routing During a Global Sporting Event",
         "Architecting AAV Capsids for Enhanced Tissue Tropism and Reduced Immunogenicity in Gene Therapy Delivery",
-        "Deep dive into disaggregated optical-IP data center networks and their role in enabling extreme-scale AI/ML workloads, exploring RoCEv2, DPU/IPU integration, and P4 programmable switching.",
         "Beyond Kubernetes: The Rise of MicroVM-Based Serverless Platforms at Hyperscale",
         "The Physics of Cooling: How Google's New Liquid Immersion Data Centers Achieve PUE < 1.05",
         "Advanced AAV Vector Engineering for Precision Gene Therapy Delivery: Navigating Immunogenicity and Tissue Specificity",
@@ -689,6 +688,9 @@
         "Deterministic Simulation Testing at Scale: How Distributed Database Engines Validate Consistency in Non-Deterministic Environments",
         "Formal Verification of Distributed Consistency Protocols in WhatsApp's Erlang-Based Storage Layer",
         "Optimizing Tail Latency in Multi-Tenant GPU Clusters Using Programmable In-Network Aggregation",
-        "Zero-Overhead Checkpointing Strategies for Training 70B+ Parameter Models on Heterogeneous Hardware"
+        "Zero-Overhead Checkpointing Strategies for Training 70B+ Parameter Models on Heterogeneous Hardware",
+        "Implementing Hierarchical CXL-Based Memory Tiering for Sub-Millisecond Tail Latency in Petabyte-Scale Vector Databases",
+        "Engineering Distributed Consensus for 100M+ QPS: Transitioning from Paxos to RDMA-Accelerated Deterministic Execution Engines",
+        "Architecting Global-Scale eBPF Observability Planes: Real-Time Kernel-Level Telemetry Without Context Switching Overheads"
     ]
 }
