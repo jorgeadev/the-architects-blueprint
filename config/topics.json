@@ -275,7 +275,6 @@
         "Synthetic Viral Vector Design via Machine Learning: Predicting Immunogenicity and Tropism for Advanced Gene Therapies.",
         "Architecting Low-Latency, Distributed Inference for Trillion-Parameter Foundation Models: A Deep Dive into Tensor Parallelism and Dynamic Batching",
         "The Evolution of Hyperscale Data Center Networks: Optimizing for AI/ML Workloads with RoCEv2 and Programmable Switches",
-        "Dissecting Next-Gen Global Consensus Algorithms for Hyperscale Transactional Consistency in Multi-Region Cloud Environments",
         "Programmable Dataplanes (P4) and the Future of Hyperscale Network Fabric Orchestration for AI/ML Training Clusters",
         "Computational Phage Design: Engineering Lytic Specificity and Broad-Spectrum Efficacy Against Pan-Resistant Bacteria via Synthetic Genomics",
         "Architecting the Next-Gen Disaggregated Memory Fabrics: CXL 3.0 and Beyond for Ultra-Low Latency, Shared-Memory AI Superclusters",
@@ -691,6 +690,9 @@
         "Zero-Overhead Checkpointing Strategies for Training 70B+ Parameter Models on Heterogeneous Hardware",
         "Implementing Hierarchical CXL-Based Memory Tiering for Sub-Millisecond Tail Latency in Petabyte-Scale Vector Databases",
         "Engineering Distributed Consensus for 100M+ QPS: Transitioning from Paxos to RDMA-Accelerated Deterministic Execution Engines",
-        "Architecting Global-Scale eBPF Observability Planes: Real-Time Kernel-Level Telemetry Without Context Switching Overheads"
+        "Architecting Global-Scale eBPF Observability Planes: Real-Time Kernel-Level Telemetry Without Context Switching Overheads",
+        "Building zero-copy data planes: Leveraging io_uring and eBPF for high-throughput log ingestion at scale",
+        "The evolution of Deterministic Simulation Testing: Hardening distributed databases against rare concurrency bugs",
+        "Optimizing P99 latency in geo-distributed LLM inference: Cross-node KV cache management and dynamic speculative decoding"
     ]
 }
