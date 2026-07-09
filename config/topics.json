@@ -47,7 +47,6 @@
         "Deconstructing Hyperscale Transactional Consistency: The role of geo-distributed consensus protocols and hybrid logical clocks in global cloud databases.",
         "Evolving Hyperscale Networks: The Interplay of Software-Defined Networking and BGP-EVPN for Inter-Datacenter Connectivity.",
         "Engineering Next-Gen mRNA Vaccines: Advancements in Lipid Nanoparticle Delivery Systems and Immunostimulatory Design.",
-        "CXL 3.0 and Disaggregated Memory Pooling: Architecting the Next Generation of Hyperscale Data Center Resource Utilization",
         "Optimizing Cold Start Latency in Serverless Edge Functions: A Deep Dive into MicroVM Snapshotting and Kernel-Level Virtualization Techniques",
         "Optimizing Serverless Cold Starts at Trillions of Invocations: Deep Dive into Hyperscale Resource Scheduling",
         "Global Messaging at Scale: Real-time Consistency Across Distributed Graph Databases for Billions",
@@ -695,6 +694,9 @@
         "Optimizing P99 latency in geo-distributed LLM inference: Cross-node KV cache management and dynamic speculative decoding",
         "Implementing Zero-Copy Data Planes for High-Throughput Microservices: A Comparison of eBPF and AF_XDP in Production",
         "The Mechanics of Speculative Decoding at Scale: Orchestrating Draft Models for Distributed LLM Inference Pipelines",
-        "Architecting Multi-Region Strongly Consistent Databases: Solving the 2PC Latency Floor in Global Mesh Networks"
+        "Architecting Multi-Region Strongly Consistent Databases: Solving the 2PC Latency Floor in Global Mesh Networks",
+        "The Anatomy of Distributed Sharding in Vector Databases: Optimizing HNSW Indexing for Multi-Tenant Large Language Models",
+        "Implementing Low-Latency Global Consistency: A Deep Dive into Spanner-inspired Multi-Region Consensus Protocols in Rust",
+        "Solving the Thundering Herd: Adaptive Congestion Control and Prioritized Request Hedging in Massive-Scale Edge Computing"
     ]
 }
