@@ -542,7 +542,6 @@
         "Deconstructing the Vector Database Bottleneck: Tiered HNSW Indexing for Trillion-Scale Semantic Search",
         "Deterministic Simulation Testing at Scale: How TigerBeetle Achieves 1 Million Transactions per Second with Formal Verification",
         "The Architecture of Predictive Auto-scaling: Using Transformer-Based Time Series Forecasting for Proactive Capacity Planning in Global Edge Networks",
-        "Optimizing Tail Latency in Distributed Vector Databases: A Deep Dive into HNSW Index Partitioning and Sharding Strategies",
         "Implementing Zero-Copy Networking for Terabit-Scale RDMA Clusters: Solving the Congestion Control Problem in RoCEv2",
         "Re-architecting Global Service Meshes: Leveraging eBPF and Sidecarless Proxying for Sub-Millisecond Inter-Region Communication",
         "Formal verification of distributed consensus protocols in Amazon S3’s Strong Consistency layer",
@@ -703,6 +702,9 @@
         "How Netflix rebuilt its content delivery mesh using a custom QUIC-based transport layer for zero-buffer planetary streaming.",
         "The Latency Tax: Analyzing the Hidden Performance Costs of Global Anycast Routing in CDN Networks at 10 Million Requests Per Second",
         "Distributed Consensus at Planetary Scale: A Post-Mortem on the Multi-Region CockroachDB Outage Triggered by a Clock Skew Anomaly",
-        "Beyond k-Anonymity: How Pinterest Rebuilt Its Real-Time Ad Serving Infrastructure Using a Novel Tiered Columnar Store for Sub-Millisecond User Profile Lookups"
+        "Beyond k-Anonymity: How Pinterest Rebuilt Its Real-Time Ad Serving Infrastructure Using a Novel Tiered Columnar Store for Sub-Millisecond User Profile Lookups",
+        "Optimizing P99 Latency in Global KV Stores: Implementing Multi-Region Raft with Deterministic Quorum Rebalancing",
+        "Hardware-Software Co-Design for LLM Serving: Benchmarking NVLink Sharding vs. InfiniBand-Connected GPU Clusters",
+        "Zero-Copy Data Planes in High-Throughput Service Meshes: Leveraging eBPF and XDP for Terabit-Scale Traffic Management"
     ]
 }
