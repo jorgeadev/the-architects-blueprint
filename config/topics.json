@@ -654,7 +654,6 @@
         "Deep Dive into Zero-Trust eBPF-based Service Meshes: Eliminating Sidecar Overhead at 100M+ Requests per Second",
         "Deterministic Simulation Testing for Distributed Consensus: How Jepsen-Style Verification Scales to Global Cell-Based Architectures",
         "Optimizing Deterministic Replay in Distributed Microservices for High-Fidelity Fault Injection at Scale",
-        "Architecting Hierarchical Storage Management for Real-Time Vector Databases in Multi-Tenant Environments",
         "Analyzing the Performance Impact of eBPF-based Observability on Kernel-Space Context Switching in Hyperscale Clusters",
         "Implementing Zero-Copy Networking and RDMA for Ultra-Low Latency in Hyperscale Distributed KV Stores",
         "Formal Verification of Distributed Consensus Protocols: How AWS S3 Uses TLA+ to Guarantee Strong Consistency",
@@ -697,6 +696,9 @@
         "Architecting Multi-Region Strongly Consistent Databases: Solving the 2PC Latency Floor in Global Mesh Networks",
         "The Anatomy of Distributed Sharding in Vector Databases: Optimizing HNSW Indexing for Multi-Tenant Large Language Models",
         "Implementing Low-Latency Global Consistency: A Deep Dive into Spanner-inspired Multi-Region Consensus Protocols in Rust",
-        "Solving the Thundering Herd: Adaptive Congestion Control and Prioritized Request Hedging in Massive-Scale Edge Computing"
+        "Solving the Thundering Herd: Adaptive Congestion Control and Prioritized Request Hedging in Massive-Scale Edge Computing",
+        "Predictive Auto-Scaling with Transformer-Based Time-Series Models: How AWS Manages Elastic Compute Fleet Availability",
+        "Reducing Tail Latency in Heterogeneous Clusters: Implementing GPU-Aware Scheduling and Topology-Specific Networking in Kubernetes",
+        "Zero-Copy Serialization and RDMA: Re-Architecting the Internal RPC Framework at Meta for Sub-Microsecond Inter-Service Communication"
     ]
 }
