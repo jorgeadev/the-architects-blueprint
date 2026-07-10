@@ -9,7 +9,6 @@
         "Recent disruptive tech releases or viral developer trends on social media that captivated the engineering world.",
         "How Netflix achieved Multi-Region High Availability and zero downtime evacuations.",
         "TikTok’s recommendation algorithm infrastructure: serving ultra-personalized videos to over a billion users.",
-        "Discord’s real-time messaging architecture: handling trillions of messages utilizing Cassandra and Rust.",
         "Cloudflare’s Edge computing architecture: how Workers deploy code to hundreds of data centers in milliseconds.",
         "AWS DynamoDB under the hood: how Amazon scales a NoSQL database seamlessly across regions.",
         "Reddit’s handling of immense traffic spikes during viral world events or massive AMAs.",
@@ -701,6 +700,9 @@
         "Zero-Copy Serialization and RDMA: Re-Architecting the Internal RPC Framework at Meta for Sub-Microsecond Inter-Service Communication",
         "A deep dive into Google's redundant disaggregated storage fabric and its impact on global query latency under exascale load.",
         "The engineering politics behind AWS's new silicon photonics interconnect and its role in shattering the hyperscale network bottleneck.",
-        "How Netflix rebuilt its content delivery mesh using a custom QUIC-based transport layer for zero-buffer planetary streaming."
+        "How Netflix rebuilt its content delivery mesh using a custom QUIC-based transport layer for zero-buffer planetary streaming.",
+        "The Latency Tax: Analyzing the Hidden Performance Costs of Global Anycast Routing in CDN Networks at 10 Million Requests Per Second",
+        "Distributed Consensus at Planetary Scale: A Post-Mortem on the Multi-Region CockroachDB Outage Triggered by a Clock Skew Anomaly",
+        "Beyond k-Anonymity: How Pinterest Rebuilt Its Real-Time Ad Serving Infrastructure Using a Novel Tiered Columnar Store for Sub-Millisecond User Profile Lookups"
     ]
 }
