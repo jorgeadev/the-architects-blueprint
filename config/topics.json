@@ -404,7 +404,6 @@
         "Hardware-Accelerated Consensus: Offloading Paxos and Raft State Machine Transitions to Programmable Switches using P4",
         "Architecting for Hyper-Elasticity: Deep Dive into the Shared-Log and Disaggregated Storage Model of Snowflake and Databricks Polaris",
         "Sub-Microsecond Clock Synchronization at Scale: Implementing Precision Time Protocol (PTP) in Commodity Cloud Data Centers",
-        "Designing zero-trust cross-region service mesh overlays for sub-millisecond propagation of policy updates at 100M+ RPS",
         "Leveraging eBPF for deep packet inspection and programmable traffic shaping in hyper-scale multi-tenant Kubernetes clusters",
         "Deterministic database replication at scale: Implementing Raft over RDMA for ultra-low latency consistency in NVMe-based storage layers",
         "Implementing Zero-Copy Data Planes for Terabit-Scale Distributed Storage using RDMA and NVMe-over-Fabrics",
@@ -709,6 +708,9 @@
         "Hardware-Aware LLM Serving: Leveraging Custom Triton Kernels for KV Cache Compression in High-Throughput Inference Engines",
         "Implementing Deterministic Query Execution in Distributed NewSQL Engines to Eliminate Non-Replicable State Drift",
         "Zero-Copy Data Transfer Architectures for Billion-Scale Vector Embeddings in Heterogeneous GPU-CPU Clusters",
-        "Solving the Cold-Start Latency Bottleneck in Microsecond-Scale Serverless Runtimes via Predictive WebAssembly Snapshotting"
+        "Solving the Cold-Start Latency Bottleneck in Microsecond-Scale Serverless Runtimes via Predictive WebAssembly Snapshotting",
+        "Optimizing Global Traffic Control: Implementing Deterministic Anycast Routing for Sub-10ms Cross-Region Failover",
+        "Memory Safety at the Kernel Level: Re-Architecting High-Throughput Load Balancers with eBPF and Rust for Line-Rate Processing",
+        "Scaling Distributed Consensus: Investigating the Impact of Shared-Log Architectures on Write-Heavy Workloads in Hyperscale Environments"
     ]
 }
