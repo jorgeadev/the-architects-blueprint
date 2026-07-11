@@ -302,7 +302,6 @@
         "Programmable Data Plane Evolution: From P4 to Silicon for Hyperscale Network Observability",
         "Beyond AAV: Next-Generation Viral Vector Engineering for Enhanced Gene Therapy Delivery and Immunomodulation",
         "Disaggregated NVMe-oF and CXL-based memory pooling: Architecting the next generation of hyperscale cloud resource virtualization.",
-        "Prime Editing's Breakthroughs: Expanding the Gene Editing Toolkit for Precise, Scarless Genomic Modifications and Therapeutic Applications.",
         "The Role of Foundational Models and HPC in Accelerating De Novo Protein Design for Drug Discovery and Synthetic Biology",
         "Optimizing RDMA over Converged Ethernet (RoCE) for Distributed LLM Training: Overcoming Incast Congestion in Hyperscale GPU Clusters",
         "Beyond Eventual Consistency: Implementing Deterministic State Machine Replication in Globally Distributed Edge Databases",
@@ -707,6 +706,9 @@
         "Zero-Copy Data Planes in High-Throughput Service Meshes: Leveraging eBPF and XDP for Terabit-Scale Traffic Management",
         "Optimizing Tail Latency in Disaggregated Storage Architectures: A Deep Dive into NVMe-over-Fabrics at Scale",
         "The Evolution of Sharding: Implementing Linearizable Cross-Shard Transactions in Distributed Spanner-like Databases",
-        "Hardware-Aware LLM Serving: Leveraging Custom Triton Kernels for KV Cache Compression in High-Throughput Inference Engines"
+        "Hardware-Aware LLM Serving: Leveraging Custom Triton Kernels for KV Cache Compression in High-Throughput Inference Engines",
+        "Implementing Deterministic Query Execution in Distributed NewSQL Engines to Eliminate Non-Replicable State Drift",
+        "Zero-Copy Data Transfer Architectures for Billion-Scale Vector Embeddings in Heterogeneous GPU-CPU Clusters",
+        "Solving the Cold-Start Latency Bottleneck in Microsecond-Scale Serverless Runtimes via Predictive WebAssembly Snapshotting"
     ]
 }
