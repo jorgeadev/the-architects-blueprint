@@ -584,7 +584,6 @@
         "Inside Google's PlaNet: The geographically distributed, latency-oblivious global WAN architecture that replaced BGP for internal traffic",
         "How OpenAI evolved its inference fleet for ChatGPT: A case study in sharded GPU overlays and real-time token scheduling across 100k accelerators",
         "Zero-Downtime Migration of Petabyte-Scale Vector Databases: Solving the Dimensionality Mismatch in Live Index Rebuilds",
-        "Formal Verification of Multi-Writer Consistency Models in Decentralized Block Storage using Jepsen and TLA+",
         "Optimizing RDMA over Converged Ethernet (RoCE) for Multi-Tenant LLM Training at Exascale",
         "Solving the Thundering Herd: Zero-Downtime Stateful Fleet Rebalancing in Netflix's Global Content Delivery Network",
         "Inside the Kernel: Leveraging eBPF and XDP for Terabit-Scale DDoS Mitigation in Hyper-Distributed Edge Architectures",
@@ -711,6 +710,9 @@
         "Solving the Cold-Start Latency Bottleneck in Microsecond-Scale Serverless Runtimes via Predictive WebAssembly Snapshotting",
         "Optimizing Global Traffic Control: Implementing Deterministic Anycast Routing for Sub-10ms Cross-Region Failover",
         "Memory Safety at the Kernel Level: Re-Architecting High-Throughput Load Balancers with eBPF and Rust for Line-Rate Processing",
-        "Scaling Distributed Consensus: Investigating the Impact of Shared-Log Architectures on Write-Heavy Workloads in Hyperscale Environments"
+        "Scaling Distributed Consensus: Investigating the Impact of Shared-Log Architectures on Write-Heavy Workloads in Hyperscale Environments",
+        "Implementing Deterministic Simulation Testing for Distributed Consensus in Massive-Scale Multi-Paxos Clusters",
+        "Solving GPU Memory Fragmentation and PagedAttention Overhead in Multi-Tenant LLM Serving Architectures",
+        "Scaling S3-Compatible Metadata Engines to Trillions of Objects Using Tiered LSM Trees and Bloom Filter Optimization"
     ]
 }
