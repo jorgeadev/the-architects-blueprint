@@ -578,7 +578,6 @@
         "Optimizing Global Tail Latency: The Internals of Google’s Maglev Next-Gen Load Balancing with Programmable Logic",
         "Building a Billion-Event Per Second Ingestion Engine: Disaggregated Storage and Write-Ahead Log Optimization in Apache Pinot",
         "Formal Verification at Scale: How AWS Uses TLA+ to Ensure Consistency in the DynamoDB Global Tables Replication Protocol",
-        "Implementing Zero-Copy Data Transfer for Petabyte-Scale Feature Stores using RDMA and eBPF",
         "Optimizing Multi-Tenant LLM Serving: A Deep Dive into PagedAttention and KV Cache Sharding Strategies",
         "Engineering Global Consistency: Building a Geo-Distributed Write-Ahead Log for Serverless SQLite Environments",
         "Hyper-Scaling Vector Databases: Solving the 100-Billion Dimension Indexing Problem in Real-Time Search Infrastructure",
@@ -705,6 +704,9 @@
         "Beyond k-Anonymity: How Pinterest Rebuilt Its Real-Time Ad Serving Infrastructure Using a Novel Tiered Columnar Store for Sub-Millisecond User Profile Lookups",
         "Optimizing P99 Latency in Global KV Stores: Implementing Multi-Region Raft with Deterministic Quorum Rebalancing",
         "Hardware-Software Co-Design for LLM Serving: Benchmarking NVLink Sharding vs. InfiniBand-Connected GPU Clusters",
-        "Zero-Copy Data Planes in High-Throughput Service Meshes: Leveraging eBPF and XDP for Terabit-Scale Traffic Management"
+        "Zero-Copy Data Planes in High-Throughput Service Meshes: Leveraging eBPF and XDP for Terabit-Scale Traffic Management",
+        "Optimizing Tail Latency in Disaggregated Storage Architectures: A Deep Dive into NVMe-over-Fabrics at Scale",
+        "The Evolution of Sharding: Implementing Linearizable Cross-Shard Transactions in Distributed Spanner-like Databases",
+        "Hardware-Aware LLM Serving: Leveraging Custom Triton Kernels for KV Cache Compression in High-Throughput Inference Engines"
     ]
 }
