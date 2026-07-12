@@ -403,7 +403,6 @@
         "Architecting for Hyper-Elasticity: Deep Dive into the Shared-Log and Disaggregated Storage Model of Snowflake and Databricks Polaris",
         "Sub-Microsecond Clock Synchronization at Scale: Implementing Precision Time Protocol (PTP) in Commodity Cloud Data Centers",
         "Leveraging eBPF for deep packet inspection and programmable traffic shaping in hyper-scale multi-tenant Kubernetes clusters",
-        "Deterministic database replication at scale: Implementing Raft over RDMA for ultra-low latency consistency in NVMe-based storage layers",
         "Implementing Zero-Copy Data Planes for Terabit-Scale Distributed Storage using RDMA and NVMe-over-Fabrics",
         "Solving the Thundering Herd Problem in Multi-Tenant LLM Inference Engines via Predictive KV Cache Pre-warming",
         "Architecting Globally Consistent Event Sourcing at 100M+ TPS: A Deep Dive into Logical Clock Synchronization across Heterogeneous Cloud Regions",
@@ -717,6 +716,9 @@
         "Scaling Netflix’s Control Plane: Migrating from Monolithic Titus to a Geographically Distributed Federated Kubernetes Mesh",
         "Implementing Deterministic Simulation Testing for Distributed Consensus Engines in High-Frequency Trading Systems",
         "Analyzing the Performance Impact of Kernel-Bypass Networking on Large-Scale LLM Training Clusters Using RoCE v2",
-        "Architecting Multi-Layered Cache Invalidation Strategies for Globally Distributed GraphQL Subscriptions at Edge Scale"
+        "Architecting Multi-Layered Cache Invalidation Strategies for Globally Distributed GraphQL Subscriptions at Edge Scale",
+        "Analyzing the control plane bottlenecks of a globally distributed multi-region Kubernetes cluster spanning 100,000+ nodes under a network partition event.",
+        "The hardware-software co-design of Google's custom optical circuit switching fabric for TPU v6 pod-level interconnects.",
+        "How Discord rebuilt their real-time messaging consensus layer using a custom Raft variant over ScyllaDB to achieve sub-10ms p99 latency at exabyte scale."
     ]
 }
