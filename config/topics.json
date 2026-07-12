@@ -114,7 +114,6 @@
         "The System Architecture and Data Challenges of Foundation Models for De Novo Protein Design and High-Throughput Drug Discovery",
         "Taming Tail Latency at Exabyte Scale: Adaptive Request Coalescing and Non-Blocking Memory Pools in Distributed Caches",
         "The Immutable Serverless Kernel: How an Infrastructure Giant Replaced its Entire Hypervisor Fleet Without a Single User-Detectable Packet Drop",
-        "Synthetic Biology's Vanguard: Engineering Self-Amplifying RNA and Novel Viral Vectors for Pandemic Preparedness",
         "The Convergence of Optical Switching and Quantum Networking for Inter-Datacenter Low-Latency AI Fabric Architectures.",
         "Autonomous Failure Prediction and Self-Correction: Designing Resilient Hyperscale Distributed Systems with AI/ML-Driven Observability",
         "Next-Gen Viral Vector Engineering: Designing Tissue-Specific, Spatiotemporally Controlled Gene Editing Systems for In Vivo Therapeutic Applications",
@@ -713,6 +712,9 @@
         "Scaling Distributed Consensus: Investigating the Impact of Shared-Log Architectures on Write-Heavy Workloads in Hyperscale Environments",
         "Implementing Deterministic Simulation Testing for Distributed Consensus in Massive-Scale Multi-Paxos Clusters",
         "Solving GPU Memory Fragmentation and PagedAttention Overhead in Multi-Tenant LLM Serving Architectures",
-        "Scaling S3-Compatible Metadata Engines to Trillions of Objects Using Tiered LSM Trees and Bloom Filter Optimization"
+        "Scaling S3-Compatible Metadata Engines to Trillions of Objects Using Tiered LSM Trees and Bloom Filter Optimization",
+        "Deep Dive into Meta's Tectonic: Orchestrating Exabyte-Scale Distributed Storage for Generative AI Training Pipelines",
+        "Re-architecting the Global Edge: How Cloudflare Utilizes Quic-go and eBPF to Optimize Zero-Copy Packet Processing",
+        "Scaling Netflix’s Control Plane: Migrating from Monolithic Titus to a Geographically Distributed Federated Kubernetes Mesh"
     ]
 }
