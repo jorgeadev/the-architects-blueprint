@@ -196,7 +196,6 @@
         "The algorithmic nexus: How hyperscale cloud providers are leveraging reinforcement learning for real-time, global energy grid optimization and carbon-aware workload placement.",
         "Programmable phage engineering: Overcoming therapeutic resistance with AI-driven design of bespoke bacteriophage cocktails for multi-drug resistant infections.",
         "Achieving Ultra-Low Latency and High Throughput in Global-Scale Graph Database Systems Using Persistent Memory and RDMA",
-        "Beyond Cas9: Exploring the Landscape of Prime Editing and Base Editing for Precision In Vivo Gene Therapy",
         "The Architectural Deep Dive into CXL's Role in Next-Generation Hyperscale Disaggregated Memory and Compute",
         "Designing Exascale AI Training Fabrics: Overcoming Interconnect Bottlenecks and Fault Tolerance Challenges in Distributed GPU Clusters",
         "The thermal tax: A post-mortem of Meta's liquid immersion cooling overhaul for 100kW+ GPU clusters in the wake of the Llama 4 training run.",
@@ -715,6 +714,9 @@
         "Scaling S3-Compatible Metadata Engines to Trillions of Objects Using Tiered LSM Trees and Bloom Filter Optimization",
         "Deep Dive into Meta's Tectonic: Orchestrating Exabyte-Scale Distributed Storage for Generative AI Training Pipelines",
         "Re-architecting the Global Edge: How Cloudflare Utilizes Quic-go and eBPF to Optimize Zero-Copy Packet Processing",
-        "Scaling Netflix’s Control Plane: Migrating from Monolithic Titus to a Geographically Distributed Federated Kubernetes Mesh"
+        "Scaling Netflix’s Control Plane: Migrating from Monolithic Titus to a Geographically Distributed Federated Kubernetes Mesh",
+        "Implementing Deterministic Simulation Testing for Distributed Consensus Engines in High-Frequency Trading Systems",
+        "Analyzing the Performance Impact of Kernel-Bypass Networking on Large-Scale LLM Training Clusters Using RoCE v2",
+        "Architecting Multi-Layered Cache Invalidation Strategies for Globally Distributed GraphQL Subscriptions at Edge Scale"
     ]
 }
