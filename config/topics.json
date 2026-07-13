@@ -360,7 +360,6 @@
         "Implementing Deterministic Simulation Testing for Distributed Consensus Protocols at Petabyte Scale",
         "Optimizing High-Throughput LLM Inference via Multi-Level Speculative Decoding and KV-Cache Quantization",
         "Evolving Microservices Communication: Replacing Sidecar Proxies with eBPF-Based Ambient Mesh in High-Traffic Environments",
-        "Optimizing GPU Interconnects: Implementing RoCE v2 and NCCL at Scale for Multi-Node LLM Distributed Training",
         "Deep Dive into Deterministic Simulation Testing: Achieving 100% Reproducibility in Distributed Consensus Engines",
         "Beyond Sidecars: Engineering eBPF-Powered Service Meshes for High-Throughput Microservices Orchestration",
         "Implementing Hierarchical Ring-AllReduce Patterns for Multi-Tenant GPU Clusters at Exascale",
@@ -725,6 +724,9 @@
         "Architecting Multi-Tenant GPU Clusters: Solving Memory Fragmentation and NVLink Contention in Massive LLM Training Pipelines",
         "Deep Dive into Meta's MTIA: Designing Custom Silicon for Large-Scale Recommendation Systems",
         "Solving the Thundering Herd: How Discord Re-engineered their Gateway for 30 Million Concurrent WebSocket Connections",
-        "Inside Uber's LedgerStore: Implementing Immutable Bi-Temporal Storage at Petabyte Scale for Global Financial Compliance"
+        "Inside Uber's LedgerStore: Implementing Immutable Bi-Temporal Storage at Petabyte Scale for Global Financial Compliance",
+        "Optimizing Tail Latency in Multi-Tenant Vector Databases: Strategies for Sharding and Indexing 100B+ Embeddings",
+        "Zero-Copy Networking and User-Space Drivers: Scaling Data Plane Performance to 800Gbps in Modern Cloud Infrastructures",
+        "Formal Verification of Distributed Consensus: How TLA+ and Model Checking Prevent State Corruption in Global Scale Storage Engines"
     ]
 }
