@@ -515,7 +515,6 @@
         "Formal Verification of Multi-Tenant Isolation in Firecracker MicroVMs",
         "Implementing Low-Latency Global Consistency via Hybrid Logical Clocks in Spanner-like Geo-Distributed Databases",
         "Optimizing Tail Latency in Tiered Storage Architectures Using Predictive NVMe Pre-warming and Request Hedging",
-        "Zero-Trust Ingress at Scale: Implementing mTLS and Identity-Aware Proxies for Multi-Region Kubernetes Fleets",
         "Deterministic Simulation Testing in Distributed Databases: How FoundationDB and TigerBeetle Prevent Rare Consensus Failures",
         "Optimizing KV Cache Management for Multi-Tenant LLM Serving: A Deep Dive into PagedAttention and FlashAttention Integration",
         "Implementing eBPF-based L4 Load Balancing for 100M+ Concurrent Connections: A Deep Dive into XDP and Katran Evolution",
@@ -721,6 +720,9 @@
         "How Discord rebuilt their real-time messaging consensus layer using a custom Raft variant over ScyllaDB to achieve sub-10ms p99 latency at exabyte scale.",
         "Optimizing Tail Latency in Disaggregated Storage Architectures: Lessons from Scaling NVMe-over-Fabrics at PB-Scale",
         "Deterministic Simulation Testing in Distributed Databases: Engineering Resilience Against Asynchronous Clock Skew and Network Partitions",
-        "The Evolution of Global Traffic Control: Leveraging eBPF for Programmable L4 Load Balancing in Multi-Cloud Hyper-Scale Environments"
+        "The Evolution of Global Traffic Control: Leveraging eBPF for Programmable L4 Load Balancing in Multi-Cloud Hyper-Scale Environments",
+        "Formal Verification of Distributed Consensus Protocols in Sub-Millisecond Global Trading Architectures",
+        "Reducing Tail Latency in Petabyte-Scale Key-Value Stores via Predictive eBPF-Based I/O Scheduling",
+        "Architecting Multi-Tenant GPU Clusters: Solving Memory Fragmentation and NVLink Contention in Massive LLM Training Pipelines"
     ]
 }
