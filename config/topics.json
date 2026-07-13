@@ -65,7 +65,6 @@
         "The Engineering Challenges of Disaggregated Compute and Memory Architectures for Petabyte-Scale AI Model Training",
         "Advanced Viral Vector Design: Engineering Enhanced Tropism and Reduced Immunogenicity in Next-Generation Gene Therapies",
         "The Viral Engineering Playbook: Reverse-Engineering the Real-Time Synchronization Stack Behind Collaborative Features in Figma and Notion",
-        "Beyond the Monolith: Architectural Patterns for Multi-Region, Active-Active Databases in Hyperscale FinTech Systems",
         "Beyond the Shard: Google's Next-Gen Spanner and the Physics-Limits of Globally Consistent, Planet-Scale Databases",
         "Deconstructing the Global Request Router: How Meta's Edge Network Handles 10 Trillion Queries Per Day",
         "Beyond Kubernetes: The Unconventional Orchestration Systems Powering Hyperscale AI Training Clusters",
@@ -727,6 +726,9 @@
         "Inside Uber's LedgerStore: Implementing Immutable Bi-Temporal Storage at Petabyte Scale for Global Financial Compliance",
         "Optimizing Tail Latency in Multi-Tenant Vector Databases: Strategies for Sharding and Indexing 100B+ Embeddings",
         "Zero-Copy Networking and User-Space Drivers: Scaling Data Plane Performance to 800Gbps in Modern Cloud Infrastructures",
-        "Formal Verification of Distributed Consensus: How TLA+ and Model Checking Prevent State Corruption in Global Scale Storage Engines"
+        "Formal Verification of Distributed Consensus: How TLA+ and Model Checking Prevent State Corruption in Global Scale Storage Engines",
+        "Zero-Copy KV Cache Paging: Re-engineering Memory Subsystems for Multi-Tenant LLM Serving at Scale",
+        "Deterministic Quorum Intersection: Optimizing p99 Latency in Globally Distributed Spanner-like Databases",
+        "Kernel-Bypass via eBPF XDP: Implementing a Terabit-Scale DDoS Mitigation Layer without Context Switching"
     ]
 }
