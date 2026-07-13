@@ -208,7 +208,6 @@
         "Optimizing Real-time Feature Stores for Low-Latency Personalization During Viral Content Spikes.",
         "The Architectural Evolution of Hyperscale Data Center Networking: From CLOS Fabrics to Programmable DPU-Accelerated SmartNICs",
         "Achieving Strong Consistency at Global Scale: A Deep Dive into Distributed Transactional Systems and the Paxos/Raft Alternatives",
-        "Beyond mRNA Vaccines: Engineering Self-Amplifying RNA Platforms for Durable and Broad-Spectrum Antiviral Immunization",
         "Hyperscale Data Center Optical Fabric Architectures: Challenges and Innovations in Peta-Bit Interconnects for AI Workloads.",
         "Beyond Cold Starts: Engineering Predictable Low-Latency Performance for Hyperscale Serverless Workloads with WebAssembly and MicroVM Runtimes.",
         "Engineering Programmable Oncolytic Viruses: Leveraging AI and Synthetic Biology for Targeted Cancer Therapies with Minimal Off-Target Effects",
@@ -723,6 +722,9 @@
         "The Evolution of Global Traffic Control: Leveraging eBPF for Programmable L4 Load Balancing in Multi-Cloud Hyper-Scale Environments",
         "Formal Verification of Distributed Consensus Protocols in Sub-Millisecond Global Trading Architectures",
         "Reducing Tail Latency in Petabyte-Scale Key-Value Stores via Predictive eBPF-Based I/O Scheduling",
-        "Architecting Multi-Tenant GPU Clusters: Solving Memory Fragmentation and NVLink Contention in Massive LLM Training Pipelines"
+        "Architecting Multi-Tenant GPU Clusters: Solving Memory Fragmentation and NVLink Contention in Massive LLM Training Pipelines",
+        "Deep Dive into Meta's MTIA: Designing Custom Silicon for Large-Scale Recommendation Systems",
+        "Solving the Thundering Herd: How Discord Re-engineered their Gateway for 30 Million Concurrent WebSocket Connections",
+        "Inside Uber's LedgerStore: Implementing Immutable Bi-Temporal Storage at Petabyte Scale for Global Financial Compliance"
     ]
 }
