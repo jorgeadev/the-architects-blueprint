@@ -241,7 +241,6 @@
         "Practical Challenges and Architectural Solutions for Hyper-Scale Post-Quantum Cryptography Migration in Cloud Infrastructure",
         "Beyond Microservices: The Rise of WebAssembly-Powered Nanoservices and Serverless Edge Compute Architectures",
         "Engineering Novel Phage Therapies: Designing and Scaling the Computational Pipelines for Precision Virome Modulation",
-        "Serverless compute at planetary scale: Unpacking AWS Lambda's Firecracker microVM orchestration and cold start optimization techniques.",
         "Mitigating 'Thundering Herds' in hyperscale distributed caches: A deep dive into Facebook's cache invalidation strategies and consensus protocols.",
         "Beyond AAV: Exploring novel viral vectors and directed evolution for next-generation precision gene therapy delivery systems.",
         "The Architecture of Hyperscale Ephemeral Block Storage for Serverless Workloads: Durability and Latency at Petabyte Scale",
@@ -731,6 +730,9 @@
         "Kernel-Bypass via eBPF XDP: Implementing a Terabit-Scale DDoS Mitigation Layer without Context Switching",
         "Leveraging eBPF and XDP for Zero-Copy Kernel-to-User Space Data Transfer in High-Throughput Distributed Log Stores",
         "Deep Dive: Orchestrating Multi-Region Consistent Snapshot Isolation in Globally Distributed NewSQL Databases",
-        "Deterministic Simulation Testing at Scale: How Virtual Operating Platforms Ensure Consistency in Distributed State Machines"
+        "Deterministic Simulation Testing at Scale: How Virtual Operating Platforms Ensure Consistency in Distributed State Machines",
+        "Solving Tail Latency in Multi-Tenant Distributed Storage via Hardware-Accelerated I/O Isolation",
+        "Architecting Sub-Millisecond Global Consistency: A Deep Dive into High-Precision Clock Synchronization in Spanner-like Systems",
+        "Scaling Vector Database Indexing to 100 Billion Entities: Lessons from Hierarchical Navigable Small Worlds (HNSW) at Meta Scale"
     ]
 }
