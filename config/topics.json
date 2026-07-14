@@ -682,7 +682,6 @@
         "Solving the Thundering Herd: Adaptive Congestion Control and Prioritized Request Hedging in Massive-Scale Edge Computing",
         "Predictive Auto-Scaling with Transformer-Based Time-Series Models: How AWS Manages Elastic Compute Fleet Availability",
         "Reducing Tail Latency in Heterogeneous Clusters: Implementing GPU-Aware Scheduling and Topology-Specific Networking in Kubernetes",
-        "Zero-Copy Serialization and RDMA: Re-Architecting the Internal RPC Framework at Meta for Sub-Microsecond Inter-Service Communication",
         "A deep dive into Google's redundant disaggregated storage fabric and its impact on global query latency under exascale load.",
         "The engineering politics behind AWS's new silicon photonics interconnect and its role in shattering the hyperscale network bottleneck.",
         "How Netflix rebuilt its content delivery mesh using a custom QUIC-based transport layer for zero-buffer planetary streaming.",
@@ -733,6 +732,9 @@
         "Deterministic Simulation Testing at Scale: How Virtual Operating Platforms Ensure Consistency in Distributed State Machines",
         "Solving Tail Latency in Multi-Tenant Distributed Storage via Hardware-Accelerated I/O Isolation",
         "Architecting Sub-Millisecond Global Consistency: A Deep Dive into High-Precision Clock Synchronization in Spanner-like Systems",
-        "Scaling Vector Database Indexing to 100 Billion Entities: Lessons from Hierarchical Navigable Small Worlds (HNSW) at Meta Scale"
+        "Scaling Vector Database Indexing to 100 Billion Entities: Lessons from Hierarchical Navigable Small Worlds (HNSW) at Meta Scale",
+        "Sharding at Sub-Millisecond Latency: The Internals of Physical Multi-Tenancy in Vector Databases",
+        "Leveraging DPDK and User-Space Networking to Eliminate Kernel Bottlenecks in 800Gbps CDN Nodes",
+        "Deterministic Simulation Testing for Distributed State Machines: How Large-Scale Cloud Providers Prevent Correlated Failures"
     ]
 }
