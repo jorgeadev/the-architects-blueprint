@@ -170,7 +170,6 @@
         "CRISPR-Based Antivirals: Engineering Programmable Nucleic Acid Scavengers for Broad-Spectrum Viral Suppression.",
         "Hardware-Accelerated Consensus Protocols: Reducing Latency and Increasing Throughput in Global Distributed Transaction Systems",
         "Engineering Self-Amplifying RNA Vectors for Next-Generation Pandemic Preparedness and Broad-Spectrum Immunotherapy",
-        "The architectural evolution of AI model serving platforms from batch to real-time inference at exabyte scale.",
         "Leveraging eBPF for deep kernel-level observability and anomaly detection in cloud-native microservice meshes.",
         "The Architectural Shift in Hyperscale Data Center Interconnects: From DWDM to Photonic Integrated Circuits and Software-Defined Fabrics",
         "The architectural evolution of real-time serverless function orchestration across heterogeneous cloud regions for low-latency edge AI inference.",
@@ -735,6 +734,9 @@
         "Scaling Vector Database Indexing to 100 Billion Entities: Lessons from Hierarchical Navigable Small Worlds (HNSW) at Meta Scale",
         "Sharding at Sub-Millisecond Latency: The Internals of Physical Multi-Tenancy in Vector Databases",
         "Leveraging DPDK and User-Space Networking to Eliminate Kernel Bottlenecks in 800Gbps CDN Nodes",
-        "Deterministic Simulation Testing for Distributed State Machines: How Large-Scale Cloud Providers Prevent Correlated Failures"
+        "Deterministic Simulation Testing for Distributed State Machines: How Large-Scale Cloud Providers Prevent Correlated Failures",
+        "Deterministic Simulation Testing for Distributed State Machines: Lessons from the AWS S3 Data Plane",
+        "Optimizing Tail Latencies in Multi-Tenant Vector Databases via Tiered Memory Hierarchies and RDMA-Assisted Sharding",
+        "The Evolution of Edge Compute: Implementing WebAssembly-based Serverless Runtimes for Sub-Millisecond Cold Starts"
     ]
 }
