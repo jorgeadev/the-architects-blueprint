@@ -344,7 +344,6 @@
         "Formal Verification of Distributed LSM-Trees: Implementing TLA+ and Model Checking for Petabyte-Scale Database Compaction Strategies",
         "Leveraging eBPF and XDP for Terabit-Scale DDoS Mitigation in Edge Mesh Networks",
         "Solving Thundering Herd Problems in Globally Distributed Cache Layers via Probabilistic Lease Mechanisms",
-        "Optimizing Write Amplification and Compaction Latency in Log-Structured Merge-Trees for Multi-Petabyte SSD Arrays",
         "Zero-Copy Packet Processing at Petabit Scale: Dissecting the Data Plane Design of Meta's Next-Gen AI Fabric",
         "Designing Low-Latency Consensus: A Deep Dive into Deterministic State Machine Replication for Global Tier-0 Infrastructure",
         "The Engineering of Ephemeral Environments: Leveraging Micro-VMs and Snapshotting for Instantaneous CI/CD Scaling",
@@ -729,6 +728,9 @@
         "Formal Verification of Distributed Consensus: How TLA+ and Model Checking Prevent State Corruption in Global Scale Storage Engines",
         "Zero-Copy KV Cache Paging: Re-engineering Memory Subsystems for Multi-Tenant LLM Serving at Scale",
         "Deterministic Quorum Intersection: Optimizing p99 Latency in Globally Distributed Spanner-like Databases",
-        "Kernel-Bypass via eBPF XDP: Implementing a Terabit-Scale DDoS Mitigation Layer without Context Switching"
+        "Kernel-Bypass via eBPF XDP: Implementing a Terabit-Scale DDoS Mitigation Layer without Context Switching",
+        "Leveraging eBPF and XDP for Zero-Copy Kernel-to-User Space Data Transfer in High-Throughput Distributed Log Stores",
+        "Deep Dive: Orchestrating Multi-Region Consistent Snapshot Isolation in Globally Distributed NewSQL Databases",
+        "Deterministic Simulation Testing at Scale: How Virtual Operating Platforms Ensure Consistency in Distributed State Machines"
     ]
 }
