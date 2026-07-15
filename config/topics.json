@@ -256,7 +256,6 @@
         "Architecting Zero-Copy, Kernel-Bypassing I/O Stacks with DPUs and RDMA for Sub-Millisecond AI Inference at Hyperscale",
         "Implementing Globally Consistent Distributed Transactions at Petabyte Scale: Challenges and Solutions with Hybrid Logical Clocks and Atomic Commit Protocols",
         "Computational Architectures for AI-Driven De Novo Protein Design and Synthetic Virology: Scaling Challenges in Generating Novel Biological Entities",
-        "Serverless at planetary scale: A deep dive into the autonomous sharding and resource orchestration of AWS Lambda's control plane, handling 1.5 trillion invocations daily with zero-config failover.",
         "The hidden telemetry war: How Netflix's Chaos Monkey 2.0 employs differential privacy and causal inference to inject deterministic latency into petabyte-scale data pipelines without triggering cascading failures.",
         "Optimizing Interconnect Topologies for Trillion-Parameter AI Model Training: Beyond InfiniBand and NVLink.",
         "The Architectural Shift to Hypervisor-less Container Isolation: Firecracker, Kata, and gVisor in Hyperscale Cloud Environments.",
@@ -737,6 +736,9 @@
         "Deterministic Simulation Testing for Distributed State Machines: How Large-Scale Cloud Providers Prevent Correlated Failures",
         "Deterministic Simulation Testing for Distributed State Machines: Lessons from the AWS S3 Data Plane",
         "Optimizing Tail Latencies in Multi-Tenant Vector Databases via Tiered Memory Hierarchies and RDMA-Assisted Sharding",
-        "The Evolution of Edge Compute: Implementing WebAssembly-based Serverless Runtimes for Sub-Millisecond Cold Starts"
+        "The Evolution of Edge Compute: Implementing WebAssembly-based Serverless Runtimes for Sub-Millisecond Cold Starts",
+        "Formal verification of distributed consensus protocols in high-throughput RDMA-enabled clusters",
+        "Solving the thundering herd problem in multi-tenant edge compute platforms via adaptive backpressure and predictive caching",
+        "Architecture of a petabyte-scale vector database: Balancing low-latency retrieval with HNSW indexing over tiered storage"
     ]
 }
