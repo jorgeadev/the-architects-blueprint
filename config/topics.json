@@ -349,7 +349,6 @@
         "Optimizing Tail Latency in Multi-Tenant Kubernetes Clusters via eBPF-driven Programmable Data Planes",
         "Architecting Zetta-scale Training Clusters: Hardware-Software Co-design for Meta's MTIA v2 Accelerators",
         "Optimizing Tail Latency in Multi-Tenant LLM Serving: A Deep Dive into Continuous Batching and KV-Cache Paging Architectures",
-        "The Shift to Cell-Based Architecture: How Modern Hyperscalers Minimize Blast Radius in Globally Distributed Systems",
         "Implementing CXL 3.0: The Architecture of Disaggregated Memory in Next-Generation Hyperscale Data Centers",
         "Implementing Deterministic Simulation Testing for Distributed Consensus Protocols at Petabyte Scale",
         "Optimizing High-Throughput LLM Inference via Multi-Level Speculative Decoding and KV-Cache Quantization",
@@ -743,6 +742,9 @@
         "Architecting eBPF-Powered Zero-Trust Networking for Microservices at 100 Million Requests per Second",
         "Architecting Petabyte-Scale KV-Cache Offloading: Navigating the Memory Wall in Distributed LLM Inference via CXL 3.0",
         "Solving the Thundering Herd: Implementing Adaptive L7 Congestion Control in Service Meshes for 100M+ Concurrent WebSocket Connections",
-        "Beyond Raft: Engineering the Transition to Byzantium-Tolerant Consensus for Global Identity Providers in Sub-Millisecond Latency Environments"
+        "Beyond Raft: Engineering the Transition to Byzantium-Tolerant Consensus for Global Identity Providers in Sub-Millisecond Latency Environments",
+        "Implementing Multi-Tenant Performance Isolation in Shared-Memory eBPF Observability Layers at 100Gbps Throughput",
+        "Architecting Cross-Region Global Consistency via Hybrid Physical-Logical Clocks in Next-Generation Distributed Key-Value Stores",
+        "Optimizing Large Language Model Inference Clusters via Dynamic KV-Cache Eviction and Speculative Decoding in High-Concurrency Environments"
     ]
 }
