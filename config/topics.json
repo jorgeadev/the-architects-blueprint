@@ -460,7 +460,6 @@
         "Implementing Hierarchical Cell-Based Routing to Mitigate Blast Radios in Global-Scale Anycast Networks",
         "Analyzing the Performance Trade-offs of eBPF-based Observability vs. Sidecar Proxies in High-Throughput Service Meshes",
         "The Mechanics of Sharded Consensus: Deep Dive into Parallelized Transaction Ordering in Distributed Key-Value Stores",
-        "Rearchitecting for Laminar Flow: How Twitch Migrated from a Monolithic Transcoding Pipeline to a Dataflow-Driven, Hundred-Thousand-Core Stream Processor",
         "The Geometry of Friction: Analyzing the Power and Thermal Constraints Forcing Hyperscalers to Adopt Spatial Compute Architectures in the Post-Photolithography Era",
         "Deep Dive into Deterministic Simulation Testing: How Modern Distributed Databases Achieve 100% Correctness Under Fault Injection",
         "Zero-Copy Data Transfer and eBPF: Engineering High-Throughput Networking for Next-Generation Cloud-Native Proxies",
@@ -739,6 +738,9 @@
         "The Evolution of Edge Compute: Implementing WebAssembly-based Serverless Runtimes for Sub-Millisecond Cold Starts",
         "Formal verification of distributed consensus protocols in high-throughput RDMA-enabled clusters",
         "Solving the thundering herd problem in multi-tenant edge compute platforms via adaptive backpressure and predictive caching",
-        "Architecture of a petabyte-scale vector database: Balancing low-latency retrieval with HNSW indexing over tiered storage"
+        "Architecture of a petabyte-scale vector database: Balancing low-latency retrieval with HNSW indexing over tiered storage",
+        "Optimizing Tail Latency in Multi-Tenant LLM Inference Clusters using GPU-Aware Predictive Scheduling",
+        "Beyond Raft: Implementing Deterministic State Machine Replication in Ultra-High Throughput Financial Ledgers",
+        "Architecting eBPF-Powered Zero-Trust Networking for Microservices at 100 Million Requests per Second"
     ]
 }
