@@ -48,7 +48,6 @@
         "Engineering Next-Gen mRNA Vaccines: Advancements in Lipid Nanoparticle Delivery Systems and Immunostimulatory Design.",
         "Optimizing Cold Start Latency in Serverless Edge Functions: A Deep Dive into MicroVM Snapshotting and Kernel-Level Virtualization Techniques",
         "Optimizing Serverless Cold Starts at Trillions of Invocations: Deep Dive into Hyperscale Resource Scheduling",
-        "Global Messaging at Scale: Real-time Consistency Across Distributed Graph Databases for Billions",
         "Architecting Post-Quantum Cryptography Migrations for Hyperscale Cloud Infrastructure",
         "The Engineering Challenges of Maintaining Strong Global Consistency in Hyperscale Distributed Transactional Databases",
         "Computational Design and Large-Scale Synthesis Pipelines for Novel Oncolytic Virotherapy Agents",
@@ -741,6 +740,9 @@
         "Architecture of a petabyte-scale vector database: Balancing low-latency retrieval with HNSW indexing over tiered storage",
         "Optimizing Tail Latency in Multi-Tenant LLM Inference Clusters using GPU-Aware Predictive Scheduling",
         "Beyond Raft: Implementing Deterministic State Machine Replication in Ultra-High Throughput Financial Ledgers",
-        "Architecting eBPF-Powered Zero-Trust Networking for Microservices at 100 Million Requests per Second"
+        "Architecting eBPF-Powered Zero-Trust Networking for Microservices at 100 Million Requests per Second",
+        "Architecting Petabyte-Scale KV-Cache Offloading: Navigating the Memory Wall in Distributed LLM Inference via CXL 3.0",
+        "Solving the Thundering Herd: Implementing Adaptive L7 Congestion Control in Service Meshes for 100M+ Concurrent WebSocket Connections",
+        "Beyond Raft: Engineering the Transition to Byzantium-Tolerant Consensus for Global Identity Providers in Sub-Millisecond Latency Environments"
     ]
 }
