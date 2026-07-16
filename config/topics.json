@@ -290,7 +290,6 @@
         "Beyond Generic: Custom Hardware Acceleration and Probabilistic Data Structures for Real-time Petabyte-Scale Anomaly Detection Pipelines",
         "Beyond GPUs: Designing Hyperscale Inference Architectures for Trillion-Parameter AI Models",
         "Achieving Strong Global Consistency: Innovations in Geo-Distributed Transactional Databases at Exabyte Scale",
-        "Disaggregated Memory Architectures: How CXL and Photonics are Reshaping Hyperscale Data Center Compute and Storage Fabrics",
         "Programmable Data Plane Evolution: From P4 to Silicon for Hyperscale Network Observability",
         "Beyond AAV: Next-Generation Viral Vector Engineering for Enhanced Gene Therapy Delivery and Immunomodulation",
         "Disaggregated NVMe-oF and CXL-based memory pooling: Architecting the next generation of hyperscale cloud resource virtualization.",
@@ -745,6 +744,9 @@
         "Beyond Raft: Engineering the Transition to Byzantium-Tolerant Consensus for Global Identity Providers in Sub-Millisecond Latency Environments",
         "Implementing Multi-Tenant Performance Isolation in Shared-Memory eBPF Observability Layers at 100Gbps Throughput",
         "Architecting Cross-Region Global Consistency via Hybrid Physical-Logical Clocks in Next-Generation Distributed Key-Value Stores",
-        "Optimizing Large Language Model Inference Clusters via Dynamic KV-Cache Eviction and Speculative Decoding in High-Concurrency Environments"
+        "Optimizing Large Language Model Inference Clusters via Dynamic KV-Cache Eviction and Speculative Decoding in High-Concurrency Environments",
+        "Zero-Copy Packet Processing: Leveraging eXpress Data Path (XDP) and AF_XDP for Multi-Terabit Edge Gateway Architectures",
+        "Hierarchical Ring All-Reduce: Optimizing Collective Communication Primaries for Distributed LLM Training on Commodity InfiniBand Fabrics",
+        "Logical Replicated State Machines: Implementing Multi-Region Deterministic Concurrency Control in Globally Distributed Key-Value Stores"
     ]
 }
