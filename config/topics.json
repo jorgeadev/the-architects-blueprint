@@ -394,7 +394,6 @@
         "Sub-Microsecond Clock Synchronization at Scale: Implementing Precision Time Protocol (PTP) in Commodity Cloud Data Centers",
         "Implementing Zero-Copy Data Planes for Terabit-Scale Distributed Storage using RDMA and NVMe-over-Fabrics",
         "Solving the Thundering Herd Problem in Multi-Tenant LLM Inference Engines via Predictive KV Cache Pre-warming",
-        "Architecting Globally Consistent Event Sourcing at 100M+ TPS: A Deep Dive into Logical Clock Synchronization across Heterogeneous Cloud Regions",
         "Implementing eBPF-based L4 Load Balancing for 100Tbps Traffic Spikes in Global Anycast Networks",
         "The Mechanics of Cross-Region Deterministic Replay for Debugging Distributed Consensus Failures in Production",
         "Architecting Multi-Tenant Vector Search: Isolation Strategies for Billion-Scale Embeddings in Serverless Environments",
@@ -749,6 +748,9 @@
         "Logical Replicated State Machines: Implementing Multi-Region Deterministic Concurrency Control in Globally Distributed Key-Value Stores",
         "Optimizing RDMA and RoCE v2 Topologies for Multi-Tenant GPU Clusters in Large Language Model Training",
         "Implementing Hierarchical Navigable Small World Graphs at Petabyte Scale for Low-Latency RAG Architectures",
-        "Deterministic Simulation Testing in Distributed Systems: Engineering Fault Tolerance in Non-Deterministic Cloud Environments"
+        "Deterministic Simulation Testing in Distributed Systems: Engineering Fault Tolerance in Non-Deterministic Cloud Environments",
+        "Dissecting the Tail-At-Standby Latency Economics: How Meta's Replacement of Memcached with RAPID on RDMA Removed Cluster-Wide Caching Inefficiencies",
+        "Beyond Commodity Hardware: The Orthogonal-DRAM Architecture of Google's Axion Processors and its Impact on TPU Pod Memory Bandwidth",
+        "The Physics of PUE: Analyzing AWS's South America-Specific Direct-to-Chip Cooled Hydroelectric Data Centers and the End of Megawatt-Scale Chillers"
     ]
 }
