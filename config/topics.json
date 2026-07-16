@@ -446,7 +446,6 @@
         "Beyond Two-Phase Commit: Implementing Deterministic State Machine Replication in WhatsApp's New Globally Distributed Key-Value Store",
         "Solving the Hot-Partition Problem in Serverless Databases: How Amazon DynamoDB Dynamically Rebalances Throughput at Microsecond Granularity",
         "The Networking Stack of LLM Training: Leveraging RoCE v2 and GPU-Direct RDMA for Scaling Multi-Cluster InfiniBand Fabrics",
-        "Zero-Trust Networking at Exascale: Implementing eBPF-driven Microsegmentation in Cloud-Native Environments",
         "The Evolution of Global Consensus: How Google Spanner integrates PTP and Hardware Clocks to bypass TrueTime limitations",
         "Architecting for the LLM Inference Surge: Multi-level KV Caching and FlashAttention optimization in Distributed GPU Clusters",
         "Model Context Protocol: Reverse Engineering the Inter-Service Contract Layer Powering Real-Time Agent Orchestration at Cloudflare.",
@@ -747,6 +746,9 @@
         "Optimizing Large Language Model Inference Clusters via Dynamic KV-Cache Eviction and Speculative Decoding in High-Concurrency Environments",
         "Zero-Copy Packet Processing: Leveraging eXpress Data Path (XDP) and AF_XDP for Multi-Terabit Edge Gateway Architectures",
         "Hierarchical Ring All-Reduce: Optimizing Collective Communication Primaries for Distributed LLM Training on Commodity InfiniBand Fabrics",
-        "Logical Replicated State Machines: Implementing Multi-Region Deterministic Concurrency Control in Globally Distributed Key-Value Stores"
+        "Logical Replicated State Machines: Implementing Multi-Region Deterministic Concurrency Control in Globally Distributed Key-Value Stores",
+        "Optimizing RDMA and RoCE v2 Topologies for Multi-Tenant GPU Clusters in Large Language Model Training",
+        "Implementing Hierarchical Navigable Small World Graphs at Petabyte Scale for Low-Latency RAG Architectures",
+        "Deterministic Simulation Testing in Distributed Systems: Engineering Fault Tolerance in Non-Deterministic Cloud Environments"
     ]
 }
