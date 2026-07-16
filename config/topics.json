@@ -194,7 +194,6 @@
         "Programmable phage engineering: Overcoming therapeutic resistance with AI-driven design of bespoke bacteriophage cocktails for multi-drug resistant infections.",
         "Achieving Ultra-Low Latency and High Throughput in Global-Scale Graph Database Systems Using Persistent Memory and RDMA",
         "The Architectural Deep Dive into CXL's Role in Next-Generation Hyperscale Disaggregated Memory and Compute",
-        "Designing Exascale AI Training Fabrics: Overcoming Interconnect Bottlenecks and Fault Tolerance Challenges in Distributed GPU Clusters",
         "The thermal tax: A post-mortem of Meta's liquid immersion cooling overhaul for 100kW+ GPU clusters in the wake of the Llama 4 training run.",
         "How Google's 'Physical Shard' abstraction conceals a cross-continent, sub-millisecond replicated storage layer for Spanner's latest hardware revision.",
         "Engineering High-Cardinality Observability Platforms for Trillion-Event Microservices Ecosystems.",
@@ -751,6 +750,9 @@
         "Deterministic Simulation Testing in Distributed Systems: Engineering Fault Tolerance in Non-Deterministic Cloud Environments",
         "Dissecting the Tail-At-Standby Latency Economics: How Meta's Replacement of Memcached with RAPID on RDMA Removed Cluster-Wide Caching Inefficiencies",
         "Beyond Commodity Hardware: The Orthogonal-DRAM Architecture of Google's Axion Processors and its Impact on TPU Pod Memory Bandwidth",
-        "The Physics of PUE: Analyzing AWS's South America-Specific Direct-to-Chip Cooled Hydroelectric Data Centers and the End of Megawatt-Scale Chillers"
+        "The Physics of PUE: Analyzing AWS's South America-Specific Direct-to-Chip Cooled Hydroelectric Data Centers and the End of Megawatt-Scale Chillers",
+        "Zero-Copy Data Path Optimization: Leveraging eBPF and XDP for Terabit-Scale Distributed Load Balancing",
+        "Architecting Multi-Petaflop Inference Engines: Memory Hierarchy and Interconnect Strategies for Sparse Mixture-of-Experts",
+        "The Evolution of Shared-Log Architectures: Implementing Tiered Storage and Segment Merging in Cloud-Native Message Brokers"
     ]
 }
