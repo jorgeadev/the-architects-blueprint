@@ -197,7 +197,6 @@
         "The thermal tax: A post-mortem of Meta's liquid immersion cooling overhaul for 100kW+ GPU clusters in the wake of the Llama 4 training run.",
         "How Google's 'Physical Shard' abstraction conceals a cross-continent, sub-millisecond replicated storage layer for Spanner's latest hardware revision.",
         "Engineering High-Cardinality Observability Platforms for Trillion-Event Microservices Ecosystems.",
-        "AI-Accelerated De Novo Design of Enhanced AAV Capsids for Precision Gene Therapy.",
         "Serverless at the Extreme Edge: Engineering Bespoke Micro-Hardware and Network Protocols for Sub-Millisecond Latency and Resource-Constrained Environments",
         "The Anatomy of Hyperscale Software-Defined Networking: Programmable ASICs and P4-Driven Dataplane Architectures.",
         "Distributed Consensus at the Edge: Overcoming WAN Latency and Partition Tolerance in Globally Replicated Data Stores.",
@@ -753,6 +752,9 @@
         "The Physics of PUE: Analyzing AWS's South America-Specific Direct-to-Chip Cooled Hydroelectric Data Centers and the End of Megawatt-Scale Chillers",
         "Zero-Copy Data Path Optimization: Leveraging eBPF and XDP for Terabit-Scale Distributed Load Balancing",
         "Architecting Multi-Petaflop Inference Engines: Memory Hierarchy and Interconnect Strategies for Sparse Mixture-of-Experts",
-        "The Evolution of Shared-Log Architectures: Implementing Tiered Storage and Segment Merging in Cloud-Native Message Brokers"
+        "The Evolution of Shared-Log Architectures: Implementing Tiered Storage and Segment Merging in Cloud-Native Message Brokers",
+        "Leveraging eBPF for Zero-Trust Observability and Enforcement in Multi-Region Mesh Architectures",
+        "Solving the Thundering Herd: Implementing Deterministic Request Collapsing in Globally Distributed Edge Caches",
+        "Beyond Raft: Implementing High-Throughput Quorum Systems for Petabyte-Scale Metadata Management"
     ]
 }
