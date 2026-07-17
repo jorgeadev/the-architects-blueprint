@@ -297,7 +297,6 @@
         "Zero-Copy User-Space Networking: How eBPF and XDP are Replacing Traditional Kernel-Level Load Balancing in Petabit-Scale Infrastructures",
         "Implementing Hardware-Accelerated KV Caching for Multi-Million Token Context Window Inference Clusters",
         "Zero-Copy Data Planes: Optimizing eBPF-Based Load Balancing for Terabit-Scale Container Networks",
-        "Disaggregated Memory Architectures in Hyperscale Cloud: Addressing Latency, Bandwidth, and Resource Orchestration Challenges with CXL and UCIe.",
         "Beyond Strong Consistency: Leveraging Causal and Eventual Consistency Models for Geo-Distributed Multi-Master Databases in Mission-Critical Systems.",
         "Synthetic Phage Engineering for Targeted Microbiome Modulation: Overcoming Off-Target Effects and Developing Programmable Viral Vectors for Therapeutics.",
         "Beyond BBR: Next-Generation Congestion Control Protocols for Petabit-Scale Global Interconnects",
@@ -755,6 +754,9 @@
         "The Evolution of Shared-Log Architectures: Implementing Tiered Storage and Segment Merging in Cloud-Native Message Brokers",
         "Leveraging eBPF for Zero-Trust Observability and Enforcement in Multi-Region Mesh Architectures",
         "Solving the Thundering Herd: Implementing Deterministic Request Collapsing in Globally Distributed Edge Caches",
-        "Beyond Raft: Implementing High-Throughput Quorum Systems for Petabyte-Scale Metadata Management"
+        "Beyond Raft: Implementing High-Throughput Quorum Systems for Petabyte-Scale Metadata Management",
+        "Architecting Global State Consistency: Implementing Hybrid Logical Clocks in Geographically Distributed Edge Clusters",
+        "Line-Rate Packet Filtering: Leveraging eBPF and XDP for Terabit-Scale DDoS Mitigation in Hyper-Scale Cloud Fabrics",
+        "The Anatomy of Sparse Inference: Optimizing Trillion-Parameter MoE Model Quantization for Decentralized GPU Orchestration"
     ]
 }
