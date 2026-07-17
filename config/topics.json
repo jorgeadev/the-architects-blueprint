@@ -73,7 +73,6 @@
         "Leveraging eBPF for dynamic network observability and intelligent traffic steering in hyperscale cloud environments.",
         "Synthetic biology's frontier: engineering novel viral capsids for enhanced gene therapy delivery and immunogenicity control.",
         "Postmortem Analysis of the Cascading Failure in a Major CDN's Anycast Routing During a Global Sporting Event",
-        "Architecting AAV Capsids for Enhanced Tissue Tropism and Reduced Immunogenicity in Gene Therapy Delivery",
         "Beyond Kubernetes: The Rise of MicroVM-Based Serverless Platforms at Hyperscale",
         "The Physics of Cooling: How Google's New Liquid Immersion Data Centers Achieve PUE < 1.05",
         "Advanced AAV Vector Engineering for Precision Gene Therapy Delivery: Navigating Immunogenicity and Tissue Specificity",
@@ -759,6 +758,9 @@
         "The Anatomy of Sparse Inference: Optimizing Trillion-Parameter MoE Model Quantization for Decentralized GPU Orchestration",
         "Implementing Deterministic Simulation Testing for High-Availability Distributed Consensus Engines",
         "The Evolution of Tiered Storage Architectures in Petabyte-Scale Real-Time OLAP Databases",
-        "Scaling Cross-Region Global Server Load Balancing for Sub-100ms Latency in Anycast Edge Networks"
+        "Scaling Cross-Region Global Server Load Balancing for Sub-100ms Latency in Anycast Edge Networks",
+        "Optimizing Tail Latency in Globally Distributed LSM-Tree Storage Engines via Hierarchical Bloom Filter Tiering",
+        "Architecting Zero-Copy Data Pipelines: Leveraging RDMA and NVMe-over-Fabrics for Petabyte-Scale Real-Time Inference",
+        "Formal Verification of Consensus Protocols in Multi-Region Sharded Databases: Mitigating Edge Cases in Hybrid Logical Clock Implementations"
     ]
 }
