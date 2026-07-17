@@ -444,7 +444,6 @@
         "The Networking Stack of LLM Training: Leveraging RoCE v2 and GPU-Direct RDMA for Scaling Multi-Cluster InfiniBand Fabrics",
         "The Evolution of Global Consensus: How Google Spanner integrates PTP and Hardware Clocks to bypass TrueTime limitations",
         "Architecting for the LLM Inference Surge: Multi-level KV Caching and FlashAttention optimization in Distributed GPU Clusters",
-        "Model Context Protocol: Reverse Engineering the Inter-Service Contract Layer Powering Real-Time Agent Orchestration at Cloudflare.",
         "The 10 Microsecond Barrier: Dissecting Apple's Private Cloud Compute ASIC for On-Device Inference at Datacenter Scale.",
         "Exabyte-Scale Checkpointing: How Meta's Log Structured Memory Fabric Eliminates Recompute in Distributed LLM Training.",
         "Dissecting the Control Plane: A Deep Dive into the Consistent Hash Ring and FDB-Aware State Management in Apple's iCloud Infrastructure",
@@ -757,6 +756,9 @@
         "Beyond Raft: Implementing High-Throughput Quorum Systems for Petabyte-Scale Metadata Management",
         "Architecting Global State Consistency: Implementing Hybrid Logical Clocks in Geographically Distributed Edge Clusters",
         "Line-Rate Packet Filtering: Leveraging eBPF and XDP for Terabit-Scale DDoS Mitigation in Hyper-Scale Cloud Fabrics",
-        "The Anatomy of Sparse Inference: Optimizing Trillion-Parameter MoE Model Quantization for Decentralized GPU Orchestration"
+        "The Anatomy of Sparse Inference: Optimizing Trillion-Parameter MoE Model Quantization for Decentralized GPU Orchestration",
+        "Implementing Deterministic Simulation Testing for High-Availability Distributed Consensus Engines",
+        "The Evolution of Tiered Storage Architectures in Petabyte-Scale Real-Time OLAP Databases",
+        "Scaling Cross-Region Global Server Load Balancing for Sub-100ms Latency in Anycast Edge Networks"
     ]
 }
