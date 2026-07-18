@@ -709,7 +709,6 @@
         "Optimizing Tail Latency in Multi-Tenant Vector Databases: Strategies for Sharding and Indexing 100B+ Embeddings",
         "Zero-Copy Networking and User-Space Drivers: Scaling Data Plane Performance to 800Gbps in Modern Cloud Infrastructures",
         "Formal Verification of Distributed Consensus: How TLA+ and Model Checking Prevent State Corruption in Global Scale Storage Engines",
-        "Zero-Copy KV Cache Paging: Re-engineering Memory Subsystems for Multi-Tenant LLM Serving at Scale",
         "Deterministic Quorum Intersection: Optimizing p99 Latency in Globally Distributed Spanner-like Databases",
         "Leveraging eBPF and XDP for Zero-Copy Kernel-to-User Space Data Transfer in High-Throughput Distributed Log Stores",
         "Deep Dive: Orchestrating Multi-Region Consistent Snapshot Isolation in Globally Distributed NewSQL Databases",
@@ -767,6 +766,9 @@
         "How Microsoft deployed superconductor-enabled quantum-accelerated VMs in Azure: deep-dive into the topological qubit control stack and the cryogenic network bridge.",
         "Implementing Zero-Copy Networking and RDMA over RoCEv2 for Teraparameter Model Training Clusters",
         "Solving Tail Latency Amplification in Multi-Tenant Cell-Based Architectures at 100M Requests per Second",
-        "Formal Verification of Distributed Consensus Protocols in Sub-Millisecond Edge Computing Environments"
+        "Formal Verification of Distributed Consensus Protocols in Sub-Millisecond Edge Computing Environments",
+        "Formal Verification of Distributed Transactional Protocols in Geo-Replicated Key-Value Stores",
+        "Optimizing Tail Latency in Heterogeneous GPU Clusters: A Deep Dive into Collective Communication Primitives",
+        "Implementing Predictive Auto-Scaling via Transformer-Based Timeseries Analysis in Massive Kubernetes Fleets"
     ]
 }
