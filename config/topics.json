@@ -183,7 +183,6 @@
         "Beyond CRISPR: Engineering Next-Generation Viral Vectors for Scalable In Vivo Gene Delivery Systems",
         "Deep dive into the architectural challenges of achieving strong consistency across globally distributed, petabyte-scale databases.",
         "The architectural evolution of hyperscale AI inference serving: From dedicated hardware to serverless, elastic GPU functions.",
-        "Advances in engineering novel AAV capsids for precise tissue targeting and reduced immunogenicity in next-gen gene therapies.",
         "Beyond Kubernetes: The Next Frontier in Global-Scale Resource Scheduling and Job Migration for Heterogeneous Workloads",
         "Engineering Oncolytic Adenoviruses for Enhanced Tumor Selectivity and Immunogenicity in Next-Gen Cancer Therapies",
         "The Architecture of Hyperscale Vector Databases for Billion-Scale Embeddings and Real-time Semantic Search",
@@ -761,6 +760,9 @@
         "Scaling Cross-Region Global Server Load Balancing for Sub-100ms Latency in Anycast Edge Networks",
         "Optimizing Tail Latency in Globally Distributed LSM-Tree Storage Engines via Hierarchical Bloom Filter Tiering",
         "Architecting Zero-Copy Data Pipelines: Leveraging RDMA and NVMe-over-Fabrics for Petabyte-Scale Real-Time Inference",
-        "Formal Verification of Consensus Protocols in Multi-Region Sharded Databases: Mitigating Edge Cases in Hybrid Logical Clock Implementations"
+        "Formal Verification of Consensus Protocols in Multi-Region Sharded Databases: Mitigating Edge Cases in Hybrid Logical Clock Implementations",
+        "Optimizing Tail Latency in PB-scale Distributed Key-Value Stores via User-Space Networking and eBPF-driven Request Steering",
+        "Formal Verification of Weak Consistency Models in Global Multi-Leader Database Architectures using TLA+",
+        "Engineering Zero-Downtime Migration of Legacy Monolith Databases to Sharded Vitess Clusters under 1M QPS Workloads"
     ]
 }
