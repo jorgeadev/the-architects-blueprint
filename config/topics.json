@@ -409,7 +409,6 @@
         "Deterministic Simulation Testing for Distributed Databases: Engineering Reliability at Jepsen-Proof Scale",
         "Zero-Copy Serialization and RDMA: Architecting Ultra-Low Latency Inter-node Communication in Modern Data Centers",
         "Mitigation of Cascading Failures in Massive-Scale Microservices via Adaptive Concurrency Control and Priority Queuing",
-        "Optimizing Global Tail Latency via Multi-Tiered EBPF-Based Load Balancing in Edge Compute Runtimes",
         "Architecting Shard-Agnostic Transactional Integrity in Geo-Distributed Spanner-Derivative Databases",
         "Mitigating Cold-Start Latency in Serverless Edge Runtimes via Ahead-of-Time Snapshot Restoration and Memory Ballooning",
         "Zero-Copy Serialization and Memory Safety in High-Throughput Distributed LSM-Tree Storage Engines",
@@ -775,6 +774,9 @@
         "Zero-Copy Memory Management and Kernel Bypass Techniques in High-Throughput Distributed Message Brokers: A Comparison of io_uring and DPDK",
         "Deep Dive into ByteDance’s Monolith: Scaling Embedding Tables across Thousands of GPU Nodes",
         "Zero-Copy Data Transfer and eBPF-Driven Networking in High-Throughput Service Mesh Architectures",
-        "Optimizing KV-Cache Management for Multi-Tenant LLM Serving at Scale"
+        "Optimizing KV-Cache Management for Multi-Tenant LLM Serving at Scale",
+        "Optimizing Distributed KV-Cache Management for Multi-Trillion Parameter Model Inference",
+        "Zero-Copy Observability: Scaling eBPF-Driven Telemetry Ingestion to 100PB per Day",
+        "Mitigating RDMA Incast Congestion in Massive-Scale H100 GPU Clusters"
     ]
 }
