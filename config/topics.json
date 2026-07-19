@@ -80,7 +80,6 @@
         "Synthetic Virology: Designing Next-Generation Phage Therapies for Combatting Antimicrobial Resistance at Scale",
         "Disaggregating Compute and Memory at Hyperscale: Architectural Implications for Next-Gen Data Center Fabrics",
         "Scaling Foundation Models: Architectural Strategies for Terabyte-Scale Parameter Training on Distributed GPU Clusters",
-        "The Architectural Evolution of Hyperscale Data Center Network Fabrics for Terabit-Scale Interconnects and Congestion Management",
         "CRISPR-Guided Phage Engineering: Precision Delivery and Genetically Modified Viral Vectors for In Vivo Therapeutic Applications",
         "Decoding the Interconnects: Memory Bandwidth Bottlenecks and Custom Fabric Solutions for Trillion-Parameter LLM Inference",
         "From PUE to PUD: Advancements in Disaggregated Computing and Direct Liquid Cooling for Hyperscale Infrastructure",
@@ -769,6 +768,9 @@
         "Formal Verification of Distributed Consensus Protocols in Sub-Millisecond Edge Computing Environments",
         "Formal Verification of Distributed Transactional Protocols in Geo-Replicated Key-Value Stores",
         "Optimizing Tail Latency in Heterogeneous GPU Clusters: A Deep Dive into Collective Communication Primitives",
-        "Implementing Predictive Auto-Scaling via Transformer-Based Timeseries Analysis in Massive Kubernetes Fleets"
+        "Implementing Predictive Auto-Scaling via Transformer-Based Timeseries Analysis in Massive Kubernetes Fleets",
+        "Optimizing Hot-Key Latency in Distributed Cache Clusters via Dynamic Consistent Hashing and Heat-Map Rebalancing",
+        "Implementing Zero-Copy Networking in Rust-based Edge Proxies to Minimize Tail Latency in Global Content Delivery",
+        "Strategies for Mitigating Write Amplification in Log-Structured Merge-Trees for High-Throughput Time-Series Workloads at Scale"
     ]
 }
