@@ -138,7 +138,6 @@
         "Witnessing a cascading BGP blackhole: a forensic analysis of a tier-1 backbone carrier's route leak and convergence failure",
         "The design and incremental deployment of a hardware-backed memory safety isolation layer within Google's Borg scheduler",
         "The Latency Tax: Quantifying the Cost of Multi-Region Data Consistency in Global Infrastructure Deployments",
-        "Inside the Erasure Coding War: How Meta and Google are Re-Architecting Petabyte-Scale Cold Storage Around Noise Injection",
         "Finding the Needle in the Firehose: A Postmortem on the exabyte-level indexing failure that cascaded from a single BGP misconfiguration",
         "CXL 3.0 and the Future of Disaggregated Memory Architectures in Hyperscale Data Centers",
         "Leveraging Programmable CRISPR-Cas Systems for RNA-Targeting Diagnostics and Therapeutics",
@@ -773,6 +772,9 @@
         "Strategies for Mitigating Write Amplification in Log-Structured Merge-Trees for High-Throughput Time-Series Workloads at Scale",
         "Deep Dive into Meta's 24,576 H100 Cluster: Optimizing RoCE v2 and Collective Communication for Large Language Model Training",
         "Beyond Spanner: Architecting Low-Latency Multi-Region Consistency Using Hybrid Logical Clocks and Deterministic State Machine Replication",
-        "Zero-Copy Memory Management and Kernel Bypass Techniques in High-Throughput Distributed Message Brokers: A Comparison of io_uring and DPDK"
+        "Zero-Copy Memory Management and Kernel Bypass Techniques in High-Throughput Distributed Message Brokers: A Comparison of io_uring and DPDK",
+        "Deep Dive into ByteDance’s Monolith: Scaling Embedding Tables across Thousands of GPU Nodes",
+        "Zero-Copy Data Transfer and eBPF-Driven Networking in High-Throughput Service Mesh Architectures",
+        "Optimizing KV-Cache Management for Multi-Tenant LLM Serving at Scale"
     ]
 }
