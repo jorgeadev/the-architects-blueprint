@@ -325,7 +325,6 @@
         "Implementing Deterministic Simulation Testing for Distributed Consensus: Lessons from TigerBeetle and FoundationDB",
         "Reducing P99 Tail Latency in Multi-Tenant LLM Serving: KV-Cache Fragmentation and PagedAttention Architectures",
         "Beyond Raft: Architecting Globally Distributed Meta-Indices using Hierarchical Paxos and Quorum Leases",
-        "Implementing Zero-Trust Sidecar Acceleration: Bypassing the Kernel with eBPF and Shared Memory in High-Throughput Service Meshes",
         "Deep Dive into Meta's Tectonic: Orchestrating Exabyte-Scale Blob Storage Through Synchronous Quorum Replicated Metadata",
         "Deterministic Networking in the Cloud: How AWS Nitro Leverages Hardware-Based SR-IOV for Sub-Microsecond Tail Latency at Scale",
         "Optimizing Tail Latency in Heterogeneous CPU Clusters: A Deep Dive into Intel’s Thread Director and Linux Task Scheduling at Meta Scale",
@@ -771,6 +770,9 @@
         "Implementing Predictive Auto-Scaling via Transformer-Based Timeseries Analysis in Massive Kubernetes Fleets",
         "Optimizing Hot-Key Latency in Distributed Cache Clusters via Dynamic Consistent Hashing and Heat-Map Rebalancing",
         "Implementing Zero-Copy Networking in Rust-based Edge Proxies to Minimize Tail Latency in Global Content Delivery",
-        "Strategies for Mitigating Write Amplification in Log-Structured Merge-Trees for High-Throughput Time-Series Workloads at Scale"
+        "Strategies for Mitigating Write Amplification in Log-Structured Merge-Trees for High-Throughput Time-Series Workloads at Scale",
+        "Deep Dive into Meta's 24,576 H100 Cluster: Optimizing RoCE v2 and Collective Communication for Large Language Model Training",
+        "Beyond Spanner: Architecting Low-Latency Multi-Region Consistency Using Hybrid Logical Clocks and Deterministic State Machine Replication",
+        "Zero-Copy Memory Management and Kernel Bypass Techniques in High-Throughput Distributed Message Brokers: A Comparison of io_uring and DPDK"
     ]
 }
