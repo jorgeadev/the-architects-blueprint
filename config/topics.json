@@ -720,7 +720,6 @@
         "Formal verification of distributed consensus protocols in high-throughput RDMA-enabled clusters",
         "Solving the thundering herd problem in multi-tenant edge compute platforms via adaptive backpressure and predictive caching",
         "Architecture of a petabyte-scale vector database: Balancing low-latency retrieval with HNSW indexing over tiered storage",
-        "Optimizing Tail Latency in Multi-Tenant LLM Inference Clusters using GPU-Aware Predictive Scheduling",
         "Beyond Raft: Implementing Deterministic State Machine Replication in Ultra-High Throughput Financial Ledgers",
         "Architecting eBPF-Powered Zero-Trust Networking for Microservices at 100 Million Requests per Second",
         "Architecting Petabyte-Scale KV-Cache Offloading: Navigating the Memory Wall in Distributed LLM Inference via CXL 3.0",
@@ -779,6 +778,9 @@
         "Mitigating RDMA Incast Congestion in Massive-Scale H100 GPU Clusters",
         "Optimizing Llama 3 Training Clusters: Mitigating RDMA Congestion and GPU Interconnect Bottlenecks at Meta Scale",
         "Deep Dive into Netflix's eBPF-Powered Observability: Zero-Copy Telemetry Collection for 100Gbps Network Pipelines",
-        "Rethinking Distributed Consistency: Implementing Hierarchical Quorums for Multi-Region Spanner-like Databases"
+        "Rethinking Distributed Consistency: Implementing Hierarchical Quorums for Multi-Region Spanner-like Databases",
+        "Deterministic simulation testing at scale: Engineering reproducible state machine failures in globally distributed databases",
+        "Sub-microsecond synchronization: Implementing hardware-level Precision Time Protocol for atomic multi-region transaction ordering",
+        "Thermal-aware scheduling: Dynamically routing 100k+ node GPU workloads based on real-time liquid cooling efficiency metrics"
     ]
 }
