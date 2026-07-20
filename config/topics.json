@@ -143,7 +143,6 @@
         "Leveraging Programmable CRISPR-Cas Systems for RNA-Targeting Diagnostics and Therapeutics",
         "The Hyperscale Interconnect Fabrics Powering Trillion-Parameter AI Model Training Clusters",
         "Designing Global Multi-Version Concurrency Control Mechanisms for Petabyte-Scale Real-Time Transactional Systems",
-        "Precision Delivery Vector Architectures for Programmable Epigenetic Modulation in In Vivo Gene Therapies",
         "The architectural evolution of large language model serving infrastructure: From monolithic deployments to adaptive distributed inference engines.",
         "Engineering global pathogen surveillance: Architecting privacy-preserving, real-time genomic sequencing and AI-driven anomaly detection networks.",
         "Scalable Inter-chip Communication Architectures for Trillion-Parameter AI Model Inference in Hyperscale Data Centers",
@@ -783,6 +782,9 @@
         "Thermal-aware scheduling: Dynamically routing 100k+ node GPU workloads based on real-time liquid cooling efficiency metrics",
         "Zero-Copy Networking: Implementing DPDK-based Load Balancers for 100Gbps Line Rates in Multi-Tenant Environments",
         "The Anatomy of a Global Metadata Store: Scaling FoundationDB to 500 Million Operations Per Second at Apple",
-        "Deterministic Simulation Testing: How Anthropic Ensures Consistency in Massive-Scale Distributed LLM Training Clusters"
+        "Deterministic Simulation Testing: How Anthropic Ensures Consistency in Massive-Scale Distributed LLM Training Clusters",
+        "Architecting Ultra-Low Latency GPU Clusters: Optimizing NCCL and NVLink for Trillion-Parameter Model Training",
+        "Bypassing the Kernel: Implementing Zero-Copy RDMA Networking in High-Throughput Distributed State Machines",
+        "Deterministic Simulation Testing at Scale: Mitigating Heisenbugs in Globally Distributed Storage Engines"
     ]
 }
