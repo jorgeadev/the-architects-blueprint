@@ -480,7 +480,6 @@
         "A Deep Dive into Hierarchical Ring-AllReduce Optimization for Multi-Petaflop Distributed AI Orchestration",
         "Optimizing Tail Latency in Geo-Distributed Multi-Paxos Consensus Engines for Global Scale Metadata Stores",
         "Implementing Zero-Copy Networking with XDP and eBPF for High-Throughput Packet Processing in Edge CDN Clusters",
-        "Architecting Hierarchical GPU Memory Interconnects and RoCE v2 Fabrics for Exascale LLM Training Clusters",
         "Optimizing Tail Latency in Global Multi-Region Service Meshes: A Deep Dive into eBPF-Based Request Steering and Congestion Control",
         "Designing for Consistency at Edge: Implementing Causal Ordering in Globally Distributed Key-Value Stores via Hybrid Logical Clocks",
         "Deep-dive into Google's Spanner RISC-V pilot: implications for latency and power at planetary scale.",
@@ -781,6 +780,9 @@
         "Rethinking Distributed Consistency: Implementing Hierarchical Quorums for Multi-Region Spanner-like Databases",
         "Deterministic simulation testing at scale: Engineering reproducible state machine failures in globally distributed databases",
         "Sub-microsecond synchronization: Implementing hardware-level Precision Time Protocol for atomic multi-region transaction ordering",
-        "Thermal-aware scheduling: Dynamically routing 100k+ node GPU workloads based on real-time liquid cooling efficiency metrics"
+        "Thermal-aware scheduling: Dynamically routing 100k+ node GPU workloads based on real-time liquid cooling efficiency metrics",
+        "Zero-Copy Networking: Implementing DPDK-based Load Balancers for 100Gbps Line Rates in Multi-Tenant Environments",
+        "The Anatomy of a Global Metadata Store: Scaling FoundationDB to 500 Million Operations Per Second at Apple",
+        "Deterministic Simulation Testing: How Anthropic Ensures Consistency in Massive-Scale Distributed LLM Training Clusters"
     ]
 }
