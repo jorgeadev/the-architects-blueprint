@@ -277,7 +277,6 @@
         "Synthetic Virology's Leap: Engineering De Novo Phage-Derived Lytic Systems for Next-Generation Antibiotic Alternatives and Biofilm Disruption",
         "Optimizing Inter-Datacenter Networking for Hyperscale AI/ML Workloads: Latency, Bandwidth, and Congestion Control in a Global Fabric.",
         "The Engineering Challenges of Managing Strongly Consistent Stateful Services Across Thousands of Nodes in a Geo-Distributed Environment.",
-        "Co-Packaged Optics and Free-Space Optics: Architectural Shifts for Next-Gen Hyperscale AI/ML Interconnects",
         "Deterministic Latency Guarantees in Globally Distributed Transactional Stream Processing: A Consensus Protocol Deep Dive",
         "Synthetic Biology Approaches to Engineering Bacteriophage Resistance Against Multi-Drug Resistant Bacterial Biofilms",
         "Evolving Hyperscale Distributed Transactional Stores: Navigating Global Consistency, Latency, and Data Sovereignty Challenges in Multi-Region Architectures",
@@ -777,6 +776,9 @@
         "Optimizing KV-Cache Management for Multi-Tenant LLM Serving at Scale",
         "Optimizing Distributed KV-Cache Management for Multi-Trillion Parameter Model Inference",
         "Zero-Copy Observability: Scaling eBPF-Driven Telemetry Ingestion to 100PB per Day",
-        "Mitigating RDMA Incast Congestion in Massive-Scale H100 GPU Clusters"
+        "Mitigating RDMA Incast Congestion in Massive-Scale H100 GPU Clusters",
+        "Optimizing Llama 3 Training Clusters: Mitigating RDMA Congestion and GPU Interconnect Bottlenecks at Meta Scale",
+        "Deep Dive into Netflix's eBPF-Powered Observability: Zero-Copy Telemetry Collection for 100Gbps Network Pipelines",
+        "Rethinking Distributed Consistency: Implementing Hierarchical Quorums for Multi-Region Spanner-like Databases"
     ]
 }
