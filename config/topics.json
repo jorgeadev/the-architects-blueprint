@@ -662,7 +662,6 @@
         "Reducing Tail Latency in Heterogeneous Clusters: Implementing GPU-Aware Scheduling and Topology-Specific Networking in Kubernetes",
         "A deep dive into Google's redundant disaggregated storage fabric and its impact on global query latency under exascale load.",
         "The engineering politics behind AWS's new silicon photonics interconnect and its role in shattering the hyperscale network bottleneck.",
-        "How Netflix rebuilt its content delivery mesh using a custom QUIC-based transport layer for zero-buffer planetary streaming.",
         "The Latency Tax: Analyzing the Hidden Performance Costs of Global Anycast Routing in CDN Networks at 10 Million Requests Per Second",
         "Distributed Consensus at Planetary Scale: A Post-Mortem on the Multi-Region CockroachDB Outage Triggered by a Clock Skew Anomaly",
         "Beyond k-Anonymity: How Pinterest Rebuilt Its Real-Time Ad Serving Infrastructure Using a Novel Tiered Columnar Store for Sub-Millisecond User Profile Lookups",
@@ -785,6 +784,9 @@
         "Deterministic Simulation Testing: How Anthropic Ensures Consistency in Massive-Scale Distributed LLM Training Clusters",
         "Architecting Ultra-Low Latency GPU Clusters: Optimizing NCCL and NVLink for Trillion-Parameter Model Training",
         "Bypassing the Kernel: Implementing Zero-Copy RDMA Networking in High-Throughput Distributed State Machines",
-        "Deterministic Simulation Testing at Scale: Mitigating Heisenbugs in Globally Distributed Storage Engines"
+        "Deterministic Simulation Testing at Scale: Mitigating Heisenbugs in Globally Distributed Storage Engines",
+        "Implementing Deterministic Simulation Testing for High-Throughput Distributed SQL Consensus Engines",
+        "Optimizing Tail Latency in Multi-Tenant Zero-Trust Architectures via eBPF-Driven Kernel Bypass Networking",
+        "The Evolution of Global State Synchronization: Leveraging Hybrid Logical Clocks in Geographically Sharded Metadata Stores"
     ]
 }
