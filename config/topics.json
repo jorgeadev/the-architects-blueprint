@@ -34,7 +34,6 @@
         "CRISPR-Cas13 Based Antiviral Strategies: Engineering Sequence-Specific RNA Degradation for Pan-Viral Immunity.",
         "Synthetic biology approaches to engineering enhanced viral vectors for precise in-vivo gene delivery and reduced immunogenicity.",
         "The Architectural Implications of Disaggregated Memory and Compute for Future Hyperscale Data Centers",
-        "Deep dive into maintaining strong temporal consistency across globally distributed, eventually consistent transactional databases: challenges and novel solutions.",
         "The Deep Engineering Behind Multi-Region Consensus Protocols for Exabyte-Scale, Ultra-Low Latency Data Stores",
         "Hyperscale GPU Cluster Interconnects: Optimizing Latency and Throughput in NVIDIA Hopper and Grace-Hopper Architectures",
         "Decentralized Control Plane Architecture: Scaling Global Cloud Infrastructure with Service Meshes and Beyond",
@@ -787,6 +786,9 @@
         "Deterministic Simulation Testing at Scale: Mitigating Heisenbugs in Globally Distributed Storage Engines",
         "Implementing Deterministic Simulation Testing for High-Throughput Distributed SQL Consensus Engines",
         "Optimizing Tail Latency in Multi-Tenant Zero-Trust Architectures via eBPF-Driven Kernel Bypass Networking",
-        "The Evolution of Global State Synchronization: Leveraging Hybrid Logical Clocks in Geographically Sharded Metadata Stores"
+        "The Evolution of Global State Synchronization: Leveraging Hybrid Logical Clocks in Geographically Sharded Metadata Stores",
+        "Deterministic Query Execution and Consensus Primitives in Planetary-Scale Log-Structured Merge-Tree Databases",
+        "Bypassing the Kernel Bottleneck: High-Performance Packet Processing with eBPF and AF_XDP in Cloud-Native Ingress Gateways",
+        "Architecting Zero-Trust Microsegmentation for Ultra-Low Latency FinTech Mesh Networks using Hardware-Accelerated mTLS"
     ]
 }
