@@ -330,7 +330,6 @@
         "Solving Thundering Herd Problems in Globally Distributed Cache Layers via Probabilistic Lease Mechanisms",
         "Zero-Copy Packet Processing at Petabit Scale: Dissecting the Data Plane Design of Meta's Next-Gen AI Fabric",
         "Designing Low-Latency Consensus: A Deep Dive into Deterministic State Machine Replication for Global Tier-0 Infrastructure",
-        "The Engineering of Ephemeral Environments: Leveraging Micro-VMs and Snapshotting for Instantaneous CI/CD Scaling",
         "Architecting Zettabyte-Scale Data Lakes: Beyond Parquet and Iceberg with Direct-on-Flash Indexing",
         "Deep Dive into GPU-to-GPU Interconnects: Scaling Distributed Training via InfiniBand and RoCE v2 in Hyperscale Clusters",
         "Solving the C10M Problem at the Edge: Leveraging eBPF-based XDP for High-Performance Programmable Packet Processing",
@@ -789,6 +788,9 @@
         "The Evolution of Global State Synchronization: Leveraging Hybrid Logical Clocks in Geographically Sharded Metadata Stores",
         "Deterministic Query Execution and Consensus Primitives in Planetary-Scale Log-Structured Merge-Tree Databases",
         "Bypassing the Kernel Bottleneck: High-Performance Packet Processing with eBPF and AF_XDP in Cloud-Native Ingress Gateways",
-        "Architecting Zero-Trust Microsegmentation for Ultra-Low Latency FinTech Mesh Networks using Hardware-Accelerated mTLS"
+        "Architecting Zero-Trust Microsegmentation for Ultra-Low Latency FinTech Mesh Networks using Hardware-Accelerated mTLS",
+        "Formal Verification of Distributed Locking Mechanisms in Amazon Aurora's Storage Layer",
+        "Optimizing NVLink Topologies for Heterogeneous P2P GPU Communication in Massive LLM Training Clusters",
+        "Zero-Copy Data Transfer and eXpress Data Path (XDP) Integration for High-Throughput Ingress at Cloudflare"
     ]
 }
