@@ -368,7 +368,6 @@
         "Hierarchical Consensus and Sharded Gossip Protocols: Scaling Global Metadata Consistency to 100 Million Writes per Second",
         "Scaling LLM Inference: A Comparative Analysis of PagedAttention and FlashAttention for Multi-Tenant GPU Clusters",
         "The Evolution of Deterministic Simulation Testing for Distributed Databases: How FoundationDB and TigerBeetle Achieve 99.99999% Reliability",
-        "Optimizing Tail Latency in Globally Distributed Databases using Probabilistic Quorum Adjustments and RDMA-enabled Consensus",
         "Formal Verification of Distributed Transaction Protocols in Hyperscale Microservices: Bridging TLA+ Models with Rust Implementation",
         "How Google Scaled its Spanner Backend to Serve 10 Billion Read/Write Operations Per Second Using a Novel TrueTime-Based Sharding Algorithm",
         "Optimizing Tail Latency in Multi-Tenant Distributed Key-Value Stores via Hardware-Accelerated Consensus Protocols",
@@ -791,6 +790,9 @@
         "Architecting Zero-Trust Microsegmentation for Ultra-Low Latency FinTech Mesh Networks using Hardware-Accelerated mTLS",
         "Formal Verification of Distributed Locking Mechanisms in Amazon Aurora's Storage Layer",
         "Optimizing NVLink Topologies for Heterogeneous P2P GPU Communication in Massive LLM Training Clusters",
-        "Zero-Copy Data Transfer and eXpress Data Path (XDP) Integration for High-Throughput Ingress at Cloudflare"
+        "Zero-Copy Data Transfer and eXpress Data Path (XDP) Integration for High-Throughput Ingress at Cloudflare",
+        "Dissecting NVLink 4.0 Fabric: How Rack-Scale GPU Interconnects Redefine Distributed Gradient Descent",
+        "Formal Verification of Distributed Consensus: Using TLA+ to Prevent Edge-Case Deadlocks in High-Availability Raft Clusters",
+        "Implementing Zero-Copy Networking: Leveraging eBPF and XDP for High-Throughput Packet Processing in 400GbE Environments"
     ]
 }
