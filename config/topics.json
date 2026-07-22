@@ -330,7 +330,6 @@
         "Zero-Copy Packet Processing at Petabit Scale: Dissecting the Data Plane Design of Meta's Next-Gen AI Fabric",
         "Designing Low-Latency Consensus: A Deep Dive into Deterministic State Machine Replication for Global Tier-0 Infrastructure",
         "Architecting Zettabyte-Scale Data Lakes: Beyond Parquet and Iceberg with Direct-on-Flash Indexing",
-        "Deep Dive into GPU-to-GPU Interconnects: Scaling Distributed Training via InfiniBand and RoCE v2 in Hyperscale Clusters",
         "Solving the C10M Problem at the Edge: Leveraging eBPF-based XDP for High-Performance Programmable Packet Processing",
         "Optimizing Tail Latency in Multi-Tenant Kubernetes Clusters via eBPF-driven Programmable Data Planes",
         "Architecting Zetta-scale Training Clusters: Hardware-Software Co-design for Meta's MTIA v2 Accelerators",
@@ -795,6 +794,9 @@
         "Implementing Zero-Copy Networking: Leveraging eBPF and XDP for High-Throughput Packet Processing in 400GbE Environments",
         "Post-Quantum Cryptography in Transit: Architecting PQC-Ready TLS Terminations for Global Content Delivery Networks",
         "Cell-Based Architecture at Scale: How Slack and Discord Partition Massive Real-Time Websocket Fleets to Isolate Blast Radii",
-        "Hierarchical Cache Coherency in Heterogeneous GPU Clusters: Solving the Memory Wall for Multi-Trillion Parameter Model Training"
+        "Hierarchical Cache Coherency in Heterogeneous GPU Clusters: Solving the Memory Wall for Multi-Trillion Parameter Model Training",
+        "Optimizing RoCE v2 for Trillion-Parameter LLM Training: Lessons from Meta’s AI Research SuperCluster Infrastructure",
+        "Zero-Downtime Live Migration of Multi-Petabyte Spanner Clusters: Orchestrating Data Locality without Global Locks",
+        "Implementing Zero-Copy Buffer Management in Rust: Re-engineering Cloudflare’s Pingora Proxy for 100Gbps Throughput"
     ]
 }
