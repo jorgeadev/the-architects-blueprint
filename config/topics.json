@@ -217,7 +217,6 @@
         "Dissecting the Intra-Node Fabric: NVLink-C2C and the Decoupling of Compute from Memory in Google's TPU v6 Pods",
         "The advent of programmable data planes (P4) and their impact on next-gen hyperscale data center network architecture for AI/ML workloads.",
         "The Disaggregated Future: CXL and PIM Architectures Reshaping Hyperscale Memory and Compute",
-        "Beyond Eventual Consistency: Achieving Strong Consistency at Petabyte Scale with Distributed Transaction Protocols",
         "Precision Viral Engineering: Designing AAV Capsids for Targeted Gene Delivery and Reduced Immunogenicity",
         "The Engineering Behind Geo-Distributed Strong Consistency: Scaling Global Transaction Models in Cloud Databases",
         "Disaggregated Memory and Compute: Architecting the Next Generation of Hyperscale Data Center Infrastructure",
@@ -799,6 +798,9 @@
         "Implementing Zero-Copy Buffer Management in Rust: Re-engineering Cloudflare’s Pingora Proxy for 100Gbps Throughput",
         "Implementing Zero-Copy Networking with eBPF and XDP for Multi-Terabit DDoS Mitigation at the Edge",
         "Optimizing KV-Cache Management for High-Throughput LLM Inference Pipelines in Heterogeneous GPU Clusters",
-        "The Evolution of Deterministic State Machine Replication in Globally Distributed Multi-Paxos Architectures"
+        "The Evolution of Deterministic State Machine Replication in Globally Distributed Multi-Paxos Architectures",
+        "Implementing Zero-Copy NVMe-over-Fabrics for Sub-Millisecond Latency in Petabyte-Scale Vector Databases",
+        "Architecting Programmable Data Planes with P4 for Real-Time Congestion Control in Multi-Tenant H100 GPU Clusters",
+        "Dynamic KV Cache Partitioning and Sharding Strategies for Million-Token Context Window Inference at Edge Scale"
     ]
 }
