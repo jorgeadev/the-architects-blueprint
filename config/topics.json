@@ -401,7 +401,6 @@
         "Scaling Deterministic Distributed State Machines for High-Frequency Trading Systems on Heterogeneous Cloud Hardware",
         "Deterministic Simulation Testing for Distributed Databases: Engineering Reliability at Jepsen-Proof Scale",
         "Zero-Copy Serialization and RDMA: Architecting Ultra-Low Latency Inter-node Communication in Modern Data Centers",
-        "Mitigation of Cascading Failures in Massive-Scale Microservices via Adaptive Concurrency Control and Priority Queuing",
         "Architecting Shard-Agnostic Transactional Integrity in Geo-Distributed Spanner-Derivative Databases",
         "Mitigating Cold-Start Latency in Serverless Edge Runtimes via Ahead-of-Time Snapshot Restoration and Memory Ballooning",
         "Zero-Copy Serialization and Memory Safety in High-Throughput Distributed LSM-Tree Storage Engines",
@@ -797,6 +796,9 @@
         "Hierarchical Cache Coherency in Heterogeneous GPU Clusters: Solving the Memory Wall for Multi-Trillion Parameter Model Training",
         "Optimizing RoCE v2 for Trillion-Parameter LLM Training: Lessons from Meta’s AI Research SuperCluster Infrastructure",
         "Zero-Downtime Live Migration of Multi-Petabyte Spanner Clusters: Orchestrating Data Locality without Global Locks",
-        "Implementing Zero-Copy Buffer Management in Rust: Re-engineering Cloudflare’s Pingora Proxy for 100Gbps Throughput"
+        "Implementing Zero-Copy Buffer Management in Rust: Re-engineering Cloudflare’s Pingora Proxy for 100Gbps Throughput",
+        "Implementing Zero-Copy Networking with eBPF and XDP for Multi-Terabit DDoS Mitigation at the Edge",
+        "Optimizing KV-Cache Management for High-Throughput LLM Inference Pipelines in Heterogeneous GPU Clusters",
+        "The Evolution of Deterministic State Machine Replication in Globally Distributed Multi-Paxos Architectures"
     ]
 }
