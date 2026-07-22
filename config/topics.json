@@ -106,7 +106,6 @@
         "Demystifying Meta's Zonal Shuffle: A Deep Dive into Cross-Region VM Migration with Sub-Second Blips",
         "The Architectural Evolution of Interconnects for Trillion-Parameter AI Model Training: Beyond NVLink and InfiniBand",
         "Engineering Petabyte-Scale Observability: Distributed Tracing and Causal Analysis in Hyperscale Microservice Architectures",
-        "The System Architecture and Data Challenges of Foundation Models for De Novo Protein Design and High-Throughput Drug Discovery",
         "Taming Tail Latency at Exabyte Scale: Adaptive Request Coalescing and Non-Blocking Memory Pools in Distributed Caches",
         "The Immutable Serverless Kernel: How an Infrastructure Giant Replaced its Entire Hypervisor Fleet Without a Single User-Detectable Packet Drop",
         "The Convergence of Optical Switching and Quantum Networking for Inter-Datacenter Low-Latency AI Fabric Architectures.",
@@ -793,6 +792,9 @@
         "Zero-Copy Data Transfer and eXpress Data Path (XDP) Integration for High-Throughput Ingress at Cloudflare",
         "Dissecting NVLink 4.0 Fabric: How Rack-Scale GPU Interconnects Redefine Distributed Gradient Descent",
         "Formal Verification of Distributed Consensus: Using TLA+ to Prevent Edge-Case Deadlocks in High-Availability Raft Clusters",
-        "Implementing Zero-Copy Networking: Leveraging eBPF and XDP for High-Throughput Packet Processing in 400GbE Environments"
+        "Implementing Zero-Copy Networking: Leveraging eBPF and XDP for High-Throughput Packet Processing in 400GbE Environments",
+        "Post-Quantum Cryptography in Transit: Architecting PQC-Ready TLS Terminations for Global Content Delivery Networks",
+        "Cell-Based Architecture at Scale: How Slack and Discord Partition Massive Real-Time Websocket Fleets to Isolate Blast Radii",
+        "Hierarchical Cache Coherency in Heterogeneous GPU Clusters: Solving the Memory Wall for Multi-Trillion Parameter Model Training"
     ]
 }
