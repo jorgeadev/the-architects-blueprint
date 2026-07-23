@@ -345,7 +345,6 @@
         "Vector Database Internals: Optimizing HNSW Indexing for Trillion-Scale Semantic Search at Netflix",
         "Bypass the Kernel: Architecting High-Throughput Storage Engines Using NVMe-over-Fabrics and SPDK",
         "Deterministic Simulation Testing: How Anthropic Ensures Consensus Consistency in Large-Scale Distributed Training",
-        "Optimizing tail latency in geo-distributed key-value stores using predictive RDMA-based cache invalidation and hardware-accelerated consensus",
         "A deep dive into zero-copy networking and eBPF-driven observability for high-throughput packet processing in cloud-native edge infrastructures",
         "Optimizing L3 Cache Contention in Multi-Tenant Hypervisors using Hardware-Assisted Resource Partitioning",
         "Deep Dive: Meta's RoCE-based Network Fabric for 24,576 H100 GPU Training Clusters",
@@ -801,6 +800,9 @@
         "The Evolution of Deterministic State Machine Replication in Globally Distributed Multi-Paxos Architectures",
         "Implementing Zero-Copy NVMe-over-Fabrics for Sub-Millisecond Latency in Petabyte-Scale Vector Databases",
         "Architecting Programmable Data Planes with P4 for Real-Time Congestion Control in Multi-Tenant H100 GPU Clusters",
-        "Dynamic KV Cache Partitioning and Sharding Strategies for Million-Token Context Window Inference at Edge Scale"
+        "Dynamic KV Cache Partitioning and Sharding Strategies for Million-Token Context Window Inference at Edge Scale",
+        "Dissecting the Thundering Herd: An Analysis of Meta's Transient Cache Busting and Global Backend Failover During the 2024 Election Night Traffic Spike",
+        "Beyond the Tail at Scale: Implementing Deadline Propagation and Partial Deadline-Aware Load Shedding in Google's Borglet Scheduler for Latency-Critical Microservices",
+        "Inside the Infrastructure: How Netflix's CockroachDB-Enabled, CRDT-Based Chaos Engineering Framework (Stoic) Replaced Traditional Canary Deployments for Global State Management"
     ]
 }
