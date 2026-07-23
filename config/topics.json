@@ -543,7 +543,6 @@
         "Inside Google's PlaNet: The geographically distributed, latency-oblivious global WAN architecture that replaced BGP for internal traffic",
         "How OpenAI evolved its inference fleet for ChatGPT: A case study in sharded GPU overlays and real-time token scheduling across 100k accelerators",
         "Zero-Downtime Migration of Petabyte-Scale Vector Databases: Solving the Dimensionality Mismatch in Live Index Rebuilds",
-        "Optimizing RDMA over Converged Ethernet (RoCE) for Multi-Tenant LLM Training at Exascale",
         "Solving the Thundering Herd: Zero-Downtime Stateful Fleet Rebalancing in Netflix's Global Content Delivery Network",
         "Inside the Kernel: Leveraging eBPF and XDP for Terabit-Scale DDoS Mitigation in Hyper-Distributed Edge Architectures",
         "Optimizing RDMA over Converged Ethernet (RoCE) for Multi-Tenant GPU Clusters: Lessons from Hyperscale LLM Training",
@@ -807,6 +806,9 @@
         "How Uber Leverages eBPF for Zero-Overhead Service Mesh Observability in a 50,000 Microservice Environment",
         "Deconstructing Meta's 24,576 H100 GPU Cluster: Network Topology and Collective Communication Optimization for Llama 3 Training",
         "Zero-Copy Memory Architectures in Edge Computing: A Deep Dive into Pingora’s Rust-Based Buffer Management vs. Legacy Nginx",
-        "Scaling Deterministic Database Replay: How Uber Engineering Manages Million-QPS Shadow Traffic for Infrastructure Validations"
+        "Scaling Deterministic Database Replay: How Uber Engineering Manages Million-QPS Shadow Traffic for Infrastructure Validations",
+        "Optimizing Tail Latency in Meta's MTIA: Hardware-Software Co-design for Inference at Scale",
+        "Architecting Multi-Region Strongly Consistent Databases: A Deep Dive into Spanner’s New TrueTime-Free Commit Protocol",
+        "The Evolution of Cluster Scheduling: Analyzing the Convergence of Kubernetes and Slurm for Massive-Scale AI Training Workloads"
     ]
 }
