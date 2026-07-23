@@ -656,7 +656,6 @@
         "The Latency Tax: Analyzing the Hidden Performance Costs of Global Anycast Routing in CDN Networks at 10 Million Requests Per Second",
         "Distributed Consensus at Planetary Scale: A Post-Mortem on the Multi-Region CockroachDB Outage Triggered by a Clock Skew Anomaly",
         "Beyond k-Anonymity: How Pinterest Rebuilt Its Real-Time Ad Serving Infrastructure Using a Novel Tiered Columnar Store for Sub-Millisecond User Profile Lookups",
-        "Optimizing P99 Latency in Global KV Stores: Implementing Multi-Region Raft with Deterministic Quorum Rebalancing",
         "Hardware-Software Co-Design for LLM Serving: Benchmarking NVLink Sharding vs. InfiniBand-Connected GPU Clusters",
         "Zero-Copy Data Planes in High-Throughput Service Meshes: Leveraging eBPF and XDP for Terabit-Scale Traffic Management",
         "Optimizing Tail Latency in Disaggregated Storage Architectures: A Deep Dive into NVMe-over-Fabrics at Scale",
@@ -805,6 +804,9 @@
         "Inside the Infrastructure: How Netflix's CockroachDB-Enabled, CRDT-Based Chaos Engineering Framework (Stoic) Replaced Traditional Canary Deployments for Global State Management",
         "Optimizing Tail Latency in Meta's Tectonic: Lessons from Sharding 10 Exabytes of Blob Storage Across Heterogeneous Hardware",
         "The Architecture of Amazon's Aurora DDB: Implementing Zero-ETL Sync via Distributed Log Sequence Number Tracking",
-        "How Uber Leverages eBPF for Zero-Overhead Service Mesh Observability in a 50,000 Microservice Environment"
+        "How Uber Leverages eBPF for Zero-Overhead Service Mesh Observability in a 50,000 Microservice Environment",
+        "Deconstructing Meta's 24,576 H100 GPU Cluster: Network Topology and Collective Communication Optimization for Llama 3 Training",
+        "Zero-Copy Memory Architectures in Edge Computing: A Deep Dive into Pingora’s Rust-Based Buffer Management vs. Legacy Nginx",
+        "Scaling Deterministic Database Replay: How Uber Engineering Manages Million-QPS Shadow Traffic for Infrastructure Validations"
     ]
 }
