@@ -142,7 +142,6 @@
         "Designing Global Multi-Version Concurrency Control Mechanisms for Petabyte-Scale Real-Time Transactional Systems",
         "The architectural evolution of large language model serving infrastructure: From monolithic deployments to adaptive distributed inference engines.",
         "Engineering global pathogen surveillance: Architecting privacy-preserving, real-time genomic sequencing and AI-driven anomaly detection networks.",
-        "Scalable Inter-chip Communication Architectures for Trillion-Parameter AI Model Inference in Hyperscale Data Centers",
         "The evolution of hyperscale data center networking: From Clos fabrics to P4-programmable ASICs and AI-driven traffic optimization.",
         "Deep dive into serverless cold start mitigation strategies: Snapshotting, custom runtime environments, and container reuse at planetary scale.",
         "Synthetic genomics and de novo genome design: Computational architectures for high-throughput gene synthesis, error correction, and biological circuit optimization.",
@@ -815,6 +814,9 @@
         "Scaling LLM Inference Infrastructure: Strategies for KV-Cache Paging and Speculative Decoding across Heterogeneous GPU Clusters",
         "Exploiting RDMA and GPUDirect Storage for Sub-Millisecond Distributed LLM Training Checkpointing",
         "Formal Verification of TLA+ Models for Global Linearizability in Spanner-like Geo-Distributed Databases",
-        "Implementing Zero-Copy Networking in Rust-based Service Meshes to Reduce Tail Latency in Multi-Tenant Kubernetes Clusters"
+        "Implementing Zero-Copy Networking in Rust-based Service Meshes to Reduce Tail Latency in Multi-Tenant Kubernetes Clusters",
+        "Formal Verification of Distributed Consensus Protocols in Hyperscale Cloud Control Planes",
+        "Mitigating Thundering Herd Problems in Global Edge Caches via Request Collapsing and Adaptive TTL Jitter",
+        "The Evolution of Shared-Nothing Architectures: Decoupling Compute and Memory via CXL in Massive-Scale Real-Time Analytics Engines"
     ]
 }
