@@ -490,7 +490,6 @@
         "Decoding the implicit neural representation of Netflix's microservice routing graph for real-time canary analysis.",
         "How Cloudflare built a 100 Gbps DDoS mitigation pipeline on eBPF and XDP, bypassing the kernel TCP stack.",
         "Ephemeral Blob Stores: Designing Infrastructure for 10x Daily Node Churn in a Global Software-Defined Fabric",
-        "Dissecting the CXL 3.2 Memory Pooling Protocol Failure Modes in 10,000-Node GPU Clusters for Real-Time Inference",
         "How Netflix Replaced memcached with a Verifiable CRDT-Based State Store for Sub-Millisecond Session Affinity at Exabyte Scale",
         "Hardware-Offloaded Congestion Control: Deep Dive into Meta’s Custom RoCE v2 Implementation for 100k-GPU Clusters",
         "Optimizing Global Consensus: Implementing Clock-Skew-Aware Lease Management in Multi-Region Spanner Topologies",
@@ -809,6 +808,9 @@
         "Scaling Deterministic Database Replay: How Uber Engineering Manages Million-QPS Shadow Traffic for Infrastructure Validations",
         "Optimizing Tail Latency in Meta's MTIA: Hardware-Software Co-design for Inference at Scale",
         "Architecting Multi-Region Strongly Consistent Databases: A Deep Dive into Spanner’s New TrueTime-Free Commit Protocol",
-        "The Evolution of Cluster Scheduling: Analyzing the Convergence of Kubernetes and Slurm for Massive-Scale AI Training Workloads"
+        "The Evolution of Cluster Scheduling: Analyzing the Convergence of Kubernetes and Slurm for Massive-Scale AI Training Workloads",
+        "Implementing Zero-Copy Buffer Management for Multi-Terabit Network Observability Pipelines",
+        "The Mechanics of Tenant-Aware Vector Quantization in Multi-Cloud Distributed Databases",
+        "Mitigating Tail Latency in Heterogeneous Hardware Clusters via Predictive Load Balancing"
     ]
 }
