@@ -635,7 +635,6 @@
         "Formal Verification of Distributed Consistency Protocols in WhatsApp's Erlang-Based Storage Layer",
         "Optimizing Tail Latency in Multi-Tenant GPU Clusters Using Programmable In-Network Aggregation",
         "Zero-Overhead Checkpointing Strategies for Training 70B+ Parameter Models on Heterogeneous Hardware",
-        "Implementing Hierarchical CXL-Based Memory Tiering for Sub-Millisecond Tail Latency in Petabyte-Scale Vector Databases",
         "Engineering Distributed Consensus for 100M+ QPS: Transitioning from Paxos to RDMA-Accelerated Deterministic Execution Engines",
         "Architecting Global-Scale eBPF Observability Planes: Real-Time Kernel-Level Telemetry Without Context Switching Overheads",
         "Building zero-copy data planes: Leveraging io_uring and eBPF for high-throughput log ingestion at scale",
@@ -811,6 +810,9 @@
         "The Evolution of Cluster Scheduling: Analyzing the Convergence of Kubernetes and Slurm for Massive-Scale AI Training Workloads",
         "Implementing Zero-Copy Buffer Management for Multi-Terabit Network Observability Pipelines",
         "The Mechanics of Tenant-Aware Vector Quantization in Multi-Cloud Distributed Databases",
-        "Mitigating Tail Latency in Heterogeneous Hardware Clusters via Predictive Load Balancing"
+        "Mitigating Tail Latency in Heterogeneous Hardware Clusters via Predictive Load Balancing",
+        "Implementing Zero-Copy Data Planes in Distributed Storage Engines using eBPF and NVMe-over-Fabrics",
+        "Architecting Multi-Region Strongly Consistent Global State: A Deep Dive into Spanner's TrueTime vs. Hybrid Logical Clocks in Modern Cloud-Native Databases",
+        "Scaling LLM Inference Infrastructure: Strategies for KV-Cache Paging and Speculative Decoding across Heterogeneous GPU Clusters"
     ]
 }
