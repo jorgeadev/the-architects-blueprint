@@ -146,7 +146,6 @@
         "The evolution of hyperscale data center networking: From Clos fabrics to P4-programmable ASICs and AI-driven traffic optimization.",
         "Deep dive into serverless cold start mitigation strategies: Snapshotting, custom runtime environments, and container reuse at planetary scale.",
         "Synthetic genomics and de novo genome design: Computational architectures for high-throughput gene synthesis, error correction, and biological circuit optimization.",
-        "The invisible backbone: Ultra-low latency optical mesh networks powering hyperscale data center interconnectivity and cross-region replication.",
         "Cloud-Native Bare Metal Provisioning: Orchestration, Isolation, and Performance at Hyperscale",
         "Precision Gene Modulation: Architecting Programmable RNA Therapeutics for In Vivo Cell-Type Specificity",
         "The architecture of disaggregated memory pools and CXL-based resource orchestration in next-gen hyperscale compute clusters.",
@@ -813,6 +812,9 @@
         "Mitigating Tail Latency in Heterogeneous Hardware Clusters via Predictive Load Balancing",
         "Implementing Zero-Copy Data Planes in Distributed Storage Engines using eBPF and NVMe-over-Fabrics",
         "Architecting Multi-Region Strongly Consistent Global State: A Deep Dive into Spanner's TrueTime vs. Hybrid Logical Clocks in Modern Cloud-Native Databases",
-        "Scaling LLM Inference Infrastructure: Strategies for KV-Cache Paging and Speculative Decoding across Heterogeneous GPU Clusters"
+        "Scaling LLM Inference Infrastructure: Strategies for KV-Cache Paging and Speculative Decoding across Heterogeneous GPU Clusters",
+        "Exploiting RDMA and GPUDirect Storage for Sub-Millisecond Distributed LLM Training Checkpointing",
+        "Formal Verification of TLA+ Models for Global Linearizability in Spanner-like Geo-Distributed Databases",
+        "Implementing Zero-Copy Networking in Rust-based Service Meshes to Reduce Tail Latency in Multi-Tenant Kubernetes Clusters"
     ]
 }
