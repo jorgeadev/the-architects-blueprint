@@ -67,7 +67,6 @@
         "Beyond Kubernetes: The Unconventional Orchestration Systems Powering Hyperscale AI Training Clusters",
         "The Engineering Challenges of Maintaining Global Consensus in Hyperscale Distributed Transactional Databases",
         "Engineering Next-Generation Oncolytic Viruses: Targeted Delivery Mechanisms and Immunomodulatory Enhancements for Cancer Therapy",
-        "Postmortem Analysis of the Cascading Failure in a Multi-Region Serverless Platform During a Coordinated Cyber Attack",
         "Leveraging eBPF for dynamic network observability and intelligent traffic steering in hyperscale cloud environments.",
         "Synthetic biology's frontier: engineering novel viral capsids for enhanced gene therapy delivery and immunogenicity control.",
         "Postmortem Analysis of the Cascading Failure in a Major CDN's Anycast Routing During a Global Sporting Event",
@@ -821,6 +820,9 @@
         "Optimizing Tail Latency in Multi-Tenant Vector Databases: Index Compression and SSD-Resident HNSW Graphs",
         "Optimizing GPU Interconnect Topologies for Multi-Trillion Parameter Model Training: From InfiniBand to Ultra Ethernet",
         "Solving the Thundering Herd: Implementing Adaptive Probabilistic Rate Limiting in Globally Distributed Edge Clusters",
-        "Zero-Copy Data Transfer and Memory Pinning: Re-engineering Storage Engines for NVMe-over-Fabrics at Scale"
+        "Zero-Copy Data Transfer and Memory Pinning: Re-engineering Storage Engines for NVMe-over-Fabrics at Scale",
+        "Architecting Zettascale Memory Fabrics: Leveraging CXL 3.0 for Composable Disaggregated Data Centers",
+        "Deterministic Simulation Testing at Scale: How FoundationDB Logic Prevents Distributed Race Conditions",
+        "Zero-Copy Data Planes in High-Throughput Service Meshes: Bypassing the Kernel with eBPF and XDP for Sub-Microsecond Latency"
     ]
 }
