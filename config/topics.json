@@ -576,7 +576,6 @@
         "Deep Dive into GPU Memory Virtualization: Managing Multi-Tenant Large Language Model Inference Across Distributed H100 Clusters",
         "Re-engineering Data Planes with eBPF: Implementing Line-Rate DDoS Mitigation and Observability in Massive-Scale Software-Defined Networks",
         "Analyzing the ACID compliance boundary in a planet-scale distributed SQL database: A case study on Spanner's TrueTime API and clock synchronization for global commit latency",
-        "The engineering behind petabyte-scale log-structured merge trees: How Apache Hudi's incremental table management and file group compaction strategies mitigate write amplification in data lakes",
         "Inside the design of a homomorphic encryption accelerator for cloud networking: Dissecting AWS Nitro's cryptographic offload for zero-trust tenant isolation at 100Gbps",
         "Leveraging eBPF for Programmable Congestion Control in Hyperscale Data Center Fabrics",
         "Formal Verification of Distributed Consensus Protocols in Large-Scale KV Stores",
@@ -817,6 +816,9 @@
         "Implementing Zero-Copy Networking in Rust-based Service Meshes to Reduce Tail Latency in Multi-Tenant Kubernetes Clusters",
         "Formal Verification of Distributed Consensus Protocols in Hyperscale Cloud Control Planes",
         "Mitigating Thundering Herd Problems in Global Edge Caches via Request Collapsing and Adaptive TTL Jitter",
-        "The Evolution of Shared-Nothing Architectures: Decoupling Compute and Memory via CXL in Massive-Scale Real-Time Analytics Engines"
+        "The Evolution of Shared-Nothing Architectures: Decoupling Compute and Memory via CXL in Massive-Scale Real-Time Analytics Engines",
+        "Implementing Hierarchical Ring-AllReduce for Distributed Training on H100 GPU Clusters: Bottlenecks and Buffer Management",
+        "Zero-Downtime Migration of Trillion-Row Tables: Lessons from Sharding Petabyte-Scale NewSQL Clusters",
+        "Optimizing Tail Latency in Multi-Tenant Vector Databases: Index Compression and SSD-Resident HNSW Graphs"
     ]
 }
