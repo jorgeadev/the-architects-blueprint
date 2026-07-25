@@ -155,7 +155,6 @@
         "Beyond Bare Metal: How Programmable Data Planes and SmartNICs Revolutionize Hyperscale AI/ML Network Performance.",
         "Petascale Multi-Omics: Architecting Reproducible and Integrated Analysis Pipelines for Population-Level Biomedical Research.",
         "The Rise of CXL: Architecting Disaggregated Memory and Compute for Hyperscale Data Centers",
-        "The Architectural Shift: Disaggregated Memory and Compute in Hyperscale Data Centers for AI Workloads.",
         "Beyond BGP: How AI-Driven Traffic Engineering Optimizes Global Interconnects for Cloud Providers.",
         "CRISPR-Based Antivirals: Engineering Programmable Nucleic Acid Scavengers for Broad-Spectrum Viral Suppression.",
         "Hardware-Accelerated Consensus Protocols: Reducing Latency and Increasing Throughput in Global Distributed Transaction Systems",
@@ -819,6 +818,9 @@
         "The Evolution of Shared-Nothing Architectures: Decoupling Compute and Memory via CXL in Massive-Scale Real-Time Analytics Engines",
         "Implementing Hierarchical Ring-AllReduce for Distributed Training on H100 GPU Clusters: Bottlenecks and Buffer Management",
         "Zero-Downtime Migration of Trillion-Row Tables: Lessons from Sharding Petabyte-Scale NewSQL Clusters",
-        "Optimizing Tail Latency in Multi-Tenant Vector Databases: Index Compression and SSD-Resident HNSW Graphs"
+        "Optimizing Tail Latency in Multi-Tenant Vector Databases: Index Compression and SSD-Resident HNSW Graphs",
+        "Optimizing GPU Interconnect Topologies for Multi-Trillion Parameter Model Training: From InfiniBand to Ultra Ethernet",
+        "Solving the Thundering Herd: Implementing Adaptive Probabilistic Rate Limiting in Globally Distributed Edge Clusters",
+        "Zero-Copy Data Transfer and Memory Pinning: Re-engineering Storage Engines for NVMe-over-Fabrics at Scale"
     ]
 }
