@@ -549,7 +549,6 @@
         "Architecting Real-Time Feature Stores for 100M+ QPS: How TikTok Scales the Monolith Recommendation Engine using Disaggregated Memory",
         "The Engineering Behind AWS Aurora Limitless: Implementing Distributed Query Coordination for Shardless Global Databases",
         "Architecting Low-Latency Global Consistency: Deep Dive into Spanner-style Physical Clock Synchronization in Distributed SQL Databases",
-        "Optimizing Zero-Copy Data Movement in Petabyte-Scale Object Stores using eBPF and NVMe-over-Fabrics",
         "Scaling Vector Search to Billions: An Analysis of Tiered HNSW Indexing and Quantization Strategies in Distributed AI Middleware",
         "Optimizing Zero-Copy Networking in Rust-based Edge Proxies for Sub-Millisecond Tail Latency",
         "Formal Verification of Multi-Paxos State Machines in Distributed Consensus Engines",
@@ -825,6 +824,9 @@
         "Zero-Copy Data Planes in High-Throughput Service Meshes: Bypassing the Kernel with eBPF and XDP for Sub-Microsecond Latency",
         "Optimizing Tail Latency in Multi-Tenant Distributed Storage via Hardware-Accelerated NVMe Virtualization",
         "Architecting Global-Scale Vector Databases: Solving the Dimensionality Curse in Real-Time RAG Pipelines",
-        "Implementing Zero-Trust Microsegmentation at 100Gbps Line Rate Using eBPF and XDP Offloading"
+        "Implementing Zero-Trust Microsegmentation at 100Gbps Line Rate Using eBPF and XDP Offloading",
+        "Implementing Zero-Trust Architecture at Scale: Leveraging eBPF for Granular Micro-segmentation in Kubernetes Clusters",
+        "Architecting Multi-region Active-Active Databases: Solving Data Gravity and Write Conflicts with CRDTs and Vector Clocks",
+        "High-throughput Observability Pipelines: Engineering an OpenTelemetry-based Distributed Tracing System for 100M+ Requests per Second"
     ]
 }
