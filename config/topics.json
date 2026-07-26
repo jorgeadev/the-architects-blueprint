@@ -194,7 +194,6 @@
         "Hyperscale Data Center Optical Fabric Architectures: Challenges and Innovations in Peta-Bit Interconnects for AI Workloads.",
         "Beyond Cold Starts: Engineering Predictable Low-Latency Performance for Hyperscale Serverless Workloads with WebAssembly and MicroVM Runtimes.",
         "Engineering Programmable Oncolytic Viruses: Leveraging AI and Synthetic Biology for Targeted Cancer Therapies with Minimal Off-Target Effects",
-        "Beyond GPUs: Scaling Trillion-Parameter AI Models with Specialized Interconnects, Gradient Compression, and Asynchronous Execution in Distributed Training Frameworks.",
         "CRISPR-Powered Phage Engineering: Precision Bacteriophage Design for Antimicrobial Resistance Combat and Targeted Microbiome Modulation Through Advanced Synthetic Biology.",
         "Stateful Functions as a Service: Architecting Persistent Compute for Long-Running Workflows and Event-Driven Microservices at Petabyte Scale.",
         "Directed Evolution of AAV Capsids: Engineering Tropism and Immunogenicity for Next-Generation Gene Therapies.",
@@ -831,6 +830,9 @@
         "Beyond Kubernetes: Designing Custom Orchestration Layers for Specialized AI Accelerator Clusters in Hyperscale Data Centers",
         "Optimizing RoCE v2 for 100k+ GPU Clusters: Solving Congestion Control and Tail Latency in Large-Scale AI Training Fabrics",
         "Architecting Zero-Trust Service Meshes at Scale: Lessons from Netflix’s Transition to mTLS with SPIFFE and Envoy",
-        "Deep Dive into Meta’s Tectonic Distributed File System: Managing Exabyte-Scale Blob Storage for Multimodal Foundation Models"
+        "Deep Dive into Meta’s Tectonic Distributed File System: Managing Exabyte-Scale Blob Storage for Multimodal Foundation Models",
+        "Implementing Deterministic Simulation Testing for Distributed Storage Engines using Zig and io_uring",
+        "The Evolution of Global Traffic Control: Optimizing BGP Convergence Latency in Multi-Cloud Anycast Networks",
+        "Hardware-Software Co-Design for Exascale AI: Analyzing NVLink Switch Fabrics and Rack-Scale Memory Coherency"
     ]
 }
