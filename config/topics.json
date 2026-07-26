@@ -383,7 +383,6 @@
         "Formal Verification of Consensus Stability in Heterogeneous Hardware Environments: Lessons from Scaling High-Throughput Distributed Ledgers",
         "Deterministic Simulation Testing: Building Verifiable Consistency in High-Throughput Distributed State Machines",
         "Optimizing RDMA over Converged Ethernet (RoCE) for Multi-Petaflop GPU Clusters: A Deep Dive into Congestion Control",
-        "Evolving Cell-Based Architectures: Implementing Sub-Millisecond Global Failover via Anycast Routing and Regional Sharding",
         "Optimizing Tail Latency in Heterogeneous Vector Search Clusters via Predictive Query Routing",
         "Architecting Zero-Copy Ring Buffers for Multi-Terabit Network Telemetry Ingestion",
         "Formal Verification of Distributed Locking Mechanisms in Geo-Replicated Spanner-like Systems",
@@ -827,6 +826,9 @@
         "Implementing Zero-Trust Microsegmentation at 100Gbps Line Rate Using eBPF and XDP Offloading",
         "Implementing Zero-Trust Architecture at Scale: Leveraging eBPF for Granular Micro-segmentation in Kubernetes Clusters",
         "Architecting Multi-region Active-Active Databases: Solving Data Gravity and Write Conflicts with CRDTs and Vector Clocks",
-        "High-throughput Observability Pipelines: Engineering an OpenTelemetry-based Distributed Tracing System for 100M+ Requests per Second"
+        "High-throughput Observability Pipelines: Engineering an OpenTelemetry-based Distributed Tracing System for 100M+ Requests per Second",
+        "Optimizing Hot-Path Path Traversal in Distributed Graph Databases using Hardware-Accelerated SIMD Instructions",
+        "Implementing Formal Verification for Real-Time Consensus Protocols in Large-Scale Sharded Ledger Systems",
+        "Beyond Kubernetes: Designing Custom Orchestration Layers for Specialized AI Accelerator Clusters in Hyperscale Data Centers"
     ]
 }
