@@ -117,7 +117,6 @@
         "Real-Time Inference at Scale: Engineering AI Model Serving Infrastructure for Billions of Daily Queries",
         "Petabyte-Scale Genomics: Building Secure and Performant Pipelines for Population-Level Biomedical Data",
         "CRISPR-Cas9 System Repurposing for Programmable Epigenetic Modifiers: Challenges in Off-Target Effects and Delivery Vector Optimization for Therapeutic Scaling",
-        "Accelerating De Novo Protein Design: Large Language Models and the Computational Infrastructure for Synthetic Biology",
         "Optimizing Peta-Scale Distributed Transactional Systems for Global Consistency and Ultra-Low Latency",
         "The Network Architecture Evolution Driving Multi-Trillion Parameter AI Model Training: Beyond Clos Topologies",
         "Programmable Genetic Circuits: Designing and Deploying CRISPR-Cas Systems for Advanced Cellular Diagnostics and Therapeutics",
@@ -837,6 +836,9 @@
         "The Evolution of Vector Databases: Architecting Real-Time Indexing and Multi-Tenant Sharding for Billion-Scale Neural Search Infrastructures",
         "Implementing Zero-Copy PagedAttention: Optimizing KV Cache Management for Multi-Tenant LLM Serving at Scale",
         "Beyond Sharding: The Engineering Behind Cellular Metadata Architectures for Globally Distributed Object Stores",
-        "Hardware-Offloaded Congestion Control: Scaling RDMA Fabrics to 100,000+ GPUs in AI Supercomputers"
+        "Hardware-Offloaded Congestion Control: Scaling RDMA Fabrics to 100,000+ GPUs in AI Supercomputers",
+        "Formal Verification of Distributed Consensus: How AWS S3 Mitigates Silent Data Corruption at Exascale",
+        "Designing Z-Storage: The Architecture of TikTok’s Global Multi-Cloud Real-Time Video Deduplication Engine",
+        "Beyond eBPF: Implementing Custom Programmable Data Planes for Terabit-Scale DDoS Mitigation at Cloudflare"
     ]
 }
