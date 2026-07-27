@@ -341,7 +341,6 @@
         "Deterministic Simulation Testing: How Anthropic Ensures Consensus Consistency in Large-Scale Distributed Training",
         "A deep dive into zero-copy networking and eBPF-driven observability for high-throughput packet processing in cloud-native edge infrastructures",
         "Optimizing L3 Cache Contention in Multi-Tenant Hypervisors using Hardware-Assisted Resource Partitioning",
-        "Deep Dive: Meta's RoCE-based Network Fabric for 24,576 H100 GPU Training Clusters",
         "Architecting for 100M RPS: The Evolution of Cloudflare's Quicksilver Key-Value Store",
         "Beyond Vitess: How YouTube Orchestrates Billions of Transactions with Tiered Spanner Sharding",
         "Optimizing Tail Latency in Globally Distributed Spanner Clusters: A Comparative Analysis of TrueTime vs. Logical Clock Hybridization",
@@ -833,6 +832,9 @@
         "Deep Dive into Meta’s Tectonic Distributed File System: Managing Exabyte-Scale Blob Storage for Multimodal Foundation Models",
         "Implementing Deterministic Simulation Testing for Distributed Storage Engines using Zig and io_uring",
         "The Evolution of Global Traffic Control: Optimizing BGP Convergence Latency in Multi-Cloud Anycast Networks",
-        "Hardware-Software Co-Design for Exascale AI: Analyzing NVLink Switch Fabrics and Rack-Scale Memory Coherency"
+        "Hardware-Software Co-Design for Exascale AI: Analyzing NVLink Switch Fabrics and Rack-Scale Memory Coherency",
+        "Implementing Zero-Copy Data Serialization and eBPF-Based Kernel Bypassing for Sub-Microsecond Latency in High-Throughput Trading Engines",
+        "Beyond Quorum: Leveraging Erasure Coding and Predictive Tiering for Petabyte-Scale Efficiency in Geo-Replicated Object Stores",
+        "The Evolution of Vector Databases: Architecting Real-Time Indexing and Multi-Tenant Sharding for Billion-Scale Neural Search Infrastructures"
     ]
 }
