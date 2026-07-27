@@ -560,7 +560,6 @@
         "Beyond Sidecars: Accelerating Service Mesh Performance Using eBPF-based Kernel Bypass in Global Edge Clusters",
         "Decoupling the Monolith: Netflix's Real-Time Data Mesh for Sub-Millisecond Personalization at 240 Million Subscribers",
         "Bypassing the Kernel: How Google's gVisor and eBPF Enable Zero-Copy Packet Processing in GCP's Titanium Offload Architecture",
-        "The Latency Tax: Inside Meta's Subsea Cable Network Upgrade and Its Impact on Global Zonal Replication for Meta's AI Inference Clusters",
         "Optimizing Checkpointing Latency in Massive-Scale AI Training via 400Gbps RoCE v2 Fabric Topologies",
         "Hardware-Accelerated mTLS Offloading: Scaling Zero-Trust Service Meshes using SmartNICs in Global Data Centers",
         "Deterministic Concurrency in Geographically Distributed Databases: Implementing Hybrid Logical Clocks for Causal Consistency at Hyperscale",
@@ -835,6 +834,9 @@
         "Hardware-Software Co-Design for Exascale AI: Analyzing NVLink Switch Fabrics and Rack-Scale Memory Coherency",
         "Implementing Zero-Copy Data Serialization and eBPF-Based Kernel Bypassing for Sub-Microsecond Latency in High-Throughput Trading Engines",
         "Beyond Quorum: Leveraging Erasure Coding and Predictive Tiering for Petabyte-Scale Efficiency in Geo-Replicated Object Stores",
-        "The Evolution of Vector Databases: Architecting Real-Time Indexing and Multi-Tenant Sharding for Billion-Scale Neural Search Infrastructures"
+        "The Evolution of Vector Databases: Architecting Real-Time Indexing and Multi-Tenant Sharding for Billion-Scale Neural Search Infrastructures",
+        "Implementing Zero-Copy PagedAttention: Optimizing KV Cache Management for Multi-Tenant LLM Serving at Scale",
+        "Beyond Sharding: The Engineering Behind Cellular Metadata Architectures for Globally Distributed Object Stores",
+        "Hardware-Offloaded Congestion Control: Scaling RDMA Fabrics to 100,000+ GPUs in AI Supercomputers"
     ]
 }
