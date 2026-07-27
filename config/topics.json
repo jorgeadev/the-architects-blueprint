@@ -433,7 +433,6 @@
         "Decoding the Bloom Filter Cascade: How Meta Optimizes GraphQL N+1 Queries at Exabyte Scale with Probabilistic Data Structures",
         "Deep Dive into CPRO: Google's Confidential Peer Review Orchestrator for Air-Gapped, Zero-Trust Build Pipelines Across 10,000+ Services",
         "The Thermodynamic Limit of Liquid Immersion Cooling: Analyzing AWS's Synthetic Diamond-Infused Dielectric Coolant for Sub-7nm Exascale Clusters",
-        "Quantized Federated Backpropagation: Optimizing Model Training Across 10^5 Heterogeneous Edge Nodes with Sub-Millisecond Sync Windows",
         "Decoding the Global Control Plane: How Meta's Project Wormhole CS Orchestrates Real-Time Traffic Shaping for Exabyte-Scale Video Pipelines",
         "A Deep Dive into AWS's Hyperscale SRAM Overprovisioning Strategy: Mitigating Tail Latency in Post-Exabyte S3 Storage Clusters via Redundant Cache Coherency Protocols",
         "Evolving Zero-Trust in Distributed Databases: Implementing Fine-Grained Cryptographic Isolation for Multi-Tenant Global State",
@@ -839,6 +838,9 @@
         "Hardware-Offloaded Congestion Control: Scaling RDMA Fabrics to 100,000+ GPUs in AI Supercomputers",
         "Formal Verification of Distributed Consensus: How AWS S3 Mitigates Silent Data Corruption at Exascale",
         "Designing Z-Storage: The Architecture of TikTok’s Global Multi-Cloud Real-Time Video Deduplication Engine",
-        "Beyond eBPF: Implementing Custom Programmable Data Planes for Terabit-Scale DDoS Mitigation at Cloudflare"
+        "Beyond eBPF: Implementing Custom Programmable Data Planes for Terabit-Scale DDoS Mitigation at Cloudflare",
+        "Deep Dive into Deterministic Simulation Testing for Distributed Database Consensus Loops",
+        "Optimizing Kernel-Bypass Networking for Low-Latency Real-Time Telemetry at Terabit Scale",
+        "Architecting Multi-Tenant Vector Search: Isolation and Sharding Strategies for Trillion-Scale Embeddings"
     ]
 }
