@@ -480,7 +480,6 @@
         "Disaggregated memory over CXL: mitigating NUMA penalties in petabyte-scale analytics clusters at Meta.",
         "Decoding the implicit neural representation of Netflix's microservice routing graph for real-time canary analysis.",
         "How Cloudflare built a 100 Gbps DDoS mitigation pipeline on eBPF and XDP, bypassing the kernel TCP stack.",
-        "Ephemeral Blob Stores: Designing Infrastructure for 10x Daily Node Churn in a Global Software-Defined Fabric",
         "How Netflix Replaced memcached with a Verifiable CRDT-Based State Store for Sub-Millisecond Session Affinity at Exabyte Scale",
         "Hardware-Offloaded Congestion Control: Deep Dive into Meta’s Custom RoCE v2 Implementation for 100k-GPU Clusters",
         "Optimizing Global Consensus: Implementing Clock-Skew-Aware Lease Management in Multi-Region Spanner Topologies",
@@ -843,6 +842,9 @@
         "Architecting Multi-Tenant Vector Search: Isolation and Sharding Strategies for Trillion-Scale Embeddings",
         "Deconstructing the H100 GPU Fabric: RoCE v2 vs. InfiniBand in Massive-Scale AI Training Clusters",
         "Formal Verification at Scale: Applying TLA+ to Distributed Transactional Protocols in Global Edge Key-Value Stores",
-        "Zero-Copy Packet Processing: Leveraging eBPF and XDP for High-Throughput Service Mesh Sidecar Acceleration"
+        "Zero-Copy Packet Processing: Leveraging eBPF and XDP for High-Throughput Service Mesh Sidecar Acceleration",
+        "Mitigating Global Clock Drift: Building Deterministic Distributed Consensus with Hardware-Backed Time Synchronization in Multi-Region Clusters",
+        "Zero-Copy Packet Processing: Leveraging eBPF and XDP for Terabit-Scale Edge Load Balancing and Real-Time DDoS Mitigation",
+        "Quantizing the Interconnect: Optimizing Collective Communication Primitives for Distributed Training of 100T Parameter Models via GPUDirect RDMA"
     ]
 }
