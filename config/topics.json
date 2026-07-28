@@ -747,7 +747,6 @@
         "Optimizing Llama 3 Training Clusters: Mitigating RDMA Congestion and GPU Interconnect Bottlenecks at Meta Scale",
         "Deep Dive into Netflix's eBPF-Powered Observability: Zero-Copy Telemetry Collection for 100Gbps Network Pipelines",
         "Rethinking Distributed Consistency: Implementing Hierarchical Quorums for Multi-Region Spanner-like Databases",
-        "Deterministic simulation testing at scale: Engineering reproducible state machine failures in globally distributed databases",
         "Sub-microsecond synchronization: Implementing hardware-level Precision Time Protocol for atomic multi-region transaction ordering",
         "Thermal-aware scheduling: Dynamically routing 100k+ node GPU workloads based on real-time liquid cooling efficiency metrics",
         "Zero-Copy Networking: Implementing DPDK-based Load Balancers for 100Gbps Line Rates in Multi-Tenant Environments",
@@ -845,6 +844,9 @@
         "Zero-Copy Packet Processing: Leveraging eBPF and XDP for High-Throughput Service Mesh Sidecar Acceleration",
         "Mitigating Global Clock Drift: Building Deterministic Distributed Consensus with Hardware-Backed Time Synchronization in Multi-Region Clusters",
         "Zero-Copy Packet Processing: Leveraging eBPF and XDP for Terabit-Scale Edge Load Balancing and Real-Time DDoS Mitigation",
-        "Quantizing the Interconnect: Optimizing Collective Communication Primitives for Distributed Training of 100T Parameter Models via GPUDirect RDMA"
+        "Quantizing the Interconnect: Optimizing Collective Communication Primitives for Distributed Training of 100T Parameter Models via GPUDirect RDMA",
+        "Deep Dive into Cellular Architecture: Partitioning Massive Monolithic Backends into Fault-Tolerant Shards",
+        "Optimizing Kernel-Space to User-Space Context Switching for High-Throughput NVMe-over-Fabrics Storage",
+        "The Mechanics of Predictive Auto-scaling: Using Machine Learning to Mitigate Cold-Start Latency in Hyperscale Serverless Tiers"
     ]
 }
