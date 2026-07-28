@@ -672,7 +672,6 @@
         "Solving the Thundering Herd: How Discord Re-engineered their Gateway for 30 Million Concurrent WebSocket Connections",
         "Inside Uber's LedgerStore: Implementing Immutable Bi-Temporal Storage at Petabyte Scale for Global Financial Compliance",
         "Optimizing Tail Latency in Multi-Tenant Vector Databases: Strategies for Sharding and Indexing 100B+ Embeddings",
-        "Zero-Copy Networking and User-Space Drivers: Scaling Data Plane Performance to 800Gbps in Modern Cloud Infrastructures",
         "Formal Verification of Distributed Consensus: How TLA+ and Model Checking Prevent State Corruption in Global Scale Storage Engines",
         "Deterministic Quorum Intersection: Optimizing p99 Latency in Globally Distributed Spanner-like Databases",
         "Leveraging eBPF and XDP for Zero-Copy Kernel-to-User Space Data Transfer in High-Throughput Distributed Log Stores",
@@ -841,6 +840,9 @@
         "Beyond eBPF: Implementing Custom Programmable Data Planes for Terabit-Scale DDoS Mitigation at Cloudflare",
         "Deep Dive into Deterministic Simulation Testing for Distributed Database Consensus Loops",
         "Optimizing Kernel-Bypass Networking for Low-Latency Real-Time Telemetry at Terabit Scale",
-        "Architecting Multi-Tenant Vector Search: Isolation and Sharding Strategies for Trillion-Scale Embeddings"
+        "Architecting Multi-Tenant Vector Search: Isolation and Sharding Strategies for Trillion-Scale Embeddings",
+        "Deconstructing the H100 GPU Fabric: RoCE v2 vs. InfiniBand in Massive-Scale AI Training Clusters",
+        "Formal Verification at Scale: Applying TLA+ to Distributed Transactional Protocols in Global Edge Key-Value Stores",
+        "Zero-Copy Packet Processing: Leveraging eBPF and XDP for High-Throughput Service Mesh Sidecar Acceleration"
     ]
 }
