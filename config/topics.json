@@ -666,7 +666,6 @@
         "Reducing Tail Latency in Petabyte-Scale Key-Value Stores via Predictive eBPF-Based I/O Scheduling",
         "Architecting Multi-Tenant GPU Clusters: Solving Memory Fragmentation and NVLink Contention in Massive LLM Training Pipelines",
         "Deep Dive into Meta's MTIA: Designing Custom Silicon for Large-Scale Recommendation Systems",
-        "Solving the Thundering Herd: How Discord Re-engineered their Gateway for 30 Million Concurrent WebSocket Connections",
         "Inside Uber's LedgerStore: Implementing Immutable Bi-Temporal Storage at Petabyte Scale for Global Financial Compliance",
         "Optimizing Tail Latency in Multi-Tenant Vector Databases: Strategies for Sharding and Indexing 100B+ Embeddings",
         "Formal Verification of Distributed Consensus: How TLA+ and Model Checking Prevent State Corruption in Global Scale Storage Engines",
@@ -855,6 +854,9 @@
         "Deterministic Simulation Testing (DST) in Distributed Systems: How TigerBeetle and FoundationDB Eliminate Heisenbugs at Scale",
         "Implementing Zero-Copy Data Planes: Leveraging eBPF and XDP for Hyperscale Load Balancing",
         "Optimizing KV Cache Fragmentation: PagedAttention and Memory Management Strategies for Large-Scale LLM Serving",
-        "Formal Verification of Distributed Consensus: Applying TLA+ to Prevent Edge-Case Data Corruption in Multi-Region Clusters"
+        "Formal Verification of Distributed Consensus: Applying TLA+ to Prevent Edge-Case Data Corruption in Multi-Region Clusters",
+        "Orchestrating 100,000+ GPU Clusters: The Networking Architecture Behind Training Next-Gen Frontier Models via RoCE v2 and InfiniBand Hybrid Fabrics",
+        "Re-architecting the Distributed Lock Manager: How Modern Cloud Databases Leverage CXL and RDMA to Achieve 100M+ QPS at Sub-Microsecond Latency",
+        "Zero-Trust at the Silicon Level: Implementing Hardware-Attested Multi-Tenancy in Massive-Scale Serverless Computing Environments"
     ]
 }
