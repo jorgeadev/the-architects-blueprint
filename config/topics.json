@@ -350,7 +350,6 @@
         "Hardware-Software Co-design for 100k+ GPU Clusters: Dissecting Meta's Tectonic and RoCEv2 Network Fabric for Llama-3 Training",
         "Zero-Trust at the NIC Level: Leveraging eBPF and Hardware Offloading for Multi-Terabit Per Second DDoS Mitigation",
         "Deep Dive into NVLink Switch Fabrics: Scaling Inter-Node Communication for 100k+ GPU Clusters",
-        "Zero-ETL Architecture: Implementing Real-Time Vector Embeddings via Change Data Capture on Distributed LSM-Trees",
         "Deterministic Simulation Testing: How TigerBeetle Achieves Five-Nines Reliability in Distributed Financial Ledgers",
         "Custom Silicon and Warp-Level Primitives: The Low-Level Optimizations Powering Google’s TPU v5p Pods",
         "Hierarchical Consensus and Sharded Gossip Protocols: Scaling Global Metadata Consistency to 100 Million Writes per Second",
@@ -849,6 +848,9 @@
         "The Mechanics of Predictive Auto-scaling: Using Machine Learning to Mitigate Cold-Start Latency in Hyperscale Serverless Tiers",
         "Re-architecting Global Control Planes: Decoupling State from Logic in Hyper-Scale Edge Networks",
         "Optimizing PB-Scale Inter-Service Communication: A Deep Dive into eBPF-based Kernel Bypass for Service Meshes",
-        "Distributed Vector Indexing: The Architecture of Real-time Sharding and Compaction for Billion-Scale Embedding Spaces"
+        "Distributed Vector Indexing: The Architecture of Real-time Sharding and Compaction for Billion-Scale Embedding Spaces",
+        "Zero-Copy Serialization and RDMA Optimization in Distributed Vector Databases for Sub-Millisecond LLM Retrieval",
+        "Implementing Hardware-Accelerated Congestion Control for Multi-Tenant GPU Clusters in Hyperscale AI Training",
+        "The Internals of Deterministic Simulation Testing for Eliminating Race Conditions in High-Throughput Serverless Orchestrators"
     ]
 }
