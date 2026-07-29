@@ -295,7 +295,6 @@
         "Mitigating Tail Latency in Globally Distributed Consensus Engines through Predictive Pre-fetching and Write-Ahead Log Partitioning",
         "Optimizing GPU Memory Throughput for Multi-Tenant LLM Serving via Hierarchical PagedAttention and Dynamic KV Cache Compression",
         "Inside TikTok's Real-Time Recommendation Graph: Sharding, In-Memory Indexing, and the War on Cold Start Latency",
-        "Google's Spanner vs. Amazon's DynamoDB: A Deep Dive into Transaction Semantics, Clock Accuracy, and Planet-Scale Consistency Guarantees",
         "The Hidden Complexity of Meta's Massive Fiber Backbone: How Optical Circuit Switching and Wavelength Division Multiplexing Survive a 400Gbps Core Meltdown",
         "Inside Meta's Cold Storage Exascale: How LLM Training Data is Archived Across Arctic Data Centers",
         "Google's Jupiter Evolving: Optical Circuit Switching and the New Congestion Control Plane for AGI Clusters",
@@ -853,6 +852,9 @@
         "The Internals of Deterministic Simulation Testing for Eliminating Race Conditions in High-Throughput Serverless Orchestrators",
         "Implementing Hierarchical Ring-AllReduce Patterns for Multi-Petabyte LLM Training on Heterogeneous GPU Clusters",
         "Zero-Copy Serialization Protocols: Benchmarking Cap’n Proto vs. FlatBuffers in Low-Latency HFT Infrastructure",
-        "Deterministic Simulation Testing (DST) in Distributed Systems: How TigerBeetle and FoundationDB Eliminate Heisenbugs at Scale"
+        "Deterministic Simulation Testing (DST) in Distributed Systems: How TigerBeetle and FoundationDB Eliminate Heisenbugs at Scale",
+        "Implementing Zero-Copy Data Planes: Leveraging eBPF and XDP for Hyperscale Load Balancing",
+        "Optimizing KV Cache Fragmentation: PagedAttention and Memory Management Strategies for Large-Scale LLM Serving",
+        "Formal Verification of Distributed Consensus: Applying TLA+ to Prevent Edge-Case Data Corruption in Multi-Region Clusters"
     ]
 }
