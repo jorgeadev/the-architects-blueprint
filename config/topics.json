@@ -207,7 +207,6 @@
         "The Architectural Principles Behind Hyperscale Real-time Anomaly Detection Systems: From Graph Neural Networks to Probabilistic Fault Injection",
         "Hardware-Software Co-Design for Next-Generation Data Center Interconnects: Disaggregated Fabrics, Silicon Photonics, and Custom ASICs",
         "Heterogeneous Memory Tiering at Meta: Migrating Hot Pages Across DRAM and CXL-Attached NAND for Hyperscale Database Workloads",
-        "Dissecting the Intra-Node Fabric: NVLink-C2C and the Decoupling of Compute from Memory in Google's TPU v6 Pods",
         "The advent of programmable data planes (P4) and their impact on next-gen hyperscale data center network architecture for AI/ML workloads.",
         "The Disaggregated Future: CXL and PIM Architectures Reshaping Hyperscale Memory and Compute",
         "Precision Viral Engineering: Designing AAV Capsids for Targeted Gene Delivery and Reduced Immunogenicity",
@@ -857,6 +856,9 @@
         "Formal Verification of Distributed Consensus: Applying TLA+ to Prevent Edge-Case Data Corruption in Multi-Region Clusters",
         "Orchestrating 100,000+ GPU Clusters: The Networking Architecture Behind Training Next-Gen Frontier Models via RoCE v2 and InfiniBand Hybrid Fabrics",
         "Re-architecting the Distributed Lock Manager: How Modern Cloud Databases Leverage CXL and RDMA to Achieve 100M+ QPS at Sub-Microsecond Latency",
-        "Zero-Trust at the Silicon Level: Implementing Hardware-Attested Multi-Tenancy in Massive-Scale Serverless Computing Environments"
+        "Zero-Trust at the Silicon Level: Implementing Hardware-Attested Multi-Tenancy in Massive-Scale Serverless Computing Environments",
+        "Deep dive into Uber's migration from Cadence to Temporal for global orchestration of micro-services at petabyte scale",
+        "Engineering the 'Everything Store': How Amazon's Cedar policy engine handles 100M+ authorization requests per second using formal verification",
+        "Solving the Tail-Latency Problem: A technical breakdown of Netflix's custom eBPF-based congestion control for 4K streaming delivery"
     ]
 }
