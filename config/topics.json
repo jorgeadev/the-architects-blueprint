@@ -121,7 +121,6 @@
         "The Network Architecture Evolution Driving Multi-Trillion Parameter AI Model Training: Beyond Clos Topologies",
         "Programmable Genetic Circuits: Designing and Deploying CRISPR-Cas Systems for Advanced Cellular Diagnostics and Therapeutics",
         "Optimizing Inferencing Latency for Trillion-Parameter AI Models in Geo-Distributed Data Centers",
-        "Advanced Lipid Nanoparticle Design for Targeted mRNA Delivery in Next-Generation Therapeutic Vaccines",
         "Beyond Paxos and Raft: Exploring Quorum-Less Distributed State Management for Planetary-Scale Edge Compute",
         "The architectural evolution of large language model serving: from static endpoints to dynamic, multi-tenant inference graphs.",
         "Architecting Trillion-Parameter AI: The Role of Optical Interconnects and Network Fabric Topologies",
@@ -859,6 +858,9 @@
         "Zero-Trust at the Silicon Level: Implementing Hardware-Attested Multi-Tenancy in Massive-Scale Serverless Computing Environments",
         "Deep dive into Uber's migration from Cadence to Temporal for global orchestration of micro-services at petabyte scale",
         "Engineering the 'Everything Store': How Amazon's Cedar policy engine handles 100M+ authorization requests per second using formal verification",
-        "Solving the Tail-Latency Problem: A technical breakdown of Netflix's custom eBPF-based congestion control for 4K streaming delivery"
+        "Solving the Tail-Latency Problem: A technical breakdown of Netflix's custom eBPF-based congestion control for 4K streaming delivery",
+        "Integrating RDMA and SmartNIC Offloading for Low-Latency Distributed Vector Search at Petabyte Scale",
+        "Architecting Deterministic Replay for Debugging Distributed State Machine Failures in Cloud-Native Databases",
+        "Hardware-Software Co-Design: Implementing Custom Silicon for Real-Time Recommendation Ranking at Meta"
     ]
 }
