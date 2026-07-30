@@ -706,7 +706,6 @@
         "Leveraging eBPF for Zero-Trust Observability and Enforcement in Multi-Region Mesh Architectures",
         "Solving the Thundering Herd: Implementing Deterministic Request Collapsing in Globally Distributed Edge Caches",
         "Beyond Raft: Implementing High-Throughput Quorum Systems for Petabyte-Scale Metadata Management",
-        "Architecting Global State Consistency: Implementing Hybrid Logical Clocks in Geographically Distributed Edge Clusters",
         "Line-Rate Packet Filtering: Leveraging eBPF and XDP for Terabit-Scale DDoS Mitigation in Hyper-Scale Cloud Fabrics",
         "The Anatomy of Sparse Inference: Optimizing Trillion-Parameter MoE Model Quantization for Decentralized GPU Orchestration",
         "Implementing Deterministic Simulation Testing for High-Availability Distributed Consensus Engines",
@@ -861,6 +860,9 @@
         "Solving the Tail-Latency Problem: A technical breakdown of Netflix's custom eBPF-based congestion control for 4K streaming delivery",
         "Integrating RDMA and SmartNIC Offloading for Low-Latency Distributed Vector Search at Petabyte Scale",
         "Architecting Deterministic Replay for Debugging Distributed State Machine Failures in Cloud-Native Databases",
-        "Hardware-Software Co-Design: Implementing Custom Silicon for Real-Time Recommendation Ranking at Meta"
+        "Hardware-Software Co-Design: Implementing Custom Silicon for Real-Time Recommendation Ranking at Meta",
+        "Architecting Geo-Distributed Vector Databases: Achieving Causal Consistency and Sub-50ms Latency Across Continental Clusters",
+        "Deep Dive into User-Space Networking: Leveraging eBPF and XDP for High-Performance Programmable Load Balancing at Terabit Scale",
+        "Formal Verification of Distributed Storage Engines: Using TLA+ to Prevent Rare Race Conditions in Tier-0 Metadata Services"
     ]
 }
