@@ -702,7 +702,6 @@
         "The Physics of PUE: Analyzing AWS's South America-Specific Direct-to-Chip Cooled Hydroelectric Data Centers and the End of Megawatt-Scale Chillers",
         "Zero-Copy Data Path Optimization: Leveraging eBPF and XDP for Terabit-Scale Distributed Load Balancing",
         "Architecting Multi-Petaflop Inference Engines: Memory Hierarchy and Interconnect Strategies for Sparse Mixture-of-Experts",
-        "The Evolution of Shared-Log Architectures: Implementing Tiered Storage and Segment Merging in Cloud-Native Message Brokers",
         "Leveraging eBPF for Zero-Trust Observability and Enforcement in Multi-Region Mesh Architectures",
         "Solving the Thundering Herd: Implementing Deterministic Request Collapsing in Globally Distributed Edge Caches",
         "Beyond Raft: Implementing High-Throughput Quorum Systems for Petabyte-Scale Metadata Management",
@@ -863,6 +862,9 @@
         "Hardware-Software Co-Design: Implementing Custom Silicon for Real-Time Recommendation Ranking at Meta",
         "Architecting Geo-Distributed Vector Databases: Achieving Causal Consistency and Sub-50ms Latency Across Continental Clusters",
         "Deep Dive into User-Space Networking: Leveraging eBPF and XDP for High-Performance Programmable Load Balancing at Terabit Scale",
-        "Formal Verification of Distributed Storage Engines: Using TLA+ to Prevent Rare Race Conditions in Tier-0 Metadata Services"
+        "Formal Verification of Distributed Storage Engines: Using TLA+ to Prevent Rare Race Conditions in Tier-0 Metadata Services",
+        "Architecting Zero-Copy Telemetry Pipelines using RDMA and NVMe-over-Fabrics at Scale",
+        "Solving the Thundering Herd Problem in Multi-Region Service Meshes via Predictive Load Shedding",
+        "Hardware-Software Co-Design for Deterministic Latency in High-Frequency Distributed Ledgers"
     ]
 }
