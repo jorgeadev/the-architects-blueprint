@@ -534,7 +534,6 @@
         "Unpacking Google's Spanner: A Deep Dive into TrueTime, Distributed Consensus, and the Global Synchrony Illusion",
         "Inside the AWS Nitro System: How Hardware Offloading and MicroVM Isolation Redefine Hypervisor Overhead at Massive Scale",
         "How Stripe Scaled a Planet-Scale Database Relocation: An Engineering Postmortem on Shard Migration and Real-Time Consistency",
-        "Optimizing GPU Interconnects for Trillion-Parameter Models: A Deep Dive into Meta's MTIA and RoCEv2 Network Fabric",
         "Architecting Real-Time Feature Stores for 100M+ QPS: How TikTok Scales the Monolith Recommendation Engine using Disaggregated Memory",
         "The Engineering Behind AWS Aurora Limitless: Implementing Distributed Query Coordination for Shardless Global Databases",
         "Architecting Low-Latency Global Consistency: Deep Dive into Spanner-style Physical Clock Synchronization in Distributed SQL Databases",
@@ -867,6 +866,9 @@
         "Hardware-Software Co-Design for Deterministic Latency in High-Frequency Distributed Ledgers",
         "Deconstructing Meta’s Maglev-Inspired eBPF Load Balancer: Optimizing L4 Traffic for 100Tbps Clusters",
         "Solving the Cold-Start Problem in Serverless GPU Clusters: A Deep Dive into CUDA Context Virtualization",
-        "Architecting Geo-Distributed Vector Databases: Implementing Raft Consensus for Sub-Millisecond Global Semantic Search"
+        "Architecting Geo-Distributed Vector Databases: Implementing Raft Consensus for Sub-Millisecond Global Semantic Search",
+        "Decoupling Storage and Compute via CXL 3.0: Rethinking Memory Disaggregation in Hyper-Scale Data Centers",
+        "Hardware-Accelerated Zero-Trust Networking: Offloading eBPF Programs to Programmable SmartNICs at Scale",
+        "Solving the Thundering Herd in Global-Scale Vector Databases: Predictive Caching and Request Hedging Strategies"
     ]
 }
