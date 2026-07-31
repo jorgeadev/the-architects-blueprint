@@ -796,7 +796,6 @@
         "Implementing Hierarchical Ring-AllReduce for Distributed Training on H100 GPU Clusters: Bottlenecks and Buffer Management",
         "Zero-Downtime Migration of Trillion-Row Tables: Lessons from Sharding Petabyte-Scale NewSQL Clusters",
         "Optimizing Tail Latency in Multi-Tenant Vector Databases: Index Compression and SSD-Resident HNSW Graphs",
-        "Optimizing GPU Interconnect Topologies for Multi-Trillion Parameter Model Training: From InfiniBand to Ultra Ethernet",
         "Solving the Thundering Herd: Implementing Adaptive Probabilistic Rate Limiting in Globally Distributed Edge Clusters",
         "Zero-Copy Data Transfer and Memory Pinning: Re-engineering Storage Engines for NVMe-over-Fabrics at Scale",
         "Architecting Zettascale Memory Fabrics: Leveraging CXL 3.0 for Composable Disaggregated Data Centers",
@@ -871,6 +870,9 @@
         "Solving the Thundering Herd in Global-Scale Vector Databases: Predictive Caching and Request Hedging Strategies",
         "Deep-Dive into Hierarchical Ring All-Reduce: Optimizing Collective Communication for Multi-Terabyte LLM Training Clusters",
         "Architecting High-Throughput Consistency: Solving the Tail Latency Bottleneck in Geo-Replicated LSM-Tree Storage Engines",
-        "The Evolution of Zero-Copy Packet Processing: Leveraging eXpress Data Path (XDP) for Multi-Tenant Edge Load Balancing at 100Gbps"
+        "The Evolution of Zero-Copy Packet Processing: Leveraging eXpress Data Path (XDP) for Multi-Tenant Edge Load Balancing at 100Gbps",
+        "Implementing Low-Latency Read-After-Write Consistency in Globally Sharded Cell-Based Architectures",
+        "The Mechanics of Predictive Auto-scaling: Leveraging LSTM Networks for Proactive Capacity Management in Multi-Cloud Environments",
+        "Advanced Congestion Control via eBPF: Reducing P99 Tail Latencies in High-Throughput RDMA-Enabled GPU Clusters"
     ]
 }
