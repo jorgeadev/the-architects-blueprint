@@ -356,7 +356,6 @@
         "How Google Scaled its Spanner Backend to Serve 10 Billion Read/Write Operations Per Second Using a Novel TrueTime-Based Sharding Algorithm",
         "Optimizing Tail Latency in Multi-Tenant Distributed Key-Value Stores via Hardware-Accelerated Consensus Protocols",
         "Zero-Copy Data Transfer Pipelines in Hyperscale Observability Platforms using eBPF and Shared Memory Ring Buffers",
-        "The Mechanics of Predictive Autoscaling for Global Edge Networks: Merging Time-Series Forecasting with Control Theory",
         "Hardware-Accelerated Load Balancing: How Google Cloud Uses Maglev and Andromeda to Minimize Packet Jitter at Petabit Scales",
         "Designing the Next-Generation KV Store: Implementing LSM-Tree Optimization via NVMe-oF in Massive Distributed Storage",
         "The Evolution of Cluster Schedulers: Evaluating Borg vs. Kubernetes for Managing Million-Node Heterogeneous AI Workloads",
@@ -869,6 +868,9 @@
         "Architecting Geo-Distributed Vector Databases: Implementing Raft Consensus for Sub-Millisecond Global Semantic Search",
         "Decoupling Storage and Compute via CXL 3.0: Rethinking Memory Disaggregation in Hyper-Scale Data Centers",
         "Hardware-Accelerated Zero-Trust Networking: Offloading eBPF Programs to Programmable SmartNICs at Scale",
-        "Solving the Thundering Herd in Global-Scale Vector Databases: Predictive Caching and Request Hedging Strategies"
+        "Solving the Thundering Herd in Global-Scale Vector Databases: Predictive Caching and Request Hedging Strategies",
+        "Deep-Dive into Hierarchical Ring All-Reduce: Optimizing Collective Communication for Multi-Terabyte LLM Training Clusters",
+        "Architecting High-Throughput Consistency: Solving the Tail Latency Bottleneck in Geo-Replicated LSM-Tree Storage Engines",
+        "The Evolution of Zero-Copy Packet Processing: Leveraging eXpress Data Path (XDP) for Multi-Tenant Edge Load Balancing at 100Gbps"
     ]
 }
