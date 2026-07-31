@@ -858,13 +858,15 @@
         "Engineering the 'Everything Store': How Amazon's Cedar policy engine handles 100M+ authorization requests per second using formal verification",
         "Solving the Tail-Latency Problem: A technical breakdown of Netflix's custom eBPF-based congestion control for 4K streaming delivery",
         "Integrating RDMA and SmartNIC Offloading for Low-Latency Distributed Vector Search at Petabyte Scale",
-        "Architecting Deterministic Replay for Debugging Distributed State Machine Failures in Cloud-Native Databases",
         "Hardware-Software Co-Design: Implementing Custom Silicon for Real-Time Recommendation Ranking at Meta",
         "Architecting Geo-Distributed Vector Databases: Achieving Causal Consistency and Sub-50ms Latency Across Continental Clusters",
         "Deep Dive into User-Space Networking: Leveraging eBPF and XDP for High-Performance Programmable Load Balancing at Terabit Scale",
         "Formal Verification of Distributed Storage Engines: Using TLA+ to Prevent Rare Race Conditions in Tier-0 Metadata Services",
         "Architecting Zero-Copy Telemetry Pipelines using RDMA and NVMe-over-Fabrics at Scale",
         "Solving the Thundering Herd Problem in Multi-Region Service Meshes via Predictive Load Shedding",
-        "Hardware-Software Co-Design for Deterministic Latency in High-Frequency Distributed Ledgers"
+        "Hardware-Software Co-Design for Deterministic Latency in High-Frequency Distributed Ledgers",
+        "Deconstructing Meta’s Maglev-Inspired eBPF Load Balancer: Optimizing L4 Traffic for 100Tbps Clusters",
+        "Solving the Cold-Start Problem in Serverless GPU Clusters: A Deep Dive into CUDA Context Virtualization",
+        "Architecting Geo-Distributed Vector Databases: Implementing Raft Consensus for Sub-Millisecond Global Semantic Search"
     ]
 }
