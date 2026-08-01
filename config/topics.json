@@ -9,7 +9,6 @@
         "Recent disruptive tech releases or viral developer trends on social media that captivated the engineering world.",
         "How Netflix achieved Multi-Region High Availability and zero downtime evacuations.",
         "TikTok’s recommendation algorithm infrastructure: serving ultra-personalized videos to over a billion users.",
-        "Cloudflare’s Edge computing architecture: how Workers deploy code to hundreds of data centers in milliseconds.",
         "AWS DynamoDB under the hood: how Amazon scales a NoSQL database seamlessly across regions.",
         "Reddit’s handling of immense traffic spikes during viral world events or massive AMAs.",
         "Slack’s transition to a modern real-time architecture to reduce client CPU usage and handle massive channels.",
@@ -879,6 +878,9 @@
         "Reducing Cold Start Latency in Serverless GPU Functions: Predictive Model Prefetching and Shared Memory Optimization for Real-time Inference",
         "Optimizing Tail Latency in Heterogeneous Hardware Clusters via Predictive Resource Orchestration and eBPF-based Scheduling",
         "Formal Verification of Distributed Consensus Protocols in Large-Scale Serverless Execution Environments",
-        "Architecting Low-Latency Global Consistency in Geo-Distributed Databases using Hybrid Logical Clocks and RDMA-enabled State Machine Replication"
+        "Architecting Low-Latency Global Consistency in Geo-Distributed Databases using Hybrid Logical Clocks and RDMA-enabled State Machine Replication",
+        "Optimizing Tail Latencies in Multi-Tenant NVMe-over-Fabrics Storage Architectures",
+        "Designing Conflict-Free Replicated Data Types (CRDTs) for Ultra-Low Latency Edge Synchronization",
+        "Architecting Zero-Trust Control Planes for Globally Distributed Cell-Based Microservices"
     ]
 }
