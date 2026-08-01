@@ -359,7 +359,6 @@
         "Hardware-Accelerated Load Balancing: How Google Cloud Uses Maglev and Andromeda to Minimize Packet Jitter at Petabit Scales",
         "Designing the Next-Generation KV Store: Implementing LSM-Tree Optimization via NVMe-oF in Massive Distributed Storage",
         "The Evolution of Cluster Schedulers: Evaluating Borg vs. Kubernetes for Managing Million-Node Heterogeneous AI Workloads",
-        "Hardware-Accelerated Consensus: Offloading Paxos and Raft State Machine Transitions to Programmable Switches using P4",
         "Architecting for Hyper-Elasticity: Deep Dive into the Shared-Log and Disaggregated Storage Model of Snowflake and Databricks Polaris",
         "Sub-Microsecond Clock Synchronization at Scale: Implementing Precision Time Protocol (PTP) in Commodity Cloud Data Centers",
         "Implementing Zero-Copy Data Planes for Terabit-Scale Distributed Storage using RDMA and NVMe-over-Fabrics",
@@ -873,6 +872,9 @@
         "The Evolution of Zero-Copy Packet Processing: Leveraging eXpress Data Path (XDP) for Multi-Tenant Edge Load Balancing at 100Gbps",
         "Implementing Low-Latency Read-After-Write Consistency in Globally Sharded Cell-Based Architectures",
         "The Mechanics of Predictive Auto-scaling: Leveraging LSTM Networks for Proactive Capacity Management in Multi-Cloud Environments",
-        "Advanced Congestion Control via eBPF: Reducing P99 Tail Latencies in High-Throughput RDMA-Enabled GPU Clusters"
+        "Advanced Congestion Control via eBPF: Reducing P99 Tail Latencies in High-Throughput RDMA-Enabled GPU Clusters",
+        "Optimizing Tail Latency in Distributed Vector Databases via Hardware-Accelerated Disaggregated Memory",
+        "Formal Verification of Consensus Protocols in Geo-Replicated Spanner-like Architectures",
+        "Building Zero-Copy Data Pipelines for Multi-Tenant Observability at Exabyte Scale"
     ]
 }
