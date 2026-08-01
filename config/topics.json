@@ -642,7 +642,6 @@
         "Optimizing Global Traffic Control: Implementing Deterministic Anycast Routing for Sub-10ms Cross-Region Failover",
         "Memory Safety at the Kernel Level: Re-Architecting High-Throughput Load Balancers with eBPF and Rust for Line-Rate Processing",
         "Scaling Distributed Consensus: Investigating the Impact of Shared-Log Architectures on Write-Heavy Workloads in Hyperscale Environments",
-        "Implementing Deterministic Simulation Testing for Distributed Consensus in Massive-Scale Multi-Paxos Clusters",
         "Solving GPU Memory Fragmentation and PagedAttention Overhead in Multi-Tenant LLM Serving Architectures",
         "Scaling S3-Compatible Metadata Engines to Trillions of Objects Using Tiered LSM Trees and Bloom Filter Optimization",
         "Deep Dive into Meta's Tectonic: Orchestrating Exabyte-Scale Distributed Storage for Generative AI Training Pipelines",
@@ -875,6 +874,9 @@
         "Advanced Congestion Control via eBPF: Reducing P99 Tail Latencies in High-Throughput RDMA-Enabled GPU Clusters",
         "Optimizing Tail Latency in Distributed Vector Databases via Hardware-Accelerated Disaggregated Memory",
         "Formal Verification of Consensus Protocols in Geo-Replicated Spanner-like Architectures",
-        "Building Zero-Copy Data Pipelines for Multi-Tenant Observability at Exabyte Scale"
+        "Building Zero-Copy Data Pipelines for Multi-Tenant Observability at Exabyte Scale",
+        "Optimizing L4 Load Balancing: Implementing Maglev-inspired Consistent Hashing with XDP for Terabit-scale Traffic Management",
+        "Formal Verification of Distributed Consensus: Using TLA+ to Eliminate Race Conditions in Custom Raft Implementations for Sharded Metadata Stores",
+        "Reducing Cold Start Latency in Serverless GPU Functions: Predictive Model Prefetching and Shared Memory Optimization for Real-time Inference"
     ]
 }
