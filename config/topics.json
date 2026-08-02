@@ -618,7 +618,6 @@
         "The evolution of Deterministic Simulation Testing: Hardening distributed databases against rare concurrency bugs",
         "Optimizing P99 latency in geo-distributed LLM inference: Cross-node KV cache management and dynamic speculative decoding",
         "Implementing Zero-Copy Data Planes for High-Throughput Microservices: A Comparison of eBPF and AF_XDP in Production",
-        "The Mechanics of Speculative Decoding at Scale: Orchestrating Draft Models for Distributed LLM Inference Pipelines",
         "Architecting Multi-Region Strongly Consistent Databases: Solving the 2PC Latency Floor in Global Mesh Networks",
         "The Anatomy of Distributed Sharding in Vector Databases: Optimizing HNSW Indexing for Multi-Tenant Large Language Models",
         "Implementing Low-Latency Global Consistency: A Deep Dive into Spanner-inspired Multi-Region Consensus Protocols in Rust",
@@ -881,6 +880,9 @@
         "Architecting Low-Latency Global Consistency in Geo-Distributed Databases using Hybrid Logical Clocks and RDMA-enabled State Machine Replication",
         "Optimizing Tail Latencies in Multi-Tenant NVMe-over-Fabrics Storage Architectures",
         "Designing Conflict-Free Replicated Data Types (CRDTs) for Ultra-Low Latency Edge Synchronization",
-        "Architecting Zero-Trust Control Planes for Globally Distributed Cell-Based Microservices"
+        "Architecting Zero-Trust Control Planes for Globally Distributed Cell-Based Microservices",
+        "Optimizing Tail Latency in Multi-Tenant Vector Databases via Hierarchical Navigable Small World (HNSW) Tiering",
+        "Architecting Zero-Copy Data Planes: Leveraging eBPF and Shared Memory for 100Gbps Inter-Process Communication",
+        "The Evolution of Global Consensus: Migrating from Paxos to Dynamic Quorum Adjustments in Hyperscale Metadata Stores"
     ]
 }
