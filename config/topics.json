@@ -137,7 +137,6 @@
         "The Hyperscale Interconnect Fabrics Powering Trillion-Parameter AI Model Training Clusters",
         "Designing Global Multi-Version Concurrency Control Mechanisms for Petabyte-Scale Real-Time Transactional Systems",
         "The architectural evolution of large language model serving infrastructure: From monolithic deployments to adaptive distributed inference engines.",
-        "Engineering global pathogen surveillance: Architecting privacy-preserving, real-time genomic sequencing and AI-driven anomaly detection networks.",
         "The evolution of hyperscale data center networking: From Clos fabrics to P4-programmable ASICs and AI-driven traffic optimization.",
         "Deep dive into serverless cold start mitigation strategies: Snapshotting, custom runtime environments, and container reuse at planetary scale.",
         "Synthetic genomics and de novo genome design: Computational architectures for high-throughput gene synthesis, error correction, and biological circuit optimization.",
@@ -887,6 +886,9 @@
         "Deconstructing the Engineering Behind Sub-Millisecond Tail Latencies in Cloudflare's Rust-based Pingora Proxy",
         "Deep Dive into Meta's MTIA v2: Rethinking Silicon and Interconnect Topology for Next-Gen LLM Training Clusters",
         "Solving the Tail Latency Problem in Globally Distributed Vector Databases: A Case Study on Pinterest's PinSage Evolution",
-        "Zero-Trust at the Packet Level: Implementing eBPF-based Network Micro-segmentation in Netflix's Multi-Region Service Mesh"
+        "Zero-Trust at the Packet Level: Implementing eBPF-based Network Micro-segmentation in Netflix's Multi-Region Service Mesh",
+        "Architecting Petabyte-Scale Vector Databases: Solving the High-Dimensionality Indexing Bottleneck",
+        "Hardware-Software Co-Design for LLM Inferencing: Deep Dive into FlashAttention and Tensor Parallelism Optimizations",
+        "Beyond Raft: Implementing Deterministic State Machine Replication for Global Low-Latency Consensus in Edge Computing"
     ]
 }
