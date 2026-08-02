@@ -587,7 +587,6 @@
         "Scaling Multi-Tenant Vector Databases: Solving the Global Index Bottleneck in Retrieval-Augmented Generation at PB-Scale",
         "The Mechanics of Remote DMA (RDMA) Congestion Control in Meta’s 400G AI Superclusters",
         "Deterministic Simulation Testing for Distributed Databases: How Ant Group Ensures 99.9999% Reliability for Alipay",
-        "Optimizing L4 Load Balancers for 100Gbps Line Rates: Lessons from Cloudflare’s Transition to XDP and AF_XDP",
         "Sharding High-Dimensional Vector Spaces: Distributed Indexing Strategies for Billion-Scale Similarity Search",
         "Optimizing Tail Latency in Multi-Tenant LLM Inference: KV-Cache Management and Continuous Batching at Scale",
         "Implementing Zero-Trust at the Data Plane: Leveraging eBPF for High-Performance Micro-Segmentation in Massive Clusters",
@@ -885,6 +884,9 @@
         "The Evolution of Global Consensus: Migrating from Paxos to Dynamic Quorum Adjustments in Hyperscale Metadata Stores",
         "Zero-Copy Data Transfer Strategies in Terabit-Scale RDMA Networks for Distributed LLM Training",
         "Building High-Precision Global Consistency in Multi-Region Microservices using Hybrid Logical Clocks",
-        "Deconstructing the Engineering Behind Sub-Millisecond Tail Latencies in Cloudflare's Rust-based Pingora Proxy"
+        "Deconstructing the Engineering Behind Sub-Millisecond Tail Latencies in Cloudflare's Rust-based Pingora Proxy",
+        "Deep Dive into Meta's MTIA v2: Rethinking Silicon and Interconnect Topology for Next-Gen LLM Training Clusters",
+        "Solving the Tail Latency Problem in Globally Distributed Vector Databases: A Case Study on Pinterest's PinSage Evolution",
+        "Zero-Trust at the Packet Level: Implementing eBPF-based Network Micro-segmentation in Netflix's Multi-Region Service Mesh"
     ]
 }
