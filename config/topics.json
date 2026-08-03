@@ -146,7 +146,6 @@
         "Dissecting the CXL 3.0 Coherence Protocol: How Fabric-Attached Memory Pools Break the Server Memory Wall at Exascale",
         "Behind the Bypass: How AWS's SRD and NVIDIA's Spectrum-4 Switch-Level Retransmission Redefine Lossless Ethernet for Hyperscale AI Fabrics",
         "The Role of Custom Network Fabrics and SmartNICs in Accelerating Hyperscale AI Model Training and Inference",
-        "CRISPR-Guided Phage Engineering: Repurposing Viral Defense Systems for Targeted Antimicrobial Resistance Busting",
         "Beyond Bare Metal: How Programmable Data Planes and SmartNICs Revolutionize Hyperscale AI/ML Network Performance.",
         "Petascale Multi-Omics: Architecting Reproducible and Integrated Analysis Pipelines for Population-Level Biomedical Research.",
         "The Rise of CXL: Architecting Disaggregated Memory and Compute for Hyperscale Data Centers",
@@ -891,6 +890,9 @@
         "Beyond Raft: Implementing Deterministic State Machine Replication for Global Low-Latency Consensus in Edge Computing",
         "Implementing Zero-Copy Networking and eBPF-Based Load Balancing for 100Gbps Line Rates",
         "Hierarchical Cache Coherency and Conflict Resolution in Distributed Vector Databases for LLM RAG",
-        "Leveraging Formal Verification and TLA+ for Identifying Race Conditions in High-Throughput Event Sourcing Engines"
+        "Leveraging Formal Verification and TLA+ for Identifying Race Conditions in High-Throughput Event Sourcing Engines",
+        "Architecting Zero-Copy RDMA Transports for Terabit-Scale Distributed Training of Ultra-Large Language Models",
+        "Deep Dive: Implementing Multi-Region Vector Sharding and Re-ranking in Sub-100ms Latency RAG Pipelines",
+        "The Evolution of Cellular-Based Microsegmentation: Scaling Control Planes to Ten Million Isolated Tenants in Bare-Metal Clouds"
     ]
 }
