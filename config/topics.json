@@ -405,7 +405,6 @@
         "Unveiling the Hidden Topology: How Google's Jellyfish Network Topology Enables 100,000+ Node Clusters",
         "The Engineering of the ‘Virtual Serverless Subnet’: AWS's Internal Infrastructure for Cross-AZ Zero-Cold-Start Container Orchestration",
         "Beyond Two-Phase Commit: Implementing Deterministic State Machine Replication in WhatsApp's New Globally Distributed Key-Value Store",
-        "Solving the Hot-Partition Problem in Serverless Databases: How Amazon DynamoDB Dynamically Rebalances Throughput at Microsecond Granularity",
         "The Networking Stack of LLM Training: Leveraging RoCE v2 and GPU-Direct RDMA for Scaling Multi-Cluster InfiniBand Fabrics",
         "The Evolution of Global Consensus: How Google Spanner integrates PTP and Hardware Clocks to bypass TrueTime limitations",
         "Architecting for the LLM Inference Surge: Multi-level KV Caching and FlashAttention optimization in Distributed GPU Clusters",
@@ -895,6 +894,9 @@
         "The Evolution of Cellular-Based Microsegmentation: Scaling Control Planes to Ten Million Isolated Tenants in Bare-Metal Clouds",
         "Implementing Hardware-Accelerated Zero-Copy RDMA Transports for Terabit-Scale Distributed Key-Value Stores",
         "Optimizing Tail Latency in Global Multi-Region Spanner Deployments via Predictable Speculative Execution",
-        "Designing High-Fidelity Feedback Loops in Large Language Model Training Clusters Using In-Network Aggregation and Collective Communications"
+        "Designing High-Fidelity Feedback Loops in Large Language Model Training Clusters Using In-Network Aggregation and Collective Communications",
+        "Optimizing KV Cache Memory Paging: A Deep Dive into Sparse-Attention Memory Layouts for Global LLM Inference",
+        "The Death of the Sidecar? Implementing eBPF-based Ambient Mesh for High-Throughput Service Communication",
+        "Hyper-Sharding Large-Scale Relational Databases: Lessons from Uber’s Migration to a Custom Distributed SQL Layer"
     ]
 }
