@@ -365,7 +365,6 @@
         "The Mechanics of Cross-Region Deterministic Replay for Debugging Distributed Consensus Failures in Production",
         "Architecting Multi-Tenant Vector Search: Isolation Strategies for Billion-Scale Embeddings in Serverless Environments",
         "Implementing Zero-Copy Networking and RDMA for Ultra-Low Latency Distributed Consensus in NVMe-over-Fabrics",
-        "Mitigating Tail Latency via Predictive Request Hedging and Dynamic Congestion Control in Global Service Meshes",
         "Architecting Multi-Tenant Vector Databases: Segmented Indexing and LSM-Tree Optimization for Billion-Scale Similarity Search",
         "Optimizing Tail Latency in Multi-Tenant GPU Clusters: A Deep Dive into Strategic Compute Preemption and KV-Cache Paging",
         "Architecting Zero-Trust Control Planes for Sub-Millisecond Global Traffic Shifting at Edge-Scale Infrastructure",
@@ -889,6 +888,9 @@
         "Zero-Trust at the Packet Level: Implementing eBPF-based Network Micro-segmentation in Netflix's Multi-Region Service Mesh",
         "Architecting Petabyte-Scale Vector Databases: Solving the High-Dimensionality Indexing Bottleneck",
         "Hardware-Software Co-Design for LLM Inferencing: Deep Dive into FlashAttention and Tensor Parallelism Optimizations",
-        "Beyond Raft: Implementing Deterministic State Machine Replication for Global Low-Latency Consensus in Edge Computing"
+        "Beyond Raft: Implementing Deterministic State Machine Replication for Global Low-Latency Consensus in Edge Computing",
+        "Implementing Zero-Copy Networking and eBPF-Based Load Balancing for 100Gbps Line Rates",
+        "Hierarchical Cache Coherency and Conflict Resolution in Distributed Vector Databases for LLM RAG",
+        "Leveraging Formal Verification and TLA+ for Identifying Race Conditions in High-Throughput Event Sourcing Engines"
     ]
 }
