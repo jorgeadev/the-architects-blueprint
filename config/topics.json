@@ -41,7 +41,6 @@
         "Next-Generation mRNA Vaccine Platforms: Engineering Self-Replicating RNA and Novel Adjuvants for Enhanced Immunogenicity",
         "CRISPR-Engineered Phage Lysins: A Novel Approach to Combatting Multi-Drug Resistant Bacterial Biofilms in Clinical Settings",
         "Deconstructing Hyperscale Transactional Consistency: The role of geo-distributed consensus protocols and hybrid logical clocks in global cloud databases.",
-        "Evolving Hyperscale Networks: The Interplay of Software-Defined Networking and BGP-EVPN for Inter-Datacenter Connectivity.",
         "Engineering Next-Gen mRNA Vaccines: Advancements in Lipid Nanoparticle Delivery Systems and Immunostimulatory Design.",
         "Optimizing Cold Start Latency in Serverless Edge Functions: A Deep Dive into MicroVM Snapshotting and Kernel-Level Virtualization Techniques",
         "Optimizing Serverless Cold Starts at Trillions of Invocations: Deep Dive into Hyperscale Resource Scheduling",
@@ -901,6 +900,9 @@
         "Exploiting Cache Locality in Vector Databases: Hardware-Accelerated ANN Search on Petabyte-Scale Embeddings",
         "Implementing Tiered Storage Engines for Vector Databases to Handle Petabyte-Scale LLM Context Injection",
         "Formal Verification of Asynchronous Replication Protocols in Geographically Distributed NewSQL Databases",
-        "Architecting Low-Latency Feature Stores for Real-Time ML Inference using Shared-Memory IPC and NVMe-over-Fabrics"
+        "Architecting Low-Latency Feature Stores for Real-Time ML Inference using Shared-Memory IPC and NVMe-over-Fabrics",
+        "Implementing Hierarchical Ring All-Reduce Algorithms for Synchronous Gradient Descent Across Heterogeneous Multi-GPU Clusters",
+        "Zero-Copy Data Transfer and Kernel Bypass Techniques: Building Ultra-Low Latency Messaging Middleware for High-Frequency Trading Systems",
+        "Designing Spanner-like Globally Distributed Transaction Managers with Hybrid Physical-Logical Clocks for 99.999% Availability"
     ]
 }
