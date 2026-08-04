@@ -331,7 +331,6 @@
         "Vector Database Internals: Optimizing HNSW Indexing for Trillion-Scale Semantic Search at Netflix",
         "Bypass the Kernel: Architecting High-Throughput Storage Engines Using NVMe-over-Fabrics and SPDK",
         "Deterministic Simulation Testing: How Anthropic Ensures Consensus Consistency in Large-Scale Distributed Training",
-        "A deep dive into zero-copy networking and eBPF-driven observability for high-throughput packet processing in cloud-native edge infrastructures",
         "Optimizing L3 Cache Contention in Multi-Tenant Hypervisors using Hardware-Assisted Resource Partitioning",
         "Architecting for 100M RPS: The Evolution of Cloudflare's Quicksilver Key-Value Store",
         "Beyond Vitess: How YouTube Orchestrates Billions of Transactions with Tiered Spanner Sharding",
@@ -899,6 +898,9 @@
         "Hyper-Sharding Large-Scale Relational Databases: Lessons from Uber’s Migration to a Custom Distributed SQL Layer",
         "Formal Verification of Distributed KV Stores: Ensuring Linearizability in Hyperscale Edge Computing Environments",
         "Solving the Thundering Herd: Predictive Autoscaling of State-Machine Replication in Serverless Orchestration Engines",
-        "Exploiting Cache Locality in Vector Databases: Hardware-Accelerated ANN Search on Petabyte-Scale Embeddings"
+        "Exploiting Cache Locality in Vector Databases: Hardware-Accelerated ANN Search on Petabyte-Scale Embeddings",
+        "Implementing Tiered Storage Engines for Vector Databases to Handle Petabyte-Scale LLM Context Injection",
+        "Formal Verification of Asynchronous Replication Protocols in Geographically Distributed NewSQL Databases",
+        "Architecting Low-Latency Feature Stores for Real-Time ML Inference using Shared-Memory IPC and NVMe-over-Fabrics"
     ]
 }
