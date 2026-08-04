@@ -516,7 +516,6 @@
         "Inside Google's PlaNet: The geographically distributed, latency-oblivious global WAN architecture that replaced BGP for internal traffic",
         "How OpenAI evolved its inference fleet for ChatGPT: A case study in sharded GPU overlays and real-time token scheduling across 100k accelerators",
         "Zero-Downtime Migration of Petabyte-Scale Vector Databases: Solving the Dimensionality Mismatch in Live Index Rebuilds",
-        "Solving the Thundering Herd: Zero-Downtime Stateful Fleet Rebalancing in Netflix's Global Content Delivery Network",
         "Inside the Kernel: Leveraging eBPF and XDP for Terabit-Scale DDoS Mitigation in Hyper-Distributed Edge Architectures",
         "Optimizing RDMA over Converged Ethernet (RoCE) for Multi-Tenant GPU Clusters: Lessons from Hyperscale LLM Training",
         "Deterministic Simulation Testing (DST) in Distributed Databases: Achieving Five-Nines Reliability at Petabyte Scale",
@@ -903,6 +902,9 @@
         "Architecting Low-Latency Feature Stores for Real-Time ML Inference using Shared-Memory IPC and NVMe-over-Fabrics",
         "Implementing Hierarchical Ring All-Reduce Algorithms for Synchronous Gradient Descent Across Heterogeneous Multi-GPU Clusters",
         "Zero-Copy Data Transfer and Kernel Bypass Techniques: Building Ultra-Low Latency Messaging Middleware for High-Frequency Trading Systems",
-        "Designing Spanner-like Globally Distributed Transaction Managers with Hybrid Physical-Logical Clocks for 99.999% Availability"
+        "Designing Spanner-like Globally Distributed Transaction Managers with Hybrid Physical-Logical Clocks for 99.999% Availability",
+        "Optimizing Zero-Copy Data Movement in High-Throughput Distributed Message Brokers using eBPF and XDP",
+        "Architecting Deterministic Replayability in Large-Scale Distributed State Machines for Hyper-Scale Financial Systems",
+        "Mitigating Tail Latency in Heterogeneous Hardware Clusters: A Study on Congestion-Aware Routing and Hardware-Offloaded Load Balancing"
     ]
 }
