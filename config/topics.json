@@ -147,7 +147,6 @@
         "Behind the Bypass: How AWS's SRD and NVIDIA's Spectrum-4 Switch-Level Retransmission Redefine Lossless Ethernet for Hyperscale AI Fabrics",
         "The Role of Custom Network Fabrics and SmartNICs in Accelerating Hyperscale AI Model Training and Inference",
         "Beyond Bare Metal: How Programmable Data Planes and SmartNICs Revolutionize Hyperscale AI/ML Network Performance.",
-        "Petascale Multi-Omics: Architecting Reproducible and Integrated Analysis Pipelines for Population-Level Biomedical Research.",
         "The Rise of CXL: Architecting Disaggregated Memory and Compute for Hyperscale Data Centers",
         "Beyond BGP: How AI-Driven Traffic Engineering Optimizes Global Interconnects for Cloud Providers.",
         "CRISPR-Based Antivirals: Engineering Programmable Nucleic Acid Scavengers for Broad-Spectrum Viral Suppression.",
@@ -897,6 +896,9 @@
         "Designing High-Fidelity Feedback Loops in Large Language Model Training Clusters Using In-Network Aggregation and Collective Communications",
         "Optimizing KV Cache Memory Paging: A Deep Dive into Sparse-Attention Memory Layouts for Global LLM Inference",
         "The Death of the Sidecar? Implementing eBPF-based Ambient Mesh for High-Throughput Service Communication",
-        "Hyper-Sharding Large-Scale Relational Databases: Lessons from Uber’s Migration to a Custom Distributed SQL Layer"
+        "Hyper-Sharding Large-Scale Relational Databases: Lessons from Uber’s Migration to a Custom Distributed SQL Layer",
+        "Formal Verification of Distributed KV Stores: Ensuring Linearizability in Hyperscale Edge Computing Environments",
+        "Solving the Thundering Herd: Predictive Autoscaling of State-Machine Replication in Serverless Orchestration Engines",
+        "Exploiting Cache Locality in Vector Databases: Hardware-Accelerated ANN Search on Petabyte-Scale Embeddings"
     ]
 }
