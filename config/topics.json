@@ -556,7 +556,6 @@
         "Optimizing Tail Latency in Tiered Storage Architectures for Exabyte-Scale Vector Databases",
         "Zero-Copy Memory Management and eBPF-Based Packet Processing in High-Throughput Service Meshes",
         "Implementing Zero-Copy Networking and eBPF-Based Load Balancing for 100Gbps Mesh Architectures",
-        "Distributed Consensus at Petabyte Scale: Comparing Raft and Paxos Optimizations in Modern Vector Databases",
         "Tail Latency Mitigation Strategies for Large-Scale Retrieval-Augmented Generation (RAG) Pipelines",
         "Optimizing Tail Latency in Geo-Distributed Spanner-like Systems via Predictable Execution and Multi-Paxos Steering",
         "Beyond eBPF: Leveraging XDP and Kernel Bypass for High-Throughput Packet Processing in Terabit-Scale Edge Load Balancers",
@@ -911,6 +910,9 @@
         "Scaling AI Infrastructure: Behind Meta’s Tectonic Evolution for Sub-Millisecond Model Checkpointing at Exascale",
         "Zero-Downtime Live Migration of Petabyte-Scale Spanner Instances Across Global Regions via Custom CDC Stream Hooks",
         "Optimizing RDMA over Converged Ethernet (RoCE) for Multi-Tenant GPU Orchestration in Hyperscale LLM Training Clusters",
-        "Implementing Deterministic Re-computation of Ephemeral Storage Indices in Distributed Cold-Tier S3-Compatible Object Stores"
+        "Implementing Deterministic Re-computation of Ephemeral Storage Indices in Distributed Cold-Tier S3-Compatible Object Stores",
+        "Dynamic KV-Cache Orchestration: Optimizing Memory Throughput for Multi-Tenant LLM Serving at Petascale",
+        "The Zero-Copy Revolution: Rethinking Data Ingestion Pipelines using DPDK and RDMA for Sub-Millisecond Tail Latencies",
+        "Verification-Driven Architecture: Using TLA+ and Formal Methods to Eliminate Race Conditions in Hyperscale Distributed Consensus Engines"
     ]
 }
