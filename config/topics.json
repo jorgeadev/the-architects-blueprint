@@ -320,7 +320,6 @@
         "Optimizing Tail Latency in Multi-Tenant LLM Serving: A Deep Dive into Continuous Batching and KV-Cache Paging Architectures",
         "Implementing CXL 3.0: The Architecture of Disaggregated Memory in Next-Generation Hyperscale Data Centers",
         "Implementing Deterministic Simulation Testing for Distributed Consensus Protocols at Petabyte Scale",
-        "Optimizing High-Throughput LLM Inference via Multi-Level Speculative Decoding and KV-Cache Quantization",
         "Evolving Microservices Communication: Replacing Sidecar Proxies with eBPF-Based Ambient Mesh in High-Traffic Environments",
         "Deep Dive into Deterministic Simulation Testing: Achieving 100% Reproducibility in Distributed Consensus Engines",
         "Beyond Sidecars: Engineering eBPF-Powered Service Meshes for High-Throughput Microservices Orchestration",
@@ -909,6 +908,9 @@
         "Automated Chaos Engineering at the Kernel Level: Leveraging eBPF for Real-Time Fault Injection in Massive Kubernetes Control Planes",
         "Architecting for Determinism: How Uber uses Simulation Testing to Prevent Cascading Failures in Cell-Based Environments",
         "Zero-Copy Data Planes: Leveraging eBPF and XDP for High-Throughput Packet Processing in Cloudflare’s Edge Network",
-        "Scaling AI Infrastructure: Behind Meta’s Tectonic Evolution for Sub-Millisecond Model Checkpointing at Exascale"
+        "Scaling AI Infrastructure: Behind Meta’s Tectonic Evolution for Sub-Millisecond Model Checkpointing at Exascale",
+        "Zero-Downtime Live Migration of Petabyte-Scale Spanner Instances Across Global Regions via Custom CDC Stream Hooks",
+        "Optimizing RDMA over Converged Ethernet (RoCE) for Multi-Tenant GPU Orchestration in Hyperscale LLM Training Clusters",
+        "Implementing Deterministic Re-computation of Ephemeral Storage Indices in Distributed Cold-Tier S3-Compatible Object Stores"
     ]
 }
