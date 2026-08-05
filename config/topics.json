@@ -831,7 +831,6 @@
         "Deterministic Simulation Testing (DST) in Distributed Systems: How TigerBeetle and FoundationDB Eliminate Heisenbugs at Scale",
         "Implementing Zero-Copy Data Planes: Leveraging eBPF and XDP for Hyperscale Load Balancing",
         "Optimizing KV Cache Fragmentation: PagedAttention and Memory Management Strategies for Large-Scale LLM Serving",
-        "Formal Verification of Distributed Consensus: Applying TLA+ to Prevent Edge-Case Data Corruption in Multi-Region Clusters",
         "Orchestrating 100,000+ GPU Clusters: The Networking Architecture Behind Training Next-Gen Frontier Models via RoCE v2 and InfiniBand Hybrid Fabrics",
         "Re-architecting the Distributed Lock Manager: How Modern Cloud Databases Leverage CXL and RDMA to Achieve 100M+ QPS at Sub-Microsecond Latency",
         "Zero-Trust at the Silicon Level: Implementing Hardware-Attested Multi-Tenancy in Massive-Scale Serverless Computing Environments",
@@ -905,6 +904,9 @@
         "Designing Spanner-like Globally Distributed Transaction Managers with Hybrid Physical-Logical Clocks for 99.999% Availability",
         "Optimizing Zero-Copy Data Movement in High-Throughput Distributed Message Brokers using eBPF and XDP",
         "Architecting Deterministic Replayability in Large-Scale Distributed State Machines for Hyper-Scale Financial Systems",
-        "Mitigating Tail Latency in Heterogeneous Hardware Clusters: A Study on Congestion-Aware Routing and Hardware-Offloaded Load Balancing"
+        "Mitigating Tail Latency in Heterogeneous Hardware Clusters: A Study on Congestion-Aware Routing and Hardware-Offloaded Load Balancing",
+        "Implementing Zero-Copy Data Movement in Distributed Storage Clusters for Multi-Petabyte Throughput",
+        "Designing Hierarchical LSM-Trees for Write-Intensive Workloads in Geographically Distributed Key-Value Stores",
+        "Automated Chaos Engineering at the Kernel Level: Leveraging eBPF for Real-Time Fault Injection in Massive Kubernetes Control Planes"
     ]
 }
