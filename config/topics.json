@@ -547,7 +547,6 @@
         "Deep Dive into GPU Memory Virtualization: Managing Multi-Tenant Large Language Model Inference Across Distributed H100 Clusters",
         "Re-engineering Data Planes with eBPF: Implementing Line-Rate DDoS Mitigation and Observability in Massive-Scale Software-Defined Networks",
         "Analyzing the ACID compliance boundary in a planet-scale distributed SQL database: A case study on Spanner's TrueTime API and clock synchronization for global commit latency",
-        "Inside the design of a homomorphic encryption accelerator for cloud networking: Dissecting AWS Nitro's cryptographic offload for zero-trust tenant isolation at 100Gbps",
         "Leveraging eBPF for Programmable Congestion Control in Hyperscale Data Center Fabrics",
         "Formal Verification of Distributed Consensus Protocols in Large-Scale KV Stores",
         "Multi-tenant GPU Virtualization Strategies for Sub-millisecond Inference Orchestration",
@@ -907,6 +906,9 @@
         "Mitigating Tail Latency in Heterogeneous Hardware Clusters: A Study on Congestion-Aware Routing and Hardware-Offloaded Load Balancing",
         "Implementing Zero-Copy Data Movement in Distributed Storage Clusters for Multi-Petabyte Throughput",
         "Designing Hierarchical LSM-Trees for Write-Intensive Workloads in Geographically Distributed Key-Value Stores",
-        "Automated Chaos Engineering at the Kernel Level: Leveraging eBPF for Real-Time Fault Injection in Massive Kubernetes Control Planes"
+        "Automated Chaos Engineering at the Kernel Level: Leveraging eBPF for Real-Time Fault Injection in Massive Kubernetes Control Planes",
+        "Architecting for Determinism: How Uber uses Simulation Testing to Prevent Cascading Failures in Cell-Based Environments",
+        "Zero-Copy Data Planes: Leveraging eBPF and XDP for High-Throughput Packet Processing in Cloudflare’s Edge Network",
+        "Scaling AI Infrastructure: Behind Meta’s Tectonic Evolution for Sub-Millisecond Model Checkpointing at Exascale"
     ]
 }
