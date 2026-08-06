@@ -16,7 +16,6 @@
         "Zoom’s video routing architecture and scaling their network backbone unexpectedly during the pandemic.",
         "How Shopify scales its e-commerce infrastructure to handle massive traffic spikes during Black Friday and Cyber Monday.",
         "Doordash’s logistics engine: solving real-time traveling salesperson problems for millions of daily deliveries.",
-        "Telegram’s proprietary MTProto protocol and their incredibly lean server architecture.",
         "Riot Games’ League of Legends global matchmaking and low-latency game server infrastructure.",
         "NASA's JPL cloud computing architecture: how they managed the telemetry data pipeline for the Mars Rover.",
         "An deep dive into how AWS Nitro cards physically offload networking and storage from EC2 instances.",
@@ -915,6 +914,9 @@
         "Verification-Driven Architecture: Using TLA+ and Formal Methods to Eliminate Race Conditions in Hyperscale Distributed Consensus Engines",
         "Implementing Custom eBPF Schedulers for Dynamic Load Balancing in Multi-Tenant GPU Clusters",
         "Optimizing Query Latency in Exascale Vector Databases via Hierarchical Navigable Small World Index Sharding",
-        "Architecting Deterministic Simulation Testing Frameworks for Distributed Consensus Protocols in High-Frequency Trading"
+        "Architecting Deterministic Simulation Testing Frameworks for Distributed Consensus Protocols in High-Frequency Trading",
+        "Implementing Zero-Copy Data Planes with eBPF and XDP for Multi-Terabit Edge Networking",
+        "The Architecture of Distributed KV Stores with Spanner-like Strict Serializability via Hybrid Logical Clocks",
+        "Scaling Vector Databases to Billions of Embeddings using Hierarchical Navigable Small Worlds and Product Quantization"
     ]
 }
