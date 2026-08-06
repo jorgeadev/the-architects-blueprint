@@ -25,7 +25,6 @@
         "Decentralized consensus protocols for achieving strong consistency in a planetary-scale distributed ledger operating at millions of transactions per second.",
         "The interplay of programmable data planes and P4 with smart NICs for ultra-low-latency network function virtualization in hyperscale data centers.",
         "Disaggregated Memory Architectures and Next-Gen Interconnects: Engineering the Hyperscale AI Training Fabrics of Tomorrow",
-        "Beyond the Hype: Architecting Deterministic, State-Consistent Serverless at Hyperscale for Real-time Edge Computations",
         "The Role of Large-Scale Knowledge Graphs and AI in Accelerating Viral Variant Identification and Synthetic Biology Design",
         "The Architecture and Performance Implications of Programmable Data Plane Interconnects (P4) for Hyperscale Microservices Mesh Optimization.",
         "CRISPR-Cas13 Based Antiviral Strategies: Engineering Sequence-Specific RNA Degradation for Pan-Viral Immunity.",
@@ -917,6 +916,9 @@
         "Architecting Deterministic Simulation Testing Frameworks for Distributed Consensus Protocols in High-Frequency Trading",
         "Implementing Zero-Copy Data Planes with eBPF and XDP for Multi-Terabit Edge Networking",
         "The Architecture of Distributed KV Stores with Spanner-like Strict Serializability via Hybrid Logical Clocks",
-        "Scaling Vector Databases to Billions of Embeddings using Hierarchical Navigable Small Worlds and Product Quantization"
+        "Scaling Vector Databases to Billions of Embeddings using Hierarchical Navigable Small Worlds and Product Quantization",
+        "Optimizing Non-Uniform Memory Access (NUMA) Topology for High-Throughput Inference in Multi-GPU Clusters",
+        "Architecting Zonal Isolation Patterns to Prevent Correlated Failures in Hyperscale Kubernetes Control Planes",
+        "Implementing Zero-Copy Data Transfer Mechanisms for High-Performance Vector Database Indexing at Scale"
     ]
 }
