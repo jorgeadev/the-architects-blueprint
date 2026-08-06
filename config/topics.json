@@ -515,7 +515,6 @@
         "Inside Google's PlaNet: The geographically distributed, latency-oblivious global WAN architecture that replaced BGP for internal traffic",
         "How OpenAI evolved its inference fleet for ChatGPT: A case study in sharded GPU overlays and real-time token scheduling across 100k accelerators",
         "Zero-Downtime Migration of Petabyte-Scale Vector Databases: Solving the Dimensionality Mismatch in Live Index Rebuilds",
-        "Inside the Kernel: Leveraging eBPF and XDP for Terabit-Scale DDoS Mitigation in Hyper-Distributed Edge Architectures",
         "Optimizing RDMA over Converged Ethernet (RoCE) for Multi-Tenant GPU Clusters: Lessons from Hyperscale LLM Training",
         "Deterministic Simulation Testing (DST) in Distributed Databases: Achieving Five-Nines Reliability at Petabyte Scale",
         "Unpacking Google's Spanner: A Deep Dive into TrueTime, Distributed Consensus, and the Global Synchrony Illusion",
@@ -913,6 +912,9 @@
         "Implementing Deterministic Re-computation of Ephemeral Storage Indices in Distributed Cold-Tier S3-Compatible Object Stores",
         "Dynamic KV-Cache Orchestration: Optimizing Memory Throughput for Multi-Tenant LLM Serving at Petascale",
         "The Zero-Copy Revolution: Rethinking Data Ingestion Pipelines using DPDK and RDMA for Sub-Millisecond Tail Latencies",
-        "Verification-Driven Architecture: Using TLA+ and Formal Methods to Eliminate Race Conditions in Hyperscale Distributed Consensus Engines"
+        "Verification-Driven Architecture: Using TLA+ and Formal Methods to Eliminate Race Conditions in Hyperscale Distributed Consensus Engines",
+        "Implementing Custom eBPF Schedulers for Dynamic Load Balancing in Multi-Tenant GPU Clusters",
+        "Optimizing Query Latency in Exascale Vector Databases via Hierarchical Navigable Small World Index Sharding",
+        "Architecting Deterministic Simulation Testing Frameworks for Distributed Consensus Protocols in High-Frequency Trading"
     ]
 }
