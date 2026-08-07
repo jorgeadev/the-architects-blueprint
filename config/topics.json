@@ -867,7 +867,6 @@
         "Building High-Precision Global Consistency in Multi-Region Microservices using Hybrid Logical Clocks",
         "Deconstructing the Engineering Behind Sub-Millisecond Tail Latencies in Cloudflare's Rust-based Pingora Proxy",
         "Deep Dive into Meta's MTIA v2: Rethinking Silicon and Interconnect Topology for Next-Gen LLM Training Clusters",
-        "Solving the Tail Latency Problem in Globally Distributed Vector Databases: A Case Study on Pinterest's PinSage Evolution",
         "Zero-Trust at the Packet Level: Implementing eBPF-based Network Micro-segmentation in Netflix's Multi-Region Service Mesh",
         "Architecting Petabyte-Scale Vector Databases: Solving the High-Dimensionality Indexing Bottleneck",
         "Hardware-Software Co-Design for LLM Inferencing: Deep Dive into FlashAttention and Tensor Parallelism Optimizations",
@@ -927,6 +926,9 @@
         "Designing a p99-latency-immune scheduling fabric: using speculative dual-commit and hardware timestamping to eliminate head-of-line blocking in million-core orchestrators",
         "Leveraging RoCE v2 and Hierarchical Congestion Control for Training 100T Parameter Models at Meta Scale",
         "Deep Dive into ByteDance’s Monolith: Real-time Parameter Servers for Exabyte-scale Feature Stores",
-        "Zero-Downtime Migration of Global Distributed State: How Cloudflare Rebuilt its Edge Key-Value Store"
+        "Zero-Downtime Migration of Global Distributed State: How Cloudflare Rebuilt its Edge Key-Value Store",
+        "Architecting Near-Memory Processing for Terabyte-Scale Vector Databases: Mitigating the Data Movement Bottleneck in LLM Inference",
+        "Implementing Zero-Knowledge Provenance in Large-Scale Distributed Build Systems to Thwart Software Supply Chain Attacks",
+        "Leveraging eBPF for Programmable Congestion Control in Multi-Tenant RDMA Over Converged Ethernet (RoCE) Fabrics"
     ]
 }
