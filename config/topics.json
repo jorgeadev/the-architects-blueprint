@@ -598,7 +598,6 @@
         "Engineering Distributed Consensus for 100M+ QPS: Transitioning from Paxos to RDMA-Accelerated Deterministic Execution Engines",
         "Architecting Global-Scale eBPF Observability Planes: Real-Time Kernel-Level Telemetry Without Context Switching Overheads",
         "Building zero-copy data planes: Leveraging io_uring and eBPF for high-throughput log ingestion at scale",
-        "The evolution of Deterministic Simulation Testing: Hardening distributed databases against rare concurrency bugs",
         "Optimizing P99 latency in geo-distributed LLM inference: Cross-node KV cache management and dynamic speculative decoding",
         "Implementing Zero-Copy Data Planes for High-Throughput Microservices: A Comparison of eBPF and AF_XDP in Production",
         "Architecting Multi-Region Strongly Consistent Databases: Solving the 2PC Latency Floor in Global Mesh Networks",
@@ -923,6 +922,9 @@
         "How Cloudflare migrated 20,000 edge services to eBPF-based sidecars without dropping SYN packets: A deep dive into socket affinity, memlock accounting, and XDP-based L4 load balancing at 300 Tbps.",
         "Dissecting Meta's 10M-core AI training cluster: How they solved RoCEv2 congestion collapse with in-network telemetry and adaptive PFC watermark tuning",
         "The hidden control plane inside AWS's Titan: A deep dive into their petabyte-scale shard rebalancer using Raft consensus and CRDT-based metadata replication",
-        "Cloudflare's global edge DNS rewrite: Migrating 300+ PoPs to a lock-free radix tree with NUMA-aware packet steering and zero-downtime hot reload"
+        "Cloudflare's global edge DNS rewrite: Migrating 300+ PoPs to a lock-free radix tree with NUMA-aware packet steering and zero-downtime hot reload",
+        "The hidden failure modes of DPU-offloaded NVMe/TCP in hyperscale block storage: a deep dive into multi-tenant QoS collapse under micro-burst traffic",
+        "Anatomy of a global log-transport meltdown: how a single faulty CRC32C implementation cascaded across 12 regions of a control-plane mesh",
+        "Designing a p99-latency-immune scheduling fabric: using speculative dual-commit and hardware timestamping to eliminate head-of-line blocking in million-core orchestrators"
     ]
 }
