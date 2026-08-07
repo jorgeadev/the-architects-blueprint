@@ -480,7 +480,6 @@
         "Deterministic Simulation Testing (DST) in Distributed Databases: How TigerBeetle and FoundationDB achieve 100% Correctness",
         "Zero-Copy Data Transfer and the Evolution of Shared-Memory Architectures in Cloud-Native Serverless Functions",
         "Implementing Deterministic Simulation Testing for Distributed Database Kernels: Preventing Heisenbugs in Multi-Region Consensus Engines",
-        "Anatomy of a 100k GPU Cluster: Optimizing InfiniBand Topologies and Collective Communication for Massive-Scale LLM Training",
         "Implementing Zero-Copy Networking and RDMA for Ultra-Low Latency Distributed Storage Engines",
         "Deep Dive into Cellular Architecture: How Meta Manages Fault Isolation in Global-Scale Sharded Databases",
         "Leveraging eBPF and XDP for Programmable Terabit-Scale DDoS Mitigation at the Edge",
@@ -921,6 +920,9 @@
         "Architecting Zonal Isolation Patterns to Prevent Correlated Failures in Hyperscale Kubernetes Control Planes",
         "Dissecting Meta's cross-DC RoCEv2 fabric: How they mask packet loss for AI training across 3,000km using per-flow ECMP-hashing, PFC deadlock avoidance, and NDR-level adaptive routing telemetry.",
         "The hidden SRE playbook for Google's Spanner witness replication: Paxos group layout, leader lease fencing, and clock error budgeting at 2M QPS per data center.",
-        "How Cloudflare migrated 20,000 edge services to eBPF-based sidecars without dropping SYN packets: A deep dive into socket affinity, memlock accounting, and XDP-based L4 load balancing at 300 Tbps."
+        "How Cloudflare migrated 20,000 edge services to eBPF-based sidecars without dropping SYN packets: A deep dive into socket affinity, memlock accounting, and XDP-based L4 load balancing at 300 Tbps.",
+        "Dissecting Meta's 10M-core AI training cluster: How they solved RoCEv2 congestion collapse with in-network telemetry and adaptive PFC watermark tuning",
+        "The hidden control plane inside AWS's Titan: A deep dive into their petabyte-scale shard rebalancer using Raft consensus and CRDT-based metadata replication",
+        "Cloudflare's global edge DNS rewrite: Migrating 300+ PoPs to a lock-free radix tree with NUMA-aware packet steering and zero-downtime hot reload"
     ]
 }
