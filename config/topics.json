@@ -262,7 +262,6 @@
         "Evolving Hyperscale Distributed Transactional Stores: Navigating Global Consistency, Latency, and Data Sovereignty Challenges in Multi-Region Architectures",
         "Beyond Generic: Custom Hardware Acceleration and Probabilistic Data Structures for Real-time Petabyte-Scale Anomaly Detection Pipelines",
         "Beyond GPUs: Designing Hyperscale Inference Architectures for Trillion-Parameter AI Models",
-        "Achieving Strong Global Consistency: Innovations in Geo-Distributed Transactional Databases at Exabyte Scale",
         "Programmable Data Plane Evolution: From P4 to Silicon for Hyperscale Network Observability",
         "Beyond AAV: Next-Generation Viral Vector Engineering for Enhanced Gene Therapy Delivery and Immunomodulation",
         "Disaggregated NVMe-oF and CXL-based memory pooling: Architecting the next generation of hyperscale cloud resource virtualization.",
@@ -925,6 +924,9 @@
         "Cloudflare's global edge DNS rewrite: Migrating 300+ PoPs to a lock-free radix tree with NUMA-aware packet steering and zero-downtime hot reload",
         "The hidden failure modes of DPU-offloaded NVMe/TCP in hyperscale block storage: a deep dive into multi-tenant QoS collapse under micro-burst traffic",
         "Anatomy of a global log-transport meltdown: how a single faulty CRC32C implementation cascaded across 12 regions of a control-plane mesh",
-        "Designing a p99-latency-immune scheduling fabric: using speculative dual-commit and hardware timestamping to eliminate head-of-line blocking in million-core orchestrators"
+        "Designing a p99-latency-immune scheduling fabric: using speculative dual-commit and hardware timestamping to eliminate head-of-line blocking in million-core orchestrators",
+        "Leveraging RoCE v2 and Hierarchical Congestion Control for Training 100T Parameter Models at Meta Scale",
+        "Deep Dive into ByteDance’s Monolith: Real-time Parameter Servers for Exabyte-scale Feature Stores",
+        "Zero-Downtime Migration of Global Distributed State: How Cloudflare Rebuilt its Edge Key-Value Store"
     ]
 }
