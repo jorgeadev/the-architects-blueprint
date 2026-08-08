@@ -541,7 +541,6 @@
         "Analyzing the ACID compliance boundary in a planet-scale distributed SQL database: A case study on Spanner's TrueTime API and clock synchronization for global commit latency",
         "Leveraging eBPF for Programmable Congestion Control in Hyperscale Data Center Fabrics",
         "Formal Verification of Distributed Consensus Protocols in Large-Scale KV Stores",
-        "Multi-tenant GPU Virtualization Strategies for Sub-millisecond Inference Orchestration",
         "Dissecting the RoCE v2 Network Topology and Congestion Control in Meta's 24,576 H100 GPU Training Clusters",
         "Beyond LSM-Trees: Implementing Tiered Storage and Adaptive Compaction in Netflix's Global Key-Value Store",
         "Zero-Trust Control Planes at Edge Scale: How Cloudflare Manages WireGuard Tunnel State for 300+ Data Centers",
@@ -933,6 +932,9 @@
         "Implementing Tiered Storage in Cloud-Native Databases: Managing Hot-Cold Data Affinity in Globally Distributed LSM-Trees",
         "Optimizing L3/L4 Load Balancing for 100M+ Concurrent Connections using eXpress Data Path (XDP) and eBPF",
         "Deconstructing Global Cache Invalidation Strategies at Edge-Scale: A Comparative Study of Meta’s FlightTracker vs. Google’s Monarch",
-        "Deterministic Simulation Testing (DST) for Distributed State Machines: Implementing Hermetic Execution Environments in Mission-Critical Systems"
+        "Deterministic Simulation Testing (DST) for Distributed State Machines: Implementing Hermetic Execution Environments in Mission-Critical Systems",
+        "Architecting Multi-Tenant Vector Databases: Solving the Noisy Neighbor Problem in Sub-Millisecond Global Similarity Search",
+        "Zero-Copy Data Planes: Leveraging NVMe-over-Fabrics and RDMA for Ultra-Low Latency State Synchronization in Distributed Databases",
+        "The Engineering Behind Meta's MTIA Infrastructure: Scaling Collective Communication via Optimized NCCL Kernels on Massive H100 Clusters"
     ]
 }
