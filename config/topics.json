@@ -31,7 +31,6 @@
         "Synthetic biology approaches to engineering enhanced viral vectors for precise in-vivo gene delivery and reduced immunogenicity.",
         "The Architectural Implications of Disaggregated Memory and Compute for Future Hyperscale Data Centers",
         "The Deep Engineering Behind Multi-Region Consensus Protocols for Exabyte-Scale, Ultra-Low Latency Data Stores",
-        "Hyperscale GPU Cluster Interconnects: Optimizing Latency and Throughput in NVIDIA Hopper and Grace-Hopper Architectures",
         "Decentralized Control Plane Architecture: Scaling Global Cloud Infrastructure with Service Meshes and Beyond",
         "Sub-Millisecond Cross-Continental Consistency: Deep Dive into Replicated State Machines for Real-time Financial Systems",
         "Architecting exascale asynchronous data pipelines for real-time federated learning across global edge deployments.",
@@ -929,6 +928,9 @@
         "Zero-Downtime Migration of Global Distributed State: How Cloudflare Rebuilt its Edge Key-Value Store",
         "Architecting Near-Memory Processing for Terabyte-Scale Vector Databases: Mitigating the Data Movement Bottleneck in LLM Inference",
         "Implementing Zero-Knowledge Provenance in Large-Scale Distributed Build Systems to Thwart Software Supply Chain Attacks",
-        "Leveraging eBPF for Programmable Congestion Control in Multi-Tenant RDMA Over Converged Ethernet (RoCE) Fabrics"
+        "Leveraging eBPF for Programmable Congestion Control in Multi-Tenant RDMA Over Converged Ethernet (RoCE) Fabrics",
+        "Deep Dive into Deterministic Simulation Testing: Hardening Distributed State Machines against Heisenbugs in Mission-Critical Infrastructure",
+        "Zero-Copy Data Transfer and RoCE v2: Architectural Bottlenecks in Scaling InfiniBand-less GPU Clusters for LLM Training",
+        "Implementing Tiered Storage in Cloud-Native Databases: Managing Hot-Cold Data Affinity in Globally Distributed LSM-Trees"
     ]
 }
