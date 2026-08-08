@@ -626,7 +626,6 @@
         "Analyzing the Performance Impact of Kernel-Bypass Networking on Large-Scale LLM Training Clusters Using RoCE v2",
         "Architecting Multi-Layered Cache Invalidation Strategies for Globally Distributed GraphQL Subscriptions at Edge Scale",
         "Analyzing the control plane bottlenecks of a globally distributed multi-region Kubernetes cluster spanning 100,000+ nodes under a network partition event.",
-        "The hardware-software co-design of Google's custom optical circuit switching fabric for TPU v6 pod-level interconnects.",
         "How Discord rebuilt their real-time messaging consensus layer using a custom Raft variant over ScyllaDB to achieve sub-10ms p99 latency at exabyte scale.",
         "Optimizing Tail Latency in Disaggregated Storage Architectures: Lessons from Scaling NVMe-over-Fabrics at PB-Scale",
         "Deterministic Simulation Testing in Distributed Databases: Engineering Resilience Against Asynchronous Clock Skew and Network Partitions",
@@ -935,6 +934,9 @@
         "Deterministic Simulation Testing (DST) for Distributed State Machines: Implementing Hermetic Execution Environments in Mission-Critical Systems",
         "Architecting Multi-Tenant Vector Databases: Solving the Noisy Neighbor Problem in Sub-Millisecond Global Similarity Search",
         "Zero-Copy Data Planes: Leveraging NVMe-over-Fabrics and RDMA for Ultra-Low Latency State Synchronization in Distributed Databases",
-        "The Engineering Behind Meta's MTIA Infrastructure: Scaling Collective Communication via Optimized NCCL Kernels on Massive H100 Clusters"
+        "The Engineering Behind Meta's MTIA Infrastructure: Scaling Collective Communication via Optimized NCCL Kernels on Massive H100 Clusters",
+        "Zero-Copy Networking and RDMA: Scaling Distributed GPU Clusters for Multi-Trillion Parameter Model Training",
+        "Deterministic Simulation Testing at Scale: Mitigating Heisenbugs in Distributed Edge Computing Runtimes",
+        "Beyond Quorum: Implementing Tiered Storage Architectures in LSM-Tree Databases for Sub-Millisecond Tail Latency at Petabyte Scale"
     ]
 }
