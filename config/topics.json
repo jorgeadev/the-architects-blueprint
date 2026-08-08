@@ -442,7 +442,6 @@
         "A Deep Dive into Hierarchical Ring-AllReduce Optimization for Multi-Petaflop Distributed AI Orchestration",
         "Optimizing Tail Latency in Geo-Distributed Multi-Paxos Consensus Engines for Global Scale Metadata Stores",
         "Implementing Zero-Copy Networking with XDP and eBPF for High-Throughput Packet Processing in Edge CDN Clusters",
-        "Optimizing Tail Latency in Global Multi-Region Service Meshes: A Deep Dive into eBPF-Based Request Steering and Congestion Control",
         "Designing for Consistency at Edge: Implementing Causal Ordering in Globally Distributed Key-Value Stores via Hybrid Logical Clocks",
         "Deep-dive into Google's Spanner RISC-V pilot: implications for latency and power at planetary scale.",
         "How Cloudflare's Durable Objects ecosystem now processes 10 million stateful WebSocket sessions per node.",
@@ -931,6 +930,9 @@
         "Leveraging eBPF for Programmable Congestion Control in Multi-Tenant RDMA Over Converged Ethernet (RoCE) Fabrics",
         "Deep Dive into Deterministic Simulation Testing: Hardening Distributed State Machines against Heisenbugs in Mission-Critical Infrastructure",
         "Zero-Copy Data Transfer and RoCE v2: Architectural Bottlenecks in Scaling InfiniBand-less GPU Clusters for LLM Training",
-        "Implementing Tiered Storage in Cloud-Native Databases: Managing Hot-Cold Data Affinity in Globally Distributed LSM-Trees"
+        "Implementing Tiered Storage in Cloud-Native Databases: Managing Hot-Cold Data Affinity in Globally Distributed LSM-Trees",
+        "Optimizing L3/L4 Load Balancing for 100M+ Concurrent Connections using eXpress Data Path (XDP) and eBPF",
+        "Deconstructing Global Cache Invalidation Strategies at Edge-Scale: A Comparative Study of Meta’s FlightTracker vs. Google’s Monarch",
+        "Deterministic Simulation Testing (DST) for Distributed State Machines: Implementing Hermetic Execution Environments in Mission-Critical Systems"
     ]
 }
