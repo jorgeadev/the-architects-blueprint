@@ -249,7 +249,6 @@
         "Precision Phage Engineering: Leveraging Novel Lysins and Delivery Systems to Disarm Multidrug-Resistant Biofilms.",
         "Federated Learning at Hyperscale: Engineering Privacy-Preserving AI Training Across Geographically Distributed Edge Infrastructures",
         "The Unification of Metrics, Logs, and Traces: Building a High-Cardinality, Low-Latency Observability Platform for Exascale Microservices",
-        "From Tensor Cores to Tensors: The Deep Integration of Custom Silicon and Distributed ML Frameworks in Hyperscale AI Factories",
         "mRNA Vaccine Platform Advancements: Decoding Lipid Nanoparticle Delivery Optimization and Immunogenicity Enhancement for Pan-Pandemic Preparedness",
         "The Architectural Evolution of Hyperscale Transaction Processing: Sharding, True-Time, and the Consistency Spectrum in Global Databases",
         "Synthetic Virology's Leap: Engineering De Novo Phage-Derived Lytic Systems for Next-Generation Antibiotic Alternatives and Biofilm Disruption",
@@ -943,6 +942,9 @@
         "Kernel-Bypass Networking at Scale: Comparing DPDK vs. eBPF for High-Performance Packet Processing in Cloud-Native Gateways",
         "Optimizing Tail Latency in Heterogeneous GPU Clusters: A Deep Dive into Collective Communication Primitives for Distributed Training",
         "Architecting Multi-Tenant Vector Search: Implementing Hardware-Accelerated SIMD Indexing for Sub-Millisecond Retrieval at Petabyte Scale",
-        "The Evolution of Shared-State Scheduling: How Next-Gen Cluster Managers Handle Sub-Second Task Preemption and Resource Overcommitment"
+        "The Evolution of Shared-State Scheduling: How Next-Gen Cluster Managers Handle Sub-Second Task Preemption and Resource Overcommitment",
+        "Optimizing Multi-Tenant GPU Clusters: Designing Low-Latency RDMA Fabrics for Distributed LLM Training at Exascale",
+        "Formal Verification of Sharded Consensus Protocols: How Jepsen-Style Chaos Engineering Scaled to Million-Node Clusters",
+        "Re-architecting Edge Load Balancing: Migrating from Nginx to Programmable eBPF Data Planes for Sub-Millisecond Global Routing"
     ]
 }
