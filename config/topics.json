@@ -186,7 +186,6 @@
         "Engineering Programmable Oncolytic Viruses: Leveraging AI and Synthetic Biology for Targeted Cancer Therapies with Minimal Off-Target Effects",
         "CRISPR-Powered Phage Engineering: Precision Bacteriophage Design for Antimicrobial Resistance Combat and Targeted Microbiome Modulation Through Advanced Synthetic Biology.",
         "Stateful Functions as a Service: Architecting Persistent Compute for Long-Running Workflows and Event-Driven Microservices at Petabyte Scale.",
-        "Directed Evolution of AAV Capsids: Engineering Tropism and Immunogenicity for Next-Generation Gene Therapies.",
         "DPU and SmartNIC Architectures: Redefining Network and Storage Offloading in Hyperscale Data Centers",
         "Architecting Global Consensus for Exabyte-Scale Distributed Ledgers: Beyond Paxos and Raft",
         "CRISPR-Cas Antiviral Engineering: Precision Gene Editing for Broad-Spectrum Pathogen Defense",
@@ -937,6 +936,9 @@
         "The Engineering Behind Meta's MTIA Infrastructure: Scaling Collective Communication via Optimized NCCL Kernels on Massive H100 Clusters",
         "Zero-Copy Networking and RDMA: Scaling Distributed GPU Clusters for Multi-Trillion Parameter Model Training",
         "Deterministic Simulation Testing at Scale: Mitigating Heisenbugs in Distributed Edge Computing Runtimes",
-        "Beyond Quorum: Implementing Tiered Storage Architectures in LSM-Tree Databases for Sub-Millisecond Tail Latency at Petabyte Scale"
+        "Beyond Quorum: Implementing Tiered Storage Architectures in LSM-Tree Databases for Sub-Millisecond Tail Latency at Petabyte Scale",
+        "Formal Verification of Distributed Consensus Protocols in Large-Scale KV Stores: A Deep Dive into TLA+ at Scale",
+        "Optimizing NVMe-over-Fabrics (NVMe-oF) for Ultra-Low Latency Disaggregated Storage in Multi-Tenant Kubernetes Clusters",
+        "Implementing Differential Dataflow for Real-Time Global State Synchronization in Edge Computing Mesh Networks"
     ]
 }
