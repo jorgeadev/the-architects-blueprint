@@ -815,7 +815,6 @@
         "Implementing Hierarchical Ring-AllReduce Patterns for Multi-Petabyte LLM Training on Heterogeneous GPU Clusters",
         "Zero-Copy Serialization Protocols: Benchmarking Cap’n Proto vs. FlatBuffers in Low-Latency HFT Infrastructure",
         "Deterministic Simulation Testing (DST) in Distributed Systems: How TigerBeetle and FoundationDB Eliminate Heisenbugs at Scale",
-        "Implementing Zero-Copy Data Planes: Leveraging eBPF and XDP for Hyperscale Load Balancing",
         "Optimizing KV Cache Fragmentation: PagedAttention and Memory Management Strategies for Large-Scale LLM Serving",
         "Orchestrating 100,000+ GPU Clusters: The Networking Architecture Behind Training Next-Gen Frontier Models via RoCE v2 and InfiniBand Hybrid Fabrics",
         "Re-architecting the Distributed Lock Manager: How Modern Cloud Databases Leverage CXL and RDMA to Achieve 100M+ QPS at Sub-Microsecond Latency",
@@ -939,6 +938,9 @@
         "Beyond Quorum: Implementing Tiered Storage Architectures in LSM-Tree Databases for Sub-Millisecond Tail Latency at Petabyte Scale",
         "Formal Verification of Distributed Consensus Protocols in Large-Scale KV Stores: A Deep Dive into TLA+ at Scale",
         "Optimizing NVMe-over-Fabrics (NVMe-oF) for Ultra-Low Latency Disaggregated Storage in Multi-Tenant Kubernetes Clusters",
-        "Implementing Differential Dataflow for Real-Time Global State Synchronization in Edge Computing Mesh Networks"
+        "Implementing Differential Dataflow for Real-Time Global State Synchronization in Edge Computing Mesh Networks",
+        "Formal Verification of Distributed Consensus: Scaling TLA+ Model Checking for High-Throughput Storage Engines",
+        "Optimizing Tail Latencies in Multi-Tenant LLM Inference: A Deep Dive into PagedAttention and KV Cache Disaggregation",
+        "Kernel-Bypass Networking at Scale: Comparing DPDK vs. eBPF for High-Performance Packet Processing in Cloud-Native Gateways"
     ]
 }
