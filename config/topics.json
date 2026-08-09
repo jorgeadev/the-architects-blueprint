@@ -454,7 +454,6 @@
         "Implementing eBPF-based L4 Load Balancing for 100M+ Concurrent Connections: A Deep Dive into XDP and Katran Evolution",
         "Deterministic Simulation Testing at Scale: How FoundationDB Validates Distributed State Machine Consistency Under Network Partitions",
         "Reducing Tail Latency in Multi-Tenant Vector Databases: Implementing Tiered Indexing and Write-Ahead Log Partitioning for RAG at Petabyte Scale",
-        "Beyond eBPF: Leveraging User-Space Networking and DPDK for Sub-Microsecond Service Mesh Observability in Hyperscale Infrastructures",
         "Disaggregated memory over CXL: mitigating NUMA penalties in petabyte-scale analytics clusters at Meta.",
         "Decoding the implicit neural representation of Netflix's microservice routing graph for real-time canary analysis.",
         "How Cloudflare built a 100 Gbps DDoS mitigation pipeline on eBPF and XDP, bypassing the kernel TCP stack.",
@@ -941,6 +940,9 @@
         "Implementing Differential Dataflow for Real-Time Global State Synchronization in Edge Computing Mesh Networks",
         "Formal Verification of Distributed Consensus: Scaling TLA+ Model Checking for High-Throughput Storage Engines",
         "Optimizing Tail Latencies in Multi-Tenant LLM Inference: A Deep Dive into PagedAttention and KV Cache Disaggregation",
-        "Kernel-Bypass Networking at Scale: Comparing DPDK vs. eBPF for High-Performance Packet Processing in Cloud-Native Gateways"
+        "Kernel-Bypass Networking at Scale: Comparing DPDK vs. eBPF for High-Performance Packet Processing in Cloud-Native Gateways",
+        "Optimizing Tail Latency in Heterogeneous GPU Clusters: A Deep Dive into Collective Communication Primitives for Distributed Training",
+        "Architecting Multi-Tenant Vector Search: Implementing Hardware-Accelerated SIMD Indexing for Sub-Millisecond Retrieval at Petabyte Scale",
+        "The Evolution of Shared-State Scheduling: How Next-Gen Cluster Managers Handle Sub-Second Task Preemption and Resource Overcommitment"
     ]
 }
