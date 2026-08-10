@@ -938,7 +938,6 @@
         "Implementing Differential Dataflow for Real-Time Global State Synchronization in Edge Computing Mesh Networks",
         "Formal Verification of Distributed Consensus: Scaling TLA+ Model Checking for High-Throughput Storage Engines",
         "Optimizing Tail Latencies in Multi-Tenant LLM Inference: A Deep Dive into PagedAttention and KV Cache Disaggregation",
-        "Kernel-Bypass Networking at Scale: Comparing DPDK vs. eBPF for High-Performance Packet Processing in Cloud-Native Gateways",
         "Optimizing Tail Latency in Heterogeneous GPU Clusters: A Deep Dive into Collective Communication Primitives for Distributed Training",
         "Architecting Multi-Tenant Vector Search: Implementing Hardware-Accelerated SIMD Indexing for Sub-Millisecond Retrieval at Petabyte Scale",
         "The Evolution of Shared-State Scheduling: How Next-Gen Cluster Managers Handle Sub-Second Task Preemption and Resource Overcommitment",
@@ -947,6 +946,9 @@
         "Re-architecting Edge Load Balancing: Migrating from Nginx to Programmable eBPF Data Planes for Sub-Millisecond Global Routing",
         "Implementing Zero-Copy Networking in Distributed Vector Databases for Sub-Millisecond Global Search",
         "Scaling PagedAttention for Multi-Tenant LLM Serving: Solving KV Cache Fragmentation in Massive Clusters",
-        "An In-Depth Analysis of Shard Management and Geo-Replication in Global-Scale Spanner-Like Architectures"
+        "An In-Depth Analysis of Shard Management and Geo-Replication in Global-Scale Spanner-Like Architectures",
+        "Optimizing RDMA over Converged Ethernet (RoCE) for Multi-Thousand H100 GPU Clusters in Generative AI Training",
+        "Solving the Global State Paradox: Deterministic Conflict Resolution in Massive-Scale Distributed Edge Databases",
+        "Zero-Copy Data Planes: Leveraging eBPF and XDP for Terabit-Scale Packet Processing in Software-Defined Networks"
     ]
 }
