@@ -862,7 +862,6 @@
         "Hardware-Software Co-Design for LLM Inferencing: Deep Dive into FlashAttention and Tensor Parallelism Optimizations",
         "Beyond Raft: Implementing Deterministic State Machine Replication for Global Low-Latency Consensus in Edge Computing",
         "Implementing Zero-Copy Networking and eBPF-Based Load Balancing for 100Gbps Line Rates",
-        "Hierarchical Cache Coherency and Conflict Resolution in Distributed Vector Databases for LLM RAG",
         "Leveraging Formal Verification and TLA+ for Identifying Race Conditions in High-Throughput Event Sourcing Engines",
         "Architecting Zero-Copy RDMA Transports for Terabit-Scale Distributed Training of Ultra-Large Language Models",
         "Deep Dive: Implementing Multi-Region Vector Sharding and Re-ranking in Sub-100ms Latency RAG Pipelines",
@@ -951,6 +950,9 @@
         "Zero-Copy Data Planes: Leveraging eBPF and XDP for Terabit-Scale Packet Processing in Software-Defined Networks",
         "Optimizing Global Write Latency in Geo-Distributed Databases using Deterministic Concurrency Control and Multi-Paxos Refinement",
         "Building Zero-Copy Data Pipelines for Multi-Petabyte LLM Training Clusters using RDMA and DirectStorage Architectures",
-        "Mitigating Tail Latency Amplification in Microservice DAGs through Probabilistic Load Balancing and eBPF-based Congestion Control"
+        "Mitigating Tail Latency Amplification in Microservice DAGs through Probabilistic Load Balancing and eBPF-based Congestion Control",
+        "Architecting zero-copy data planes for 400GbE networks using eBPF and XDP-based hardware offloading",
+        "Optimizing global tail latency in geo-distributed Spanner-like databases via programmable switches and P4",
+        "Scaling LLM inference infrastructure: Implementing dynamic KV cache eviction and PagedAttention in multi-tenant GPU clusters"
     ]
 }
