@@ -157,7 +157,6 @@
         "Beyond CRISPR: A technical deep dive into engineered bacteriophage platforms for programmable microbiome modulation and precision antimicrobial resistance targeting.",
         "The architectural implications of adopting memory-semantic network fabrics (e.g., CXL) for ultra-low-latency AI model serving at scale.",
         "Deep learning-guided de novo design of synthetic viral vectors for ultra-specific in vivo cell targeting and gene therapy delivery.",
-        "The Rise of Programmable Networks: How DPUs are Reshaping Hyperscale Cloud Infrastructure for Next-Gen Workloads",
         "Architecting Exabyte-Scale Real-time Stream Processing for Global User Engagement Platforms",
         "The Deep Technical Challenges of Deploying Custom AI Accelerators Across Hyperscale Edge Networks",
         "Beyond CRISPR: Engineering Next-Generation Viral Vectors for Scalable In Vivo Gene Delivery Systems",
@@ -945,6 +944,9 @@
         "The Evolution of Shared-State Scheduling: How Next-Gen Cluster Managers Handle Sub-Second Task Preemption and Resource Overcommitment",
         "Optimizing Multi-Tenant GPU Clusters: Designing Low-Latency RDMA Fabrics for Distributed LLM Training at Exascale",
         "Formal Verification of Sharded Consensus Protocols: How Jepsen-Style Chaos Engineering Scaled to Million-Node Clusters",
-        "Re-architecting Edge Load Balancing: Migrating from Nginx to Programmable eBPF Data Planes for Sub-Millisecond Global Routing"
+        "Re-architecting Edge Load Balancing: Migrating from Nginx to Programmable eBPF Data Planes for Sub-Millisecond Global Routing",
+        "Implementing Zero-Copy Networking in Distributed Vector Databases for Sub-Millisecond Global Search",
+        "Scaling PagedAttention for Multi-Tenant LLM Serving: Solving KV Cache Fragmentation in Massive Clusters",
+        "An In-Depth Analysis of Shard Management and Geo-Replication in Global-Scale Spanner-Like Architectures"
     ]
 }
