@@ -482,7 +482,6 @@
         "Deep Dive into Meta's MTIA Infrastructure: Scaling Custom AI Silicon for Real-Time PyTorch Inference",
         "Solving the Data Locality Problem: How Uber Migrated to a Geo-Distributed Micro-Storage Layer with Integrated Caching",
         "Implementing Zero-Trust Networking at the NIC Level: Offloading eBPF to SmartNICs for Sub-Microsecond Service Mesh Latency",
-        "Deep Dive into Meta’s Tectonic: Orchestrating Exabyte-Scale Disaggregated Storage Across Heterogeneous Hardware",
         "Architecting Globally Consistent Event Streaming: Overcoming Speed-of-Light Constraints in Multi-Cloud Kafka Deployments",
         "Optimizing Collective Communication: Meta’s Custom RoCE Network Stack for 24,576 H100 GPU Clusters",
         "Beyond Raft: Analyzing the Deterministic State Machine Replication in Discord’s Global Persistent Message Store Migration",
@@ -949,6 +948,9 @@
         "An In-Depth Analysis of Shard Management and Geo-Replication in Global-Scale Spanner-Like Architectures",
         "Optimizing RDMA over Converged Ethernet (RoCE) for Multi-Thousand H100 GPU Clusters in Generative AI Training",
         "Solving the Global State Paradox: Deterministic Conflict Resolution in Massive-Scale Distributed Edge Databases",
-        "Zero-Copy Data Planes: Leveraging eBPF and XDP for Terabit-Scale Packet Processing in Software-Defined Networks"
+        "Zero-Copy Data Planes: Leveraging eBPF and XDP for Terabit-Scale Packet Processing in Software-Defined Networks",
+        "Optimizing Global Write Latency in Geo-Distributed Databases using Deterministic Concurrency Control and Multi-Paxos Refinement",
+        "Building Zero-Copy Data Pipelines for Multi-Petabyte LLM Training Clusters using RDMA and DirectStorage Architectures",
+        "Mitigating Tail Latency Amplification in Microservice DAGs through Probabilistic Load Balancing and eBPF-based Congestion Control"
     ]
 }
