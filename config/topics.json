@@ -430,7 +430,6 @@
         "Deep Dive into Zero-Copy Buffer Management and RDMA Integration in Distributed Log Storage Engines",
         "Architecting Web-Scale Vector Search: Hierarchical Navigable Small Worlds (HNSW) Indexing on GPU-Accelerated Clusters",
         "Zero-Downtime Migration of Petabyte-Scale Spanner Instances via Custom CDC Pipelines",
-        "Optimizing Tail Latency in Global Service Meshes using eBPF-Driven Kernel Bypass",
         "Architecting Ultra-Low Latency Inference Engines: A Deep Dive into NVIDIA Hopper Transformer Engine at Scale",
         "Dissecting the data plane: A deep dive into Meta's 800G DWDM optical transport backbone for cross-cluster AI training traffic",
         "The physics of the cold start: How Google's colossus-derived heat pump preheating reduces PUE variance in hyperscale data centers by 14%",
@@ -953,6 +952,9 @@
         "Mitigating Tail Latency Amplification in Microservice DAGs through Probabilistic Load Balancing and eBPF-based Congestion Control",
         "Architecting zero-copy data planes for 400GbE networks using eBPF and XDP-based hardware offloading",
         "Optimizing global tail latency in geo-distributed Spanner-like databases via programmable switches and P4",
-        "Scaling LLM inference infrastructure: Implementing dynamic KV cache eviction and PagedAttention in multi-tenant GPU clusters"
+        "Scaling LLM inference infrastructure: Implementing dynamic KV cache eviction and PagedAttention in multi-tenant GPU clusters",
+        "Leveraging CXL (Compute Express Link) for Memory Pooling in Disaggregated Data Centers: A Deep Dive into Rack-Scale Efficiency",
+        "Hardware-Accelerated LLM Inference: Optimizing KV Cache Management using PagedAttention and Custom CUDA Kernels",
+        "Implementing Deterministic Simulation Testing (DST) for Validating High-Concurrency Distributed State Machines in Rust-based Storage Engines"
     ]
 }
