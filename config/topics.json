@@ -91,7 +91,6 @@
         "Achieving Strong Consistency and Low Latency in Globally Distributed Databases: A Deep Dive into Atomic Clock Synchronization and Multi-Version Concurrency Control (MVCC) at Scale",
         "Optimizing State Machine Replication for Trillion-Event Streams: A Deep Dive into Distributed Consensus Protocols Beyond Raft and Paxos at Cloud Scale",
         "Synthetic Virology: Engineering Novel Bacteriophage Systems for Programmable Microbiome Modulation and Targeted Drug Delivery at Scale",
-        "The Evolution of Cloud-Native Workload Scheduling: From Bin Packing to AI-Driven Predictive Resource Allocation",
         "CRISPR-Associated Transposases (CAST) for Programmable Large-Fragment Genomic Integration in Antiviral Gene Therapy",
         "The Engineering of Global Consensus: How TrueTime and Hybrid Logical Clocks Achieve External Consistency in Massively Distributed SQL Databases",
         "Next-Generation mRNA Vaccine Delivery: Technical Challenges and Breakthroughs in Lipid Nanoparticle Alternatives and Self-Amplifying RNA Constructs",
@@ -955,6 +954,9 @@
         "Scaling LLM inference infrastructure: Implementing dynamic KV cache eviction and PagedAttention in multi-tenant GPU clusters",
         "Leveraging CXL (Compute Express Link) for Memory Pooling in Disaggregated Data Centers: A Deep Dive into Rack-Scale Efficiency",
         "Hardware-Accelerated LLM Inference: Optimizing KV Cache Management using PagedAttention and Custom CUDA Kernels",
-        "Implementing Deterministic Simulation Testing (DST) for Validating High-Concurrency Distributed State Machines in Rust-based Storage Engines"
+        "Implementing Deterministic Simulation Testing (DST) for Validating High-Concurrency Distributed State Machines in Rust-based Storage Engines",
+        "Optimizing RoCE v2 for Multi-Tenant GPU Clusters: Solving Congestion Control in 32,000+ H100 Interconnects",
+        "Quantization-Aware Indexing and Tiered Memory Management for 100-Billion Vector Similarity Searches in Production",
+        "Architecting High-Availability Control Planes for Global Edge Compute: A Deep Dive into Anycast-Based Load Balancing and State Synchronization"
     ]
 }
