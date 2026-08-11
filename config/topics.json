@@ -281,7 +281,6 @@
         "Optimizing GPU Memory Throughput for Multi-Tenant LLM Serving via Hierarchical PagedAttention and Dynamic KV Cache Compression",
         "Inside TikTok's Real-Time Recommendation Graph: Sharding, In-Memory Indexing, and the War on Cold Start Latency",
         "The Hidden Complexity of Meta's Massive Fiber Backbone: How Optical Circuit Switching and Wavelength Division Multiplexing Survive a 400Gbps Core Meltdown",
-        "Inside Meta's Cold Storage Exascale: How LLM Training Data is Archived Across Arctic Data Centers",
         "Google's Jupiter Evolving: Optical Circuit Switching and the New Congestion Control Plane for AGI Clusters",
         "Morphed microarchitectures: how hyperscalers are replacing traditional hypervisors with lightweight, hardware-backed enclave orchestrators for sub-millisecond tenant isolation",
         "The physics of packet pacing: analyzing Google's Jupiter Rising and the shift from distributed load balancers to in-network congestion control at the ExaFLOPS scale",
@@ -957,6 +956,9 @@
         "Implementing Deterministic Simulation Testing (DST) for Validating High-Concurrency Distributed State Machines in Rust-based Storage Engines",
         "Optimizing RoCE v2 for Multi-Tenant GPU Clusters: Solving Congestion Control in 32,000+ H100 Interconnects",
         "Quantization-Aware Indexing and Tiered Memory Management for 100-Billion Vector Similarity Searches in Production",
-        "Architecting High-Availability Control Planes for Global Edge Compute: A Deep Dive into Anycast-Based Load Balancing and State Synchronization"
+        "Architecting High-Availability Control Planes for Global Edge Compute: A Deep Dive into Anycast-Based Load Balancing and State Synchronization",
+        "Hardware-Accelerated Memory Management: Offloading Garbage Collection to CXL-attached Memory Expanders in Hyperscale JVMs",
+        "Architecting Zero-Trust Control Planes: Scaling SPIFFE/SPIRE for Million-Node Ephemeral Container Environments",
+        "The Evolution of Shared-Log Architectures: How Shadow Indexing and Tiered Storage Decouple Compute from Persistent State in Modern Streaming Engines"
     ]
 }
