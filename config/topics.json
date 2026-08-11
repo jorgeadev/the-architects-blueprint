@@ -244,7 +244,6 @@
         "Engineering Programmable Viral Capsids: Designing Next-Generation Gene Delivery Vectors for Targeted In Vivo Therapeutic mRNA Translation",
         "Optimizing Exascale Analytical Workloads: The Co-Evolution of Custom Silicon and Distributed Query Processors in Hyperscale OLAP.",
         "Beyond Firewalls: Architecting Zero-Trust Microsegmentation for Billions of Network Flows in Cloud-Native Hyperscale Infrastructures.",
-        "Precision Phage Engineering: Leveraging Novel Lysins and Delivery Systems to Disarm Multidrug-Resistant Biofilms.",
         "Federated Learning at Hyperscale: Engineering Privacy-Preserving AI Training Across Geographically Distributed Edge Infrastructures",
         "The Unification of Metrics, Logs, and Traces: Building a High-Cardinality, Low-Latency Observability Platform for Exascale Microservices",
         "mRNA Vaccine Platform Advancements: Decoding Lipid Nanoparticle Delivery Optimization and Immunogenicity Enhancement for Pan-Pandemic Preparedness",
@@ -959,6 +958,9 @@
         "Architecting High-Availability Control Planes for Global Edge Compute: A Deep Dive into Anycast-Based Load Balancing and State Synchronization",
         "Hardware-Accelerated Memory Management: Offloading Garbage Collection to CXL-attached Memory Expanders in Hyperscale JVMs",
         "Architecting Zero-Trust Control Planes: Scaling SPIFFE/SPIRE for Million-Node Ephemeral Container Environments",
-        "The Evolution of Shared-Log Architectures: How Shadow Indexing and Tiered Storage Decouple Compute from Persistent State in Modern Streaming Engines"
+        "The Evolution of Shared-Log Architectures: How Shadow Indexing and Tiered Storage Decouple Compute from Persistent State in Modern Streaming Engines",
+        "Implementing Multi-Tenant Performance Isolation in Meta’s 100,000+ H100 GPU Clusters via RDMA and Custom Congestion Control",
+        "Optimizing Tail Latency in Google’s Distributed Vector Search: Migrating from Spanner to Specialized In-Memory Key-Value Topologies",
+        "The Engineering Behind Pingora: Solving the Memory Fragmentation and Garbage Collection Bottlenecks of Nginx using Zero-Copy Rust Patterns at Cloudflare"
     ]
 }
