@@ -181,7 +181,6 @@
         "Hyperscale Data Center Optical Fabric Architectures: Challenges and Innovations in Peta-Bit Interconnects for AI Workloads.",
         "Beyond Cold Starts: Engineering Predictable Low-Latency Performance for Hyperscale Serverless Workloads with WebAssembly and MicroVM Runtimes.",
         "Engineering Programmable Oncolytic Viruses: Leveraging AI and Synthetic Biology for Targeted Cancer Therapies with Minimal Off-Target Effects",
-        "CRISPR-Powered Phage Engineering: Precision Bacteriophage Design for Antimicrobial Resistance Combat and Targeted Microbiome Modulation Through Advanced Synthetic Biology.",
         "Stateful Functions as a Service: Architecting Persistent Compute for Long-Running Workflows and Event-Driven Microservices at Petabyte Scale.",
         "DPU and SmartNIC Architectures: Redefining Network and Storage Offloading in Hyperscale Data Centers",
         "Architecting Global Consensus for Exabyte-Scale Distributed Ledgers: Beyond Paxos and Raft",
@@ -965,6 +964,9 @@
         "Architecting Sparse Attention Kernels for Memory-Efficient Inference of Trillion-Parameter Mixture-of-Experts Models",
         "Implementing Multi-Paxos with RDMA-Enabled Atomic Remote Memory Operations for Sub-Microsecond State Machine Replication",
         "Predictive Autoscaling for Heterogeneous GPU Clusters: Using Transformer-based Load Forecasting to Minimize Cold Starts in Serverless LLM Inference",
-        "Bypassing the Linux Network Stack: A Comparative Analysis of DPDK and eBPF/XDP for High-Throughput Packet Processing in Cloud-Native Firewalls"
+        "Bypassing the Linux Network Stack: A Comparative Analysis of DPDK and eBPF/XDP for High-Throughput Packet Processing in Cloud-Native Firewalls",
+        "Deconstructing the Llama-3 Training Infrastructure: Orchestrating 24,576 H100 GPUs with RoCEv2 and InfiniBand Fabrics",
+        "Deep Dive into Uber's Peloton: Scheduling 10 Million Concurrent Tasks Across Heterogeneous Hardware with Sub-second Latency",
+        "Formal Verification of Distributed Storage: Using TLA+ to Prevent Split-Brain Scenarios in AWS S3’s Strong Consistency Engine"
     ]
 }
