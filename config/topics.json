@@ -74,7 +74,6 @@
         "Scaling Foundation Models: Architectural Strategies for Terabyte-Scale Parameter Training on Distributed GPU Clusters",
         "CRISPR-Guided Phage Engineering: Precision Delivery and Genetically Modified Viral Vectors for In Vivo Therapeutic Applications",
         "Decoding the Interconnects: Memory Bandwidth Bottlenecks and Custom Fabric Solutions for Trillion-Parameter LLM Inference",
-        "From PUE to PUD: Advancements in Disaggregated Computing and Direct Liquid Cooling for Hyperscale Infrastructure",
         "The Phage-Storage Paradigm: Engineering Bacteriophage Virions for Petabyte-Scale Biological Data Storage and Retrieval Systems",
         "Precision Genetic Engineering: The Rise of Base, Prime, and Epigenetic Editing for Therapeutic Applications",
         "Beyond 400GbE: The Role of Programmable Data Planes and Silicon Photonics in Future Intra-Datacenter Networks",
@@ -963,6 +962,9 @@
         "The Engineering Behind Pingora: Solving the Memory Fragmentation and Garbage Collection Bottlenecks of Nginx using Zero-Copy Rust Patterns at Cloudflare",
         "Formal Verification of TLA+ Specifications for Distributed Transaction Coordination in Sharded Global Databases",
         "Reducing Tail Latency in Multi-Tenant Kubernetes Clusters via eBPF-Based Congestion Control and Packet Pacing",
-        "Architecting Sparse Attention Kernels for Memory-Efficient Inference of Trillion-Parameter Mixture-of-Experts Models"
+        "Architecting Sparse Attention Kernels for Memory-Efficient Inference of Trillion-Parameter Mixture-of-Experts Models",
+        "Implementing Multi-Paxos with RDMA-Enabled Atomic Remote Memory Operations for Sub-Microsecond State Machine Replication",
+        "Predictive Autoscaling for Heterogeneous GPU Clusters: Using Transformer-based Load Forecasting to Minimize Cold Starts in Serverless LLM Inference",
+        "Bypassing the Linux Network Stack: A Comparative Analysis of DPDK and eBPF/XDP for High-Throughput Packet Processing in Cloud-Native Firewalls"
     ]
 }
