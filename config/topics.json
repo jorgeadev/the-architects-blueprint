@@ -897,7 +897,6 @@
         "Architecting Deterministic Simulation Testing Frameworks for Distributed Consensus Protocols in High-Frequency Trading",
         "Implementing Zero-Copy Data Planes with eBPF and XDP for Multi-Terabit Edge Networking",
         "The Architecture of Distributed KV Stores with Spanner-like Strict Serializability via Hybrid Logical Clocks",
-        "Scaling Vector Databases to Billions of Embeddings using Hierarchical Navigable Small Worlds and Product Quantization",
         "Optimizing Non-Uniform Memory Access (NUMA) Topology for High-Throughput Inference in Multi-GPU Clusters",
         "Architecting Zonal Isolation Patterns to Prevent Correlated Failures in Hyperscale Kubernetes Control Planes",
         "Dissecting Meta's cross-DC RoCEv2 fabric: How they mask packet loss for AI training across 3,000km using per-flow ECMP-hashing, PFC deadlock avoidance, and NDR-level adaptive routing telemetry.",
@@ -961,6 +960,9 @@
         "The Evolution of Shared-Log Architectures: How Shadow Indexing and Tiered Storage Decouple Compute from Persistent State in Modern Streaming Engines",
         "Implementing Multi-Tenant Performance Isolation in Meta’s 100,000+ H100 GPU Clusters via RDMA and Custom Congestion Control",
         "Optimizing Tail Latency in Google’s Distributed Vector Search: Migrating from Spanner to Specialized In-Memory Key-Value Topologies",
-        "The Engineering Behind Pingora: Solving the Memory Fragmentation and Garbage Collection Bottlenecks of Nginx using Zero-Copy Rust Patterns at Cloudflare"
+        "The Engineering Behind Pingora: Solving the Memory Fragmentation and Garbage Collection Bottlenecks of Nginx using Zero-Copy Rust Patterns at Cloudflare",
+        "Formal Verification of TLA+ Specifications for Distributed Transaction Coordination in Sharded Global Databases",
+        "Reducing Tail Latency in Multi-Tenant Kubernetes Clusters via eBPF-Based Congestion Control and Packet Pacing",
+        "Architecting Sparse Attention Kernels for Memory-Efficient Inference of Trillion-Parameter Mixture-of-Experts Models"
     ]
 }
