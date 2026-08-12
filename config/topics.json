@@ -21,7 +21,6 @@
         "An deep dive into how AWS Nitro cards physically offload networking and storage from EC2 instances.",
         "Recent revolutionary advancements in WebAssembly (Wasm) and the hype around running backend services in the browser.",
         "The hype over Rust replacing C++ in foundational systems: reality, technical challenges, and major rewrites.",
-        "A recent hype cycle on a major JavaScript meta-framework release: what new architectural patterns does it actually solve?",
         "Decentralized consensus protocols for achieving strong consistency in a planetary-scale distributed ledger operating at millions of transactions per second.",
         "The interplay of programmable data planes and P4 with smart NICs for ultra-low-latency network function virtualization in hyperscale data centers.",
         "Disaggregated Memory Architectures and Next-Gen Interconnects: Engineering the Hyperscale AI Training Fabrics of Tomorrow",
@@ -967,6 +966,9 @@
         "Bypassing the Linux Network Stack: A Comparative Analysis of DPDK and eBPF/XDP for High-Throughput Packet Processing in Cloud-Native Firewalls",
         "Deconstructing the Llama-3 Training Infrastructure: Orchestrating 24,576 H100 GPUs with RoCEv2 and InfiniBand Fabrics",
         "Deep Dive into Uber's Peloton: Scheduling 10 Million Concurrent Tasks Across Heterogeneous Hardware with Sub-second Latency",
-        "Formal Verification of Distributed Storage: Using TLA+ to Prevent Split-Brain Scenarios in AWS S3’s Strong Consistency Engine"
+        "Formal Verification of Distributed Storage: Using TLA+ to Prevent Split-Brain Scenarios in AWS S3’s Strong Consistency Engine",
+        "Solving the Tail Latency Problem in Globally Distributed NVMe-over-Fabrics Storage Systems",
+        "Zero-Copy Data Transfer in High-Performance Messaging: A Deep Dive into the Internal Architecture of Redpanda and Apache Pulsar",
+        "The Evolution of Cluster Scheduling: Implementing Multi-Dimensional Resource Bin-Packing for Heterogeneous AI Workloads at Google Scale"
     ]
 }
