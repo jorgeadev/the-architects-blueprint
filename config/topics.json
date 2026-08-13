@@ -335,7 +335,6 @@
         "Zero-Copy Data Transfer Pipelines in Hyperscale Observability Platforms using eBPF and Shared Memory Ring Buffers",
         "Hardware-Accelerated Load Balancing: How Google Cloud Uses Maglev and Andromeda to Minimize Packet Jitter at Petabit Scales",
         "Designing the Next-Generation KV Store: Implementing LSM-Tree Optimization via NVMe-oF in Massive Distributed Storage",
-        "The Evolution of Cluster Schedulers: Evaluating Borg vs. Kubernetes for Managing Million-Node Heterogeneous AI Workloads",
         "Architecting for Hyper-Elasticity: Deep Dive into the Shared-Log and Disaggregated Storage Model of Snowflake and Databricks Polaris",
         "Sub-Microsecond Clock Synchronization at Scale: Implementing Precision Time Protocol (PTP) in Commodity Cloud Data Centers",
         "Implementing Zero-Copy Data Planes for Terabit-Scale Distributed Storage using RDMA and NVMe-over-Fabrics",
@@ -975,6 +974,9 @@
         "Scaling State Management in Serverless Architectures: Implementing Durable Execution with Event-Sourced Workflows",
         "Deep Dive into Meta’s AI Research SuperCluster: Architecting 24,576 H100 GPUs via RoCE v2 and Flat-Clos Topology",
         "Solving the Tail Latency Problem in Globally Distributed KV Stores using Deterministic State Machine Replication and eBPF-based Request Steering",
-        "Beyond Microservices: Implementing Cell-Based Architecture and Shuffle Sharding to Achieve 99.999% Availability in Multi-Tenant SaaS Infrastructure"
+        "Beyond Microservices: Implementing Cell-Based Architecture and Shuffle Sharding to Achieve 99.999% Availability in Multi-Tenant SaaS Infrastructure",
+        "Formal Verification of TLA+ Specifications in Amazon's S3 Strong Consistency Migration: A Deep Dive into Safety Properties",
+        "The Anatomy of Meta's MTIA: Designing Custom Silicon and Software Stacks for Large-Scale Recommendation Inference",
+        "Reducing P99 Latency in Globally Distributed Key-Value Stores via Cooperative Caching and Predictive Request Hedging"
     ]
 }
