@@ -206,7 +206,6 @@
         "Practical Challenges and Architectural Solutions for Hyper-Scale Post-Quantum Cryptography Migration in Cloud Infrastructure",
         "Beyond Microservices: The Rise of WebAssembly-Powered Nanoservices and Serverless Edge Compute Architectures",
         "Engineering Novel Phage Therapies: Designing and Scaling the Computational Pipelines for Precision Virome Modulation",
-        "Mitigating 'Thundering Herds' in hyperscale distributed caches: A deep dive into Facebook's cache invalidation strategies and consensus protocols.",
         "Beyond AAV: Exploring novel viral vectors and directed evolution for next-generation precision gene therapy delivery systems.",
         "The Architecture of Hyperscale Ephemeral Block Storage for Serverless Workloads: Durability and Latency at Petabyte Scale",
         "Optical Circuit Switching and Programmable Data Planes: Reshaping Inter-DC Traffic Engineering for Exascale Cloud Infrastructure",
@@ -969,6 +968,9 @@
         "Formal Verification of Distributed Storage: Using TLA+ to Prevent Split-Brain Scenarios in AWS S3’s Strong Consistency Engine",
         "Solving the Tail Latency Problem in Globally Distributed NVMe-over-Fabrics Storage Systems",
         "Zero-Copy Data Transfer in High-Performance Messaging: A Deep Dive into the Internal Architecture of Redpanda and Apache Pulsar",
-        "The Evolution of Cluster Scheduling: Implementing Multi-Dimensional Resource Bin-Packing for Heterogeneous AI Workloads at Google Scale"
+        "The Evolution of Cluster Scheduling: Implementing Multi-Dimensional Resource Bin-Packing for Heterogeneous AI Workloads at Google Scale",
+        "Optimizing Tail Latency in Tier-0 Services via eBPF-Driven Programmable Congestion Control",
+        "Architecting Multi-Region Strongly Consistent State Machines: A Deep Dive into Distributed Snapshot Isolation at Scale",
+        "Scaling LLM Inference to 1 Million Concurrent Streams: Managing KV-Cache Fragmentation with PagedAttention and RDMA"
     ]
 }
