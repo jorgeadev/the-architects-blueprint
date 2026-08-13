@@ -36,7 +36,6 @@
         "CRISPR-CasX: Engineering novel non-integrating viral delivery vectors for high-specificity in-vivo genomic editing.",
         "Next-Generation mRNA Vaccine Platforms: Engineering Self-Replicating RNA and Novel Adjuvants for Enhanced Immunogenicity",
         "CRISPR-Engineered Phage Lysins: A Novel Approach to Combatting Multi-Drug Resistant Bacterial Biofilms in Clinical Settings",
-        "Deconstructing Hyperscale Transactional Consistency: The role of geo-distributed consensus protocols and hybrid logical clocks in global cloud databases.",
         "Engineering Next-Gen mRNA Vaccines: Advancements in Lipid Nanoparticle Delivery Systems and Immunostimulatory Design.",
         "Optimizing Cold Start Latency in Serverless Edge Functions: A Deep Dive into MicroVM Snapshotting and Kernel-Level Virtualization Techniques",
         "Optimizing Serverless Cold Starts at Trillions of Invocations: Deep Dive into Hyperscale Resource Scheduling",
@@ -973,6 +972,9 @@
         "Scaling LLM Inference to 1 Million Concurrent Streams: Managing KV-Cache Fragmentation with PagedAttention and RDMA",
         "Optimizing Tail Latency in Distributed Consensus: A Deep Dive into Multi-Leader Paxos Variants",
         "Architecting Zero-Copy Data Planes: Leveraging eBPF and XDP for High-Performance Cloud Networking",
-        "Scaling State Management in Serverless Architectures: Implementing Durable Execution with Event-Sourced Workflows"
+        "Scaling State Management in Serverless Architectures: Implementing Durable Execution with Event-Sourced Workflows",
+        "Deep Dive into Meta’s AI Research SuperCluster: Architecting 24,576 H100 GPUs via RoCE v2 and Flat-Clos Topology",
+        "Solving the Tail Latency Problem in Globally Distributed KV Stores using Deterministic State Machine Replication and eBPF-based Request Steering",
+        "Beyond Microservices: Implementing Cell-Based Architecture and Shuffle Sharding to Achieve 99.999% Availability in Multi-Tenant SaaS Infrastructure"
     ]
 }
