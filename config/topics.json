@@ -229,7 +229,6 @@
         "Scalable synthetic biology platforms: Engineering cellular factories for high-throughput biomaterial production and metabolic pathway optimization.",
         "Real-time Backpressure and Congestion Control in Exascale Event Streaming Architectures: A Deep Dive into Adaptive Flow Algorithms.",
         "Synthetic Viral Vector Design via Machine Learning: Predicting Immunogenicity and Tropism for Advanced Gene Therapies.",
-        "Architecting Low-Latency, Distributed Inference for Trillion-Parameter Foundation Models: A Deep Dive into Tensor Parallelism and Dynamic Batching",
         "The Evolution of Hyperscale Data Center Networks: Optimizing for AI/ML Workloads with RoCEv2 and Programmable Switches",
         "Programmable Dataplanes (P4) and the Future of Hyperscale Network Fabric Orchestration for AI/ML Training Clusters",
         "Computational Phage Design: Engineering Lytic Specificity and Broad-Spectrum Efficacy Against Pan-Resistant Bacteria via Synthetic Genomics",
@@ -971,6 +970,9 @@
         "The Evolution of Cluster Scheduling: Implementing Multi-Dimensional Resource Bin-Packing for Heterogeneous AI Workloads at Google Scale",
         "Optimizing Tail Latency in Tier-0 Services via eBPF-Driven Programmable Congestion Control",
         "Architecting Multi-Region Strongly Consistent State Machines: A Deep Dive into Distributed Snapshot Isolation at Scale",
-        "Scaling LLM Inference to 1 Million Concurrent Streams: Managing KV-Cache Fragmentation with PagedAttention and RDMA"
+        "Scaling LLM Inference to 1 Million Concurrent Streams: Managing KV-Cache Fragmentation with PagedAttention and RDMA",
+        "Optimizing Tail Latency in Distributed Consensus: A Deep Dive into Multi-Leader Paxos Variants",
+        "Architecting Zero-Copy Data Planes: Leveraging eBPF and XDP for High-Performance Cloud Networking",
+        "Scaling State Management in Serverless Architectures: Implementing Durable Execution with Event-Sourced Workflows"
     ]
 }
