@@ -6,11 +6,13 @@ import { ClientRouter } from "astro:transitions";
 interface Props {
     title: string;
     description?: string;
+    showProgress?: boolean;
 }
 
 const {
     title,
-    description = "The Architect's Blueprint - The latest in tech infrastructure and architecture.",
+    description = "The Architect's Blueprint — deep dives on big tech infrastructure, scale, and the pulse of modern engineering.",
+    showProgress = false,
 } = Astro.props;
 ---
 
@@ -19,92 +21,224 @@ const {
     <head>
         <ClientRouter />
         <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
         <meta name="generator" content={Astro.generator} />
         <title>{title}</title>
         <meta name="description" content={description} />
+        <meta name="theme-color" content="#02000f" />
+        <meta property="og:title" content={title} />
+        <meta property="og:description" content={description} />
+        <meta property="og:type" content="website" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
-            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&family=JetBrains+Mono:wght@400;500&display=swap"
             rel="stylesheet"
         />
     </head>
     <body>
-        <nav class="sticky top-0 z-50 bg-[#030014]/60 backdrop-blur-md border-b border-white/10">
-            <div class="max-w-275 mx-auto px-8 py-5 flex items-center justify-between">
-                <a href="/" class="gradient-text text-2xl font-extrabold tracking-tight"
-                    >The Architect's Blueprint</a
-                >
-                <div class="flex gap-3 items-center">
-                    <a
-                        href="/discover"
-                        class="px-4 py-2.5 rounded-lg font-sans font-semibold text-sm transition-all duration-300 bg-white/5 text-white border border-white/10 hover:bg-white/10 hover:border-white/30 hover:-translate-y-0.5"
+        {showProgress && <div id="reading-progress"></div>}
+
+        <!-- ── Navigation ──────────────────────────────────────────────── -->
+        <header
+            class="sticky top-0 z-50"
+            style="background:rgba(2,0,15,0.7);backdrop-filter:blur(20px) saturate(180%);-webkit-backdrop-filter:blur(20px) saturate(180%);border-bottom:1px solid rgba(255,255,255,0.07);"
+        >
+            <nav class="max-w-7xl mx-auto px-5 sm:px-8 h-16 flex items-center justify-between gap-4">
+                <!-- Logo -->
+                <a href="/" class="flex items-center gap-2.5 shrink-0 group">
+                    <div
+                        class="w-8 h-8 rounded-lg flex items-center justify-center shrink-0"
+                        style="background:linear-gradient(135deg,rgba(99,102,241,0.8),rgba(59,130,246,0.8));border:1px solid rgba(129,140,248,0.3);box-shadow:0 0 16px -4px rgba(99,102,241,0.5);"
                     >
-                        Discover
-                    </a>
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                            <path d="M2 8h3M8 2v3M8 11v3M11 8h3" stroke="#fff" stroke-width="1.75" stroke-linecap="round"/>
+                            <circle cx="8" cy="8" r="2.5" fill="rgba(255,255,255,0.9)"/>
+                        </svg>
+                    </div>
+                    <span
+                        class="text-base font-bold tracking-tight hidden sm:block"
+                        style="background:linear-gradient(135deg,#818cf8,#60a5fa,#a78bfa);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;"
+                    >
+                        The Architect's Blueprint
+                    </span>
+                    <span
+                        class="text-base font-bold tracking-tight sm:hidden"
+                        style="background:linear-gradient(135deg,#818cf8,#60a5fa);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;"
+                    >
+                        Blueprint
+                    </span>
+                </a>
+
+                <!-- Desktop nav links -->
+                <div class="hidden md:flex items-center gap-2">
+                    <a href="/" class="btn-ghost text-sm py-2 px-4">Archive</a>
+                    <a href="/discover" class="btn-ghost text-sm py-2 px-4">Discover</a>
                     <button
                         id="trigger-topics-btn"
-                        class="relative px-5 py-2.5 rounded-lg font-sans font-semibold text-sm cursor-pointer transition-all duration-300 overflow-hidden bg-white/10 text-white border border-white/20 hover:bg-white/20 hover:border-white/40 hover:-translate-y-0.5 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none disabled:shadow-none"
+                        class="btn-ghost text-sm py-2 px-4"
+                        aria-label="Generate Topics"
                     >
-                        <span class="relative z-10 btn-text">Generate Topics 💡</span>
+                        <span class="btn-text">Topics 💡</span>
                     </button>
                     <button
                         id="trigger-btn"
-                        class="relative px-5 py-2.5 rounded-lg font-sans font-semibold text-sm cursor-pointer transition-all duration-300 overflow-hidden bg-linear-to-br from-indigo-400 to-blue-400 text-black border-none shadow-[0_4px_15px_-3px_rgba(167,139,250,0.5)] hover:-translate-y-0.5 hover:scale-105 hover:shadow-[0_6px_20px_-3px_rgba(167,139,250,0.7)] group disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none disabled:shadow-none disabled:hover:scale-100 disabled:hover:translate-y-0"
+                        class="btn-primary text-sm py-2 px-4"
+                        aria-label="Generate Post"
                     >
-                        <div
-                            class="absolute inset-0 bg-linear-to-br from-blue-400 to-indigo-400 opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100 z-0"
-                        >
-                        </div>
-                        <span class="relative z-10 btn-text">Generate Post 🪄</span>
+                        <span class="btn-text">Generate 🪄</span>
                     </button>
                 </div>
+
+                <!-- Mobile hamburger -->
+                <button
+                    id="mobile-menu-toggle"
+                    aria-label="Toggle menu"
+                    aria-expanded="false"
+                    aria-controls="mobile-menu"
+                    class="md:hidden flex flex-col gap-1.5 p-2 rounded-lg transition-colors"
+                    style="border:1px solid rgba(255,255,255,0.08);background:rgba(255,255,255,0.04);"
+                >
+                    <span class="hamburger-line block w-5 h-0.5 rounded-full bg-white/80 transition-all duration-300"></span>
+                    <span class="hamburger-line block w-5 h-0.5 rounded-full bg-white/80 transition-all duration-300"></span>
+                    <span class="hamburger-line block w-5 h-0.5 rounded-full bg-white/80 transition-all duration-300"></span>
+                </button>
+            </nav>
+
+            <!-- Mobile menu -->
+            <div
+                id="mobile-menu"
+                hidden
+                class="md:hidden px-5 pb-5 pt-2 flex flex-col gap-2"
+                style="border-top:1px solid rgba(255,255,255,0.06);"
+            >
+                <a href="/" class="btn-ghost w-full text-center py-3">Archive</a>
+                <a href="/discover" class="btn-ghost w-full text-center py-3">Discover</a>
+                <button id="trigger-topics-btn-mobile" class="btn-ghost w-full py-3">
+                    <span class="btn-text">Generate Topics 💡</span>
+                </button>
+                <button id="trigger-btn-mobile" class="btn-primary w-full py-3">
+                    <span class="btn-text">Generate Post 🪄</span>
+                </button>
             </div>
-        </nav>
-        <main class="max-w-7xl mx-auto px-8 py-12 min-h-[calc(100vh-232px)]">
+        </header>
+
+        <!-- ── Main content ────────────────────────────────────────────── -->
+        <main class="max-w-7xl mx-auto px-5 sm:px-8 py-10 sm:py-14 min-h-[calc(100vh-4rem-96px)]">
             <slot />
         </main>
-        <footer class="border-t border-white/10 mt-16 p-8 text-center text-zinc-400">
-            <div class="text-sm">
-                <p>
-                    &copy; {new Date().getFullYear()} The Architect's Blueprint. Automagically generated.
-                </p>
+
+        <!-- ── Footer ──────────────────────────────────────────────────── -->
+        <footer
+            class="mt-20"
+            style="border-top:1px solid rgba(255,255,255,0.07);"
+        >
+            <div class="max-w-7xl mx-auto px-5 sm:px-8 py-10 sm:py-12">
+                <div class="flex flex-col sm:flex-row items-center justify-between gap-6">
+                    <div class="flex items-center gap-2.5">
+                        <div
+                            class="w-7 h-7 rounded-md flex items-center justify-center"
+                            style="background:linear-gradient(135deg,rgba(99,102,241,0.7),rgba(59,130,246,0.7));border:1px solid rgba(129,140,248,0.25);"
+                        >
+                            <svg width="13" height="13" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                                <path d="M2 8h3M8 2v3M8 11v3M11 8h3" stroke="#fff" stroke-width="1.75" stroke-linecap="round"/>
+                                <circle cx="8" cy="8" r="2.5" fill="rgba(255,255,255,0.9)"/>
+                            </svg>
+                        </div>
+                        <span class="text-sm font-semibold" style="color:rgba(255,255,255,0.6);">
+                            The Architect's Blueprint
+                        </span>
+                    </div>
+                    <nav class="flex flex-wrap justify-center gap-x-6 gap-y-2">
+                        <a href="/" class="text-sm transition-colors" style="color:rgba(255,255,255,0.45);" onmouseover="this.style.color='rgba(255,255,255,0.85)'" onmouseout="this.style.color='rgba(255,255,255,0.45)'">Archive</a>
+                        <a href="/discover" class="text-sm transition-colors" style="color:rgba(255,255,255,0.45);" onmouseover="this.style.color='rgba(255,255,255,0.85)'" onmouseout="this.style.color='rgba(255,255,255,0.45)'">Discover</a>
+                    </nav>
+                    <p class="text-xs" style="color:rgba(255,255,255,0.3);">
+                        &copy; {new Date().getFullYear()} · Automagically generated
+                    </p>
+                </div>
             </div>
         </footer>
 
+        <!-- ── Scripts ─────────────────────────────────────────────────── -->
         <script>
+            // Mobile menu toggle
+            const toggle = document.getElementById("mobile-menu-toggle");
+            const menu = document.getElementById("mobile-menu");
+            const lines = toggle?.querySelectorAll(".hamburger-line");
+
+            toggle?.addEventListener("click", () => {
+                const isOpen = !menu?.hidden;
+                if (menu) menu.hidden = isOpen;
+                toggle.setAttribute("aria-expanded", String(!isOpen));
+                // Animate hamburger → X
+                if (lines && lines.length === 3) {
+                    const [top, mid, bot] = lines as NodeListOf<HTMLElement>;
+                    if (!isOpen) {
+                        top.style.transform = "rotate(45deg) translate(5px, 5px)";
+                        mid.style.opacity = "0";
+                        bot.style.transform = "rotate(-45deg) translate(5px, -5px)";
+                    } else {
+                        top.style.transform = "";
+                        mid.style.opacity = "";
+                        bot.style.transform = "";
+                    }
+                }
+            });
+
+            // Close menu on outside click
+            document.addEventListener("click", (e) => {
+                if (menu && !menu.hidden && toggle && !toggle.contains(e.target as Node) && !menu.contains(e.target as Node)) {
+                    menu.hidden = true;
+                    toggle.setAttribute("aria-expanded", "false");
+                    if (lines) {
+                        (lines as NodeListOf<HTMLElement>).forEach((l) => {
+                            l.style.transform = "";
+                            l.style.opacity = "";
+                        });
+                    }
+                }
+            });
+
+            // API trigger helper
             function attachTrigger(btnId: string, endpoint: string, successMsg: string) {
                 const btn = document.getElementById(btnId);
-                if (btn) {
-                    btn.addEventListener("click", async () => {
-                        const span = btn.querySelector(".btn-text") as HTMLElement;
-                        const originalText = span.innerText;
-                        span.innerText = "Triggering...";
-                        btn.setAttribute("disabled", "true");
-
-                        try {
-                            const res = await fetch(endpoint, { method: "POST" });
-                            if (res.ok) {
-                                span.innerText = successMsg;
-                            } else {
-                                span.innerText = "Failed ❌";
-                            }
-                        } catch {
-                            span.innerText = "Error ❌";
-                        }
-
-                        setTimeout(() => {
-                            span.innerText = originalText;
-                            btn.removeAttribute("disabled");
-                        }, 5000);
-                    });
-                }
+                if (!btn) return;
+                btn.addEventListener("click", async () => {
+                    const span = btn.querySelector(".btn-text") as HTMLElement | null;
+                    const originalText = span?.innerText ?? "";
+                    if (span) span.innerText = "Triggering…";
+                    btn.setAttribute("disabled", "true");
+                    try {
+                        const res = await fetch(endpoint, { method: "POST" });
+                        if (span) span.innerText = res.ok ? successMsg : "Failed ❌";
+                    } catch {
+                        if (span) span.innerText = "Error ❌";
+                    }
+                    setTimeout(() => {
+                        if (span) span.innerText = originalText;
+                        btn.removeAttribute("disabled");
+                    }, 5000);
+                });
             }
 
             attachTrigger("trigger-btn", "/api/trigger", "Pipeline Started! 🚀");
             attachTrigger("trigger-topics-btn", "/api/trigger-topics", "Topics Queued! 🚀");
+            attachTrigger("trigger-btn-mobile", "/api/trigger", "Pipeline Started! 🚀");
+            attachTrigger("trigger-topics-btn-mobile", "/api/trigger-topics", "Topics Queued! 🚀");
+
+            // Reading progress bar
+            const bar = document.getElementById("reading-progress");
+            if (bar) {
+                const update = () => {
+                    const scrolled = window.scrollY;
+                    const total = document.documentElement.scrollHeight - window.innerHeight;
+                    bar.style.width = total > 0 ? `${Math.min(100, (scrolled / total) * 100)}%` : "0%";
+                };
+                window.addEventListener("scroll", update, { passive: true });
+                update();
+            }
         </script>
     </body>
 </html>
