@@ -394,7 +394,6 @@
         "Analyzing the Performance Trade-offs of eBPF-based Observability vs. Sidecar Proxies in High-Throughput Service Meshes",
         "The Mechanics of Sharded Consensus: Deep Dive into Parallelized Transaction Ordering in Distributed Key-Value Stores",
         "The Geometry of Friction: Analyzing the Power and Thermal Constraints Forcing Hyperscalers to Adopt Spatial Compute Architectures in the Post-Photolithography Era",
-        "Deep Dive into Deterministic Simulation Testing: How Modern Distributed Databases Achieve 100% Correctness Under Fault Injection",
         "Zero-Copy Data Transfer and eBPF: Engineering High-Throughput Networking for Next-Generation Cloud-Native Proxies",
         "The Hardware-Software Co-design of Custom LLM Accelerators: Architectural Trade-offs in HBM3 and Interconnect Topology for Massive Scale Inference",
         "Decoding the Bloom Filter Cascade: How Meta Optimizes GraphQL N+1 Queries at Exabyte Scale with Probabilistic Data Structures",
@@ -979,6 +978,9 @@
         "Reducing P99 Latency in Globally Distributed Key-Value Stores via Cooperative Caching and Predictive Request Hedging",
         "Vector Database Internals: Optimizing HNSW Indexing for Billion-Scale Nearest Neighbor Search in Real-Time Recommendation Engines",
         "Eliminating Tail Latency in Multi-Tenant Environments: Implementing Programmable Egress Rate Limiting with eBPF and XDP",
-        "The Evolution of Cluster Scheduling: Investigating the Convergence of Kubernetes and Bare-Metal GPU Orchestration for Distributed Foundation Model Training"
+        "The Evolution of Cluster Scheduling: Investigating the Convergence of Kubernetes and Bare-Metal GPU Orchestration for Distributed Foundation Model Training",
+        "Optimizing Delta-State CRDTs for Low-Bandwidth Edge Synchronization in Globally Distributed Vector Databases",
+        "Analyzing the Performance Trade-offs of RDMA over Converged Ethernet (RoCE) v2 in Petascale AI Training Clusters",
+        "Implementing Zero-Downtime Deterministic Database Resharding via Log-Structured Merge-Tree Compaction Snaps"
     ]
 }
