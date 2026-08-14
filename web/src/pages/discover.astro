@@ -17,246 +17,246 @@ const totalWords = allPosts.reduce(
     (sum, post) => sum + (post.body?.trim().split(/\s+/).filter(Boolean).length ?? 0),
     0
 );
-const topics = extractTopics(allPosts, 6);
+const avgRead = Math.max(1, Math.round(totalWords / Math.max(1, allPosts.length) / 200));
+const topics = extractTopics(allPosts, 8);
 ---
 
 <Layout title="Discover | The Architect's Blueprint">
-    <section class="grid gap-8 xl:grid-cols-[1.15fr_0.85fr] items-start">
-        <div class="space-y-6">
-            <div
-                class="inline-flex items-center gap-2 rounded-full border border-indigo-400/20 bg-indigo-400/10 px-4 py-2 text-xs font-semibold uppercase tracking-[0.28em] text-indigo-200"
-            >
-                Live discovery
+    <!-- ── Page header ──────────────────────────────────────────────────── -->
+    <section class="pt-6 pb-12 sm:pt-10 animate-fade-up">
+        <div class="inline-flex items-center gap-2 rounded-full px-3.5 py-1.5 text-xs font-semibold tracking-wide mb-6"
+            style="background:rgba(129,140,248,0.1);border:1px solid rgba(129,140,248,0.2);color:#c7d2fe;">
+            Live discovery
+        </div>
+        <div class="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6">
+            <div class="max-w-2xl">
+                <h1 class="text-[clamp(2.6rem,6vw,5rem)] font-extrabold leading-[1.04] tracking-tight text-balance">
+                    Find the story behind the <span class="gradient-text">systems</span>.
+                </h1>
+                <p class="mt-4 text-lg leading-relaxed" style="color:rgba(255,255,255,0.5);">
+                    Instant search, topic shortcuts, and a rotating spotlight across the full
+                    archive of engineering deep dives.
+                </p>
+                <div class="mt-6 flex flex-wrap gap-3">
+                    <a href="/" class="btn-ghost">← View archive</a>
+                    <button type="button" data-discover-random class="btn-primary">Random spotlight ✦</button>
+                </div>
             </div>
-            <h1 class="text-[clamp(2.75rem,6vw,5.5rem)] leading-[0.95] font-bold">
-                Find the story behind the <span class="gradient-text">systems</span>.
-            </h1>
-            <p class="max-w-2xl text-lg text-zinc-300/90">
-                Browse the full archive with instant search, topic shortcuts, and a rotating
-                spotlight so the most interesting architecture notes surface fast.
-            </p>
 
-            <div class="flex flex-wrap gap-3">
-                <a
-                    href="/"
-                    class="px-5 py-3 rounded-xl font-semibold text-sm transition-all duration-300 bg-white/5 text-white border border-white/10 hover:bg-white/10 hover:border-white/30"
-                >
-                    View archive
-                </a>
-                <button
-                    type="button"
-                    data-discover-random
-                    class="px-5 py-3 rounded-xl font-semibold text-sm transition-all duration-300 bg-linear-to-br from-indigo-500/25 to-blue-500/25 text-indigo-100 border border-indigo-400/30 hover:border-indigo-300/60 hover:text-white"
-                >
-                    Random spotlight
-                </button>
+            <!-- Stats panel -->
+            <div class="glass-card p-6 shrink-0 lg:w-72 space-y-4">
+                <p class="text-xs font-semibold tracking-[0.22em] uppercase" style="color:rgba(255,255,255,0.3);">Archive pulse</p>
+                <div class="grid grid-cols-2 gap-3">
+                    <div class="stat-block">
+                        <p class="text-xs" style="color:rgba(255,255,255,0.35);">Articles</p>
+                        <p class="text-2xl font-extrabold mt-1 gradient-text">{formatCount(allPosts.length)}</p>
+                    </div>
+                    <div class="stat-block">
+                        <p class="text-xs" style="color:rgba(255,255,255,0.35);">Avg read</p>
+                        <p class="text-2xl font-extrabold mt-1 gradient-text">{avgRead}<span class="text-sm font-normal" style="color:rgba(255,255,255,0.4);">m</span></p>
+                    </div>
+                </div>
+                {
+                    latestPost && (
+                        <a
+                            href={`/blog/${latestPost.id}`}
+                            class="block rounded-xl p-4 transition-all duration-200 hover:border-indigo-400/30"
+                            style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.07);"
+                        >
+                            <p class="text-xs font-semibold tracking-[0.18em] uppercase mb-1.5" style="color:rgba(129,140,248,0.6);">Latest drop</p>
+                            <p class="text-sm font-bold leading-snug line-clamp-2">
+                                {latestPost.data.shortTitle || latestPost.data.title}
+                            </p>
+                            <p class="text-xs mt-1.5" style="color:rgba(255,255,255,0.35);">{formatBlogDate(latestPost.data.date)}</p>
+                        </a>
+                    )
+                }
             </div>
         </div>
-
-        <aside class="glass-card p-6 space-y-5">
-            <div class="flex items-center justify-between gap-4">
-                <div>
-                    <p class="text-xs uppercase tracking-[0.32em] text-zinc-500">Archive pulse</p>
-                    <h2 class="mt-2 text-2xl font-bold">What’s in the feed</h2>
-                </div>
-                <div
-                    class="rounded-full bg-indigo-400/10 px-4 py-2 text-sm font-semibold text-indigo-200"
-                >
-                    {formatCount(allPosts.length)} posts
-                </div>
-            </div>
-
-            <div class="grid grid-cols-2 gap-3">
-                <div class="rounded-2xl border border-white/10 bg-white/5 p-4">
-                    <div class="text-xs uppercase tracking-[0.24em] text-zinc-500">Latest drop</div>
-                    <div class="mt-2 text-sm font-semibold text-white">
-                        {latestPost ? formatBlogDate(latestPost.data.date) : "—"}
-                    </div>
-                </div>
-                <div class="rounded-2xl border border-white/10 bg-white/5 p-4">
-                    <div class="text-xs uppercase tracking-[0.24em] text-zinc-500">Read time</div>
-                    <div class="mt-2 text-sm font-semibold text-white">
-                        {Math.max(1, Math.round(totalWords / 200))} min total
-                    </div>
-                </div>
-            </div>
-
-            {
-                latestPost && (
-                    <a
-                        href={`/blog/${latestPost.id}`}
-                        class="block rounded-2xl border border-white/10 bg-white/5 p-4 transition-all duration-300 hover:border-indigo-400/30 hover:bg-white/10"
-                    >
-                        <div class="text-xs uppercase tracking-[0.24em] text-indigo-300/70">
-                            Latest article
-                        </div>
-                        <h3 class="mt-2 text-lg font-semibold leading-snug">
-                            {latestPost.data.shortTitle || latestPost.data.title}
-                        </h3>
-                        <p class="mt-3 text-sm text-zinc-400 line-clamp-3">
-                            {createExcerpt(latestPost.body || "", 150)}
-                        </p>
-                    </a>
-                )
-            }
-        </aside>
     </section>
 
-    <section class="mt-12 glass-card p-6">
-        <div class="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
-            <div>
-                <p class="text-xs uppercase tracking-[0.32em] text-zinc-500">Search the archive</p>
-                <h2 class="mt-2 text-2xl font-bold">Filter by topic, title, or excerpt</h2>
+    <!-- ── Search & filter ──────────────────────────────────────────────── -->
+    <section class="glass-card p-6 sm:p-8 animate-fade-up" style="animation-delay:0.12s;">
+        <div class="flex flex-col sm:flex-row sm:items-center gap-4">
+            <div class="grow">
+                <p class="text-xs font-semibold tracking-[0.22em] uppercase mb-1" style="color:rgba(255,255,255,0.3);">Search the archive</p>
+                <h2 class="text-lg font-bold">Filter by topic, title, or excerpt</h2>
             </div>
-            <label class="w-full lg:max-w-md">
+            <label class="relative w-full sm:max-w-sm">
                 <span class="sr-only">Search posts</span>
+                <svg class="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 pointer-events-none" style="color:rgba(255,255,255,0.3);" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+                    <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+                </svg>
                 <input
                     type="search"
                     data-discover-search
-                    placeholder="Search AI, cloud, databases, biotech..."
-                    class="w-full rounded-xl border border-white/10 bg-[#070518] px-4 py-3 text-sm text-white placeholder:text-zinc-500 outline-none transition-colors focus:border-indigo-400/50"
+                    placeholder="AI, cloud, databases, biotech…"
+                    class="w-full rounded-xl pl-10 pr-4 py-3 text-sm outline-none transition-all duration-200"
+                    style="background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.09);color:#eeedf7;placeholder-color:rgba(255,255,255,0.3);"
+                    onfocus="this.style.borderColor='rgba(129,140,248,0.45)';this.style.background='rgba(255,255,255,0.06)';"
+                    onblur="this.style.borderColor='rgba(255,255,255,0.09)';this.style.background='rgba(255,255,255,0.04)';"
                 />
             </label>
         </div>
 
-        <div class="mt-5 flex flex-wrap gap-2">
-            {
-                topics.map((topic) => (
-                    <button
-                        type="button"
-                        data-topic-chip
-                        data-topic-query={topic.query}
-                        class="rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-zinc-200 transition-all duration-300 hover:border-indigo-400/40 hover:bg-white/10"
-                    >
-                        {topic.label} <span class="text-zinc-500">({topic.count})</span>
+        <!-- Topic chips -->
+        {
+            topics.length > 0 && (
+                <div class="mt-5 flex flex-wrap gap-2">
+                    {topics.map((topic) => (
+                        <button
+                            type="button"
+                            data-topic-chip
+                            data-topic-query={topic.query}
+                            class="chip"
+                        >
+                            {topic.label}
+                            <span class="ml-1.5 opacity-50">({topic.count})</span>
+                        </button>
+                    ))}
+                    <button type="button" data-clear-search class="chip" style="display:none;">
+                        Clear ✕
                     </button>
-                ))
-            }
-        </div>
+                </div>
+            )
+        }
     </section>
 
-    <section class="mt-10">
-        <div class="mb-5 flex items-center justify-between gap-4">
+    <!-- ── Results ──────────────────────────────────────────────────────── -->
+    <section class="mt-10 animate-fade-up" style="animation-delay:0.2s;">
+        <div class="mb-6 flex items-center justify-between gap-4">
             <div>
-                <p class="text-xs uppercase tracking-[0.32em] text-zinc-500">All posts</p>
-                <h2 class="mt-2 text-2xl font-bold">Currently surfaced from the archive</h2>
+                <p class="text-xs font-semibold tracking-[0.22em] uppercase mb-1" style="color:rgba(255,255,255,0.3);">All posts</p>
+                <h2 class="text-lg font-bold">
+                    <span data-discover-count>{formatCount(allPosts.length)}</span> results
+                </h2>
             </div>
-            <p class="text-sm text-zinc-500">
-                <span data-discover-count>{formatCount(allPosts.length)}</span> results
-            </p>
         </div>
 
-        <div class="grid gap-6 grid-cols-[repeat(auto-fill,minmax(280px,1fr))]">
+        <div class="grid gap-5 stagger" style="grid-template-columns:repeat(auto-fill,minmax(min(100%,280px),1fr));">
             {
                 allPosts.map((post) => (
                     <a
                         href={`/blog/${post.id}`}
                         data-discover-card
                         data-search={createSearchText(post)}
-                        class="glass-card flex flex-col overflow-hidden p-6 group"
+                        class="glass-card flex flex-col overflow-hidden group"
                     >
                         {post.data.image && (
-                            <div class="-mx-6 -mt-6 mb-5 h-44 overflow-hidden">
+                            <div class="h-40 overflow-hidden shrink-0">
                                 <img
                                     src={post.data.image}
                                     alt={post.data.title}
-                                    class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                     loading="lazy"
                                 />
                             </div>
                         )}
-                        <div class="flex items-center gap-2 text-xs font-mono text-indigo-300/80">
-                            <span>{formatBlogDate(post.data.date)}</span>
-                            <span>•</span>
-                            <span>{estimateReadingTime(post.body || "")} min read</span>
-                        </div>
-                        <h3 class="mt-3 text-lg font-bold leading-tight text-white line-clamp-2">
-                            {post.data.shortTitle || post.data.title}
-                        </h3>
-                        <p class="mt-3 text-sm leading-relaxed text-zinc-400 line-clamp-4">
-                            {createExcerpt(post.body || "", 180)}
-                        </p>
-                        <div class="mt-6 flex items-center justify-between text-sm font-semibold text-indigo-200 transition-colors group-hover:text-white">
-                            <span>Open article</span>
-                            <span>→</span>
+                        <div class="flex flex-col grow p-5 gap-3">
+                            <div class="flex items-center gap-2 text-xs font-mono" style="color:rgba(129,140,248,0.65);">
+                                <span>{formatBlogDate(post.data.date)}</span>
+                                <span style="color:rgba(255,255,255,0.2);">·</span>
+                                <span>{estimateReadingTime(post.body || "")} min</span>
+                            </div>
+                            <h3 class="text-sm font-bold leading-snug line-clamp-2 text-pretty group-hover:text-indigo-200 transition-colors">
+                                {post.data.shortTitle || post.data.title}
+                            </h3>
+                            <p class="text-xs leading-relaxed line-clamp-3 mt-auto" style="color:rgba(255,255,255,0.4);">
+                                {createExcerpt(post.body || "", 150)}
+                            </p>
+                            <div class="mt-2 flex items-center gap-1.5 text-xs font-semibold transition-all duration-200 group-hover:gap-2.5" style="color:#818cf8;">
+                                Read <span aria-hidden="true">→</span>
+                            </div>
                         </div>
                     </a>
                 ))
             }
         </div>
 
+        <!-- Empty state -->
         <div
             hidden
             data-discover-empty
-            class="mt-10 rounded-2xl border border-dashed border-white/15 bg-white/5 p-8 text-center text-zinc-400"
+            class="mt-12 rounded-2xl p-10 text-center"
+            style="border:1px dashed rgba(255,255,255,0.1);background:rgba(255,255,255,0.02);"
         >
-            No posts match that search yet. Try a broader topic chip.
+            <p class="text-4xl mb-3">🔭</p>
+            <p class="font-semibold mb-1">No posts match that query.</p>
+            <p class="text-sm" style="color:rgba(255,255,255,0.4);">Try a broader term or pick a topic chip above.</p>
         </div>
     </section>
 
     <script>
-        const cards = Array.from(document.querySelectorAll("[data-discover-card]"));
-        const searchInput = document.querySelector("[data-discover-search]");
-        const topicButtons = Array.from(document.querySelectorAll("[data-topic-chip]"));
+        const cards = Array.from(document.querySelectorAll("[data-discover-card]")) as HTMLAnchorElement[];
+        const searchInput = document.querySelector("[data-discover-search]") as HTMLInputElement | null;
+        const topicButtons = Array.from(document.querySelectorAll("[data-topic-chip]")) as HTMLButtonElement[];
         const randomButton = document.querySelector("[data-discover-random]");
-        const emptyState = document.querySelector("[data-discover-empty]");
-        const resultCount = document.querySelector("[data-discover-count]");
+        const emptyState = document.querySelector("[data-discover-empty]") as HTMLElement | null;
+        const resultCount = document.querySelector("[data-discover-count]") as HTMLElement | null;
+        const clearBtn = document.querySelector("[data-clear-search]") as HTMLElement | null;
+
+        let activeChip: HTMLButtonElement | null = null;
 
         const applyFilters = () => {
-            const query =
-                searchInput instanceof HTMLInputElement
-                    ? searchInput.value.trim().toLowerCase()
-                    : "";
+            const query = searchInput?.value.trim().toLowerCase() ?? "";
             const terms = query.split(/\s+/).filter(Boolean);
             let visibleCount = 0;
 
             cards.forEach((card) => {
-                const searchText =
-                    (card instanceof HTMLElement ? card.dataset.search : undefined) ?? "";
-                const matches =
-                    terms.length === 0 || terms.every((term) => searchText.includes(term));
-                if (card instanceof HTMLElement) {
-                    card.hidden = !matches;
-                }
-
-                if (matches) {
-                    visibleCount += 1;
-                }
+                const searchText = card.dataset.search ?? "";
+                const matches = terms.length === 0 || terms.every((t) => searchText.includes(t));
+                card.hidden = !matches;
+                if (matches) visibleCount++;
             });
 
-            if (resultCount instanceof HTMLElement) {
-                resultCount.textContent = visibleCount.toString();
-            }
-
-            if (emptyState instanceof HTMLElement) {
-                emptyState.hidden = visibleCount > 0;
-            }
+            if (resultCount) resultCount.textContent = visibleCount.toString();
+            if (emptyState) emptyState.hidden = visibleCount > 0;
+            if (clearBtn) clearBtn.style.display = query ? "inline-flex" : "none";
         };
 
-        searchInput?.addEventListener("input", applyFilters);
+        searchInput?.addEventListener("input", () => {
+            // deselect chip if user types manually
+            if (activeChip) {
+                activeChip.removeAttribute("data-active");
+                activeChip = null;
+            }
+            applyFilters();
+        });
 
         topicButtons.forEach((button) => {
             button.addEventListener("click", () => {
-                const query = button.getAttribute("data-topic-query") ?? "";
+                const query = button.dataset.topicQuery ?? "";
+                const isSame = activeChip === button;
 
-                if (searchInput instanceof HTMLInputElement) {
-                    searchInput.value = query;
-                    searchInput.focus();
+                // Deselect previous
+                if (activeChip) activeChip.removeAttribute("data-active");
+
+                if (isSame) {
+                    // Toggle off
+                    activeChip = null;
+                    if (searchInput) searchInput.value = "";
+                } else {
+                    activeChip = button;
+                    button.setAttribute("data-active", "");
+                    if (searchInput) searchInput.value = query;
                 }
 
                 applyFilters();
             });
         });
 
-        randomButton?.addEventListener("click", () => {
-            const visibleCards = cards.filter((card) => !(card as HTMLElement).hidden);
-            const pool = visibleCards.length > 0 ? visibleCards : cards;
-            const randomCard = pool[Math.floor(Math.random() * pool.length)];
-            const href = randomCard?.getAttribute("href");
+        clearBtn?.addEventListener("click", () => {
+            if (searchInput) searchInput.value = "";
+            if (activeChip) { activeChip.removeAttribute("data-active"); activeChip = null; }
+            applyFilters();
+            searchInput?.focus();
+        });
 
-            if (href) {
-                window.location.assign(href);
-            }
+        randomButton?.addEventListener("click", () => {
+            const pool = cards.filter((c) => !c.hidden);
+            const target = (pool.length > 0 ? pool : cards)[Math.floor(Math.random() * (pool.length || cards.length))];
+            const href = target?.getAttribute("href");
+            if (href) window.location.assign(href);
         });
     </script>
 </Layout>
