@@ -544,7 +544,6 @@
         "Optimizing Deterministic Replay in Distributed Microservices for High-Fidelity Fault Injection at Scale",
         "Analyzing the Performance Impact of eBPF-based Observability on Kernel-Space Context Switching in Hyperscale Clusters",
         "Implementing Zero-Copy Networking and RDMA for Ultra-Low Latency in Hyperscale Distributed KV Stores",
-        "Formal Verification of Distributed Consensus Protocols: How AWS S3 Uses TLA+ to Guarantee Strong Consistency",
         "Scaling Multi-Tenant Vector Databases: Solving the Global Index Bottleneck in Retrieval-Augmented Generation at PB-Scale",
         "The Mechanics of Remote DMA (RDMA) Congestion Control in Meta’s 400G AI Superclusters",
         "Deterministic Simulation Testing for Distributed Databases: How Ant Group Ensures 99.9999% Reliability for Alipay",
@@ -983,6 +982,9 @@
         "Implementing Zero-Downtime Deterministic Database Resharding via Log-Structured Merge-Tree Compaction Snaps",
         "Formal Verification of Distributed Consensus Protocols in Sub-Millisecond Global State Management Systems",
         "Architectural Patterns for Deterministic Replayability in Large-Scale Event-Driven Microservices",
-        "Deep Dive into Tiered Storage Strategies for Petabyte-Scale Vector Databases in Generative AI Infrastructures"
+        "Deep Dive into Tiered Storage Strategies for Petabyte-Scale Vector Databases in Generative AI Infrastructures",
+        "Formal Verification of Distributed Consensus Protocols in Sub-Millisecond Global Transaction Orchestration",
+        "Implementing Zero-Copy Networking with eBPF and XDP for Multi-Terabit Edge Load Balancing",
+        "Dynamic KV Cache Compression and Tiered PagedAttention for 100k+ Context Windows in Distributed Inference Clusters"
     ]
 }
