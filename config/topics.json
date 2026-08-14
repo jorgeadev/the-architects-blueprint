@@ -311,7 +311,6 @@
         "Zero-Copy Memory Mapping and Kernel Bypass Techniques in Modern High-Frequency Trading Proxies",
         "The Evolution of Global Quorum Consistency: Formal Verification of Tiered Consensus in Hyperscale Metadata Stores",
         "Vector Database Internals: Optimizing HNSW Indexing for Trillion-Scale Semantic Search at Netflix",
-        "Bypass the Kernel: Architecting High-Throughput Storage Engines Using NVMe-over-Fabrics and SPDK",
         "Deterministic Simulation Testing: How Anthropic Ensures Consensus Consistency in Large-Scale Distributed Training",
         "Optimizing L3 Cache Contention in Multi-Tenant Hypervisors using Hardware-Assisted Resource Partitioning",
         "Architecting for 100M RPS: The Evolution of Cloudflare's Quicksilver Key-Value Store",
@@ -977,6 +976,9 @@
         "Beyond Microservices: Implementing Cell-Based Architecture and Shuffle Sharding to Achieve 99.999% Availability in Multi-Tenant SaaS Infrastructure",
         "Formal Verification of TLA+ Specifications in Amazon's S3 Strong Consistency Migration: A Deep Dive into Safety Properties",
         "The Anatomy of Meta's MTIA: Designing Custom Silicon and Software Stacks for Large-Scale Recommendation Inference",
-        "Reducing P99 Latency in Globally Distributed Key-Value Stores via Cooperative Caching and Predictive Request Hedging"
+        "Reducing P99 Latency in Globally Distributed Key-Value Stores via Cooperative Caching and Predictive Request Hedging",
+        "Vector Database Internals: Optimizing HNSW Indexing for Billion-Scale Nearest Neighbor Search in Real-Time Recommendation Engines",
+        "Eliminating Tail Latency in Multi-Tenant Environments: Implementing Programmable Egress Rate Limiting with eBPF and XDP",
+        "The Evolution of Cluster Scheduling: Investigating the Convergence of Kubernetes and Bare-Metal GPU Orchestration for Distributed Foundation Model Training"
     ]
 }
