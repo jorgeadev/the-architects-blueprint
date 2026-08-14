@@ -450,7 +450,6 @@
         "Architecting Heterogeneous Memory Hierarchies: Integrating CXL 3.0 Fabrics for Pooled DRAM in Massive Scale Multi-Tenant Clusters",
         "Deconstructing the Vector Database Bottleneck: Tiered HNSW Indexing for Trillion-Scale Semantic Search",
         "Deterministic Simulation Testing at Scale: How TigerBeetle Achieves 1 Million Transactions per Second with Formal Verification",
-        "The Architecture of Predictive Auto-scaling: Using Transformer-Based Time Series Forecasting for Proactive Capacity Planning in Global Edge Networks",
         "Implementing Zero-Copy Networking for Terabit-Scale RDMA Clusters: Solving the Congestion Control Problem in RoCEv2",
         "Re-architecting Global Service Meshes: Leveraging eBPF and Sidecarless Proxying for Sub-Millisecond Inter-Region Communication",
         "Formal verification of distributed consensus protocols in Amazon S3’s Strong Consistency layer",
@@ -981,6 +980,9 @@
         "The Evolution of Cluster Scheduling: Investigating the Convergence of Kubernetes and Bare-Metal GPU Orchestration for Distributed Foundation Model Training",
         "Optimizing Delta-State CRDTs for Low-Bandwidth Edge Synchronization in Globally Distributed Vector Databases",
         "Analyzing the Performance Trade-offs of RDMA over Converged Ethernet (RoCE) v2 in Petascale AI Training Clusters",
-        "Implementing Zero-Downtime Deterministic Database Resharding via Log-Structured Merge-Tree Compaction Snaps"
+        "Implementing Zero-Downtime Deterministic Database Resharding via Log-Structured Merge-Tree Compaction Snaps",
+        "Formal Verification of Distributed Consensus Protocols in Sub-Millisecond Global State Management Systems",
+        "Architectural Patterns for Deterministic Replayability in Large-Scale Event-Driven Microservices",
+        "Deep Dive into Tiered Storage Strategies for Petabyte-Scale Vector Databases in Generative AI Infrastructures"
     ]
 }
