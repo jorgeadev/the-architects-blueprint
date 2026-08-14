@@ -17,130 +17,170 @@ interface Props {
 }
 
 const { page } = Astro.props;
+const isFirstPage = page.currentPage === 1;
+const featuredPost = isFirstPage ? page.data[0] : null;
+const gridPosts = isFirstPage ? page.data.slice(1) : page.data;
 ---
 
 <Layout title="The Architect's Blueprint | Engineering Blog">
-    <section class="grid gap-8 xl:grid-cols-[1.1fr_0.9fr] items-start px-4 pt-16 pb-20">
-        <div class="space-y-6">
-            <h1 class="text-[clamp(3rem,6vw,5rem)] leading-[1.05] font-bold">
-                <span class="gradient-text">Architecting</span> the Future.
-            </h1>
-            <p class="max-w-155 text-xl text-zinc-300">
-                Deep dives on big tech infra, scale, and the pulse of modern engineering.
-            </p>
-            <div class="flex flex-wrap gap-3">
-                <a
-                    href="/discover"
-                    class="px-5 py-3 rounded-xl font-semibold text-sm transition-all duration-300 bg-linear-to-br from-indigo-500/20 to-blue-500/20 text-indigo-100 border border-indigo-400/20 hover:border-indigo-300/50 hover:text-white"
-                >
-                    Try Discover
-                </a>
-                <a
-                    href="#archive"
-                    class="px-5 py-3 rounded-xl font-semibold text-sm transition-all duration-300 bg-white/5 text-white border border-white/10 hover:bg-white/10 hover:border-white/30"
-                >
-                    Browse archive
-                </a>
-            </div>
-        </div>
+    <!-- ── Hero ─────────────────────────────────────────────────────────── -->
+    {
+        isFirstPage && (
+            <section class="pt-8 pb-16 sm:pt-12 sm:pb-20 animate-fade-up">
+                <div class="inline-flex items-center gap-2 rounded-full px-3.5 py-1.5 text-xs font-semibold tracking-wide mb-6"
+                    style="background:rgba(129,140,248,0.1);border:1px solid rgba(129,140,248,0.2);color:#c7d2fe;">
+                    Engineering Blog
+                </div>
+                <div class="max-w-3xl">
+                    <h1 class="text-[clamp(2.8rem,7vw,5.5rem)] font-extrabold leading-[1.02] tracking-tight text-balance">
+                        <span class="gradient-text">Architecting</span><br />the Future.
+                    </h1>
+                    <p class="mt-5 text-lg sm:text-xl leading-relaxed max-w-2xl" style="color:rgba(255,255,255,0.55);">
+                        Deep dives into big‑tech infrastructure, distributed systems, and the
+                        pulse of modern engineering — generated, curated, and served fresh.
+                    </p>
+                </div>
+                <div class="mt-8 flex flex-wrap gap-3">
+                    <a href="/discover" class="btn-primary">
+                        Explore all posts →
+                    </a>
+                    <a href="#archive" class="btn-ghost">
+                        Browse archive
+                    </a>
+                </div>
+            </section>
+        )
+    }
 
-        <aside class="glass-card p-6 space-y-4">
-            <div>
-                <p class="text-xs uppercase tracking-[0.32em] text-zinc-500">Browse smarter</p>
-                <h2 class="mt-2 text-2xl font-bold">Discover the searchable archive</h2>
-            </div>
-            <p class="text-sm text-zinc-400">
-                The new discover view surfaces topic chips, random spotlights, and fast filtering
-                across the full archive.
-            </p>
-            <div class="rounded-2xl border border-white/10 bg-white/5 p-4">
-                <div class="text-xs uppercase tracking-[0.24em] text-zinc-500">Quick actions</div>
-                <ul class="mt-3 space-y-2 text-sm text-zinc-300">
-                    <li>• Search by keyword or excerpt</li>
-                    <li>• Jump to AI, cloud, biotech, or databases</li>
-                    <li>• Open a random post when you want inspiration</li>
-                </ul>
-            </div>
-        </aside>
-    </section>
-
-    <section
-        id="archive"
-        transition:animate="fade"
-        class="grid grid-cols-[repeat(auto-fill,minmax(320px,1fr))] gap-8"
-    >
-        {
-            page.data.map((post) => (
+    <!-- ── Featured post (first page only) ──────────────────────────────── -->
+    {
+        featuredPost && (
+            <section class="mb-14 animate-fade-up" style="animation-delay:0.12s;">
+                <div class="mb-4 flex items-center justify-between gap-4">
+                    <p class="text-xs font-semibold tracking-[0.22em] uppercase" style="color:rgba(129,140,248,0.7);">Featured</p>
+                </div>
                 <a
-                    href={`/blog/${post.id}`}
-                    class="glass-card flex flex-col p-8 min-h-50 overflow-hidden group"
+                    href={`/blog/${featuredPost.id}`}
+                    class="glass-card group flex flex-col lg:flex-row overflow-hidden"
+                    style="min-height:22rem;"
                 >
-                    {post.data.image && (
-                        <div class="-mx-8 -mt-8 mb-6 h-48 overflow-hidden">
+                    {featuredPost.data.image && (
+                        <div class="lg:w-2/5 h-56 lg:h-auto overflow-hidden shrink-0">
                             <img
-                                src={post.data.image}
-                                alt={post.data.title}
-                                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                                loading="lazy"
+                                src={featuredPost.data.image}
+                                alt={featuredPost.data.title}
+                                class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                                loading="eager"
                             />
                         </div>
                     )}
-                    <div class="post-content grow flex flex-col">
-                        <div class="font-mono text-sm text-indigo-300/80 mb-3 flex flex-wrap items-center gap-2">
-                            <span>{formatBlogDate(post.data.date)}</span>
-                            <span>•</span>
-                            <span>{estimateReadingTime(post.body || "")} min read</span>
+                    <div class="flex flex-col justify-center p-8 lg:p-12 gap-4 grow">
+                        <div class="flex flex-wrap items-center gap-2 text-xs font-mono" style="color:rgba(129,140,248,0.7);">
+                            <span>{formatBlogDate(featuredPost.data.date)}</span>
+                            <span style="color:rgba(255,255,255,0.2);">•</span>
+                            <span>{estimateReadingTime(featuredPost.body || "")} min read</span>
                         </div>
-                        <h2
-                            class="text-lg m-0 leading-tight font-bold mb-3 line-clamp-2"
-                            title={post.data.title}
-                        >
-                            {post.data.shortTitle || post.data.title}
+                        <h2 class="text-2xl sm:text-3xl font-extrabold leading-tight tracking-tight text-balance">
+                            {featuredPost.data.shortTitle || featuredPost.data.title}
                         </h2>
-                        {post.body && (
-                            <p class="text-sm text-zinc-400 line-clamp-3 leading-relaxed mt-auto">
-                                {createExcerpt(post.body || "", 180)}
+                        {featuredPost.body && (
+                            <p class="text-base leading-relaxed line-clamp-3" style="color:rgba(255,255,255,0.5);">
+                                {createExcerpt(featuredPost.body, 260)}
                             </p>
                         )}
+                        <span class="inline-flex items-center gap-2 text-sm font-semibold transition-all duration-200 group-hover:gap-3.5" style="color:#818cf8;">
+                            Read article <span aria-hidden="true">→</span>
+                        </span>
                     </div>
                 </a>
-            ))
-        }
-    </section>
+            </section>
+        )
+    }
 
-    <div class="mt-16 flex items-center justify-center gap-6">
+    <!-- ── Archive grid ──────────────────────────────────────────────────── -->
+    <section
+        id="archive"
+        transition:animate="fade"
+        class="animate-fade-up"
+        style="animation-delay:0.2s;"
+    >
         {
-            page.url.prev ? (
-                <a
-                    href={page.url.prev}
-                    class="px-6 py-2.5 rounded-lg font-sans font-semibold text-sm transition-all duration-300 bg-white/5 text-white border border-white/10 hover:bg-white/10 hover:border-white/30 hover:-translate-y-0.5"
-                >
-                    ← Previous
-                </a>
-            ) : (
-                <span class="px-6 py-2.5 rounded-lg font-sans font-semibold text-sm bg-white/5 text-zinc-600 border border-white/5 cursor-not-allowed">
-                    ← Previous
-                </span>
+            !isFirstPage && (
+                <div class="mb-8">
+                    <p class="text-xs font-semibold tracking-[0.22em] uppercase mb-1" style="color:rgba(129,140,248,0.6);">Archive</p>
+                    <h2 class="text-2xl font-bold">Page {page.currentPage}</h2>
+                </div>
             )
         }
 
-        <span class="text-zinc-400 font-mono text-sm">
-            Page {page.currentPage} of {page.lastPage}
+        <div class="grid gap-6 stagger" style="grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr));">
+            {
+                gridPosts.map((post) => (
+                    <a
+                        href={`/blog/${post.id}`}
+                        class="glass-card flex flex-col overflow-hidden group"
+                    >
+                        {post.data.image && (
+                            <div class="h-44 overflow-hidden shrink-0">
+                                <img
+                                    src={post.data.image}
+                                    alt={post.data.title}
+                                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                                    loading="lazy"
+                                />
+                            </div>
+                        )}
+                        <div class="flex flex-col grow p-6 gap-3">
+                            <div class="flex flex-wrap items-center gap-1.5 text-xs font-mono" style="color:rgba(129,140,248,0.65);">
+                                <span>{formatBlogDate(post.data.date)}</span>
+                                <span style="color:rgba(255,255,255,0.2);">·</span>
+                                <span>{estimateReadingTime(post.body || "")} min</span>
+                            </div>
+                            <h3 class="text-base font-bold leading-snug line-clamp-2 text-pretty" style="color:#eeedf7;">
+                                {post.data.shortTitle || post.data.title}
+                            </h3>
+                            {post.body && (
+                                <p class="text-sm leading-relaxed line-clamp-3 mt-auto" style="color:rgba(255,255,255,0.42);">
+                                    {createExcerpt(post.body, 160)}
+                                </p>
+                            )}
+                            <div class="mt-2 flex items-center gap-1.5 text-xs font-semibold transition-all duration-200 group-hover:gap-2.5" style="color:#818cf8;">
+                                Read <span aria-hidden="true">→</span>
+                            </div>
+                        </div>
+                    </a>
+                ))
+            }
+        </div>
+    </section>
+
+    <!-- ── Pagination ─────────────────────────────────────────────────────── -->
+    <nav
+        class="mt-16 flex items-center justify-center gap-4"
+        aria-label="Pagination"
+    >
+        {
+            page.url.prev ? (
+                <a href={page.url.prev} class="btn-ghost">
+                    ← Previous
+                </a>
+            ) : (
+                <span class="btn-ghost opacity-30 cursor-not-allowed select-none">← Previous</span>
+            )
+        }
+
+        <span class="font-mono text-sm px-4 py-2 rounded-lg" style="background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.07);color:rgba(255,255,255,0.45);">
+            {page.currentPage} / {page.lastPage}
         </span>
 
         {
             page.url.next ? (
-                <a
-                    href={page.url.next}
-                    class="px-6 py-2.5 rounded-lg font-sans font-semibold text-sm transition-all duration-300 bg-linear-to-br from-indigo-500/20 to-blue-500/20 text-indigo-200 border border-indigo-500/30 hover:bg-linear-to-br hover:from-indigo-500/40 hover:to-blue-500/40 hover:border-indigo-400/50 hover:text-white hover:-translate-y-0.5 shadow-[0_0_15px_-3px_rgba(99,102,241,0.2)] hover:shadow-[0_4px_20px_-3px_rgba(99,102,241,0.4)]"
-                >
+                <a href={page.url.next} class="btn-primary">
                     Next →
                 </a>
             ) : (
-                <span class="px-6 py-2.5 rounded-lg font-sans font-semibold text-sm bg-white/5 text-zinc-600 border border-white/5 cursor-not-allowed">
-                    Next →
-                </span>
+                <span class="btn-primary opacity-30 cursor-not-allowed select-none">Next →</span>
             )
         }
-    </div>
+    </nav>
 </Layout>
