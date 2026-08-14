@@ -12,27 +12,78 @@ const TOPIC_DEFINITIONS: TopicDefinition[] = [
     {
         label: "AI & Models",
         query: "ai llm model gpu training",
-        keywords: ["ai", "llm", "llms", "model", "models", "gpu", "gpus", "training", "inference", "multimodal"],
+        keywords: [
+            "ai",
+            "llm",
+            "llms",
+            "model",
+            "models",
+            "gpu",
+            "gpus",
+            "training",
+            "inference",
+            "multimodal",
+        ],
     },
     {
         label: "Data & Streaming",
         query: "data stream kafka pipeline analytics",
-        keywords: ["data", "stream", "streaming", "kafka", "pipeline", "analytics", "warehouse", "event", "events"],
+        keywords: [
+            "data",
+            "stream",
+            "streaming",
+            "kafka",
+            "pipeline",
+            "analytics",
+            "warehouse",
+            "event",
+            "events",
+        ],
     },
     {
         label: "Cloud & Infra",
         query: "cloud infra serverless distributed hyperscale",
-        keywords: ["cloud", "infra", "infrastructure", "serverless", "distributed", "hyperscale", "kubernetes", "edge"],
+        keywords: [
+            "cloud",
+            "infra",
+            "infrastructure",
+            "serverless",
+            "distributed",
+            "hyperscale",
+            "kubernetes",
+            "edge",
+        ],
     },
     {
         label: "Databases",
         query: "database spanner storage consistency sharding",
-        keywords: ["database", "databases", "spanner", "storage", "consistency", "sharding", "replication", "transaction", "cxl"],
+        keywords: [
+            "database",
+            "databases",
+            "spanner",
+            "storage",
+            "consistency",
+            "sharding",
+            "replication",
+            "transaction",
+            "cxl",
+        ],
     },
     {
         label: "Biotech",
         query: "bio crispr genome protein medicine",
-        keywords: ["bio", "biology", "biotech", "crispr", "genome", "genomics", "protein", "rna", "medicine", "phage"],
+        keywords: [
+            "bio",
+            "biology",
+            "biotech",
+            "crispr",
+            "genome",
+            "genomics",
+            "protein",
+            "rna",
+            "medicine",
+            "phage",
+        ],
     },
     {
         label: "Observability",
@@ -42,12 +93,32 @@ const TOPIC_DEFINITIONS: TopicDefinition[] = [
     {
         label: "Networking",
         query: "network latency rdma optics router",
-        keywords: ["network", "networks", "latency", "rdma", "optical", "optics", "router", "interconnect", "packet"],
+        keywords: [
+            "network",
+            "networks",
+            "latency",
+            "rdma",
+            "optical",
+            "optics",
+            "router",
+            "interconnect",
+            "packet",
+        ],
     },
     {
         label: "Product",
         query: "product search recommendation feed ui ux",
-        keywords: ["product", "feature", "search", "recommendation", "recommendations", "feed", "ui", "ux", "experience"],
+        keywords: [
+            "product",
+            "feature",
+            "search",
+            "recommendation",
+            "recommendations",
+            "feed",
+            "ui",
+            "ux",
+            "experience",
+        ],
     },
 ];
 
@@ -108,7 +179,7 @@ export function createExcerpt(body: string, maxLength = 180) {
 }
 
 export function createSearchText(post: BlogPost) {
-    return [post.data.title, post.data.shortTitle, createExcerpt(post.body, 220)]
+    return [post.data.title, post.data.shortTitle, createExcerpt(post.body || "", 220)]
         .filter(Boolean)
         .join(" ")
         .toLowerCase();
@@ -130,13 +201,16 @@ export function extractTopics(posts: BlogPost[], limit = 6) {
         };
     });
 
-    return topics.filter((topic) => topic.count > 0).sort((left, right) => {
-        if (left.count !== right.count) {
-            return right.count - left.count;
-        }
+    return topics
+        .filter((topic) => topic.count > 0)
+        .sort((left, right) => {
+            if (left.count !== right.count) {
+                return right.count - left.count;
+            }
 
-        return left.label.localeCompare(right.label);
-    }).slice(0, limit);
+            return left.label.localeCompare(right.label);
+        })
+        .slice(0, limit);
 }
 
 export function formatCount(value: number) {
