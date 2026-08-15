@@ -276,7 +276,6 @@
         "The Hidden Complexity of Meta's Massive Fiber Backbone: How Optical Circuit Switching and Wavelength Division Multiplexing Survive a 400Gbps Core Meltdown",
         "Google's Jupiter Evolving: Optical Circuit Switching and the New Congestion Control Plane for AGI Clusters",
         "Morphed microarchitectures: how hyperscalers are replacing traditional hypervisors with lightweight, hardware-backed enclave orchestrators for sub-millisecond tenant isolation",
-        "The physics of packet pacing: analyzing Google's Jupiter Rising and the shift from distributed load balancers to in-network congestion control at the ExaFLOPS scale",
         "The Cache Hierarchy of the Internet: Dissecting Netflix's Distributed Memcached and Point-of-Presence Architecture for Millions of Concurrent Streams",
         "Meta's GenAI GPU Cluster Interconnect: A Deep Dive into the Network Topology, RoCEv2 Congestion Control, and Thermal Management of 100,000-H100 Pods",
         "Implementing Zero-Copy RDMA in Petascale GPU Clusters: Solving the Memory Wall for Distributed LLM Training Fabrics",
@@ -987,6 +986,9 @@
         "Dynamic KV Cache Compression and Tiered PagedAttention for 100k+ Context Windows in Distributed Inference Clusters",
         "Inside Meta's 300MW AI data center: dissecting the optical interconnect fabric, liquid-cooled GPU racks, and the custom time-synchronized control plane that keeps training jobs below 150 microseconds of jitter.",
         "How Cloudflare's global Anycast network absorbs 7.5 Tbps DDoS attacks: a deep dive into the BPF-based packet steering, real-time edge rate limiting, and the probabilistic trie that classifies 40 million flows per second.",
-        "Google's Spanner 2.0: a technical retrospective on the new atomic clock-free TrueTime API, the Paxos-free replication protocol using Raft with epoch-based leases, and how they decoupled storage and compute to hit 100PB per shard."
+        "Google's Spanner 2.0: a technical retrospective on the new atomic clock-free TrueTime API, the Paxos-free replication protocol using Raft with epoch-based leases, and how they decoupled storage and compute to hit 100PB per shard.",
+        "Dissecting Meta's cross-DC LLaMA training: A case study in optical circuit switching and collective communication sharding at 100k GPU scale",
+        "The latency tax of global anycast: How Cloudflare's new congestion-aware BGP steering mitigates tail latency across 330 PoPs",
+        "Inside Google's Jupiter evolving to jellyfish: Analyzing the move to 128-port silicon photonics and its impact on OSFP-XD cabling density"
     ]
 }
