@@ -871,7 +871,6 @@
         "Automated Chaos Engineering at the Kernel Level: Leveraging eBPF for Real-Time Fault Injection in Massive Kubernetes Control Planes",
         "Architecting for Determinism: How Uber uses Simulation Testing to Prevent Cascading Failures in Cell-Based Environments",
         "Zero-Copy Data Planes: Leveraging eBPF and XDP for High-Throughput Packet Processing in Cloudflare’s Edge Network",
-        "Scaling AI Infrastructure: Behind Meta’s Tectonic Evolution for Sub-Millisecond Model Checkpointing at Exascale",
         "Zero-Downtime Live Migration of Petabyte-Scale Spanner Instances Across Global Regions via Custom CDC Stream Hooks",
         "Optimizing RDMA over Converged Ethernet (RoCE) for Multi-Tenant GPU Orchestration in Hyperscale LLM Training Clusters",
         "Implementing Deterministic Re-computation of Ephemeral Storage Indices in Distributed Cold-Tier S3-Compatible Object Stores",
@@ -991,6 +990,9 @@
         "Inside Google's Jupiter evolving to jellyfish: Analyzing the move to 128-port silicon photonics and its impact on OSFP-XD cabling density",
         "Dissecting the networking topology and collective communication primitives in Meta's 24,576 H100 GPU training cluster",
         "Beyond the sidecar: Implementing high-performance eBPF-based service discovery and observability in multi-region Kubernetes fleets",
-        "Architecting low-latency consistency for distributed vector databases: Lessons from scaling RAG systems to 100M+ QPS"
+        "Architecting low-latency consistency for distributed vector databases: Lessons from scaling RAG systems to 100M+ QPS",
+        "Anatomy of a Global Control Plane: Designing Multi-Region Leaderless Consensus for 10M+ Concurrent Device State Syncs",
+        "Dissecting the Thermal and Power Ceiling: How Subterranean Liquid-Cooled GPU Pods Are Redefining Data Center Topology for 100kW+ Racks",
+        "The Hidden Shard: A Post-Mortem of Metadata Journaling Failures in Exabyte-Scale Object Storage During Regional Availability Zone Failover"
     ]
 }
