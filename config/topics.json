@@ -134,7 +134,6 @@
         "Synthetic genomics and de novo genome design: Computational architectures for high-throughput gene synthesis, error correction, and biological circuit optimization.",
         "Cloud-Native Bare Metal Provisioning: Orchestration, Isolation, and Performance at Hyperscale",
         "Precision Gene Modulation: Architecting Programmable RNA Therapeutics for In Vivo Cell-Type Specificity",
-        "The architecture of disaggregated memory pools and CXL-based resource orchestration in next-gen hyperscale compute clusters.",
         "Dissecting the CXL 3.0 Coherence Protocol: How Fabric-Attached Memory Pools Break the Server Memory Wall at Exascale",
         "Behind the Bypass: How AWS's SRD and NVIDIA's Spectrum-4 Switch-Level Retransmission Redefine Lossless Ethernet for Hyperscale AI Fabrics",
         "The Role of Custom Network Fabrics and SmartNICs in Accelerating Hyperscale AI Model Training and Inference",
@@ -989,6 +988,9 @@
         "Google's Spanner 2.0: a technical retrospective on the new atomic clock-free TrueTime API, the Paxos-free replication protocol using Raft with epoch-based leases, and how they decoupled storage and compute to hit 100PB per shard.",
         "Dissecting Meta's cross-DC LLaMA training: A case study in optical circuit switching and collective communication sharding at 100k GPU scale",
         "The latency tax of global anycast: How Cloudflare's new congestion-aware BGP steering mitigates tail latency across 330 PoPs",
-        "Inside Google's Jupiter evolving to jellyfish: Analyzing the move to 128-port silicon photonics and its impact on OSFP-XD cabling density"
+        "Inside Google's Jupiter evolving to jellyfish: Analyzing the move to 128-port silicon photonics and its impact on OSFP-XD cabling density",
+        "Dissecting the networking topology and collective communication primitives in Meta's 24,576 H100 GPU training cluster",
+        "Beyond the sidecar: Implementing high-performance eBPF-based service discovery and observability in multi-region Kubernetes fleets",
+        "Architecting low-latency consistency for distributed vector databases: Lessons from scaling RAG systems to 100M+ QPS"
     ]
 }
