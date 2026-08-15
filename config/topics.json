@@ -376,7 +376,6 @@
         "Re-engineering the Edge: How Cloudflare’s Pingora Leverages Rust and Zero-Copy for 40 Million Requests per Second",
         "Beyond Eventually Consistent: Implementing Global Snapshot Isolation in Netflix's CockroachDB Multi-Region Deployment",
         "Architectural Deep Dive into Meta's MTIA: Co-designing Silicon and PyTorch Compilers for Next-Generation Recommendation Systems",
-        "Deep Dive: Implementing Multi-Tenant GPU Virtualization and RDMA-based Memory Pooling for LLM Inference Clusters",
         "Beyond Sharding: The Engineering Behind Global Strong Consistency in Geospatially Distributed Spanner-like Databases",
         "Zero-Copy Data Planes: Optimizing eBPF-driven Packet Filtering for 100Gbps+ Edge Gateway Infrastructures",
         "Eliminating Tail Latency at 10 Million QPS: A Case Study in Kernel-Bypass Networking and Sharded, Lock-Free Data Structures",
@@ -985,6 +984,9 @@
         "Deep Dive into Tiered Storage Strategies for Petabyte-Scale Vector Databases in Generative AI Infrastructures",
         "Formal Verification of Distributed Consensus Protocols in Sub-Millisecond Global Transaction Orchestration",
         "Implementing Zero-Copy Networking with eBPF and XDP for Multi-Terabit Edge Load Balancing",
-        "Dynamic KV Cache Compression and Tiered PagedAttention for 100k+ Context Windows in Distributed Inference Clusters"
+        "Dynamic KV Cache Compression and Tiered PagedAttention for 100k+ Context Windows in Distributed Inference Clusters",
+        "Inside Meta's 300MW AI data center: dissecting the optical interconnect fabric, liquid-cooled GPU racks, and the custom time-synchronized control plane that keeps training jobs below 150 microseconds of jitter.",
+        "How Cloudflare's global Anycast network absorbs 7.5 Tbps DDoS attacks: a deep dive into the BPF-based packet steering, real-time edge rate limiting, and the probabilistic trie that classifies 40 million flows per second.",
+        "Google's Spanner 2.0: a technical retrospective on the new atomic clock-free TrueTime API, the Paxos-free replication protocol using Raft with epoch-based leases, and how they decoupled storage and compute to hit 100PB per shard."
     ]
 }
