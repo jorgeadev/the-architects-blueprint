@@ -598,7 +598,6 @@
         "Deep Dive into Meta's Tectonic: Orchestrating Exabyte-Scale Distributed Storage for Generative AI Training Pipelines",
         "Re-architecting the Global Edge: How Cloudflare Utilizes Quic-go and eBPF to Optimize Zero-Copy Packet Processing",
         "Scaling Netflix’s Control Plane: Migrating from Monolithic Titus to a Geographically Distributed Federated Kubernetes Mesh",
-        "Implementing Deterministic Simulation Testing for Distributed Consensus Engines in High-Frequency Trading Systems",
         "Analyzing the Performance Impact of Kernel-Bypass Networking on Large-Scale LLM Training Clusters Using RoCE v2",
         "Architecting Multi-Layered Cache Invalidation Strategies for Globally Distributed GraphQL Subscriptions at Edge Scale",
         "Analyzing the control plane bottlenecks of a globally distributed multi-region Kubernetes cluster spanning 100,000+ nodes under a network partition event.",
@@ -997,6 +996,9 @@
         "Architecture of a PB-scale Real-time Streaming Analytics Engine: Integrating Tiered Storage with Zero-Copy RDMA Over Converged Ethernet",
         "Formal Verification of Distributed Consensus Protocols: Integrating TLA+ into CI/CD Pipelines for Zero-Downtime Infrastructure Migrations",
         "Hardware-Accelerated Memory Tiering: Leveraging CXL and Tiered Storage Architectures to Reduce p99 Latency in Global Cache Clusters",
-        "Beyond Microservices: Implementing Cell-Based Architecture and Shuffle Sharding to Isolate Blast Radius in Massive-Scale Multi-Tenant Environments"
+        "Beyond Microservices: Implementing Cell-Based Architecture and Shuffle Sharding to Isolate Blast Radius in Massive-Scale Multi-Tenant Environments",
+        "Implementing Multi-Paxos over RDMA: Optimizing Consensus Latency in Globally Distributed Metadata Stores",
+        "Hierarchical Sharding Strategies for Billion-User Social Graphs: A Deep Dive into Meta's Tao Evolution",
+        "Bypassing the Kernel with eBPF and XDP for High-Throughput Load Balancing in Bare-Metal Kubernetes Clusters"
     ]
 }
