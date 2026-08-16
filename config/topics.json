@@ -602,7 +602,6 @@
         "Analyzing the Performance Impact of Kernel-Bypass Networking on Large-Scale LLM Training Clusters Using RoCE v2",
         "Architecting Multi-Layered Cache Invalidation Strategies for Globally Distributed GraphQL Subscriptions at Edge Scale",
         "Analyzing the control plane bottlenecks of a globally distributed multi-region Kubernetes cluster spanning 100,000+ nodes under a network partition event.",
-        "How Discord rebuilt their real-time messaging consensus layer using a custom Raft variant over ScyllaDB to achieve sub-10ms p99 latency at exabyte scale.",
         "Optimizing Tail Latency in Disaggregated Storage Architectures: Lessons from Scaling NVMe-over-Fabrics at PB-Scale",
         "Deterministic Simulation Testing in Distributed Databases: Engineering Resilience Against Asynchronous Clock Skew and Network Partitions",
         "The Evolution of Global Traffic Control: Leveraging eBPF for Programmable L4 Load Balancing in Multi-Cloud Hyper-Scale Environments",
@@ -995,6 +994,9 @@
         "The Hidden Shard: A Post-Mortem of Metadata Journaling Failures in Exabyte-Scale Object Storage During Regional Availability Zone Failover",
         "Optimizing Large Language Model Inference at the Edge: Implementing KV-Cache Quantization and PagedAttention in Resource-Constrained Environments",
         "Solving the Thundering Herd Problem in Global Edge Networks using Probabilistic RPC Retries and Adaptive Load Shedding",
-        "Architecture of a PB-scale Real-time Streaming Analytics Engine: Integrating Tiered Storage with Zero-Copy RDMA Over Converged Ethernet"
+        "Architecture of a PB-scale Real-time Streaming Analytics Engine: Integrating Tiered Storage with Zero-Copy RDMA Over Converged Ethernet",
+        "Formal Verification of Distributed Consensus Protocols: Integrating TLA+ into CI/CD Pipelines for Zero-Downtime Infrastructure Migrations",
+        "Hardware-Accelerated Memory Tiering: Leveraging CXL and Tiered Storage Architectures to Reduce p99 Latency in Global Cache Clusters",
+        "Beyond Microservices: Implementing Cell-Based Architecture and Shuffle Sharding to Isolate Blast Radius in Massive-Scale Multi-Tenant Environments"
     ]
 }
