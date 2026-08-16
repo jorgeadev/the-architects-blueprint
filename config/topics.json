@@ -475,7 +475,6 @@
         "Zero-Copy Data Transfer and User-Space Networking: How Discord Migrated its Voice Gateway to Achieve Sub-Millisecond Jitter at 15M Concurrent Connections",
         "Decoding the Data Plane: A Deep Dive into VPP-based User-Space Packet Processing at Cloudflare's Edge",
         "Breaking the Amdahl Barrier: How Meta's MTIA v2 Custom Silicon Re-Architects Recommendation Inference Pipelines",
-        "The Distributed Locking Postmortem: Analyzing Thundering Herd Failures in CockroachDB's Global Replication Layer",
         "Optimizing Global Tail Latency: The Internals of Google’s Maglev Next-Gen Load Balancing with Programmable Logic",
         "Building a Billion-Event Per Second Ingestion Engine: Disaggregated Storage and Write-Ahead Log Optimization in Apache Pinot",
         "Formal Verification at Scale: How AWS Uses TLA+ to Ensure Consistency in the DynamoDB Global Tables Replication Protocol",
@@ -999,6 +998,9 @@
         "Beyond Microservices: Implementing Cell-Based Architecture and Shuffle Sharding to Isolate Blast Radius in Massive-Scale Multi-Tenant Environments",
         "Implementing Multi-Paxos over RDMA: Optimizing Consensus Latency in Globally Distributed Metadata Stores",
         "Hierarchical Sharding Strategies for Billion-User Social Graphs: A Deep Dive into Meta's Tao Evolution",
-        "Bypassing the Kernel with eBPF and XDP for High-Throughput Load Balancing in Bare-Metal Kubernetes Clusters"
+        "Bypassing the Kernel with eBPF and XDP for High-Throughput Load Balancing in Bare-Metal Kubernetes Clusters",
+        "Deep Dive into Zero-Copy Data Movement: Implementing RDMA and NVMe-over-Fabrics for Sub-Microsecond Storage Latency",
+        "Architecting Elastic Multi-Tenant Vector Databases: Balancing HNSW Indexing Precision with Sharded Horizontal Scalability",
+        "Solving the 'Thundering Herd' in Global Edge Computing: Implementing Request Collapsing and Adaptive TTLs at the CDN Layer"
     ]
 }
