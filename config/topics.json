@@ -489,7 +489,6 @@
         "Zero-Downtime Migration of Petabyte-Scale Vector Databases: Solving the Dimensionality Mismatch in Live Index Rebuilds",
         "Optimizing RDMA over Converged Ethernet (RoCE) for Multi-Tenant GPU Clusters: Lessons from Hyperscale LLM Training",
         "Deterministic Simulation Testing (DST) in Distributed Databases: Achieving Five-Nines Reliability at Petabyte Scale",
-        "Unpacking Google's Spanner: A Deep Dive into TrueTime, Distributed Consensus, and the Global Synchrony Illusion",
         "Inside the AWS Nitro System: How Hardware Offloading and MicroVM Isolation Redefine Hypervisor Overhead at Massive Scale",
         "How Stripe Scaled a Planet-Scale Database Relocation: An Engineering Postmortem on Shard Migration and Real-Time Consistency",
         "Architecting Real-Time Feature Stores for 100M+ QPS: How TikTok Scales the Monolith Recommendation Engine using Disaggregated Memory",
@@ -993,6 +992,9 @@
         "Architecting low-latency consistency for distributed vector databases: Lessons from scaling RAG systems to 100M+ QPS",
         "Anatomy of a Global Control Plane: Designing Multi-Region Leaderless Consensus for 10M+ Concurrent Device State Syncs",
         "Dissecting the Thermal and Power Ceiling: How Subterranean Liquid-Cooled GPU Pods Are Redefining Data Center Topology for 100kW+ Racks",
-        "The Hidden Shard: A Post-Mortem of Metadata Journaling Failures in Exabyte-Scale Object Storage During Regional Availability Zone Failover"
+        "The Hidden Shard: A Post-Mortem of Metadata Journaling Failures in Exabyte-Scale Object Storage During Regional Availability Zone Failover",
+        "Optimizing Large Language Model Inference at the Edge: Implementing KV-Cache Quantization and PagedAttention in Resource-Constrained Environments",
+        "Solving the Thundering Herd Problem in Global Edge Networks using Probabilistic RPC Retries and Adaptive Load Shedding",
+        "Architecture of a PB-scale Real-time Streaming Analytics Engine: Integrating Tiered Storage with Zero-Copy RDMA Over Converged Ethernet"
     ]
 }
