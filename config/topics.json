@@ -185,7 +185,6 @@
         "The architectural challenges of stateful serverless computing at extreme scale for real-time applications.",
         "Deep dive into hyperscale data center networking: Architecting P4-programmable fabrics for ultra-low latency and dynamic traffic management.",
         "Beyond CRISPR-Cas9: Exploring advanced gene editing systems and their implications for precision therapeutic development.",
-        "The evolving role of CXL in next-gen AI superclusters for memory pooling and disaggregation",
         "Architecting planetary-scale data replication and consistency across hybrid cloud environments",
         "The Architectural Principles Behind Hyperscale Real-time Anomaly Detection Systems: From Graph Neural Networks to Probabilistic Fault Injection",
         "Hardware-Software Co-Design for Next-Generation Data Center Interconnects: Disaggregated Fabrics, Silicon Photonics, and Custom ASICs",
@@ -1007,6 +1006,9 @@
         "Leveraging eBPF for Deep Packet Inspection and Dynamic Load Balancing in High-Throughput Kubernetes Service Meshes",
         "Sharding the Unshardable: Leveraging Physical Clock Synchronization for External Consistency in Globally Distributed NewSQL Engines",
         "Architecting for the GPU Wall: Solving Memory Wall Bottlenecks via CXL 3.0 and Disaggregated Memory Pools in Large-Scale Training Clusters",
-        "The Engineering Behind Dynamic Load Balancing at 400Gbps: Integrating eBPF and XDP for Programmable Packet Steering in Modern CDNs"
+        "The Engineering Behind Dynamic Load Balancing at 400Gbps: Integrating eBPF and XDP for Programmable Packet Steering in Modern CDNs",
+        "Dissecting Meta's 4D Tensor Memory Pooling: How LLaMA-3's KV-Cache Compression at 100k Context Length Avoids PCIe TLB Thrashes",
+        "The Physics of Erasure Coding: Why Azure's 42x42 Reed-Solomon Overhead on 400G ZR Optics Ditches CRC32 for Polynomial Hash Trees",
+        "Anatomy of a Global Blackout: How a Single BGP MED Attribute Exploit in Juniper's MX10K Caused a 400ms Anycast Ripple Through 97 POPs and Triggered Automatic Shard Rebalancing"
     ]
 }
