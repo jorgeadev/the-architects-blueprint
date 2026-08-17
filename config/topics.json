@@ -786,7 +786,6 @@
         "The Internals of Deterministic Simulation Testing for Eliminating Race Conditions in High-Throughput Serverless Orchestrators",
         "Implementing Hierarchical Ring-AllReduce Patterns for Multi-Petabyte LLM Training on Heterogeneous GPU Clusters",
         "Zero-Copy Serialization Protocols: Benchmarking Cap’n Proto vs. FlatBuffers in Low-Latency HFT Infrastructure",
-        "Deterministic Simulation Testing (DST) in Distributed Systems: How TigerBeetle and FoundationDB Eliminate Heisenbugs at Scale",
         "Optimizing KV Cache Fragmentation: PagedAttention and Memory Management Strategies for Large-Scale LLM Serving",
         "Orchestrating 100,000+ GPU Clusters: The Networking Architecture Behind Training Next-Gen Frontier Models via RoCE v2 and InfiniBand Hybrid Fabrics",
         "Re-architecting the Distributed Lock Manager: How Modern Cloud Databases Leverage CXL and RDMA to Achieve 100M+ QPS at Sub-Microsecond Latency",
@@ -1005,6 +1004,9 @@
         "Mitigating P99 Latency Spikes in Globally Distributed LSM-Tree Based Databases via Predictive Compaction Scheduling",
         "Formal Verification of Distributed Transaction Protocols in TLA+ for Ultra-Low Latency Cross-Region Consensus",
         "Optimizing NVMe-over-Fabrics (NVMe-oF) for Multi-Tenant Disaggregated Storage Architectures in Hyperscale Data Centers",
-        "Leveraging eBPF for Deep Packet Inspection and Dynamic Load Balancing in High-Throughput Kubernetes Service Meshes"
+        "Leveraging eBPF for Deep Packet Inspection and Dynamic Load Balancing in High-Throughput Kubernetes Service Meshes",
+        "Sharding the Unshardable: Leveraging Physical Clock Synchronization for External Consistency in Globally Distributed NewSQL Engines",
+        "Architecting for the GPU Wall: Solving Memory Wall Bottlenecks via CXL 3.0 and Disaggregated Memory Pools in Large-Scale Training Clusters",
+        "The Engineering Behind Dynamic Load Balancing at 400Gbps: Integrating eBPF and XDP for Programmable Packet Steering in Modern CDNs"
     ]
 }
