@@ -641,7 +641,6 @@
         "Deterministic Simulation Testing in Distributed Systems: Engineering Fault Tolerance in Non-Deterministic Cloud Environments",
         "Dissecting the Tail-At-Standby Latency Economics: How Meta's Replacement of Memcached with RAPID on RDMA Removed Cluster-Wide Caching Inefficiencies",
         "Beyond Commodity Hardware: The Orthogonal-DRAM Architecture of Google's Axion Processors and its Impact on TPU Pod Memory Bandwidth",
-        "The Physics of PUE: Analyzing AWS's South America-Specific Direct-to-Chip Cooled Hydroelectric Data Centers and the End of Megawatt-Scale Chillers",
         "Zero-Copy Data Path Optimization: Leveraging eBPF and XDP for Terabit-Scale Distributed Load Balancing",
         "Architecting Multi-Petaflop Inference Engines: Memory Hierarchy and Interconnect Strategies for Sparse Mixture-of-Experts",
         "Leveraging eBPF for Zero-Trust Observability and Enforcement in Multi-Region Mesh Architectures",
@@ -1003,6 +1002,9 @@
         "Solving the 'Thundering Herd' in Global Edge Computing: Implementing Request Collapsing and Adaptive TTLs at the CDN Layer",
         "Implementing Hierarchical Cache-Coherent Protocols for Multi-Tenant GPU Clusters in LLM Inference Pipelines",
         "Zero-Copy Memory Management and eBPF-Driven XDP Offloading for Terabit-Scale Microservice Sidecars",
-        "Mitigating P99 Latency Spikes in Globally Distributed LSM-Tree Based Databases via Predictive Compaction Scheduling"
+        "Mitigating P99 Latency Spikes in Globally Distributed LSM-Tree Based Databases via Predictive Compaction Scheduling",
+        "Formal Verification of Distributed Transaction Protocols in TLA+ for Ultra-Low Latency Cross-Region Consensus",
+        "Optimizing NVMe-over-Fabrics (NVMe-oF) for Multi-Tenant Disaggregated Storage Architectures in Hyperscale Data Centers",
+        "Leveraging eBPF for Deep Packet Inspection and Dynamic Load Balancing in High-Throughput Kubernetes Service Meshes"
     ]
 }
