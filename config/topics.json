@@ -280,7 +280,6 @@
         "Implementing Zero-Copy RDMA in Petascale GPU Clusters: Solving the Memory Wall for Distributed LLM Training Fabrics",
         "Architecting Global Transactional Consistency: A Deep Dive into Spanner's TrueTime vs. CockroachDB's HLC in Multi-Region Deployments",
         "The Engineering of Real-Time Vector Index Sharding: Scaling Semantic Search to Multi-Billion Document Corpora with Sub-10ms Latency",
-        "Architecting geo-distributed vector databases: Solving high-dimensional nearest neighbor search at petabyte scale",
         "Optimizing GPU Interconnect Topologies: A Deep Dive into NVIDIA's Magnum IO and GPUDirect Storage at Exascale",
         "Solving the Tail Latency Problem in Globally Distributed KV Stores using Predictive Request Hedging and RDMA-Based Consensus",
         "Implementing Deterministic Simulation Testing for Distributed Consensus: Lessons from TigerBeetle and FoundationDB",
@@ -1001,6 +1000,9 @@
         "Bypassing the Kernel with eBPF and XDP for High-Throughput Load Balancing in Bare-Metal Kubernetes Clusters",
         "Deep Dive into Zero-Copy Data Movement: Implementing RDMA and NVMe-over-Fabrics for Sub-Microsecond Storage Latency",
         "Architecting Elastic Multi-Tenant Vector Databases: Balancing HNSW Indexing Precision with Sharded Horizontal Scalability",
-        "Solving the 'Thundering Herd' in Global Edge Computing: Implementing Request Collapsing and Adaptive TTLs at the CDN Layer"
+        "Solving the 'Thundering Herd' in Global Edge Computing: Implementing Request Collapsing and Adaptive TTLs at the CDN Layer",
+        "Implementing Hierarchical Cache-Coherent Protocols for Multi-Tenant GPU Clusters in LLM Inference Pipelines",
+        "Zero-Copy Memory Management and eBPF-Driven XDP Offloading for Terabit-Scale Microservice Sidecars",
+        "Mitigating P99 Latency Spikes in Globally Distributed LSM-Tree Based Databases via Predictive Compaction Scheduling"
     ]
 }
