@@ -904,7 +904,6 @@
         "Formal Verification of Distributed Consensus Protocols in Large-Scale KV Stores: A Deep Dive into TLA+ at Scale",
         "Optimizing NVMe-over-Fabrics (NVMe-oF) for Ultra-Low Latency Disaggregated Storage in Multi-Tenant Kubernetes Clusters",
         "Implementing Differential Dataflow for Real-Time Global State Synchronization in Edge Computing Mesh Networks",
-        "Formal Verification of Distributed Consensus: Scaling TLA+ Model Checking for High-Throughput Storage Engines",
         "Optimizing Tail Latencies in Multi-Tenant LLM Inference: A Deep Dive into PagedAttention and KV Cache Disaggregation",
         "Optimizing Tail Latency in Heterogeneous GPU Clusters: A Deep Dive into Collective Communication Primitives for Distributed Training",
         "Architecting Multi-Tenant Vector Search: Implementing Hardware-Accelerated SIMD Indexing for Sub-Millisecond Retrieval at Petabyte Scale",
@@ -1015,6 +1014,9 @@
         "Architecting Zero-Copy Data Planes for Terabit-Scale Service Meshes Using Shared Memory and RDMA",
         "Optimizing Tail Latency in Heterogeneous GPU Clusters: How Anthropic Manages KV Cache Fragmentation",
         "The Engineering Behind ByteDance’s Monolith: Scaling a Unified Recommendation Engine to 100M Queries Per Second",
-        "Architecting for 99.999% Reliability at the Edge: A Technical Analysis of Cloudflare's Pingora Transition"
+        "Architecting for 99.999% Reliability at the Edge: A Technical Analysis of Cloudflare's Pingora Transition",
+        "Architecting GPU Fabrics: Dissecting Meta's 24,576 H100 Cluster Interconnect and RoCE v2 Optimization",
+        "Deep Dive into WhatsApp's Erlang-Based Horizontal Scaling: Managing 100 Million Concurrent WebSocket Connections",
+        "Deterministic Simulation Testing in Distributed Storage: How FoundationDB Prevents Corruptions at Exabyte Scale"
     ]
 }
