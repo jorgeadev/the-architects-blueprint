@@ -983,7 +983,6 @@
         "Architecting low-latency consistency for distributed vector databases: Lessons from scaling RAG systems to 100M+ QPS",
         "Anatomy of a Global Control Plane: Designing Multi-Region Leaderless Consensus for 10M+ Concurrent Device State Syncs",
         "Dissecting the Thermal and Power Ceiling: How Subterranean Liquid-Cooled GPU Pods Are Redefining Data Center Topology for 100kW+ Racks",
-        "The Hidden Shard: A Post-Mortem of Metadata Journaling Failures in Exabyte-Scale Object Storage During Regional Availability Zone Failover",
         "Optimizing Large Language Model Inference at the Edge: Implementing KV-Cache Quantization and PagedAttention in Resource-Constrained Environments",
         "Solving the Thundering Herd Problem in Global Edge Networks using Probabilistic RPC Retries and Adaptive Load Shedding",
         "Architecture of a PB-scale Real-time Streaming Analytics Engine: Integrating Tiered Storage with Zero-Copy RDMA Over Converged Ethernet",
@@ -1013,6 +1012,9 @@
         "The Evolution of Global Write Consistency in Spanner-like Systems: Solving the Performance Penalty of Cross-Region Consensus",
         "Formal Verification of Distributed Consensus Protocols in Sub-Millisecond Global State Replication Systems",
         "Optimizing L1/L2 Cache Locality in Multi-Tenant eBPF-Based Cloud-Native Networking Stacks",
-        "Architecting Zero-Copy Data Planes for Terabit-Scale Service Meshes Using Shared Memory and RDMA"
+        "Architecting Zero-Copy Data Planes for Terabit-Scale Service Meshes Using Shared Memory and RDMA",
+        "Optimizing Tail Latency in Heterogeneous GPU Clusters: How Anthropic Manages KV Cache Fragmentation",
+        "The Engineering Behind ByteDance’s Monolith: Scaling a Unified Recommendation Engine to 100M Queries Per Second",
+        "Architecting for 99.999% Reliability at the Edge: A Technical Analysis of Cloudflare's Pingora Transition"
     ]
 }
