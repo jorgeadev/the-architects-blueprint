@@ -21,7 +21,6 @@
         "An deep dive into how AWS Nitro cards physically offload networking and storage from EC2 instances.",
         "Recent revolutionary advancements in WebAssembly (Wasm) and the hype around running backend services in the browser.",
         "The hype over Rust replacing C++ in foundational systems: reality, technical challenges, and major rewrites.",
-        "Decentralized consensus protocols for achieving strong consistency in a planetary-scale distributed ledger operating at millions of transactions per second.",
         "The interplay of programmable data planes and P4 with smart NICs for ultra-low-latency network function virtualization in hyperscale data centers.",
         "Disaggregated Memory Architectures and Next-Gen Interconnects: Engineering the Hyperscale AI Training Fabrics of Tomorrow",
         "The Role of Large-Scale Knowledge Graphs and AI in Accelerating Viral Variant Identification and Synthetic Biology Design",
@@ -1011,6 +1010,9 @@
         "Anatomy of a Global Blackout: How a Single BGP MED Attribute Exploit in Juniper's MX10K Caused a 400ms Anycast Ripple Through 97 POPs and Triggered Automatic Shard Rebalancing",
         "Deep Dive into the Custom L4 Load Balancing Architecture for 100Gbps+ Line Rates using XDP and eBPF",
         "Re-architecting Distributed Log-Structured Merge Trees for Multi-Layered CXL Disaggregated Memory Pools",
-        "The Evolution of Global Write Consistency in Spanner-like Systems: Solving the Performance Penalty of Cross-Region Consensus"
+        "The Evolution of Global Write Consistency in Spanner-like Systems: Solving the Performance Penalty of Cross-Region Consensus",
+        "Formal Verification of Distributed Consensus Protocols in Sub-Millisecond Global State Replication Systems",
+        "Optimizing L1/L2 Cache Locality in Multi-Tenant eBPF-Based Cloud-Native Networking Stacks",
+        "Architecting Zero-Copy Data Planes for Terabit-Scale Service Meshes Using Shared Memory and RDMA"
     ]
 }
