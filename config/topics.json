@@ -264,7 +264,6 @@
         "The network topology and bufferbloat mitigation strategies enabling Apple's Private Relay across 1.5 billion devices",
         "Dissecting the persistent memory tier and erasure coding in Meta's next-generation cold storage cluster",
         "How Cloudflare rebuilt its global Anycast control plane to support real-time DDoS mitigation at 100 Tbps",
-        "Optimizing L7 Traffic Steering in Globally Distributed Service Meshes using eBPF and XDP for Sub-millisecond Tail Latency",
         "Solving the Cold-Start Problem in Serverless GPU Orchestration for Multi-Tenant LLM Quantization Pipelines",
         "Optimizing Tail Latency in Massive-Scale Vector Search: A Deep Dive into HNSW Indexing Over Sharded Distributed Memory",
         "Strategies for Mitigating Cascading Failures in Global Service Meshes: Adaptive Concurrency Control and Proactive Load Shedding",
@@ -1009,6 +1008,9 @@
         "The Engineering Behind Dynamic Load Balancing at 400Gbps: Integrating eBPF and XDP for Programmable Packet Steering in Modern CDNs",
         "Dissecting Meta's 4D Tensor Memory Pooling: How LLaMA-3's KV-Cache Compression at 100k Context Length Avoids PCIe TLB Thrashes",
         "The Physics of Erasure Coding: Why Azure's 42x42 Reed-Solomon Overhead on 400G ZR Optics Ditches CRC32 for Polynomial Hash Trees",
-        "Anatomy of a Global Blackout: How a Single BGP MED Attribute Exploit in Juniper's MX10K Caused a 400ms Anycast Ripple Through 97 POPs and Triggered Automatic Shard Rebalancing"
+        "Anatomy of a Global Blackout: How a Single BGP MED Attribute Exploit in Juniper's MX10K Caused a 400ms Anycast Ripple Through 97 POPs and Triggered Automatic Shard Rebalancing",
+        "Deep Dive into the Custom L4 Load Balancing Architecture for 100Gbps+ Line Rates using XDP and eBPF",
+        "Re-architecting Distributed Log-Structured Merge Trees for Multi-Layered CXL Disaggregated Memory Pools",
+        "The Evolution of Global Write Consistency in Spanner-like Systems: Solving the Performance Penalty of Cross-Region Consensus"
     ]
 }
