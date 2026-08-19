@@ -3,7 +3,6 @@
         "Google's global network infrastructure, subsea cables, and data center design.",
         "How Meta handles billions of daily active users: frontend-to-backend architecture.",
         "Amazon Web Services: the true scale of their compute power and physical data center distribution.",
-        "Netflix's massive CDN, Open Connect, and how they stream petabytes of video seamlessly.",
         "What goes into designing the hardware for custom AI accelerators like Google TPUs and AWS Inferentia?",
         "Apple's private cloud infrastructure: How they manage iCloud at an unprecedented global scale.",
         "Recent disruptive tech releases or viral developer trends on social media that captivated the engineering world.",
@@ -1019,6 +1018,9 @@
         "Deterministic Simulation Testing in Distributed Storage: How FoundationDB Prevents Corruptions at Exabyte Scale",
         "Hardware-Accelerated Zero-Copy Networking: Scaling eBPF-Based Service Meshes to 100 Million Requests per Second",
         "Quantizing the Control Plane: Optimizing LLM Inference Orchestration Across Heterogeneous H100 and L40S GPU Clusters",
-        "Solving the Thundering Herd: Implementing Adaptive Load Shedding and Predictive Backpressure in Globally Distributed Edge Caches"
+        "Solving the Thundering Herd: Implementing Adaptive Load Shedding and Predictive Backpressure in Globally Distributed Edge Caches",
+        "Optimizing Zero-Copy Data Transfer for PB-Scale Real-Time Stream Processing using eBPF and RDMA",
+        "Architectural Trade-offs in Implementing Distributed KV-Cache Management for Multi-Region LLM Inference Clusters",
+        "A Deep Dive into Hierarchical Consensus Protocols for Globally Sharded Meta-Data Stores at Hyperscale"
     ]
 }
