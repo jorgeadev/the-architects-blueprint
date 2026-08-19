@@ -857,7 +857,6 @@
         "Designing Hierarchical LSM-Trees for Write-Intensive Workloads in Geographically Distributed Key-Value Stores",
         "Automated Chaos Engineering at the Kernel Level: Leveraging eBPF for Real-Time Fault Injection in Massive Kubernetes Control Planes",
         "Architecting for Determinism: How Uber uses Simulation Testing to Prevent Cascading Failures in Cell-Based Environments",
-        "Zero-Copy Data Planes: Leveraging eBPF and XDP for High-Throughput Packet Processing in Cloudflare’s Edge Network",
         "Zero-Downtime Live Migration of Petabyte-Scale Spanner Instances Across Global Regions via Custom CDC Stream Hooks",
         "Optimizing RDMA over Converged Ethernet (RoCE) for Multi-Tenant GPU Orchestration in Hyperscale LLM Training Clusters",
         "Implementing Deterministic Re-computation of Ephemeral Storage Indices in Distributed Cold-Tier S3-Compatible Object Stores",
@@ -1023,6 +1022,9 @@
         "A Deep Dive into Hierarchical Consensus Protocols for Globally Sharded Meta-Data Stores at Hyperscale",
         "Deep-Dive into NVIDIA Blackwell's NVLink Switch Chip: Architecting 1.8 TB/s All-to-All GPU Fabrics for Trillion-Parameter Models",
         "Deterministic Replay and Formal Verification in Distributed Storage: How AWS S3 Ensures Strong Consistency at Exabyte Scale",
-        "Beyond eBPF: Leveraging User-Space Networking and DPDK for Sub-Microsecond Packet Processing in High-Frequency Trading Infrastructure"
+        "Beyond eBPF: Leveraging User-Space Networking and DPDK for Sub-Microsecond Packet Processing in High-Frequency Trading Infrastructure",
+        "Optimizing Tail Latencies in Geo-Distributed Spanner Implementations using Predictive Read-Leases",
+        "Zero-Copy Networking at Scale: Integrating eBPF and DPDK for Terabit-Per-Second Packet Processing",
+        "Formal Verification of Consensus Protocols in Disaggregated Storage Architectures for 99.9999% Durability"
     ]
 }
