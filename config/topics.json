@@ -120,7 +120,6 @@
         "The Exabyte Enigma: Architecting Intelligent Tiering and Data Lineage Systems for AI Foundation Model Training Data Lakes",
         "Implementing a distributed congestion control plane for multi-tenant RDMA fabric at petabit scale",
         "Witnessing a cascading BGP blackhole: a forensic analysis of a tier-1 backbone carrier's route leak and convergence failure",
-        "The design and incremental deployment of a hardware-backed memory safety isolation layer within Google's Borg scheduler",
         "The Latency Tax: Quantifying the Cost of Multi-Region Data Consistency in Global Infrastructure Deployments",
         "Finding the Needle in the Firehose: A Postmortem on the exabyte-level indexing failure that cascaded from a single BGP misconfiguration",
         "CXL 3.0 and the Future of Disaggregated Memory Architectures in Hyperscale Data Centers",
@@ -1017,6 +1016,9 @@
         "Architecting for 99.999% Reliability at the Edge: A Technical Analysis of Cloudflare's Pingora Transition",
         "Architecting GPU Fabrics: Dissecting Meta's 24,576 H100 Cluster Interconnect and RoCE v2 Optimization",
         "Deep Dive into WhatsApp's Erlang-Based Horizontal Scaling: Managing 100 Million Concurrent WebSocket Connections",
-        "Deterministic Simulation Testing in Distributed Storage: How FoundationDB Prevents Corruptions at Exabyte Scale"
+        "Deterministic Simulation Testing in Distributed Storage: How FoundationDB Prevents Corruptions at Exabyte Scale",
+        "Hardware-Accelerated Zero-Copy Networking: Scaling eBPF-Based Service Meshes to 100 Million Requests per Second",
+        "Quantizing the Control Plane: Optimizing LLM Inference Orchestration Across Heterogeneous H100 and L40S GPU Clusters",
+        "Solving the Thundering Herd: Implementing Adaptive Load Shedding and Predictive Backpressure in Globally Distributed Edge Caches"
     ]
 }
