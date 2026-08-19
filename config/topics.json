@@ -362,7 +362,6 @@
         "Optimizing Tail Latency in Multi-Tenant LSM-Trees via Predictive Compaction and Write-Ahead Log Partitioning",
         "Beyond Sidecars: Implementing Zero-Copy Service Mesh Architectures using eBPF and XDP for Terabit-Scale Throughput",
         "Solving the Thundering Herd Problem in Globally Distributed Edge Caches through Probabilistic Request Collapsing and Backpressure Propagation",
-        "Implementing Zero-Copy Data Transfer for High-Throughput Service Meshes using eBPF and Shared Memory",
         "Deterministic Simulation Testing in Distributed Systems: Engineering Lessons from the Amazon Aurora Control Plane",
         "Deep Dive into Meta's AI Research SuperCluster: Orchestrating 24,576 H100 GPUs via RoCEv2 and InfiniBand Fabrics",
         "Re-engineering the Edge: How Cloudflare’s Pingora Leverages Rust and Zero-Copy for 40 Million Requests per Second",
@@ -1021,6 +1020,9 @@
         "Solving the Thundering Herd: Implementing Adaptive Load Shedding and Predictive Backpressure in Globally Distributed Edge Caches",
         "Optimizing Zero-Copy Data Transfer for PB-Scale Real-Time Stream Processing using eBPF and RDMA",
         "Architectural Trade-offs in Implementing Distributed KV-Cache Management for Multi-Region LLM Inference Clusters",
-        "A Deep Dive into Hierarchical Consensus Protocols for Globally Sharded Meta-Data Stores at Hyperscale"
+        "A Deep Dive into Hierarchical Consensus Protocols for Globally Sharded Meta-Data Stores at Hyperscale",
+        "Deep-Dive into NVIDIA Blackwell's NVLink Switch Chip: Architecting 1.8 TB/s All-to-All GPU Fabrics for Trillion-Parameter Models",
+        "Deterministic Replay and Formal Verification in Distributed Storage: How AWS S3 Ensures Strong Consistency at Exabyte Scale",
+        "Beyond eBPF: Leveraging User-Space Networking and DPDK for Sub-Microsecond Packet Processing in High-Frequency Trading Infrastructure"
     ]
 }
