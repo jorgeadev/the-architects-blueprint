@@ -498,7 +498,6 @@
         "Optimizing the BEAM Scheduler: Reducing Lock Contention in Multi-Terabit WhatsApp Message Relays",
         "Beyond Sidecars: Accelerating Service Mesh Performance Using eBPF-based Kernel Bypass in Global Edge Clusters",
         "Decoupling the Monolith: Netflix's Real-Time Data Mesh for Sub-Millisecond Personalization at 240 Million Subscribers",
-        "Bypassing the Kernel: How Google's gVisor and eBPF Enable Zero-Copy Packet Processing in GCP's Titanium Offload Architecture",
         "Optimizing Checkpointing Latency in Massive-Scale AI Training via 400Gbps RoCE v2 Fabric Topologies",
         "Hardware-Accelerated mTLS Offloading: Scaling Zero-Trust Service Meshes using SmartNICs in Global Data Centers",
         "Deterministic Concurrency in Geographically Distributed Databases: Implementing Hybrid Logical Clocks for Causal Consistency at Hyperscale",
@@ -1029,6 +1028,9 @@
         "The implementation of zero-copy packet processing in eBPF-driven programmable network meshes for sub-millisecond service discovery",
         "Zero-Copy Networking and eBPF: Eliminating Kernel Bottlenecks in Multi-Petabyte Distributed Object Stores",
         "Speculative Decoding at the Edge: Orchestrating Heterogeneous Compute for Low-Latency Distributed Inference",
-        "Deterministic Simulation Testing at Scale: Engineering Resilience Against Cascading Failures in Global Anycast Networks"
+        "Deterministic Simulation Testing at Scale: Engineering Resilience Against Cascading Failures in Global Anycast Networks",
+        "Implementing Zero-Copy Networking and eBPF-based Offloading for 100Gbps Low-Latency Service Meshes",
+        "Optimizing Checkpoint-Restart Protocols for Multi-Exabyte Distributed LLM Training on Heterogeneous GPU Clusters",
+        "Designing Deterministic State Machine Replication for Real-Time Global Consistency in Serverless Edge Computing"
     ]
 }
