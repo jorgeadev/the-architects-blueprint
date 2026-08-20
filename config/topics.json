@@ -1003,7 +1003,6 @@
         "Re-architecting Distributed Log-Structured Merge Trees for Multi-Layered CXL Disaggregated Memory Pools",
         "The Evolution of Global Write Consistency in Spanner-like Systems: Solving the Performance Penalty of Cross-Region Consensus",
         "Formal Verification of Distributed Consensus Protocols in Sub-Millisecond Global State Replication Systems",
-        "Optimizing L1/L2 Cache Locality in Multi-Tenant eBPF-Based Cloud-Native Networking Stacks",
         "Architecting Zero-Copy Data Planes for Terabit-Scale Service Meshes Using Shared Memory and RDMA",
         "Optimizing Tail Latency in Heterogeneous GPU Clusters: How Anthropic Manages KV Cache Fragmentation",
         "The Engineering Behind ByteDance’s Monolith: Scaling a Unified Recommendation Engine to 100M Queries Per Second",
@@ -1031,6 +1030,9 @@
         "Deterministic Simulation Testing at Scale: Engineering Resilience Against Cascading Failures in Global Anycast Networks",
         "Implementing Zero-Copy Networking and eBPF-based Offloading for 100Gbps Low-Latency Service Meshes",
         "Optimizing Checkpoint-Restart Protocols for Multi-Exabyte Distributed LLM Training on Heterogeneous GPU Clusters",
-        "Designing Deterministic State Machine Replication for Real-Time Global Consistency in Serverless Edge Computing"
+        "Designing Deterministic State Machine Replication for Real-Time Global Consistency in Serverless Edge Computing",
+        "Optimizing L1/L2 cache locality in multi-tenant eBPF-based service meshes: A study on tail latency reduction at 100M RPS",
+        "The evolution of CXL 3.0: Architecting memory-disaggregated systems for petabyte-scale LLM training clusters",
+        "Deterministic replay and formal verification of distributed state machines in high-frequency trading infrastructure"
     ]
 }
