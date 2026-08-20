@@ -459,7 +459,6 @@
         "Solving the Data Locality Problem: How Uber Migrated to a Geo-Distributed Micro-Storage Layer with Integrated Caching",
         "Implementing Zero-Trust Networking at the NIC Level: Offloading eBPF to SmartNICs for Sub-Microsecond Service Mesh Latency",
         "Architecting Globally Consistent Event Streaming: Overcoming Speed-of-Light Constraints in Multi-Cloud Kafka Deployments",
-        "Optimizing Collective Communication: Meta’s Custom RoCE Network Stack for 24,576 H100 GPU Clusters",
         "Beyond Raft: Analyzing the Deterministic State Machine Replication in Discord’s Global Persistent Message Store Migration",
         "Implementing Zero-Copy Networking in Netflix’s Open Connect CDN via eBPF and XDP",
         "Scaling Meta’s Tectonic File System for 100k GPU Clusters: Architecting for Exascale AI Training",
@@ -1025,6 +1024,9 @@
         "Beyond eBPF: Leveraging User-Space Networking and DPDK for Sub-Microsecond Packet Processing in High-Frequency Trading Infrastructure",
         "Optimizing Tail Latencies in Geo-Distributed Spanner Implementations using Predictive Read-Leases",
         "Zero-Copy Networking at Scale: Integrating eBPF and DPDK for Terabit-Per-Second Packet Processing",
-        "Formal Verification of Consensus Protocols in Disaggregated Storage Architectures for 99.9999% Durability"
+        "Formal Verification of Consensus Protocols in Disaggregated Storage Architectures for 99.9999% Durability",
+        "Optimizing tail latency in ultra-high-throughput RDMA-based storage fabrics for LLM training clusters",
+        "Formal verification of distributed consensus protocols in multi-tenant edge compute runtimes",
+        "The implementation of zero-copy packet processing in eBPF-driven programmable network meshes for sub-millisecond service discovery"
     ]
 }
