@@ -40,7 +40,6 @@
         "Architecting Post-Quantum Cryptography Migrations for Hyperscale Cloud Infrastructure",
         "The Engineering Challenges of Maintaining Strong Global Consistency in Hyperscale Distributed Transactional Databases",
         "Computational Design and Large-Scale Synthesis Pipelines for Novel Oncolytic Virotherapy Agents",
-        "The Physics of Viral Propagation: Engineering the Sub-Second Edge Caching System Behind a Billion-View TikTok Trend",
         "Deconstructing Meta's Threads: The Real-Time Fanout and State Synchronization Architecture at Instagram Scale",
         "Beyond Sharding: Google's Next-Gen Spanner and the Physics of Globally Consistent, Low-Latency Databases",
         "Deconstructing Meta's Threads: The Real-Time Graph Sync Architecture at Planetary Scale",
@@ -1033,6 +1032,9 @@
         "Designing Deterministic State Machine Replication for Real-Time Global Consistency in Serverless Edge Computing",
         "Optimizing L1/L2 cache locality in multi-tenant eBPF-based service meshes: A study on tail latency reduction at 100M RPS",
         "The evolution of CXL 3.0: Architecting memory-disaggregated systems for petabyte-scale LLM training clusters",
-        "Deterministic replay and formal verification of distributed state machines in high-frequency trading infrastructure"
+        "Deterministic replay and formal verification of distributed state machines in high-frequency trading infrastructure",
+        "Deep Dive into Meta’s 24,576 GPU Clusters: Optimizing RDMA over Converged Ethernet (RoCE) for Large Language Model Training at Scale",
+        "Formal Verification of Distributed Consensus: How AWS uses TLA+ to prevent cascading failures in S3’s Strong Consistency layer",
+        "Zero-Copy Data Transfer and Ring-Based I/O: Re-engineering Netflix’s Content Delivery Network for 800Gbps Throughput per Node"
     ]
 }
