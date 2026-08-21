@@ -845,7 +845,6 @@
         "Zero-Copy Data Transfer and Kernel Bypass Techniques: Building Ultra-Low Latency Messaging Middleware for High-Frequency Trading Systems",
         "Designing Spanner-like Globally Distributed Transaction Managers with Hybrid Physical-Logical Clocks for 99.999% Availability",
         "Optimizing Zero-Copy Data Movement in High-Throughput Distributed Message Brokers using eBPF and XDP",
-        "Architecting Deterministic Replayability in Large-Scale Distributed State Machines for Hyper-Scale Financial Systems",
         "Mitigating Tail Latency in Heterogeneous Hardware Clusters: A Study on Congestion-Aware Routing and Hardware-Offloaded Load Balancing",
         "Implementing Zero-Copy Data Movement in Distributed Storage Clusters for Multi-Petabyte Throughput",
         "Designing Hierarchical LSM-Trees for Write-Intensive Workloads in Geographically Distributed Key-Value Stores",
@@ -1039,6 +1038,9 @@
         "Hierarchical Consensus: Scaling Paxos and Raft across Heterogeneous Cloud Availability Zones",
         "Optimizing L4/L7 Multi-Tenant Traffic Shaping in Global Edge Meshes: A Deep Dive into eBPF-based Congestion Control",
         "Solving the Tail Latency Dilemma in Geo-Distributed Spanner-Clone Architectures via Predictive Multi-Paxos Leadership",
-        "Scaling Real-Time Vector Indexing for Billion-Scale Embeddings: The Infrastructure Behind Distributed Approximate Nearest Neighbor Search"
+        "Scaling Real-Time Vector Indexing for Billion-Scale Embeddings: The Infrastructure Behind Distributed Approximate Nearest Neighbor Search",
+        "Optimizing RDMA-over-Converged-Ethernet (RoCE) v2 for Low-Latency Gradient Synchronizations in Hyper-Scale GPU Clusters",
+        "Formal Verification of TLA+ Specifications for Shared-Log Architecture in Distributed Transactional Storage Systems",
+        "Analyzing the Impact of Kernel-Bypass I/O via io_uring on High-Throughput Service Mesh Sidecar Performance"
     ]
 }
