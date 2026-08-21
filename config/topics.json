@@ -380,7 +380,6 @@
         "Implementing Hierarchical Cell-Based Routing to Mitigate Blast Radios in Global-Scale Anycast Networks",
         "Analyzing the Performance Trade-offs of eBPF-based Observability vs. Sidecar Proxies in High-Throughput Service Meshes",
         "The Mechanics of Sharded Consensus: Deep Dive into Parallelized Transaction Ordering in Distributed Key-Value Stores",
-        "The Geometry of Friction: Analyzing the Power and Thermal Constraints Forcing Hyperscalers to Adopt Spatial Compute Architectures in the Post-Photolithography Era",
         "Zero-Copy Data Transfer and eBPF: Engineering High-Throughput Networking for Next-Generation Cloud-Native Proxies",
         "The Hardware-Software Co-design of Custom LLM Accelerators: Architectural Trade-offs in HBM3 and Interconnect Topology for Massive Scale Inference",
         "Decoding the Bloom Filter Cascade: How Meta Optimizes GraphQL N+1 Queries at Exabyte Scale with Probabilistic Data Structures",
@@ -1037,6 +1036,9 @@
         "Zero-Copy Data Transfer and Ring-Based I/O: Re-engineering Netflix’s Content Delivery Network for 800Gbps Throughput per Node",
         "Vector Database Sharding: Implementing Proximity-Aware Index Partitioning for Billion-Scale Embedding Spaces",
         "Bypassing the Kernel Bottleneck: High-Throughput Packet Processing using DPDK and eBPF in Hyperscale Load Balancers",
-        "Hierarchical Consensus: Scaling Paxos and Raft across Heterogeneous Cloud Availability Zones"
+        "Hierarchical Consensus: Scaling Paxos and Raft across Heterogeneous Cloud Availability Zones",
+        "Optimizing L4/L7 Multi-Tenant Traffic Shaping in Global Edge Meshes: A Deep Dive into eBPF-based Congestion Control",
+        "Solving the Tail Latency Dilemma in Geo-Distributed Spanner-Clone Architectures via Predictive Multi-Paxos Leadership",
+        "Scaling Real-Time Vector Indexing for Billion-Scale Embeddings: The Infrastructure Behind Distributed Approximate Nearest Neighbor Search"
     ]
 }
