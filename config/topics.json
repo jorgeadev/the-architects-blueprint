@@ -826,7 +826,6 @@
         "Beyond Raft: Implementing Deterministic State Machine Replication for Global Low-Latency Consensus in Edge Computing",
         "Implementing Zero-Copy Networking and eBPF-Based Load Balancing for 100Gbps Line Rates",
         "Leveraging Formal Verification and TLA+ for Identifying Race Conditions in High-Throughput Event Sourcing Engines",
-        "Architecting Zero-Copy RDMA Transports for Terabit-Scale Distributed Training of Ultra-Large Language Models",
         "Deep Dive: Implementing Multi-Region Vector Sharding and Re-ranking in Sub-100ms Latency RAG Pipelines",
         "The Evolution of Cellular-Based Microsegmentation: Scaling Control Planes to Ten Million Isolated Tenants in Bare-Metal Clouds",
         "Implementing Hardware-Accelerated Zero-Copy RDMA Transports for Terabit-Scale Distributed Key-Value Stores",
@@ -1041,6 +1040,9 @@
         "Scaling Real-Time Vector Indexing for Billion-Scale Embeddings: The Infrastructure Behind Distributed Approximate Nearest Neighbor Search",
         "Optimizing RDMA-over-Converged-Ethernet (RoCE) v2 for Low-Latency Gradient Synchronizations in Hyper-Scale GPU Clusters",
         "Formal Verification of TLA+ Specifications for Shared-Log Architecture in Distributed Transactional Storage Systems",
-        "Analyzing the Impact of Kernel-Bypass I/O via io_uring on High-Throughput Service Mesh Sidecar Performance"
+        "Analyzing the Impact of Kernel-Bypass I/O via io_uring on High-Throughput Service Mesh Sidecar Performance",
+        "Implementing Zero-Trust at the Edge: Leveraging eBPF for Granular Network Isolation in Multi-Tenant Kubernetes Clusters",
+        "Deterministic Simulation Testing for Distributed Consensus: Formal Verification of Geo-Replicated State Machines",
+        "Optimizing Tail Latencies in Tiered Storage: Predictive Cache Warming for Petabyte-Scale Object Stores"
     ]
 }
