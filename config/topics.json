@@ -332,7 +332,6 @@
         "The Mechanics of Cross-Region Deterministic Replay for Debugging Distributed Consensus Failures in Production",
         "Architecting Multi-Tenant Vector Search: Isolation Strategies for Billion-Scale Embeddings in Serverless Environments",
         "Implementing Zero-Copy Networking and RDMA for Ultra-Low Latency Distributed Consensus in NVMe-over-Fabrics",
-        "Optimizing Tail Latency in Multi-Tenant GPU Clusters: A Deep Dive into Strategic Compute Preemption and KV-Cache Paging",
         "Architecting Zero-Trust Control Planes for Sub-Millisecond Global Traffic Shifting at Edge-Scale Infrastructure",
         "Formal Verification of Consensus Stability in Heterogeneous Hardware Environments: Lessons from Scaling High-Throughput Distributed Ledgers",
         "Deterministic Simulation Testing: Building Verifiable Consistency in High-Throughput Distributed State Machines",
@@ -1043,6 +1042,9 @@
         "Analyzing the Impact of Kernel-Bypass I/O via io_uring on High-Throughput Service Mesh Sidecar Performance",
         "Implementing Zero-Trust at the Edge: Leveraging eBPF for Granular Network Isolation in Multi-Tenant Kubernetes Clusters",
         "Deterministic Simulation Testing for Distributed Consensus: Formal Verification of Geo-Replicated State Machines",
-        "Optimizing Tail Latencies in Tiered Storage: Predictive Cache Warming for Petabyte-Scale Object Stores"
+        "Optimizing Tail Latencies in Tiered Storage: Predictive Cache Warming for Petabyte-Scale Object Stores",
+        "Formal Verification of Multi-Paxos Consensus in Distributed Metadata Stores: A Deep Dive into High-Availability Consistency Models",
+        "Optimizing NVMe-over-Fabrics for Sub-Millisecond Tail Latencies in Multi-Petabyte Object Storage Tiers",
+        "Dynamic Weight Offloading and KV Cache Paging Strategies for Heterogeneous GPU Clusters in Global Inference Infrastructures"
     ]
 }
