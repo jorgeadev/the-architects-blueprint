@@ -735,7 +735,6 @@
         "Implementing Zero-Trust Architecture at Scale: Leveraging eBPF for Granular Micro-segmentation in Kubernetes Clusters",
         "Architecting Multi-region Active-Active Databases: Solving Data Gravity and Write Conflicts with CRDTs and Vector Clocks",
         "High-throughput Observability Pipelines: Engineering an OpenTelemetry-based Distributed Tracing System for 100M+ Requests per Second",
-        "Optimizing Hot-Path Path Traversal in Distributed Graph Databases using Hardware-Accelerated SIMD Instructions",
         "Implementing Formal Verification for Real-Time Consensus Protocols in Large-Scale Sharded Ledger Systems",
         "Beyond Kubernetes: Designing Custom Orchestration Layers for Specialized AI Accelerator Clusters in Hyperscale Data Centers",
         "Optimizing RoCE v2 for 100k+ GPU Clusters: Solving Congestion Control and Tail Latency in Large-Scale AI Training Fabrics",
@@ -1045,6 +1044,9 @@
         "Optimizing Tail Latencies in Tiered Storage: Predictive Cache Warming for Petabyte-Scale Object Stores",
         "Formal Verification of Multi-Paxos Consensus in Distributed Metadata Stores: A Deep Dive into High-Availability Consistency Models",
         "Optimizing NVMe-over-Fabrics for Sub-Millisecond Tail Latencies in Multi-Petabyte Object Storage Tiers",
-        "Dynamic Weight Offloading and KV Cache Paging Strategies for Heterogeneous GPU Clusters in Global Inference Infrastructures"
+        "Dynamic Weight Offloading and KV Cache Paging Strategies for Heterogeneous GPU Clusters in Global Inference Infrastructures",
+        "Implementing Zero-Copy Data Planes in High-Throughput Microservices using eBPF and Shared Memory",
+        "Solving Tail Latency in Globally Distributed Databases via Request Hedging and Speculative Execution",
+        "Architecting Deterministic Replay Engines for Debugging Race Conditions in Distributed Consensus Protocols"
     ]
 }
