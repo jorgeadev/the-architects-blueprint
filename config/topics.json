@@ -197,7 +197,6 @@
         "Practical Challenges and Architectural Solutions for Hyper-Scale Post-Quantum Cryptography Migration in Cloud Infrastructure",
         "Beyond Microservices: The Rise of WebAssembly-Powered Nanoservices and Serverless Edge Compute Architectures",
         "Engineering Novel Phage Therapies: Designing and Scaling the Computational Pipelines for Precision Virome Modulation",
-        "Beyond AAV: Exploring novel viral vectors and directed evolution for next-generation precision gene therapy delivery systems.",
         "The Architecture of Hyperscale Ephemeral Block Storage for Serverless Workloads: Durability and Latency at Petabyte Scale",
         "Optical Circuit Switching and Programmable Data Planes: Reshaping Inter-DC Traffic Engineering for Exascale Cloud Infrastructure",
         "Architecting Multi-Tenant, Petabyte-Scale Data Lakes for Real-time AI/ML Training: A Deep Dive into Distributed Query Optimization",
@@ -1055,6 +1054,9 @@
         "Deterministic Simulation Testing at Scale: How Anthropic Ensures Consistency Across Massively Distributed Training Clusters",
         "Optimizing Tail Latency in Hyper-Scale Key-Value Stores via eBPF-Driven Request Steering",
         "The Anatomy of Zero-Copy Data Movement in Petabyte-Scale Distributed Mesh Architectures",
-        "Achieving Deterministic Concurrency Control in Multi-Tenant Serverless Execution Environments"
+        "Achieving Deterministic Concurrency Control in Multi-Tenant Serverless Execution Environments",
+        "Optimizing L3 Cache Locality in Multi-Tenant Kubernetes Clusters using eBPF and Hardware Topology Hints",
+        "Implementing Probabilistic Data Structures for Real-time Cardinality Estimation at Petabyte Scale in Distributed OLAP Engines",
+        "A Deep Dive into Formal Verification of Distributed State Machines for High-Availability Storage Layers"
     ]
 }
