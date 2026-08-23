@@ -258,7 +258,6 @@
         "The Architectural Deep Dive into Quantization and Indexing Algorithms for Exabyte-Scale Vector Databases",
         "The network topology and bufferbloat mitigation strategies enabling Apple's Private Relay across 1.5 billion devices",
         "Dissecting the persistent memory tier and erasure coding in Meta's next-generation cold storage cluster",
-        "How Cloudflare rebuilt its global Anycast control plane to support real-time DDoS mitigation at 100 Tbps",
         "Solving the Cold-Start Problem in Serverless GPU Orchestration for Multi-Tenant LLM Quantization Pipelines",
         "Optimizing Tail Latency in Massive-Scale Vector Search: A Deep Dive into HNSW Indexing Over Sharded Distributed Memory",
         "Strategies for Mitigating Cascading Failures in Global Service Meshes: Adaptive Concurrency Control and Proactive Load Shedding",
@@ -1051,6 +1050,9 @@
         "Hyper-Parameter Sharding: Overcoming Networking Bottlenecks in Training Trillion-Parameter MoE Models across Geo-Distributed Data Centers",
         "Implementing Zero-Copy Networking with eBPF and XDP for Multi-Terabit Edge Gateways",
         "Deterministic Simulation Testing in Distributed Databases: Ensuring Linearizability at Scale",
-        "The Anatomy of LLM Serving Infrastructure: Optimizing KV-Cache Management across Geo-Distributed GPU Clusters"
+        "The Anatomy of LLM Serving Infrastructure: Optimizing KV-Cache Management across Geo-Distributed GPU Clusters",
+        "Optimizing NVMe-over-Fabrics for Tier-0 Storage at ByteDance: Lessons from a 100PB Deployment",
+        "Solving the Thundering Herd: How Netflix Implemented Priority-Aware Congestion Control in their Global Edge Gateway",
+        "Deterministic Simulation Testing at Scale: How Anthropic Ensures Consistency Across Massively Distributed Training Clusters"
     ]
 }
