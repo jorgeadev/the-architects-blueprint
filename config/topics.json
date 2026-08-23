@@ -145,7 +145,6 @@
         "The emerging architectural patterns for synthetic viral vector design optimization using reinforcement learning for in-vivo gene therapy delivery.",
         "The architectural blueprint for integrating Post-Quantum Cryptography into existing hyperscale cloud infrastructure, detailing performance implications and migration strategies.",
         "Architecting next-generation serverless platforms for real-time, low-latency AI inference at the extreme edge, focusing on cold start mitigation and state synchronization.",
-        "The architectural implications of adopting memory-semantic network fabrics (e.g., CXL) for ultra-low-latency AI model serving at scale.",
         "Deep learning-guided de novo design of synthetic viral vectors for ultra-specific in vivo cell targeting and gene therapy delivery.",
         "Architecting Exabyte-Scale Real-time Stream Processing for Global User Engagement Platforms",
         "The Deep Technical Challenges of Deploying Custom AI Accelerators Across Hyperscale Edge Networks",
@@ -1053,6 +1052,9 @@
         "The Anatomy of LLM Serving Infrastructure: Optimizing KV-Cache Management across Geo-Distributed GPU Clusters",
         "Optimizing NVMe-over-Fabrics for Tier-0 Storage at ByteDance: Lessons from a 100PB Deployment",
         "Solving the Thundering Herd: How Netflix Implemented Priority-Aware Congestion Control in their Global Edge Gateway",
-        "Deterministic Simulation Testing at Scale: How Anthropic Ensures Consistency Across Massively Distributed Training Clusters"
+        "Deterministic Simulation Testing at Scale: How Anthropic Ensures Consistency Across Massively Distributed Training Clusters",
+        "Optimizing Tail Latency in Hyper-Scale Key-Value Stores via eBPF-Driven Request Steering",
+        "The Anatomy of Zero-Copy Data Movement in Petabyte-Scale Distributed Mesh Architectures",
+        "Achieving Deterministic Concurrency Control in Multi-Tenant Serverless Execution Environments"
     ]
 }
