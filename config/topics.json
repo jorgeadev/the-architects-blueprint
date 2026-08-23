@@ -872,7 +872,6 @@
         "Leveraging RoCE v2 and Hierarchical Congestion Control for Training 100T Parameter Models at Meta Scale",
         "Deep Dive into ByteDance’s Monolith: Real-time Parameter Servers for Exabyte-scale Feature Stores",
         "Zero-Downtime Migration of Global Distributed State: How Cloudflare Rebuilt its Edge Key-Value Store",
-        "Architecting Near-Memory Processing for Terabyte-Scale Vector Databases: Mitigating the Data Movement Bottleneck in LLM Inference",
         "Implementing Zero-Knowledge Provenance in Large-Scale Distributed Build Systems to Thwart Software Supply Chain Attacks",
         "Leveraging eBPF for Programmable Congestion Control in Multi-Tenant RDMA Over Converged Ethernet (RoCE) Fabrics",
         "Deep Dive into Deterministic Simulation Testing: Hardening Distributed State Machines against Heisenbugs in Mission-Critical Infrastructure",
@@ -1049,6 +1048,9 @@
         "Architecting Deterministic Replay Engines for Debugging Race Conditions in Distributed Consensus Protocols",
         "Deterministic Simulation Testing for Distributed LSM-Tree Storage Engines: A Deep Dive into Fault Injection and State Machine Verification",
         "Zero-Trust Mesh Topology: Scaling eBPF-based Observability in 100k+ Node Multi-Cloud Kubernetes Clusters",
-        "Hyper-Parameter Sharding: Overcoming Networking Bottlenecks in Training Trillion-Parameter MoE Models across Geo-Distributed Data Centers"
+        "Hyper-Parameter Sharding: Overcoming Networking Bottlenecks in Training Trillion-Parameter MoE Models across Geo-Distributed Data Centers",
+        "Implementing Zero-Copy Networking with eBPF and XDP for Multi-Terabit Edge Gateways",
+        "Deterministic Simulation Testing in Distributed Databases: Ensuring Linearizability at Scale",
+        "The Anatomy of LLM Serving Infrastructure: Optimizing KV-Cache Management across Geo-Distributed GPU Clusters"
     ]
 }
