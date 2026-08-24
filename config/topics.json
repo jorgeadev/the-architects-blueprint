@@ -268,7 +268,6 @@
         "The Cache Hierarchy of the Internet: Dissecting Netflix's Distributed Memcached and Point-of-Presence Architecture for Millions of Concurrent Streams",
         "Meta's GenAI GPU Cluster Interconnect: A Deep Dive into the Network Topology, RoCEv2 Congestion Control, and Thermal Management of 100,000-H100 Pods",
         "Implementing Zero-Copy RDMA in Petascale GPU Clusters: Solving the Memory Wall for Distributed LLM Training Fabrics",
-        "Architecting Global Transactional Consistency: A Deep Dive into Spanner's TrueTime vs. CockroachDB's HLC in Multi-Region Deployments",
         "The Engineering of Real-Time Vector Index Sharding: Scaling Semantic Search to Multi-Billion Document Corpora with Sub-10ms Latency",
         "Optimizing GPU Interconnect Topologies: A Deep Dive into NVIDIA's Magnum IO and GPUDirect Storage at Exascale",
         "Solving the Tail Latency Problem in Globally Distributed KV Stores using Predictive Request Hedging and RDMA-Based Consensus",
@@ -1061,6 +1060,9 @@
         "Optimizing LSM-Tree Compaction Strategies for Multi-Tenant Write-Intensive Workloads in Globally Distributed Databases",
         "Implementing Multi-Tenant Resource Isolation in Serverless GPU Clusters for LLM Fine-Tuning",
         "Zero-Copy Data Movement: Optimizing NVMe-over-Fabrics for Petabyte-Scale Vector Embeddings",
-        "Deconstructing Deterministic Replay in Distributed Microservices: A Deep Dive into Service Mesh State Machines"
+        "Deconstructing Deterministic Replay in Distributed Microservices: A Deep Dive into Service Mesh State Machines",
+        "Evaluating the Trade-offs of User-Space Networking for High-Throughput NVMe-over-Fabrics Clusters",
+        "Architecting Zero-Copy Data Pipelines for Real-Time LLM Fine-Tuning at Petabyte Scale",
+        "Mitigating Cascading Failures in Distributed Rate Limiters via Adaptive Priority Queuing and Load Shedding"
     ]
 }
