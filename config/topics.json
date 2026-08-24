@@ -675,7 +675,6 @@
         "Implementing Deterministic Simulation Testing for High-Throughput Distributed SQL Consensus Engines",
         "Optimizing Tail Latency in Multi-Tenant Zero-Trust Architectures via eBPF-Driven Kernel Bypass Networking",
         "The Evolution of Global State Synchronization: Leveraging Hybrid Logical Clocks in Geographically Sharded Metadata Stores",
-        "Deterministic Query Execution and Consensus Primitives in Planetary-Scale Log-Structured Merge-Tree Databases",
         "Bypassing the Kernel Bottleneck: High-Performance Packet Processing with eBPF and AF_XDP in Cloud-Native Ingress Gateways",
         "Architecting Zero-Trust Microsegmentation for Ultra-Low Latency FinTech Mesh Networks using Hardware-Accelerated mTLS",
         "Formal Verification of Distributed Locking Mechanisms in Amazon Aurora's Storage Layer",
@@ -1057,6 +1056,9 @@
         "Achieving Deterministic Concurrency Control in Multi-Tenant Serverless Execution Environments",
         "Optimizing L3 Cache Locality in Multi-Tenant Kubernetes Clusters using eBPF and Hardware Topology Hints",
         "Implementing Probabilistic Data Structures for Real-time Cardinality Estimation at Petabyte Scale in Distributed OLAP Engines",
-        "A Deep Dive into Formal Verification of Distributed State Machines for High-Availability Storage Layers"
+        "A Deep Dive into Formal Verification of Distributed State Machines for High-Availability Storage Layers",
+        "Implementing Zero-Copy Data Planes for High-Throughput GPU-to-GPU Communication in Large-Scale Training Clusters",
+        "Architecting Conflict-Free Replicated Data Types (CRDTs) for Sub-Millisecond State Synchronization in Multi-Player Edge Environments",
+        "Optimizing LSM-Tree Compaction Strategies for Multi-Tenant Write-Intensive Workloads in Globally Distributed Databases"
     ]
 }
