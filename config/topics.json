@@ -642,7 +642,6 @@
         "Engineering Zero-Downtime Migration of Legacy Monolith Databases to Sharded Vitess Clusters under 1M QPS Workloads",
         "Dissecting Meta’s custom 400G/800G optical switch fabric: how tunable lasers and silicon photonics eliminate the traditional electronic packet switch in the datacenter spine.",
         "The zoo of tail-tolerant designs: a quantitative analysis of speculative load balancing, selective replication, and hedged requests in Google’s production storage tier.",
-        "How Microsoft deployed superconductor-enabled quantum-accelerated VMs in Azure: deep-dive into the topological qubit control stack and the cryogenic network bridge.",
         "Implementing Zero-Copy Networking and RDMA over RoCEv2 for Teraparameter Model Training Clusters",
         "Solving Tail Latency Amplification in Multi-Tenant Cell-Based Architectures at 100M Requests per Second",
         "Formal Verification of Distributed Consensus Protocols in Sub-Millisecond Edge Computing Environments",
@@ -1063,6 +1062,9 @@
         "Deconstructing Deterministic Replay in Distributed Microservices: A Deep Dive into Service Mesh State Machines",
         "Evaluating the Trade-offs of User-Space Networking for High-Throughput NVMe-over-Fabrics Clusters",
         "Architecting Zero-Copy Data Pipelines for Real-Time LLM Fine-Tuning at Petabyte Scale",
-        "Mitigating Cascading Failures in Distributed Rate Limiters via Adaptive Priority Queuing and Load Shedding"
+        "Mitigating Cascading Failures in Distributed Rate Limiters via Adaptive Priority Queuing and Load Shedding",
+        "Leveraging eBPF for Zero-Copy Networking in Petabyte-Scale Object Storage Systems",
+        "Designing Multi-Region Consensus Protocols for Sub-Millisecond Tail Latency in Edge-Compute Environments",
+        "The Architecture of Real-Time Vector Indexing for Billions of Embeddings in Distributed RAG Pipelines"
     ]
 }
