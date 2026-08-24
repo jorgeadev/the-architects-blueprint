@@ -998,7 +998,6 @@
         "Deep Dive into WhatsApp's Erlang-Based Horizontal Scaling: Managing 100 Million Concurrent WebSocket Connections",
         "Deterministic Simulation Testing in Distributed Storage: How FoundationDB Prevents Corruptions at Exabyte Scale",
         "Hardware-Accelerated Zero-Copy Networking: Scaling eBPF-Based Service Meshes to 100 Million Requests per Second",
-        "Quantizing the Control Plane: Optimizing LLM Inference Orchestration Across Heterogeneous H100 and L40S GPU Clusters",
         "Solving the Thundering Herd: Implementing Adaptive Load Shedding and Predictive Backpressure in Globally Distributed Edge Caches",
         "Optimizing Zero-Copy Data Transfer for PB-Scale Real-Time Stream Processing using eBPF and RDMA",
         "Architectural Trade-offs in Implementing Distributed KV-Cache Management for Multi-Region LLM Inference Clusters",
@@ -1059,6 +1058,9 @@
         "A Deep Dive into Formal Verification of Distributed State Machines for High-Availability Storage Layers",
         "Implementing Zero-Copy Data Planes for High-Throughput GPU-to-GPU Communication in Large-Scale Training Clusters",
         "Architecting Conflict-Free Replicated Data Types (CRDTs) for Sub-Millisecond State Synchronization in Multi-Player Edge Environments",
-        "Optimizing LSM-Tree Compaction Strategies for Multi-Tenant Write-Intensive Workloads in Globally Distributed Databases"
+        "Optimizing LSM-Tree Compaction Strategies for Multi-Tenant Write-Intensive Workloads in Globally Distributed Databases",
+        "Implementing Multi-Tenant Resource Isolation in Serverless GPU Clusters for LLM Fine-Tuning",
+        "Zero-Copy Data Movement: Optimizing NVMe-over-Fabrics for Petabyte-Scale Vector Embeddings",
+        "Deconstructing Deterministic Replay in Distributed Microservices: A Deep Dive into Service Mesh State Machines"
     ]
 }
