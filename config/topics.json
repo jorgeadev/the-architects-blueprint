@@ -488,7 +488,6 @@
         "Zero-Bubble Pipeline Parallelism: Scaling Synchronous Training Across 24,000 H100 GPUs for Llama 3",
         "Optimizing the BEAM Scheduler: Reducing Lock Contention in Multi-Terabit WhatsApp Message Relays",
         "Beyond Sidecars: Accelerating Service Mesh Performance Using eBPF-based Kernel Bypass in Global Edge Clusters",
-        "Decoupling the Monolith: Netflix's Real-Time Data Mesh for Sub-Millisecond Personalization at 240 Million Subscribers",
         "Optimizing Checkpointing Latency in Massive-Scale AI Training via 400Gbps RoCE v2 Fabric Topologies",
         "Hardware-Accelerated mTLS Offloading: Scaling Zero-Trust Service Meshes using SmartNICs in Global Data Centers",
         "Deterministic Concurrency in Geographically Distributed Databases: Implementing Hybrid Logical Clocks for Causal Consistency at Hyperscale",
@@ -1069,6 +1068,9 @@
         "Architecting Formal Verification into Distributed Consensus Layers for Mission-Critical Financial Infrastructure",
         "Implementing Sub-Millisecond Global State Consistency Using Probabilistic Data Structures in Edge-Native Environments",
         "Optimizing Tail Latency in Hyperscale Vector Databases Through Hardware-Accelerated Hierarchical Navigable Small World Graphs",
-        "The Mechanics of Zero-Copy Packet Processing: Rebuilding Terabit-Scale Load Balancers with eBPF and XDP Integration"
+        "The Mechanics of Zero-Copy Packet Processing: Rebuilding Terabit-Scale Load Balancers with eBPF and XDP Integration",
+        "Architecting Zero-Trust Microsegmentation at Terabit Scale: Lessons from Cloudflare’s QUIC-based Control Plane",
+        "Optimizing P99.9 Latency in Large Language Model Inference: Solving KV-Cache Fragmentation with PagedAttention Strategies",
+        "Solving the Thundering Herd Problem in Global Multi-Region Spanner Deployments via Asynchronous Commit Pipelining"
     ]
 }
