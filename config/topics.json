@@ -637,7 +637,6 @@
         "Formal Verification of Consensus Protocols in Multi-Region Sharded Databases: Mitigating Edge Cases in Hybrid Logical Clock Implementations",
         "Optimizing Tail Latency in PB-scale Distributed Key-Value Stores via User-Space Networking and eBPF-driven Request Steering",
         "Formal Verification of Weak Consistency Models in Global Multi-Leader Database Architectures using TLA+",
-        "Engineering Zero-Downtime Migration of Legacy Monolith Databases to Sharded Vitess Clusters under 1M QPS Workloads",
         "Dissecting Meta’s custom 400G/800G optical switch fabric: how tunable lasers and silicon photonics eliminate the traditional electronic packet switch in the datacenter spine.",
         "The zoo of tail-tolerant designs: a quantitative analysis of speculative load balancing, selective replication, and hedged requests in Google’s production storage tier.",
         "Implementing Zero-Copy Networking and RDMA over RoCEv2 for Teraparameter Model Training Clusters",
@@ -1071,6 +1070,9 @@
         "The Mechanics of Zero-Copy Packet Processing: Rebuilding Terabit-Scale Load Balancers with eBPF and XDP Integration",
         "Architecting Zero-Trust Microsegmentation at Terabit Scale: Lessons from Cloudflare’s QUIC-based Control Plane",
         "Optimizing P99.9 Latency in Large Language Model Inference: Solving KV-Cache Fragmentation with PagedAttention Strategies",
-        "Solving the Thundering Herd Problem in Global Multi-Region Spanner Deployments via Asynchronous Commit Pipelining"
+        "Solving the Thundering Herd Problem in Global Multi-Region Spanner Deployments via Asynchronous Commit Pipelining",
+        "Re-architecting Global Edge Discovery: How Anycast BGP and Quic-based Load Balancing Minimize P99 Latency at 100Tbps",
+        "Inside the Distributed Consensus of Modern Vector Databases: Managing Consistency and Throughput in Billions of High-Dimensional Embeddings",
+        "Leveraging Hardware-Accelerated TEEs for Confidential Computing in Multi-Cloud Kubernetes Orchestration"
     ]
 }
