@@ -7,7 +7,6 @@
         "Apple's private cloud infrastructure: How they manage iCloud at an unprecedented global scale.",
         "Recent disruptive tech releases or viral developer trends on social media that captivated the engineering world.",
         "How Netflix achieved Multi-Region High Availability and zero downtime evacuations.",
-        "TikTok’s recommendation algorithm infrastructure: serving ultra-personalized videos to over a billion users.",
         "AWS DynamoDB under the hood: how Amazon scales a NoSQL database seamlessly across regions.",
         "Reddit’s handling of immense traffic spikes during viral world events or massive AMAs.",
         "Slack’s transition to a modern real-time architecture to reduce client CPU usage and handle massive channels.",
@@ -1065,6 +1064,9 @@
         "Mitigating Cascading Failures in Distributed Rate Limiters via Adaptive Priority Queuing and Load Shedding",
         "Leveraging eBPF for Zero-Copy Networking in Petabyte-Scale Object Storage Systems",
         "Designing Multi-Region Consensus Protocols for Sub-Millisecond Tail Latency in Edge-Compute Environments",
-        "The Architecture of Real-Time Vector Indexing for Billions of Embeddings in Distributed RAG Pipelines"
+        "The Architecture of Real-Time Vector Indexing for Billions of Embeddings in Distributed RAG Pipelines",
+        "Optimizing Tail Latency in Distributed Storage Systems via Predictive I/O Scheduling and NVMe-over-Fabrics",
+        "The Evolution of Global Traffic Engineering: Moving from Anycast to Segment Routing over IPv6",
+        "Architecting Formal Verification into Distributed Consensus Layers for Mission-Critical Financial Infrastructure"
     ]
 }
