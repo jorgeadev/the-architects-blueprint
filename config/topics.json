@@ -109,7 +109,6 @@
         "Optimizing Inferencing Latency for Trillion-Parameter AI Models in Geo-Distributed Data Centers",
         "Beyond Paxos and Raft: Exploring Quorum-Less Distributed State Management for Planetary-Scale Edge Compute",
         "The architectural evolution of large language model serving: from static endpoints to dynamic, multi-tenant inference graphs.",
-        "Architecting Trillion-Parameter AI: The Role of Optical Interconnects and Network Fabric Topologies",
         "Next-Gen Gene Delivery: Engineering AAV Serotypes and Non-Viral Nanoparticle Encapsulation for Advanced Therapies",
         "CRISPR-Associated Transposons (CASTs): Leveraging RNA-Guided Integration Systems for Large-Scale Genomic Engineering Beyond Double-Strand Breaks",
         "Global Atomic Consensus: Engineering High-Throughput, Low-Latency Transactional Integrity Across Geo-Distributed Cloud Infrastructures",
@@ -1077,6 +1076,9 @@
         "How Netflix's Chaos Engineering 2.0 uses eBPF to inject kernel-level faults into their Mandalay CDN, causing cascading failure drills that simulate a full AWS us-east-1 blackout",
         "Implementing eBPF-based congestion control for ultra-low latency RDMA in massive-scale GPU clusters",
         "Optimizing multi-tier KV cache eviction strategies for petabyte-scale multi-tenant LLM inference",
-        "The mechanics of deterministic simulation testing for verifying distributed consistency in hyperscale transactional stores"
+        "The mechanics of deterministic simulation testing for verifying distributed consistency in hyperscale transactional stores",
+        "Dissecting Meta's 150ms cold-start optimization for LLaMA-3 inference across a 100k-GPU cluster using disaggregated KV-cache and CXL-memory tiering",
+        "Inside the 10-million-RPM distributed lock: How Google's Spanner achieves sub-microsecond quorum writes in a planetary-scale, multi-colored logical clock with witness-based conflict resolution",
+        "War-story analysis of the 2024 AWS us-east-1 'packet-echo storm': Root-causing a control-plane feedback loop triggered by a single misconfigured BGP route reflector at 40 Tbps aggregate throughput"
     ]
 }
