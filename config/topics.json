@@ -104,7 +104,6 @@
         "Real-Time Inference at Scale: Engineering AI Model Serving Infrastructure for Billions of Daily Queries",
         "Petabyte-Scale Genomics: Building Secure and Performant Pipelines for Population-Level Biomedical Data",
         "CRISPR-Cas9 System Repurposing for Programmable Epigenetic Modifiers: Challenges in Off-Target Effects and Delivery Vector Optimization for Therapeutic Scaling",
-        "Optimizing Peta-Scale Distributed Transactional Systems for Global Consistency and Ultra-Low Latency",
         "The Network Architecture Evolution Driving Multi-Trillion Parameter AI Model Training: Beyond Clos Topologies",
         "Programmable Genetic Circuits: Designing and Deploying CRISPR-Cas Systems for Advanced Cellular Diagnostics and Therapeutics",
         "Optimizing Inferencing Latency for Trillion-Parameter AI Models in Geo-Distributed Data Centers",
@@ -1073,6 +1072,9 @@
         "Solving the Thundering Herd Problem in Global Multi-Region Spanner Deployments via Asynchronous Commit Pipelining",
         "Re-architecting Global Edge Discovery: How Anycast BGP and Quic-based Load Balancing Minimize P99 Latency at 100Tbps",
         "Inside the Distributed Consensus of Modern Vector Databases: Managing Consistency and Throughput in Billions of High-Dimensional Embeddings",
-        "Leveraging Hardware-Accelerated TEEs for Confidential Computing in Multi-Cloud Kubernetes Orchestration"
+        "Leveraging Hardware-Accelerated TEEs for Confidential Computing in Multi-Cloud Kubernetes Orchestration",
+        "Dissecting Meta's 100TB/s spine fabric: How they replaced BGP with a centralized SDN controller and segment routing to survive a 40% traffic surge in 48 hours",
+        "The hidden cost of quorum: A deep dive into CockroachDB's consensus latency at 10,000 nodes and why ZooKeeper became the bottleneck for LinkedIn's feed graph",
+        "How Netflix's Chaos Engineering 2.0 uses eBPF to inject kernel-level faults into their Mandalay CDN, causing cascading failure drills that simulate a full AWS us-east-1 blackout"
     ]
 }
