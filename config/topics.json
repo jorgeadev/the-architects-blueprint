@@ -549,7 +549,6 @@
         "Architecting Global-Scale eBPF Observability Planes: Real-Time Kernel-Level Telemetry Without Context Switching Overheads",
         "Building zero-copy data planes: Leveraging io_uring and eBPF for high-throughput log ingestion at scale",
         "Optimizing P99 latency in geo-distributed LLM inference: Cross-node KV cache management and dynamic speculative decoding",
-        "Implementing Zero-Copy Data Planes for High-Throughput Microservices: A Comparison of eBPF and AF_XDP in Production",
         "Architecting Multi-Region Strongly Consistent Databases: Solving the 2PC Latency Floor in Global Mesh Networks",
         "The Anatomy of Distributed Sharding in Vector Databases: Optimizing HNSW Indexing for Multi-Tenant Large Language Models",
         "Implementing Low-Latency Global Consistency: A Deep Dive into Spanner-inspired Multi-Region Consensus Protocols in Rust",
@@ -1075,6 +1074,9 @@
         "Leveraging Hardware-Accelerated TEEs for Confidential Computing in Multi-Cloud Kubernetes Orchestration",
         "Dissecting Meta's 100TB/s spine fabric: How they replaced BGP with a centralized SDN controller and segment routing to survive a 40% traffic surge in 48 hours",
         "The hidden cost of quorum: A deep dive into CockroachDB's consensus latency at 10,000 nodes and why ZooKeeper became the bottleneck for LinkedIn's feed graph",
-        "How Netflix's Chaos Engineering 2.0 uses eBPF to inject kernel-level faults into their Mandalay CDN, causing cascading failure drills that simulate a full AWS us-east-1 blackout"
+        "How Netflix's Chaos Engineering 2.0 uses eBPF to inject kernel-level faults into their Mandalay CDN, causing cascading failure drills that simulate a full AWS us-east-1 blackout",
+        "Implementing eBPF-based congestion control for ultra-low latency RDMA in massive-scale GPU clusters",
+        "Optimizing multi-tier KV cache eviction strategies for petabyte-scale multi-tenant LLM inference",
+        "The mechanics of deterministic simulation testing for verifying distributed consistency in hyperscale transactional stores"
     ]
 }
