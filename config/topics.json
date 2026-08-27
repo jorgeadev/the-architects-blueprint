@@ -1013,7 +1013,6 @@
         "Deep Dive into Meta’s 24,576 GPU Clusters: Optimizing RDMA over Converged Ethernet (RoCE) for Large Language Model Training at Scale",
         "Formal Verification of Distributed Consensus: How AWS uses TLA+ to prevent cascading failures in S3’s Strong Consistency layer",
         "Zero-Copy Data Transfer and Ring-Based I/O: Re-engineering Netflix’s Content Delivery Network for 800Gbps Throughput per Node",
-        "Vector Database Sharding: Implementing Proximity-Aware Index Partitioning for Billion-Scale Embedding Spaces",
         "Bypassing the Kernel Bottleneck: High-Throughput Packet Processing using DPDK and eBPF in Hyperscale Load Balancers",
         "Hierarchical Consensus: Scaling Paxos and Raft across Heterogeneous Cloud Availability Zones",
         "Optimizing L4/L7 Multi-Tenant Traffic Shaping in Global Edge Meshes: A Deep Dive into eBPF-based Congestion Control",
@@ -1081,6 +1080,9 @@
         "War-story analysis of the 2024 AWS us-east-1 'packet-echo storm': Root-causing a control-plane feedback loop triggered by a single misconfigured BGP route reflector at 40 Tbps aggregate throughput",
         "Formal Verification of Distributed Consensus Protocols in Sub-Millisecond High-Frequency Trading Mesh Architectures",
         "Implementing Predictive Auto-scaling for Multi-Tenant GPU Clusters using Transformer-based Workload Forecasting",
-        "Re-engineering Global Edge Caching: Transitioning from LRU to ML-Driven Admission Policies for 100Tbps Throughput"
+        "Re-engineering Global Edge Caching: Transitioning from LRU to ML-Driven Admission Policies for 100Tbps Throughput",
+        "Implementing Zero-Copy Data Movement in eBPF-Powered Service Meshes for Sub-Microsecond Latency",
+        "Architecting Multi-Paxos with Deterministic Simulation: Lessons from a 100-Million-RPS Database Migration",
+        "The Engineering Behind Ultra-Low Latency LLM Inference: KV Cache Quantization and PagedAttention in Distributed GPU Fleets"
     ]
 }
