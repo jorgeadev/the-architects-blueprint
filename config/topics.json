@@ -606,7 +606,6 @@
         "Beyond Raft: Implementing Deterministic State Machine Replication in Ultra-High Throughput Financial Ledgers",
         "Architecting eBPF-Powered Zero-Trust Networking for Microservices at 100 Million Requests per Second",
         "Architecting Petabyte-Scale KV-Cache Offloading: Navigating the Memory Wall in Distributed LLM Inference via CXL 3.0",
-        "Solving the Thundering Herd: Implementing Adaptive L7 Congestion Control in Service Meshes for 100M+ Concurrent WebSocket Connections",
         "Beyond Raft: Engineering the Transition to Byzantium-Tolerant Consensus for Global Identity Providers in Sub-Millisecond Latency Environments",
         "Implementing Multi-Tenant Performance Isolation in Shared-Memory eBPF Observability Layers at 100Gbps Throughput",
         "Architecting Cross-Region Global Consistency via Hybrid Physical-Logical Clocks in Next-Generation Distributed Key-Value Stores",
@@ -1079,6 +1078,9 @@
         "The mechanics of deterministic simulation testing for verifying distributed consistency in hyperscale transactional stores",
         "Dissecting Meta's 150ms cold-start optimization for LLaMA-3 inference across a 100k-GPU cluster using disaggregated KV-cache and CXL-memory tiering",
         "Inside the 10-million-RPM distributed lock: How Google's Spanner achieves sub-microsecond quorum writes in a planetary-scale, multi-colored logical clock with witness-based conflict resolution",
-        "War-story analysis of the 2024 AWS us-east-1 'packet-echo storm': Root-causing a control-plane feedback loop triggered by a single misconfigured BGP route reflector at 40 Tbps aggregate throughput"
+        "War-story analysis of the 2024 AWS us-east-1 'packet-echo storm': Root-causing a control-plane feedback loop triggered by a single misconfigured BGP route reflector at 40 Tbps aggregate throughput",
+        "Formal Verification of Distributed Consensus Protocols in Sub-Millisecond High-Frequency Trading Mesh Architectures",
+        "Implementing Predictive Auto-scaling for Multi-Tenant GPU Clusters using Transformer-based Workload Forecasting",
+        "Re-engineering Global Edge Caching: Transitioning from LRU to ML-Driven Admission Policies for 100Tbps Throughput"
     ]
 }
