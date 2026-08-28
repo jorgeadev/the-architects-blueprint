@@ -21,7 +21,6 @@
         "The hype over Rust replacing C++ in foundational systems: reality, technical challenges, and major rewrites.",
         "The interplay of programmable data planes and P4 with smart NICs for ultra-low-latency network function virtualization in hyperscale data centers.",
         "Disaggregated Memory Architectures and Next-Gen Interconnects: Engineering the Hyperscale AI Training Fabrics of Tomorrow",
-        "The Role of Large-Scale Knowledge Graphs and AI in Accelerating Viral Variant Identification and Synthetic Biology Design",
         "The Architecture and Performance Implications of Programmable Data Plane Interconnects (P4) for Hyperscale Microservices Mesh Optimization.",
         "CRISPR-Cas13 Based Antiviral Strategies: Engineering Sequence-Specific RNA Degradation for Pan-Viral Immunity.",
         "Synthetic biology approaches to engineering enhanced viral vectors for precise in-vivo gene delivery and reduced immunogenicity.",
@@ -1083,6 +1082,9 @@
         "Re-engineering Global Edge Caching: Transitioning from LRU to ML-Driven Admission Policies for 100Tbps Throughput",
         "Implementing Zero-Copy Data Movement in eBPF-Powered Service Meshes for Sub-Microsecond Latency",
         "Architecting Multi-Paxos with Deterministic Simulation: Lessons from a 100-Million-RPS Database Migration",
-        "The Engineering Behind Ultra-Low Latency LLM Inference: KV Cache Quantization and PagedAttention in Distributed GPU Fleets"
+        "The Engineering Behind Ultra-Low Latency LLM Inference: KV Cache Quantization and PagedAttention in Distributed GPU Fleets",
+        "Implementing Zero-Trust L7 Load Balancing with eBPF and Cilium at Petabyte Scale",
+        "Deep Dive into NVLink Switch Fabric Architecture for Synchronous Multi-GPU Training Clusters",
+        "Solving Tail Latency in Globally Distributed Vector Databases using Raft-based Read-Only Replicas"
     ]
 }
