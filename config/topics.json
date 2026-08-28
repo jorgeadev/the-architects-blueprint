@@ -514,7 +514,6 @@
         "Deep Dive into Zero-Trust eBPF-based Service Meshes: Eliminating Sidecar Overhead at 100M+ Requests per Second",
         "Deterministic Simulation Testing for Distributed Consensus: How Jepsen-Style Verification Scales to Global Cell-Based Architectures",
         "Optimizing Deterministic Replay in Distributed Microservices for High-Fidelity Fault Injection at Scale",
-        "Analyzing the Performance Impact of eBPF-based Observability on Kernel-Space Context Switching in Hyperscale Clusters",
         "Implementing Zero-Copy Networking and RDMA for Ultra-Low Latency in Hyperscale Distributed KV Stores",
         "Scaling Multi-Tenant Vector Databases: Solving the Global Index Bottleneck in Retrieval-Augmented Generation at PB-Scale",
         "The Mechanics of Remote DMA (RDMA) Congestion Control in Meta’s 400G AI Superclusters",
@@ -1085,6 +1084,9 @@
         "The Engineering Behind Ultra-Low Latency LLM Inference: KV Cache Quantization and PagedAttention in Distributed GPU Fleets",
         "Implementing Zero-Trust L7 Load Balancing with eBPF and Cilium at Petabyte Scale",
         "Deep Dive into NVLink Switch Fabric Architecture for Synchronous Multi-GPU Training Clusters",
-        "Solving Tail Latency in Globally Distributed Vector Databases using Raft-based Read-Only Replicas"
+        "Solving Tail Latency in Globally Distributed Vector Databases using Raft-based Read-Only Replicas",
+        "Implementing zero-copy serialization in high-throughput vector database shards for sub-millisecond RAG retrieval",
+        "Leveraging eBPF and XDP for programmable congestion control in petabyte-scale data center fabrics",
+        "Achieving 99.9999% availability: The architecture of Meta's Tectonic file system under massive metadata contention"
     ]
 }
