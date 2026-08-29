@@ -938,7 +938,6 @@
         "Deep Dive into Tiered Storage Strategies for Petabyte-Scale Vector Databases in Generative AI Infrastructures",
         "Formal Verification of Distributed Consensus Protocols in Sub-Millisecond Global Transaction Orchestration",
         "Implementing Zero-Copy Networking with eBPF and XDP for Multi-Terabit Edge Load Balancing",
-        "Dynamic KV Cache Compression and Tiered PagedAttention for 100k+ Context Windows in Distributed Inference Clusters",
         "Inside Meta's 300MW AI data center: dissecting the optical interconnect fabric, liquid-cooled GPU racks, and the custom time-synchronized control plane that keeps training jobs below 150 microseconds of jitter.",
         "How Cloudflare's global Anycast network absorbs 7.5 Tbps DDoS attacks: a deep dive into the BPF-based packet steering, real-time edge rate limiting, and the probabilistic trie that classifies 40 million flows per second.",
         "Google's Spanner 2.0: a technical retrospective on the new atomic clock-free TrueTime API, the Paxos-free replication protocol using Raft with epoch-based leases, and how they decoupled storage and compute to hit 100PB per shard.",
@@ -1089,6 +1088,9 @@
         "Achieving 99.9999% availability: The architecture of Meta's Tectonic file system under massive metadata contention",
         "Formal Verification of Distributed Consensus Protocols in Sub-Millisecond High-Frequency Trading Engines",
         "Zero-Copy Data Planes: Implementing RDMA and DPDK for Ultra-Low Latency Inter-Process Communication in Cloud-Native Environments",
-        "Dynamic Resource Reallocation in Large Language Model Inference Clusters via Real-Time KV Cache Compression and Tiered Memory Offloading"
+        "Dynamic Resource Reallocation in Large Language Model Inference Clusters via Real-Time KV Cache Compression and Tiered Memory Offloading",
+        "Architecting Global-Scale Vector Databases: Solving the Dimensionality Curse in Distributed RAG Systems",
+        "Leveraging eBPF for Zero-Copy Observability in High-Throughput Service Mesh Sidecars",
+        "Implementing Deterministic Simulation Testing for Distributed Consensus Protocols in Large-Scale Storage Clusters"
     ]
 }
