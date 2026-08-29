@@ -371,7 +371,6 @@
         "Analyzing the Performance Trade-offs of eBPF-based Observability vs. Sidecar Proxies in High-Throughput Service Meshes",
         "The Mechanics of Sharded Consensus: Deep Dive into Parallelized Transaction Ordering in Distributed Key-Value Stores",
         "Zero-Copy Data Transfer and eBPF: Engineering High-Throughput Networking for Next-Generation Cloud-Native Proxies",
-        "The Hardware-Software Co-design of Custom LLM Accelerators: Architectural Trade-offs in HBM3 and Interconnect Topology for Massive Scale Inference",
         "Decoding the Bloom Filter Cascade: How Meta Optimizes GraphQL N+1 Queries at Exabyte Scale with Probabilistic Data Structures",
         "Deep Dive into CPRO: Google's Confidential Peer Review Orchestrator for Air-Gapped, Zero-Trust Build Pipelines Across 10,000+ Services",
         "The Thermodynamic Limit of Liquid Immersion Cooling: Analyzing AWS's Synthetic Diamond-Infused Dielectric Coolant for Sub-7nm Exascale Clusters",
@@ -1091,6 +1090,9 @@
         "Dynamic Resource Reallocation in Large Language Model Inference Clusters via Real-Time KV Cache Compression and Tiered Memory Offloading",
         "Architecting Global-Scale Vector Databases: Solving the Dimensionality Curse in Distributed RAG Systems",
         "Leveraging eBPF for Zero-Copy Observability in High-Throughput Service Mesh Sidecars",
-        "Implementing Deterministic Simulation Testing for Distributed Consensus Protocols in Large-Scale Storage Clusters"
+        "Implementing Deterministic Simulation Testing for Distributed Consensus Protocols in Large-Scale Storage Clusters",
+        "Implementing Hierarchical Raft for Global Consistency in Billion-Scale Distributed Vector Databases",
+        "Zero-Copy Serialization and V8 Snapshotting: Reducing Serverless Cold Starts to Sub-Millisecond Latency",
+        "Solving the Tail Latency Problem in 100k GPU Training Clusters via Predictive Network Congestion Control"
     ]
 }
