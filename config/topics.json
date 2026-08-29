@@ -291,7 +291,6 @@
         "Beyond Sidecars: Engineering eBPF-Powered Service Meshes for High-Throughput Microservices Orchestration",
         "Implementing Hierarchical Ring-AllReduce Patterns for Multi-Tenant GPU Clusters at Exascale",
         "Zero-Copy Memory Mapping and Kernel Bypass Techniques in Modern High-Frequency Trading Proxies",
-        "The Evolution of Global Quorum Consistency: Formal Verification of Tiered Consensus in Hyperscale Metadata Stores",
         "Vector Database Internals: Optimizing HNSW Indexing for Trillion-Scale Semantic Search at Netflix",
         "Deterministic Simulation Testing: How Anthropic Ensures Consensus Consistency in Large-Scale Distributed Training",
         "Optimizing L3 Cache Contention in Multi-Tenant Hypervisors using Hardware-Assisted Resource Partitioning",
@@ -1087,6 +1086,9 @@
         "Solving Tail Latency in Globally Distributed Vector Databases using Raft-based Read-Only Replicas",
         "Implementing zero-copy serialization in high-throughput vector database shards for sub-millisecond RAG retrieval",
         "Leveraging eBPF and XDP for programmable congestion control in petabyte-scale data center fabrics",
-        "Achieving 99.9999% availability: The architecture of Meta's Tectonic file system under massive metadata contention"
+        "Achieving 99.9999% availability: The architecture of Meta's Tectonic file system under massive metadata contention",
+        "Formal Verification of Distributed Consensus Protocols in Sub-Millisecond High-Frequency Trading Engines",
+        "Zero-Copy Data Planes: Implementing RDMA and DPDK for Ultra-Low Latency Inter-Process Communication in Cloud-Native Environments",
+        "Dynamic Resource Reallocation in Large Language Model Inference Clusters via Real-Time KV Cache Compression and Tiered Memory Offloading"
     ]
 }
