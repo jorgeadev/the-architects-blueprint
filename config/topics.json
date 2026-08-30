@@ -488,7 +488,6 @@
         "Deterministic Concurrency in Geographically Distributed Databases: Implementing Hybrid Logical Clocks for Causal Consistency at Hyperscale",
         "Architecting a Real-Time Global Consistency Model: How Spanner-like Systems Utilize Atomic Clocks and TrueTime for External Consistency",
         "Deep Dive into GPU Memory Virtualization: Managing Multi-Tenant Large Language Model Inference Across Distributed H100 Clusters",
-        "Re-engineering Data Planes with eBPF: Implementing Line-Rate DDoS Mitigation and Observability in Massive-Scale Software-Defined Networks",
         "Analyzing the ACID compliance boundary in a planet-scale distributed SQL database: A case study on Spanner's TrueTime API and clock synchronization for global commit latency",
         "Leveraging eBPF for Programmable Congestion Control in Hyperscale Data Center Fabrics",
         "Formal Verification of Distributed Consensus Protocols in Large-Scale KV Stores",
@@ -1097,6 +1096,9 @@
         "Leveraging eBPF for Programmable Congestion Control in Massive-Scale RDMA-based AI Training Fabrics",
         "Optimizing Tail Latency in Multi-Tenant Vector Databases: LSM-Tree Indexing vs. In-Memory Graph Navigation at Petabyte Scale",
         "Zero-Copy Serialization and RDMA: Re-engineering Distributed Consensus Engines for Sub-Microsecond State Machine Replication",
-        "Implementing Hierarchical Ring All-Reduce: Overcoming Packet Loss and Congestion in 100,000+ GPU Training Clusters"
+        "Implementing Hierarchical Ring All-Reduce: Overcoming Packet Loss and Congestion in 100,000+ GPU Training Clusters",
+        "Architecting Ultra-Low Latency Inference: Optimizing KV-Cache Management in Distributed GPU Clusters",
+        "Solving for Global Consistency: Implementing Multi-Region Deterministic State Machines in High-Throughput Fintech Systems",
+        "Zero-Copy Data Transfer: Leveraging eBPF and Kernel Bypass for 100Gbps+ Observability Pipelines"
     ]
 }
