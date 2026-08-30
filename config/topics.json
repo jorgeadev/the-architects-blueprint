@@ -1061,7 +1061,6 @@
         "Optimizing P99.9 Latency in Large Language Model Inference: Solving KV-Cache Fragmentation with PagedAttention Strategies",
         "Solving the Thundering Herd Problem in Global Multi-Region Spanner Deployments via Asynchronous Commit Pipelining",
         "Re-architecting Global Edge Discovery: How Anycast BGP and Quic-based Load Balancing Minimize P99 Latency at 100Tbps",
-        "Inside the Distributed Consensus of Modern Vector Databases: Managing Consistency and Throughput in Billions of High-Dimensional Embeddings",
         "Leveraging Hardware-Accelerated TEEs for Confidential Computing in Multi-Cloud Kubernetes Orchestration",
         "Dissecting Meta's 100TB/s spine fabric: How they replaced BGP with a centralized SDN controller and segment routing to survive a 40% traffic surge in 48 hours",
         "The hidden cost of quorum: A deep dive into CockroachDB's consensus latency at 10,000 nodes and why ZooKeeper became the bottleneck for LinkedIn's feed graph",
@@ -1095,6 +1094,9 @@
         "Solving the Tail Latency Problem in 100k GPU Training Clusters via Predictive Network Congestion Control",
         "Optimizing Tail Latency in Sharded Vector Databases via Predictive Query Routing and Proactive Cache Warming",
         "Building a Globally Distributed, Deterministic State Machine for Real-Time Financial Settlement at 1M TPS",
-        "Leveraging eBPF for Programmable Congestion Control in Massive-Scale RDMA-based AI Training Fabrics"
+        "Leveraging eBPF for Programmable Congestion Control in Massive-Scale RDMA-based AI Training Fabrics",
+        "Optimizing Tail Latency in Multi-Tenant Vector Databases: LSM-Tree Indexing vs. In-Memory Graph Navigation at Petabyte Scale",
+        "Zero-Copy Serialization and RDMA: Re-engineering Distributed Consensus Engines for Sub-Microsecond State Machine Replication",
+        "Implementing Hierarchical Ring All-Reduce: Overcoming Packet Loss and Congestion in 100,000+ GPU Training Clusters"
     ]
 }
