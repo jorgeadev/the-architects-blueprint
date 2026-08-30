@@ -1018,7 +1018,6 @@
         "Analyzing the Impact of Kernel-Bypass I/O via io_uring on High-Throughput Service Mesh Sidecar Performance",
         "Implementing Zero-Trust at the Edge: Leveraging eBPF for Granular Network Isolation in Multi-Tenant Kubernetes Clusters",
         "Deterministic Simulation Testing for Distributed Consensus: Formal Verification of Geo-Replicated State Machines",
-        "Optimizing Tail Latencies in Tiered Storage: Predictive Cache Warming for Petabyte-Scale Object Stores",
         "Formal Verification of Multi-Paxos Consensus in Distributed Metadata Stores: A Deep Dive into High-Availability Consistency Models",
         "Optimizing NVMe-over-Fabrics for Sub-Millisecond Tail Latencies in Multi-Petabyte Object Storage Tiers",
         "Dynamic Weight Offloading and KV Cache Paging Strategies for Heterogeneous GPU Clusters in Global Inference Infrastructures",
@@ -1093,6 +1092,9 @@
         "Implementing Deterministic Simulation Testing for Distributed Consensus Protocols in Large-Scale Storage Clusters",
         "Implementing Hierarchical Raft for Global Consistency in Billion-Scale Distributed Vector Databases",
         "Zero-Copy Serialization and V8 Snapshotting: Reducing Serverless Cold Starts to Sub-Millisecond Latency",
-        "Solving the Tail Latency Problem in 100k GPU Training Clusters via Predictive Network Congestion Control"
+        "Solving the Tail Latency Problem in 100k GPU Training Clusters via Predictive Network Congestion Control",
+        "Optimizing Tail Latency in Sharded Vector Databases via Predictive Query Routing and Proactive Cache Warming",
+        "Building a Globally Distributed, Deterministic State Machine for Real-Time Financial Settlement at 1M TPS",
+        "Leveraging eBPF for Programmable Congestion Control in Massive-Scale RDMA-based AI Training Fabrics"
     ]
 }
