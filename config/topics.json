@@ -392,7 +392,6 @@
         "Deterministic Simulation Testing for Distributed Consensus Protocols in Large-Scale Vector Databases",
         "Deep Dive into Zero-Copy Buffer Management and RDMA Integration in Distributed Log Storage Engines",
         "Architecting Web-Scale Vector Search: Hierarchical Navigable Small Worlds (HNSW) Indexing on GPU-Accelerated Clusters",
-        "Zero-Downtime Migration of Petabyte-Scale Spanner Instances via Custom CDC Pipelines",
         "Architecting Ultra-Low Latency Inference Engines: A Deep Dive into NVIDIA Hopper Transformer Engine at Scale",
         "Dissecting the data plane: A deep dive into Meta's 800G DWDM optical transport backbone for cross-cluster AI training traffic",
         "The physics of the cold start: How Google's colossus-derived heat pump preheating reduces PUE variance in hyperscale data centers by 14%",
@@ -1103,6 +1102,9 @@
         "Deep Dive into eBPF-Powered Observability: Replacing Sidecar Proxies for Sub-Millisecond Service Mesh Latency",
         "Deconstructing the Llama-3 Training Fabric: Solving Network Congestion and Collective Communication Bottlenecks in 24k GPU Clusters",
         "Beyond Sidecars: Evaluating the Performance Gains of eBPF-Powered Service Meshes in High-Throughput Financial Infrastructure",
-        "Solving the 'Thundering Herd' in Global Cache Invalidation: Engineering Probabilistic Lease Mechanisms for Massive-Scale Content Delivery"
+        "Solving the 'Thundering Herd' in Global Cache Invalidation: Engineering Probabilistic Lease Mechanisms for Massive-Scale Content Delivery",
+        "Implementing Zero-Trust Traffic Control via eBPF: Optimizing Line-Rate Packet Processing in Hyperscale Mesh Networks",
+        "Architecting for Global Consistency: A Comparative Analysis of Two-Phase Commit vs. Paxos in Geo-Distributed Spanner-like Databases",
+        "Scaling Vector Embeddings: Engineering a Low-Latency Retrieval Infrastructure for Trillion-Scale Semantic Search"
     ]
 }
