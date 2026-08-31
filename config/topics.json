@@ -481,7 +481,6 @@
         "Zero-Copy eBPF-Based Observability: Profiling Kernel-to-Userspace Context Switches in High-Throughput Microservices",
         "Architecting Disaggregated Memory Pools for LLM Training Clusters via CXL 3.0 Fabric Interconnects",
         "Zero-Bubble Pipeline Parallelism: Scaling Synchronous Training Across 24,000 H100 GPUs for Llama 3",
-        "Optimizing the BEAM Scheduler: Reducing Lock Contention in Multi-Terabit WhatsApp Message Relays",
         "Beyond Sidecars: Accelerating Service Mesh Performance Using eBPF-based Kernel Bypass in Global Edge Clusters",
         "Optimizing Checkpointing Latency in Massive-Scale AI Training via 400Gbps RoCE v2 Fabric Topologies",
         "Hardware-Accelerated mTLS Offloading: Scaling Zero-Trust Service Meshes using SmartNICs in Global Data Centers",
@@ -1101,6 +1100,9 @@
         "Zero-Copy Data Transfer: Leveraging eBPF and Kernel Bypass for 100Gbps+ Observability Pipelines",
         "Optimizing Tail Latency in Massive-Scale KV Stores through Predictive Cache Warming and Request Hedging",
         "The Engineering Behind Cellular Architecture: Decoupling Fault Domains in Global-Scale Microservices",
-        "Deep Dive into eBPF-Powered Observability: Replacing Sidecar Proxies for Sub-Millisecond Service Mesh Latency"
+        "Deep Dive into eBPF-Powered Observability: Replacing Sidecar Proxies for Sub-Millisecond Service Mesh Latency",
+        "Deconstructing the Llama-3 Training Fabric: Solving Network Congestion and Collective Communication Bottlenecks in 24k GPU Clusters",
+        "Beyond Sidecars: Evaluating the Performance Gains of eBPF-Powered Service Meshes in High-Throughput Financial Infrastructure",
+        "Solving the 'Thundering Herd' in Global Cache Invalidation: Engineering Probabilistic Lease Mechanisms for Massive-Scale Content Delivery"
     ]
 }
