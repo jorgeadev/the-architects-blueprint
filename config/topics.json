@@ -574,7 +574,6 @@
         "The Evolution of Global Traffic Control: Leveraging eBPF for Programmable L4 Load Balancing in Multi-Cloud Hyper-Scale Environments",
         "Formal Verification of Distributed Consensus Protocols in Sub-Millisecond Global Trading Architectures",
         "Reducing Tail Latency in Petabyte-Scale Key-Value Stores via Predictive eBPF-Based I/O Scheduling",
-        "Architecting Multi-Tenant GPU Clusters: Solving Memory Fragmentation and NVLink Contention in Massive LLM Training Pipelines",
         "Deep Dive into Meta's MTIA: Designing Custom Silicon for Large-Scale Recommendation Systems",
         "Inside Uber's LedgerStore: Implementing Immutable Bi-Temporal Storage at Petabyte Scale for Global Financial Compliance",
         "Optimizing Tail Latency in Multi-Tenant Vector Databases: Strategies for Sharding and Indexing 100B+ Embeddings",
@@ -1105,6 +1104,9 @@
         "Solving the 'Thundering Herd' in Global Cache Invalidation: Engineering Probabilistic Lease Mechanisms for Massive-Scale Content Delivery",
         "Implementing Zero-Trust Traffic Control via eBPF: Optimizing Line-Rate Packet Processing in Hyperscale Mesh Networks",
         "Architecting for Global Consistency: A Comparative Analysis of Two-Phase Commit vs. Paxos in Geo-Distributed Spanner-like Databases",
-        "Scaling Vector Embeddings: Engineering a Low-Latency Retrieval Infrastructure for Trillion-Scale Semantic Search"
+        "Scaling Vector Embeddings: Engineering a Low-Latency Retrieval Infrastructure for Trillion-Scale Semantic Search",
+        "Zero-Copy Networking in Hyperscale Clusters: Leveraging RDMA and eBPF for Sub-Microsecond Service-to-Service Latency",
+        "Architecting Globally Consistent Vector Stores: Solving the High-Dimensional Indexing Challenge at Petabyte Scale",
+        "Beyond the Sidecar: Implementing Kernel-Level Traffic Orchestration for Multi-Tenant Microservices via eBPF and XDP"
     ]
 }
