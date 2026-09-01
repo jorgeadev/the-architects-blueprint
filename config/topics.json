@@ -845,7 +845,6 @@
         "The hidden failure modes of DPU-offloaded NVMe/TCP in hyperscale block storage: a deep dive into multi-tenant QoS collapse under micro-burst traffic",
         "Anatomy of a global log-transport meltdown: how a single faulty CRC32C implementation cascaded across 12 regions of a control-plane mesh",
         "Designing a p99-latency-immune scheduling fabric: using speculative dual-commit and hardware timestamping to eliminate head-of-line blocking in million-core orchestrators",
-        "Leveraging RoCE v2 and Hierarchical Congestion Control for Training 100T Parameter Models at Meta Scale",
         "Deep Dive into ByteDance’s Monolith: Real-time Parameter Servers for Exabyte-scale Feature Stores",
         "Zero-Downtime Migration of Global Distributed State: How Cloudflare Rebuilt its Edge Key-Value Store",
         "Implementing Zero-Knowledge Provenance in Large-Scale Distributed Build Systems to Thwart Software Supply Chain Attacks",
@@ -1113,6 +1112,9 @@
         "Zero-Trust Service Mesh at 100M RPS: Implementing Hardware-Accelerated mTLS with eBPF and Kernel-Bypass Networking",
         "Implementing Zero-Copy Networking with eBPF for Low-Latency Microservices in Multi-Region Kubernetes Clusters",
         "Architectural Deep Dive: Orchestrating Elastic Multi-Tenant GPU Clusters for Distributed Large Language Model Training",
-        "Solving the Thundering Herd Problem in Global Distributed Caches using Quorum-Based Lease Mechanisms"
+        "Solving the Thundering Herd Problem in Global Distributed Caches using Quorum-Based Lease Mechanisms",
+        "Reconstructing Milliseconds: Anatomy of a Global Anycast Traffic-Shaping Layer for Sub-50ms Packet Steering in Real-Time Video Conferencing",
+        "Quantifying Tail Latency Cascades in Multi-Tenant GPU Clusters: A Deep Dive into NVIDIA's Grace Hopper NVLink-C2C Topology and Its Impact on LLM Inference P99 Scheduling",
+        "The Hidden Cost of Erasure Coding on ZNS SSDs: A Post-Mortem of Meta's Cold Storage Migration and the Rise of Computational Storage Drives (CSDs) for In-Drive Rebuilds"
     ]
 }
