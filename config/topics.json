@@ -938,7 +938,6 @@
         "Dissecting Meta's cross-DC LLaMA training: A case study in optical circuit switching and collective communication sharding at 100k GPU scale",
         "The latency tax of global anycast: How Cloudflare's new congestion-aware BGP steering mitigates tail latency across 330 PoPs",
         "Inside Google's Jupiter evolving to jellyfish: Analyzing the move to 128-port silicon photonics and its impact on OSFP-XD cabling density",
-        "Dissecting the networking topology and collective communication primitives in Meta's 24,576 H100 GPU training cluster",
         "Beyond the sidecar: Implementing high-performance eBPF-based service discovery and observability in multi-region Kubernetes fleets",
         "Architecting low-latency consistency for distributed vector databases: Lessons from scaling RAG systems to 100M+ QPS",
         "Anatomy of a Global Control Plane: Designing Multi-Region Leaderless Consensus for 10M+ Concurrent Device State Syncs",
@@ -1107,6 +1106,9 @@
         "Scaling Vector Embeddings: Engineering a Low-Latency Retrieval Infrastructure for Trillion-Scale Semantic Search",
         "Zero-Copy Networking in Hyperscale Clusters: Leveraging RDMA and eBPF for Sub-Microsecond Service-to-Service Latency",
         "Architecting Globally Consistent Vector Stores: Solving the High-Dimensional Indexing Challenge at Petabyte Scale",
-        "Beyond the Sidecar: Implementing Kernel-Level Traffic Orchestration for Multi-Tenant Microservices via eBPF and XDP"
+        "Beyond the Sidecar: Implementing Kernel-Level Traffic Orchestration for Multi-Tenant Microservices via eBPF and XDP",
+        "Optimizing Tail Latency in Globally Distributed Databases: A Deep Dive into CXL-Enabled Shared Memory Pools",
+        "Architecting Real-Time Vector Search for Trillion-Scale Embeddings: Lessons from Meta's Disaggregated Indexing",
+        "Beyond eBPF: Leveraging XDP and Hardware Offloading for Multi-Terabit DDoS Mitigation in Edge Networks"
     ]
 }
