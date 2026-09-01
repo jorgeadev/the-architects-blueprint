@@ -1092,7 +1092,6 @@
         "Zero-Copy Serialization and RDMA: Re-engineering Distributed Consensus Engines for Sub-Microsecond State Machine Replication",
         "Implementing Hierarchical Ring All-Reduce: Overcoming Packet Loss and Congestion in 100,000+ GPU Training Clusters",
         "Architecting Ultra-Low Latency Inference: Optimizing KV-Cache Management in Distributed GPU Clusters",
-        "Solving for Global Consistency: Implementing Multi-Region Deterministic State Machines in High-Throughput Fintech Systems",
         "Zero-Copy Data Transfer: Leveraging eBPF and Kernel Bypass for 100Gbps+ Observability Pipelines",
         "Optimizing Tail Latency in Massive-Scale KV Stores through Predictive Cache Warming and Request Hedging",
         "The Engineering Behind Cellular Architecture: Decoupling Fault Domains in Global-Scale Microservices",
@@ -1111,6 +1110,9 @@
         "Beyond eBPF: Leveraging XDP and Hardware Offloading for Multi-Terabit DDoS Mitigation in Edge Networks",
         "Architecting Petascale GPU Clusters: Mitigating InfiniBand Congestion and Collective Communication Bottlenecks in LLM Training",
         "Formal Verification of Distributed Consensus: Applying TLA+ to Prevent Edge-Case Data Corruption in NewSQL Storage Engines",
-        "Zero-Trust Service Mesh at 100M RPS: Implementing Hardware-Accelerated mTLS with eBPF and Kernel-Bypass Networking"
+        "Zero-Trust Service Mesh at 100M RPS: Implementing Hardware-Accelerated mTLS with eBPF and Kernel-Bypass Networking",
+        "Implementing Zero-Copy Networking with eBPF for Low-Latency Microservices in Multi-Region Kubernetes Clusters",
+        "Architectural Deep Dive: Orchestrating Elastic Multi-Tenant GPU Clusters for Distributed Large Language Model Training",
+        "Solving the Thundering Herd Problem in Global Distributed Caches using Quorum-Based Lease Mechanisms"
     ]
 }
