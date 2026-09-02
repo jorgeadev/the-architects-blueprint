@@ -962,7 +962,6 @@
         "Dissecting Meta's 4D Tensor Memory Pooling: How LLaMA-3's KV-Cache Compression at 100k Context Length Avoids PCIe TLB Thrashes",
         "Anatomy of a Global Blackout: How a Single BGP MED Attribute Exploit in Juniper's MX10K Caused a 400ms Anycast Ripple Through 97 POPs and Triggered Automatic Shard Rebalancing",
         "Deep Dive into the Custom L4 Load Balancing Architecture for 100Gbps+ Line Rates using XDP and eBPF",
-        "Re-architecting Distributed Log-Structured Merge Trees for Multi-Layered CXL Disaggregated Memory Pools",
         "The Evolution of Global Write Consistency in Spanner-like Systems: Solving the Performance Penalty of Cross-Region Consensus",
         "Formal Verification of Distributed Consensus Protocols in Sub-Millisecond Global State Replication Systems",
         "Architecting Zero-Copy Data Planes for Terabit-Scale Service Meshes Using Shared Memory and RDMA",
@@ -1119,6 +1118,9 @@
         "Scaling GPU Orchestration: Overcoming InfiniBand Bottlenecks and Collective Communication Deadlocks in 100k-Node Large Language Model Training Clusters",
         "Architecting Deterministic Simulation Testing for Distributed State Machines in Hyperscale Cloud Environments",
         "Optimizing KV-Cache Management and Tiered Memory Prefetching for Large-Scale Mixture-of-Experts (MoE) Inference Pipelines",
-        "Implementing Zero-Copy High-Throughput Packet Processing Using eBPF and XDP for Multi-Tenant Kubernetes Service Meshes"
+        "Implementing Zero-Copy High-Throughput Packet Processing Using eBPF and XDP for Multi-Tenant Kubernetes Service Meshes",
+        "Dissecting Meta's cross-region Zonal Failover: A real-time ML inference latency budget under 50ms during a 3-AZ blip in the US-East fabric",
+        "The hidden CXL memory tiering war: How hyperscalers are using cache-coherent interconnects to decouple DRAM from physical NUMA domains for cold-start elastic pools",
+        "Inside the 'Packet Churn' problem: Re-architecting eBPF load balancers at 10M PPS with a custom ring-buffer allocator and zero-copy RSS hashing in the kernel bypass path"
     ]
 }
