@@ -593,7 +593,6 @@
         "Formal verification of distributed consensus protocols in high-throughput RDMA-enabled clusters",
         "Solving the thundering herd problem in multi-tenant edge compute platforms via adaptive backpressure and predictive caching",
         "Architecture of a petabyte-scale vector database: Balancing low-latency retrieval with HNSW indexing over tiered storage",
-        "Beyond Raft: Implementing Deterministic State Machine Replication in Ultra-High Throughput Financial Ledgers",
         "Architecting eBPF-Powered Zero-Trust Networking for Microservices at 100 Million Requests per Second",
         "Architecting Petabyte-Scale KV-Cache Offloading: Navigating the Memory Wall in Distributed LLM Inference via CXL 3.0",
         "Beyond Raft: Engineering the Transition to Byzantium-Tolerant Consensus for Global Identity Providers in Sub-Millisecond Latency Environments",
@@ -1117,6 +1116,9 @@
         "The Hidden Cost of Erasure Coding on ZNS SSDs: A Post-Mortem of Meta's Cold Storage Migration and the Rise of Computational Storage Drives (CSDs) for In-Drive Rebuilds",
         "Architecting Low-Latency Global Traffic Control: Implementing eBPF-based Anycast Load Balancing for Multi-Region L7 Ingress",
         "Deterministic Simulation Testing at Scale: How Distributed Database Engines Use TLA+ and Jepsen to Validate Raft Consensus Under Byzantine Faults",
-        "Scaling GPU Orchestration: Overcoming InfiniBand Bottlenecks and Collective Communication Deadlocks in 100k-Node Large Language Model Training Clusters"
+        "Scaling GPU Orchestration: Overcoming InfiniBand Bottlenecks and Collective Communication Deadlocks in 100k-Node Large Language Model Training Clusters",
+        "Architecting Deterministic Simulation Testing for Distributed State Machines in Hyperscale Cloud Environments",
+        "Optimizing KV-Cache Management and Tiered Memory Prefetching for Large-Scale Mixture-of-Experts (MoE) Inference Pipelines",
+        "Implementing Zero-Copy High-Throughput Packet Processing Using eBPF and XDP for Multi-Tenant Kubernetes Service Meshes"
     ]
 }
