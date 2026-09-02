@@ -132,7 +132,6 @@
         "Beyond Bare Metal: How Programmable Data Planes and SmartNICs Revolutionize Hyperscale AI/ML Network Performance.",
         "The Rise of CXL: Architecting Disaggregated Memory and Compute for Hyperscale Data Centers",
         "Beyond BGP: How AI-Driven Traffic Engineering Optimizes Global Interconnects for Cloud Providers.",
-        "CRISPR-Based Antivirals: Engineering Programmable Nucleic Acid Scavengers for Broad-Spectrum Viral Suppression.",
         "Hardware-Accelerated Consensus Protocols: Reducing Latency and Increasing Throughput in Global Distributed Transaction Systems",
         "Engineering Self-Amplifying RNA Vectors for Next-Generation Pandemic Preparedness and Broad-Spectrum Immunotherapy",
         "Leveraging eBPF for deep kernel-level observability and anomaly detection in cloud-native microservice meshes.",
@@ -1121,6 +1120,9 @@
         "Implementing Zero-Copy High-Throughput Packet Processing Using eBPF and XDP for Multi-Tenant Kubernetes Service Meshes",
         "Dissecting Meta's cross-region Zonal Failover: A real-time ML inference latency budget under 50ms during a 3-AZ blip in the US-East fabric",
         "The hidden CXL memory tiering war: How hyperscalers are using cache-coherent interconnects to decouple DRAM from physical NUMA domains for cold-start elastic pools",
-        "Inside the 'Packet Churn' problem: Re-architecting eBPF load balancers at 10M PPS with a custom ring-buffer allocator and zero-copy RSS hashing in the kernel bypass path"
+        "Inside the 'Packet Churn' problem: Re-architecting eBPF load balancers at 10M PPS with a custom ring-buffer allocator and zero-copy RSS hashing in the kernel bypass path",
+        "Optimizing Zero-Copy Data Planes for Petabyte-Scale Distributed Storage Systems",
+        "Hardware-Software Co-design: The Engineering Behind Ultra-Low Latency LLM Inference Clusters",
+        "Mastering Anycast Tail Latency: Kernel-Level Bypassing in Global Edge Mesh Architectures"
     ]
 }
