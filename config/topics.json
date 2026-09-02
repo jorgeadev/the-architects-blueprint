@@ -173,7 +173,6 @@
         "Architecting Global Consensus for Exabyte-Scale Distributed Ledgers: Beyond Paxos and Raft",
         "CRISPR-Cas Antiviral Engineering: Precision Gene Editing for Broad-Spectrum Pathogen Defense",
         "The architectural challenges of stateful serverless computing at extreme scale for real-time applications.",
-        "Deep dive into hyperscale data center networking: Architecting P4-programmable fabrics for ultra-low latency and dynamic traffic management.",
         "Beyond CRISPR-Cas9: Exploring advanced gene editing systems and their implications for precision therapeutic development.",
         "Architecting planetary-scale data replication and consistency across hybrid cloud environments",
         "The Architectural Principles Behind Hyperscale Real-time Anomaly Detection Systems: From Graph Neural Networks to Probabilistic Fault Injection",
@@ -1115,6 +1114,9 @@
         "Solving the Thundering Herd Problem in Global Distributed Caches using Quorum-Based Lease Mechanisms",
         "Reconstructing Milliseconds: Anatomy of a Global Anycast Traffic-Shaping Layer for Sub-50ms Packet Steering in Real-Time Video Conferencing",
         "Quantifying Tail Latency Cascades in Multi-Tenant GPU Clusters: A Deep Dive into NVIDIA's Grace Hopper NVLink-C2C Topology and Its Impact on LLM Inference P99 Scheduling",
-        "The Hidden Cost of Erasure Coding on ZNS SSDs: A Post-Mortem of Meta's Cold Storage Migration and the Rise of Computational Storage Drives (CSDs) for In-Drive Rebuilds"
+        "The Hidden Cost of Erasure Coding on ZNS SSDs: A Post-Mortem of Meta's Cold Storage Migration and the Rise of Computational Storage Drives (CSDs) for In-Drive Rebuilds",
+        "Architecting Low-Latency Global Traffic Control: Implementing eBPF-based Anycast Load Balancing for Multi-Region L7 Ingress",
+        "Deterministic Simulation Testing at Scale: How Distributed Database Engines Use TLA+ and Jepsen to Validate Raft Consensus Under Byzantine Faults",
+        "Scaling GPU Orchestration: Overcoming InfiniBand Bottlenecks and Collective Communication Deadlocks in 100k-Node Large Language Model Training Clusters"
     ]
 }
