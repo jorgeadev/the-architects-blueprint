@@ -573,7 +573,6 @@
         "Deep Dive into Meta's MTIA: Designing Custom Silicon for Large-Scale Recommendation Systems",
         "Inside Uber's LedgerStore: Implementing Immutable Bi-Temporal Storage at Petabyte Scale for Global Financial Compliance",
         "Optimizing Tail Latency in Multi-Tenant Vector Databases: Strategies for Sharding and Indexing 100B+ Embeddings",
-        "Formal Verification of Distributed Consensus: How TLA+ and Model Checking Prevent State Corruption in Global Scale Storage Engines",
         "Deterministic Quorum Intersection: Optimizing p99 Latency in Globally Distributed Spanner-like Databases",
         "Leveraging eBPF and XDP for Zero-Copy Kernel-to-User Space Data Transfer in High-Throughput Distributed Log Stores",
         "Deep Dive: Orchestrating Multi-Region Consistent Snapshot Isolation in Globally Distributed NewSQL Databases",
@@ -1129,6 +1128,9 @@
         "Architecting Multi-Region Strongly Consistent Vector Databases: Addressing the CAP Theorem in High-Dimensional Search Spaces",
         "Optimizing KV Cache Memory via PagedAttention and Speculative Decoding in Large-Scale LLM Serving Infrastructures",
         "Implementing Multi-Region Multi-Master Consistency: A Deep Dive into Conflict-Free Replicated Data Types (CRDTs) at Edge Scale",
-        "Zero-Downtime Migration of Petabyte-Scale State Store: Lessons from Meta's Sharding-Manager Overhaul"
+        "Zero-Downtime Migration of Petabyte-Scale State Store: Lessons from Meta's Sharding-Manager Overhaul",
+        "Deep Dive into NVLink Switch Fabrics: Solving the All-to-All Communication Bottleneck in Multi-Trillion Parameter Model Training",
+        "The Architecture of Real-Time Video Generative AI: Scaling Temporal Consistency via Distributed Attention Flash Memory",
+        "How Meta Scaled Llama 3 Training Infrastructure: Overcoming Collective Communication Deadlocks in 24k+ H100 GPU Clusters"
     ]
 }
