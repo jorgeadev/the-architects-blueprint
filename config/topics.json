@@ -433,7 +433,6 @@
         "Implementing Deterministic Simulation Testing for Distributed Database Kernels: Preventing Heisenbugs in Multi-Region Consensus Engines",
         "Implementing Zero-Copy Networking and RDMA for Ultra-Low Latency Distributed Storage Engines",
         "Deep Dive into Cellular Architecture: How Meta Manages Fault Isolation in Global-Scale Sharded Databases",
-        "Leveraging eBPF and XDP for Programmable Terabit-Scale DDoS Mitigation at the Edge",
         "Scaling DPU-Offloaded Network Stacks: A Deep Dive into NVIDIA BlueField-3's Impact on Hyperscale Datacenter Throughput and Tail Latency",
         "Decoding the Warp: How Google's Pathways System Overcomes Physical Limits in its Next-Generation TPU v6 Pod Optical Interconnect",
         "The Operational Logic of a Billion-Node Graph: A Formal Analysis of Meta's Distributed, Real-Time FBLearner Feature Store for Live Recommendations",
@@ -1123,6 +1122,9 @@
         "Inside the 'Packet Churn' problem: Re-architecting eBPF load balancers at 10M PPS with a custom ring-buffer allocator and zero-copy RSS hashing in the kernel bypass path",
         "Optimizing Zero-Copy Data Planes for Petabyte-Scale Distributed Storage Systems",
         "Hardware-Software Co-design: The Engineering Behind Ultra-Low Latency LLM Inference Clusters",
-        "Mastering Anycast Tail Latency: Kernel-Level Bypassing in Global Edge Mesh Architectures"
+        "Mastering Anycast Tail Latency: Kernel-Level Bypassing in Global Edge Mesh Architectures",
+        "Implementing Zero-Copy Memory Management in Distributed Message Brokers Using io_uring and NVMe-over-Fabrics",
+        "Formal Verification of Distributed Consensus Protocols in Large-Scale KV Stores Using TLA+ and Model Checking",
+        "Optimizing Tail Latency in Multi-Tenant Kubernetes Clusters via eBPF-Based Congestion Control and CPU Pinning"
     ]
 }
