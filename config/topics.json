@@ -76,7 +76,6 @@
         "The Evolution of Disaggregated AI Compute: From Shared Memory Architectures to DPU-driven Resource Pooling at Hyperscale",
         "CRISPR-Cas Systems Beyond Gene Editing: Engineering Antiviral Defenses and Ultra-Sensitive Diagnostic Platforms with RNA-Guided Surveillance",
         "CRISPR-Associated Transposons (CASTs) for Large-Scale Programmable DNA Integration in Eukaryotic Viral Vectors for Advanced Gene Therapies",
-        "AI-Driven De Novo Design of Synthetic Viral Capsids for Next-Generation Targeted Gene Therapy Delivery",
         "Architecting for Observability at Zettabyte Scale: The Challenges of Real-time Telemetry Processing and Anomaly Detection in Hyperscale Cloud Environments",
         "The Unseen Architecture: How Hyperscalers Engineer Quantum-Proof Cryptography Key Distribution Systems",
         "Genomic Transformers: Scaling Large Language Models for De Novo Protein Design and Synthetic Biology",
@@ -1127,6 +1126,9 @@
         "Optimizing Tail Latency in Multi-Tenant Kubernetes Clusters via eBPF-Based Congestion Control and CPU Pinning",
         "Optimizing Tail Latency in Tier-0 Services: Comparing Hardware-Accelerated Load Balancing vs. eBPF-Based XDP Steering",
         "The Shift to Shard-Per-Core Architectures: How ScyllaDB and Redpanda Eliminate Locking Contention in High-Throughput NVMe Environments",
-        "Architecting Multi-Region Strongly Consistent Vector Databases: Addressing the CAP Theorem in High-Dimensional Search Spaces"
+        "Architecting Multi-Region Strongly Consistent Vector Databases: Addressing the CAP Theorem in High-Dimensional Search Spaces",
+        "Optimizing KV Cache Memory via PagedAttention and Speculative Decoding in Large-Scale LLM Serving Infrastructures",
+        "Implementing Multi-Region Multi-Master Consistency: A Deep Dive into Conflict-Free Replicated Data Types (CRDTs) at Edge Scale",
+        "Zero-Downtime Migration of Petabyte-Scale State Store: Lessons from Meta's Sharding-Manager Overhaul"
     ]
 }
