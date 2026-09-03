@@ -806,7 +806,6 @@
         "The Death of the Sidecar? Implementing eBPF-based Ambient Mesh for High-Throughput Service Communication",
         "Hyper-Sharding Large-Scale Relational Databases: Lessons from Uber’s Migration to a Custom Distributed SQL Layer",
         "Formal Verification of Distributed KV Stores: Ensuring Linearizability in Hyperscale Edge Computing Environments",
-        "Solving the Thundering Herd: Predictive Autoscaling of State-Machine Replication in Serverless Orchestration Engines",
         "Exploiting Cache Locality in Vector Databases: Hardware-Accelerated ANN Search on Petabyte-Scale Embeddings",
         "Implementing Tiered Storage Engines for Vector Databases to Handle Petabyte-Scale LLM Context Injection",
         "Formal Verification of Asynchronous Replication Protocols in Geographically Distributed NewSQL Databases",
@@ -1125,6 +1124,9 @@
         "Mastering Anycast Tail Latency: Kernel-Level Bypassing in Global Edge Mesh Architectures",
         "Implementing Zero-Copy Memory Management in Distributed Message Brokers Using io_uring and NVMe-over-Fabrics",
         "Formal Verification of Distributed Consensus Protocols in Large-Scale KV Stores Using TLA+ and Model Checking",
-        "Optimizing Tail Latency in Multi-Tenant Kubernetes Clusters via eBPF-Based Congestion Control and CPU Pinning"
+        "Optimizing Tail Latency in Multi-Tenant Kubernetes Clusters via eBPF-Based Congestion Control and CPU Pinning",
+        "Optimizing Tail Latency in Tier-0 Services: Comparing Hardware-Accelerated Load Balancing vs. eBPF-Based XDP Steering",
+        "The Shift to Shard-Per-Core Architectures: How ScyllaDB and Redpanda Eliminate Locking Contention in High-Throughput NVMe Environments",
+        "Architecting Multi-Region Strongly Consistent Vector Databases: Addressing the CAP Theorem in High-Dimensional Search Spaces"
     ]
 }
