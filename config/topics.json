@@ -970,7 +970,6 @@
         "Architectural Trade-offs in Implementing Distributed KV-Cache Management for Multi-Region LLM Inference Clusters",
         "A Deep Dive into Hierarchical Consensus Protocols for Globally Sharded Meta-Data Stores at Hyperscale",
         "Deep-Dive into NVIDIA Blackwell's NVLink Switch Chip: Architecting 1.8 TB/s All-to-All GPU Fabrics for Trillion-Parameter Models",
-        "Deterministic Replay and Formal Verification in Distributed Storage: How AWS S3 Ensures Strong Consistency at Exabyte Scale",
         "Beyond eBPF: Leveraging User-Space Networking and DPDK for Sub-Microsecond Packet Processing in High-Frequency Trading Infrastructure",
         "Optimizing Tail Latencies in Geo-Distributed Spanner Implementations using Predictive Read-Leases",
         "Zero-Copy Networking at Scale: Integrating eBPF and DPDK for Terabit-Per-Second Packet Processing",
@@ -1137,6 +1136,9 @@
         "Zero-Copy Kernel Bypass Networking: Implementing RDMA over Converged Ethernet at Terabit Scales",
         "The Evolution of Meta’s RoCEv2 Network Fabric: Orchestrating 24,000 GPU Clusters for Massive-Scale AI Training",
         "Deep Dive into ByteDance’s Monolith: Engineering a Unified Service Mesh to Handle 100 Million Requests Per Second",
-        "Beyond LSM-Trees: How Netflix Leverages Tiered Storage and eBPF-driven Observability for High-Throughput Real-time Analytics"
+        "Beyond LSM-Trees: How Netflix Leverages Tiered Storage and eBPF-driven Observability for High-Throughput Real-time Analytics",
+        "Implementing Zero-Copy KV-Cache Offloading for Sub-Millisecond LLM Inference Scaling",
+        "Designing Multi-Master Global Sequencers for Deterministic State Replication in Geographically Distributed Databases",
+        "Evolution of eBPF-driven XDP Packet Filtering for Terabit-Scale DDoS Mitigation at the Network Edge"
     ]
 }
