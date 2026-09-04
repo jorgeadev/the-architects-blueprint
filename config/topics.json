@@ -700,7 +700,6 @@
         "Solving the Thundering Herd: Implementing Adaptive Probabilistic Rate Limiting in Globally Distributed Edge Clusters",
         "Zero-Copy Data Transfer and Memory Pinning: Re-engineering Storage Engines for NVMe-over-Fabrics at Scale",
         "Architecting Zettascale Memory Fabrics: Leveraging CXL 3.0 for Composable Disaggregated Data Centers",
-        "Deterministic Simulation Testing at Scale: How FoundationDB Logic Prevents Distributed Race Conditions",
         "Zero-Copy Data Planes in High-Throughput Service Meshes: Bypassing the Kernel with eBPF and XDP for Sub-Microsecond Latency",
         "Architecting Global-Scale Vector Databases: Solving the Dimensionality Curse in Real-Time RAG Pipelines",
         "Implementing Zero-Trust Microsegmentation at 100Gbps Line Rate Using eBPF and XDP Offloading",
@@ -1131,6 +1130,9 @@
         "Zero-Downtime Migration of Petabyte-Scale State Store: Lessons from Meta's Sharding-Manager Overhaul",
         "Deep Dive into NVLink Switch Fabrics: Solving the All-to-All Communication Bottleneck in Multi-Trillion Parameter Model Training",
         "The Architecture of Real-Time Video Generative AI: Scaling Temporal Consistency via Distributed Attention Flash Memory",
-        "How Meta Scaled Llama 3 Training Infrastructure: Overcoming Collective Communication Deadlocks in 24k+ H100 GPU Clusters"
+        "How Meta Scaled Llama 3 Training Infrastructure: Overcoming Collective Communication Deadlocks in 24k+ H100 GPU Clusters",
+        "Optimizing Tail Latency in Multi-Tenant Kubernetes Clusters through eBPF-driven Programmable Data Planes",
+        "The Evolution of Sharding: Implementing Dynamic Sub-partitioning in Globally Distributed Spanner-like Databases",
+        "Mitigating Cold-Start Latencies in Serverless Edge Computing via Pre-warmed WASM Sandboxing and Predictive Resource Allocation"
     ]
 }
