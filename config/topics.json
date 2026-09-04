@@ -50,7 +50,6 @@
         "The Engineering Challenges of Disaggregated Compute and Memory Architectures for Petabyte-Scale AI Model Training",
         "Advanced Viral Vector Design: Engineering Enhanced Tropism and Reduced Immunogenicity in Next-Generation Gene Therapies",
         "The Viral Engineering Playbook: Reverse-Engineering the Real-Time Synchronization Stack Behind Collaborative Features in Figma and Notion",
-        "Beyond the Shard: Google's Next-Gen Spanner and the Physics-Limits of Globally Consistent, Planet-Scale Databases",
         "Deconstructing the Global Request Router: How Meta's Edge Network Handles 10 Trillion Queries Per Day",
         "Beyond Kubernetes: The Unconventional Orchestration Systems Powering Hyperscale AI Training Clusters",
         "The Engineering Challenges of Maintaining Global Consensus in Hyperscale Distributed Transactional Databases",
@@ -1135,6 +1134,9 @@
         "Mitigating Cold-Start Latencies in Serverless Edge Computing via Pre-warmed WASM Sandboxing and Predictive Resource Allocation",
         "Formal Verification of Deterministic Concurrency Control in Spanner-like Distributed Databases",
         "Optimizing KV Cache Fragmentation through PagedAttention and Dynamic Quantization for Million-Token Context Windows",
-        "Zero-Copy Kernel Bypass Networking: Implementing RDMA over Converged Ethernet at Terabit Scales"
+        "Zero-Copy Kernel Bypass Networking: Implementing RDMA over Converged Ethernet at Terabit Scales",
+        "The Evolution of Meta’s RoCEv2 Network Fabric: Orchestrating 24,000 GPU Clusters for Massive-Scale AI Training",
+        "Deep Dive into ByteDance’s Monolith: Engineering a Unified Service Mesh to Handle 100 Million Requests Per Second",
+        "Beyond LSM-Trees: How Netflix Leverages Tiered Storage and eBPF-driven Observability for High-Throughput Real-time Analytics"
     ]
 }
