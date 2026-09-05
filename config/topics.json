@@ -852,7 +852,6 @@
         "Beyond Quorum: Implementing Tiered Storage Architectures in LSM-Tree Databases for Sub-Millisecond Tail Latency at Petabyte Scale",
         "Formal Verification of Distributed Consensus Protocols in Large-Scale KV Stores: A Deep Dive into TLA+ at Scale",
         "Optimizing NVMe-over-Fabrics (NVMe-oF) for Ultra-Low Latency Disaggregated Storage in Multi-Tenant Kubernetes Clusters",
-        "Implementing Differential Dataflow for Real-Time Global State Synchronization in Edge Computing Mesh Networks",
         "Optimizing Tail Latencies in Multi-Tenant LLM Inference: A Deep Dive into PagedAttention and KV Cache Disaggregation",
         "Optimizing Tail Latency in Heterogeneous GPU Clusters: A Deep Dive into Collective Communication Primitives for Distributed Training",
         "Architecting Multi-Tenant Vector Search: Implementing Hardware-Accelerated SIMD Indexing for Sub-Millisecond Retrieval at Petabyte Scale",
@@ -1145,6 +1144,9 @@
         "Formal Verification of Byzantine Fault Tolerant Consensus Protocols in Geo-Distributed Spanner-like Databases",
         "Formal Verification of Distributed Consensus: Comparing TLA+ Models of Raft versus Paxos in High-Throughput Cloud Environments",
         "Zero-Copy Data Transfer and Kernel Bypass: Optimizing NVMe-over-Fabrics for Sub-Millisecond Tail Latency in Tier-0 Storage Systems",
-        "Heterogeneous GPU Cluster Orchestration: Dynamic Scheduling for Exascale LLM Training Across Non-Uniform Memory Access Domains"
+        "Heterogeneous GPU Cluster Orchestration: Dynamic Scheduling for Exascale LLM Training Across Non-Uniform Memory Access Domains",
+        "Optimizing P99 Latency via Deterministic Query Routing in Globally Distributed Spanner-like Architectures",
+        "Implementing Custom Congestion Control in Multi-Tenant RDMA Fabrics for Hyperscale GPU Clusters",
+        "The Mechanics of Cell-Based Architecture: Achieving Hard Fault Isolation in Sub-Millisecond Serverless Runtimes"
     ]
 }
