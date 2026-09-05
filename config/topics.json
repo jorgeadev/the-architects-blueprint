@@ -707,7 +707,6 @@
         "High-throughput Observability Pipelines: Engineering an OpenTelemetry-based Distributed Tracing System for 100M+ Requests per Second",
         "Implementing Formal Verification for Real-Time Consensus Protocols in Large-Scale Sharded Ledger Systems",
         "Beyond Kubernetes: Designing Custom Orchestration Layers for Specialized AI Accelerator Clusters in Hyperscale Data Centers",
-        "Optimizing RoCE v2 for 100k+ GPU Clusters: Solving Congestion Control and Tail Latency in Large-Scale AI Training Fabrics",
         "Architecting Zero-Trust Service Meshes at Scale: Lessons from Netflix’s Transition to mTLS with SPIFFE and Envoy",
         "Deep Dive into Meta’s Tectonic Distributed File System: Managing Exabyte-Scale Blob Storage for Multimodal Foundation Models",
         "Implementing Deterministic Simulation Testing for Distributed Storage Engines using Zig and io_uring",
@@ -1141,6 +1140,9 @@
         "Evolution of eBPF-driven XDP Packet Filtering for Terabit-Scale DDoS Mitigation at the Network Edge",
         "Architecting GPU-Aware Cluster Schedulers: Managing Topology-Aware Memory Placement for Massive-Scale LLM Training",
         "Mitigating Cascading Failures in Anycast-Routed Edge Networks: Implementing Probabilistic Traffic Shedding and Graceful Degradation",
-        "Deep Dive into Multi-Tenant Storage Isolation: Implementing Hardware-Level Resource Guarding with NVMe Namespaces and I/O Determinism"
+        "Deep Dive into Multi-Tenant Storage Isolation: Implementing Hardware-Level Resource Guarding with NVMe Namespaces and I/O Determinism",
+        "Optimizing KV-Cache Fragmentation in Multi-Tenant LLM Serving via PagedAttention and FlashInfer Integration",
+        "Implementing Zero-Copy Data Planes in Hyperscale Service Meshes using eBPF and XDP for Sub-Microsecond Latency",
+        "Formal Verification of Byzantine Fault Tolerant Consensus Protocols in Geo-Distributed Spanner-like Databases"
     ]
 }
