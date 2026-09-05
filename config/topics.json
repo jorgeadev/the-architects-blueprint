@@ -462,7 +462,6 @@
         "Inside the AWS Nitro System: How Hardware Offloading and MicroVM Isolation Redefine Hypervisor Overhead at Massive Scale",
         "How Stripe Scaled a Planet-Scale Database Relocation: An Engineering Postmortem on Shard Migration and Real-Time Consistency",
         "Architecting Real-Time Feature Stores for 100M+ QPS: How TikTok Scales the Monolith Recommendation Engine using Disaggregated Memory",
-        "The Engineering Behind AWS Aurora Limitless: Implementing Distributed Query Coordination for Shardless Global Databases",
         "Architecting Low-Latency Global Consistency: Deep Dive into Spanner-style Physical Clock Synchronization in Distributed SQL Databases",
         "Scaling Vector Search to Billions: An Analysis of Tiered HNSW Indexing and Quantization Strategies in Distributed AI Middleware",
         "Optimizing Zero-Copy Networking in Rust-based Edge Proxies for Sub-Millisecond Tail Latency",
@@ -1143,6 +1142,9 @@
         "Deep Dive into Multi-Tenant Storage Isolation: Implementing Hardware-Level Resource Guarding with NVMe Namespaces and I/O Determinism",
         "Optimizing KV-Cache Fragmentation in Multi-Tenant LLM Serving via PagedAttention and FlashInfer Integration",
         "Implementing Zero-Copy Data Planes in Hyperscale Service Meshes using eBPF and XDP for Sub-Microsecond Latency",
-        "Formal Verification of Byzantine Fault Tolerant Consensus Protocols in Geo-Distributed Spanner-like Databases"
+        "Formal Verification of Byzantine Fault Tolerant Consensus Protocols in Geo-Distributed Spanner-like Databases",
+        "Formal Verification of Distributed Consensus: Comparing TLA+ Models of Raft versus Paxos in High-Throughput Cloud Environments",
+        "Zero-Copy Data Transfer and Kernel Bypass: Optimizing NVMe-over-Fabrics for Sub-Millisecond Tail Latency in Tier-0 Storage Systems",
+        "Heterogeneous GPU Cluster Orchestration: Dynamic Scheduling for Exascale LLM Training Across Non-Uniform Memory Access Domains"
     ]
 }
