@@ -882,7 +882,6 @@
         "Architecting High-Availability Control Planes for Global Edge Compute: A Deep Dive into Anycast-Based Load Balancing and State Synchronization",
         "Hardware-Accelerated Memory Management: Offloading Garbage Collection to CXL-attached Memory Expanders in Hyperscale JVMs",
         "Architecting Zero-Trust Control Planes: Scaling SPIFFE/SPIRE for Million-Node Ephemeral Container Environments",
-        "The Evolution of Shared-Log Architectures: How Shadow Indexing and Tiered Storage Decouple Compute from Persistent State in Modern Streaming Engines",
         "Implementing Multi-Tenant Performance Isolation in Meta’s 100,000+ H100 GPU Clusters via RDMA and Custom Congestion Control",
         "Optimizing Tail Latency in Google’s Distributed Vector Search: Migrating from Spanner to Specialized In-Memory Key-Value Topologies",
         "The Engineering Behind Pingora: Solving the Memory Fragmentation and Garbage Collection Bottlenecks of Nginx using Zero-Copy Rust Patterns at Cloudflare",
@@ -1139,6 +1138,9 @@
         "Beyond LSM-Trees: How Netflix Leverages Tiered Storage and eBPF-driven Observability for High-Throughput Real-time Analytics",
         "Implementing Zero-Copy KV-Cache Offloading for Sub-Millisecond LLM Inference Scaling",
         "Designing Multi-Master Global Sequencers for Deterministic State Replication in Geographically Distributed Databases",
-        "Evolution of eBPF-driven XDP Packet Filtering for Terabit-Scale DDoS Mitigation at the Network Edge"
+        "Evolution of eBPF-driven XDP Packet Filtering for Terabit-Scale DDoS Mitigation at the Network Edge",
+        "Architecting GPU-Aware Cluster Schedulers: Managing Topology-Aware Memory Placement for Massive-Scale LLM Training",
+        "Mitigating Cascading Failures in Anycast-Routed Edge Networks: Implementing Probabilistic Traffic Shedding and Graceful Degradation",
+        "Deep Dive into Multi-Tenant Storage Isolation: Implementing Hardware-Level Resource Guarding with NVMe Namespaces and I/O Determinism"
     ]
 }
