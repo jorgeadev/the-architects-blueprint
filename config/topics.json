@@ -584,7 +584,6 @@
         "Optimizing Tail Latencies in Multi-Tenant Vector Databases via Tiered Memory Hierarchies and RDMA-Assisted Sharding",
         "The Evolution of Edge Compute: Implementing WebAssembly-based Serverless Runtimes for Sub-Millisecond Cold Starts",
         "Formal verification of distributed consensus protocols in high-throughput RDMA-enabled clusters",
-        "Solving the thundering herd problem in multi-tenant edge compute platforms via adaptive backpressure and predictive caching",
         "Architecture of a petabyte-scale vector database: Balancing low-latency retrieval with HNSW indexing over tiered storage",
         "Architecting eBPF-Powered Zero-Trust Networking for Microservices at 100 Million Requests per Second",
         "Architecting Petabyte-Scale KV-Cache Offloading: Navigating the Memory Wall in Distributed LLM Inference via CXL 3.0",
@@ -1151,6 +1150,9 @@
         "Deterministic Simulation Testing at Scale: How Anthropic Ensures Protocol Safety in Massive-Scale Model Training Environments",
         "Deconstructing the Llama 3 Training Cluster: How Meta Mitigates Silent Data Corruption in 400Gbps InfiniBand Fabrics",
         "The Engineering Behind YouTube’s Global Video Ingestion: Leveraging QUIC for 100Gbps+ Per-Node Throughput",
-        "Architecting Zero-Downtime Database Migrations at OpenAI: Using Shadow Writes and Ghost Tables for Multi-Petabyte Transitions"
+        "Architecting Zero-Downtime Database Migrations at OpenAI: Using Shadow Writes and Ghost Tables for Multi-Petabyte Transitions",
+        "Deconstructing the Networking Topology of 100k+ GPU Clusters: RoCE v2 vs. InfiniBand in Generative AI Training",
+        "Implementing Formal Verification in Distributed Consensus Protocols: How AWS S3 Ensures Strong Consistency at Exabyte Scale",
+        "The Evolution of Global Traffic Steering: Leveraging eBPF and Anycast for Sub-Millisecond Failover in Multi-Region Mesh Architectures"
     ]
 }
