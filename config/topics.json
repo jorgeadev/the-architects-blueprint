@@ -1104,7 +1104,6 @@
         "Scaling GPU Orchestration: Overcoming InfiniBand Bottlenecks and Collective Communication Deadlocks in 100k-Node Large Language Model Training Clusters",
         "Architecting Deterministic Simulation Testing for Distributed State Machines in Hyperscale Cloud Environments",
         "Optimizing KV-Cache Management and Tiered Memory Prefetching for Large-Scale Mixture-of-Experts (MoE) Inference Pipelines",
-        "Implementing Zero-Copy High-Throughput Packet Processing Using eBPF and XDP for Multi-Tenant Kubernetes Service Meshes",
         "Dissecting Meta's cross-region Zonal Failover: A real-time ML inference latency budget under 50ms during a 3-AZ blip in the US-East fabric",
         "The hidden CXL memory tiering war: How hyperscalers are using cache-coherent interconnects to decouple DRAM from physical NUMA domains for cold-start elastic pools",
         "Inside the 'Packet Churn' problem: Re-architecting eBPF load balancers at 10M PPS with a custom ring-buffer allocator and zero-copy RSS hashing in the kernel bypass path",
@@ -1149,6 +1148,9 @@
         "The Mechanics of Cell-Based Architecture: Achieving Hard Fault Isolation in Sub-Millisecond Serverless Runtimes",
         "Implementing Zero-Copy Networking in Meta's Llama 3 Training Clusters: A Deep Dive into RoCE v2 and Collective Communication Bottlenecks",
         "Architecting Multi-Region Consistency: How Uber Solved the Global Linearizability Challenge in their New Distributed Database Layer",
-        "Deterministic Simulation Testing at Scale: How Anthropic Ensures Protocol Safety in Massive-Scale Model Training Environments"
+        "Deterministic Simulation Testing at Scale: How Anthropic Ensures Protocol Safety in Massive-Scale Model Training Environments",
+        "Deconstructing the Llama 3 Training Cluster: How Meta Mitigates Silent Data Corruption in 400Gbps InfiniBand Fabrics",
+        "The Engineering Behind YouTube’s Global Video Ingestion: Leveraging QUIC for 100Gbps+ Per-Node Throughput",
+        "Architecting Zero-Downtime Database Migrations at OpenAI: Using Shadow Writes and Ghost Tables for Multi-Petabyte Transitions"
     ]
 }
