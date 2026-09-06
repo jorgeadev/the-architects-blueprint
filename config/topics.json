@@ -542,7 +542,6 @@
         "Predictive Auto-Scaling with Transformer-Based Time-Series Models: How AWS Manages Elastic Compute Fleet Availability",
         "Reducing Tail Latency in Heterogeneous Clusters: Implementing GPU-Aware Scheduling and Topology-Specific Networking in Kubernetes",
         "A deep dive into Google's redundant disaggregated storage fabric and its impact on global query latency under exascale load.",
-        "The engineering politics behind AWS's new silicon photonics interconnect and its role in shattering the hyperscale network bottleneck.",
         "The Latency Tax: Analyzing the Hidden Performance Costs of Global Anycast Routing in CDN Networks at 10 Million Requests Per Second",
         "Distributed Consensus at Planetary Scale: A Post-Mortem on the Multi-Region CockroachDB Outage Triggered by a Clock Skew Anomaly",
         "Hardware-Software Co-Design for LLM Serving: Benchmarking NVLink Sharding vs. InfiniBand-Connected GPU Clusters",
@@ -1147,6 +1146,9 @@
         "Heterogeneous GPU Cluster Orchestration: Dynamic Scheduling for Exascale LLM Training Across Non-Uniform Memory Access Domains",
         "Optimizing P99 Latency via Deterministic Query Routing in Globally Distributed Spanner-like Architectures",
         "Implementing Custom Congestion Control in Multi-Tenant RDMA Fabrics for Hyperscale GPU Clusters",
-        "The Mechanics of Cell-Based Architecture: Achieving Hard Fault Isolation in Sub-Millisecond Serverless Runtimes"
+        "The Mechanics of Cell-Based Architecture: Achieving Hard Fault Isolation in Sub-Millisecond Serverless Runtimes",
+        "Implementing Zero-Copy Networking in Meta's Llama 3 Training Clusters: A Deep Dive into RoCE v2 and Collective Communication Bottlenecks",
+        "Architecting Multi-Region Consistency: How Uber Solved the Global Linearizability Challenge in their New Distributed Database Layer",
+        "Deterministic Simulation Testing at Scale: How Anthropic Ensures Protocol Safety in Massive-Scale Model Training Environments"
     ]
 }
