@@ -431,7 +431,6 @@
         "Implementing Deterministic Simulation Testing for Distributed Database Kernels: Preventing Heisenbugs in Multi-Region Consensus Engines",
         "Implementing Zero-Copy Networking and RDMA for Ultra-Low Latency Distributed Storage Engines",
         "Deep Dive into Cellular Architecture: How Meta Manages Fault Isolation in Global-Scale Sharded Databases",
-        "Scaling DPU-Offloaded Network Stacks: A Deep Dive into NVIDIA BlueField-3's Impact on Hyperscale Datacenter Throughput and Tail Latency",
         "Decoding the Warp: How Google's Pathways System Overcomes Physical Limits in its Next-Generation TPU v6 Pod Optical Interconnect",
         "The Operational Logic of a Billion-Node Graph: A Formal Analysis of Meta's Distributed, Real-Time FBLearner Feature Store for Live Recommendations",
         "Deep Dive into Meta's MTIA Infrastructure: Scaling Custom AI Silicon for Real-Time PyTorch Inference",
@@ -1153,6 +1152,9 @@
         "Architecting Zero-Downtime Database Migrations at OpenAI: Using Shadow Writes and Ghost Tables for Multi-Petabyte Transitions",
         "Deconstructing the Networking Topology of 100k+ GPU Clusters: RoCE v2 vs. InfiniBand in Generative AI Training",
         "Implementing Formal Verification in Distributed Consensus Protocols: How AWS S3 Ensures Strong Consistency at Exabyte Scale",
-        "The Evolution of Global Traffic Steering: Leveraging eBPF and Anycast for Sub-Millisecond Failover in Multi-Region Mesh Architectures"
+        "The Evolution of Global Traffic Steering: Leveraging eBPF and Anycast for Sub-Millisecond Failover in Multi-Region Mesh Architectures",
+        "Hardware-Software Co-Design for Petabyte-Scale Vector Databases: Offloading ANN Search to Custom FPGA Accelerators",
+        "Zero-Copy Data Planes in Distributed Stream Processing: Implementing Shared Memory Semantics across RDMA-Enabled Clusters",
+        "Quantifying Tail Latency Amortization in Large-Scale Erasure Coded Storage Systems via Predictive Proactive Reconstruction"
     ]
 }
