@@ -724,7 +724,6 @@
         "Mitigating Global Clock Drift: Building Deterministic Distributed Consensus with Hardware-Backed Time Synchronization in Multi-Region Clusters",
         "Zero-Copy Packet Processing: Leveraging eBPF and XDP for Terabit-Scale Edge Load Balancing and Real-Time DDoS Mitigation",
         "Quantizing the Interconnect: Optimizing Collective Communication Primitives for Distributed Training of 100T Parameter Models via GPUDirect RDMA",
-        "Deep Dive into Cellular Architecture: Partitioning Massive Monolithic Backends into Fault-Tolerant Shards",
         "Optimizing Kernel-Space to User-Space Context Switching for High-Throughput NVMe-over-Fabrics Storage",
         "The Mechanics of Predictive Auto-scaling: Using Machine Learning to Mitigate Cold-Start Latency in Hyperscale Serverless Tiers",
         "Re-architecting Global Control Planes: Decoupling State from Logic in Hyper-Scale Edge Networks",
@@ -1159,6 +1158,9 @@
         "Optimizing Throughput in Multi-Tenant GPU Clusters via Dynamic Quantization and Pipeline Parallelism",
         "Heterogeneous Memory Tiering at Warehouse Scale: Kernel Bypass, CXL 2.0, and the Death of the DRAM/PMEM Dichotomy",
         "Dissecting the Control-Plane Thundering Herd: How Global Anycast and BGP Flap Damping Failed During a 42-Tbps Anycast Collapse",
-        "Thermal-Aware Graph Sharding: Rebalancing Petabyte-Scale DataFrames Across Liquid-Cooled GPU Pods Using Microsecond-Latency Telemetry"
+        "Thermal-Aware Graph Sharding: Rebalancing Petabyte-Scale DataFrames Across Liquid-Cooled GPU Pods Using Microsecond-Latency Telemetry",
+        "Formal Verification of RDMA-based Networking Protocols in Meta's 400G RoCEv2 GPU Training Clusters",
+        "Decoupling Storage from Compute: The Architecture of Uber's Petabyte-Scale Real-Time Analytical Database Layer",
+        "Zero-Downtime Migration of Billions of User Shards: Behind WhatsApp's Move to Distributed Multi-Region Erlang Nodes"
     ]
 }
