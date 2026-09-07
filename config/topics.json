@@ -408,7 +408,6 @@
         "Optimizing KV Cache Management for Multi-Tenant LLM Serving: A Deep Dive into PagedAttention and FlashAttention Integration",
         "Implementing eBPF-based L4 Load Balancing for 100M+ Concurrent Connections: A Deep Dive into XDP and Katran Evolution",
         "Deterministic Simulation Testing at Scale: How FoundationDB Validates Distributed State Machine Consistency Under Network Partitions",
-        "Reducing Tail Latency in Multi-Tenant Vector Databases: Implementing Tiered Indexing and Write-Ahead Log Partitioning for RAG at Petabyte Scale",
         "Disaggregated memory over CXL: mitigating NUMA penalties in petabyte-scale analytics clusters at Meta.",
         "Decoding the implicit neural representation of Netflix's microservice routing graph for real-time canary analysis.",
         "How Cloudflare built a 100 Gbps DDoS mitigation pipeline on eBPF and XDP, bypassing the kernel TCP stack.",
@@ -1155,6 +1154,9 @@
         "The Evolution of Global Traffic Steering: Leveraging eBPF and Anycast for Sub-Millisecond Failover in Multi-Region Mesh Architectures",
         "Hardware-Software Co-Design for Petabyte-Scale Vector Databases: Offloading ANN Search to Custom FPGA Accelerators",
         "Zero-Copy Data Planes in Distributed Stream Processing: Implementing Shared Memory Semantics across RDMA-Enabled Clusters",
-        "Quantifying Tail Latency Amortization in Large-Scale Erasure Coded Storage Systems via Predictive Proactive Reconstruction"
+        "Quantifying Tail Latency Amortization in Large-Scale Erasure Coded Storage Systems via Predictive Proactive Reconstruction",
+        "Implementing Zero-Downtime Live Migrations for Petabyte-Scale Distributed Vector Databases",
+        "Designing a Global Edge-Native Consensus Protocol for Low-Latency State Synchronization in Multi-Cloud Environments",
+        "Optimizing Throughput in Multi-Tenant GPU Clusters via Dynamic Quantization and Pipeline Parallelism"
     ]
 }
