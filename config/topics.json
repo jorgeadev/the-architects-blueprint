@@ -470,7 +470,6 @@
         "Implementing Multi-Raft Consensus for Global Low-Latency State Synchronization in Geographically Distributed Databases",
         "Zero-Copy eBPF-Based Observability: Profiling Kernel-to-Userspace Context Switches in High-Throughput Microservices",
         "Architecting Disaggregated Memory Pools for LLM Training Clusters via CXL 3.0 Fabric Interconnects",
-        "Zero-Bubble Pipeline Parallelism: Scaling Synchronous Training Across 24,000 H100 GPUs for Llama 3",
         "Beyond Sidecars: Accelerating Service Mesh Performance Using eBPF-based Kernel Bypass in Global Edge Clusters",
         "Optimizing Checkpointing Latency in Massive-Scale AI Training via 400Gbps RoCE v2 Fabric Topologies",
         "Hardware-Accelerated mTLS Offloading: Scaling Zero-Trust Service Meshes using SmartNICs in Global Data Centers",
@@ -1169,6 +1168,9 @@
         "Beyond RoCE v2: The Engineering Behind Meta's MTIA and Custom Interconnects for Training 100-Trillion Parameter Models",
         "Deep Dive into Cross-Region Consistency Models for Globally Distributed Vector Databases",
         "Optimizing P99 Latency in Hyperscale Microservices via eBPF-Based Congestion Control",
-        "Architecting Tenant Isolation for Multi-Modal LLM Training on Shared GPU Fabrics"
+        "Architecting Tenant Isolation for Multi-Modal LLM Training on Shared GPU Fabrics",
+        "Dissecting Meta's Zillion-Scale Sharded Graph: How TAO's Custom Caching and SSD Tiering Survive 15B Edge Reads Per Second",
+        "Inside Google's Jupiter Evolving Fabric: How BwE-Integrated SDN and Optical Circuit Switching Crush Microbursts at 100Tbps Spine Capacity",
+        "The Hidden Geometry of WhatsApp's Erlang VM: Rebuilding Mnesia's Distributed Consensus for 2B Users Across 5 Global Regions"
     ]
 }
