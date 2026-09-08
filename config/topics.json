@@ -627,7 +627,6 @@
         "Zero-Copy Memory Management and Kernel Bypass Techniques in High-Throughput Distributed Message Brokers: A Comparison of io_uring and DPDK",
         "Deep Dive into ByteDance’s Monolith: Scaling Embedding Tables across Thousands of GPU Nodes",
         "Zero-Copy Data Transfer and eBPF-Driven Networking in High-Throughput Service Mesh Architectures",
-        "Optimizing KV-Cache Management for Multi-Tenant LLM Serving at Scale",
         "Optimizing Distributed KV-Cache Management for Multi-Trillion Parameter Model Inference",
         "Zero-Copy Observability: Scaling eBPF-Driven Telemetry Ingestion to 100PB per Day",
         "Mitigating RDMA Incast Congestion in Massive-Scale H100 GPU Clusters",
@@ -1167,6 +1166,9 @@
         "Zero-Copy Serialization Patterns in eBPF-based High-Throughput Packet Processing for Terabit Gateways",
         "Architecting Ultra-Low Latency Inference: How Groq Leverages Software-Defined Hardware to Bypass Traditional GPU Bottlenecks",
         "Solving the Thundering Herd: Implementing Adaptive Priority Concurrency Control in Globally Distributed Microservices",
-        "Beyond RoCE v2: The Engineering Behind Meta's MTIA and Custom Interconnects for Training 100-Trillion Parameter Models"
+        "Beyond RoCE v2: The Engineering Behind Meta's MTIA and Custom Interconnects for Training 100-Trillion Parameter Models",
+        "Deep Dive into Cross-Region Consistency Models for Globally Distributed Vector Databases",
+        "Optimizing P99 Latency in Hyperscale Microservices via eBPF-Based Congestion Control",
+        "Architecting Tenant Isolation for Multi-Modal LLM Training on Shared GPU Fabrics"
     ]
 }
