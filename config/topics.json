@@ -1085,7 +1085,6 @@
         "Beyond eBPF: Leveraging XDP and Hardware Offloading for Multi-Terabit DDoS Mitigation in Edge Networks",
         "Architecting Petascale GPU Clusters: Mitigating InfiniBand Congestion and Collective Communication Bottlenecks in LLM Training",
         "Formal Verification of Distributed Consensus: Applying TLA+ to Prevent Edge-Case Data Corruption in NewSQL Storage Engines",
-        "Zero-Trust Service Mesh at 100M RPS: Implementing Hardware-Accelerated mTLS with eBPF and Kernel-Bypass Networking",
         "Implementing Zero-Copy Networking with eBPF for Low-Latency Microservices in Multi-Region Kubernetes Clusters",
         "Architectural Deep Dive: Orchestrating Elastic Multi-Tenant GPU Clusters for Distributed Large Language Model Training",
         "Solving the Thundering Herd Problem in Global Distributed Caches using Quorum-Based Lease Mechanisms",
@@ -1165,6 +1164,9 @@
         "Leveraging eBPF and XDP for Zero-Copy Packet Processing in High-Throughput Service Mesh Sidecars",
         "Optimizing RDMA over Converged Ethernet (RoCE) for Distributed LLM Training on Blackwell GPU Clusters",
         "Implementing Hybrid Logical Clocks for Causal Consistency in Multi-Region Serverless Databases",
-        "Zero-Copy Serialization Patterns in eBPF-based High-Throughput Packet Processing for Terabit Gateways"
+        "Zero-Copy Serialization Patterns in eBPF-based High-Throughput Packet Processing for Terabit Gateways",
+        "Architecting Ultra-Low Latency Inference: How Groq Leverages Software-Defined Hardware to Bypass Traditional GPU Bottlenecks",
+        "Solving the Thundering Herd: Implementing Adaptive Priority Concurrency Control in Globally Distributed Microservices",
+        "Beyond RoCE v2: The Engineering Behind Meta's MTIA and Custom Interconnects for Training 100-Trillion Parameter Models"
     ]
 }
