@@ -544,7 +544,6 @@
         "Optimizing Tail Latency in Disaggregated Storage Architectures: A Deep Dive into NVMe-over-Fabrics at Scale",
         "The Evolution of Sharding: Implementing Linearizable Cross-Shard Transactions in Distributed Spanner-like Databases",
         "Hardware-Aware LLM Serving: Leveraging Custom Triton Kernels for KV Cache Compression in High-Throughput Inference Engines",
-        "Implementing Deterministic Query Execution in Distributed NewSQL Engines to Eliminate Non-Replicable State Drift",
         "Zero-Copy Data Transfer Architectures for Billion-Scale Vector Embeddings in Heterogeneous GPU-CPU Clusters",
         "Solving the Cold-Start Latency Bottleneck in Microsecond-Scale Serverless Runtimes via Predictive WebAssembly Snapshotting",
         "Memory Safety at the Kernel Level: Re-Architecting High-Throughput Load Balancers with eBPF and Rust for Line-Rate Processing",
@@ -1177,6 +1176,9 @@
         "Beyond Sidecars: Accelerating Service Mesh Performance with eBPF-Driven Programmable Data Planes in Hyperscale K8s Clusters",
         "Dissecting Meta's Colossal AI Training Cluster: A Deep Dive into the 24,576-GPU H100 Fabric, Optical Switching Topology, and the Failure-Aware Checkpointing System that Sustains 1 ExaFLOPS",
         "Inside Google's Jupiterean Consolidation: How Heterogeneous CPU/TPU Pools and a Chemically-Etched, Liquid-Cooled Rear-Door Heat Exchanger Redefined Warehouse-Scale Compute Density",
-        "The Hidden Fibre Channel of the Web: Analyzing Cloudflare's Anycast-enabled, Multi-Terabit DDoS Mitigation Fabric and the Real-Time BGP Anomaly Detection Engine Built on eBPF and P4"
+        "The Hidden Fibre Channel of the Web: Analyzing Cloudflare's Anycast-enabled, Multi-Terabit DDoS Mitigation Fabric and the Real-Time BGP Anomaly Detection Engine Built on eBPF and P4",
+        "Dissecting Meta's 10 Petabyte AI Training Cluster: A Deep Dive into their Hierarchical Optical Fabric, Collective Communication Topologies, and Fault-Conscious Checkpointing at Exascale",
+        "The Unspoken Complexity of Cloud Control Planes: How Google's Borg and AWS' Cell-Based Architecture Tolerate Multi-Region Cascading Failures via Sharded Quorum and Chaos Engineering",
+        "Bridging the NVMe-over-Fabric Gap: A Technical Autopsy of Twitter/X's Real-Time Fanout Engine, Leveraging RDMA Memcached and a Distributed Log-Structured Merge Tree for Sub-10ms Global Timelines"
     ]
 }
