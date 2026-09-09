@@ -897,7 +897,6 @@
         "Reducing P99 Latency in Globally Distributed Key-Value Stores via Cooperative Caching and Predictive Request Hedging",
         "Vector Database Internals: Optimizing HNSW Indexing for Billion-Scale Nearest Neighbor Search in Real-Time Recommendation Engines",
         "Eliminating Tail Latency in Multi-Tenant Environments: Implementing Programmable Egress Rate Limiting with eBPF and XDP",
-        "The Evolution of Cluster Scheduling: Investigating the Convergence of Kubernetes and Bare-Metal GPU Orchestration for Distributed Foundation Model Training",
         "Optimizing Delta-State CRDTs for Low-Bandwidth Edge Synchronization in Globally Distributed Vector Databases",
         "Analyzing the Performance Trade-offs of RDMA over Converged Ethernet (RoCE) v2 in Petascale AI Training Clusters",
         "Implementing Zero-Downtime Deterministic Database Resharding via Log-Structured Merge-Tree Compaction Snaps",
@@ -1175,6 +1174,9 @@
         "Architecting Tiered Storage for LLM Training: Managing Petabyte-Scale Checkpointing Latency via Non-Volatile Memory Express (NVMe) over Fabrics",
         "Architecting Zero-Copy Storage Engines: Leveraging NVMe-oF and SPDK for Sub-Microsecond Tail Latencies",
         "Formal Verification of Distributed Consensus: Re-engineering Paxos for Multi-Region Active-Active Replication at 100M+ QPS",
-        "Beyond Sidecars: Accelerating Service Mesh Performance with eBPF-Driven Programmable Data Planes in Hyperscale K8s Clusters"
+        "Beyond Sidecars: Accelerating Service Mesh Performance with eBPF-Driven Programmable Data Planes in Hyperscale K8s Clusters",
+        "Dissecting Meta's Colossal AI Training Cluster: A Deep Dive into the 24,576-GPU H100 Fabric, Optical Switching Topology, and the Failure-Aware Checkpointing System that Sustains 1 ExaFLOPS",
+        "Inside Google's Jupiterean Consolidation: How Heterogeneous CPU/TPU Pools and a Chemically-Etched, Liquid-Cooled Rear-Door Heat Exchanger Redefined Warehouse-Scale Compute Density",
+        "The Hidden Fibre Channel of the Web: Analyzing Cloudflare's Anycast-enabled, Multi-Terabit DDoS Mitigation Fabric and the Real-Time BGP Anomaly Detection Engine Built on eBPF and P4"
     ]
 }
