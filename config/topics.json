@@ -441,7 +441,6 @@
         "ByteDance’s Monolith: Re-engineering Parameter Servers for 100-Trillion Parameter Sparse Embedding Models",
         "Optimizing RDMA over Converged Ethernet (RoCE) for Distributed Training of 400B+ Parameter Large Language Models at Meta Scale",
         "Zero-Copy Data Transfer and User-Space Networking: How Discord Migrated its Voice Gateway to Achieve Sub-Millisecond Jitter at 15M Concurrent Connections",
-        "Decoding the Data Plane: A Deep Dive into VPP-based User-Space Packet Processing at Cloudflare's Edge",
         "Breaking the Amdahl Barrier: How Meta's MTIA v2 Custom Silicon Re-Architects Recommendation Inference Pipelines",
         "Optimizing Global Tail Latency: The Internals of Google’s Maglev Next-Gen Load Balancing with Programmable Logic",
         "Building a Billion-Event Per Second Ingestion Engine: Disaggregated Storage and Write-Ahead Log Optimization in Apache Pinot",
@@ -1173,6 +1172,9 @@
         "The Hidden Geometry of WhatsApp's Erlang VM: Rebuilding Mnesia's Distributed Consensus for 2B Users Across 5 Global Regions",
         "Vector Clock Compaction Strategies in Globally Distributed Multi-Writer Databases: Addressing State Explosion in CRDTs",
         "Kernel-Bypass Networking with eBPF and XDP: Redesigning High-Ingress Load Balancers for 100Gbps Line Rates",
-        "Architecting Tiered Storage for LLM Training: Managing Petabyte-Scale Checkpointing Latency via Non-Volatile Memory Express (NVMe) over Fabrics"
+        "Architecting Tiered Storage for LLM Training: Managing Petabyte-Scale Checkpointing Latency via Non-Volatile Memory Express (NVMe) over Fabrics",
+        "Architecting Zero-Copy Storage Engines: Leveraging NVMe-oF and SPDK for Sub-Microsecond Tail Latencies",
+        "Formal Verification of Distributed Consensus: Re-engineering Paxos for Multi-Region Active-Active Replication at 100M+ QPS",
+        "Beyond Sidecars: Accelerating Service Mesh Performance with eBPF-Driven Programmable Data Planes in Hyperscale K8s Clusters"
     ]
 }
