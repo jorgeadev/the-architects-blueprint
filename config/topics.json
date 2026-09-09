@@ -622,7 +622,6 @@
         "Implementing Zero-Copy Networking in Rust-based Edge Proxies to Minimize Tail Latency in Global Content Delivery",
         "Strategies for Mitigating Write Amplification in Log-Structured Merge-Trees for High-Throughput Time-Series Workloads at Scale",
         "Deep Dive into Meta's 24,576 H100 Cluster: Optimizing RoCE v2 and Collective Communication for Large Language Model Training",
-        "Beyond Spanner: Architecting Low-Latency Multi-Region Consistency Using Hybrid Logical Clocks and Deterministic State Machine Replication",
         "Zero-Copy Memory Management and Kernel Bypass Techniques in High-Throughput Distributed Message Brokers: A Comparison of io_uring and DPDK",
         "Deep Dive into ByteDance’s Monolith: Scaling Embedding Tables across Thousands of GPU Nodes",
         "Zero-Copy Data Transfer and eBPF-Driven Networking in High-Throughput Service Mesh Architectures",
@@ -1171,6 +1170,9 @@
         "Architecting Tenant Isolation for Multi-Modal LLM Training on Shared GPU Fabrics",
         "Dissecting Meta's Zillion-Scale Sharded Graph: How TAO's Custom Caching and SSD Tiering Survive 15B Edge Reads Per Second",
         "Inside Google's Jupiter Evolving Fabric: How BwE-Integrated SDN and Optical Circuit Switching Crush Microbursts at 100Tbps Spine Capacity",
-        "The Hidden Geometry of WhatsApp's Erlang VM: Rebuilding Mnesia's Distributed Consensus for 2B Users Across 5 Global Regions"
+        "The Hidden Geometry of WhatsApp's Erlang VM: Rebuilding Mnesia's Distributed Consensus for 2B Users Across 5 Global Regions",
+        "Vector Clock Compaction Strategies in Globally Distributed Multi-Writer Databases: Addressing State Explosion in CRDTs",
+        "Kernel-Bypass Networking with eBPF and XDP: Redesigning High-Ingress Load Balancers for 100Gbps Line Rates",
+        "Architecting Tiered Storage for LLM Training: Managing Petabyte-Scale Checkpointing Latency via Non-Volatile Memory Express (NVMe) over Fabrics"
     ]
 }
