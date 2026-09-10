@@ -1048,7 +1048,6 @@
         "Formal Verification of Distributed Consensus Protocols in Sub-Millisecond High-Frequency Trading Engines",
         "Zero-Copy Data Planes: Implementing RDMA and DPDK for Ultra-Low Latency Inter-Process Communication in Cloud-Native Environments",
         "Dynamic Resource Reallocation in Large Language Model Inference Clusters via Real-Time KV Cache Compression and Tiered Memory Offloading",
-        "Architecting Global-Scale Vector Databases: Solving the Dimensionality Curse in Distributed RAG Systems",
         "Leveraging eBPF for Zero-Copy Observability in High-Throughput Service Mesh Sidecars",
         "Implementing Deterministic Simulation Testing for Distributed Consensus Protocols in Large-Scale Storage Clusters",
         "Implementing Hierarchical Raft for Global Consistency in Billion-Scale Distributed Vector Databases",
@@ -1179,6 +1178,9 @@
         "The Hidden Fibre Channel of the Web: Analyzing Cloudflare's Anycast-enabled, Multi-Terabit DDoS Mitigation Fabric and the Real-Time BGP Anomaly Detection Engine Built on eBPF and P4",
         "Dissecting Meta's 10 Petabyte AI Training Cluster: A Deep Dive into their Hierarchical Optical Fabric, Collective Communication Topologies, and Fault-Conscious Checkpointing at Exascale",
         "The Unspoken Complexity of Cloud Control Planes: How Google's Borg and AWS' Cell-Based Architecture Tolerate Multi-Region Cascading Failures via Sharded Quorum and Chaos Engineering",
-        "Bridging the NVMe-over-Fabric Gap: A Technical Autopsy of Twitter/X's Real-Time Fanout Engine, Leveraging RDMA Memcached and a Distributed Log-Structured Merge Tree for Sub-10ms Global Timelines"
+        "Bridging the NVMe-over-Fabric Gap: A Technical Autopsy of Twitter/X's Real-Time Fanout Engine, Leveraging RDMA Memcached and a Distributed Log-Structured Merge Tree for Sub-10ms Global Timelines",
+        "Implementing Hierarchical Cache Topologies for Globally Distributed Vector Embeddings",
+        "Zero-Copy Data Transfer in High-Throughput Microservices: Leveraging eBPF and Shared Memory for 100Gbps Interconnects",
+        "Architecting Geo-Replicated Multi-Paxos State Machines for Sub-Millisecond Consistency in Edge Computing Environments"
     ]
 }
