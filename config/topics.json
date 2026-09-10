@@ -307,7 +307,6 @@
         "The Evolution of Deterministic Simulation Testing for Distributed Databases: How FoundationDB and TigerBeetle Achieve 99.99999% Reliability",
         "Formal Verification of Distributed Transaction Protocols in Hyperscale Microservices: Bridging TLA+ Models with Rust Implementation",
         "How Google Scaled its Spanner Backend to Serve 10 Billion Read/Write Operations Per Second Using a Novel TrueTime-Based Sharding Algorithm",
-        "Optimizing Tail Latency in Multi-Tenant Distributed Key-Value Stores via Hardware-Accelerated Consensus Protocols",
         "Zero-Copy Data Transfer Pipelines in Hyperscale Observability Platforms using eBPF and Shared Memory Ring Buffers",
         "Hardware-Accelerated Load Balancing: How Google Cloud Uses Maglev and Andromeda to Minimize Packet Jitter at Petabit Scales",
         "Designing the Next-Generation KV Store: Implementing LSM-Tree Optimization via NVMe-oF in Massive Distributed Storage",
@@ -1181,6 +1180,9 @@
         "Bridging the NVMe-over-Fabric Gap: A Technical Autopsy of Twitter/X's Real-Time Fanout Engine, Leveraging RDMA Memcached and a Distributed Log-Structured Merge Tree for Sub-10ms Global Timelines",
         "Implementing Hierarchical Cache Topologies for Globally Distributed Vector Embeddings",
         "Zero-Copy Data Transfer in High-Throughput Microservices: Leveraging eBPF and Shared Memory for 100Gbps Interconnects",
-        "Architecting Geo-Replicated Multi-Paxos State Machines for Sub-Millisecond Consistency in Edge Computing Environments"
+        "Architecting Geo-Replicated Multi-Paxos State Machines for Sub-Millisecond Consistency in Edge Computing Environments",
+        "Solving the 'Thundering Herd' in Massive AI Clusters: Implementing Congestion Control for RDMA over RoCE v2 at 800Gbps",
+        "Architecting Global Consistency at 100M+ QPS: Distributed Rate Limiting and Consensus Challenges in Multi-Region Edge Layers",
+        "Beyond the Sidecar: Leveraging eBPF and Istio Ambient Mesh to Eliminate Proxy Overhead in Hyperscale Microservice Fabrics"
     ]
 }
