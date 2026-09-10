@@ -413,7 +413,6 @@
         "How Netflix Replaced memcached with a Verifiable CRDT-Based State Store for Sub-Millisecond Session Affinity at Exabyte Scale",
         "Hardware-Offloaded Congestion Control: Deep Dive into Meta’s Custom RoCE v2 Implementation for 100k-GPU Clusters",
         "Optimizing Global Consensus: Implementing Clock-Skew-Aware Lease Management in Multi-Region Spanner Topologies",
-        "Optimizing NVLink-Based GPU Interconnects for Billion-Parameter Model Checkpointing at Sub-Millisecond Latencies",
         "A Deep Dive into Google's Maglev Evolution: Handling 100Tbps DDoS Mitigation via eBPF and Programmable Hardware Offloads",
         "Architecting Heterogeneous Memory Hierarchies: Integrating CXL 3.0 Fabrics for Pooled DRAM in Massive Scale Multi-Tenant Clusters",
         "Deconstructing the Vector Database Bottleneck: Tiered HNSW Indexing for Trillion-Scale Semantic Search",
@@ -1183,6 +1182,9 @@
         "Architecting Geo-Replicated Multi-Paxos State Machines for Sub-Millisecond Consistency in Edge Computing Environments",
         "Solving the 'Thundering Herd' in Massive AI Clusters: Implementing Congestion Control for RDMA over RoCE v2 at 800Gbps",
         "Architecting Global Consistency at 100M+ QPS: Distributed Rate Limiting and Consensus Challenges in Multi-Region Edge Layers",
-        "Beyond the Sidecar: Leveraging eBPF and Istio Ambient Mesh to Eliminate Proxy Overhead in Hyperscale Microservice Fabrics"
+        "Beyond the Sidecar: Leveraging eBPF and Istio Ambient Mesh to Eliminate Proxy Overhead in Hyperscale Microservice Fabrics",
+        "Implementing Cache Coherence Protocols for Geo-Distributed Stateful Edge Functions at 100M RPS",
+        "Deep Dive: The Erasure Coding and Quorum Consistency Trade-offs in Exabyte-Scale Object Storage Layers",
+        "Reverse-Engineering the Zero-Copy Networking Stack for 400Gbps Intra-Datacenter RDMA Fabrics"
     ]
 }
