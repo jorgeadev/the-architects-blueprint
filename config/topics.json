@@ -385,7 +385,6 @@
         "Implementing Zero-Copy Data Planes for Terabit-Scale Load Balancing using DPDK and eBPF",
         "Solving the Thundering Herd Problem in Global Cache Invalidation Frameworks for Real-Time Ad-Bidding",
         "Deterministic Simulation Testing for Distributed Consensus Protocols in Large-Scale Vector Databases",
-        "Deep Dive into Zero-Copy Buffer Management and RDMA Integration in Distributed Log Storage Engines",
         "Architecting Web-Scale Vector Search: Hierarchical Navigable Small Worlds (HNSW) Indexing on GPU-Accelerated Clusters",
         "Architecting Ultra-Low Latency Inference Engines: A Deep Dive into NVIDIA Hopper Transformer Engine at Scale",
         "Dissecting the data plane: A deep dive into Meta's 800G DWDM optical transport backbone for cross-cluster AI training traffic",
@@ -1185,6 +1184,9 @@
         "Beyond the Sidecar: Leveraging eBPF and Istio Ambient Mesh to Eliminate Proxy Overhead in Hyperscale Microservice Fabrics",
         "Implementing Cache Coherence Protocols for Geo-Distributed Stateful Edge Functions at 100M RPS",
         "Deep Dive: The Erasure Coding and Quorum Consistency Trade-offs in Exabyte-Scale Object Storage Layers",
-        "Reverse-Engineering the Zero-Copy Networking Stack for 400Gbps Intra-Datacenter RDMA Fabrics"
+        "Reverse-Engineering the Zero-Copy Networking Stack for 400Gbps Intra-Datacenter RDMA Fabrics",
+        "Architecting Global-Scale Cell-Based Infrastructure to Mitigate Blast Radius in Multi-Region Deployments",
+        "The Evolution of Shared-Log Persistence: Comparing BookKeeper, LogDevice, and Corfu for High-Throughput Streams",
+        "Optimizing Kernel-Level Context Switching and Cache Locality for Multi-Tenant Serverless Execution Environments"
     ]
 }
