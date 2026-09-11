@@ -232,7 +232,6 @@
         "Evolving Hyperscale Distributed Transactional Stores: Navigating Global Consistency, Latency, and Data Sovereignty Challenges in Multi-Region Architectures",
         "Beyond Generic: Custom Hardware Acceleration and Probabilistic Data Structures for Real-time Petabyte-Scale Anomaly Detection Pipelines",
         "Beyond GPUs: Designing Hyperscale Inference Architectures for Trillion-Parameter AI Models",
-        "Programmable Data Plane Evolution: From P4 to Silicon for Hyperscale Network Observability",
         "Beyond AAV: Next-Generation Viral Vector Engineering for Enhanced Gene Therapy Delivery and Immunomodulation",
         "Disaggregated NVMe-oF and CXL-based memory pooling: Architecting the next generation of hyperscale cloud resource virtualization.",
         "The Role of Foundational Models and HPC in Accelerating De Novo Protein Design for Drug Discovery and Synthetic Biology",
@@ -1191,6 +1190,9 @@
         "Zero-Copy Networking and eBPF-Based Congestion Control: Scaling Meta-Scale Data Center Interconnects Beyond 800Gbps",
         "Architecting Multi-PB Reservoir Sampling for Real-time Observability in Geo-Distributed Service Meshes",
         "Deep Dive into Deterministic Simulation Testing for Distributed Consensus Protocols in High-Throughput Storage Engines",
-        "Scaling Vector Database Retrieval-Augmented Generation (RAG) using Tiered Memory Hierarchies and RDMA-enabled GPU Clusters"
+        "Scaling Vector Database Retrieval-Augmented Generation (RAG) using Tiered Memory Hierarchies and RDMA-enabled GPU Clusters",
+        "Implementing Zero-Copy Direct GPU-to-GPU Communication Across Multi-Tenant Infiniband Clusters at 100k Scale",
+        "Solving the Thundering Herd Problem in Globally Distributed Serverless Cache Invalidation via Vector Clocks and Probabilistic Filtering",
+        "Architecting Petabyte-Scale Real-Time OLAP Engines: A Deep Dive into Tiered Storage with NVMe-over-Fabrics"
     ]
 }
