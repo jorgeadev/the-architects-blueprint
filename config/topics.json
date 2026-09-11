@@ -134,7 +134,6 @@
         "Engineering Self-Amplifying RNA Vectors for Next-Generation Pandemic Preparedness and Broad-Spectrum Immunotherapy",
         "Leveraging eBPF for deep kernel-level observability and anomaly detection in cloud-native microservice meshes.",
         "The Architectural Shift in Hyperscale Data Center Interconnects: From DWDM to Photonic Integrated Circuits and Software-Defined Fabrics",
-        "The architectural evolution of real-time serverless function orchestration across heterogeneous cloud regions for low-latency edge AI inference.",
         "The emerging architectural patterns for synthetic viral vector design optimization using reinforcement learning for in-vivo gene therapy delivery.",
         "The architectural blueprint for integrating Post-Quantum Cryptography into existing hyperscale cloud infrastructure, detailing performance implications and migration strategies.",
         "Architecting next-generation serverless platforms for real-time, low-latency AI inference at the extreme edge, focusing on cold start mitigation and state synchronization.",
@@ -1187,6 +1186,9 @@
         "Reverse-Engineering the Zero-Copy Networking Stack for 400Gbps Intra-Datacenter RDMA Fabrics",
         "Architecting Global-Scale Cell-Based Infrastructure to Mitigate Blast Radius in Multi-Region Deployments",
         "The Evolution of Shared-Log Persistence: Comparing BookKeeper, LogDevice, and Corfu for High-Throughput Streams",
-        "Optimizing Kernel-Level Context Switching and Cache Locality for Multi-Tenant Serverless Execution Environments"
+        "Optimizing Kernel-Level Context Switching and Cache Locality for Multi-Tenant Serverless Execution Environments",
+        "Optimizing Multi-Tenant GPU Scheduling in Massive-Scale Kubernetes Clusters for Heterogeneous LLM Workloads",
+        "Implementing Deterministic Replay and Global State Syncing in Distributed Vector Databases for Sub-Millisecond RAG Responses",
+        "Zero-Copy Networking and eBPF-Based Congestion Control: Scaling Meta-Scale Data Center Interconnects Beyond 800Gbps"
     ]
 }
