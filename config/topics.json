@@ -761,7 +761,6 @@
         "Formal Verification of Distributed Consensus Protocols in Large-Scale Serverless Execution Environments",
         "Architecting Low-Latency Global Consistency in Geo-Distributed Databases using Hybrid Logical Clocks and RDMA-enabled State Machine Replication",
         "Optimizing Tail Latencies in Multi-Tenant NVMe-over-Fabrics Storage Architectures",
-        "Designing Conflict-Free Replicated Data Types (CRDTs) for Ultra-Low Latency Edge Synchronization",
         "Architecting Zero-Trust Control Planes for Globally Distributed Cell-Based Microservices",
         "Optimizing Tail Latency in Multi-Tenant Vector Databases via Hierarchical Navigable Small World (HNSW) Tiering",
         "Architecting Zero-Copy Data Planes: Leveraging eBPF and Shared Memory for 100Gbps Inter-Process Communication",
@@ -1189,6 +1188,9 @@
         "Optimizing Kernel-Level Context Switching and Cache Locality for Multi-Tenant Serverless Execution Environments",
         "Optimizing Multi-Tenant GPU Scheduling in Massive-Scale Kubernetes Clusters for Heterogeneous LLM Workloads",
         "Implementing Deterministic Replay and Global State Syncing in Distributed Vector Databases for Sub-Millisecond RAG Responses",
-        "Zero-Copy Networking and eBPF-Based Congestion Control: Scaling Meta-Scale Data Center Interconnects Beyond 800Gbps"
+        "Zero-Copy Networking and eBPF-Based Congestion Control: Scaling Meta-Scale Data Center Interconnects Beyond 800Gbps",
+        "Architecting Multi-PB Reservoir Sampling for Real-time Observability in Geo-Distributed Service Meshes",
+        "Deep Dive into Deterministic Simulation Testing for Distributed Consensus Protocols in High-Throughput Storage Engines",
+        "Scaling Vector Database Retrieval-Augmented Generation (RAG) using Tiered Memory Hierarchies and RDMA-enabled GPU Clusters"
     ]
 }
