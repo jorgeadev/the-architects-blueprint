@@ -188,7 +188,6 @@
         "Practical Challenges and Architectural Solutions for Hyper-Scale Post-Quantum Cryptography Migration in Cloud Infrastructure",
         "Beyond Microservices: The Rise of WebAssembly-Powered Nanoservices and Serverless Edge Compute Architectures",
         "Engineering Novel Phage Therapies: Designing and Scaling the Computational Pipelines for Precision Virome Modulation",
-        "The Architecture of Hyperscale Ephemeral Block Storage for Serverless Workloads: Durability and Latency at Petabyte Scale",
         "Optical Circuit Switching and Programmable Data Planes: Reshaping Inter-DC Traffic Engineering for Exascale Cloud Infrastructure",
         "Architecting Multi-Tenant, Petabyte-Scale Data Lakes for Real-time AI/ML Training: A Deep Dive into Distributed Query Optimization",
         "How Netflix transitioned its Chaos Monkey from pod-level abstraction to hardware-level fault injection via BMC-based PCIe bus error triggering.",
@@ -1195,6 +1194,9 @@
         "Architecting Petabyte-Scale Real-Time OLAP Engines: A Deep Dive into Tiered Storage with NVMe-over-Fabrics",
         "Deep Dive into Cross-Region Linearizability: How Meta Optimized Global Consistency via Atomic Clock Synchronization",
         "Architecting Massively Parallel Stream Processing Engines for Real-Time LLM Inference at 100M+ Tokens Per Second",
-        "The Evolution of EBPF-Based Load Balancing: Replacing IPVS for Sub-Microsecond Packet Processing in Multi-Tenant Clouds"
+        "The Evolution of EBPF-Based Load Balancing: Replacing IPVS for Sub-Microsecond Packet Processing in Multi-Tenant Clouds",
+        "Optimizing RDMA over Converged Ethernet (RoCE) for Multi-Petaflop Distributed Training Clusters",
+        "Implementing Deterministic Query Execution in Globally Distributed Databases to Eliminate Cross-Region Tail Latency",
+        "Zero-Downtime Migration of 100M Concurrent WebSockets across Anycast-Routed Edge Points of Presence"
     ]
 }
