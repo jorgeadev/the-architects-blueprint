@@ -1083,7 +1083,6 @@
         "Optimizing KV-Cache Management and Tiered Memory Prefetching for Large-Scale Mixture-of-Experts (MoE) Inference Pipelines",
         "Dissecting Meta's cross-region Zonal Failover: A real-time ML inference latency budget under 50ms during a 3-AZ blip in the US-East fabric",
         "The hidden CXL memory tiering war: How hyperscalers are using cache-coherent interconnects to decouple DRAM from physical NUMA domains for cold-start elastic pools",
-        "Inside the 'Packet Churn' problem: Re-architecting eBPF load balancers at 10M PPS with a custom ring-buffer allocator and zero-copy RSS hashing in the kernel bypass path",
         "Optimizing Zero-Copy Data Planes for Petabyte-Scale Distributed Storage Systems",
         "Hardware-Software Co-design: The Engineering Behind Ultra-Low Latency LLM Inference Clusters",
         "Mastering Anycast Tail Latency: Kernel-Level Bypassing in Global Edge Mesh Architectures",
@@ -1197,6 +1196,9 @@
         "The Evolution of EBPF-Based Load Balancing: Replacing IPVS for Sub-Microsecond Packet Processing in Multi-Tenant Clouds",
         "Optimizing RDMA over Converged Ethernet (RoCE) for Multi-Petaflop Distributed Training Clusters",
         "Implementing Deterministic Query Execution in Globally Distributed Databases to Eliminate Cross-Region Tail Latency",
-        "Zero-Downtime Migration of 100M Concurrent WebSockets across Anycast-Routed Edge Points of Presence"
+        "Zero-Downtime Migration of 100M Concurrent WebSockets across Anycast-Routed Edge Points of Presence",
+        "Deep-Dive into Ring-Attention Mechanisms: Scaling Context Windows to Millions of Tokens in Distributed Training Clusters",
+        "Architecting Zero-Trust Control Planes for Multi-Region Kubernetes Federations: Lessons from 100k Node Deployments",
+        "Solving the Thundering Herd Problem in Global Edge Caches: Implementing Request Collapsing and Probabilistic Batching at Scale"
     ]
 }
