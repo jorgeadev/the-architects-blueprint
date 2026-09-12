@@ -1029,7 +1029,6 @@
         "War-story analysis of the 2024 AWS us-east-1 'packet-echo storm': Root-causing a control-plane feedback loop triggered by a single misconfigured BGP route reflector at 40 Tbps aggregate throughput",
         "Formal Verification of Distributed Consensus Protocols in Sub-Millisecond High-Frequency Trading Mesh Architectures",
         "Implementing Predictive Auto-scaling for Multi-Tenant GPU Clusters using Transformer-based Workload Forecasting",
-        "Re-engineering Global Edge Caching: Transitioning from LRU to ML-Driven Admission Policies for 100Tbps Throughput",
         "Implementing Zero-Copy Data Movement in eBPF-Powered Service Meshes for Sub-Microsecond Latency",
         "Architecting Multi-Paxos with Deterministic Simulation: Lessons from a 100-Million-RPS Database Migration",
         "The Engineering Behind Ultra-Low Latency LLM Inference: KV Cache Quantization and PagedAttention in Distributed GPU Fleets",
@@ -1193,6 +1192,9 @@
         "Scaling Vector Database Retrieval-Augmented Generation (RAG) using Tiered Memory Hierarchies and RDMA-enabled GPU Clusters",
         "Implementing Zero-Copy Direct GPU-to-GPU Communication Across Multi-Tenant Infiniband Clusters at 100k Scale",
         "Solving the Thundering Herd Problem in Globally Distributed Serverless Cache Invalidation via Vector Clocks and Probabilistic Filtering",
-        "Architecting Petabyte-Scale Real-Time OLAP Engines: A Deep Dive into Tiered Storage with NVMe-over-Fabrics"
+        "Architecting Petabyte-Scale Real-Time OLAP Engines: A Deep Dive into Tiered Storage with NVMe-over-Fabrics",
+        "Deep Dive into Cross-Region Linearizability: How Meta Optimized Global Consistency via Atomic Clock Synchronization",
+        "Architecting Massively Parallel Stream Processing Engines for Real-Time LLM Inference at 100M+ Tokens Per Second",
+        "The Evolution of EBPF-Based Load Balancing: Replacing IPVS for Sub-Microsecond Packet Processing in Multi-Tenant Clouds"
     ]
 }
