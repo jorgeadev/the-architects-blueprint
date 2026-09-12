@@ -669,7 +669,6 @@
         "Mitigating Tail Latency in Heterogeneous Hardware Clusters via Predictive Load Balancing",
         "Implementing Zero-Copy Data Planes in Distributed Storage Engines using eBPF and NVMe-over-Fabrics",
         "Architecting Multi-Region Strongly Consistent Global State: A Deep Dive into Spanner's TrueTime vs. Hybrid Logical Clocks in Modern Cloud-Native Databases",
-        "Scaling LLM Inference Infrastructure: Strategies for KV-Cache Paging and Speculative Decoding across Heterogeneous GPU Clusters",
         "Exploiting RDMA and GPUDirect Storage for Sub-Millisecond Distributed LLM Training Checkpointing",
         "Formal Verification of TLA+ Models for Global Linearizability in Spanner-like Geo-Distributed Databases",
         "Implementing Zero-Copy Networking in Rust-based Service Meshes to Reduce Tail Latency in Multi-Tenant Kubernetes Clusters",
@@ -1199,6 +1198,9 @@
         "Zero-Downtime Migration of 100M Concurrent WebSockets across Anycast-Routed Edge Points of Presence",
         "Deep-Dive into Ring-Attention Mechanisms: Scaling Context Windows to Millions of Tokens in Distributed Training Clusters",
         "Architecting Zero-Trust Control Planes for Multi-Region Kubernetes Federations: Lessons from 100k Node Deployments",
-        "Solving the Thundering Herd Problem in Global Edge Caches: Implementing Request Collapsing and Probabilistic Batching at Scale"
+        "Solving the Thundering Herd Problem in Global Edge Caches: Implementing Request Collapsing and Probabilistic Batching at Scale",
+        "Scaling Vector Embeddings: Implementing Hierarchical Navigable Small Worlds (HNSW) over Distributed Flash Storage for Multi-Billion Parameter Retrieval",
+        "Zero-Copy Networking: Offloading Service Mesh mTLS and Congestion Control to SmartNICs in Hyperscale Kubernetes Environments",
+        "Deterministic Simulation Testing: Orchestrating Million-Node Fault Injection and Linearizability Verification in Global Sharded Databases"
     ]
 }
