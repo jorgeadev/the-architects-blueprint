@@ -260,7 +260,6 @@
         "Optimizing GPU Interconnect Topologies: A Deep Dive into NVIDIA's Magnum IO and GPUDirect Storage at Exascale",
         "Solving the Tail Latency Problem in Globally Distributed KV Stores using Predictive Request Hedging and RDMA-Based Consensus",
         "Implementing Deterministic Simulation Testing for Distributed Consensus: Lessons from TigerBeetle and FoundationDB",
-        "Reducing P99 Tail Latency in Multi-Tenant LLM Serving: KV-Cache Fragmentation and PagedAttention Architectures",
         "Beyond Raft: Architecting Globally Distributed Meta-Indices using Hierarchical Paxos and Quorum Leases",
         "Deep Dive into Meta's Tectonic: Orchestrating Exabyte-Scale Blob Storage Through Synchronous Quorum Replicated Metadata",
         "Deterministic Networking in the Cloud: How AWS Nitro Leverages Hardware-Based SR-IOV for Sub-Microsecond Tail Latency at Scale",
@@ -1205,6 +1204,9 @@
         "Architecting High-Throughput Vector Databases: Implementing Tiered Storage and SIMD-Accelerated Indexing for Trillion-Scale Embeddings",
         "Implementing Zero-Trust Networking at L4: How Meta Leverages eBPF for Granular Traffic Segmentation Across Global Data Centers",
         "Solving the Tail Latency Problem in Distributed Vector Databases: A Deep Dive into HNSW Indexing Over S3-backed Storage Tiers",
-        "Beyond 100k GPUs: Optimizing Checkpoint-Restart Protocols and Topology-Aware Scheduling for Exascale AI Training Clusters"
+        "Beyond 100k GPUs: Optimizing Checkpoint-Restart Protocols and Topology-Aware Scheduling for Exascale AI Training Clusters",
+        "Implementing Tiered Storage and Cold-Data Compaction in Petabyte-Scale Vector Databases",
+        "Optimizing Tail Latency in Disaggregated Memory Architectures via Predictive RDMA Prefetching",
+        "Advanced Congestion Control in Multi-Tenant Kubernetes Clusters using eBPF-driven XDP Ingress Filtering"
     ]
 }
