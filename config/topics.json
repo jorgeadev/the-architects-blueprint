@@ -393,7 +393,6 @@
         "Designing for Consistency at Edge: Implementing Causal Ordering in Globally Distributed Key-Value Stores via Hybrid Logical Clocks",
         "Deep-dive into Google's Spanner RISC-V pilot: implications for latency and power at planetary scale.",
         "How Cloudflare's Durable Objects ecosystem now processes 10 million stateful WebSocket sessions per node.",
-        "Implementing Multi-Paxos with Logical Clock Hybridization for Globally Distributed Strong Consistency in NewSQL Engines",
         "Optimizing Packet Processing Pipelines: A Comparative Analysis of DPDK vs. AF_XDP in High-Throughput Edge Gateways",
         "Hierarchical Rate Limiting and Backpressure Propagation in Massive-Scale Event-Driven Architectures via Redis Streams and Lua Scripts",
         "Formal Verification of Multi-Tenant Isolation in Firecracker MicroVMs",
@@ -1203,6 +1202,9 @@
         "Deterministic Simulation Testing: Orchestrating Million-Node Fault Injection and Linearizability Verification in Global Sharded Databases",
         "Solving the Thundering Herd Problem in Multi-Tenant Kubernetes Clusters via Proactive Congestion Control",
         "Optimizing Cross-Region Data Replication Latency using RDMA and Programmable Network Switches in Hyperscale Data Centers",
-        "Architecting High-Throughput Vector Databases: Implementing Tiered Storage and SIMD-Accelerated Indexing for Trillion-Scale Embeddings"
+        "Architecting High-Throughput Vector Databases: Implementing Tiered Storage and SIMD-Accelerated Indexing for Trillion-Scale Embeddings",
+        "Implementing Zero-Trust Networking at L4: How Meta Leverages eBPF for Granular Traffic Segmentation Across Global Data Centers",
+        "Solving the Tail Latency Problem in Distributed Vector Databases: A Deep Dive into HNSW Indexing Over S3-backed Storage Tiers",
+        "Beyond 100k GPUs: Optimizing Checkpoint-Restart Protocols and Topology-Aware Scheduling for Exascale AI Training Clusters"
     ]
 }
