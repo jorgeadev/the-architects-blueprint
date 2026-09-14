@@ -96,7 +96,6 @@
         "Engineering self-regulating gene drive systems: biochemical safeties, ecological containment architectures, and ethical design principles for precise genetic interventions.",
         "The shift from NUMA to UMA: How Google's Jupiter network fabric is rewriting the assumptions of datacenter locality and memory access costs.",
         "Inside Meta's Project Aria: Reverse engineering the massive, real-time compute pipeline for AR glasses at planetary scale.",
-        "The physics of power: How hyperscalers are engineering on-site nuclear microreactors to bypass grid limitations for exascale AI clusters.",
         "Real-Time Inference at Scale: Engineering AI Model Serving Infrastructure for Billions of Daily Queries",
         "Petabyte-Scale Genomics: Building Secure and Performant Pipelines for Population-Level Biomedical Data",
         "CRISPR-Cas9 System Repurposing for Programmable Epigenetic Modifiers: Challenges in Off-Target Effects and Delivery Vector Optimization for Therapeutic Scaling",
@@ -1215,6 +1214,9 @@
         "Implementing Zero-Trust Kernel-Level Isolation for Large Language Model Inference Pipelines",
         "Optimizing Distributed Consensus: Implementing Hierarchical Paxos for Low-Latency Coordination in Multi-Region Edge Clusters",
         "Achieving Near-Zero Overhead Observability: Utilizing eBPF and Hardware Counters for Real-Time Fleet-Wide Profiling",
-        "The Architecture of Massive-Scale Vector Search: Balancing Recall and Latency in Billion-Scale Embedding Spaces Using Graph-Based Indices"
+        "The Architecture of Massive-Scale Vector Search: Balancing Recall and Latency in Billion-Scale Embedding Spaces Using Graph-Based Indices",
+        "Optimizing L7 Observability: Leveraging eBPF for Zero-Overhead Distributed Tracing in Massive Microservice Meshes",
+        "Architecting Petabyte-Scale Vector Databases: Sharding Strategies and LSM-Tree Optimization for Sub-10ms Global Latency",
+        "Deterministic Jepsen Testing at Scale: How FoundationDB-style Simulation Testing Prevents Subtle Consensus Protocol Regressions"
     ]
 }
