@@ -72,7 +72,6 @@
         "Optimizing Hypervisor-Level Co-Scheduling and Memory Paging for Near-Zero Cold Starts in Petabyte-Scale Serverless Architectures",
         "The Cutting Edge of CRISPR-Cas Engineered Phage Therapeutics: Overcoming Delivery and Immunogenicity Challenges for Multi-Drug Resistant Pathogens",
         "Architecting Petabyte-Scale Data Storage Solutions Using Enzymatically Synthesized DNA Polymers and Advanced Sequencing Readout Techniques",
-        "The Evolution of Disaggregated AI Compute: From Shared Memory Architectures to DPU-driven Resource Pooling at Hyperscale",
         "CRISPR-Cas Systems Beyond Gene Editing: Engineering Antiviral Defenses and Ultra-Sensitive Diagnostic Platforms with RNA-Guided Surveillance",
         "CRISPR-Associated Transposons (CASTs) for Large-Scale Programmable DNA Integration in Eukaryotic Viral Vectors for Advanced Gene Therapies",
         "Architecting for Observability at Zettabyte Scale: The Challenges of Real-time Telemetry Processing and Anomaly Detection in Hyperscale Cloud Environments",
@@ -1209,6 +1208,9 @@
         "Advanced Congestion Control in Multi-Tenant Kubernetes Clusters using eBPF-driven XDP Ingress Filtering",
         "Leveraging eBPF for Zero-Trust Microsegmentation and Line-Rate Observability in Multi-Region Mesh Architectures",
         "Deterministic Simulation Testing for Validating Distributed Consensus Protocols in Large-Scale Stateful Storage Engines",
-        "Mitigating P999 Tail Latency via Predictive Proactive Cache Warming in Globally Distributed Edge Computing Layers"
+        "Mitigating P999 Tail Latency via Predictive Proactive Cache Warming in Globally Distributed Edge Computing Layers",
+        "Dissecting Meta's 24,576 H100 Cluster: Optimizing RDMA over Converged Ethernet (RoCE) for Llama 3 Training at Scale",
+        "Deep Dive into ByteDance’s Monolith: Scaling Real-time Parameter Servers to 100 Trillion Parameters for Global Recommendation Systems",
+        "Beyond Nginx: The Systems Engineering Behind Cloudflare’s Pingora and Solving the HTTP Proxy 'Noisy Neighbor' Problem via Async Rust"
     ]
 }
