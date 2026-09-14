@@ -1141,7 +1141,6 @@
         "Implementing Hierarchical Navigable Small World Graphs for Distributed Vector Search at Petabyte Scale",
         "Leveraging eBPF and XDP for Zero-Copy Packet Processing in High-Throughput Service Mesh Sidecars",
         "Implementing Hybrid Logical Clocks for Causal Consistency in Multi-Region Serverless Databases",
-        "Zero-Copy Serialization Patterns in eBPF-based High-Throughput Packet Processing for Terabit Gateways",
         "Architecting Ultra-Low Latency Inference: How Groq Leverages Software-Defined Hardware to Bypass Traditional GPU Bottlenecks",
         "Solving the Thundering Herd: Implementing Adaptive Priority Concurrency Control in Globally Distributed Microservices",
         "Beyond RoCE v2: The Engineering Behind Meta's MTIA and Custom Interconnects for Training 100-Trillion Parameter Models",
@@ -1213,6 +1212,9 @@
         "Beyond Nginx: The Systems Engineering Behind Cloudflare’s Pingora and Solving the HTTP Proxy 'Noisy Neighbor' Problem via Async Rust",
         "Hardware-Accelerated Memory Tiering: Optimizing CXL 3.0 for Petabyte-Scale Vector Databases",
         "Eliminating Tail Latency in Multi-Tenant Kubernetes Clusters via eBPF-Based Programmable Congestion Control",
-        "Implementing Zero-Trust Kernel-Level Isolation for Large Language Model Inference Pipelines"
+        "Implementing Zero-Trust Kernel-Level Isolation for Large Language Model Inference Pipelines",
+        "Optimizing Distributed Consensus: Implementing Hierarchical Paxos for Low-Latency Coordination in Multi-Region Edge Clusters",
+        "Achieving Near-Zero Overhead Observability: Utilizing eBPF and Hardware Counters for Real-Time Fleet-Wide Profiling",
+        "The Architecture of Massive-Scale Vector Search: Balancing Recall and Latency in Billion-Scale Embedding Spaces Using Graph-Based Indices"
     ]
 }
