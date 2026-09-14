@@ -1140,7 +1140,6 @@
         "Optimizing KV-Cache Paging and Fragmentation in Multi-Tenant LLM Inference Clusters",
         "Implementing Hierarchical Navigable Small World Graphs for Distributed Vector Search at Petabyte Scale",
         "Leveraging eBPF and XDP for Zero-Copy Packet Processing in High-Throughput Service Mesh Sidecars",
-        "Optimizing RDMA over Converged Ethernet (RoCE) for Distributed LLM Training on Blackwell GPU Clusters",
         "Implementing Hybrid Logical Clocks for Causal Consistency in Multi-Region Serverless Databases",
         "Zero-Copy Serialization Patterns in eBPF-based High-Throughput Packet Processing for Terabit Gateways",
         "Architecting Ultra-Low Latency Inference: How Groq Leverages Software-Defined Hardware to Bypass Traditional GPU Bottlenecks",
@@ -1211,6 +1210,9 @@
         "Mitigating P999 Tail Latency via Predictive Proactive Cache Warming in Globally Distributed Edge Computing Layers",
         "Dissecting Meta's 24,576 H100 Cluster: Optimizing RDMA over Converged Ethernet (RoCE) for Llama 3 Training at Scale",
         "Deep Dive into ByteDance’s Monolith: Scaling Real-time Parameter Servers to 100 Trillion Parameters for Global Recommendation Systems",
-        "Beyond Nginx: The Systems Engineering Behind Cloudflare’s Pingora and Solving the HTTP Proxy 'Noisy Neighbor' Problem via Async Rust"
+        "Beyond Nginx: The Systems Engineering Behind Cloudflare’s Pingora and Solving the HTTP Proxy 'Noisy Neighbor' Problem via Async Rust",
+        "Hardware-Accelerated Memory Tiering: Optimizing CXL 3.0 for Petabyte-Scale Vector Databases",
+        "Eliminating Tail Latency in Multi-Tenant Kubernetes Clusters via eBPF-Based Programmable Congestion Control",
+        "Implementing Zero-Trust Kernel-Level Isolation for Large Language Model Inference Pipelines"
     ]
 }
