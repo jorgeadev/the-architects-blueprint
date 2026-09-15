@@ -526,7 +526,6 @@
         "A deep dive into Google's redundant disaggregated storage fabric and its impact on global query latency under exascale load.",
         "The Latency Tax: Analyzing the Hidden Performance Costs of Global Anycast Routing in CDN Networks at 10 Million Requests Per Second",
         "Distributed Consensus at Planetary Scale: A Post-Mortem on the Multi-Region CockroachDB Outage Triggered by a Clock Skew Anomaly",
-        "Hardware-Software Co-Design for LLM Serving: Benchmarking NVLink Sharding vs. InfiniBand-Connected GPU Clusters",
         "Zero-Copy Data Planes in High-Throughput Service Meshes: Leveraging eBPF and XDP for Terabit-Scale Traffic Management",
         "Optimizing Tail Latency in Disaggregated Storage Architectures: A Deep Dive into NVMe-over-Fabrics at Scale",
         "The Evolution of Sharding: Implementing Linearizable Cross-Shard Transactions in Distributed Spanner-like Databases",
@@ -1221,6 +1220,9 @@
         "Zero-Copy Data Planes: Implementing eBPF-based Kernel Bypass for High-Throughput Microservices Orchestration in Multi-Tenant Clusters",
         "Architecting zero-copy packet processing pipelines with eBPF and XDP for terabit-scale edge networking",
         "Deep dive into the consensus mechanism and liveness guarantees of TigerBeetle's Viewstamped Replication implementation",
-        "Scaling vector search to billion-scale datasets: Implementing Hierarchical Navigable Small Worlds (HNSW) over distributed object storage"
+        "Scaling vector search to billion-scale datasets: Implementing Hierarchical Navigable Small Worlds (HNSW) over distributed object storage",
+        "Architecting Zero-Copy Data Movement in Disaggregated Storage Layers using NVMe-over-Fabrics and User-Space PDUs",
+        "Implementing Wait-Free Data Structures in Global Edge KV Stores: A Deep Dive into CRDT Optimization over QUIC Transport",
+        "Mitigating Tail Latency Amplification in Massive Fan-out Microservices through Predictive Request Hedging and Dynamic Deadline Propagation"
     ]
 }
