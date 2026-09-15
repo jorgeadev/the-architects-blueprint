@@ -122,7 +122,6 @@
         "Synthetic genomics and de novo genome design: Computational architectures for high-throughput gene synthesis, error correction, and biological circuit optimization.",
         "Cloud-Native Bare Metal Provisioning: Orchestration, Isolation, and Performance at Hyperscale",
         "Precision Gene Modulation: Architecting Programmable RNA Therapeutics for In Vivo Cell-Type Specificity",
-        "Dissecting the CXL 3.0 Coherence Protocol: How Fabric-Attached Memory Pools Break the Server Memory Wall at Exascale",
         "Behind the Bypass: How AWS's SRD and NVIDIA's Spectrum-4 Switch-Level Retransmission Redefine Lossless Ethernet for Hyperscale AI Fabrics",
         "The Role of Custom Network Fabrics and SmartNICs in Accelerating Hyperscale AI Model Training and Inference",
         "Beyond Bare Metal: How Programmable Data Planes and SmartNICs Revolutionize Hyperscale AI/ML Network Performance.",
@@ -1219,6 +1218,9 @@
         "Deterministic Jepsen Testing at Scale: How FoundationDB-style Simulation Testing Prevents Subtle Consensus Protocol Regressions",
         "Optimizing GPU Interconnects for Multi-Trillion Parameter Model Training: A Deep Dive into Collective Communication Primitives at Scale",
         "Deterministic Simulation Testing in Distributed Databases: How FoundationDB and TigerBeetle Achieve Total Reliability Through Controlled Non-Determinism",
-        "Zero-Copy Data Planes: Implementing eBPF-based Kernel Bypass for High-Throughput Microservices Orchestration in Multi-Tenant Clusters"
+        "Zero-Copy Data Planes: Implementing eBPF-based Kernel Bypass for High-Throughput Microservices Orchestration in Multi-Tenant Clusters",
+        "Architecting zero-copy packet processing pipelines with eBPF and XDP for terabit-scale edge networking",
+        "Deep dive into the consensus mechanism and liveness guarantees of TigerBeetle's Viewstamped Replication implementation",
+        "Scaling vector search to billion-scale datasets: Implementing Hierarchical Navigable Small Worlds (HNSW) over distributed object storage"
     ]
 }
