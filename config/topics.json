@@ -267,7 +267,6 @@
         "Leveraging eBPF and XDP for Terabit-Scale DDoS Mitigation in Edge Mesh Networks",
         "Solving Thundering Herd Problems in Globally Distributed Cache Layers via Probabilistic Lease Mechanisms",
         "Zero-Copy Packet Processing at Petabit Scale: Dissecting the Data Plane Design of Meta's Next-Gen AI Fabric",
-        "Designing Low-Latency Consensus: A Deep Dive into Deterministic State Machine Replication for Global Tier-0 Infrastructure",
         "Architecting Zettabyte-Scale Data Lakes: Beyond Parquet and Iceberg with Direct-on-Flash Indexing",
         "Solving the C10M Problem at the Edge: Leveraging eBPF-based XDP for High-Performance Programmable Packet Processing",
         "Optimizing Tail Latency in Multi-Tenant Kubernetes Clusters via eBPF-driven Programmable Data Planes",
@@ -1217,6 +1216,9 @@
         "The Architecture of Massive-Scale Vector Search: Balancing Recall and Latency in Billion-Scale Embedding Spaces Using Graph-Based Indices",
         "Optimizing L7 Observability: Leveraging eBPF for Zero-Overhead Distributed Tracing in Massive Microservice Meshes",
         "Architecting Petabyte-Scale Vector Databases: Sharding Strategies and LSM-Tree Optimization for Sub-10ms Global Latency",
-        "Deterministic Jepsen Testing at Scale: How FoundationDB-style Simulation Testing Prevents Subtle Consensus Protocol Regressions"
+        "Deterministic Jepsen Testing at Scale: How FoundationDB-style Simulation Testing Prevents Subtle Consensus Protocol Regressions",
+        "Optimizing GPU Interconnects for Multi-Trillion Parameter Model Training: A Deep Dive into Collective Communication Primitives at Scale",
+        "Deterministic Simulation Testing in Distributed Databases: How FoundationDB and TigerBeetle Achieve Total Reliability Through Controlled Non-Determinism",
+        "Zero-Copy Data Planes: Implementing eBPF-based Kernel Bypass for High-Throughput Microservices Orchestration in Multi-Tenant Clusters"
     ]
 }
