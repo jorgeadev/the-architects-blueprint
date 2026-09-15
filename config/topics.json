@@ -291,7 +291,6 @@
         "Hardware-Software Co-design for 100k+ GPU Clusters: Dissecting Meta's Tectonic and RoCEv2 Network Fabric for Llama-3 Training",
         "Zero-Trust at the NIC Level: Leveraging eBPF and Hardware Offloading for Multi-Terabit Per Second DDoS Mitigation",
         "Deep Dive into NVLink Switch Fabrics: Scaling Inter-Node Communication for 100k+ GPU Clusters",
-        "Deterministic Simulation Testing: How TigerBeetle Achieves Five-Nines Reliability in Distributed Financial Ledgers",
         "Custom Silicon and Warp-Level Primitives: The Low-Level Optimizations Powering Google’s TPU v5p Pods",
         "Hierarchical Consensus and Sharded Gossip Protocols: Scaling Global Metadata Consistency to 100 Million Writes per Second",
         "Scaling LLM Inference: A Comparative Analysis of PagedAttention and FlashAttention for Multi-Tenant GPU Clusters",
@@ -1223,6 +1222,9 @@
         "Scaling vector search to billion-scale datasets: Implementing Hierarchical Navigable Small Worlds (HNSW) over distributed object storage",
         "Architecting Zero-Copy Data Movement in Disaggregated Storage Layers using NVMe-over-Fabrics and User-Space PDUs",
         "Implementing Wait-Free Data Structures in Global Edge KV Stores: A Deep Dive into CRDT Optimization over QUIC Transport",
-        "Mitigating Tail Latency Amplification in Massive Fan-out Microservices through Predictive Request Hedging and Dynamic Deadline Propagation"
+        "Mitigating Tail Latency Amplification in Massive Fan-out Microservices through Predictive Request Hedging and Dynamic Deadline Propagation",
+        "Deconstructing Meta's Tectonic File System: A Deep Dive into the Metadata Sharding and Zonation Architecture Powering Exabyte-Scale AI Training Clusters",
+        "Beyond Raft: An Analysis of Google Spanner's TrueTime API and the Atomic Clock Synchronization Layer Enabling External Consistency at Global Scale",
+        "The Physics of Bufferbloat: How Netflix Fine-Tuned BBRv3 Congestion Control and Open Connect Appliances to Achieve Sub-Second 4K Video Start Times During Global Traffic Spikes"
     ]
 }
