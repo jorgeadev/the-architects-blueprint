@@ -754,7 +754,6 @@
         "The Evolution of Global Consensus: Migrating from Paxos to Dynamic Quorum Adjustments in Hyperscale Metadata Stores",
         "Zero-Copy Data Transfer Strategies in Terabit-Scale RDMA Networks for Distributed LLM Training",
         "Building High-Precision Global Consistency in Multi-Region Microservices using Hybrid Logical Clocks",
-        "Deconstructing the Engineering Behind Sub-Millisecond Tail Latencies in Cloudflare's Rust-based Pingora Proxy",
         "Deep Dive into Meta's MTIA v2: Rethinking Silicon and Interconnect Topology for Next-Gen LLM Training Clusters",
         "Zero-Trust at the Packet Level: Implementing eBPF-based Network Micro-segmentation in Netflix's Multi-Region Service Mesh",
         "Architecting Petabyte-Scale Vector Databases: Solving the High-Dimensionality Indexing Bottleneck",
@@ -1227,6 +1226,9 @@
         "The Physics of Bufferbloat: How Netflix Fine-Tuned BBRv3 Congestion Control and Open Connect Appliances to Achieve Sub-Second 4K Video Start Times During Global Traffic Spikes",
         "Dissecting the Datacenter-Scale Compute Fabric: A Deep Dive into Meta's Disaggregated Scheduling and RDMA-Centric Network Topology for 100k+ GPU Training Clusters",
         "The Mechanical Sympathy of Write-Ahead Logs: Analyzing Cloudflare's Petabyte-Scale Kafkaless Ingestion Pipeline with Durable Objects and R2 Storage Tiering",
-        "Resilience Engineering Under Extreme Cardinality: How TikTok's Recommendation Engine Maintains Sub-100ms P99 Latency During Global Traffic Surges Using Adaptive Sharding and Hierarchical Rate Limiting"
+        "Resilience Engineering Under Extreme Cardinality: How TikTok's Recommendation Engine Maintains Sub-100ms P99 Latency During Global Traffic Surges Using Adaptive Sharding and Hierarchical Rate Limiting",
+        "Optimizing Tail Latency in Tiered Storage Architectures: An Analysis of Sharded LSM-Trees with Adaptive Compaction",
+        "Zero-Trust Networking at Global Scale: Orchestrating Mutual TLS and Spiffe-Based Identity in Hyperscale Service Meshes",
+        "Deconstructing Deterministic Replay: Debugging Distributed State Machine Inconsistencies in High-Throughput Financial Systems"
     ]
 }
