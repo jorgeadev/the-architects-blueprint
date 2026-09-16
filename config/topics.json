@@ -361,7 +361,6 @@
         "The Thermodynamic Limit of Liquid Immersion Cooling: Analyzing AWS's Synthetic Diamond-Infused Dielectric Coolant for Sub-7nm Exascale Clusters",
         "Decoding the Global Control Plane: How Meta's Project Wormhole CS Orchestrates Real-Time Traffic Shaping for Exabyte-Scale Video Pipelines",
         "A Deep Dive into AWS's Hyperscale SRAM Overprovisioning Strategy: Mitigating Tail Latency in Post-Exabyte S3 Storage Clusters via Redundant Cache Coherency Protocols",
-        "Evolving Zero-Trust in Distributed Databases: Implementing Fine-Grained Cryptographic Isolation for Multi-Tenant Global State",
         "Taming Tail Latency in Large Language Model Inference: Hardware-Aware KV Cache Management and Continuous Batching Architectures",
         "Deterministic Simulation Testing: Implementing Fault-Injection Frameworks for High-Throughput Distributed Financial Ledgers",
         "The Architecture of Zero-Copy Packet Processing: Leveraging DPDK and eBPF to Scale L4 Load Balancing to 100Tbps",
@@ -1229,6 +1228,9 @@
         "Resilience Engineering Under Extreme Cardinality: How TikTok's Recommendation Engine Maintains Sub-100ms P99 Latency During Global Traffic Surges Using Adaptive Sharding and Hierarchical Rate Limiting",
         "Optimizing Tail Latency in Tiered Storage Architectures: An Analysis of Sharded LSM-Trees with Adaptive Compaction",
         "Zero-Trust Networking at Global Scale: Orchestrating Mutual TLS and Spiffe-Based Identity in Hyperscale Service Meshes",
-        "Deconstructing Deterministic Replay: Debugging Distributed State Machine Inconsistencies in High-Throughput Financial Systems"
+        "Deconstructing Deterministic Replay: Debugging Distributed State Machine Inconsistencies in High-Throughput Financial Systems",
+        "Implementing Deterministic Simulation Testing for Distributed Consensus Protocols in Large-Scale Storage Clusters",
+        "Optimizing NVMe-over-Fabrics (NVMe-oF) Performance via Custom eBPF Offloading in Hyperscale Data Centers",
+        "Architecting Zero-Trust Service Mesh Security at Edge Points Using WebAssembly-based Request Interception"
     ]
 }
