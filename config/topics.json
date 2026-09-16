@@ -727,7 +727,6 @@
         "Architecting Zero-Copy Telemetry Pipelines using RDMA and NVMe-over-Fabrics at Scale",
         "Solving the Thundering Herd Problem in Multi-Region Service Meshes via Predictive Load Shedding",
         "Hardware-Software Co-Design for Deterministic Latency in High-Frequency Distributed Ledgers",
-        "Deconstructing Meta’s Maglev-Inspired eBPF Load Balancer: Optimizing L4 Traffic for 100Tbps Clusters",
         "Solving the Cold-Start Problem in Serverless GPU Clusters: A Deep Dive into CUDA Context Virtualization",
         "Architecting Geo-Distributed Vector Databases: Implementing Raft Consensus for Sub-Millisecond Global Semantic Search",
         "Decoupling Storage and Compute via CXL 3.0: Rethinking Memory Disaggregation in Hyper-Scale Data Centers",
@@ -1225,6 +1224,9 @@
         "Mitigating Tail Latency Amplification in Massive Fan-out Microservices through Predictive Request Hedging and Dynamic Deadline Propagation",
         "Deconstructing Meta's Tectonic File System: A Deep Dive into the Metadata Sharding and Zonation Architecture Powering Exabyte-Scale AI Training Clusters",
         "Beyond Raft: An Analysis of Google Spanner's TrueTime API and the Atomic Clock Synchronization Layer Enabling External Consistency at Global Scale",
-        "The Physics of Bufferbloat: How Netflix Fine-Tuned BBRv3 Congestion Control and Open Connect Appliances to Achieve Sub-Second 4K Video Start Times During Global Traffic Spikes"
+        "The Physics of Bufferbloat: How Netflix Fine-Tuned BBRv3 Congestion Control and Open Connect Appliances to Achieve Sub-Second 4K Video Start Times During Global Traffic Spikes",
+        "Dissecting the Datacenter-Scale Compute Fabric: A Deep Dive into Meta's Disaggregated Scheduling and RDMA-Centric Network Topology for 100k+ GPU Training Clusters",
+        "The Mechanical Sympathy of Write-Ahead Logs: Analyzing Cloudflare's Petabyte-Scale Kafkaless Ingestion Pipeline with Durable Objects and R2 Storage Tiering",
+        "Resilience Engineering Under Extreme Cardinality: How TikTok's Recommendation Engine Maintains Sub-100ms P99 Latency During Global Traffic Surges Using Adaptive Sharding and Hierarchical Rate Limiting"
     ]
 }
