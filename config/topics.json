@@ -883,7 +883,6 @@
         "Architectural Patterns for Deterministic Replayability in Large-Scale Event-Driven Microservices",
         "Deep Dive into Tiered Storage Strategies for Petabyte-Scale Vector Databases in Generative AI Infrastructures",
         "Formal Verification of Distributed Consensus Protocols in Sub-Millisecond Global Transaction Orchestration",
-        "Implementing Zero-Copy Networking with eBPF and XDP for Multi-Terabit Edge Load Balancing",
         "Inside Meta's 300MW AI data center: dissecting the optical interconnect fabric, liquid-cooled GPU racks, and the custom time-synchronized control plane that keeps training jobs below 150 microseconds of jitter.",
         "How Cloudflare's global Anycast network absorbs 7.5 Tbps DDoS attacks: a deep dive into the BPF-based packet steering, real-time edge rate limiting, and the probabilistic trie that classifies 40 million flows per second.",
         "Google's Spanner 2.0: a technical retrospective on the new atomic clock-free TrueTime API, the Paxos-free replication protocol using Raft with epoch-based leases, and how they decoupled storage and compute to hit 100PB per shard.",
@@ -1231,6 +1230,9 @@
         "Deconstructing Deterministic Replay: Debugging Distributed State Machine Inconsistencies in High-Throughput Financial Systems",
         "Implementing Deterministic Simulation Testing for Distributed Consensus Protocols in Large-Scale Storage Clusters",
         "Optimizing NVMe-over-Fabrics (NVMe-oF) Performance via Custom eBPF Offloading in Hyperscale Data Centers",
-        "Architecting Zero-Trust Service Mesh Security at Edge Points Using WebAssembly-based Request Interception"
+        "Architecting Zero-Trust Service Mesh Security at Edge Points Using WebAssembly-based Request Interception",
+        "Deconstructing Distributed KV-Cache Management: Scaling Multi-Tenant LLM Serving at 100k Tokens Per Second",
+        "Zero-Trust at Scale: Implementing Hardware-Attested TEEs for Secure Multi-Party Computation in Global Data Mesh Architectures",
+        "Beyond Raft: Implementing High-Throughput BFT Consensus in Sharded Meta-Metadata Stores for Exabyte-Scale Blob Storage"
     ]
 }
