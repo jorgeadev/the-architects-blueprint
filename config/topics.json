@@ -778,7 +778,6 @@
         "Designing Spanner-like Globally Distributed Transaction Managers with Hybrid Physical-Logical Clocks for 99.999% Availability",
         "Optimizing Zero-Copy Data Movement in High-Throughput Distributed Message Brokers using eBPF and XDP",
         "Mitigating Tail Latency in Heterogeneous Hardware Clusters: A Study on Congestion-Aware Routing and Hardware-Offloaded Load Balancing",
-        "Implementing Zero-Copy Data Movement in Distributed Storage Clusters for Multi-Petabyte Throughput",
         "Designing Hierarchical LSM-Trees for Write-Intensive Workloads in Geographically Distributed Key-Value Stores",
         "Automated Chaos Engineering at the Kernel Level: Leveraging eBPF for Real-Time Fault Injection in Massive Kubernetes Control Planes",
         "Architecting for Determinism: How Uber uses Simulation Testing to Prevent Cascading Failures in Cell-Based Environments",
@@ -1233,6 +1232,9 @@
         "Architecting Zero-Trust Service Mesh Security at Edge Points Using WebAssembly-based Request Interception",
         "Deconstructing Distributed KV-Cache Management: Scaling Multi-Tenant LLM Serving at 100k Tokens Per Second",
         "Zero-Trust at Scale: Implementing Hardware-Attested TEEs for Secure Multi-Party Computation in Global Data Mesh Architectures",
-        "Beyond Raft: Implementing High-Throughput BFT Consensus in Sharded Meta-Metadata Stores for Exabyte-Scale Blob Storage"
+        "Beyond Raft: Implementing High-Throughput BFT Consensus in Sharded Meta-Metadata Stores for Exabyte-Scale Blob Storage",
+        "Implementing Deterministic Simulation Testing for Distributed Consensus Engines at Petabyte Scale",
+        "Zero-Copy Networking in Hyperscale Environments: Leveraging NVMe-over-Fabrics and eBPF for Sub-Microsecond Latency",
+        "Adaptive Vector Search Sharding: Balancing High-Dimensional Embedding Distributions Across Geo-Distributed GPU Clusters"
     ]
 }
