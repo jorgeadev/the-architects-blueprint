@@ -538,7 +538,6 @@
         "Re-architecting the Global Edge: How Cloudflare Utilizes Quic-go and eBPF to Optimize Zero-Copy Packet Processing",
         "Scaling Netflix’s Control Plane: Migrating from Monolithic Titus to a Geographically Distributed Federated Kubernetes Mesh",
         "Analyzing the Performance Impact of Kernel-Bypass Networking on Large-Scale LLM Training Clusters Using RoCE v2",
-        "Architecting Multi-Layered Cache Invalidation Strategies for Globally Distributed GraphQL Subscriptions at Edge Scale",
         "Analyzing the control plane bottlenecks of a globally distributed multi-region Kubernetes cluster spanning 100,000+ nodes under a network partition event.",
         "Optimizing Tail Latency in Disaggregated Storage Architectures: Lessons from Scaling NVMe-over-Fabrics at PB-Scale",
         "Deterministic Simulation Testing in Distributed Databases: Engineering Resilience Against Asynchronous Clock Skew and Network Partitions",
@@ -1239,6 +1238,9 @@
         "Optimizing Tail Latency in Globally Distributed Spanner-Derivatives: Strategies for Mitigating Clock Skew in TrueTime-Based Commit Wait Loops",
         "Optimizing KV Cache Management for Multi-Tenant LLM Serving at Meta Scale",
         "Deconstructing ByteDance's Monolith: Real-Time Parameter Updates in a 100-Trillion Parameter Model",
-        "Zero-Trust at the Edge: Implementing eBPF-Based DDoS Mitigation for Terabit-Scale Traffic"
+        "Zero-Trust at the Edge: Implementing eBPF-Based DDoS Mitigation for Terabit-Scale Traffic",
+        "Deep Dive into RDMA over Converged Ethernet (RoCE) v2 for Multi-Node GPU Orchestration in Meta’s Llama-3 Training Clusters",
+        "Implementing Deterministic Database Replication via Vector Clocks in High-Throughput Globally Distributed Key-Value Stores",
+        "Optimizing the Linux Kernel Network Stack for Sub-Microsecond Tail Latency in High-Frequency Trading Market Data Gateways"
     ]
 }
