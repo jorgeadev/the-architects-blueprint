@@ -955,7 +955,6 @@
         "Solving the Tail Latency Dilemma in Geo-Distributed Spanner-Clone Architectures via Predictive Multi-Paxos Leadership",
         "Scaling Real-Time Vector Indexing for Billion-Scale Embeddings: The Infrastructure Behind Distributed Approximate Nearest Neighbor Search",
         "Optimizing RDMA-over-Converged-Ethernet (RoCE) v2 for Low-Latency Gradient Synchronizations in Hyper-Scale GPU Clusters",
-        "Formal Verification of TLA+ Specifications for Shared-Log Architecture in Distributed Transactional Storage Systems",
         "Analyzing the Impact of Kernel-Bypass I/O via io_uring on High-Throughput Service Mesh Sidecar Performance",
         "Implementing Zero-Trust at the Edge: Leveraging eBPF for Granular Network Isolation in Multi-Tenant Kubernetes Clusters",
         "Deterministic Simulation Testing for Distributed Consensus: Formal Verification of Geo-Replicated State Machines",
@@ -1235,6 +1234,9 @@
         "Beyond Raft: Implementing High-Throughput BFT Consensus in Sharded Meta-Metadata Stores for Exabyte-Scale Blob Storage",
         "Implementing Deterministic Simulation Testing for Distributed Consensus Engines at Petabyte Scale",
         "Zero-Copy Networking in Hyperscale Environments: Leveraging NVMe-over-Fabrics and eBPF for Sub-Microsecond Latency",
-        "Adaptive Vector Search Sharding: Balancing High-Dimensional Embedding Distributions Across Geo-Distributed GPU Clusters"
+        "Adaptive Vector Search Sharding: Balancing High-Dimensional Embedding Distributions Across Geo-Distributed GPU Clusters",
+        "Architecting Zero-Copy Data Planes: Integrating io_uring and eBPF for Sub-Microsecond Packet Processing in Multi-Tenant Clouds",
+        "Deterministic Simulation Testing at Scale: How Formal Methods and Shadow Traffic Validation Eliminate Heisenbugs in Distributed Consensus Protocols",
+        "Optimizing Tail Latency in Globally Distributed Spanner-Derivatives: Strategies for Mitigating Clock Skew in TrueTime-Based Commit Wait Loops"
     ]
 }
