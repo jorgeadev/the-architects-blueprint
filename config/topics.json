@@ -843,7 +843,6 @@
         "Architecting High-Availability Control Planes for Global Edge Compute: A Deep Dive into Anycast-Based Load Balancing and State Synchronization",
         "Hardware-Accelerated Memory Management: Offloading Garbage Collection to CXL-attached Memory Expanders in Hyperscale JVMs",
         "Architecting Zero-Trust Control Planes: Scaling SPIFFE/SPIRE for Million-Node Ephemeral Container Environments",
-        "Implementing Multi-Tenant Performance Isolation in Meta’s 100,000+ H100 GPU Clusters via RDMA and Custom Congestion Control",
         "Optimizing Tail Latency in Google’s Distributed Vector Search: Migrating from Spanner to Specialized In-Memory Key-Value Topologies",
         "The Engineering Behind Pingora: Solving the Memory Fragmentation and Garbage Collection Bottlenecks of Nginx using Zero-Copy Rust Patterns at Cloudflare",
         "Formal Verification of TLA+ Specifications for Distributed Transaction Coordination in Sharded Global Databases",
@@ -1243,6 +1242,9 @@
         "Optimizing the Linux Kernel Network Stack for Sub-Microsecond Tail Latency in High-Frequency Trading Market Data Gateways",
         "Architecting Zero-Trust Control Planes for Federated Multi-Cloud Kubernetes Deployments",
         "Implementing Custom eBPF-Based Congestion Control for Low-Latency Inter-Process Communication in Mesh Architectures",
-        "Next-Gen Storage: Transitioning from LSM-Trees to Tiered-Storage Architectures for Exabyte-Scale Blob Stores"
+        "Next-Gen Storage: Transitioning from LSM-Trees to Tiered-Storage Architectures for Exabyte-Scale Blob Stores",
+        "Optimizing Large Language Model Inference at Scale: Implementing KV-Cache Management and Speculative Decoding in Production Clusters",
+        "Architecting Zero-Copy Data Planes for High-Throughput Service Meshes Using eBPF and Kernel Bypass Techniques",
+        "The Engineering Behind Sub-Millisecond Global State Synchronization in Geographically Distributed NoSQL Databases"
     ]
 }
