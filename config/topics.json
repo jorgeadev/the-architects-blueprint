@@ -169,7 +169,6 @@
         "Beyond CRISPR-Cas9: Exploring advanced gene editing systems and their implications for precision therapeutic development.",
         "Architecting planetary-scale data replication and consistency across hybrid cloud environments",
         "The Architectural Principles Behind Hyperscale Real-time Anomaly Detection Systems: From Graph Neural Networks to Probabilistic Fault Injection",
-        "Hardware-Software Co-Design for Next-Generation Data Center Interconnects: Disaggregated Fabrics, Silicon Photonics, and Custom ASICs",
         "Heterogeneous Memory Tiering at Meta: Migrating Hot Pages Across DRAM and CXL-Attached NAND for Hyperscale Database Workloads",
         "The advent of programmable data planes (P4) and their impact on next-gen hyperscale data center network architecture for AI/ML workloads.",
         "The Disaggregated Future: CXL and PIM Architectures Reshaping Hyperscale Memory and Compute",
@@ -1241,6 +1240,9 @@
         "Zero-Trust at the Edge: Implementing eBPF-Based DDoS Mitigation for Terabit-Scale Traffic",
         "Deep Dive into RDMA over Converged Ethernet (RoCE) v2 for Multi-Node GPU Orchestration in Meta’s Llama-3 Training Clusters",
         "Implementing Deterministic Database Replication via Vector Clocks in High-Throughput Globally Distributed Key-Value Stores",
-        "Optimizing the Linux Kernel Network Stack for Sub-Microsecond Tail Latency in High-Frequency Trading Market Data Gateways"
+        "Optimizing the Linux Kernel Network Stack for Sub-Microsecond Tail Latency in High-Frequency Trading Market Data Gateways",
+        "Architecting Zero-Trust Control Planes for Federated Multi-Cloud Kubernetes Deployments",
+        "Implementing Custom eBPF-Based Congestion Control for Low-Latency Inter-Process Communication in Mesh Architectures",
+        "Next-Gen Storage: Transitioning from LSM-Trees to Tiered-Storage Architectures for Exabyte-Scale Blob Stores"
     ]
 }
