@@ -831,7 +831,6 @@
         "Zero-Copy Data Planes: Leveraging eBPF and XDP for Terabit-Scale Packet Processing in Software-Defined Networks",
         "Optimizing Global Write Latency in Geo-Distributed Databases using Deterministic Concurrency Control and Multi-Paxos Refinement",
         "Building Zero-Copy Data Pipelines for Multi-Petabyte LLM Training Clusters using RDMA and DirectStorage Architectures",
-        "Mitigating Tail Latency Amplification in Microservice DAGs through Probabilistic Load Balancing and eBPF-based Congestion Control",
         "Architecting zero-copy data planes for 400GbE networks using eBPF and XDP-based hardware offloading",
         "Optimizing global tail latency in geo-distributed Spanner-like databases via programmable switches and P4",
         "Scaling LLM inference infrastructure: Implementing dynamic KV cache eviction and PagedAttention in multi-tenant GPU clusters",
@@ -1245,6 +1244,9 @@
         "Next-Gen Storage: Transitioning from LSM-Trees to Tiered-Storage Architectures for Exabyte-Scale Blob Stores",
         "Optimizing Large Language Model Inference at Scale: Implementing KV-Cache Management and Speculative Decoding in Production Clusters",
         "Architecting Zero-Copy Data Planes for High-Throughput Service Meshes Using eBPF and Kernel Bypass Techniques",
-        "The Engineering Behind Sub-Millisecond Global State Synchronization in Geographically Distributed NoSQL Databases"
+        "The Engineering Behind Sub-Millisecond Global State Synchronization in Geographically Distributed NoSQL Databases",
+        "Implementing Deterministic Jitter and Clock-Drift Compensation in Globally Distributed Write-Ahead Logs",
+        "Architecting Zero-Copy KV Cache Paging for Multi-Tenant Large Language Model Inference Clusters",
+        "Leveraging eBPF for Programmable Congestion Control in Ultra-Low Latency FinTech Trading Fabrics"
     ]
 }
