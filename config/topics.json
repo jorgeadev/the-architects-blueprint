@@ -1108,7 +1108,6 @@
         "Architecting Zero-Downtime Database Migrations at OpenAI: Using Shadow Writes and Ghost Tables for Multi-Petabyte Transitions",
         "Deconstructing the Networking Topology of 100k+ GPU Clusters: RoCE v2 vs. InfiniBand in Generative AI Training",
         "Implementing Formal Verification in Distributed Consensus Protocols: How AWS S3 Ensures Strong Consistency at Exabyte Scale",
-        "The Evolution of Global Traffic Steering: Leveraging eBPF and Anycast for Sub-Millisecond Failover in Multi-Region Mesh Architectures",
         "Hardware-Software Co-Design for Petabyte-Scale Vector Databases: Offloading ANN Search to Custom FPGA Accelerators",
         "Zero-Copy Data Planes in Distributed Stream Processing: Implementing Shared Memory Semantics across RDMA-Enabled Clusters",
         "Quantifying Tail Latency Amortization in Large-Scale Erasure Coded Storage Systems via Predictive Proactive Reconstruction",
@@ -1247,6 +1246,9 @@
         "The Engineering Behind Sub-Millisecond Global State Synchronization in Geographically Distributed NoSQL Databases",
         "Implementing Deterministic Jitter and Clock-Drift Compensation in Globally Distributed Write-Ahead Logs",
         "Architecting Zero-Copy KV Cache Paging for Multi-Tenant Large Language Model Inference Clusters",
-        "Leveraging eBPF for Programmable Congestion Control in Ultra-Low Latency FinTech Trading Fabrics"
+        "Leveraging eBPF for Programmable Congestion Control in Ultra-Low Latency FinTech Trading Fabrics",
+        "Optimizing KV Cache Memory Fragmentation in Distributed LLM Inference Engines via PagedAttention and Dynamic Block Allocation",
+        "Architecting Zero-Downtime Cell-Based Failovers: A Deep Dive into Global Traffic Control Planes for Multi-Region Consistency",
+        "Reducing Tail Latency in High-Throughput Storage Layers Using eBPF-Driven I/O Scheduling and User-Space NVMe Drivers"
     ]
 }
