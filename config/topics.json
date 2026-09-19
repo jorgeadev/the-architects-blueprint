@@ -735,7 +735,6 @@
         "Implementing Low-Latency Read-After-Write Consistency in Globally Sharded Cell-Based Architectures",
         "The Mechanics of Predictive Auto-scaling: Leveraging LSTM Networks for Proactive Capacity Management in Multi-Cloud Environments",
         "Advanced Congestion Control via eBPF: Reducing P99 Tail Latencies in High-Throughput RDMA-Enabled GPU Clusters",
-        "Optimizing Tail Latency in Distributed Vector Databases via Hardware-Accelerated Disaggregated Memory",
         "Formal Verification of Consensus Protocols in Geo-Replicated Spanner-like Architectures",
         "Building Zero-Copy Data Pipelines for Multi-Tenant Observability at Exabyte Scale",
         "Optimizing L4 Load Balancing: Implementing Maglev-inspired Consistent Hashing with XDP for Terabit-scale Traffic Management",
@@ -1249,6 +1248,9 @@
         "Leveraging eBPF for Programmable Congestion Control in Ultra-Low Latency FinTech Trading Fabrics",
         "Optimizing KV Cache Memory Fragmentation in Distributed LLM Inference Engines via PagedAttention and Dynamic Block Allocation",
         "Architecting Zero-Downtime Cell-Based Failovers: A Deep Dive into Global Traffic Control Planes for Multi-Region Consistency",
-        "Reducing Tail Latency in High-Throughput Storage Layers Using eBPF-Driven I/O Scheduling and User-Space NVMe Drivers"
+        "Reducing Tail Latency in High-Throughput Storage Layers Using eBPF-Driven I/O Scheduling and User-Space NVMe Drivers",
+        "Optimizing Zero-Copy Data Planes: Leveraging eBPF and NVMe-oF for Terabit-Scale Storage Clusters",
+        "Beyond TrueTime: Evaluating Hybrid Logical Clocks for Distributed Linearizability in Geo-Replicated Database Clusters",
+        "Designing High-Bandwidth Interconnect Topologies for 100,000+ GPU Training Clusters: A Deep Dive into InfiniBand and RoCE v2"
     ]
 }
