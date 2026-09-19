@@ -957,7 +957,6 @@
         "Dynamic Weight Offloading and KV Cache Paging Strategies for Heterogeneous GPU Clusters in Global Inference Infrastructures",
         "Implementing Zero-Copy Data Planes in High-Throughput Microservices using eBPF and Shared Memory",
         "Solving Tail Latency in Globally Distributed Databases via Request Hedging and Speculative Execution",
-        "Architecting Deterministic Replay Engines for Debugging Race Conditions in Distributed Consensus Protocols",
         "Deterministic Simulation Testing for Distributed LSM-Tree Storage Engines: A Deep Dive into Fault Injection and State Machine Verification",
         "Zero-Trust Mesh Topology: Scaling eBPF-based Observability in 100k+ Node Multi-Cloud Kubernetes Clusters",
         "Hyper-Parameter Sharding: Overcoming Networking Bottlenecks in Training Trillion-Parameter MoE Models across Geo-Distributed Data Centers",
@@ -1251,6 +1250,9 @@
         "Reducing Tail Latency in High-Throughput Storage Layers Using eBPF-Driven I/O Scheduling and User-Space NVMe Drivers",
         "Optimizing Zero-Copy Data Planes: Leveraging eBPF and NVMe-oF for Terabit-Scale Storage Clusters",
         "Beyond TrueTime: Evaluating Hybrid Logical Clocks for Distributed Linearizability in Geo-Replicated Database Clusters",
-        "Designing High-Bandwidth Interconnect Topologies for 100,000+ GPU Training Clusters: A Deep Dive into InfiniBand and RoCE v2"
+        "Designing High-Bandwidth Interconnect Topologies for 100,000+ GPU Training Clusters: A Deep Dive into InfiniBand and RoCE v2",
+        "Optimizing Tail Latencies in Multi-Tenant Distributed Key-Value Stores via Dynamic Priority Queuing and Predictive Throttling",
+        "The Internals of Zero-Copy Packet Processing: Implementing XDP and eBPF for Terabit-Scale Edge Load Balancing",
+        "Architecting Global Consensus: A Deep Dive into Spanner’s TrueTime Implementation and Clock Drift Management in Geo-Distributed Clusters"
     ]
 }
