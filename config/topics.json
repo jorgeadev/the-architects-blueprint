@@ -428,7 +428,6 @@
         "Breaking the Amdahl Barrier: How Meta's MTIA v2 Custom Silicon Re-Architects Recommendation Inference Pipelines",
         "Optimizing Global Tail Latency: The Internals of Google’s Maglev Next-Gen Load Balancing with Programmable Logic",
         "Building a Billion-Event Per Second Ingestion Engine: Disaggregated Storage and Write-Ahead Log Optimization in Apache Pinot",
-        "Formal Verification at Scale: How AWS Uses TLA+ to Ensure Consistency in the DynamoDB Global Tables Replication Protocol",
         "Optimizing Multi-Tenant LLM Serving: A Deep Dive into PagedAttention and KV Cache Sharding Strategies",
         "Engineering Global Consistency: Building a Geo-Distributed Write-Ahead Log for Serverless SQLite Environments",
         "Hyper-Scaling Vector Databases: Solving the 100-Billion Dimension Indexing Problem in Real-Time Search Infrastructure",
@@ -1255,6 +1254,9 @@
         "Architecting Global Consensus: A Deep Dive into Spanner’s TrueTime Implementation and Clock Drift Management in Geo-Distributed Clusters",
         "Implementing Hierarchical Congestion Control in RoCE v2 Fabrics for 100,000+ GPU Training Clusters",
         "Deep Dive into Cell-Based Architecture: How Modern Hyperscalers Minimize Blast Radius in Regional Failovers",
-        "Leveraging eBPF for Zero-Copy Packet Processing in High-Throughput Edge Load Balancing Layers"
+        "Leveraging eBPF for Zero-Copy Packet Processing in High-Throughput Edge Load Balancing Layers",
+        "Implementing Deterministic Replay Debugging in Distributed Actor Systems for Multi-Region Failover Analysis",
+        "Optimizing eBPF-based Kernel Bypass for Zero-Copy Networking in 800Gbps Hyperscale Data Centers",
+        "Architecting Hierarchical Log-Structured Merge Trees for Multi-Tenant Sub-Millisecond Tail Latency at Petabyte Scale"
     ]
 }
