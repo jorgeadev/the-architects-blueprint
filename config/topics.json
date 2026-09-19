@@ -1044,7 +1044,6 @@
         "Optimizing Tail Latency in Globally Distributed Databases: A Deep Dive into CXL-Enabled Shared Memory Pools",
         "Architecting Real-Time Vector Search for Trillion-Scale Embeddings: Lessons from Meta's Disaggregated Indexing",
         "Beyond eBPF: Leveraging XDP and Hardware Offloading for Multi-Terabit DDoS Mitigation in Edge Networks",
-        "Architecting Petascale GPU Clusters: Mitigating InfiniBand Congestion and Collective Communication Bottlenecks in LLM Training",
         "Formal Verification of Distributed Consensus: Applying TLA+ to Prevent Edge-Case Data Corruption in NewSQL Storage Engines",
         "Implementing Zero-Copy Networking with eBPF for Low-Latency Microservices in Multi-Region Kubernetes Clusters",
         "Architectural Deep Dive: Orchestrating Elastic Multi-Tenant GPU Clusters for Distributed Large Language Model Training",
@@ -1253,6 +1252,9 @@
         "Designing High-Bandwidth Interconnect Topologies for 100,000+ GPU Training Clusters: A Deep Dive into InfiniBand and RoCE v2",
         "Optimizing Tail Latencies in Multi-Tenant Distributed Key-Value Stores via Dynamic Priority Queuing and Predictive Throttling",
         "The Internals of Zero-Copy Packet Processing: Implementing XDP and eBPF for Terabit-Scale Edge Load Balancing",
-        "Architecting Global Consensus: A Deep Dive into Spanner’s TrueTime Implementation and Clock Drift Management in Geo-Distributed Clusters"
+        "Architecting Global Consensus: A Deep Dive into Spanner’s TrueTime Implementation and Clock Drift Management in Geo-Distributed Clusters",
+        "Implementing Hierarchical Congestion Control in RoCE v2 Fabrics for 100,000+ GPU Training Clusters",
+        "Deep Dive into Cell-Based Architecture: How Modern Hyperscalers Minimize Blast Radius in Regional Failovers",
+        "Leveraging eBPF for Zero-Copy Packet Processing in High-Throughput Edge Load Balancing Layers"
     ]
 }
