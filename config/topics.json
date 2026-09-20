@@ -1117,7 +1117,6 @@
         "Optimizing KV-Cache Paging and Fragmentation in Multi-Tenant LLM Inference Clusters",
         "Implementing Hierarchical Navigable Small World Graphs for Distributed Vector Search at Petabyte Scale",
         "Leveraging eBPF and XDP for Zero-Copy Packet Processing in High-Throughput Service Mesh Sidecars",
-        "Implementing Hybrid Logical Clocks for Causal Consistency in Multi-Region Serverless Databases",
         "Architecting Ultra-Low Latency Inference: How Groq Leverages Software-Defined Hardware to Bypass Traditional GPU Bottlenecks",
         "Solving the Thundering Herd: Implementing Adaptive Priority Concurrency Control in Globally Distributed Microservices",
         "Beyond RoCE v2: The Engineering Behind Meta's MTIA and Custom Interconnects for Training 100-Trillion Parameter Models",
@@ -1261,6 +1260,9 @@
         "The Evolution of Cell-Based Architecture: Achieving Regional Fault Isolation at Petabyte Scale",
         "Optimizing Tail Latency in Distributed LLM Inference: KV Cache Paging and Selective Quantization at Scale",
         "Building Cell-Based Architecture for Global Resiliency: How Cloudflare Manages Control Plane Partitioning",
-        "Implementing Zero-Copy Networking in Rust for Terabit-Scale Data Planes: Bypassing the Kernel with eBPF and XDP"
+        "Implementing Zero-Copy Networking in Rust for Terabit-Scale Data Planes: Bypassing the Kernel with eBPF and XDP",
+        "Zero-Copy Data Transfer Architectures: Optimizing Kernel-to-User Space Pathing for 800Gbps Network Interfaces",
+        "Distributed Transaction Isolation at Global Scale: Comparing Spanner's TrueTime with Hybrid Logical Clocks in High-Throughput KV Stores",
+        "The Mechanics of GPU Multi-Tenancy: Implementing Hardware-Level Partitioning and RDMA Isolation for Large-Scale AI Inference Clusters"
     ]
 }
