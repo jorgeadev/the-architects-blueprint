@@ -103,7 +103,6 @@
         "Optimizing Inferencing Latency for Trillion-Parameter AI Models in Geo-Distributed Data Centers",
         "Beyond Paxos and Raft: Exploring Quorum-Less Distributed State Management for Planetary-Scale Edge Compute",
         "The architectural evolution of large language model serving: from static endpoints to dynamic, multi-tenant inference graphs.",
-        "Next-Gen Gene Delivery: Engineering AAV Serotypes and Non-Viral Nanoparticle Encapsulation for Advanced Therapies",
         "CRISPR-Associated Transposons (CASTs): Leveraging RNA-Guided Integration Systems for Large-Scale Genomic Engineering Beyond Double-Strand Breaks",
         "Global Atomic Consensus: Engineering High-Throughput, Low-Latency Transactional Integrity Across Geo-Distributed Cloud Infrastructures",
         "The Exabyte Enigma: Architecting Intelligent Tiering and Data Lineage Systems for AI Foundation Model Training Data Lakes",
@@ -1263,6 +1262,9 @@
         "Implementing Zero-Copy Networking in Rust for Terabit-Scale Data Planes: Bypassing the Kernel with eBPF and XDP",
         "Zero-Copy Data Transfer Architectures: Optimizing Kernel-to-User Space Pathing for 800Gbps Network Interfaces",
         "Distributed Transaction Isolation at Global Scale: Comparing Spanner's TrueTime with Hybrid Logical Clocks in High-Throughput KV Stores",
-        "The Mechanics of GPU Multi-Tenancy: Implementing Hardware-Level Partitioning and RDMA Isolation for Large-Scale AI Inference Clusters"
+        "The Mechanics of GPU Multi-Tenancy: Implementing Hardware-Level Partitioning and RDMA Isolation for Large-Scale AI Inference Clusters",
+        "Optimizing Deterministic Query Execution in Disaggregated Storage Architectures for Petabyte-Scale Analytics",
+        "Deep Dive into Bypassing the Kernel with eXpress Data Path (XDP) for Multi-Terabit Load Balancing",
+        "Mitigating Tail Latency Amplification in Microservices via Hardware-Accelerated RPC Offloading and RDMA"
     ]
 }
