@@ -19,7 +19,6 @@
         "An deep dive into how AWS Nitro cards physically offload networking and storage from EC2 instances.",
         "Recent revolutionary advancements in WebAssembly (Wasm) and the hype around running backend services in the browser.",
         "The hype over Rust replacing C++ in foundational systems: reality, technical challenges, and major rewrites.",
-        "The interplay of programmable data planes and P4 with smart NICs for ultra-low-latency network function virtualization in hyperscale data centers.",
         "Disaggregated Memory Architectures and Next-Gen Interconnects: Engineering the Hyperscale AI Training Fabrics of Tomorrow",
         "The Architecture and Performance Implications of Programmable Data Plane Interconnects (P4) for Hyperscale Microservices Mesh Optimization.",
         "CRISPR-Cas13 Based Antiviral Strategies: Engineering Sequence-Specific RNA Degradation for Pan-Viral Immunity.",
@@ -1259,6 +1258,9 @@
         "Architecting Hierarchical Log-Structured Merge Trees for Multi-Tenant Sub-Millisecond Tail Latency at Petabyte Scale",
         "Exploiting eBPF and XDP for Line-Rate Load Balancing in Geo-Distributed Edge Networks",
         "Implementing Wait-Free Data Structures in High-Concurrency Multi-Tenant Storage Engines",
-        "The Evolution of Cell-Based Architecture: Achieving Regional Fault Isolation at Petabyte Scale"
+        "The Evolution of Cell-Based Architecture: Achieving Regional Fault Isolation at Petabyte Scale",
+        "Optimizing Tail Latency in Distributed LLM Inference: KV Cache Paging and Selective Quantization at Scale",
+        "Building Cell-Based Architecture for Global Resiliency: How Cloudflare Manages Control Plane Partitioning",
+        "Implementing Zero-Copy Networking in Rust for Terabit-Scale Data Planes: Bypassing the Kernel with eBPF and XDP"
     ]
 }
