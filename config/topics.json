@@ -575,7 +575,6 @@
         "Architecting Multi-Petaflop Inference Engines: Memory Hierarchy and Interconnect Strategies for Sparse Mixture-of-Experts",
         "Leveraging eBPF for Zero-Trust Observability and Enforcement in Multi-Region Mesh Architectures",
         "Solving the Thundering Herd: Implementing Deterministic Request Collapsing in Globally Distributed Edge Caches",
-        "Beyond Raft: Implementing High-Throughput Quorum Systems for Petabyte-Scale Metadata Management",
         "Line-Rate Packet Filtering: Leveraging eBPF and XDP for Terabit-Scale DDoS Mitigation in Hyper-Scale Cloud Fabrics",
         "The Anatomy of Sparse Inference: Optimizing Trillion-Parameter MoE Model Quantization for Decentralized GPU Orchestration",
         "Implementing Deterministic Simulation Testing for High-Availability Distributed Consensus Engines",
@@ -1269,6 +1268,9 @@
         "Optimizing Global Consensus: The Evolution of Google's Spanner from TrueTime to TSO for Low-Latency Cross-Region Commits",
         "Implementing Deterministic Simulation Testing (DST) for Distributed Consensus Protocols in Large-Scale Storage Engines",
         "Optimizing Tail Latency in Multi-Tenant Vector Databases through Hardware-Accelerated PagedAttention and Zero-Copy I/O",
-        "Architecting Global-Scale Service Meshes: Leveraging eBPF for High-Performance Observability and Security in Hyperscaler Clusters"
+        "Architecting Global-Scale Service Meshes: Leveraging eBPF for High-Performance Observability and Security in Hyperscaler Clusters",
+        "Formal Verification of Distributed Transaction Managers: Lessons from Rebuilding a Global Consensus Layer",
+        "Dynamic GPU Resource Oversubscription: Designing a Multi-Cluster Scheduler for Distributed LLM Training",
+        "Eliminating Cold Starts in WebAssembly-based Edge Functions through Proactive Snapshotting and Just-In-Time Sandboxing"
     ]
 }
