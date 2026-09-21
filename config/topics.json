@@ -579,7 +579,6 @@
         "Line-Rate Packet Filtering: Leveraging eBPF and XDP for Terabit-Scale DDoS Mitigation in Hyper-Scale Cloud Fabrics",
         "The Anatomy of Sparse Inference: Optimizing Trillion-Parameter MoE Model Quantization for Decentralized GPU Orchestration",
         "Implementing Deterministic Simulation Testing for High-Availability Distributed Consensus Engines",
-        "The Evolution of Tiered Storage Architectures in Petabyte-Scale Real-Time OLAP Databases",
         "Scaling Cross-Region Global Server Load Balancing for Sub-100ms Latency in Anycast Edge Networks",
         "Optimizing Tail Latency in Globally Distributed LSM-Tree Storage Engines via Hierarchical Bloom Filter Tiering",
         "Architecting Zero-Copy Data Pipelines: Leveraging RDMA and NVMe-over-Fabrics for Petabyte-Scale Real-Time Inference",
@@ -1267,6 +1266,9 @@
         "Mitigating Tail Latency Amplification in Microservices via Hardware-Accelerated RPC Offloading and RDMA",
         "Implementing Zero-Copy Tensor Transfers via RDMA for Low-Latency Distributed LLM Inference",
         "A Deep Dive into Meta's MTIA Infrastructure: Scaling Custom Silicon for Recommendation Engine Workloads",
-        "Optimizing Global Consensus: The Evolution of Google's Spanner from TrueTime to TSO for Low-Latency Cross-Region Commits"
+        "Optimizing Global Consensus: The Evolution of Google's Spanner from TrueTime to TSO for Low-Latency Cross-Region Commits",
+        "Implementing Deterministic Simulation Testing (DST) for Distributed Consensus Protocols in Large-Scale Storage Engines",
+        "Optimizing Tail Latency in Multi-Tenant Vector Databases through Hardware-Accelerated PagedAttention and Zero-Copy I/O",
+        "Architecting Global-Scale Service Meshes: Leveraging eBPF for High-Performance Observability and Security in Hyperscaler Clusters"
     ]
 }
