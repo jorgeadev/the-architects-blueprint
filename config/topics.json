@@ -1048,7 +1048,6 @@
         "Deterministic Simulation Testing at Scale: How Distributed Database Engines Use TLA+ and Jepsen to Validate Raft Consensus Under Byzantine Faults",
         "Scaling GPU Orchestration: Overcoming InfiniBand Bottlenecks and Collective Communication Deadlocks in 100k-Node Large Language Model Training Clusters",
         "Architecting Deterministic Simulation Testing for Distributed State Machines in Hyperscale Cloud Environments",
-        "Optimizing KV-Cache Management and Tiered Memory Prefetching for Large-Scale Mixture-of-Experts (MoE) Inference Pipelines",
         "Dissecting Meta's cross-region Zonal Failover: A real-time ML inference latency budget under 50ms during a 3-AZ blip in the US-East fabric",
         "The hidden CXL memory tiering war: How hyperscalers are using cache-coherent interconnects to decouple DRAM from physical NUMA domains for cold-start elastic pools",
         "Optimizing Zero-Copy Data Planes for Petabyte-Scale Distributed Storage Systems",
@@ -1271,6 +1270,9 @@
         "Architecting Global-Scale Service Meshes: Leveraging eBPF for High-Performance Observability and Security in Hyperscaler Clusters",
         "Formal Verification of Distributed Transaction Managers: Lessons from Rebuilding a Global Consensus Layer",
         "Dynamic GPU Resource Oversubscription: Designing a Multi-Cluster Scheduler for Distributed LLM Training",
-        "Eliminating Cold Starts in WebAssembly-based Edge Functions through Proactive Snapshotting and Just-In-Time Sandboxing"
+        "Eliminating Cold Starts in WebAssembly-based Edge Functions through Proactive Snapshotting and Just-In-Time Sandboxing",
+        "Zero-Copy Data Transfer in Distributed Storage: Leveraging NVMe-over-Fabrics and RDMA for Sub-Millisecond Tail Latency",
+        "Solving the Thundering Herd: Implementing Multi-Level Adaptive Rate Limiting in Meta's Global Edge Fleet",
+        "Beyond Transformers: The Systems Engineering Challenges of Deploying State-Space Models (SSMs) for Real-Time Massive-Scale Inference"
     ]
 }
