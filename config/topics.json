@@ -225,7 +225,6 @@
         "Beyond Generic: Custom Hardware Acceleration and Probabilistic Data Structures for Real-time Petabyte-Scale Anomaly Detection Pipelines",
         "Beyond GPUs: Designing Hyperscale Inference Architectures for Trillion-Parameter AI Models",
         "Beyond AAV: Next-Generation Viral Vector Engineering for Enhanced Gene Therapy Delivery and Immunomodulation",
-        "Disaggregated NVMe-oF and CXL-based memory pooling: Architecting the next generation of hyperscale cloud resource virtualization.",
         "The Role of Foundational Models and HPC in Accelerating De Novo Protein Design for Drug Discovery and Synthetic Biology",
         "Optimizing RDMA over Converged Ethernet (RoCE) for Distributed LLM Training: Overcoming Incast Congestion in Hyperscale GPU Clusters",
         "Beyond Eventual Consistency: Implementing Deterministic State Machine Replication in Globally Distributed Edge Databases",
@@ -1265,6 +1264,9 @@
         "The Mechanics of GPU Multi-Tenancy: Implementing Hardware-Level Partitioning and RDMA Isolation for Large-Scale AI Inference Clusters",
         "Optimizing Deterministic Query Execution in Disaggregated Storage Architectures for Petabyte-Scale Analytics",
         "Deep Dive into Bypassing the Kernel with eXpress Data Path (XDP) for Multi-Terabit Load Balancing",
-        "Mitigating Tail Latency Amplification in Microservices via Hardware-Accelerated RPC Offloading and RDMA"
+        "Mitigating Tail Latency Amplification in Microservices via Hardware-Accelerated RPC Offloading and RDMA",
+        "Implementing Zero-Copy Tensor Transfers via RDMA for Low-Latency Distributed LLM Inference",
+        "A Deep Dive into Meta's MTIA Infrastructure: Scaling Custom Silicon for Recommendation Engine Workloads",
+        "Optimizing Global Consensus: The Evolution of Google's Spanner from TrueTime to TSO for Low-Latency Cross-Region Commits"
     ]
 }
