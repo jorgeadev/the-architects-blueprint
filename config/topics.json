@@ -311,7 +311,6 @@
         "Architecting Zero-Copy Ring Buffers for Multi-Terabit Network Telemetry Ingestion",
         "Formal Verification of Distributed Locking Mechanisms in Geo-Replicated Spanner-like Systems",
         "Formal Verification of Distributed Consensus Protocols in AWS Lambda’s Internal Routing Layer",
-        "Zero-Copy Data Planes: Implementing RDMA and eBPF for Sub-Microsecond Tail Latency in Financial Clearing Engines",
         "Optimizing Tail Latency in Large Language Model Inference Clusters via Custom RDMA-based Memory Pooling",
         "Re-architecting Global Anycast Edge Networks for Sub-millisecond Cold Starts in Serverless Runtimes",
         "Scaling Deterministic Distributed State Machines for High-Frequency Trading Systems on Heterogeneous Cloud Hardware",
@@ -1277,6 +1276,9 @@
         "Leveraging Control-Theoretic Autoscaling to Prevent Metastable Failures in High-Fanout Microservice Architectures",
         "Architecting Distributed Write-Ahead Logging for Sub-Millisecond Consistency in Global-Scale NoSQL Databases",
         "Optimizing High-Throughput Service Meshes using eBPF and Kernel-Bypass Networking for Low-Latency Microservices",
-        "Implementing Tiered Storage Engines with NVMe-oF and Cold-Storage Compression for Exabyte-Scale Data Lakes"
+        "Implementing Tiered Storage Engines with NVMe-oF and Cold-Storage Compression for Exabyte-Scale Data Lakes",
+        "Deterministic Replay Debugging in Massive-Scale Microservice Meshes via Vector Clock Instrumentation",
+        "Hardware-Accelerated Congestion Control: Offloading RDMA Transport Logic to Programmable SmartNICs",
+        "Tiered Storage Architectures for Vector Databases: Balancing NVMe Latency with S3 Throughput for Trillion-Scale Embeddings"
     ]
 }
