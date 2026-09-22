@@ -1139,7 +1139,6 @@
         "Implementing Cache Coherence Protocols for Geo-Distributed Stateful Edge Functions at 100M RPS",
         "Deep Dive: The Erasure Coding and Quorum Consistency Trade-offs in Exabyte-Scale Object Storage Layers",
         "Reverse-Engineering the Zero-Copy Networking Stack for 400Gbps Intra-Datacenter RDMA Fabrics",
-        "Architecting Global-Scale Cell-Based Infrastructure to Mitigate Blast Radius in Multi-Region Deployments",
         "The Evolution of Shared-Log Persistence: Comparing BookKeeper, LogDevice, and Corfu for High-Throughput Streams",
         "Optimizing Kernel-Level Context Switching and Cache Locality for Multi-Tenant Serverless Execution Environments",
         "Optimizing Multi-Tenant GPU Scheduling in Massive-Scale Kubernetes Clusters for Heterogeneous LLM Workloads",
@@ -1279,6 +1278,9 @@
         "Implementing Tiered Storage Engines with NVMe-oF and Cold-Storage Compression for Exabyte-Scale Data Lakes",
         "Deterministic Replay Debugging in Massive-Scale Microservice Meshes via Vector Clock Instrumentation",
         "Hardware-Accelerated Congestion Control: Offloading RDMA Transport Logic to Programmable SmartNICs",
-        "Tiered Storage Architectures for Vector Databases: Balancing NVMe Latency with S3 Throughput for Trillion-Scale Embeddings"
+        "Tiered Storage Architectures for Vector Databases: Balancing NVMe Latency with S3 Throughput for Trillion-Scale Embeddings",
+        "Deconstructing the zonal isolation and blast radius containment architecture of AWS Local Zones versus standard Availability Zones",
+        "An engineering deep dive into the RDMA over Converged Ethernet (RoCEv2) and custom congestion control algorithms powering Microsoft Azure's 400Gbps AI supercomputer backbones",
+        "Reverse-engineering the rumored Exascale storage layer: How Google is mitigating metadata bottlenecking via distributed LSM-trees and disaggregated NAND flash in Colossus"
     ]
 }
