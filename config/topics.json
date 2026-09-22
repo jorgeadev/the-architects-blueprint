@@ -1041,7 +1041,6 @@
         "Architectural Deep Dive: Orchestrating Elastic Multi-Tenant GPU Clusters for Distributed Large Language Model Training",
         "Solving the Thundering Herd Problem in Global Distributed Caches using Quorum-Based Lease Mechanisms",
         "Reconstructing Milliseconds: Anatomy of a Global Anycast Traffic-Shaping Layer for Sub-50ms Packet Steering in Real-Time Video Conferencing",
-        "Quantifying Tail Latency Cascades in Multi-Tenant GPU Clusters: A Deep Dive into NVIDIA's Grace Hopper NVLink-C2C Topology and Its Impact on LLM Inference P99 Scheduling",
         "The Hidden Cost of Erasure Coding on ZNS SSDs: A Post-Mortem of Meta's Cold Storage Migration and the Rise of Computational Storage Drives (CSDs) for In-Drive Rebuilds",
         "Architecting Low-Latency Global Traffic Control: Implementing eBPF-based Anycast Load Balancing for Multi-Region L7 Ingress",
         "Deterministic Simulation Testing at Scale: How Distributed Database Engines Use TLA+ and Jepsen to Validate Raft Consensus Under Byzantine Faults",
@@ -1275,6 +1274,9 @@
         "Beyond Transformers: The Systems Engineering Challenges of Deploying State-Space Models (SSMs) for Real-Time Massive-Scale Inference",
         "Optimizing Packet Steering and Zero-Copy RDMA Transmissions for Multi-Tenant GPU Training Clusters",
         "Architecting Hierarchical Consensus Protocols to Mitigate Write Amplification in Globally Distributed LSM-Trees",
-        "Leveraging Control-Theoretic Autoscaling to Prevent Metastable Failures in High-Fanout Microservice Architectures"
+        "Leveraging Control-Theoretic Autoscaling to Prevent Metastable Failures in High-Fanout Microservice Architectures",
+        "Architecting Distributed Write-Ahead Logging for Sub-Millisecond Consistency in Global-Scale NoSQL Databases",
+        "Optimizing High-Throughput Service Meshes using eBPF and Kernel-Bypass Networking for Low-Latency Microservices",
+        "Implementing Tiered Storage Engines with NVMe-oF and Cold-Storage Compression for Exabyte-Scale Data Lakes"
     ]
 }
