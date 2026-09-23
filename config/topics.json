@@ -323,7 +323,6 @@
         "Formal Verification of Distributed Consensus Protocols in Sub-millisecond Latency Vector Databases",
         "Hardware-Software Co-design for Zero-Copy Data Movement in Multi-Petaflop GPU Clusters",
         "Architecting Global-Scale Egress-Free Multi-Cloud Meshes: A Deep Dive into Cloudflare’s Pingora Migration",
-        "The Architecture of Predictive Autoscaling: Using Transformer-Based Time-Series Forecasting for Proactive Infrastructure Provisioning",
         "Bypassing the Kernel: A Deep Dive into DPDK-Driven Load Balancing for Terabit-Scale Distributed Denial of Service Mitigation",
         "Optimizing Tail Latency in Multi-Tenant LSM-Trees via Predictive Compaction and Write-Ahead Log Partitioning",
         "Beyond Sidecars: Implementing Zero-Copy Service Mesh Architectures using eBPF and XDP for Terabit-Scale Throughput",
@@ -1281,6 +1280,9 @@
         "Tiered Storage Architectures for Vector Databases: Balancing NVMe Latency with S3 Throughput for Trillion-Scale Embeddings",
         "Deconstructing the zonal isolation and blast radius containment architecture of AWS Local Zones versus standard Availability Zones",
         "An engineering deep dive into the RDMA over Converged Ethernet (RoCEv2) and custom congestion control algorithms powering Microsoft Azure's 400Gbps AI supercomputer backbones",
-        "Reverse-engineering the rumored Exascale storage layer: How Google is mitigating metadata bottlenecking via distributed LSM-trees and disaggregated NAND flash in Colossus"
+        "Reverse-engineering the rumored Exascale storage layer: How Google is mitigating metadata bottlenecking via distributed LSM-trees and disaggregated NAND flash in Colossus",
+        "Deterministic Database Replay: Scaling Beyond Shadow Traffic for Core Banking Migration",
+        "Zero-Trust at 400Gbps: Implementing Hardware-Accelerated mTLS in Hyperscale Data Centers",
+        "Optimizing Tail Latency in Sharded Consensus Logs: Lessons from Distributed Erasure Coding at Scale"
     ]
 }
