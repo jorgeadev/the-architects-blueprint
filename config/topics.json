@@ -615,7 +615,6 @@
         "Formal Verification of Distributed Locking Mechanisms in Amazon Aurora's Storage Layer",
         "Optimizing NVLink Topologies for Heterogeneous P2P GPU Communication in Massive LLM Training Clusters",
         "Zero-Copy Data Transfer and eXpress Data Path (XDP) Integration for High-Throughput Ingress at Cloudflare",
-        "Dissecting NVLink 4.0 Fabric: How Rack-Scale GPU Interconnects Redefine Distributed Gradient Descent",
         "Formal Verification of Distributed Consensus: Using TLA+ to Prevent Edge-Case Deadlocks in High-Availability Raft Clusters",
         "Implementing Zero-Copy Networking: Leveraging eBPF and XDP for High-Throughput Packet Processing in 400GbE Environments",
         "Post-Quantum Cryptography in Transit: Architecting PQC-Ready TLS Terminations for Global Content Delivery Networks",
@@ -1287,6 +1286,9 @@
         "The Evolution of Distributed Consensus: How Spanner Leverages TrueTime for Transactional Consistency Across Global Regions",
         "Optimizing Write-Ahead Logs for Petabyte-Scale Vector Databases: Lessons from Distributed LSM-Trees",
         "Deterministic Simulation Testing for Distributed Consensus Engines: Preventing Partition Failures in Massive-Scale Deployments",
-        "Zero-Copy Data Transfer in High-Performance Microservice Meshes using eBPF and Shared Memory Segments"
+        "Zero-Copy Data Transfer in High-Performance Microservice Meshes using eBPF and Shared Memory Segments",
+        "Optimizing Geo-Distributed Consensus: Deep Dive into Multi-Leader Paxos Variants for Sub-100ms Global Latency",
+        "Isolating Multi-Tenant Workloads at Scale: Architecting High-Density WebAssembly Runtimes for Edge Compute",
+        "Zero-Overhead Observability: Leveraging eBPF for Real-Time Kernel-Space Telemetry in 100k+ Node Kubernetes Clusters"
     ]
 }
