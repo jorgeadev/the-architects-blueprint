@@ -295,7 +295,6 @@
         "Zero-Copy Data Transfer Pipelines in Hyperscale Observability Platforms using eBPF and Shared Memory Ring Buffers",
         "Hardware-Accelerated Load Balancing: How Google Cloud Uses Maglev and Andromeda to Minimize Packet Jitter at Petabit Scales",
         "Designing the Next-Generation KV Store: Implementing LSM-Tree Optimization via NVMe-oF in Massive Distributed Storage",
-        "Architecting for Hyper-Elasticity: Deep Dive into the Shared-Log and Disaggregated Storage Model of Snowflake and Databricks Polaris",
         "Sub-Microsecond Clock Synchronization at Scale: Implementing Precision Time Protocol (PTP) in Commodity Cloud Data Centers",
         "Implementing Zero-Copy Data Planes for Terabit-Scale Distributed Storage using RDMA and NVMe-over-Fabrics",
         "Solving the Thundering Herd Problem in Multi-Tenant LLM Inference Engines via Predictive KV Cache Pre-warming",
@@ -1283,6 +1282,9 @@
         "Reverse-engineering the rumored Exascale storage layer: How Google is mitigating metadata bottlenecking via distributed LSM-trees and disaggregated NAND flash in Colossus",
         "Deterministic Database Replay: Scaling Beyond Shadow Traffic for Core Banking Migration",
         "Zero-Trust at 400Gbps: Implementing Hardware-Accelerated mTLS in Hyperscale Data Centers",
-        "Optimizing Tail Latency in Sharded Consensus Logs: Lessons from Distributed Erasure Coding at Scale"
+        "Optimizing Tail Latency in Sharded Consensus Logs: Lessons from Distributed Erasure Coding at Scale",
+        "Zero-Trust Networking at the Edge: Implementing eBPF-Based Microsegmentation for Terabit-Scale Traffic",
+        "Scaling Vector Databases for Real-Time Recommendations: Optimizing HNSW Indexing for Billion-Scale Embeddings",
+        "The Evolution of Distributed Consensus: How Spanner Leverages TrueTime for Transactional Consistency Across Global Regions"
     ]
 }
