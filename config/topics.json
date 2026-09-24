@@ -526,7 +526,6 @@
         "Scaling S3-Compatible Metadata Engines to Trillions of Objects Using Tiered LSM Trees and Bloom Filter Optimization",
         "Deep Dive into Meta's Tectonic: Orchestrating Exabyte-Scale Distributed Storage for Generative AI Training Pipelines",
         "Re-architecting the Global Edge: How Cloudflare Utilizes Quic-go and eBPF to Optimize Zero-Copy Packet Processing",
-        "Scaling Netflix’s Control Plane: Migrating from Monolithic Titus to a Geographically Distributed Federated Kubernetes Mesh",
         "Analyzing the Performance Impact of Kernel-Bypass Networking on Large-Scale LLM Training Clusters Using RoCE v2",
         "Analyzing the control plane bottlenecks of a globally distributed multi-region Kubernetes cluster spanning 100,000+ nodes under a network partition event.",
         "Optimizing Tail Latency in Disaggregated Storage Architectures: Lessons from Scaling NVMe-over-Fabrics at PB-Scale",
@@ -1289,6 +1288,9 @@
         "Zero-Copy Data Transfer in High-Performance Microservice Meshes using eBPF and Shared Memory Segments",
         "Optimizing Geo-Distributed Consensus: Deep Dive into Multi-Leader Paxos Variants for Sub-100ms Global Latency",
         "Isolating Multi-Tenant Workloads at Scale: Architecting High-Density WebAssembly Runtimes for Edge Compute",
-        "Zero-Overhead Observability: Leveraging eBPF for Real-Time Kernel-Space Telemetry in 100k+ Node Kubernetes Clusters"
+        "Zero-Overhead Observability: Leveraging eBPF for Real-Time Kernel-Space Telemetry in 100k+ Node Kubernetes Clusters",
+        "Optimizing Multi-Regional Strong Consistency: Implementing Hierarchical Quorum Slices in Global Distributed Databases",
+        "Solving the Tail Latency Crisis: Implementing Predictable Request Hedging and Priority-Based Scheduling in High-Throughput Microservices",
+        "Real-time Vector Ingestion at Scale: Orchestrating LSM-Tree Based Indexing for Petabyte-Scale Retrieval-Augmented Generation"
     ]
 }
