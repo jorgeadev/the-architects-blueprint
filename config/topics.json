@@ -127,7 +127,6 @@
         "Hardware-Accelerated Consensus Protocols: Reducing Latency and Increasing Throughput in Global Distributed Transaction Systems",
         "Engineering Self-Amplifying RNA Vectors for Next-Generation Pandemic Preparedness and Broad-Spectrum Immunotherapy",
         "Leveraging eBPF for deep kernel-level observability and anomaly detection in cloud-native microservice meshes.",
-        "The Architectural Shift in Hyperscale Data Center Interconnects: From DWDM to Photonic Integrated Circuits and Software-Defined Fabrics",
         "The emerging architectural patterns for synthetic viral vector design optimization using reinforcement learning for in-vivo gene therapy delivery.",
         "The architectural blueprint for integrating Post-Quantum Cryptography into existing hyperscale cloud infrastructure, detailing performance implications and migration strategies.",
         "Architecting next-generation serverless platforms for real-time, low-latency AI inference at the extreme edge, focusing on cold start mitigation and state synchronization.",
@@ -1295,6 +1294,9 @@
         "Formal Verification of Distributed Consensus Protocols in Large-Scale Sharded NoSQL Databases",
         "Evaluating RDMA over Converged Ethernet (RoCE) v2 for Multi-Node Training of 400B+ Parameter Dense Transformers",
         "Designing Log-Structured Merge-Trees for ZNS SSDs: Eliminating Write Amplification in Hyperscale Key-Value Stores",
-        "The Mechanics of Formal Verification in Distributed Databases: Model Checking Jepsen-Hardened Raft Implementations with TLA+"
+        "The Mechanics of Formal Verification in Distributed Databases: Model Checking Jepsen-Hardened Raft Implementations with TLA+",
+        "Zero-Copy Memory Management and eBPF-Driven Packet Steering in High-Throughput AI Training Clusters",
+        "Architecting Globally Consistent Vector Search: Integrating HNSW Indexing into Spanner’s Distributed Transaction Model",
+        "Mitigating Thundering Herd and Cache Stampedes in Multi-Tenant Serverless Runtimes using Predictive Load Shedding"
     ]
 }
