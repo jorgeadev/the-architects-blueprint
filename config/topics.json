@@ -790,7 +790,6 @@
         "Implementing Zero-Knowledge Provenance in Large-Scale Distributed Build Systems to Thwart Software Supply Chain Attacks",
         "Leveraging eBPF for Programmable Congestion Control in Multi-Tenant RDMA Over Converged Ethernet (RoCE) Fabrics",
         "Deep Dive into Deterministic Simulation Testing: Hardening Distributed State Machines against Heisenbugs in Mission-Critical Infrastructure",
-        "Zero-Copy Data Transfer and RoCE v2: Architectural Bottlenecks in Scaling InfiniBand-less GPU Clusters for LLM Training",
         "Implementing Tiered Storage in Cloud-Native Databases: Managing Hot-Cold Data Affinity in Globally Distributed LSM-Trees",
         "Optimizing L3/L4 Load Balancing for 100M+ Concurrent Connections using eXpress Data Path (XDP) and eBPF",
         "Deconstructing Global Cache Invalidation Strategies at Edge-Scale: A Comparative Study of Meta’s FlightTracker vs. Google’s Monarch",
@@ -1291,6 +1290,9 @@
         "Zero-Overhead Observability: Leveraging eBPF for Real-Time Kernel-Space Telemetry in 100k+ Node Kubernetes Clusters",
         "Optimizing Multi-Regional Strong Consistency: Implementing Hierarchical Quorum Slices in Global Distributed Databases",
         "Solving the Tail Latency Crisis: Implementing Predictable Request Hedging and Priority-Based Scheduling in High-Throughput Microservices",
-        "Real-time Vector Ingestion at Scale: Orchestrating LSM-Tree Based Indexing for Petabyte-Scale Retrieval-Augmented Generation"
+        "Real-time Vector Ingestion at Scale: Orchestrating LSM-Tree Based Indexing for Petabyte-Scale Retrieval-Augmented Generation",
+        "Orchestrating Multi-Petabyte Checkpointing for Distributed LLM Training on InfiniBand Fabrics",
+        "Architecting Zero-Trust Service Meshes for Sub-Millisecond Tail Latency in Hyperscale Microservices",
+        "Formal Verification of Distributed Consensus Protocols in Large-Scale Sharded NoSQL Databases"
     ]
 }
