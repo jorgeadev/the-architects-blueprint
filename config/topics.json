@@ -950,7 +950,6 @@
         "The Anatomy of LLM Serving Infrastructure: Optimizing KV-Cache Management across Geo-Distributed GPU Clusters",
         "Optimizing NVMe-over-Fabrics for Tier-0 Storage at ByteDance: Lessons from a 100PB Deployment",
         "Solving the Thundering Herd: How Netflix Implemented Priority-Aware Congestion Control in their Global Edge Gateway",
-        "Deterministic Simulation Testing at Scale: How Anthropic Ensures Consistency Across Massively Distributed Training Clusters",
         "Optimizing Tail Latency in Hyper-Scale Key-Value Stores via eBPF-Driven Request Steering",
         "The Anatomy of Zero-Copy Data Movement in Petabyte-Scale Distributed Mesh Architectures",
         "Achieving Deterministic Concurrency Control in Multi-Tenant Serverless Execution Environments",
@@ -1293,6 +1292,9 @@
         "Real-time Vector Ingestion at Scale: Orchestrating LSM-Tree Based Indexing for Petabyte-Scale Retrieval-Augmented Generation",
         "Orchestrating Multi-Petabyte Checkpointing for Distributed LLM Training on InfiniBand Fabrics",
         "Architecting Zero-Trust Service Meshes for Sub-Millisecond Tail Latency in Hyperscale Microservices",
-        "Formal Verification of Distributed Consensus Protocols in Large-Scale Sharded NoSQL Databases"
+        "Formal Verification of Distributed Consensus Protocols in Large-Scale Sharded NoSQL Databases",
+        "Evaluating RDMA over Converged Ethernet (RoCE) v2 for Multi-Node Training of 400B+ Parameter Dense Transformers",
+        "Designing Log-Structured Merge-Trees for ZNS SSDs: Eliminating Write Amplification in Hyperscale Key-Value Stores",
+        "The Mechanics of Formal Verification in Distributed Databases: Model Checking Jepsen-Hardened Raft Implementations with TLA+"
     ]
 }
