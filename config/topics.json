@@ -1114,7 +1114,6 @@
         "Formal Verification of Distributed Consensus: Re-engineering Paxos for Multi-Region Active-Active Replication at 100M+ QPS",
         "Beyond Sidecars: Accelerating Service Mesh Performance with eBPF-Driven Programmable Data Planes in Hyperscale K8s Clusters",
         "Dissecting Meta's Colossal AI Training Cluster: A Deep Dive into the 24,576-GPU H100 Fabric, Optical Switching Topology, and the Failure-Aware Checkpointing System that Sustains 1 ExaFLOPS",
-        "Inside Google's Jupiterean Consolidation: How Heterogeneous CPU/TPU Pools and a Chemically-Etched, Liquid-Cooled Rear-Door Heat Exchanger Redefined Warehouse-Scale Compute Density",
         "The Hidden Fibre Channel of the Web: Analyzing Cloudflare's Anycast-enabled, Multi-Terabit DDoS Mitigation Fabric and the Real-Time BGP Anomaly Detection Engine Built on eBPF and P4",
         "Dissecting Meta's 10 Petabyte AI Training Cluster: A Deep Dive into their Hierarchical Optical Fabric, Collective Communication Topologies, and Fault-Conscious Checkpointing at Exascale",
         "The Unspoken Complexity of Cloud Control Planes: How Google's Borg and AWS' Cell-Based Architecture Tolerate Multi-Region Cascading Failures via Sharded Quorum and Chaos Engineering",
@@ -1303,6 +1302,9 @@
         "Solving the distributed consistency challenge in geo-replicated vector databases for real-time RAG at scale",
         "Optimizing Collective Communication Primitives for Distributed Training on 100k+ GPU Clusters",
         "Formal Verification of Fault-Tolerant Consensus in High-Throughput Sharded Database Architectures",
-        "Implementing Zero-Copy Data Pipelines for Real-Time Inference in Heterogeneous Hardware Environments"
+        "Implementing Zero-Copy Data Pipelines for Real-Time Inference in Heterogeneous Hardware Environments",
+        "Optimizing Tail Latency in Tiered Storage Architectures Using Predictive NVMe Cache Management",
+        "The Mechanics of Sharded Lock Managers in High-Concurrency Distributed Key-Value Stores",
+        "Architecting Multi-Tenant Vector Database Clusters for Sub-Second Semantic Search at Petabyte Scale"
     ]
 }
