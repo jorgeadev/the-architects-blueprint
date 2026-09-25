@@ -101,7 +101,6 @@
         "Programmable Genetic Circuits: Designing and Deploying CRISPR-Cas Systems for Advanced Cellular Diagnostics and Therapeutics",
         "Optimizing Inferencing Latency for Trillion-Parameter AI Models in Geo-Distributed Data Centers",
         "Beyond Paxos and Raft: Exploring Quorum-Less Distributed State Management for Planetary-Scale Edge Compute",
-        "The architectural evolution of large language model serving: from static endpoints to dynamic, multi-tenant inference graphs.",
         "CRISPR-Associated Transposons (CASTs): Leveraging RNA-Guided Integration Systems for Large-Scale Genomic Engineering Beyond Double-Strand Breaks",
         "Global Atomic Consensus: Engineering High-Throughput, Low-Latency Transactional Integrity Across Geo-Distributed Cloud Infrastructures",
         "The Exabyte Enigma: Architecting Intelligent Tiering and Data Lineage Systems for AI Foundation Model Training Data Lakes",
@@ -1299,6 +1298,9 @@
         "Mitigating Thundering Herd and Cache Stampedes in Multi-Tenant Serverless Runtimes using Predictive Load Shedding",
         "Decoupled Storage and Compute in Modern Vector Databases: Solving the 100-Billion Embedding Indexing Bottleneck",
         "Hyper-Scale Traffic Egress: Implementing Zero-Trust WireGuard Mesh Networking at 100Tbps Throughput",
-        "Deterministic Simulation Testing (DST) in Distributed Consensus Protocols: How TigerBeetle and FoundationDB Eliminate Heisenbugs"
+        "Deterministic Simulation Testing (DST) in Distributed Consensus Protocols: How TigerBeetle and FoundationDB Eliminate Heisenbugs",
+        "Architecting for 100M+ concurrent WebSocket connections: Lessons from the WhatsApp transition to custom Erlang abstractions",
+        "Navigating the memory wall: How Google’s custom TPU v5p interconnect architecture bypasses traditional PCIe bottlenecks",
+        "Solving the distributed consistency challenge in geo-replicated vector databases for real-time RAG at scale"
     ]
 }
