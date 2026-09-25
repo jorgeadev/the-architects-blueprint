@@ -821,7 +821,6 @@
         "Optimizing RoCE v2 for Multi-Tenant GPU Clusters: Solving Congestion Control in 32,000+ H100 Interconnects",
         "Quantization-Aware Indexing and Tiered Memory Management for 100-Billion Vector Similarity Searches in Production",
         "Architecting High-Availability Control Planes for Global Edge Compute: A Deep Dive into Anycast-Based Load Balancing and State Synchronization",
-        "Hardware-Accelerated Memory Management: Offloading Garbage Collection to CXL-attached Memory Expanders in Hyperscale JVMs",
         "Architecting Zero-Trust Control Planes: Scaling SPIFFE/SPIRE for Million-Node Ephemeral Container Environments",
         "Optimizing Tail Latency in Google’s Distributed Vector Search: Migrating from Spanner to Specialized In-Memory Key-Value Topologies",
         "The Engineering Behind Pingora: Solving the Memory Fragmentation and Garbage Collection Bottlenecks of Nginx using Zero-Copy Rust Patterns at Cloudflare",
@@ -1301,6 +1300,9 @@
         "Deterministic Simulation Testing (DST) in Distributed Consensus Protocols: How TigerBeetle and FoundationDB Eliminate Heisenbugs",
         "Architecting for 100M+ concurrent WebSocket connections: Lessons from the WhatsApp transition to custom Erlang abstractions",
         "Navigating the memory wall: How Google’s custom TPU v5p interconnect architecture bypasses traditional PCIe bottlenecks",
-        "Solving the distributed consistency challenge in geo-replicated vector databases for real-time RAG at scale"
+        "Solving the distributed consistency challenge in geo-replicated vector databases for real-time RAG at scale",
+        "Optimizing Collective Communication Primitives for Distributed Training on 100k+ GPU Clusters",
+        "Formal Verification of Fault-Tolerant Consensus in High-Throughput Sharded Database Architectures",
+        "Implementing Zero-Copy Data Pipelines for Real-Time Inference in Heterogeneous Hardware Environments"
     ]
 }
