@@ -776,7 +776,6 @@
         "The Architecture of Distributed KV Stores with Spanner-like Strict Serializability via Hybrid Logical Clocks",
         "Optimizing Non-Uniform Memory Access (NUMA) Topology for High-Throughput Inference in Multi-GPU Clusters",
         "Architecting Zonal Isolation Patterns to Prevent Correlated Failures in Hyperscale Kubernetes Control Planes",
-        "Dissecting Meta's cross-DC RoCEv2 fabric: How they mask packet loss for AI training across 3,000km using per-flow ECMP-hashing, PFC deadlock avoidance, and NDR-level adaptive routing telemetry.",
         "How Cloudflare migrated 20,000 edge services to eBPF-based sidecars without dropping SYN packets: A deep dive into socket affinity, memlock accounting, and XDP-based L4 load balancing at 300 Tbps.",
         "Dissecting Meta's 10M-core AI training cluster: How they solved RoCEv2 congestion collapse with in-network telemetry and adaptive PFC watermark tuning",
         "The hidden control plane inside AWS's Titan: A deep dive into their petabyte-scale shard rebalancer using Raft consensus and CRDT-based metadata replication",
@@ -1297,6 +1296,9 @@
         "The Mechanics of Formal Verification in Distributed Databases: Model Checking Jepsen-Hardened Raft Implementations with TLA+",
         "Zero-Copy Memory Management and eBPF-Driven Packet Steering in High-Throughput AI Training Clusters",
         "Architecting Globally Consistent Vector Search: Integrating HNSW Indexing into Spanner’s Distributed Transaction Model",
-        "Mitigating Thundering Herd and Cache Stampedes in Multi-Tenant Serverless Runtimes using Predictive Load Shedding"
+        "Mitigating Thundering Herd and Cache Stampedes in Multi-Tenant Serverless Runtimes using Predictive Load Shedding",
+        "Decoupled Storage and Compute in Modern Vector Databases: Solving the 100-Billion Embedding Indexing Bottleneck",
+        "Hyper-Scale Traffic Egress: Implementing Zero-Trust WireGuard Mesh Networking at 100Tbps Throughput",
+        "Deterministic Simulation Testing (DST) in Distributed Consensus Protocols: How TigerBeetle and FoundationDB Eliminate Heisenbugs"
     ]
 }
