@@ -1,0 +1,377 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { getSession } from "../lib/auth";
+
+if (await getSession(Astro.cookies)) {
+    return Astro.redirect("/dashboard");
+}
+---
+
+<Layout
+    title="Sign in | The Architect's Blueprint"
+    description="Sign in to the Architect's Blueprint operations console."
+>
+    <section class="auth-shell auth-page" aria-labelledby="login-title">
+        <div class="auth-panel">
+            <div class="auth-story">
+                <div class="auth-brand">
+                    <img
+                        src="/brand/architects-blueprint-icon.png"
+                        alt=""
+                        width="512"
+                        height="512"
+                    />
+                    <span>The Architect's Blueprint</span>
+                </div>
+
+                <div class="auth-story-copy">
+                    <p class="auth-kicker">Private operations</p>
+                    <h1 id="login-title">Keep the archive in orbit.</h1>
+                    <p>
+                        One quiet control room for the ideas, systems, and infrastructure behind
+                        every published blueprint.
+                    </p>
+                </div>
+
+                <div class="auth-signal">
+                    <span class="auth-signal-dot" aria-hidden="true"></span>
+                    <span>Cloud archive access</span>
+                    <span class="auth-signal-line" aria-hidden="true"></span>
+                    <span>Protected</span>
+                </div>
+            </div>
+
+            <div class="auth-form-panel">
+                <div class="auth-form-heading">
+                    <span class="auth-form-index">01 / Access</span>
+                    <h2>Welcome back</h2>
+                    <p>Sign in with your approved account to open the management console.</p>
+                </div>
+
+                <form id="login-form" class="auth-form">
+                    <label>
+                        Email address
+                        <input
+                            name="email"
+                            type="email"
+                            autocomplete="username"
+                            required
+                            placeholder="you@example.com"
+                        />
+                    </label>
+                    <label>
+                        Password
+                        <input
+                            name="password"
+                            type="password"
+                            autocomplete="current-password"
+                            required
+                            placeholder="Enter your password"
+                        />
+                    </label>
+                    <button class="btn-primary auth-submit" type="submit">
+                        <span>Enter the console</span>
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M5 12h13M13 6l6 6-6 6"></path>
+                        </svg>
+                    </button>
+                    <p id="login-status" class="form-status" role="status" aria-live="polite"></p>
+                </form>
+
+                <a class="auth-return" href="/">← Return to the archive</a>
+            </div>
+        </div>
+    </section>
+
+    <style>
+        .auth-page {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-block: clamp(1rem, 4vw, 3rem);
+        }
+
+        .auth-panel {
+            display: grid;
+            grid-template-columns: minmax(0, 1.08fr) minmax(20rem, 0.92fr);
+            width: min(100%, 68rem);
+            min-height: 35rem;
+            overflow: hidden;
+            padding: 0;
+            border: 1px solid var(--color-border);
+            border-radius: 1.25rem;
+            background: var(--color-surface-raised);
+            box-shadow: var(--shadow-glow-lg);
+        }
+
+        .auth-story {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            min-height: 100%;
+            overflow: hidden;
+            padding: clamp(1.5rem, 5vw, 3.5rem);
+            color: var(--color-inverse);
+            background:
+                radial-gradient(
+                    circle at 82% 18%,
+                    color-mix(in srgb, var(--color-accent-3) 28%, transparent),
+                    transparent 23%
+                ),
+                radial-gradient(
+                    circle at 20% 90%,
+                    color-mix(in srgb, var(--color-accent-1) 45%, transparent),
+                    transparent 34%
+                ),
+                linear-gradient(145deg, #112e2d 0%, #102a38 48%, #162249 100%);
+        }
+
+        .auth-story::after {
+            position: absolute;
+            right: -8rem;
+            bottom: -9rem;
+            width: 24rem;
+            height: 24rem;
+            border: 1px solid color-mix(in srgb, var(--color-accent-3) 45%, transparent);
+            border-radius: 50%;
+            content: "";
+            opacity: 0.55;
+        }
+
+        .auth-brand {
+            position: relative;
+            z-index: 1;
+            display: flex;
+            align-items: center;
+            gap: 0.7rem;
+            color: #eaf7f2;
+            font-family: var(--font-display);
+            font-size: 1rem;
+            font-weight: 600;
+        }
+
+        .auth-brand img {
+            width: 3.25rem;
+            height: 3.25rem;
+            object-fit: contain;
+            filter: drop-shadow(0 0 1rem rgba(36, 230, 255, 0.28));
+        }
+
+        .auth-story-copy {
+            position: relative;
+            z-index: 1;
+            max-width: 30rem;
+            margin-block: auto;
+            padding-block: 4rem;
+        }
+
+        .auth-story .auth-kicker {
+            color: #9de8d2;
+            font-size: 0.68rem;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+        }
+
+        .auth-story h1 {
+            margin: 0.85rem 0 0;
+            color: #f3fbf7;
+            font-size: clamp(2.7rem, 5vw, 4.8rem);
+            line-height: 0.94;
+            letter-spacing: -0.045em;
+        }
+
+        .auth-story-copy > p:last-child {
+            max-width: 28rem;
+            margin: 1.3rem 0 0;
+            color: #c6ddd5;
+            font-size: 1rem;
+            line-height: 1.7;
+        }
+
+        .auth-signal {
+            position: relative;
+            z-index: 1;
+            display: flex;
+            align-items: center;
+            gap: 0.55rem;
+            color: #b6d4cc;
+            font-family: var(--font-mono);
+            font-size: 0.64rem;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+        }
+
+        .auth-signal-dot {
+            width: 0.45rem;
+            height: 0.45rem;
+            border-radius: 50%;
+            background: #7ce0bd;
+            box-shadow:
+                0 0 0 0.25rem rgba(124, 224, 189, 0.12),
+                0 0 0.75rem rgba(124, 224, 189, 0.8);
+        }
+
+        .auth-signal-line {
+            width: 2rem;
+            height: 1px;
+            margin-inline: 0.25rem;
+            background: rgba(182, 212, 204, 0.38);
+        }
+
+        .auth-form-panel {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: clamp(1.5rem, 5vw, 4rem);
+            background: var(--color-surface-raised);
+        }
+
+        .auth-form-heading {
+            max-width: 28rem;
+        }
+
+        .auth-form-index {
+            color: var(--color-accent-1);
+            font-family: var(--font-mono);
+            font-size: 0.68rem;
+            font-weight: 600;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+        }
+
+        .auth-form-heading h2 {
+            margin: 0.75rem 0 0;
+            color: var(--color-text);
+            font-size: clamp(2rem, 4vw, 3rem);
+            line-height: 1;
+            letter-spacing: -0.035em;
+        }
+
+        .auth-form-heading p {
+            margin: 0.9rem 0 0;
+            color: var(--color-text-soft);
+            font-size: 0.92rem;
+            line-height: 1.6;
+        }
+
+        .auth-form {
+            max-width: 28rem;
+            margin-top: 2rem;
+        }
+
+        .auth-form input {
+            min-height: 3rem;
+            border-radius: 0.5rem;
+        }
+
+        .auth-submit {
+            justify-content: space-between;
+            width: 100%;
+            min-height: 3.15rem;
+            margin-top: 0.6rem;
+            padding-inline: 1rem;
+        }
+
+        .auth-submit svg {
+            width: 1.1rem;
+            height: 1.1rem;
+            fill: none;
+            stroke: currentColor;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+            stroke-width: 1.8;
+        }
+
+        .auth-return {
+            align-self: flex-start;
+            margin-top: 2rem;
+            color: var(--color-muted);
+            font-size: 0.8rem;
+            transition: color 140ms ease;
+        }
+
+        .auth-return:hover,
+        .auth-return:focus-visible {
+            color: var(--color-accent-1);
+        }
+
+        @media (max-width: 760px) {
+            .auth-page {
+                min-height: auto;
+                padding-block: 0.5rem 1.5rem;
+            }
+
+            .auth-panel {
+                grid-template-columns: 1fr;
+                min-height: 0;
+            }
+
+            .auth-story {
+                min-height: 19rem;
+            }
+
+            .auth-story-copy {
+                padding-block: 2.5rem;
+            }
+
+            .auth-story h1 {
+                max-width: 10ch;
+                font-size: clamp(2.5rem, 12vw, 4rem);
+            }
+
+            .auth-form-panel {
+                padding: 2rem clamp(1.25rem, 6vw, 3rem) 2.25rem;
+            }
+        }
+    </style>
+
+    <script>
+        type TelemetryWindow = Window & {
+            __architectsClientTelemetry?: {
+                captureException: (
+                    level: "warn" | "error" | "fatal",
+                    error: unknown,
+                    context?: Record<string, unknown>
+                ) => void;
+            };
+        };
+        const form = document.getElementById("login-form") as HTMLFormElement | null;
+        const status = document.getElementById("login-status");
+        form?.addEventListener("submit", async (event) => {
+            event.preventDefault();
+            const button = form.querySelector("button");
+            if (button) {
+                button.setAttribute("disabled", "true");
+            }
+            if (status) {
+                status.textContent = "Checking your access…";
+            }
+
+            try {
+                const response = await fetch("/api/auth/login", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify(Object.fromEntries(new FormData(form))),
+                });
+                const result = await response.json();
+                if (!response.ok) {
+                    throw new Error(result.error ?? "Sign in failed.");
+                }
+                window.location.href = "/dashboard";
+            } catch (error) {
+                (window as TelemetryWindow).__architectsClientTelemetry?.captureException(
+                    "error",
+                    error,
+                    { source: "auth.login" }
+                );
+                if (status) {
+                    status.textContent = error instanceof Error ? error.message : "Sign in failed.";
+                }
+                if (button) {
+                    button.removeAttribute("disabled");
+                }
+            }
+        });
+    </script>
+</Layout>

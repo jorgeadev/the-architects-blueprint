@@ -27,7 +27,7 @@
 - [⚙️ Architecture & Workflow](#️-architecture--workflow)
 - [🚀 Quick Start Guide](#-quick-start-guide)
     - [Environment Setup](#environment-setup)
-    - [Local Simulation](#local-simulation)
+    - [Observability](#observability)
 - [🤖 Production Deployment](#-production-deployment)
 - [📜 License](#-license)
 
@@ -36,10 +36,9 @@
 ## ✨ Core Features
 
 - **🧠 Deep-Dive Epistemology:** Leverages **Google Gemini (2.5 Flash)** to generate highly structured, 20-35 minute long thesis-quality reading sessions every day mapping complex technological landscapes.
-- **📂 Auto-Archiving System:** Automatically captures the thousands of words generated, parses dynamic markdown names, and securely saves the document into the `/articles` directory.
+- **☁️ Cloud-First Archive:** Generated Markdown and images are published directly to S3; the web app reads the archive manifest and article bodies from object storage.
 - **💸 100% Free Architecture:** Replaced legacy metered endpoints with Gemini's generous free tier, assuring massive token executions at zero cost.
-- **⏱️ Automated Cadence:** Powered by a robust **GitHub Actions** cron scheduler configured natively for UTC 14:00 (10 AM ET).
-- **🛠️ Offline Fallback:** Fully operational local simulation framework to test behaviors, filesystem hooks, and outputs securely.
+- **⏱️ Automated Cadence:** GitHub Actions runs once daily at **9:35 AM America/New_York**, with daylight-saving changes handled by the timezone-aware schedule.
 
 ---
 
@@ -47,8 +46,8 @@
 
 1. **Trigger:** A scheduled GitHub action kicks off at the configured time from the repository’s default branch.
 2. **Compute:** A custom TypeScript runner utilizing `tsx` dynamically generates an extensive academic thesis using the `gemini-2.5-flash` model.
-3. **Capture:** The Node.js native `fs` layer intercepts the payload, scrapes the thesis title, and writes a `.md` file into the `articles/` directory.
-4. **Archiving:** The GitHub Action pipeline wakes up a bot user (`github-actions[bot]`), auto-commits the newly spawned file directly to the repository branch, and pushes the change automatically.
+3. **Publish:** The Node.js runner uploads the Markdown object, image object, and a small `posts/index.json` manifest directly to S3.
+4. **Delivery:** Astro fetches the lightweight manifest and requested Markdown from S3 at runtime. GitHub stores only the topic-pool state, not generated articles or images.
 
 ---
 
@@ -70,22 +69,56 @@ To run the production pipeline locally, ensure you define the following secrets 
 
 ```env
 # You only need a free key from Google AI Studio.
-GEMINI_API_KEY=your_key_here
+  GEMINI_API_KEY=your_key_here
+  AWS_REGION=us-east-1
+  AWS_ACCESS_KEY_ID=your_key
+  AWS_SECRET_ACCESS_KEY=your_secret
+  S3_BUCKET_NAME=your_bucket
+  CONTENT_STORAGE_PUBLIC_BASE_URL=https://your-cdn-or-public-bucket-url
 ```
 
 </details>
 
 <details>
-<summary><strong>Local Simulation</strong></summary>
+<summary><strong>Operations console</strong></summary>
 <br>
 
-To preview the formatting and execute the pipeline safely without using real API tokens, use the sandbox runner:
+The protected `/dashboard` route uses Neon as the source of truth for users and roles. An `admin` or `operator` can trigger content generation. A `viewer` can inspect the console without changing cloud state.
 
-```bash
-pnpm run local
+Only administrators can open the access-control ledger or call the user-management API. Admins can create accounts with an `admin`, `operator`, or `viewer` role. The first administrator is bootstrapped from a trusted terminal; every later account can be created from the console.
+
+For local development, add `DASHBOARD_SESSION_SECRET` and create users directly in Neon:
+
+```env
+pnpm run user:create -- --email operator@example.com --password "change-this-password" --role operator
+pnpm run user:create -- --email viewer@example.com --password "change-this-password" --role viewer
 ```
 
-This bypasses Gemini, instead printing a mock thesis response to your local console and writing a realistic `.md` file to disk in the `articles/` directory.
+In production, add the cloud and database variables from `.env.example` as GitHub Actions secrets. The site reads post metadata from Neon and article bodies and images from the bucket. New posts publish directly to those cloud services; the repository does not contain a local copy of the archive.
+
+</details>
+
+<a id="observability"></a>
+
+<details>
+<summary><strong>Observability</strong></summary>
+<br>
+
+The application uses a structured observability pipeline across the browser, Astro API routes, Neon, scheduled generation scripts, and generation controls. Every API request receives an `X-Request-ID`; unexpected failures return that ID to the caller while sensitive values are redacted from logs. Background jobs also install process-level handlers for uncaught exceptions and unhandled promise rejections.
+
+Logs are emitted as JSON to stdout/stderr, which is the durable baseline for Vercel and GitHub Actions. To forward the same events to an external collector, configure the optional HTTPS sink:
+
+The same redacted events are also persisted to Neon in the idempotently-created `application_logs` table. `LOG_DATABASE_URL` can point to a dedicated Neon connection string; when omitted, the logger uses `DATABASE_URL` and then `DIRECT_DATABASE_URL`. The table includes indexed timestamps, service/level pairs, request IDs, and JSONB event metadata.
+
+Generation uploads the Markdown and image to S3, upserts the new post into Neon, and then the scheduled workflow runs `pnpm run sync:cloud` to reconcile the complete `posts/index.json` manifest with Neon. Run that command once after configuring the secrets to backfill the existing cloud archive.
+
+```env
+LOG_DATABASE_URL=postgresql://...
+LOG_INGEST_URL=https://your-log-collector.example/ingest
+LOG_INGEST_TOKEN=your-ingest-token
+```
+
+The collector receives request lifecycle events, slow Neon queries, provider failures, authentication/session failures, server exceptions, browser crashes, and unhandled promise rejections. Remote delivery is asynchronous and best-effort so a logging provider outage cannot take down the application. Never place API keys, database URLs, passwords, cookies, or session secrets in log fields; the logger redacts matching fields automatically.
 
 </details>
 
@@ -93,7 +126,7 @@ This bypasses Gemini, instead printing a mock thesis response to your local cons
 
 ## 🤖 Production Deployment
 
-The entire stack is configured to run in the cloud automatically.
+The stack publishes generated articles and images directly to S3 and stores searchable metadata in Neon. Configure the GitHub repository secrets before enabling the scheduled generation workflow.
 To deploy, you **must populate your GitHub Repository Secrets**:
 
 Go to `Settings` > `Secrets and variables` > `Actions` and configure the exact variables required by the [`Environment Setup`](#environment-setup) above.
@@ -122,6 +155,6 @@ You are free to use, modify, distribute, and commercialize the software codebase
 
 ### 2. Generated Content (`CC BY 4.0`)
 
-All AI-generated technical blogs, essays, and deep-dive articles located within the `web/src/content/blog/` directory are licensed under **Creative Commons Attribution 4.0 International (CC BY 4.0)**.
+All AI-generated technical blogs, essays, and deep-dive articles published in the cloud archive are licensed under **Creative Commons Attribution 4.0 International (CC BY 4.0)**.
 
 You are free to share (copy and redistribute the material in any medium or format) and adapt (remix, transform, and build upon the material) for any purpose, even commercially. However, **you must give appropriate credit (attribution)**, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.

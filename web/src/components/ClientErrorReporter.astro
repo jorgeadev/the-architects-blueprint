@@ -1,0 +1,65 @@
+<script>
+    type ClientTelemetryWindow = Window & {
+        __architectsClientTelemetry?: {
+            captureException: (
+                level: "warn" | "error" | "fatal",
+                error: unknown,
+                context?: Record<string, unknown>
+            ) => void;
+        };
+    };
+
+    const telemetryWindow = window as ClientTelemetryWindow;
+    if (!telemetryWindow.__architectsClientTelemetry) {
+        const startedAt = Date.now();
+        let sentCount = 0;
+        let lastSentAt = 0;
+
+        const send = (
+            level: "warn" | "error" | "fatal",
+            error: unknown,
+            context: Record<string, unknown> = {}
+        ) => {
+            const now = Date.now();
+            if (sentCount >= 20 || now - lastSentAt < 250) {
+                return;
+            }
+            sentCount += 1;
+            lastSentAt = now;
+
+            const normalized =
+                error instanceof Error
+                    ? { name: error.name, message: error.message, stack: error.stack }
+                    : { message: String(error) };
+
+            void fetch("/api/logs/client", {
+                method: "POST",
+                keepalive: true,
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({
+                    level,
+                    error: normalized,
+                    context: {
+                        ...context,
+                        path: window.location.pathname,
+                        href: window.location.href,
+                        userAgent: navigator.userAgent,
+                        uptimeMs: now - startedAt,
+                    },
+                }),
+            }).catch(() => undefined);
+        };
+
+        telemetryWindow.__architectsClientTelemetry = { captureException: send };
+        window.addEventListener("error", (event) => {
+            send("error", event.error ?? event.message, {
+                source: "window.error",
+                filename: event.filename,
+                line: event.lineno,
+            });
+        });
+        window.addEventListener("unhandledrejection", (event) => {
+            send("error", event.reason, { source: "unhandledrejection" });
+        });
+    }
+</script>

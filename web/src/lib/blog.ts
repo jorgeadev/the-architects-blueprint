@@ -1,6 +1,13 @@
-import type { CollectionEntry } from "astro:content";
-
-export type BlogPost = CollectionEntry<"blog">;
+export type BlogPost = {
+    id: string;
+    body?: string;
+    data: {
+        title: string;
+        shortTitle?: string;
+        date?: Date;
+        wordCount?: number;
+    };
+};
 
 type TopicDefinition = {
     label: string;
@@ -147,8 +154,8 @@ export function formatBlogDate(date?: Date) {
     }).format(date);
 }
 
-export function estimateReadingTime(body: string) {
-    const wordCount = body.trim().split(/\s+/).filter(Boolean).length;
+export function estimateReadingTime(body: string, knownWordCount?: number) {
+    const wordCount = knownWordCount ?? body.trim().split(/\s+/).filter(Boolean).length;
     return Math.max(1, Math.round(wordCount / 200));
 }
 
