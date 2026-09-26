@@ -12,10 +12,11 @@
         "astro": "node --no-maglev ./node_modules/astro/bin/astro.mjs"
     },
     "dependencies": {
-        "@astrojs/vercel": "^10.0.4",
+        "@astrojs/vercel": "10.0.4",
         "@tailwindcss/typography": "0.5.19",
         "@tailwindcss/vite": "4.2.2",
         "astro": "7.2.8",
+        "pg": "8.23.0",
         "tailwindcss": "4.2.2"
     },
     "devDependencies": {

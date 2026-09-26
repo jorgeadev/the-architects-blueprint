@@ -1,0 +1,417 @@
+---
+import type { Session } from "../lib/auth";
+
+interface Props {
+    session: Session | null;
+}
+
+const { session } = Astro.props;
+const accountLabel = session ? "Open account menu" : "Open sign-in menu";
+const isAdmin = session?.role === "admin";
+---
+
+<details class="account-menu">
+    <summary class="account-trigger" aria-label={accountLabel} title={accountLabel}>
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12 12.25a4.25 4.25 0 1 0 0-8.5 4.25 4.25 0 0 0 0 8.5Z"></path>
+            <path d="M4.75 20.25c.55-3.35 3.17-5.5 7.25-5.5s6.7 2.15 7.25 5.5"></path>
+        </svg>
+        {session && <span class="account-presence" aria-hidden="true" />}
+    </summary>
+
+    <div class="account-popover">
+        {
+            session ? (
+                <div class="account-identity">
+                    <span class="account-identity-label">Signed in as</span>
+                    <strong>{session.email}</strong>
+                    <span class={`account-role account-role-${session.role}`}>{session.role}</span>
+                </div>
+            ) : (
+                <div class="account-identity">
+                    <span class="account-identity-label">Private access</span>
+                    <strong>Manage the Blueprint</strong>
+                    <p>Use your approved account to open the console.</p>
+                </div>
+            )
+        }
+
+        <nav class="account-nav" aria-label="Account shortcuts">
+            {
+                session && (
+                    <a href="/dashboard">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M4 5.5h16v13H4z" />
+                            <path d="M8 9h8M8 13h5" />
+                        </svg>
+                        <span>
+                            <>
+                                <strong>Management console</strong>
+                                <small>Cloud operations and access</small>
+                            </>
+                        </span>
+                    </a>
+                )
+            }
+            {
+                isAdmin && (
+                    <a href="/dashboard#access-ledger">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M16 19.25v-1.5a3.5 3.5 0 0 0-3.5-3.5h-5a3.5 3.5 0 0 0-3.5 3.5v1.5" />
+                            <circle cx="10" cy="7.75" r="3" />
+                            <path d="M17 8.25h4M19 6.25v4" />
+                        </svg>
+                        <span>
+                            <>
+                                <strong>Manage users</strong>
+                                <small>Create accounts and assign roles</small>
+                            </>
+                        </span>
+                    </a>
+                )
+            }
+            <a href="/">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M5 5.25h14v14H5z"></path>
+                    <path d="M8.5 9h7M8.5 12h7M8.5 15h4"></path>
+                </svg>
+                <span><strong>Archive</strong><small>Browse every published post</small></span>
+            </a>
+            <a href="/discover">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <circle cx="11" cy="11" r="6.25"></circle>
+                    <path d="m15.75 15.75 4 4"></path>
+                </svg>
+                <span><strong>Discover</strong><small>Explore topics and technologies</small></span>
+            </a>
+        </nav>
+
+        {
+            session ? (
+                <form class="account-logout-form">
+                    <button type="submit">
+                        <span>Sign out</span>
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M10 5H5v14h5M14 8l4 4-4 4M8 12h10" />
+                        </svg>
+                    </button>
+                </form>
+            ) : (
+                <a class="account-sign-in" href="/login">
+                    <span>Sign in</span>
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M14 5h5v14h-5M10 8l-4 4 4 4M16 12H6" />
+                    </svg>
+                </a>
+            )
+        }
+    </div>
+</details>
+
+<style>
+    .account-menu {
+        position: relative;
+        flex: 0 0 auto;
+    }
+
+    .account-trigger {
+        position: relative;
+        display: inline-grid;
+        width: 2.5rem;
+        height: 2.5rem;
+        cursor: pointer;
+        list-style: none;
+        place-items: center;
+        border: 1px solid var(--color-border);
+        border-radius: 999px;
+        color: var(--color-text-soft);
+        background: var(--color-surface-translucent);
+        transition:
+            border-color 160ms ease,
+            background 160ms ease,
+            color 160ms ease;
+    }
+
+    .account-trigger::-webkit-details-marker {
+        display: none;
+    }
+
+    .account-trigger:hover,
+    .account-menu[open] .account-trigger {
+        border-color: var(--color-border-hover);
+        color: var(--color-text);
+        background: var(--color-surface-hover);
+    }
+
+    .account-trigger:focus-visible {
+        outline: 2px solid var(--color-focus);
+        outline-offset: 3px;
+    }
+
+    .account-trigger svg,
+    .account-nav svg,
+    .account-sign-in svg,
+    .account-logout-form svg {
+        fill: none;
+        stroke: currentColor;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 1.7;
+    }
+
+    .account-trigger > svg {
+        width: 1.2rem;
+        height: 1.2rem;
+    }
+
+    .account-presence {
+        position: absolute;
+        right: -0.2rem;
+        bottom: -0.2rem;
+        width: 1rem;
+        height: 1rem;
+        border: 2px solid var(--color-surface-raised);
+        border-radius: 999px;
+        background: var(--color-success);
+    }
+
+    .account-popover {
+        position: absolute;
+        top: calc(100% + 0.75rem);
+        right: 0;
+        z-index: 70;
+        width: min(19rem, calc(100vw - 2rem));
+        overflow: hidden;
+        border: 1px solid var(--color-border);
+        border-radius: 1rem;
+        background: var(--color-surface-raised);
+        box-shadow: var(--shadow-glow-lg);
+        backdrop-filter: blur(24px);
+    }
+
+    .account-popover::before {
+        display: block;
+        height: 2px;
+        content: "";
+        background: linear-gradient(
+            90deg,
+            var(--color-accent-1),
+            var(--color-accent-2) 52%,
+            var(--color-accent-3)
+        );
+    }
+
+    .account-identity {
+        position: relative;
+        padding: 1rem 1rem 0.9rem;
+        border-bottom: 1px solid var(--color-border);
+    }
+
+    .account-identity-label {
+        display: block;
+        margin-bottom: 0.3rem;
+        color: var(--color-muted);
+        font-size: 0.72rem;
+    }
+
+    .account-identity strong {
+        display: block;
+        max-width: 13.5rem;
+        overflow: hidden;
+        color: var(--color-text);
+        font-size: 0.88rem;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .account-identity p {
+        margin: 0.35rem 0 0;
+        color: var(--color-text-soft);
+        font-size: 0.76rem;
+        line-height: 1.45;
+    }
+
+    .account-role {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        padding: 0.18rem 0.48rem;
+        border: 1px solid var(--color-accent-medium);
+        border-radius: 999px;
+        color: var(--color-accent-1);
+        background: var(--color-accent-soft);
+        font-size: 0.64rem;
+        font-weight: 700;
+        text-transform: capitalize;
+    }
+
+    .account-role-admin {
+        border-color: color-mix(in srgb, var(--color-warning) 35%, transparent);
+        color: var(--color-warning);
+        background: color-mix(in srgb, var(--color-warning) 10%, transparent);
+    }
+
+    .account-role-operator {
+        border-color: color-mix(in srgb, var(--color-success) 35%, transparent);
+        color: var(--color-success);
+        background: color-mix(in srgb, var(--color-success) 10%, transparent);
+    }
+
+    .account-nav {
+        display: grid;
+        gap: 0.2rem;
+        padding: 0.55rem;
+    }
+
+    .account-nav a {
+        display: grid;
+        grid-template-columns: 2rem 1fr;
+        gap: 0.65rem;
+        align-items: center;
+        padding: 0.62rem 0.68rem;
+        border-radius: 0.65rem;
+        color: var(--color-text-soft);
+        transition:
+            color 140ms ease,
+            background 140ms ease;
+    }
+
+    .account-nav a:hover,
+    .account-nav a:focus-visible {
+        color: var(--color-text);
+        background: var(--color-accent-soft);
+        outline: none;
+    }
+
+    .account-nav svg {
+        width: 1.08rem;
+        height: 1.08rem;
+        justify-self: center;
+        color: var(--color-accent-1);
+    }
+
+    .account-nav strong,
+    .account-nav small {
+        display: block;
+    }
+
+    .account-nav strong {
+        font-size: 0.8rem;
+        font-weight: 600;
+    }
+
+    .account-nav small {
+        margin-top: 0.12rem;
+        color: var(--color-muted);
+        font-size: 0.68rem;
+    }
+
+    .account-sign-in,
+    .account-logout-form {
+        border-top: 1px solid var(--color-border);
+    }
+
+    .account-logout-form {
+        padding: 0.65rem;
+    }
+
+    .account-sign-in,
+    .account-logout-form button {
+        width: 100%;
+        border: 0;
+        border-radius: 0.7rem;
+        color: var(--color-accent-1);
+        background: var(--color-accent-soft);
+        font: inherit;
+        font-size: 0.78rem;
+        font-weight: 650;
+    }
+
+    .account-sign-in,
+    .account-logout-form button {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0.68rem 0.75rem;
+        cursor: pointer;
+        transition:
+            color 140ms ease,
+            background 140ms ease;
+    }
+
+    .account-sign-in {
+        width: calc(100% - 1.3rem);
+        margin: 0.65rem;
+        border-top: 0;
+        box-sizing: border-box;
+    }
+
+    .account-sign-in:hover,
+    .account-sign-in:focus-visible,
+    .account-logout-form button:hover,
+    .account-logout-form button:focus-visible {
+        color: var(--color-text);
+        background: var(--color-accent-medium);
+        outline: none;
+    }
+
+    .account-sign-in svg,
+    .account-logout-form svg {
+        width: 1rem;
+        height: 1rem;
+    }
+
+    @media (prefers-reduced-motion: no-preference) {
+        .account-menu[open] .account-popover {
+            animation: account-menu-in 140ms ease-out;
+            transform-origin: top right;
+        }
+
+        @keyframes account-menu-in {
+            from {
+                opacity: 0;
+                transform: translateY(-0.35rem) scale(0.98);
+            }
+        }
+    }
+</style>
+
+<script>
+    if (!document.documentElement.dataset.accountMenuReady) {
+        document.documentElement.dataset.accountMenuReady = "true";
+
+        document.addEventListener("click", (event) => {
+            document.querySelectorAll<HTMLDetailsElement>(".account-menu[open]").forEach((menu) => {
+                if (!menu.contains(event.target as Node)) {
+                    menu.open = false;
+                }
+            });
+        });
+
+        document.addEventListener("keydown", (event) => {
+            if (event.key === "Escape") {
+                document
+                    .querySelectorAll<HTMLDetailsElement>(".account-menu[open]")
+                    .forEach((menu) => {
+                        menu.open = false;
+                    });
+            }
+        });
+
+        document.addEventListener("submit", async (event) => {
+            const form = (event.target as Element).closest<HTMLFormElement>(".account-logout-form");
+            if (!form) {
+                return;
+            }
+
+            event.preventDefault();
+            const button = form.querySelector("button");
+            button?.setAttribute("disabled", "true");
+            try {
+                await fetch("/api/auth/logout", { method: "POST" });
+            } finally {
+                window.location.href = "/login";
+            }
+        });
+    }
+</script>

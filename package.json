@@ -1,7 +1,7 @@
 {
     "name": "the-architects-blueprint",
     "version": "1.0.0",
-    "packageManager": "pnpm@10.33.3",
+    "packageManager": "pnpm@12.6.0",
     "engines": {
         "node": ">=24.0.0"
     },
@@ -12,7 +12,8 @@
         "generate:post": "tsx --env-file-if-exists=.env scripts/orchestrator.ts",
         "generate:topics": "tsx --env-file-if-exists=.env scripts/generate-topics.ts",
         "generate:images": "tsx --env-file-if-exists=.env scripts/backfill-images.ts",
-        "migrate:structure": "tsx scripts/migrate-structure.ts",
+        "sync:cloud": "tsx --env-file-if-exists=.env scripts/sync-cloud.ts",
+        "user:create": "tsx --env-file-if-exists=.env scripts/create-user.ts",
         "test": "echo \"Error: no test specified\" && exit 1",
         "dev:web": "pnpm --filter web run dev",
         "build:web": "pnpm --filter web run build",
@@ -38,6 +39,7 @@
     "devDependencies": {
         "@types/jsonwebtoken": "9.0.10",
         "@types/node": "25.6.0",
+        "@types/pg": "8.23.1",
         "@typescript-eslint/eslint-plugin": "8.58.2",
         "@typescript-eslint/parser": "8.58.2",
         "eslint": "10.2.1",
@@ -50,6 +52,9 @@
         "typescript": "6.0.2"
     },
     "dependencies": {
-        "@google/generative-ai": "0.24.1"
+        "@aws-sdk/client-s3": "3.1136.0",
+        "@google/generative-ai": "0.24.1",
+        "marked": "16.3.0",
+        "pg": "8.23.0"
     }
 }

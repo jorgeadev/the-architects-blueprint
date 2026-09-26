@@ -1,0 +1,673 @@
+---
+import type { CloudPost } from "../lib/cloud-blog";
+import { estimateReadingTime, extractTopics, formatBlogDate, formatCount } from "../lib/blog";
+
+interface Props {
+    position: "left" | "right";
+    posts: CloudPost[];
+    currentPost?: CloudPost;
+}
+
+const { position, posts, currentPost } = Astro.props;
+const latestPost = posts[0];
+const totalWords = posts.reduce((sum, post) => sum + (post.data.wordCount ?? 0), 0);
+const totalReadHours = Math.max(1, Math.round(totalWords / 200 / 60));
+const averageRead = Math.max(1, Math.round(totalWords / Math.max(posts.length, 1) / 200));
+const topics = extractTopics(posts, 5);
+const deepReads = [...posts]
+    .filter((post) => post.id !== currentPost?.id)
+    .sort((left, right) => (right.data.wordCount ?? 0) - (left.data.wordCount ?? 0))
+    .slice(0, 3);
+const randomPaths = posts.map((post) => `/blog/${post.id}`);
+---
+
+<aside
+    class={`blog-rail-frame rounded-2xl border border-(--color-border) bg-(--color-surface) shadow-(--shadow-card) blog-rail-${position}`}
+    aria-label={position === "left" ? "Archive overview" : "Reading tools"}
+>
+    <div class="blog-rail-scroll">
+        {
+            position === "left" ? (
+                <>
+                    {latestPost && (
+                        <section class="rail-section rail-latest">
+                            <div class="rail-heading">
+                                <span class="rail-signal" aria-hidden="true" />
+                                <h2>Latest architecture briefing</h2>
+                            </div>
+                            <p class="rail-description">
+                                The newest system design story added to the archive.
+                            </p>
+                            <a href={`/blog/${latestPost.id}`} class="latest-link">
+                                {latestPost.data.image && (
+                                    <img src={latestPost.data.image} alt="" loading="lazy" />
+                                )}
+                                <span class="latest-copy">
+                                    <strong>
+                                        {latestPost.data.shortTitle || latestPost.data.title}
+                                    </strong>
+                                    <small>
+                                        {formatBlogDate(latestPost.data.date)} ·{" "}
+                                        {estimateReadingTime(
+                                            latestPost.body,
+                                            latestPost.data.wordCount
+                                        )}{" "}
+                                        min
+                                    </small>
+                                </span>
+                            </a>
+                        </section>
+                    )}
+
+                    <section class="rail-section">
+                        <div class="rail-heading">
+                            <svg viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M5 19V9M12 19V5M19 19v-7" />
+                            </svg>
+                            <h2>Archive at a glance</h2>
+                        </div>
+                        <p class="rail-description">
+                            A live measure of the publication's depth and coverage.
+                        </p>
+                        <dl class="rail-stats">
+                            <div>
+                                <>
+                                    <dt>Articles</dt>
+                                    <dd>{formatCount(posts.length)}</dd>
+                                </>
+                            </div>
+                            <div>
+                                <>
+                                    <dt>Total words</dt>
+                                    <dd>{formatCount(totalWords)}</dd>
+                                </>
+                            </div>
+                            <div>
+                                <>
+                                    <dt>Estimated reading</dt>
+                                    <dd>{formatCount(totalReadHours)}h</dd>
+                                </>
+                            </div>
+                            <div>
+                                <>
+                                    <dt>Average article</dt>
+                                    <dd>{averageRead}m</dd>
+                                </>
+                            </div>
+                        </dl>
+                    </section>
+
+                    {topics.length > 0 && (
+                        <section class="rail-section">
+                            <div class="rail-heading">
+                                <svg viewBox="0 0 24 24" aria-hidden="true">
+                                    <path d="M4 7.5h10M4 12h16M4 16.5h7" />
+                                </svg>
+                                <h2>Explore by discipline</h2>
+                            </div>
+                            <p class="rail-description">
+                                Jump directly into the engineering fields covered most often.
+                            </p>
+                            <div class="rail-topics">
+                                {topics.map((topic) => (
+                                    <a href={`/discover?q=${encodeURIComponent(topic.query)}`}>
+                                        <span>{topic.label}</span>
+                                        <small>{topic.count}</small>
+                                    </a>
+                                ))}
+                            </div>
+                        </section>
+                    )}
+                </>
+            ) : (
+                <>
+                    <section class="rail-section">
+                        <div class="rail-heading">
+                            <svg viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="m12 3 2.4 5.1L20 9l-4 4 .95 5.7L12 16l-4.95 2.7L8 13 4 9l5.6-.9Z" />
+                            </svg>
+                            <h2>Long-form essentials</h2>
+                        </div>
+                        <p class="rail-description">
+                            The archive's most detailed technical investigations.
+                        </p>
+                        <ol class="deep-read-list">
+                            {deepReads.map((post, index) => (
+                                <li>
+                                    <span>{String(index + 1).padStart(2, "0")}</span>
+                                    <a href={`/blog/${post.id}`}>
+                                        <strong>{post.data.shortTitle || post.data.title}</strong>
+                                        <small>
+                                            {estimateReadingTime(post.body, post.data.wordCount)}{" "}
+                                            min read
+                                        </small>
+                                    </a>
+                                </li>
+                            ))}
+                        </ol>
+                    </section>
+
+                    <section class="rail-section rail-tools">
+                        <div class="rail-heading">
+                            <svg viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M12 3v18M3 12h18" />
+                            </svg>
+                            <h2>Reader toolkit</h2>
+                        </div>
+                        <p class="rail-description">
+                            Find another topic, share this page, or continue later.
+                        </p>
+                        <form class="rail-search" action="/discover" method="get">
+                            <label for="rail-search-input">Search the archive</label>
+                            <div>
+                                <input
+                                    id="rail-search-input"
+                                    name="q"
+                                    type="search"
+                                    placeholder="Cloud, AI, databases…"
+                                />
+                                <button type="submit" aria-label="Search">
+                                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                                        <>
+                                            <circle cx="11" cy="11" r="6" />
+                                            <path d="m16 16 4 4" />
+                                        </>
+                                    </svg>
+                                </button>
+                            </div>
+                        </form>
+                        <div class="rail-actions">
+                            <button
+                                type="button"
+                                data-random-post
+                                data-paths={JSON.stringify(randomPaths)}
+                            >
+                                <svg viewBox="0 0 24 24" aria-hidden="true">
+                                    <path d="M4 7h3c4 0 6 10 10 10h3M17 4l3 3-3 3M4 17h3c1.5 0 2.7-1.4 3.8-3M17 14l3 3-3 3" />
+                                </svg>
+                                Surprise me with an article
+                            </button>
+                            <button type="button" data-copy-page>
+                                <svg viewBox="0 0 24 24" aria-hidden="true">
+                                    <>
+                                        <rect x="8" y="8" width="11" height="11" rx="2" />
+                                        <path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2" />
+                                    </>
+                                </svg>
+                                <span>Copy this page link</span>
+                            </button>
+                            {currentPost && (
+                                <button
+                                    type="button"
+                                    data-save-post
+                                    data-post-id={currentPost.id}
+                                    data-post-title={
+                                        currentPost.data.shortTitle || currentPost.data.title
+                                    }
+                                >
+                                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                                        <path d="M6 4h12v17l-6-3.8L6 21Z" />
+                                    </svg>
+                                    <span>Save for later</span>
+                                </button>
+                            )}
+                            <button type="button" data-scroll-top>
+                                <svg viewBox="0 0 24 24" aria-hidden="true">
+                                    <path d="m6 11 6-6 6 6M12 5v15" />
+                                </svg>
+                                Return to the top
+                            </button>
+                        </div>
+                        <p
+                            class="rail-action-status"
+                            data-rail-status
+                            role="status"
+                            aria-live="polite"
+                        />
+                    </section>
+                </>
+            )
+        }
+    </div>
+</aside>
+
+<style>
+    .blog-rail-frame {
+        position: sticky;
+        top: 5.25rem;
+        display: none;
+        max-height: calc(100vh - 6.5rem);
+        align-self: start;
+        overflow: hidden;
+        padding-block: 0.75rem;
+    }
+
+    .blog-rail-scroll {
+        max-height: calc(100vh - 8.125rem);
+        overflow: auto;
+        padding-inline: 1.25rem;
+    }
+
+    .blog-rail-scroll::-webkit-scrollbar {
+        width: 6px;
+        height: 6px;
+    }
+
+    .blog-rail-scroll::-webkit-scrollbar-track {
+        background: transparent;
+    }
+
+    .blog-rail-scroll::-webkit-scrollbar-thumb {
+        border-radius: 999px;
+        background: var(--color-border-strong);
+    }
+
+    .blog-rail-scroll::-webkit-scrollbar-button,
+    .blog-rail-scroll::-webkit-scrollbar-button:single-button,
+    .blog-rail-scroll::-webkit-scrollbar-button:vertical:decrement,
+    .blog-rail-scroll::-webkit-scrollbar-button:vertical:increment {
+        display: none !important;
+        width: 0 !important;
+        height: 0 !important;
+    }
+
+    @media (min-width: 120rem) {
+        .blog-rail-frame {
+            display: block;
+        }
+    }
+
+    .rail-section {
+        padding: 1.25rem 0 1.5rem;
+        border-bottom: 1px solid var(--color-border);
+    }
+
+    .rail-section:first-child {
+        padding-top: 0;
+    }
+
+    .rail-heading {
+        display: flex;
+        gap: 0.6rem;
+        align-items: center;
+        margin-bottom: 0.45rem;
+        color: var(--color-accent-1);
+    }
+
+    .rail-heading h2 {
+        margin: 0;
+        color: var(--color-text-soft);
+        font-size: 0.9rem;
+        font-weight: 750;
+        letter-spacing: -0.01em;
+    }
+
+    .rail-heading svg {
+        width: 1.05rem;
+        height: 1.05rem;
+        fill: none;
+        stroke: currentColor;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 1.7;
+    }
+
+    .rail-signal {
+        width: 0.45rem;
+        height: 0.45rem;
+        border-radius: 999px;
+        background: var(--color-success);
+        box-shadow: 0 0 0 0.25rem color-mix(in srgb, var(--color-success) 12%, transparent);
+    }
+
+    .rail-description {
+        max-width: 29ch;
+        margin: 0 0 0.9rem;
+        color: var(--color-muted);
+        font-size: 0.75rem;
+        line-height: 1.5;
+    }
+
+    .latest-link {
+        display: block;
+        overflow: hidden;
+        border: 1px solid var(--color-border);
+        border-radius: 0.85rem;
+        background: var(--color-surface-translucent);
+        transition:
+            border-color 150ms ease,
+            background 150ms ease;
+    }
+
+    .latest-link:hover,
+    .latest-link:focus-visible {
+        border-color: var(--color-border-hover);
+        background: var(--color-surface-hover);
+        outline: none;
+    }
+
+    .latest-link img {
+        width: 100%;
+        height: 9rem;
+        object-fit: cover;
+    }
+
+    .latest-copy {
+        display: block;
+        padding: 1rem;
+    }
+
+    .latest-copy strong {
+        display: -webkit-box;
+        overflow: hidden;
+        color: var(--color-text);
+        font-size: 0.92rem;
+        line-height: 1.48;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+    }
+
+    .latest-copy small {
+        display: block;
+        margin-top: 0.55rem;
+        color: var(--color-muted);
+        font-family: "JetBrains Mono", monospace;
+        font-size: 0.7rem;
+    }
+
+    .rail-stats {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0.65rem;
+        margin: 0;
+    }
+
+    .rail-stats div {
+        padding: 0.85rem;
+        border: 1px solid var(--color-border);
+        border-radius: 0.65rem;
+        background: var(--color-surface-soft);
+    }
+
+    .rail-stats dt {
+        color: var(--color-muted);
+        font-size: 0.7rem;
+    }
+
+    .rail-stats dd {
+        margin: 0.2rem 0 0;
+        color: var(--color-accent-1);
+        font-family: "JetBrains Mono", monospace;
+        font-size: 1.05rem;
+        font-weight: 600;
+    }
+
+    .rail-topics {
+        display: grid;
+        gap: 0.35rem;
+    }
+
+    .rail-topics a {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0.62rem 0.7rem;
+        border-radius: 0.5rem;
+        color: var(--color-text-soft);
+        font-size: 0.8rem;
+    }
+
+    .rail-topics a:hover,
+    .rail-topics a:focus-visible {
+        color: var(--color-text);
+        background: var(--color-accent-soft);
+        outline: none;
+    }
+
+    .rail-topics small {
+        color: var(--color-accent-1);
+        font-family: "JetBrains Mono", monospace;
+    }
+
+    .deep-read-list {
+        display: grid;
+        gap: 0.85rem;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    .deep-read-list li {
+        display: grid;
+        grid-template-columns: 1.65rem 1fr;
+        gap: 0.65rem;
+        align-items: start;
+    }
+
+    .deep-read-list li > span {
+        padding-top: 0.12rem;
+        color: var(--color-faint);
+        font-family: "JetBrains Mono", monospace;
+        font-size: 0.7rem;
+    }
+
+    .deep-read-list a {
+        color: var(--color-text-soft);
+    }
+
+    .deep-read-list a:hover,
+    .deep-read-list a:focus-visible {
+        color: var(--color-accent-1);
+        outline: none;
+    }
+
+    .deep-read-list strong {
+        display: -webkit-box;
+        overflow: hidden;
+        font-size: 0.84rem;
+        line-height: 1.45;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+    }
+
+    .deep-read-list small {
+        display: block;
+        margin-top: 0.22rem;
+        color: var(--color-muted);
+        font-size: 0.7rem;
+    }
+
+    .rail-search label {
+        display: block;
+        margin-bottom: 0.48rem;
+        color: var(--color-muted);
+        font-size: 0.72rem;
+    }
+
+    .rail-search > div {
+        display: grid;
+        grid-template-columns: 1fr 2.5rem;
+        border: 1px solid var(--color-border);
+        border-radius: 0.65rem;
+        background: var(--input-bg);
+    }
+
+    .rail-search > div:focus-within {
+        border-color: var(--color-focus);
+    }
+
+    .rail-search input,
+    .rail-search button {
+        border: 0;
+        color: var(--color-text);
+        background: transparent;
+    }
+
+    .rail-search input {
+        min-width: 0;
+        padding: 0.7rem 0.8rem;
+        outline: none;
+        font-size: 0.76rem;
+    }
+
+    .rail-search button {
+        display: grid;
+        cursor: pointer;
+        place-items: center;
+    }
+
+    .rail-search svg,
+    .rail-actions svg {
+        width: 1.05rem;
+        height: 1.05rem;
+        fill: none;
+        stroke: currentColor;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 1.7;
+    }
+
+    .rail-actions {
+        display: grid;
+        gap: 0.35rem;
+        margin-top: 0.8rem;
+    }
+
+    .rail-actions button {
+        display: grid;
+        grid-template-columns: 1.35rem 1fr;
+        gap: 0.55rem;
+        align-items: center;
+        width: 100%;
+        padding: 0.62rem 0.7rem;
+        cursor: pointer;
+        border: 0;
+        border-radius: 0.5rem;
+        color: var(--color-text-soft);
+        background: transparent;
+        font: inherit;
+        font-size: 0.78rem;
+        text-align: left;
+    }
+
+    .rail-actions button:hover,
+    .rail-actions button:focus-visible {
+        color: var(--color-text);
+        background: var(--color-accent-soft);
+        outline: none;
+    }
+
+    .rail-actions button[data-saved="true"] {
+        color: var(--color-success);
+    }
+
+    .rail-action-status {
+        min-height: 1rem;
+        margin: 0.4rem 0 0;
+        color: var(--color-success);
+        font-size: 0.7rem;
+    }
+</style>
+
+<script>
+    const savedPostsKey = "architects-blueprint:saved-posts";
+
+    function getSavedPosts() {
+        try {
+            return JSON.parse(localStorage.getItem(savedPostsKey) ?? "[]") as Array<{
+                id: string;
+                title: string;
+            }>;
+        } catch {
+            return [];
+        }
+    }
+
+    function railStatus(button: Element, message: string) {
+        const rail = button.closest(".blog-rail");
+        const status = rail?.querySelector<HTMLElement>("[data-rail-status]");
+        if (status) {
+            status.textContent = message;
+        }
+    }
+
+    document.addEventListener("click", async (event) => {
+        const target = event.target as Element;
+        const randomButton = target.closest<HTMLElement>("[data-random-post]");
+        if (randomButton) {
+            const paths = JSON.parse(randomButton.dataset.paths ?? "[]") as string[];
+            const path = paths[Math.floor(Math.random() * paths.length)];
+            if (path) {
+                window.location.assign(path);
+            }
+            return;
+        }
+
+        const copyButton = target.closest<HTMLElement>("[data-copy-page]");
+        if (copyButton) {
+            try {
+                await navigator.clipboard.writeText(window.location.href);
+                const label = copyButton.querySelector("span");
+                if (label) {
+                    label.textContent = "Link copied";
+                }
+                railStatus(copyButton, "Ready to share.");
+            } catch {
+                railStatus(copyButton, "Copy is unavailable in this browser.");
+            }
+            return;
+        }
+
+        const saveButton = target.closest<HTMLElement>("[data-save-post]");
+        if (saveButton) {
+            const id = saveButton.dataset.postId;
+            const title = saveButton.dataset.postTitle;
+            if (!id || !title) {
+                return;
+            }
+            const saved = getSavedPosts();
+            const existing = saved.findIndex((post) => post.id === id);
+            if (existing >= 0) {
+                saved.splice(existing, 1);
+                saveButton.dataset.saved = "false";
+                const label = saveButton.querySelector("span");
+                if (label) {
+                    label.textContent = "Save for later";
+                }
+                railStatus(saveButton, "Removed from this browser.");
+            } else {
+                saved.unshift({ id, title });
+                saveButton.dataset.saved = "true";
+                const label = saveButton.querySelector("span");
+                if (label) {
+                    label.textContent = "Saved for later";
+                }
+                railStatus(saveButton, "Saved in this browser.");
+            }
+            localStorage.setItem(savedPostsKey, JSON.stringify(saved.slice(0, 50)));
+            return;
+        }
+
+        const topButton = target.closest("[data-scroll-top]");
+        if (topButton) {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        }
+    });
+
+    function initializeSavedPosts() {
+        const saved = getSavedPosts();
+        document.querySelectorAll<HTMLElement>("[data-save-post]").forEach((button) => {
+            const isSaved = saved.some((post) => post.id === button.dataset.postId);
+            if (isSaved) {
+                button.dataset.saved = "true";
+                const label = button.querySelector("span");
+                if (label) {
+                    label.textContent = "Saved for later";
+                }
+            }
+        });
+    }
+
+    document.addEventListener("astro:page-load", initializeSavedPosts);
+    initializeSavedPosts();
+</script>
