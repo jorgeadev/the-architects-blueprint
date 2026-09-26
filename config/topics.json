@@ -380,7 +380,6 @@
         "Formal Verification of Multi-Tenant Isolation in Firecracker MicroVMs",
         "Optimizing Tail Latency in Tiered Storage Architectures Using Predictive NVMe Pre-warming and Request Hedging",
         "Deterministic Simulation Testing in Distributed Databases: How FoundationDB and TigerBeetle Prevent Rare Consensus Failures",
-        "Optimizing KV Cache Management for Multi-Tenant LLM Serving: A Deep Dive into PagedAttention and FlashAttention Integration",
         "Implementing eBPF-based L4 Load Balancing for 100M+ Concurrent Connections: A Deep Dive into XDP and Katran Evolution",
         "Deterministic Simulation Testing at Scale: How FoundationDB Validates Distributed State Machine Consistency Under Network Partitions",
         "Disaggregated memory over CXL: mitigating NUMA penalties in petabyte-scale analytics clusters at Meta.",
@@ -1307,6 +1306,9 @@
         "Architecting Multi-Tenant Vector Database Clusters for Sub-Second Semantic Search at Petabyte Scale",
         "Zero-Copy Data Transfer and Kernel Bypass: Implementing User-Space Networking for Sub-Microsecond High-Frequency Trading Systems",
         "Solving Metadata Bottlenecks in Exabyte-Scale Distributed File Systems: Tiered Sharding and LSM-Tree Optimization Strategies",
-        "CRDT-Based State Synchronization in Massive Multiplayer Online Games: Architecting Low-Latency Eventual Consistency for Millions of Concurrent Users"
+        "CRDT-Based State Synchronization in Massive Multiplayer Online Games: Architecting Low-Latency Eventual Consistency for Millions of Concurrent Users",
+        "Deep dive into Netflix's Live Streaming Pipeline: Solving the Sub-Second Latency Problem at 10 Million Concurrent Viewers",
+        "Reverse Engineering the Discord Read State: An Analysis of B-Tree Fragmentation and Write Amplification at Trillion Message Scale",
+        "The Physics of Consensus: How CockroachDB and Spanner Handle Clock Skew and Atomic Clocks in Globally Distributed Transactions"
     ]
 }
