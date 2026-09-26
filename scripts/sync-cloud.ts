@@ -15,10 +15,27 @@ type ManifestPost = {
     wordCount: number;
 };
 
+function storageUrl(url: string | null, baseUrl: string): string | null {
+    if (!url || !baseUrl) {
+        return url;
+    }
+    return `${baseUrl}${new URL(url).pathname}`;
+}
+
 async function run() {
     const region = process.env.AWS_REGION;
     const bucket = process.env.S3_BUCKET_NAME;
     const databaseUrl = process.env.DIRECT_DATABASE_URL ?? process.env.DATABASE_URL;
+    const contentBaseUrl = (
+        process.env.CONTENT_STORAGE_PUBLIC_BASE_URL ??
+        process.env.IMAGE_STORAGE_PUBLIC_BASE_URL ??
+        ""
+    ).replace(/\/$/, "");
+    const imageBaseUrl = (
+        process.env.IMAGE_STORAGE_PUBLIC_BASE_URL ??
+        process.env.CONTENT_STORAGE_PUBLIC_BASE_URL ??
+        ""
+    ).replace(/\/$/, "");
     if (!region || !bucket) {
         throw new Error("Cloud sync requires AWS_REGION and S3_BUCKET_NAME.");
     }
@@ -43,6 +60,8 @@ async function run() {
         try {
             await client.query("BEGIN");
             for (const post of manifest) {
+                const contentUrl = storageUrl(post.contentUrl, contentBaseUrl);
+                const imageUrl = storageUrl(post.imageUrl, imageBaseUrl);
                 const result = await client.query<{ id: number }>(
                     `INSERT INTO posts
                         (slug, title, short_title, published_date, image_path, word_count, post_url, excerpt, updated_at)
@@ -62,14 +81,14 @@ async function run() {
                         post.title,
                         post.shortTitle,
                         post.date,
-                        post.imageUrl,
+                        imageUrl,
                         post.wordCount,
-                        post.contentUrl,
+                        contentUrl,
                         post.excerpt,
                     ]
                 );
                 const postId = result.rows[0]?.id;
-                if (!postId || !post.imageUrl) {
+                if (!postId || !imageUrl) {
                     continue;
                 }
 
@@ -77,13 +96,13 @@ async function run() {
                     `UPDATE images
                      SET remote_url = $1, local_path = $2
                      WHERE post_id = $3 AND remote_url = $1`,
-                    [post.imageUrl, post.imageUrl, postId]
+                    [imageUrl, imageUrl, postId]
                 );
                 if (updatedImage.rowCount === 0) {
                     await client.query(
                         `INSERT INTO images (post_id, local_path, source_url, is_placeholder, remote_url)
                          VALUES ($1, $2, $3, false, $4)`,
-                        [postId, post.imageUrl, null, post.imageUrl]
+                        [postId, imageUrl, null, imageUrl]
                     );
                 }
             }
