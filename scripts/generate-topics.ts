@@ -1,5 +1,8 @@
 import * as fs from "fs";
 import { loadTopics, generateNewTopics } from "./utils";
+import { installProcessErrorHandlers } from "./observability";
+
+installProcessErrorHandlers("generation.topics");
 
 async function run() {
     try {

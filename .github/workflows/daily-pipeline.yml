@@ -2,8 +2,18 @@ name: "Central Automation Pipeline"
 
 on:
   schedule:
-    - cron: "0 */6 * * *" # Runs every 6 hours
+    - cron: "35 9 * * *"
+      timezone: "America/New_York"
   workflow_dispatch:
+    inputs:
+      task:
+        description: "Automation task to run"
+        required: true
+        default: "post"
+        type: choice
+        options:
+          - post
+          - topics
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
@@ -29,9 +39,10 @@ jobs:
         run: corepack enable pnpm
 
       - name: Install dependencies
-        run: pnpm install
+        run: pnpm install --frozen-lockfile
 
-      - name: Run central orchestrator (Blog, Image, Topics)
+      - name: Generate post and image
+        if: github.event_name == 'schedule' || inputs.task == 'post'
         run: pnpm run start
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -39,6 +50,36 @@ jobs:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           GROK_API_KEY: ${{ secrets.GROK_API_KEY }}
           POLLINATIONS_API_KEY: ${{ secrets.POLLINATIONS_API_KEY }}
+          AWS_REGION: ${{ secrets.AWS_REGION }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          S3_BUCKET_NAME: ${{ secrets.S3_BUCKET_NAME }}
+          CONTENT_STORAGE_PUBLIC_BASE_URL: ${{ secrets.CONTENT_STORAGE_PUBLIC_BASE_URL || secrets.IMAGE_STORAGE_PUBLIC_BASE_URL }}
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+          DIRECT_DATABASE_URL: ${{ secrets.DIRECT_DATABASE_URL }}
+          LOG_DATABASE_URL: ${{ secrets.LOG_DATABASE_URL || secrets.DATABASE_URL }}
+
+      - name: Create new topics
+        if: github.event_name == 'workflow_dispatch' && inputs.task == 'topics'
+        run: pnpm run generate:topics
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          GROK_API_KEY: ${{ secrets.GROK_API_KEY }}
+          LOG_DATABASE_URL: ${{ secrets.LOG_DATABASE_URL || secrets.DATABASE_URL }}
+
+      - name: Synchronize cloud archive with Neon
+        if: github.event_name == 'schedule' || inputs.task == 'post'
+        run: pnpm run sync:cloud
+        env:
+          AWS_REGION: ${{ secrets.AWS_REGION }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          S3_BUCKET_NAME: ${{ secrets.S3_BUCKET_NAME }}
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+          DIRECT_DATABASE_URL: ${{ secrets.DIRECT_DATABASE_URL }}
+          LOG_DATABASE_URL: ${{ secrets.LOG_DATABASE_URL || secrets.DATABASE_URL }}
 
       - name: Commit, create PR, and merge
         env:
@@ -47,7 +88,7 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          if [[ -z $(git status -s web/src/content/blog/ config/topics.json web/public/images/) ]]; then
+          if [[ -z $(git status -s config/topics.json) ]]; then
             echo "No changes to commit"
             exit 0
           fi
@@ -56,13 +97,13 @@ jobs:
           echo "BRANCH_NAME=$BRANCH_NAME" >> $GITHUB_ENV
           git checkout -b $BRANCH_NAME
 
-          git add web/src/content/blog/ config/topics.json web/public/images/
-          git commit -m "docs: auto-generate blueprint thesis & fetch image [skip ci]"
+          git add config/topics.json
+          git commit -m "chore: update generation state after cloud publish [skip ci]"
           git push -u origin $BRANCH_NAME
 
           # Create PR
-          PR_URL=$(gh pr create --title "docs: auto-generate blueprint thesis [skip ci]" \
-                            --body "Automated blueprint thesis generation with local AI image." \
+          PR_URL=$(gh pr create --title "chore: update cloud generation state [skip ci]" \
+                            --body "Automated generation state update after publishing the Markdown article and image to S3." \
                             --base main \
                             --head $BRANCH_NAME)
 

@@ -1,5 +1,6 @@
 import * as fs from "fs";
-import * as path from "path";
+import { GetObjectCommand, PutObjectCommand, S3Client } from "@aws-sdk/client-s3";
+import { Pool } from "pg";
 import {
     generateNewTopics,
     loadTopics,
@@ -8,12 +9,22 @@ import {
     buildPollinationsImageUrl,
     createAbstractPlaceholderSvg,
 } from "./utils";
+import { installProcessErrorHandlers, scriptLog } from "./observability";
+
+installProcessErrorHandlers("generation.orchestrator");
 
 // Initialize configuration
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY as string;
+const AWS_REGION = process.env.AWS_REGION;
+const S3_BUCKET_NAME = process.env.S3_BUCKET_NAME;
+const STORAGE_PUBLIC_BASE_URL = (
+    process.env.IMAGE_STORAGE_PUBLIC_BASE_URL ??
+    process.env.CONTENT_STORAGE_PUBLIC_BASE_URL ??
+    ""
+).replace(/\/$/, "");
 
 if (!GEMINI_API_KEY) {
-    console.error("Missing GEMINI_API_KEY from environment.");
+    scriptLog("fatal", "generation.orchestrator", "configuration.missing_gemini_api_key");
     process.exit(1);
 }
 
@@ -38,9 +49,167 @@ Requirements for the blog post:
     return await generateWithRetry(prompt);
 }
 
-async function saveToDisk(content: string, localImagePath: string) {
-    const rootDir = process.cwd();
+function requiredCloudEnv(): { client: S3Client; bucket: string; publicBaseUrl: string } {
+    if (!AWS_REGION || !S3_BUCKET_NAME || !STORAGE_PUBLIC_BASE_URL) {
+        throw new Error(
+            "Cloud-first generation requires AWS_REGION, S3_BUCKET_NAME, and CONTENT_STORAGE_PUBLIC_BASE_URL (or IMAGE_STORAGE_PUBLIC_BASE_URL)."
+        );
+    }
+    return {
+        client: new S3Client({ region: AWS_REGION }),
+        bucket: S3_BUCKET_NAME,
+        publicBaseUrl: STORAGE_PUBLIC_BASE_URL,
+    };
+}
 
+function slugFromContent(content: string): string {
+    const titleMatch = content.match(/^#\s+(.+)$/m);
+    return titleMatch?.[1]
+        ? titleMatch[1]
+            .toLowerCase()
+            .replace(/[^a-z0-9]+/g, "-")
+            .replace(/(^-|-$)/g, "")
+            .substring(0, 60)
+        : "untitled";
+}
+
+function publicUrl(baseUrl: string, key: string): string {
+    return `${baseUrl}/${key}`;
+}
+
+type NeonPostSync = {
+    slug: string;
+    title: string;
+    shortTitle: string | null;
+    publishedDate: string;
+    imageUrl: string;
+    imageKey: string;
+    contentUrl: string;
+    excerpt: string;
+    wordCount: number;
+    isPlaceholder: boolean;
+};
+
+async function syncPostToNeon(post: NeonPostSync): Promise<void> {
+    const connectionString = process.env.DIRECT_DATABASE_URL ?? process.env.DATABASE_URL;
+    if (!connectionString) {
+        throw new Error("Post synchronization requires DIRECT_DATABASE_URL or DATABASE_URL.");
+    }
+
+    const pool = new Pool({ connectionString, max: 1, ssl: { rejectUnauthorized: false } });
+    const client = await pool.connect();
+    try {
+        await client.query("BEGIN");
+        const result = await client.query<{ id: number }>(
+            `INSERT INTO posts
+                (slug, title, short_title, published_date, image_path, word_count, post_url, excerpt, updated_at)
+             VALUES ($1, $2, $3, $4, $5, $6, $7, $8, now())
+             ON CONFLICT (slug) DO UPDATE SET
+                title = EXCLUDED.title,
+                short_title = EXCLUDED.short_title,
+                published_date = EXCLUDED.published_date,
+                image_path = EXCLUDED.image_path,
+                word_count = EXCLUDED.word_count,
+                post_url = EXCLUDED.post_url,
+                excerpt = EXCLUDED.excerpt,
+                updated_at = now()
+             RETURNING id`,
+            [
+                post.slug,
+                post.title,
+                post.shortTitle,
+                post.publishedDate,
+                post.imageUrl,
+                post.wordCount,
+                post.contentUrl,
+                post.excerpt,
+            ]
+        );
+
+        const postId = result.rows[0]?.id;
+        if (!postId) {
+            throw new Error(`Neon did not return an id for post ${post.slug}.`);
+        }
+
+        const existingImage = await client.query(
+            `UPDATE images
+             SET local_path = $1,
+                 is_placeholder = $2,
+                 remote_url = $3,
+                 created_at = now()
+             WHERE post_id = $4 AND remote_url = $3`,
+            [post.imageKey, post.isPlaceholder, post.imageUrl, postId]
+        );
+
+        if (existingImage.rowCount === 0) {
+            await client.query(
+                `INSERT INTO images
+                    (post_id, local_path, source_url, is_placeholder, remote_url)
+                 VALUES ($1, $2, $3, $4, $5)`,
+                [postId, post.imageKey, null, post.isPlaceholder, post.imageUrl]
+            );
+        }
+
+        await client.query("COMMIT");
+    } catch (error) {
+        await client.query("ROLLBACK");
+        throw error;
+    } finally {
+        client.release();
+        await pool.end();
+    }
+}
+
+type ManifestPost = {
+    slug: string;
+    title: string;
+    shortTitle: string | null;
+    date: string;
+    imageUrl: string | null;
+    contentUrl: string;
+    excerpt: string;
+    wordCount: number;
+};
+
+async function readManifest(client: S3Client, bucket: string): Promise<ManifestPost[]> {
+    try {
+        const response = await client.send(
+            new GetObjectCommand({ Bucket: bucket, Key: "posts/index.json" })
+        );
+        const raw = await response.Body?.transformToString("utf8");
+        return raw ? (JSON.parse(raw) as ManifestPost[]) : [];
+    } catch (error) {
+        if (error instanceof Error && error.name === "NoSuchKey") {
+            return [];
+        }
+        throw error;
+    }
+}
+
+async function publishManifest(
+    client: S3Client,
+    bucket: string,
+    posts: ManifestPost[]
+): Promise<void> {
+    posts.sort((left, right) => right.date.localeCompare(left.date));
+    await client.send(
+        new PutObjectCommand({
+            Bucket: bucket,
+            Key: "posts/index.json",
+            Body: JSON.stringify(posts),
+            ContentType: "application/json; charset=utf-8",
+            CacheControl: "public, max-age=60, must-revalidate",
+        })
+    );
+}
+
+async function saveToCloud(
+    content: string,
+    imageBuffer: Buffer,
+    imageFileName: string,
+    usedPlaceholderImage: boolean
+) {
+    const { client, bucket, publicBaseUrl } = requiredCloudEnv();
     const now = new Date();
     const year = now.getFullYear().toString();
     const month = String(now.getMonth() + 1).padStart(2, "0");
@@ -48,41 +217,85 @@ async function saveToDisk(content: string, localImagePath: string) {
     const dateString = `${year}-${month}-${day}`;
 
     const titleMatch = content.match(/^#\s+(.+)$/m);
-    let titleSlug = "untitled";
-
-    if (titleMatch && titleMatch[1]) {
-        titleSlug = titleMatch[1]
-            .toLowerCase()
-            .replace(/[^a-z0-9]+/g, "-")
-            .replace(/(^-|-$)/g, "")
-            .substring(0, 60);
-    }
-
-    const articleDir = path.join(rootDir, "web", "src", "content", "blog", year, month, day);
-    fs.mkdirSync(articleDir, { recursive: true });
-    const filePath = path.join(articleDir, `${titleSlug}.md`);
+    const titleSlug = slugFromContent(content);
+    const contentKey = `posts/${year}/${month}/${day}/${titleSlug}.md`;
+    const imageKey = `images/${year}/${month}/${day}/${imageFileName}`;
 
     let finalContent = content;
+    let shortTitle: string | null = null;
     if (titleMatch && titleMatch[1]) {
         const frontmatterTitle = titleMatch[1].replace(/"/g, "\\\"");
         const shortTitleRaw = await generateWithRetry(
             `Summarize this title into a short, impactful version (maximum 100 characters) that summarizes the core topic. Do not use markdown, quotes, emojis, or conversational text. Output ONLY the short title. Original Title: "${frontmatterTitle}"`
         );
-        const shortTitle = shortTitleRaw.replace(/"/g, "\\\"").replace(/\n/g, "").trim();
+        shortTitle = shortTitleRaw.replace(/\n/g, "").trim();
+        const frontmatterShortTitle = shortTitle.replace(/"/g, "\\\"");
 
         const frontmatter = `---
 title: "${frontmatterTitle}"
-shortTitle: "${shortTitle}"
+shortTitle: "${frontmatterShortTitle}"
 date: ${dateString}
-image: "${localImagePath}"
+image: "${publicUrl(publicBaseUrl, imageKey)}"
 ---
 
 `;
         finalContent = frontmatter + content.replace(titleMatch[0], "");
     }
 
-    fs.writeFileSync(filePath, finalContent, "utf8");
-    console.log(`\nSuccessfully saved thesis to: ${filePath}`);
+    await client.send(
+        new PutObjectCommand({
+            Bucket: bucket,
+            Key: imageKey,
+            Body: imageBuffer,
+            ContentType: usedPlaceholderImage ? "image/svg+xml" : "image/jpeg",
+            CacheControl: "public, max-age=31536000, immutable",
+        })
+    );
+    await client.send(
+        new PutObjectCommand({
+            Bucket: bucket,
+            Key: contentKey,
+            Body: finalContent,
+            ContentType: "text/markdown; charset=utf-8",
+            CacheControl: "public, max-age=31536000, immutable",
+        })
+    );
+
+    const manifest = await readManifest(client, bucket);
+    const nextPost: ManifestPost = {
+        slug: `${year}/${month}/${day}/${titleSlug}`,
+        title: titleMatch?.[1] ?? titleSlug,
+        shortTitle,
+        date: dateString,
+        imageUrl: publicUrl(publicBaseUrl, imageKey),
+        contentUrl: publicUrl(publicBaseUrl, contentKey),
+        excerpt: finalContent
+            .replace(/^---[\s\S]*?---\s*/, "")
+            .replace(/[#*_>`]/g, "")
+            .trim()
+            .slice(0, 260),
+        wordCount: finalContent.split(/\s+/).filter(Boolean).length,
+    };
+    await syncPostToNeon({
+        slug: nextPost.slug,
+        title: nextPost.title,
+        shortTitle: nextPost.shortTitle,
+        publishedDate: nextPost.date,
+        imageUrl: nextPost.imageUrl ?? publicUrl(publicBaseUrl, imageKey),
+        imageKey,
+        contentUrl: nextPost.contentUrl,
+        excerpt: nextPost.excerpt,
+        wordCount: nextPost.wordCount,
+        isPlaceholder: usedPlaceholderImage,
+    });
+    scriptLog("info", "generation.orchestrator", "database.post_synchronized", {
+        slug: nextPost.slug,
+    });
+    await publishManifest(client, bucket, [
+        nextPost,
+        ...manifest.filter((post) => post.slug !== nextPost.slug),
+    ]);
+    console.log(`\nSuccessfully published Markdown, image, and manifest to s3://${bucket}`);
 }
 
 async function orchestrate() {
@@ -114,7 +327,6 @@ async function orchestrate() {
         }
 
         // 3. Generate Image using AI (CRITICAL PATH)
-        let imageUrlPath = "";
         try {
             const imagePromptPrompt = `You are a highly creative technical art director. 
 I have a blog post about "${randomTopic}". Here is a snippet of its actual content:
@@ -156,12 +368,6 @@ Only return the raw prompt text.`;
                 process.exit(1);
             }
 
-            // Figure out image slug based on post slug schema
-            const now = new Date();
-            const year = now.getFullYear().toString();
-            const month = String(now.getMonth() + 1).padStart(2, "0");
-            const day = String(now.getDate()).padStart(2, "0");
-
             const titleMatch = content.match(/^#\s+(.+)$/m);
             let imageSlug = "untitled";
             if (titleMatch && titleMatch[1]) {
@@ -173,27 +379,13 @@ Only return the raw prompt text.`;
             }
 
             const imageFileName = `${imageSlug}${usedPlaceholderImage ? ".svg" : ".jpg"}`;
-            const imageDir = path.join(process.cwd(), "web", "public", "images", year, month, day);
-
-            if (!fs.existsSync(imageDir)) {
-                fs.mkdirSync(imageDir, { recursive: true });
-            }
-
-            const absoluteImagePath = path.join(imageDir, imageFileName);
-            fs.writeFileSync(absoluteImagePath, imageBuffer);
-            console.log(`Successfully saved image natively to: ${absoluteImagePath}`);
-
-            // This is the public path the browser requests
-            imageUrlPath = `/images/${year}/${month}/${day}/${imageFileName}`;
+            await saveToCloud(content, imageBuffer, imageFileName, usedPlaceholderImage);
         } catch (e) {
             console.error("Critical Failure in Image Generation. Aborting pipeline.", e);
             process.exit(1);
         }
 
-        // 4. Save Blog Content with local Image Link and generate Short Title
-        await saveToDisk(content, imageUrlPath);
-
-        // 5. Replenish Topics (NON-CRITICAL PATH)
+        // 4. Replenish Topics (NON-CRITICAL PATH)
         try {
             console.log("Attempting topic pool replenishment...");
             const amountToGenerate = topics.length < 20 ? 10 : 3;

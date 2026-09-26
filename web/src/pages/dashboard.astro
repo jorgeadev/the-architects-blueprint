@@ -1,0 +1,254 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { getSession } from "../lib/auth";
+import { listDashboardUsers } from "../lib/users";
+
+const session = await getSession(Astro.cookies);
+if (!session) {
+    return Astro.redirect("/login");
+}
+const isAdmin = session.role === "admin";
+const users = isAdmin ? await listDashboardUsers() : [];
+const formatCreatedDate = (value: string) =>
+    new Intl.DateTimeFormat("en", {
+        month: "short",
+        day: "numeric",
+        year: "numeric",
+    }).format(new Date(value));
+---
+
+<Layout
+    title="Operations console | The Architect's Blueprint"
+    description="Manage the Architect's Blueprint cloud archive."
+>
+    <main class="dashboard-shell" data-role={session.role}>
+        <section class="dashboard-hero animate-fade-up">
+            <div>
+                <p class="dashboard-kicker">Operations console</p>
+                <h1>Manage the archive.</h1>
+                <p class="dashboard-intro">
+                    Manage console access and trigger the publishing pipeline. Published articles
+                    and images live in the cloud archive.
+                </p>
+            </div>
+            <div class="identity-chip">
+                <span class="identity-dot"></span>
+                <span>{session.email}</span>
+                <strong>{session.role}</strong>
+            </div>
+        </section>
+
+        {
+            isAdmin && (
+                <section
+                    id="access-ledger"
+                    class="access-ledger"
+                    aria-labelledby="access-ledger-title"
+                >
+                    <header class="access-ledger-header">
+                        <div>
+                            <p class="dashboard-kicker">Access control</p>
+                            <h2 id="access-ledger-title">Issue console access</h2>
+                            <p>Create an account and assign exactly what it can do.</p>
+                        </div>
+                        <p class="access-count">
+                            <strong id="user-count">{users.length}</strong> registered
+                        </p>
+                    </header>
+
+                    <div class="access-ledger-body">
+                        <form id="create-user-form" class="user-create-form">
+                            <label class="user-field">
+                                <span>Email address</span>
+                                <input
+                                    name="email"
+                                    type="email"
+                                    autocomplete="off"
+                                    required
+                                    placeholder="teammate@example.com"
+                                />
+                            </label>
+                            <label class="user-field">
+                                <span>Temporary password</span>
+                                <input
+                                    name="password"
+                                    type="password"
+                                    autocomplete="new-password"
+                                    minlength="12"
+                                    required
+                                    placeholder="At least 12 characters"
+                                />
+                            </label>
+
+                            <fieldset class="role-picker">
+                                <legend>Role and permission</legend>
+                                <label>
+                                    <input type="radio" name="role" value="viewer" checked />
+                                    <span>
+                                        <>
+                                            <strong>Viewer</strong>
+                                            <small>Inspect the console only</small>
+                                        </>
+                                    </span>
+                                </label>
+                                <label>
+                                    <input type="radio" name="role" value="operator" />
+                                    <span>
+                                        <>
+                                            <strong>Operator</strong>
+                                            <small>Inspect and trigger generation</small>
+                                        </>
+                                    </span>
+                                </label>
+                                <label>
+                                    <input type="radio" name="role" value="admin" />
+                                    <span>
+                                        <>
+                                            <strong>Admin</strong>
+                                            <small>Manage access and trigger generation</small>
+                                        </>
+                                    </span>
+                                </label>
+                            </fieldset>
+
+                            <button class="btn-primary user-create-button" type="submit">
+                                Create user
+                            </button>
+                            <p
+                                id="user-create-status"
+                                class="form-status"
+                                role="status"
+                                aria-live="polite"
+                            />
+                        </form>
+
+                        <div class="user-register">
+                            <div class="user-register-heading">
+                                <h3>Current access</h3>
+                                <p>
+                                    Roles are verified against Neon on every authenticated request.
+                                </p>
+                            </div>
+                            <div class="user-table-wrap">
+                                <table class="user-table">
+                                    <thead>
+                                        <tr>
+                                            <>
+                                                <th>User</th>
+                                                <th>Role</th>
+                                                <th>Created</th>
+                                            </>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="user-table-body">
+                                        {users.map((user) => (
+                                            <tr data-user-id={user.id}>
+                                                <td>{user.email}</td>
+                                                <td>
+                                                    <span class={`role-badge role-${user.role}`}>
+                                                        {user.role}
+                                                    </span>
+                                                </td>
+                                                <td>{formatCreatedDate(user.createdAt)}</td>
+                                            </tr>
+                                        ))}
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            )
+        }
+
+        <section class="dashboard-grid animate-fade-up" style="animation-delay:0.18s;">
+            <article class="dashboard-note">
+                <span class="note-index">01</span>
+                <div>
+                    <h2>Cloud publishing</h2>
+                    <p>
+                        New articles and images publish directly to object storage; Neon keeps the
+                        metadata used by the site.
+                    </p>
+                </div>
+            </article>
+            <article class="dashboard-note">
+                <span class="note-index">02</span>
+                <div>
+                    <h2>Access roles</h2>
+                    <p>
+                        Operators can trigger generation, admins can manage accounts, and viewers
+                        can inspect the console.
+                    </p>
+                </div>
+            </article>
+        </section>
+
+        <form id="logout-form" class="dashboard-footer-action">
+            <button class="btn-ghost" type="submit">Sign out</button>
+        </form>
+    </main>
+
+    <script define:vars={{ isAdmin }}>
+        const logoutForm = document.getElementById("logout-form");
+        const createUserForm = document.getElementById("create-user-form");
+        const createUserStatus = document.getElementById("user-create-status");
+        const userTableBody = document.getElementById("user-table-body");
+        const userCount = document.getElementById("user-count");
+
+        createUserForm?.addEventListener("submit", async (event) => {
+            event.preventDefault();
+            if (!isAdmin) {return;}
+            const button = createUserForm.querySelector("button[type='submit']");
+            button?.setAttribute("disabled", "true");
+            if (createUserStatus) {createUserStatus.textContent = "Creating database account…";}
+
+            try {
+                const formData = new FormData(createUserForm);
+                const response = await fetch("/api/users", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify(Object.fromEntries(formData)),
+                });
+                const result = await response.json();
+                if (!response.ok) {throw new Error(result.error ?? "User creation failed.");}
+
+                const row = document.createElement("tr");
+                row.dataset.userId = result.user.id;
+                const emailCell = document.createElement("td");
+                emailCell.textContent = result.user.email;
+                const roleCell = document.createElement("td");
+                const roleBadge = document.createElement("span");
+                roleBadge.className = `role-badge role-${result.user.role}`;
+                roleBadge.textContent = result.user.role;
+                roleCell.append(roleBadge);
+                const dateCell = document.createElement("td");
+                dateCell.textContent = new Intl.DateTimeFormat("en", {
+                    month: "short",
+                    day: "numeric",
+                    year: "numeric",
+                }).format(new Date(result.user.createdAt));
+                row.append(emailCell, roleCell, dateCell);
+                userTableBody?.prepend(row);
+
+                const currentCount = Number(userCount?.textContent ?? "0");
+                if (userCount) {userCount.textContent = String(currentCount + 1);}
+                createUserForm.reset();
+                if (createUserStatus)
+                {createUserStatus.textContent = `${result.user.email} created as ${result.user.role}.`;}
+            } catch (error) {
+                if (createUserStatus)
+                {createUserStatus.textContent =
+                error instanceof Error ? error.message : "User creation failed.";}
+            } finally {
+                button?.removeAttribute("disabled");
+            }
+        });
+
+        logoutForm?.addEventListener("submit", async (event) => {
+            event.preventDefault();
+            await fetch("/api/auth/logout", { method: "POST" });
+            window.location.href = "/login";
+        });
+    </script>
+</Layout>

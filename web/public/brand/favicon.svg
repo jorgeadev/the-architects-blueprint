@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+    <title>The Architect's Blueprint</title>
+    <defs>
+        <linearGradient id="glow" x1="12" y1="8" x2="54" y2="58" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#8c7cff" />
+            <stop offset="0.52" stop-color="#2d6cff" />
+            <stop offset="1" stop-color="#24e6ff" />
+        </linearGradient>
+    </defs>
+    <rect width="64" height="64" rx="16" fill="#0b1530" />
+    <path d="M32 9 12 52h9l4.1-9h13.8l4.1 9h9L32 9Zm0 15.3 4.7 10.4h-9.4L32 24.3Z" fill="url(#glow)" />
+    <path d="M32 9v43M12 52 52 19M12 52 52 52M20 35h24" fill="none" stroke="#d8f8ff" stroke-linecap="round" stroke-width="1.2" opacity=".75" />
+</svg>

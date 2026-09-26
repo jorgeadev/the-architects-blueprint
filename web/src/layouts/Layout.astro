@@ -2,18 +2,36 @@
 import "../styles/global.css";
 
 import { ClientRouter } from "astro:transitions";
+import AccountMenu from "../components/AccountMenu.astro";
+import BlogSideRail from "../components/BlogSideRail.astro";
+import ClientErrorReporter from "../components/ClientErrorReporter.astro";
+import ThemeToggle from "../components/ThemeToggle.astro";
+import { extractTopics } from "../lib/blog";
+import { canGenerate, getSession } from "../lib/auth";
+import type { CloudPost } from "../lib/cloud-blog";
 
 interface Props {
     title: string;
     description?: string;
     showProgress?: boolean;
+    sidebarPosts?: CloudPost[];
+    currentPost?: CloudPost;
 }
 
 const {
     title,
     description = "The Architect's Blueprint — deep dives on big tech infrastructure, scale, and the pulse of modern engineering.",
     showProgress = false,
+    sidebarPosts = [],
+    currentPost,
 } = Astro.props;
+const navigationSession = await getSession(Astro.cookies);
+const generationAllowed = navigationSession ? canGenerate(navigationSession.role) : false;
+const accountHref = navigationSession ? "/dashboard" : "/login";
+const footerTopics = extractTopics(sidebarPosts, 4);
+const currentPath = Astro.url.pathname;
+const archiveIsCurrent = currentPath === "/" || /^\/\d+\/?$/.test(currentPath);
+const discoverIsCurrent = currentPath === "/discover";
 ---
 
 <!doctype html>
@@ -22,147 +40,410 @@ const {
         <ClientRouter />
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <link rel="icon" type="image/svg+xml" href="/brand/favicon.svg" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/brand/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/brand/favicon-16x16.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/brand/apple-touch-icon.png" />
+        <link rel="manifest" href="/site.webmanifest" />
         <meta name="generator" content={Astro.generator} />
         <title>{title}</title>
         <meta name="description" content={description} />
-        <meta name="theme-color" content="#02000f" />
+        <meta name="theme-color" content="#f3f7f5" />
+        <script is:inline>
+            (() => {
+                let stored = null;
+                try {
+                    stored = localStorage.getItem("architects-blueprint:theme");
+                } catch {}
+                const theme = stored === "dark" ? "dark" : "light";
+                document.documentElement.dataset.theme = theme;
+                document.documentElement.style.colorScheme = theme;
+                const meta = document.querySelector("meta[name='theme-color']");
+                if (meta) {
+                    meta.setAttribute("content", theme === "dark" ? "#121a17" : "#f3f7f5");
+                }
+            })();
+        </script>
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
         <meta property="og:type" content="website" />
+        <meta property="og:image" content="/brand/architects-blueprint-og.png" />
+        <meta
+            property="og:image:alt"
+            content="Abstract luminous architectural blueprint structure"
+        />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:image" content="/brand/architects-blueprint-og.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
-            href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&family=JetBrains+Mono:wght@400;500&display=swap"
+            href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans+Condensed:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap"
             rel="stylesheet"
         />
     </head>
-    <body>
-        {showProgress && <div id="reading-progress"></div>}
+    <body class="flex min-h-screen flex-col">
+        {showProgress && <div id="reading-progress" />}
+
+        <a class="skip-link" href="#main-content">Skip to content</a>
 
         <!-- ── Navigation ──────────────────────────────────────────────── -->
         <header
-            class="sticky top-0 z-50"
-            style="background:rgba(2,0,15,0.7);backdrop-filter:blur(20px) saturate(180%);-webkit-backdrop-filter:blur(20px) saturate(180%);border-bottom:1px solid rgba(255,255,255,0.07);"
+            id="page-top"
+            class="sticky top-0 z-50 border-b border-(--color-border) bg-(--color-surface)"
         >
-            <nav class="max-w-7xl mx-auto px-5 sm:px-8 h-16 flex items-center justify-between gap-4">
+            <nav
+                aria-label="Primary"
+                class="site-shell-inner mx-auto h-16 flex items-center justify-between gap-4"
+            >
                 <!-- Logo -->
-                <a href="/" class="flex items-center gap-2.5 shrink-0 group">
-                    <div
-                        class="w-8 h-8 rounded-lg flex items-center justify-center shrink-0"
-                        style="background:linear-gradient(135deg,rgba(99,102,241,0.8),rgba(59,130,246,0.8));border:1px solid rgba(129,140,248,0.3);box-shadow:0 0 16px -4px rgba(99,102,241,0.5);"
-                    >
-                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
-                            <path d="M2 8h3M8 2v3M8 11v3M11 8h3" stroke="#fff" stroke-width="1.75" stroke-linecap="round"/>
-                            <circle cx="8" cy="8" r="2.5" fill="rgba(255,255,255,0.9)"/>
-                        </svg>
-                    </div>
-                    <span
-                        class="text-base font-bold tracking-tight hidden sm:block"
-                        style="background:linear-gradient(135deg,#818cf8,#60a5fa,#a78bfa);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;"
-                    >
-                        The Architect's Blueprint
-                    </span>
-                    <span
-                        class="text-base font-bold tracking-tight sm:hidden"
-                        style="background:linear-gradient(135deg,#818cf8,#60a5fa);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;"
-                    >
-                        Blueprint
+                <a
+                    href="/"
+                    aria-label="The Architect's Blueprint home"
+                    title="Home"
+                    class="group inline-flex min-h-11 min-w-0 shrink-0 items-center gap-2.5 rounded-xl px-3 py-1 transition-colors hover:bg-(--color-surface-hover) focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-(--color-focus)"
+                >
+                    <img
+                        src="/brand/architects-blueprint-mark.png"
+                        alt=""
+                        class="size-9 object-contain transition-transform duration-300 group-hover:scale-105"
+                        width="512"
+                        height="512"
+                    />
+                    <span class="flex min-w-0 flex-col justify-center">
+                        <span class="text-xs font-medium leading-tight text-(--color-muted)"
+                            >The Architect's</span
+                        >
+                        <span
+                            class="font-(family-name:--font-display) text-lg font-bold leading-none text-(--color-text) transition-colors group-hover:text-(--color-accent-1)"
+                            >Blueprint</span
+                        >
                     </span>
                 </a>
 
                 <!-- Desktop nav links -->
                 <div class="hidden md:flex items-center gap-2">
-                    <a href="/" class="btn-ghost text-sm py-2 px-4">Archive</a>
-                    <a href="/discover" class="btn-ghost text-sm py-2 px-4">Discover</a>
-                    <button
-                        id="trigger-topics-btn"
-                        class="btn-ghost text-sm py-2 px-4"
-                        aria-label="Generate Topics"
+                    <a
+                        href="/"
+                        class="site-nav-link btn-ghost text-sm py-2 px-4"
+                        aria-current={archiveIsCurrent ? "page" : undefined}>Archive</a
                     >
-                        <span class="btn-text">Topics 💡</span>
-                    </button>
-                    <button
-                        id="trigger-btn"
-                        class="btn-primary text-sm py-2 px-4"
-                        aria-label="Generate Post"
+                    <a
+                        href="/discover"
+                        class="site-nav-link btn-ghost text-sm py-2 px-4"
+                        aria-current={discoverIsCurrent ? "page" : undefined}>Discover</a
                     >
-                        <span class="btn-text">Generate 🪄</span>
-                    </button>
+                    {
+                        generationAllowed && (
+                            <>
+                                <button
+                                    id="trigger-topics-btn"
+                                    class="btn-ghost text-sm py-2 px-4"
+                                    aria-label="Create new topics"
+                                >
+                                    <span class="btn-text">New topics</span>
+                                </button>
+                                <button
+                                    id="trigger-btn"
+                                    class="btn-primary header-action-button"
+                                    aria-label="Generate a post"
+                                >
+                                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                                        <path d="M12 3v18M3 12h18" />
+                                    </svg>
+                                    <span class="btn-text">Generate post</span>
+                                </button>
+                            </>
+                        )
+                    }
+                    <ThemeToggle />
+                    <AccountMenu session={navigationSession} />
                 </div>
 
-                <!-- Mobile hamburger -->
-                <button
-                    id="mobile-menu-toggle"
-                    aria-label="Toggle menu"
-                    aria-expanded="false"
-                    aria-controls="mobile-menu"
-                    class="md:hidden flex flex-col gap-1.5 p-2 rounded-lg transition-colors"
-                    style="border:1px solid rgba(255,255,255,0.08);background:rgba(255,255,255,0.04);"
-                >
-                    <span class="hamburger-line block w-5 h-0.5 rounded-full bg-white/80 transition-all duration-300"></span>
-                    <span class="hamburger-line block w-5 h-0.5 rounded-full bg-white/80 transition-all duration-300"></span>
-                    <span class="hamburger-line block w-5 h-0.5 rounded-full bg-white/80 transition-all duration-300"></span>
-                </button>
+                <div class="md:hidden flex items-center gap-2">
+                    <ThemeToggle />
+                    <AccountMenu session={navigationSession} />
+
+                    <!-- Mobile hamburger -->
+                    <button
+                        id="mobile-menu-toggle"
+                        aria-label="Toggle menu"
+                        aria-expanded="false"
+                        aria-controls="mobile-menu"
+                        class="flex flex-col gap-1.5 rounded-lg border border-(--color-border) bg-(--color-surface-translucent) p-2 transition-colors hover:border-(--color-border-hover) hover:bg-(--color-surface-hover)"
+                    >
+                        <span
+                            class="hamburger-line block h-0.5 w-5 rounded-full bg-(--color-text-soft) transition-all duration-300"
+                        ></span>
+                        <span
+                            class="hamburger-line block h-0.5 w-5 rounded-full bg-(--color-text-soft) transition-all duration-300"
+                        ></span>
+                        <span
+                            class="hamburger-line block h-0.5 w-5 rounded-full bg-(--color-text-soft) transition-all duration-300"
+                        ></span>
+                    </button>
+                </div>
             </nav>
 
             <!-- Mobile menu -->
-            <div
+            <nav
                 id="mobile-menu"
+                aria-label="Mobile"
                 hidden
-                class="md:hidden px-5 pb-5 pt-2 flex flex-col gap-2"
-                style="border-top:1px solid rgba(255,255,255,0.06);"
+                class="md:hidden flex flex-col gap-2 border-t border-(--color-border) bg-(--color-surface) px-5 pb-5 pt-2"
             >
-                <a href="/" class="btn-ghost w-full text-center py-3">Archive</a>
-                <a href="/discover" class="btn-ghost w-full text-center py-3">Discover</a>
-                <button id="trigger-topics-btn-mobile" class="btn-ghost w-full py-3">
-                    <span class="btn-text">Generate Topics 💡</span>
-                </button>
-                <button id="trigger-btn-mobile" class="btn-primary w-full py-3">
-                    <span class="btn-text">Generate Post 🪄</span>
-                </button>
-            </div>
+                <a
+                    href="/"
+                    class="site-nav-link btn-ghost w-full text-center py-3"
+                    aria-current={archiveIsCurrent ? "page" : undefined}>Archive</a
+                >
+                <a
+                    href="/discover"
+                    class="site-nav-link btn-ghost w-full text-center py-3"
+                    aria-current={discoverIsCurrent ? "page" : undefined}>Discover</a
+                >
+                <a href={accountHref} class="btn-ghost w-full text-center py-3">
+                    {navigationSession ? "Management console" : "Sign in"}
+                </a>
+                {
+                    generationAllowed && (
+                        <>
+                            <button id="trigger-topics-btn-mobile" class="btn-ghost w-full py-3">
+                                <span class="btn-text">Create new topics</span>
+                            </button>
+                            <button id="trigger-btn-mobile" class="btn-primary w-full py-3">
+                                <span class="btn-text">Generate post</span>
+                            </button>
+                        </>
+                    )
+                }
+            </nav>
         </header>
 
         <!-- ── Main content ────────────────────────────────────────────── -->
-        <main class="max-w-7xl mx-auto px-5 sm:px-8 py-10 sm:py-14 min-h-[calc(100vh-4rem-96px)]">
-            <slot />
-        </main>
+        <div
+            class:list={[
+                "site-layout flex-1",
+                { "site-layout-with-rails": sidebarPosts.length > 0 },
+            ]}
+        >
+            {
+                sidebarPosts.length > 0 && (
+                    <BlogSideRail position="left" posts={sidebarPosts} currentPost={currentPost} />
+                )
+            }
+            <main
+                id="main-content"
+                class="site-main rounded-2xl border border-(--color-border) bg-(--color-surface) shadow-(--shadow-card)"
+            >
+                <div class="site-content"><slot /></div>
+            </main>
+            {
+                sidebarPosts.length > 0 && (
+                    <BlogSideRail position="right" posts={sidebarPosts} currentPost={currentPost} />
+                )
+            }
+        </div>
 
         <!-- ── Footer ──────────────────────────────────────────────────── -->
-        <footer
-            class="mt-20"
-            style="border-top:1px solid rgba(255,255,255,0.07);"
-        >
-            <div class="max-w-7xl mx-auto px-5 sm:px-8 py-10 sm:py-12">
-                <div class="flex flex-col sm:flex-row items-center justify-between gap-6">
-                    <div class="flex items-center gap-2.5">
-                        <div
-                            class="w-7 h-7 rounded-md flex items-center justify-center"
-                            style="background:linear-gradient(135deg,rgba(99,102,241,0.7),rgba(59,130,246,0.7));border:1px solid rgba(129,140,248,0.25);"
+        <footer class="border-t border-(--color-border) bg-(--color-surface-soft)">
+            <div class="site-shell-inner mx-auto py-5 sm:py-6">
+                <div
+                    class:list={[
+                        "grid gap-8 sm:grid-cols-2 lg:gap-12",
+                        footerTopics.length > 0
+                            ? "lg:grid-cols-[1.5fr_1fr_1fr_1fr]"
+                            : "lg:grid-cols-3",
+                    ]}
+                >
+                    <div>
+                        <p
+                            class="m-0 font-(family-name:--font-display) text-xl font-semibold text-(--color-text)"
                         >
-                            <svg width="13" height="13" viewBox="0 0 16 16" fill="none" aria-hidden="true">
-                                <path d="M2 8h3M8 2v3M8 11v3M11 8h3" stroke="#fff" stroke-width="1.75" stroke-linecap="round"/>
-                                <circle cx="8" cy="8" r="2.5" fill="rgba(255,255,255,0.9)"/>
-                            </svg>
-                        </div>
-                        <span class="text-sm font-semibold" style="color:rgba(255,255,255,0.6);">
                             The Architect's Blueprint
-                        </span>
+                        </p>
+                        <p class="mt-3 max-w-xs text-sm leading-relaxed text-(--color-text-soft)">
+                            Engineering notes on the systems behind modern infrastructure.
+                        </p>
+                        <a
+                            href="#page-top"
+                            class="mt-4 inline-flex text-sm font-semibold text-(--color-accent-1) transition-colors hover:text-(--color-accent-2)"
+                            >Back to top ↑</a
+                        >
                     </div>
-                    <nav class="flex flex-wrap justify-center gap-x-6 gap-y-2">
-                        <a href="/" class="text-sm transition-colors" style="color:rgba(255,255,255,0.45);" onmouseover="this.style.color='rgba(255,255,255,0.85)'" onmouseout="this.style.color='rgba(255,255,255,0.45)'">Archive</a>
-                        <a href="/discover" class="text-sm transition-colors" style="color:rgba(255,255,255,0.45);" onmouseover="this.style.color='rgba(255,255,255,0.85)'" onmouseout="this.style.color='rgba(255,255,255,0.45)'">Discover</a>
+
+                    <nav aria-label="Explore" class="flex flex-col items-start gap-2">
+                        <p class="mb-1 text-xs font-semibold text-(--color-muted)">Explore</p>
+                        <a
+                            href="/"
+                            class="text-sm text-(--color-text-soft) transition-colors hover:text-(--color-accent-1)"
+                            >Archive</a
+                        >
+                        <a
+                            href="/discover"
+                            class="text-sm text-(--color-text-soft) transition-colors hover:text-(--color-accent-1)"
+                            >Discover</a
+                        >
                     </nav>
-                    <p class="text-xs" style="color:rgba(255,255,255,0.3);">
-                        &copy; {new Date().getFullYear()} · Automagically generated
-                    </p>
+
+                    {
+                        footerTopics.length > 0 && (
+                            <nav
+                                aria-label="Popular topics"
+                                class="flex flex-col items-start gap-2"
+                            >
+                                <p class="mb-1 text-xs font-semibold text-(--color-muted)">
+                                    Popular topics
+                                </p>
+                                {footerTopics.map((topic) => (
+                                    <a
+                                        href={`/discover?q=${encodeURIComponent(topic.query)}`}
+                                        class="text-sm text-(--color-text-soft) transition-colors hover:text-(--color-accent-1)"
+                                    >
+                                        {topic.label}
+                                    </a>
+                                ))}
+                            </nav>
+                        )
+                    }
+
+                    <nav aria-label="Account" class="flex flex-col items-start gap-2">
+                        <p class="mb-1 text-xs font-semibold text-(--color-muted)">Account</p>
+                        <a
+                            href={accountHref}
+                            class="text-sm text-(--color-text-soft) transition-colors hover:text-(--color-accent-1)"
+                        >
+                            {navigationSession ? "Management console" : "Sign in"}
+                        </a>
+                    </nav>
+                </div>
+
+                <div
+                    class="mt-8 flex flex-col gap-2 border-t border-(--color-border) pt-5 text-xs text-(--color-faint) sm:flex-row sm:items-center sm:justify-between"
+                >
+                    <p class="m-0">&copy; {new Date().getFullYear()} The Architect's Blueprint</p>
+                    <p class="m-0">Independent engineering writing, updated regularly.</p>
                 </div>
             </div>
         </footer>
 
+        <ClientErrorReporter />
+
+        <style>
+            .site-shell-inner {
+                width: 100%;
+                max-width: 80rem;
+                padding-inline: 1.25rem;
+            }
+
+            .skip-link {
+                position: fixed;
+                z-index: 60;
+                top: 0.75rem;
+                left: 0.75rem;
+                padding: 0.65rem 0.9rem;
+                transform: translateY(-160%);
+                border: 1px solid var(--color-border-strong);
+                border-radius: 0.5rem;
+                background: var(--color-surface);
+                color: var(--color-text);
+                box-shadow: var(--shadow-glow);
+            }
+
+            .skip-link:focus {
+                transform: translateY(0);
+            }
+
+            .site-nav-link {
+                border-color: transparent;
+                background: transparent;
+            }
+
+            .site-nav-link[aria-current="page"] {
+                color: var(--color-accent-1);
+            }
+
+            .header-action-button {
+                min-height: 2.75rem;
+                padding: 0.72rem 1.05rem;
+                border-radius: 0.7rem;
+                box-shadow: 0 8px 18px -12px
+                    color-mix(in srgb, var(--color-accent-1) 80%, transparent);
+            }
+
+            .header-action-button svg {
+                width: 1rem;
+                height: 1rem;
+                fill: none;
+                stroke: currentColor;
+                stroke-linecap: round;
+                stroke-width: 1.8;
+            }
+
+            .site-layout {
+                width: 100%;
+                max-width: 80rem;
+                margin-inline: auto;
+                padding: 1.5rem 1.25rem;
+            }
+
+            .site-main {
+                align-self: start;
+                min-width: 0;
+                padding: 1.25rem;
+            }
+
+            .site-content {
+                min-width: 0;
+            }
+
+            @media (min-width: 40rem) {
+                .site-main {
+                    padding: 2rem;
+                }
+
+                .site-shell-inner {
+                    padding-inline: 2rem;
+                }
+            }
+
+            @media (min-width: 120rem) {
+                .site-shell-inner {
+                    max-width: 120rem;
+                    padding-inline: 0;
+                }
+
+                .site-layout-with-rails {
+                    display: grid;
+                    grid-template-columns: 21rem minmax(0, 76rem) 21rem;
+                    gap: 1rem;
+                    width: 100%;
+                    max-width: 120rem;
+                    min-height: 0;
+                    padding-inline: 0;
+                }
+            }
+        </style>
+
         <!-- ── Scripts ─────────────────────────────────────────────────── -->
         <script>
+            type TelemetryWindow = Window & {
+                __architectsClientTelemetry?: {
+                    captureException: (
+                        level: "warn" | "error" | "fatal",
+                        error: unknown,
+                        context?: Record<string, unknown>
+                    ) => void;
+                };
+            };
+
+            const reportClientException = (error: unknown, context: Record<string, unknown>) => {
+                (window as TelemetryWindow).__architectsClientTelemetry?.captureException(
+                    "error",
+                    error,
+                    context
+                );
+            };
+
             // Mobile menu toggle
             const toggle = document.getElementById("mobile-menu-toggle");
             const menu = document.getElementById("mobile-menu");
@@ -170,7 +451,9 @@ const {
 
             toggle?.addEventListener("click", () => {
                 const isOpen = !menu?.hidden;
-                if (menu) menu.hidden = isOpen;
+                if (menu) {
+                    menu.hidden = isOpen;
+                }
                 toggle.setAttribute("aria-expanded", String(!isOpen));
                 // Animate hamburger → X
                 if (lines && lines.length === 3) {
@@ -189,7 +472,13 @@ const {
 
             // Close menu on outside click
             document.addEventListener("click", (e) => {
-                if (menu && !menu.hidden && toggle && !toggle.contains(e.target as Node) && !menu.contains(e.target as Node)) {
+                if (
+                    menu &&
+                    !menu.hidden &&
+                    toggle &&
+                    !toggle.contains(e.target as Node) &&
+                    !menu.contains(e.target as Node)
+                ) {
                     menu.hidden = true;
                     toggle.setAttribute("aria-expanded", "false");
                     if (lines) {
@@ -204,20 +493,31 @@ const {
             // API trigger helper
             function attachTrigger(btnId: string, endpoint: string, successMsg: string) {
                 const btn = document.getElementById(btnId);
-                if (!btn) return;
+                if (!btn) {
+                    return;
+                }
                 btn.addEventListener("click", async () => {
                     const span = btn.querySelector(".btn-text") as HTMLElement | null;
                     const originalText = span?.innerText ?? "";
-                    if (span) span.innerText = "Triggering…";
+                    if (span) {
+                        span.innerText = "Triggering…";
+                    }
                     btn.setAttribute("disabled", "true");
                     try {
                         const res = await fetch(endpoint, { method: "POST" });
-                        if (span) span.innerText = res.ok ? successMsg : "Failed ❌";
-                    } catch {
-                        if (span) span.innerText = "Error ❌";
+                        if (span) {
+                            span.innerText = res.ok ? successMsg : "Failed ❌";
+                        }
+                    } catch (error) {
+                        reportClientException(error, { source: "header.action", endpoint });
+                        if (span) {
+                            span.innerText = "Error ❌";
+                        }
                     }
                     setTimeout(() => {
-                        if (span) span.innerText = originalText;
+                        if (span) {
+                            span.innerText = originalText;
+                        }
                         btn.removeAttribute("disabled");
                     }, 5000);
                 });
@@ -234,7 +534,8 @@ const {
                 const update = () => {
                     const scrolled = window.scrollY;
                     const total = document.documentElement.scrollHeight - window.innerHeight;
-                    bar.style.width = total > 0 ? `${Math.min(100, (scrolled / total) * 100)}%` : "0%";
+                    bar.style.width =
+                        total > 0 ? `${Math.min(100, (scrolled / total) * 100)}%` : "0%";
                 };
                 window.addEventListener("scroll", update, { passive: true });
                 update();
