@@ -8,7 +8,6 @@
         "Recent disruptive tech releases or viral developer trends on social media that captivated the engineering world.",
         "How Netflix achieved Multi-Region High Availability and zero downtime evacuations.",
         "AWS DynamoDB under the hood: how Amazon scales a NoSQL database seamlessly across regions.",
-        "Reddit’s handling of immense traffic spikes during viral world events or massive AMAs.",
         "Slack’s transition to a modern real-time architecture to reduce client CPU usage and handle massive channels.",
         "Twitch’s massive live video streaming infrastructure: minimizing latency for millions of concurrent viewers.",
         "Zoom’s video routing architecture and scaling their network backbone unexpectedly during the pandemic.",
@@ -1313,6 +1312,9 @@
         "Optimizing L4 Load Balancing with eBPF and XDP: Scaling to 100 Million Queries Per Second via Programmable Kernel-Level Packet Steering",
         "Formal Verification of Distributed Consensus Protocols in Sub-Millisecond High-Frequency Trading Engines",
         "Optimizing Tail Latency in Multi-Tenant Vector Databases via Custom LSM-Tree Compaction Strategies",
-        "The Mechanics of Zero-Copy RDMA Networking for Petabyte-Scale Memory Disaggregation in Hyperscale Data Centers"
+        "The Mechanics of Zero-Copy RDMA Networking for Petabyte-Scale Memory Disaggregation in Hyperscale Data Centers",
+        "Optimizing Kernel-Level I/O Paths for CXL-Attached Disaggregated Memory in Hyperscale AI Clusters",
+        "Beyond QUIC: Implementing Custom User-Space Network Stacks for Sub-Microsecond Inter-Process Communication in Mesh Architectures",
+        "Solving the Thundering Herd Problem in Global Edge Caches via Probabilistic Locking and Predictive Request Collapsing"
     ]
 }
