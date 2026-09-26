@@ -429,7 +429,6 @@
         "Deterministic Simulation Testing (DST) in Distributed Databases: Achieving Five-Nines Reliability at Petabyte Scale",
         "How Stripe Scaled a Planet-Scale Database Relocation: An Engineering Postmortem on Shard Migration and Real-Time Consistency",
         "Architecting Real-Time Feature Stores for 100M+ QPS: How TikTok Scales the Monolith Recommendation Engine using Disaggregated Memory",
-        "Architecting Low-Latency Global Consistency: Deep Dive into Spanner-style Physical Clock Synchronization in Distributed SQL Databases",
         "Scaling Vector Search to Billions: An Analysis of Tiered HNSW Indexing and Quantization Strategies in Distributed AI Middleware",
         "Optimizing Zero-Copy Networking in Rust-based Edge Proxies for Sub-Millisecond Tail Latency",
         "Formal Verification of Multi-Paxos State Machines in Distributed Consensus Engines",
@@ -1311,6 +1310,9 @@
         "The Physics of Consensus: How CockroachDB and Spanner Handle Clock Skew and Atomic Clocks in Globally Distributed Transactions",
         "Implementing Causal Consistency in Geo-Distributed Multi-Primary Vector Databases: A Deep Dive into CRDTs at Petabyte Scale",
         "Zero-Overhead GPU Resource Scheduling: Building a Custom Kubernetes Scheduler for Heterogeneous AI Clusters with RDMA-Enabled Memory Fabric",
-        "Optimizing L4 Load Balancing with eBPF and XDP: Scaling to 100 Million Queries Per Second via Programmable Kernel-Level Packet Steering"
+        "Optimizing L4 Load Balancing with eBPF and XDP: Scaling to 100 Million Queries Per Second via Programmable Kernel-Level Packet Steering",
+        "Formal Verification of Distributed Consensus Protocols in Sub-Millisecond High-Frequency Trading Engines",
+        "Optimizing Tail Latency in Multi-Tenant Vector Databases via Custom LSM-Tree Compaction Strategies",
+        "The Mechanics of Zero-Copy RDMA Networking for Petabyte-Scale Memory Disaggregation in Hyperscale Data Centers"
     ]
 }
