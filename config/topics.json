@@ -427,7 +427,6 @@
         "Zero-Downtime Migration of Petabyte-Scale Vector Databases: Solving the Dimensionality Mismatch in Live Index Rebuilds",
         "Optimizing RDMA over Converged Ethernet (RoCE) for Multi-Tenant GPU Clusters: Lessons from Hyperscale LLM Training",
         "Deterministic Simulation Testing (DST) in Distributed Databases: Achieving Five-Nines Reliability at Petabyte Scale",
-        "Inside the AWS Nitro System: How Hardware Offloading and MicroVM Isolation Redefine Hypervisor Overhead at Massive Scale",
         "How Stripe Scaled a Planet-Scale Database Relocation: An Engineering Postmortem on Shard Migration and Real-Time Consistency",
         "Architecting Real-Time Feature Stores for 100M+ QPS: How TikTok Scales the Monolith Recommendation Engine using Disaggregated Memory",
         "Architecting Low-Latency Global Consistency: Deep Dive into Spanner-style Physical Clock Synchronization in Distributed SQL Databases",
@@ -1309,6 +1308,9 @@
         "CRDT-Based State Synchronization in Massive Multiplayer Online Games: Architecting Low-Latency Eventual Consistency for Millions of Concurrent Users",
         "Deep dive into Netflix's Live Streaming Pipeline: Solving the Sub-Second Latency Problem at 10 Million Concurrent Viewers",
         "Reverse Engineering the Discord Read State: An Analysis of B-Tree Fragmentation and Write Amplification at Trillion Message Scale",
-        "The Physics of Consensus: How CockroachDB and Spanner Handle Clock Skew and Atomic Clocks in Globally Distributed Transactions"
+        "The Physics of Consensus: How CockroachDB and Spanner Handle Clock Skew and Atomic Clocks in Globally Distributed Transactions",
+        "Implementing Causal Consistency in Geo-Distributed Multi-Primary Vector Databases: A Deep Dive into CRDTs at Petabyte Scale",
+        "Zero-Overhead GPU Resource Scheduling: Building a Custom Kubernetes Scheduler for Heterogeneous AI Clusters with RDMA-Enabled Memory Fabric",
+        "Optimizing L4 Load Balancing with eBPF and XDP: Scaling to 100 Million Queries Per Second via Programmable Kernel-Level Packet Steering"
     ]
 }
