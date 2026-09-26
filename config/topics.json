@@ -1066,7 +1066,6 @@
         "Architecting GPU-Aware Cluster Schedulers: Managing Topology-Aware Memory Placement for Massive-Scale LLM Training",
         "Mitigating Cascading Failures in Anycast-Routed Edge Networks: Implementing Probabilistic Traffic Shedding and Graceful Degradation",
         "Deep Dive into Multi-Tenant Storage Isolation: Implementing Hardware-Level Resource Guarding with NVMe Namespaces and I/O Determinism",
-        "Optimizing KV-Cache Fragmentation in Multi-Tenant LLM Serving via PagedAttention and FlashInfer Integration",
         "Implementing Zero-Copy Data Planes in Hyperscale Service Meshes using eBPF and XDP for Sub-Microsecond Latency",
         "Formal Verification of Byzantine Fault Tolerant Consensus Protocols in Geo-Distributed Spanner-like Databases",
         "Formal Verification of Distributed Consensus: Comparing TLA+ Models of Raft versus Paxos in High-Throughput Cloud Environments",
@@ -1305,6 +1304,9 @@
         "Implementing Zero-Copy Data Pipelines for Real-Time Inference in Heterogeneous Hardware Environments",
         "Optimizing Tail Latency in Tiered Storage Architectures Using Predictive NVMe Cache Management",
         "The Mechanics of Sharded Lock Managers in High-Concurrency Distributed Key-Value Stores",
-        "Architecting Multi-Tenant Vector Database Clusters for Sub-Second Semantic Search at Petabyte Scale"
+        "Architecting Multi-Tenant Vector Database Clusters for Sub-Second Semantic Search at Petabyte Scale",
+        "Zero-Copy Data Transfer and Kernel Bypass: Implementing User-Space Networking for Sub-Microsecond High-Frequency Trading Systems",
+        "Solving Metadata Bottlenecks in Exabyte-Scale Distributed File Systems: Tiered Sharding and LSM-Tree Optimization Strategies",
+        "CRDT-Based State Synchronization in Massive Multiplayer Online Games: Architecting Low-Latency Eventual Consistency for Millions of Concurrent Users"
     ]
 }
