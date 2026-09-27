@@ -131,7 +131,7 @@ To deploy, you **must populate your GitHub Repository Secrets**:
 
 Go to `Settings` > `Secrets and variables` > `Actions` and configure the exact variables required by the [`Environment Setup`](#environment-setup) above.
 
-Once configured, the agent will begin delivering and auto-committing learning documents automatically on schedule. You can also trigger the workflow manually using the `workflow_dispatch` button in the **Actions** tab.
+Once configured, the scheduled workflow publishes new posts directly to S3 and Neon without creating a commit or triggering a Vercel deployment. The topic pool is seeded once from `config/topics.json` and then maintained in Neon. You can also trigger post generation or topic replenishment manually using the `workflow_dispatch` button in the **Actions** tab.
 
 ---
 

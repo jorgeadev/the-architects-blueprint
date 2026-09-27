@@ -1,21 +1,21 @@
-import * as fs from "fs";
-import { loadTopics, generateNewTopics } from "./utils";
+import { generateNewTopics } from "./utils";
 import { installProcessErrorHandlers } from "./observability";
+import { addTopics, createTopicPool, ensureTopicStore, getTopicCount } from "./topic-store";
 
 installProcessErrorHandlers("generation.topics");
 
 async function run() {
+    const pool = createTopicPool();
     try {
-        const { topics, configPath } = await loadTopics();
-        // Infinite topic generation
-        const amountToGenerate = topics.length < 20 ? 10 : 5;
+        await ensureTopicStore(pool);
+        const topicCount = await getTopicCount(pool);
+        const amountToGenerate = topicCount < 20 ? 10 : 5;
         const newTopics = await generateNewTopics(amountToGenerate);
 
         if (newTopics.length > 0) {
-            topics.push(...newTopics);
-            fs.writeFileSync(configPath, JSON.stringify({ topics }, null, 2), "utf8");
+            const addedCount = await addTopics(pool, newTopics);
             console.log(
-                `Successfully rotated topics. Added ${newTopics.length}. Total topics in pool: ${topics.length}`
+                `Successfully rotated topics. Added ${addedCount}. Total topics in pool: ${await getTopicCount(pool)}`
             );
         } else {
             console.log(
@@ -27,6 +27,8 @@ async function run() {
     } catch (e) {
         console.error("Failed executing generation pipe", e);
         process.exit(1);
+    } finally {
+        await pool.end();
     }
 }
 

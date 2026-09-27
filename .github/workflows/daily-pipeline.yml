@@ -18,13 +18,16 @@ on:
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
+concurrency:
+  group: content-generation
+  cancel-in-progress: false
+
 jobs:
   orchestrate:
     runs-on: ubuntu-latest
 
     permissions:
-      contents: write
-      pull-requests: write
+      contents: read
 
     steps:
       - name: Checkout repo
@@ -47,8 +50,6 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
-          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
-          GROK_API_KEY: ${{ secrets.GROK_API_KEY }}
           POLLINATIONS_API_KEY: ${{ secrets.POLLINATIONS_API_KEY }}
           AWS_REGION: ${{ secrets.AWS_REGION }}
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
@@ -58,7 +59,6 @@ jobs:
           IMAGE_STORAGE_PUBLIC_BASE_URL: ${{ secrets.IMAGE_STORAGE_PUBLIC_BASE_URL || secrets.CONTENT_STORAGE_PUBLIC_BASE_URL }}
           DATABASE_URL: ${{ secrets.DATABASE_URL }}
           DIRECT_DATABASE_URL: ${{ secrets.DIRECT_DATABASE_URL }}
-          LOG_DATABASE_URL: ${{ secrets.LOG_DATABASE_URL || secrets.DATABASE_URL }}
 
       - name: Create new topics
         if: github.event_name == 'workflow_dispatch' && inputs.task == 'topics'
@@ -66,47 +66,5 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
-          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
-          GROK_API_KEY: ${{ secrets.GROK_API_KEY }}
-          LOG_DATABASE_URL: ${{ secrets.LOG_DATABASE_URL || secrets.DATABASE_URL }}
-
-      - name: Commit, create PR, and merge
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          if [[ -z $(git status -s config/topics.json) ]]; then
-            echo "No changes to commit"
-            exit 0
-          fi
-
-          BRANCH_NAME="auto-thesis-$(date +'%Y%m%d%H%M%S')"
-          echo "BRANCH_NAME=$BRANCH_NAME" >> $GITHUB_ENV
-          git checkout -b $BRANCH_NAME
-
-          git add config/topics.json
-          git commit -m "chore: update generation state after cloud publish [skip ci]"
-          git push -u origin $BRANCH_NAME
-
-          # Create PR
-          PR_URL=$(gh pr create --title "chore: update cloud generation state [skip ci]" \
-                            --body "Automated generation state update after publishing the Markdown article and image to S3." \
-                            --base main \
-                            --head $BRANCH_NAME)
-
-          # Give GitHub's API a few seconds to process the newly created PR mapping
-          sleep 10
-
-          # Merge PR using squash
-          gh pr merge --squash "$PR_URL" || { sleep 10; gh pr merge --squash "$PR_URL"; }
-
-      - name: Delete temporary branch
-        if: always()
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          if [ -n "$BRANCH_NAME" ]; then
-            git push origin --delete $BRANCH_NAME || echo "Branch already deleted or could not be found."
-          fi
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+          DIRECT_DATABASE_URL: ${{ secrets.DIRECT_DATABASE_URL }}
