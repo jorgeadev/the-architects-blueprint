@@ -1,5 +1,3 @@
-import * as fs from "fs";
-import * as path from "path";
 import {
     generateWithGemini,
     generateWithGrok,
@@ -101,25 +99,6 @@ export async function fetchImageBuffer(url: string): Promise<Buffer | null> {
         console.error("Failed to download image from API:", error);
         return null;
     }
-}
-
-export async function loadTopics(): Promise<{ topics: string[]; configPath: string }> {
-    const configPath = path.join(process.cwd(), "config", "topics.json");
-    let topics = [
-        "The engineering behind Twitter/X: transitioning from a monolith to microservices and how they handle viral hype spikes.",
-    ];
-    if (fs.existsSync(configPath)) {
-        try {
-            const configContent = fs.readFileSync(configPath, "utf8");
-            const parsedConfig = JSON.parse(configContent);
-            if (Array.isArray(parsedConfig.topics) && parsedConfig.topics.length > 0) {
-                topics = parsedConfig.topics;
-            }
-        } catch {
-            console.error("Failed to parse topics.json");
-        }
-    }
-    return { topics, configPath };
 }
 
 export async function generateWithRetry(prompt: string): Promise<string> {

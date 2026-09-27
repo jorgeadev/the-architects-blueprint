@@ -1,15 +1,21 @@
-import * as fs from "fs";
 import { GetObjectCommand, PutObjectCommand, S3Client } from "@aws-sdk/client-s3";
 import { Pool } from "pg";
 import {
     generateNewTopics,
-    loadTopics,
     generateWithRetry,
     fetchImageBuffer,
     buildPollinationsImageUrl,
     createAbstractPlaceholderSvg,
 } from "./utils";
 import { installProcessErrorHandlers, scriptLog } from "./observability";
+import {
+    addTopics,
+    createTopicPool,
+    ensureTopicStore,
+    getTopicCount,
+    getTopics,
+    removeTopic,
+} from "./topic-store";
 
 installProcessErrorHandlers("generation.orchestrator");
 
@@ -299,22 +305,23 @@ image: "${publicUrl(publicBaseUrl, imageKey)}"
 }
 
 async function orchestrate() {
+    let topicPool: Pool | null = null;
     try {
         console.log("Starting centralized automation pipeline...");
 
-        // 1. Fetch Topics
-        const { topics, configPath } = await loadTopics();
+        // 1. Load topic rotation state from Neon, seeding it from config once.
+        topicPool = createTopicPool();
+        await ensureTopicStore(topicPool);
+        const topics = await getTopics(topicPool);
         if (topics.length === 0) {
-            console.error("Critical: Topic pool is completely empty. Aborting pipeline.");
-            process.exit(1);
+            throw new Error(
+                "Topic pool is empty. Add seed topics to config/topics.json or replenish Neon."
+            );
         }
 
         const randomIndex = Math.floor(Math.random() * topics.length);
         const randomTopic = topics[randomIndex];
         console.log(`Selected topic: ${randomTopic}`);
-
-        // Deduct topic locally first so we can save state immediately
-        topics.splice(randomIndex, 1);
 
         // 2. Generate Blog Post Content (CRITICAL PATH)
         let content;
@@ -380,6 +387,7 @@ Only return the raw prompt text.`;
 
             const imageFileName = `${imageSlug}${usedPlaceholderImage ? ".svg" : ".jpg"}`;
             await saveToCloud(content, imageBuffer, imageFileName, usedPlaceholderImage);
+            await removeTopic(topicPool, randomTopic);
         } catch (e) {
             console.error("Critical Failure in Image Generation. Aborting pipeline.", e);
             process.exit(1);
@@ -388,35 +396,32 @@ Only return the raw prompt text.`;
         // 4. Replenish Topics (NON-CRITICAL PATH)
         try {
             console.log("Attempting topic pool replenishment...");
-            const amountToGenerate = topics.length < 20 ? 10 : 3;
+            const topicCount = await getTopicCount(topicPool);
+            const amountToGenerate = topicCount < 20 ? 10 : 3;
             const newTopics = await generateNewTopics(amountToGenerate);
 
             if (newTopics.length > 0) {
-                topics.push(...newTopics);
-                fs.writeFileSync(configPath, JSON.stringify({ topics }, null, 2), "utf8");
+                const addedCount = await addTopics(topicPool, newTopics);
                 console.log(
-                    `Successfully rotated topics. Deducted 1, added ${newTopics.length}. Total topics in pool: ${topics.length}`
+                    `Successfully rotated topics. Deducted 1, added ${addedCount}. Total topics in pool: ${await getTopicCount(topicPool)}`
                 );
             } else {
                 console.log(
-                    "No new topics generated (rate limited or empty). Saving current pool with deductive state."
+                    "No new topics generated (rate limited or empty). The consumed topic remains removed from Neon."
                 );
-                fs.writeFileSync(configPath, JSON.stringify({ topics }, null, 2), "utf8");
             }
         } catch (e) {
-            console.error(
-                "Non-critical failure: topic generation failed. We'll still save current deductive state.",
-                e
-            );
-            fs.writeFileSync(configPath, JSON.stringify({ topics }, null, 2), "utf8");
+            console.error("Non-critical failure: topic replenishment failed.", e);
         }
 
         console.log(
-            "Centralized pipeline successfully completed. State is prepared for atomic commit."
+            "Centralized pipeline successfully completed. Topic state is persisted in Neon."
         );
     } catch (e) {
         console.error("Fatal exception in main orchestrator loop.", e);
         process.exit(1);
+    } finally {
+        await topicPool?.end();
     }
 }
 
