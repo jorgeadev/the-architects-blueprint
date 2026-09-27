@@ -12,7 +12,6 @@
         "generate:post": "tsx --env-file-if-exists=.env scripts/orchestrator.ts",
         "generate:topics": "tsx --env-file-if-exists=.env scripts/generate-topics.ts",
         "generate:images": "tsx --env-file-if-exists=.env scripts/backfill-images.ts",
-        "sync:cloud": "tsx --env-file-if-exists=.env scripts/sync-cloud.ts",
         "user:create": "tsx --env-file-if-exists=.env scripts/create-user.ts",
         "test": "echo \"Error: no test specified\" && exit 1",
         "dev:web": "pnpm --filter web run dev",

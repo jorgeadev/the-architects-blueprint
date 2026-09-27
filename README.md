@@ -110,7 +110,7 @@ Logs are emitted as JSON to stdout/stderr, which is the durable baseline for Ver
 
 The same redacted events are also persisted to Neon in the idempotently-created `application_logs` table. `LOG_DATABASE_URL` can point to a dedicated Neon connection string; when omitted, the logger uses `DATABASE_URL` and then `DIRECT_DATABASE_URL`. The table includes indexed timestamps, service/level pairs, request IDs, and JSONB event metadata.
 
-Generation uploads the Markdown and image to S3, upserts the new post into Neon, and then the scheduled workflow runs `pnpm run sync:cloud` to reconcile the complete `posts/index.json` manifest with Neon. Run that command once after configuring the secrets to backfill the existing cloud archive.
+Generation uploads each Markdown article and image directly to S3 and upserts its metadata into Neon. The site reads the archive from those cloud services; post content and post images are not stored in this repository.
 
 ```env
 LOG_DATABASE_URL=postgresql://...
