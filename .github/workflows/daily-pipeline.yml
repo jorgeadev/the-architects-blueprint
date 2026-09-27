@@ -70,20 +70,6 @@ jobs:
           GROK_API_KEY: ${{ secrets.GROK_API_KEY }}
           LOG_DATABASE_URL: ${{ secrets.LOG_DATABASE_URL || secrets.DATABASE_URL }}
 
-      - name: Synchronize cloud archive with Neon
-        if: github.event_name == 'schedule' || inputs.task == 'post'
-        run: pnpm run sync:cloud
-        env:
-          AWS_REGION: ${{ secrets.AWS_REGION }}
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          S3_BUCKET_NAME: ${{ secrets.S3_BUCKET_NAME }}
-          CONTENT_STORAGE_PUBLIC_BASE_URL: ${{ secrets.IMAGE_STORAGE_PUBLIC_BASE_URL || secrets.CONTENT_STORAGE_PUBLIC_BASE_URL }}
-          IMAGE_STORAGE_PUBLIC_BASE_URL: ${{ secrets.IMAGE_STORAGE_PUBLIC_BASE_URL || secrets.CONTENT_STORAGE_PUBLIC_BASE_URL }}
-          DATABASE_URL: ${{ secrets.DATABASE_URL }}
-          DIRECT_DATABASE_URL: ${{ secrets.DIRECT_DATABASE_URL }}
-          LOG_DATABASE_URL: ${{ secrets.LOG_DATABASE_URL || secrets.DATABASE_URL }}
-
       - name: Commit, create PR, and merge
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
