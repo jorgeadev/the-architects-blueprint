@@ -150,15 +150,23 @@ export async function generateWithRetry(prompt: string): Promise<string> {
     return Promise.reject(new Error("Failed to generate content"));
 }
 
-export async function generateNewTopics(amount: number): Promise<string[]> {
+export async function generateNewTopics(
+    amount: number,
+    excludedTopics: string[] = [],
+    attempt = 1
+): Promise<string[]> {
+    const exclusions = excludedTopics.length
+        ? `\nDo not repeat or closely rephrase any of these topics:\n${JSON.stringify(excludedTopics)}\n`
+        : "";
     const prompt = `
-Generate exactly ${amount} brand new, highly technical blog post topics about big tech infrastructure, massive scale systems architecture, or viral engineering news.
+Generate exactly ${amount} distinct, technically grounded blog post topics for software and infrastructure engineers. Match the existing pool's focus on AI systems, databases, networking, storage, cloud infrastructure, security, and reliability.
+Choose a focused topic with enough public documentation and technical depth for an accurate 2,000–3,500 word engineering article. Do not invent company internals, incidents, benchmarks, scale claims, or product features. Use a company-specific case study only when it is based on publicly documented material. Avoid near-duplicates and sensational claims.
+This is generation attempt ${attempt}; produce a fresh candidate rather than repeating a previous response.
+${exclusions}
 DO NOT output any markdown formatting, text, or explanations. 
 Output ONLY a raw JSON array of ${amount} strings. Example format:
 [
-  "The architecture behind...",
-  "An in-depth analysis of...",
-  "How [Company] scaled..."
+  "How request batching changes latency and throughput in model serving"
 ]
 `;
 
@@ -166,9 +174,9 @@ Output ONLY a raw JSON array of ${amount} strings. Example format:
     let text = "";
     try {
         text = await generateWithRetry(prompt);
-    } catch {
-        console.error("Skipping topic replenishment due to persistent rate limiting.");
-        return [];
+    } catch (error) {
+        console.error("Failed to generate replacement topic.", error);
+        throw error;
     }
 
     try {
@@ -178,11 +186,101 @@ Output ONLY a raw JSON array of ${amount} strings. Example format:
             const jsonText = text.substring(start, end + 1);
             const parsed = JSON.parse(jsonText);
             if (Array.isArray(parsed) && parsed.length > 0) {
-                return parsed;
+                return parsed
+                    .filter((topic): topic is string => typeof topic === "string")
+                    .slice(0, amount);
             }
         }
     } catch {
         console.error("Failed to parse the new topics output:", text);
     }
     return [];
+}
+
+export async function generateReplacementTopic(
+    consumedTopic: string,
+    currentTopics: string[]
+): Promise<string> {
+    const excludedTopics = [...new Set([...currentTopics, consumedTopic])];
+    const normalize = (topic: string): string =>
+        topic
+            .toLowerCase()
+            .replace(/[^a-z0-9]+/g, " ")
+            .trim()
+            .replace(/\s+/g, " ");
+    const ignoredWords = new Set([
+        "a",
+        "an",
+        "and",
+        "at",
+        "behind",
+        "for",
+        "from",
+        "how",
+        "in",
+        "into",
+        "of",
+        "on",
+        "or",
+        "the",
+        "to",
+        "using",
+        "with",
+        "architecture",
+        "architecting",
+        "design",
+        "designing",
+        "system",
+        "systems",
+        "scale",
+        "scaling",
+        "deep",
+        "dive",
+        "trade",
+        "offs",
+        "engineering",
+        "explained",
+    ]);
+    const words = (topic: string): Set<string> =>
+        new Set(
+            normalize(topic)
+                .split(" ")
+                .filter((word) => word.length > 2 && !ignoredWords.has(word))
+        );
+
+    for (let attempt = 1; attempt <= 4; attempt++) {
+        const [candidate] = await generateNewTopics(1, excludedTopics, attempt);
+        const replacement = candidate?.trim().replace(/\s+/g, " ");
+        if (!replacement || replacement.length < 30 || replacement.length > 180) {
+            continue;
+        }
+
+        const replacementKey = normalize(replacement);
+        const replacementWords = words(replacement);
+        if (replacementWords.size < 4) {
+            continue;
+        }
+        const isDuplicate = excludedTopics.some((existingTopic) => {
+            if (normalize(existingTopic) === replacementKey) {
+                return true;
+            }
+            const existingWords = words(existingTopic);
+            const intersectionSize = [...replacementWords].filter((word) =>
+                existingWords.has(word)
+            ).length;
+            const unionSize = new Set([...replacementWords, ...existingWords]).size;
+            return unionSize > 0 && intersectionSize / unionSize >= 0.72;
+        });
+
+        if (!isDuplicate) {
+            return replacement;
+        }
+
+        excludedTopics.push(replacement);
+        console.warn(
+            `Generated replacement topic was too similar to the pool (attempt ${attempt}/4).`
+        );
+    }
+
+    throw new Error("Could not generate a unique replacement topic after four attempts.");
 }

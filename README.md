@@ -96,6 +96,14 @@ pnpm run user:create -- --email viewer@example.com --password "change-this-passw
 
 In production, add the cloud and database variables from `.env.example` as GitHub Actions secrets. The site reads post metadata from Neon and article bodies and images from the bucket. New posts publish directly to those cloud services; the repository does not contain a local copy of the archive.
 
+To rebuild a Neon database from the S3 archive, set `MIGRATION_DATABASE_URL` to the destination database URL (or set `DATABASE_URL` if you do not need a separate migration target), and configure the AWS credentials, `AWS_REGION`, and `S3_BUCKET_NAME` used to read `posts/index.json`. Then run:
+
+```bash
+pnpm run migrate:neon
+```
+
+The migration creates the application tables and indexes if needed, upserts post and image metadata from the S3 manifest, and seeds the topic pool from `config/topics.json` once. It does not copy Markdown or image objects, delete destination records, or migrate dashboard accounts and historical logs. Create an administrator afterward with `pnpm run user:create`.
+
 </details>
 
 <a id="observability"></a>
