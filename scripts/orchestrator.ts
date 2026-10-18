@@ -1,20 +1,19 @@
 import { GetObjectCommand, PutObjectCommand, S3Client } from "@aws-sdk/client-s3";
 import { Pool } from "pg";
 import {
-    generateNewTopics,
     generateWithRetry,
+    generateReplacementTopic,
     fetchImageBuffer,
     buildPollinationsImageUrl,
     createAbstractPlaceholderSvg,
 } from "./utils";
 import { installProcessErrorHandlers, scriptLog } from "./observability";
 import {
-    addTopics,
     createTopicPool,
     ensureTopicStore,
     getTopicCount,
     getTopics,
-    removeTopic,
+    replaceTopic,
 } from "./topic-store";
 
 installProcessErrorHandlers("generation.orchestrator");
@@ -323,6 +322,11 @@ async function orchestrate() {
         const randomTopic = topics[randomIndex];
         console.log(`Selected topic: ${randomTopic}`);
 
+        // Prepare a unique replacement before generating the post. The topic pool
+        // remains unchanged if content or image generation fails.
+        const replacementTopic = await generateReplacementTopic(randomTopic, topics);
+        console.log(`Prepared replacement topic: ${replacementTopic}`);
+
         // 2. Generate Blog Post Content (CRITICAL PATH)
         let content;
         try {
@@ -387,31 +391,26 @@ Only return the raw prompt text.`;
 
             const imageFileName = `${imageSlug}${usedPlaceholderImage ? ".svg" : ".jpg"}`;
             await saveToCloud(content, imageBuffer, imageFileName, usedPlaceholderImage);
-            await removeTopic(topicPool, randomTopic);
         } catch (e) {
             console.error("Critical Failure in Image Generation. Aborting pipeline.", e);
             process.exit(1);
         }
 
-        // 4. Replenish Topics (NON-CRITICAL PATH)
+        // 4. Replace the consumed topic atomically so the pool never loses a row.
         try {
-            console.log("Attempting topic pool replenishment...");
-            const topicCount = await getTopicCount(topicPool);
-            const amountToGenerate = topicCount < 20 ? 10 : 3;
-            const newTopics = await generateNewTopics(amountToGenerate);
-
-            if (newTopics.length > 0) {
-                const addedCount = await addTopics(topicPool, newTopics);
-                console.log(
-                    `Successfully rotated topics. Deducted 1, added ${addedCount}. Total topics in pool: ${await getTopicCount(topicPool)}`
-                );
-            } else {
-                console.log(
-                    "No new topics generated (rate limited or empty). The consumed topic remains removed from Neon."
+            await replaceTopic(topicPool, randomTopic, replacementTopic);
+            const updatedCount = await getTopicCount(topicPool);
+            if (updatedCount !== topics.length) {
+                throw new Error(
+                    `Topic pool count changed during replacement: expected ${topics.length}, found ${updatedCount}.`
                 );
             }
+            console.log(
+                `Successfully replaced the consumed topic. Total topics in pool: ${updatedCount}`
+            );
         } catch (e) {
-            console.error("Non-critical failure: topic replenishment failed.", e);
+            console.error("Critical failure: the consumed topic could not be replaced.", e);
+            throw e;
         }
 
         console.log(

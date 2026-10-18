@@ -85,6 +85,48 @@ export async function removeTopic(pool: Pool, topic: string): Promise<void> {
     await pool.query("DELETE FROM generation_topics WHERE topic = $1", [topic]);
 }
 
+export async function replaceTopic(
+    pool: Pool,
+    consumedTopic: string,
+    replacementTopic: string
+): Promise<void> {
+    const replacement = replacementTopic.trim();
+    if (!replacement || replacement === consumedTopic.trim()) {
+        throw new Error(
+            "A replacement topic must be non-empty and different from the consumed topic."
+        );
+    }
+
+    const client = await pool.connect();
+    try {
+        await client.query("BEGIN");
+        const consumed = await client.query(
+            "DELETE FROM generation_topics WHERE topic = $1 RETURNING topic",
+            [consumedTopic]
+        );
+        if (consumed.rowCount !== 1) {
+            throw new Error("The consumed topic was not present exactly once in the topic pool.");
+        }
+
+        const inserted = await client.query(
+            `INSERT INTO generation_topics (topic)
+             VALUES ($1)
+             ON CONFLICT (topic) DO NOTHING
+             RETURNING topic`,
+            [replacement]
+        );
+        if (inserted.rowCount !== 1) {
+            throw new Error("The replacement topic already exists in the topic pool.");
+        }
+        await client.query("COMMIT");
+    } catch (error) {
+        await client.query("ROLLBACK");
+        throw error;
+    } finally {
+        client.release();
+    }
+}
+
 export async function addTopics(pool: Pool, topics: string[]): Promise<number> {
     const uniqueTopics = [...new Set(topics.map((topic) => topic.trim()).filter(Boolean))];
     if (!uniqueTopics.length) {
