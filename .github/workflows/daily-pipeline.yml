@@ -2,7 +2,9 @@ name: "Central Automation Pipeline"
 
 on:
   schedule:
-    - cron: "35 9 * * *"
+    - cron: "35 9 * * 2"
+      timezone: "America/New_York"
+    - cron: "35 9 * * 6"
       timezone: "America/New_York"
   workflow_dispatch:
     inputs:
@@ -14,9 +16,6 @@ on:
         options:
           - post
           - topics
-
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 concurrency:
   group: content-generation
@@ -30,22 +29,41 @@ jobs:
       contents: read
 
     steps:
+      - name: Decide whether this scheduled run creates a post
+        id: schedule
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          EVENT_SCHEDULE: ${{ github.event.schedule }}
+        run: |
+          run_post=true
+          if [[ "$EVENT_NAME" == "schedule" && "$EVENT_SCHEDULE" == "35 9 * * 6" ]]; then
+            day=$(TZ=America/New_York date +%-d)
+            if (( day > 7 )); then
+              run_post=false
+            fi
+          fi
+          echo "run_post=$run_post" >> "$GITHUB_OUTPUT"
+
       - name: Checkout repo
-        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        if: steps.schedule.outputs.run_post == 'true'
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
       - name: Setup Node.js
-        uses: actions/setup-node@60edb5dd545a775178f52524783378180af0d1f8 # v4.2.0
+        if: steps.schedule.outputs.run_post == 'true'
+        uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
         with:
           node-version-file: ".nvmrc"
 
       - name: Configure pnpm
+        if: steps.schedule.outputs.run_post == 'true'
         run: corepack enable pnpm
 
       - name: Install dependencies
+        if: steps.schedule.outputs.run_post == 'true'
         run: pnpm install --frozen-lockfile
 
       - name: Generate post and image
-        if: github.event_name == 'schedule' || inputs.task == 'post'
+        if: steps.schedule.outputs.run_post == 'true' && (github.event_name == 'schedule' || inputs.task == 'post')
         run: pnpm run start
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -61,7 +79,7 @@ jobs:
           DIRECT_DATABASE_URL: ${{ secrets.DIRECT_DATABASE_URL }}
 
       - name: Create new topics
-        if: github.event_name == 'workflow_dispatch' && inputs.task == 'topics'
+        if: steps.schedule.outputs.run_post == 'true' && github.event_name == 'workflow_dispatch' && inputs.task == 'topics'
         run: pnpm run generate:topics
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
